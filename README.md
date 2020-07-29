@@ -41,7 +41,7 @@ Besides fixing hundreds of bugs, the OldUnreal UT patches also add features such
 * Mouse wheel scrolling support for the game menu
 * High-DPI awareness for the game and Unreal Editor
 
-A full list of patch features and changes is available in the [Release Notes](https://github.com/OldUnreal/UnrealTournamentPatches/). 
+A full list of patch features and changes is available in the [Release Notes](https://github.com/OldUnreal/UnrealTournamentPatches/ReleaseNotes.md). 
 
 ## Compatibility
 
