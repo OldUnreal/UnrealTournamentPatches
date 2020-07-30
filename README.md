@@ -88,6 +88,8 @@ We are more than happy to accept other contributions too. Some of the things we 
 
 You can use our [issue tracker](https://github.com/OldUnreal/UnrealTournamentPatches/issues) to file bug reports. Reasonable feature requests for Unreal Editor can also be posted there. Please do not ask for new features in the game itself as these are out of the scope of our project.
 
+When filing a bug report, please include relevant details about your setup (i.e., your operating system and version, your UT version and build date, mods you are using) and describe how we can reproduce the problem.
+
 ## Credits
 
 The primary developers for the OldUnreal patches were: Smirftsch, Dots, Han, Higor, and [AnthraX](https://github.com/stijn-volckaert).
