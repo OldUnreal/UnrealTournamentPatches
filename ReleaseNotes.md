@@ -212,7 +212,7 @@ MaxFileDownloadRate=0   Maximum download speed in bytes per second
 * The game now uses UTF-8 as the prefered file encoding (unless a UTF-16LE BOM is found at the start of the file).
 * Added selectedcursor support to the Linux and Mac clients.
 * Added the -FORCELOGFLUSH command line option. This option makes the game/server flush the log file every time it is written to.
-* Added the -SETHOMEDIR= command line option. Normally, the game looks for the UnrealTournament.ini and User.ini files in ~/.utpg/System (on Linux), ~/Library/Application Support/Unreal Tournament/System (on Mac), or in UnrealTournament\System (on Windows). With this option, you can override the preferences path (e.g., ./ut-bin-x86 -sethomedir=~/.loki/ut/System).
+* Added the -SETHOMEDIR= command line option. Normally, the game looks for the UnrealTournament.ini and User.ini files in \~/.utpg/System (on Linux), \~/Library/Application Support/Unreal Tournament/System (on Mac), or in UnrealTournament\System (on Windows). With this option, you can override the preferences path (e.g., ./ut-bin-x86 -sethomedir=\~/.loki/ut/System).
 * Added a menu option to control the Translocator's weapon switching behavior when pressing fire and alt-fire simultaneously.
 * Made pulsegun and minigun lockdown a configurable option that is disabled by default.
 * UnrealI and UnrealShare decorations can no longer be destroyed if they have bStatic set.
