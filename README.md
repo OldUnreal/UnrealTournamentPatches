@@ -71,6 +71,23 @@ OldUnreal's patches add some new UnrealScript features which should not be used 
 
 Native mod developers may want to use our updated UT SDK, which will be hosted in this repository.
 
+## Donations
+
+We are all volunteers who work on Unreal and Unreal Tournament in our spare time. If you like our work, then please consider making a small donation [here](https://www.oldunreal.com/donate.html). Please make sure to mention Unreal Tournament in your donation note!
+
+## Other Contributions
+
+We are more than happy to accept other contributions too. Some of the things we could use help with are:
+
+* Installers: The Linux and Mac versions of the patch currently lack an installer script/program. We would gladly accept 3rd party installers contributed by community members.
+* Documentation: Likewise, the Linux and Mac patches have little to no documentation. We assume that the installation process is self-explanatory. If you disagree, then please help us write some documentation.
+* Missing localizations: the new patches include several new in-game menu options as well as new 3D renderers and audio drivers. The text displayed by these new components is currently available in English only (although Spanish translations will be added soon). If you want to contribute text localizations, then please post them in our issue tracker.
+* Hardware: If you have any decent hardware that you want to donate, then please send a direct message to Smirftsch or anth through the OldUnreal forum. We are especially looking for more macOS development systems (we currently only have one 2012 MacBook Pro for 5 developers).
+
+## Bug Reports
+
+You can use our [issue tracker](https://github.com/OldUnreal/UnrealTournamentPatches/issues) to file bug reports. Reasonable feature requests for Unreal Editor can also be posted there. Please do not ask for new features in the game itself as these are out of the scope of our project.
+
 ## Credits
 
 The primary developers for the OldUnreal patches were: Smirftsch, Dots, Han, Higor, and [AnthraX](https://github.com/stijn-volckaert).
@@ -89,16 +106,3 @@ Finally, we want to express our sincerest gratitude to the following people:
 * Stacey Conley (aka "Flak"): this project would not have happened without her. Thank you Stacey, you are amazing!
 * Ryan C. Gordon (aka "icculus"): for his hard work on UT over the years and for SDL2. If you like Ryan's work, then please consider [supporting him](https://www.patreon.com/icculus).
 * Chris Dohnal: for contributing the UTGLR OpenGL and Direct3D 9 renderers.
-
-## Donations
-
-We are all volunteers who work on Unreal and Unreal Tournament in our spare time. If you like our work, then please consider making a small donation [here](https://www.oldunreal.com/donate.html). Please make sure to mention Unreal Tournament in your donation note!
-
-## Other Contributions
-
-We are more than happy to accept other contributions too. Some of the things we could use help with are:
-
-* Installers: The Linux and Mac versions of the patch currently lack an installer script/program. We would gladly accept 3rd party installers contributed by community members.
-* Documentation: Likewise, the Linux and Mac patches have little to no documentation. We assume that the installation process is self-explanatory. If you disagree, then please help us write some documentation.
-* Missing localizations: the new patches include several new in-game menu options as well as new 3D renderers and audio drivers. The text displayed by these new components is currently available in English only (although Spanish translations will be added soon). If you want to contribute text localizations, then please post them in our issue tracker.
-* Hardware: If you have any decent hardware that you want to donate, then please send a direct message to Smirftsch or anth through the OldUnreal forum. We are especially looking for more macOS development systems (we currently only have one 2012 MacBook Pro for 5 developers).
