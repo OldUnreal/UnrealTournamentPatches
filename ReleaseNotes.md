@@ -53,6 +53,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469 clients.
 * Fixed a bug that caused the game to crash when using the "QUIT" or "EXIT" command during demo playback.
 * Fixed a bug that could cause the game to crash while recording a demo on a server that generates excessive amounts of traffic on single actor channels. One of the mods that often triggers this bug is Nexgen.
 * Fixed a bug that caused the game to crash when calling an iterator function in a null context.
+* Fixed a bug that caused the game to crash in maps that had brushes with bStatic and bNoDelete set to false.
 
 #### Game Server
 
@@ -74,6 +75,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469 clients.
 * Fixed an bug that caused the texture browser scrollbar to reset when scrolling down a long list of textures.
 * Fixed various text clipping bugs in the texture browser window.
 * Fixed a bug that caused v436-v451 to crash when rendering LOD meshes imported with UT v440 or later.
+* Fixed a bug that made UnrealEd truncate large files in the code editor window.
 
 #### Physics and Player Movement
 
@@ -122,6 +124,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469 clients.
 * The 1024 character limit on conversions between ANSI and Unicode strings is gone.
 * Fixed an engine bug that could cause Demo Manager to freeze the game after using the seekto command.
 * Eliminated many "Accessed None" warnings.
+* Pawns that get destroyed while they have the Destroyed probe function disabled should now get unlinked from the Level Pawnlist.
 
 ### Enhancements
 
@@ -175,6 +178,12 @@ Server admins should upgrade ACE to version 1.1e or later to check 469 clients.
 * Fixed several arbitrary code execution vulnerabilities.
 * The Windows version of the game now has several security enhancements including (but not limited to) Data Execution Prevention (can be disabled with the -nodep command line parameter), SafeSEH, and ASLR support.
 
+#### Anti-Cheat
+
+* Revamped the UT v468 MD5 code. Older clients can connect to v469 servers now even if they don't support the MD5 extension. The server now also marks which files it wants MD5 checks for.
+* MD5 checking is now disabled by default. To enable, set MD5Enable to True under [Engine.GameEngine] in the server's ini file.
+* Added an auto-updater for the Packages.md5 list. The auto-updater will check for list updates once an hour if you have MD5Enable and MD5AutoUpdate both set to true under [Engine.GameEngine].
+
 #### Networking and Netcode
 
 * Restored demo compatibility with UT v436.
@@ -201,7 +210,8 @@ MaxFileDownloadRate=0   Maximum download speed in bytes per second
 * Integrated Cluster, a new FMOD-based audio driver with superior sound quality and hyper-realistic sound effects (Thanks han!).
 * Integrated enhanced versions of Chris Dohnal's UTGLR OpenGLDrv and D3D9Drv. 
 * Integrated OldUnreal's latest XOpenGLDrv. 
-* Galaxy Audio is now considered deprecated. The game launcher will do an automatic one-time upgrade your audio subsystem to the latest version of the OldUnreal ALAudio Subsystem.
+* Galaxy Audio is now considered deprecated. On Windows Vista and later, the game launcher will do an automatic one-time upgrade your audio subsystem to the latest version of the OldUnreal Cluster driver.
+* Revamped the underlying audio code for sounds played using TournamentPlayer.ClientPlaySound. The revamped code should make playback volumes more consistent and should eliminate audio glitches such as crackling and screeching.
 
 #### Miscellaneous
 
