@@ -1,0 +1,9 @@
+[Public]
+Object=(Name=GlideDrv.GlideRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=Glide2X.dll)
+Preferences=(Caption="Rendering",Parent="Erweiterte Optionen")
+Preferences=(Caption="3dfx-Glide-Unterstützung",Parent="Rendering",Class=GlideDrv.GlideRenderDevice,Immediate=True)
+
+[GlideRenderDevice]
+ClassCaption="3dfx Glide für Windows"
+AskInstalled=Besitzt Du eine 3dfx-Karte?
+AskUse=Möchtest Du, daß Unreal die 3dfx-Karte verwendet?

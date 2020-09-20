@@ -1,0 +1,14 @@
+[Public]
+Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
+Preferences=(Caption="Rendering",Parent="Erweiterte Optionen")
+Preferences=(Caption="OpenGL-Unterstützung",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[OpenGLRenderDevice]
+ClassCaption="Tims OpenGL-Unterstützung"
+AskInstalled=Hast Du einen OpenGL-kompatiblen 3D-Beschleuniger installiert?
+AskUse=Soll Unreal Deinen OpenGL-Beschleuniger verwenden?
+
+[Errors]
+NoFindGL=OpenGL-Treiber %s nicht gefunden
+MissingFunc=Fehlende OpenGL-Function %s (%i)
+ResFailed=Auflösungseinstellung gescheitert

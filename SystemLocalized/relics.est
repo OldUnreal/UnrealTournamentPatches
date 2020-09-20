@@ -1,0 +1,35 @@
+﻿[Public]
+Object=(Name=relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="Reliquia: Fuerza,Una reliquia mágica que otorga aumentos en el daño inflingido.")
+Object=(Name=relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Reliquia: Velocidad,Una reliquia mágica que otorga velocidad y reflejos sobrehumanos.")
+Object=(Name=relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="Reliquia: Regeneración,Una reliquia mágica que otorga un factor regenerativo de 10 puntos de salud por segundo.")
+Object=(Name=relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="Reliquia: Redención,Una reliquia mágica que se apega al alma del portador, salvándolo de la muerte.")
+Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="Reliquia: Defensa,Una reliquia mágica que reduce todos los daños inflingidos en su usuario en un 60%.")
+Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Reliquia: Venganza,Una reliquia mágica que castiga a los asesinos del portador con una gran explosión.")
+
+[RelicInventory]
+PickupMessage="Has recogido una Reliquia nula"
+ItemName="Reliquia"
+
+[RelicRedemptionInventory]
+PickupMessage="Has recogido la Reliquia de la Redención"
+ItemName="Reliquia de la Redención"
+
+[RelicStrengthInventory]
+PickupMessage="Has recogido la Reliquia de la Fuerza"
+ItemName="Reliquia de la Fuerza"
+
+[RelicDeathInventory]
+PickupMessage="Has recogido la Reliquia de la Venganza"
+ItemName="Reliquia de la Venganza"
+
+[RelicDefenseInventory]
+PickupMessage="Has recogido la Reliquia de la Defensa"
+ItemName="Reliquia de la Defensa"
+
+[RelicSpeedInventory]
+PickupMessage="Has recogido la Reliquia de la Velocidad"
+ItemName="Reliquia de la Velocidad"
+
+[RelicRegenInventory]
+PickupMessage="Has recogido la Reliquia de la Regeneración"
+ItemName="Reliquia de la Regeneración"

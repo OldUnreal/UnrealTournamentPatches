@@ -1,0 +1,52 @@
+﻿[LevelInfo0]
+Title="Operación Desembarque"
+IdealPlayerCount="8-12"
+LevelEnterText="Inutiliza el cañón de largo alcance destruyendo el equipo de la sala de mando del cañón"
+
+[ZoneInfo2]
+ZoneName="Cuarteles"
+
+[ZoneInfo5]
+ZoneName="Sala de Munición"
+
+[ZoneInfo3]
+ZoneName="Sala de Calderas"
+
+[ZoneInfo6]
+ZoneName="Cueva del Cañón"
+
+[KillingField0]
+ZoneName="Playa"
+
+[ZoneInfo1]
+ZoneName="Madrigueras"
+
+[ZoneInfo0]
+ZoneName="Rampa de Entrada"
+
+[ZoneInfo8]
+ZoneName="Último Pasadizo"
+
+[WaterZone0]
+ZoneName="Agua"
+
+[FortStandard0]
+FortName="La Playa Principal"
+DestroyedMessage="¡ha sido atravesada!"
+
+[AssaultInfo0]
+ObjDesc[0]="Para poder inutilizar el cañón de largo alcance, deberán atravesar la base de los defensores y llegar a la gran Cueva del Cañón, en lo más profundo del acantilado. Una vez allí, encontrarán la Sala de mando del cañón. Destruyan el equipo de la sala."
+
+[FortStandard4]
+FortName="La Sala de Calderas"
+DestroyedMessage="¡ha sido atravesada!"
+
+[LevelSummary]
+Title="Operación Desembarque"
+IdealPlayerCount="8-12"
+LevelEnterText="Inutiliza el cañón de largo alcance destruyendo el equipo de la sala de mando del cañón"
+
+[LevelInfo2]
+Title="Operación Desembarque"
+IdealPlayerCount="8-12"
+LevelEnterText="Inutiliza el cañón de largo alcance destruyendo el equipo de la sala de mando del cañón"

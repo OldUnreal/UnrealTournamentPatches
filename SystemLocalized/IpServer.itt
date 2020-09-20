@@ -1,0 +1,9 @@
+[Public]
+Object=(Name=IpServer.UdpServerUplink,Class=Class,MetaClass=Engine.Actor)
+Preferences=(Caption="Connessione Server principale",Parent="In rete",Class=IpServer.UdpServerUplink,Immediate=True)
+
+[ServerUplink]
+ClassCaption="Connessione Server principale"
+
+[ServerQuery]
+ClassCaption="Query al Server del gioco"

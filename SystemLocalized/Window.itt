@@ -1,0 +1,39 @@
+[Errors]
+Critical=Errore critico
+FailedConfigLoad=%s (caricamento fallito)
+
+[General]
+BrowseButton=...
+UseButton=Usa
+ClearButton=Pulisci
+OkButton=Ok
+AddButton=Aggiungi
+EmptyButton=Svuota
+InsertButton=Inserisci
+DeleteButton=Elimina
+DefaultsButton=Ripristina default
+BackButton=< &Indietro
+NextButton=&Avanti >
+FinishButton=&Fine
+CancelButton=Annulla
+InstallButton=&Installa
+YesButton=&Sì
+NoButton=&No
+AgreeButton=&Accetto
+LanguagePrompt=Lingua:
+LanguageWindow=Scelta della lingua
+LogWindow=Finestra di riconoscimento %s
+PropNone=Nessuna selezione
+PropSingle=%s proprietà
+PropMulti=%s proprietà (%i selezionato/i)
+InsertCdText=Inserisci il CD-ROM di Unreal nel tuo lettore e premi OK per continuare o Annulla per uscire.
+InsertCdTitle=CD richiesto all'Avvio
+AdvancedOptionsTitle=Opzioni Avanzate
+Low=Alta
+High=Bassa
+
+[FirstRun]
+Caption=Configurazione iniziale
+LowMemory=Unreal ha rilevato che hai %i megabyte di memoria disponibile. Per migliorare le prestazioni, sono state abilitate le "texture a basso dettaglio" e "l'audio a bassa qualità". Puoi cambiare questi parametri nelle "Impostazioni della prestazione".
+NonMMX=Unreal ha rilevato che non stai usando un PC MMX. Per questo, la riproduzione audio è stata impostata per usare la CPU al minimo. Puoi cambiare queste impostazioni nel menu delle "opzioni audio avanzate".
+Starting=Unreal è in esecuzione per la prima volta. Se riscontri dei problemi, leggi la sezione di risoluzione dei problemi sulle note di pubblicazione nel menu "Avvio".

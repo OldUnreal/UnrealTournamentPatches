@@ -1,0 +1,64 @@
+[LevelInfo0]
+Title=Il Tempio di Chizra, dio dell'Acqua dei Nali
+LevelEnterText=State entrando nel Tempio di Chizra, dio dell'Acqua dei Nali
+
+[TranslatorEvent0]
+Message=Stiano attenti coloro dagli impuri motivi che entreranno nella pozza del tuono: affronteranno il demone venuto dalle stelle
+
+[TranslatorEvent7]
+message=Il dio dell'acqua dei Nali, Chizra, e il suo sacro tempio sono invasi dai serpenti d'acqua e dai demoni venuti dalle stelle. Adesso solo il messia potrà purificare il tempio.
+
+[TranslatorEvent2]
+message=Questo è l'obelisco delle nuvole. Oltre questo punto giace la pozza del tuono.
+
+[TranslatorEvent15]
+message=1400 ore - Comandante Mac Harrison: SITREP: i nativi del luogo hanno un lanciamissili a 6 canne su un altare, ma è custodito severamente da quelle specie di salamandre. I Nali continuano a chiamarlo "Il bastone dei 6 fuochi". Proverò a entrare stanotte.
+
+[TranslatorEvent12]
+message=Questa è la pozza del tuono. Le anime impure che si bagnano nell'acqua affronteranno il demone che viene dalle stelle
+
+[TranslatorEvent1]
+message=Una grande forza promana da coloro che si lasciano investire dalla cascata presso la pozza del tuono.
+
+[TranslatorEvent19]
+message=Scala le pietre smosse per raggiungere la laguna del fulmine ardente. Attento al demone venuto dalle stelle che giace in agguato nell'ombra. Lo sciocco perirà sicuramente.
+
+[TranslatorEvent13]
+message=Il centro della piramide è il punto focale del potere di Chizra, il dio dell'acqua dei Nali
+
+[TranslatorEvent10]
+message=IL BASTONE DEI SEI FUOCHI VENNE DAL DIO DELL'ACQUA NALI QUANDO LA STELLA CADDE DAL CIELO. PER TROVARE LA STELLA BISOGNA ATTRAVERSARE L'ALA CERIMONIALE.
+
+[Counter3]
+CountMessage=Schianto!
+CompleteMessage=La zattera è andata perduta!
+
+[TranslatorEvent5]
+message=Solo il guerriero che impugna il bastone dei 6 fuochi potrà entrare nelle stanze cerimoniali interne. Una volta che il bastone dei 6 fuochi sarà in tuo possesso, il sigillo di pietra s'innalzerà.
+
+[TranslatorEvent3]
+message=Per raggiungere la pozza del tuono bisogna scalare le pietre smosse.
+
+[TranslatorEvent4]
+message=Solo il guerriero che ha toccato la faccia dell'idolo del dio dell'acqua può entrare in questo tempio.
+
+[TranslatorEvent14]
+message=I demoni venuti giù dalle stelle nel carro di metallo sono la punizione per i peccati dei Nali.
+
+[TranslatorEvent18]
+message=Oltre questa porta dorata giace il sacro altare del bastone dei 6 fuochi. Solo toccando le pietre sporgenti dalle colonne del fulmine ardente sarà possibile entrare.
+
+[TranslatorEvent6]
+message=Oltre questo sigillo di pietra giacciono le stanze cerimoniali interne del dio dell'acqua dei Nali.
+
+[TranslatorEvent9]
+message=LA PIRAMIDE È LA CHIAVE PER LA STANZA DELLA MORTE. QUI POTRAI AUMENTARE IL POTERE DEL BASTONE DEI 6 FUOCHI.
+
+[TranslatorEvent8]
+message=IL BASTONE DEI SEI FUOCHI PUÒ ESSERE SOLO RAGGIUNTO DAL GUERRIERO CHE SI È BAGNATO NELLA POZZA DEL TUONO, OLTRE L'OBELISCO DELLE NUVOLE.
+
+[TranslatorEvent11]
+message=PRENDI IL BASTONE DEI SEI FUOCHI E PROCEDI VERSO LE STANZE CERIMONIALI. LÌ TROVERAI LA STRADA PER TORNARE DA DOVE SEI VENUTO E IL CARRO DI METALLO CADUTO DALLE STELLE.
+
+[TranslatorEvent20]
+message=Guarda nei tuoi stessi occhi. E quando il tuo coraggio sarà più forte, l'ultimo passo verso il premio sarà sostenuto dalla tua fede.

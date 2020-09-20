@@ -1,0 +1,27 @@
+[LevelInfo3]
+Title=Castello dei Nali
+
+[Trigger9]
+message=Taglia taglia!
+
+[TranslatorEvent5]
+message=Solo un illuminato che ha letto il Libro del Buon Sapere nella cappella potrà accedere alla torre, attraversando questi cancelli divini.
+Hint=Per entrare, raggiungi la cappella e leggi il libro.
+
+[TranslatorEvent1]
+message=Siedo qui aspettando di morire. Attendo... L'attesa è peggiore della stessa morte. Le mie paure mi lacerano l'anima. Posso udire i gemiti di chi è stato portato nella segreta per essere sacrificato al Demone del Cielo.
+
+[TranslatorEvent4]
+message=Chi cerca la conoscenza sarà ben ricompensato per aver usato i volumi nella sala delle feste. 
+
+[TranslatorEvent3]
+message=Solo un guerriero che dimostri il suo coraggio sconfiggendo il demone con cinque occhi nella torre potrà accedere alla segreta.
+Hint=Raggiungi la torre più alta e uccidi il demone per essere ammesso nella segreta.
+
+[TranslatorEvent2]
+message=Solo un guerriero che dimostri il suo coraggio sconfiggendo il demone con cinque occhi nella torre potrà accedere alla segreta.
+Hint=Raggiungi la torre più alta e uccidi il demone per essere ammesso nella segreta.
+
+[TranslatorEvent0]
+message=La strada da seguire è lunga e aspra, ma chi è d'animo forte e determinato riuscirà a superare le sfide.
+Hint=Ora la strada è libera.

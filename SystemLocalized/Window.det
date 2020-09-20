@@ -1,0 +1,63 @@
+[Errors]Kritischer Fehler
+FailedConfigLoad=%s (Ladefehler)
+
+[General]
+BrowseButton=...
+UseButton=Benutzen
+ClearButton=Löschen
+OkButton=OK
+AddButton=Hinzufügen
+EmptyButton=Leer
+InsertButton=Einfügen
+DeleteButton=Löschen
+DefaultsButton=Zurücksetzen
+BackButton=< &Zurück
+NextButton=&Weiter >
+FinishButton=&Fertig
+CancelButton=Abbrechen
+InstallButton=&Installieren
+YesButton=&Ja
+NoButton=&Nein
+AgreeButton=Ich &akzeptiere
+LanguagePrompt=Sprache:
+LanguageWindow=Sprachenwahl
+LogWindow=%s Protokollfenster
+PropNone=Nichts gewählt
+PropSingle=%s Eigenschaften
+PropMulti=%s Eigenschaften (%i gewählt)
+InsertCdText=Bitte lege die Unreal-CD in Dein Laufwerk, und klicke zum Fortfahren auf OK oder zum Verlassen auf Abbrechen.
+InsertCdTitle=CD beim Start erforderlich
+AdvancedOptionsTitle=Erweiterte Optionen
+Low=Niedrig
+High=Hoch
+
+[FirstRun]
+Caption=Ausgangskonfiguration
+LowMemory=Unreal hat auf Deinem Computer %i Megabyte freien Speicherplatz gefunden. Zur Leistungssteigerung wurde die Optionen "Texturen mit wenigen Details" und "Niedrige Soundqualität" gewählt. Du kannst diese Einstellungen im Menü "Performance Settings" ändern.
+NonMMX= Unreal hat entdeckt, daß Du keinen MMX-PC verwendest. Daher wurde die Soundwiedergabe auf die geringste CPU-Belastung gestellt. Du kannst dies im Menü "Erweiterte Optionen / Sound" ändern.
+Starting= Unreal wird zum ersten Mal gestartet. Sollten Probleme auftauchen, lese bitte das Kapitel Troubleshooting im Dokument Release Notes im "Start-Menü".
+
+[IDDIALOG_Directory]
+IDC_Directory=Installationsordner
+IDC_ChoosePrompt=Bitte wähle den Installationsordner.
+IDC_PathTitle=&Pfad:
+IDC_DirectoryTitle=&Verzeichnisse:
+IDC_DrivesTitle=Lau&fwerke:
+IDC_NetworkButton=&Netzwerk
+
+[IDDIALOG_Password]
+IDC_Password=Paßwortkontrolle
+IDC_Prompt=Bitte gib deinen Namen und Dein Paßwort ein.
+IDC_Name=&Name:
+IDC_Password=&Paßwort:
+
+[IDMENU_NotifyIcon]
+ID_NotifyIcon=Menü
+ID_NotifyShowLog=&UnrealServer-Konsole
+ID_NotifyAdvancedOptions=&Erweiterte Optionen
+ID_NotifyExit=UnrealServer &verlassen
+
+[IDMENU_Log]
+ID_LogFile=&Datei
+ID_LogAdvancedOptions=&Erweiterte Optionen
+ID_LogFileExit=&Verlassen

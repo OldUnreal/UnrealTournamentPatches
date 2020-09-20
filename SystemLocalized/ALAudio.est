@@ -1,0 +1,6 @@
+﻿[Public]
+Object=(Name=ALAudio.ALAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem,Autodetect=)
+Preferences=(Caption="Soporte de Sonido 3D OpenAL",Parent="Sonido",Class=ALAudio.ALAudioSubsystem,Immediate=True)
+
+[ALAudioSubsystem]
+ClassCaption="Soporte de Sonido 3D OpenAL"

@@ -1,0 +1,198 @@
+﻿[Public]
+
+[UBrowserServerListWindow]
+InfoName="Información"
+PlayerCountName="Jugadores"
+ServerCountName="Servidores"
+QueryServerText="Consultando Servidor Maestro (pulsa F5 si no pasa nada)"
+QueryFailedText="Falla del Servidor Maestro: "
+PingingText="Consultando Servidores"
+CompleteText="Finalizado"
+
+[UBrowserMainWindow]
+WindowTitleString="Buscador de Servidores"
+
+[UBrowserGSpyLink]
+ResolveFailedError="No se pudo resolver el servidor maestro: "
+TimeOutError="Tiempo de comunicación con el servidor maestro excedido"
+CouldNotConnectError="Tiempo de comunicación con el servidor maestro excedido: "
+
+[UBrowserHTTPLink]
+ResolveFailedError="No se pudo resolver el servidor maestro: "
+TimeOutError="Tiempo de comunicación con el servidor maestro excedido"
+CouldNotConnectError="Tiempo de comunicación con el servidor maestro excedido: "
+
+[UBrowserSubsetFact]
+NotFoundError="No se ha podido encontrar la ventana: "
+NotReadyError="La ventana no está lista: "
+
+[UBrowserRulesGrid]
+RuleText="Regla"
+ValueText="Valor"
+
+[UBrowserServerPing]
+AdminEmailText="E-Mail de Admin."
+AdminNameText="Nombre de Admin."
+ChangeLevelsText="Cambiar niveles"
+MultiplayerBotsText="Bots en Multijugador"
+FragLimitText="Límite de Bajas"
+TimeLimitText="Límite de Tiempo"
+GameModeText="Modalidad de Juego"
+GameTypeText="Tipo de Juego"
+GameVersionText="Versión del juego"
+WorldLogText="Reg. Estad. Mundiales ngStats"
+TrueString="Activado"
+FalseString="Desactivado"
+MutatorsText="Mutadores"
+ServerAddressText="Dirección del Servidor"
+GoalTeamScoreText="Puntuación Máx. del Equipo"
+MinPlayersText="Mínimo de Bots para Mínimo de Jug."
+PlayersText="Jugadores"
+MaxTeamsText="Máximo de Equipos"
+BalanceTeamsText="Bots Balancean Equipos"
+PlayersBalanceTeamsText="Balance de Equipo Forzado"
+FriendlyFireText="Daño de Fuego Amigo"
+MinNetVersionText="Versión Mínima Compatible"
+BotSkillText="Destreza de Bot"
+TournamentText="Modo Torneo"
+ServerModeText="Modo de Servidor"
+DedicatedText="Dedicado"
+NonDedicatedText="No Dedicado"
+WorldLogWorkingText="Estado de ngWorldStats"
+WorldLogWorkingTrue="Procesando Correctamente Estadísticas"
+WorldLogWorkingFalse="Procesando Incorrectamente Estadísticas"
+PasswordText="Requiere Contraseña"
+
+[UBrowserMainClientWindow]
+FavoritesName="Favoritos"
+IRCName="Charla IRC"
+MOTDName="Mensaje del Día"
+
+[UBrowserServerGrid]
+ServerName="Servidor"
+PingName="Ping"
+MapNameName="Nombre de Mapa"
+PlayersName="Jugadores"
+
+[UBrowserInfoMenu]
+RefreshName="Actualiza&r Info."
+CloseName="&Cerrar"
+
+[UBrowserRightClickMenu]
+RefreshName="Actualiza&r Todos Los Servidores"
+FavoritesName="Agregar a &Favoritos"
+RemoveFavoritesName="&Eliminar de Favoritos"
+RefreshServerName="Consultar Este Serv&idor"
+PingAllName="Consult&ar Todos Los Servidores"
+InfoName="Info. de &Servidores y Jugadores"
+PlayName="Jugar en este servidor (&P)"
+OpenLocationName="Abrir Sitio (&L)"
+CopyName="&Copiar Dirección de Servidor"
+
+[UBrowserPlayerGrid]
+NameText="Nombre"
+FragsText="Bajas"
+PingText="Ping"
+TeamText="Equipo"
+MeshText="Modelo"
+SkinText="Piel"
+IDText="ID"
+FaceText="Cara"
+ngSecretText="Tipo Jug."
+BotText="Bot"
+HumanText="Humano"
+
+[ServerListTitles]
+UBrowserUT="Servidores de UT"
+UBrowserLAN="Servidores LAN"
+UBrowserPopulated="Servidores Poblados"
+UbrowserDeathmatch="Combate Mortal"
+UBrowserTeamGames="Combate por Equipos"
+UBrowserCTF="Capturar la Bandera"
+UBrowserDOM="Dominación"
+UBrowserAS="Asalto"
+UBrowserLMS="Último Hombre en Pie"
+UBrowserAll="Todos los Servidores"
+
+[UBrowserIRCSystemPage]
+NotInAChannelText="¡No estás en ningún canal!"
+KickedFromText="Has sido expulsado de"
+ByText="por"
+IsAwayText="está ausente"
+
+[UBrowserIRCPageBase]
+HasLeftText="se ha ido"
+HasJoinedText="se ha unido"
+WasKickedByText="ha sido expulsado por"
+NowKnownAsText="es conocido ahora como"
+QuitText="Salir"
+SetsModeText="ajusta el modo"
+
+[UBrowserIRCLink]
+InvalidAddressText="Dirección incorrecta del servidor, cancelando."
+ErrorBindingText="Error de enlace de puerto local, cancelando."
+ResolveFailedText="Fallo al conectar con la dirección del servidor, cancelando."
+ConnectedText="Conectado."
+ConnectingToText="Conectando a"
+TimeOutError="Se ha excedido el tiempo para conectar con el servidor."
+InviteString="te invita a unirte"
+
+[UBrowserOpenCW]
+OpenText="Abrir:"
+OpenHelp="Introduce una URL estándar, o selecciona una del historial de URL.  Pulsa Intro para activarla."
+
+[UBrowserIRCSetupClient]
+ServerText="Servidor IRC"
+ChannelText="Canal P/Defecto"
+ServerHelp="Elige un servidor de IRC de la lista o escribe el nombre de tu propior servidor de IRC o su dirección IP."
+ChannelHelp="Elige un canal predeterminado para unirte una vez conectado al servidor o teclea el nombre de tu propio canal."
+ConnectText="Conectar"
+DisconnectText="Desconectar"
+ConnectHelp="Conectar al servidor de charla IRC."
+DisconnectHelp="Desconectar del servidor de charla IRC."
+WarningText="La utilidad de charla te conectará a la red "Internet Relay Chat" (IRC).\n\nNi Epic Games ni OldUnreal se hacen responsable del contenido de ninguno de los canales en IRC. Entras en estos canales bajo tu propia responsabilidad.\n\n¿Estás seguro de que aun así quieres conectarte?"
+WarningTitle="Advertencia"
+
+[UBrowserUpdateServerWindow]
+QueryText="Consultando al servidor..."
+FailureText="El servidor no respondió."
+
+[UBrowserEditFavoriteCW]
+DescriptionText="Descripción"
+UpdateDescriptionText="Actualizar descripción automáticamente"
+IPText="Dirección IP del servidor"
+GamePortText="Número de puerto del servidor"
+QueryPortText="Número de puerto de la consulta"
+
+[UBrowserEditFavoriteWindow]
+OKText="Aceptar"
+WindowTitle="Editar Favorito"
+
+[UBrowserIRCWindow]
+SystemName="Sistema"
+
+[UBrowserOpenWindow]
+OKText="Aceptar"
+WindowTitle="Abrir Sitio"
+
+[UBrowserIRCSystemMenu]
+ConnectText="&Conectar"
+DisconnectText="&Desconectar"
+JoinText="Unirse (&J)"
+
+[UBrowserFavoritesMenu]
+EditFavoriteName="&Editar favorito"
+NewFavoriteName="&Nuevo favorito"
+FavoritesName="Quitar de &Favoritos"
+
+[UBrowserIRCChannelMenu]
+PartText="Abandonar (&L)"
+JoinText="Unirse (&J)"
+
+[UBrowserIRCPrivateMenu]
+CloseText="&Cerrar "
+JoinText="&Unirse"
+
+[UBrowserNewFavoriteWindow]
+OKText="Nuevo"
+WindowTitle="Nuevo favorito"

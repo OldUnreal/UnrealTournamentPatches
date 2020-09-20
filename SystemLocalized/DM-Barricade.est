@@ -1,0 +1,16 @@
+﻿[LevelInfo0]
+Title="Barricada de Orión"
+IdealPlayerCount="6-12"
+
+[ZoneInfo11]
+ZoneName="Afueras"
+
+[ZoneInfo12]
+ZoneName="Castillo"
+
+[ZoneInfo13]
+ZoneName="Sótano"
+
+[LevelSummary]
+Title="Barricada de Orión"
+IdealPlayerCount="6-12"

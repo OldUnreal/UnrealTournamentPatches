@@ -1,0 +1,6 @@
+﻿[Public]
+Object=(Name=FMODAudioDrv.FMODAudioDevice,Class=Class,MetaClass=Engine.AudioSubsystem,Autodetect=)
+Preferences=(Caption="FMOD 3D Audio Support",Parent="Audio",Class=FMODAudioDrv.FMODAudioDevice,Immediate=True)
+
+[FMODAudioDevice]
+ClassCaption="FMOD 3D Audio Support"

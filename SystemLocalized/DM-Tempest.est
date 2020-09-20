@@ -1,0 +1,19 @@
+﻿[LevelInfo0]
+Title="Tempestad"
+IdealPlayerCount="4-16"
+
+[ZoneInfo0]
+ZoneName="Ala Oeste"
+
+[ZoneInfo2]
+ZoneName="Sala de Lanzacohetes"
+
+[ZoneInfo1]
+ZoneName="Amplificador de Daños"
+
+[ZoneInfo3]
+ZoneName="Cinturón de Protección"
+
+[LevelSummary]
+Title="Tempestad"
+IdealPlayerCount="4-16"

@@ -1,0 +1,18 @@
+[TranslatorEvent4]
+Message=Alarm, Eindringling. Alle Zugangspunkte sichern, alle Einheiten Alarmstufe eins. Die MUTTER beschützen, bei Versagen droht der Tod. 
+Hint=Aktiviere den Generator, der das Teleportal zum Schiff mit Energie versorgt.
+
+[TranslatorEvent1]
+Message= Schalttafel Generator.  Generator ist einsatzbereit. Energieleistung nominal.
+
+[TranslatorEvent0]
+Message=Teleportal:  Achtung; nicht genug Energie, um Teleportalverbindung herzustellen. Generator aktivieren.
+AltMessage= Teleportal: Verbindung hergestellt. Teleporterfeld betreten.
+Hint= Aktiviere den Generator, der das Teleportal zum Schiff mit Energie versorgt. 
+
+[TranslatorEvent3]
+Message=Generator und Laderaum.
+Hint= Aktiviere den Generator, der das Teleportal zum Schiff mit Energie versorgt. 
+
+[LevelInfo2]
+Title=D Krater

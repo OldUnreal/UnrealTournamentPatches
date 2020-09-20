@@ -1,0 +1,58 @@
+﻿[LevelInfo0]
+Title="Planta Energética Nucleus"
+IdealPlayerCount="12"
+
+[ZoneInfo6]
+ZoneName="Entrada Roja"
+
+[ZoneInfo3]
+ZoneName="Mediocampo"
+
+[ZoneInfo10]
+ZoneName="Entrada Azul"
+
+[ZoneInfo2]
+ZoneName="Base Roja"
+
+[ZoneInfo0]
+ZoneName="Base Azul"
+
+[ZoneInfo7]
+ZoneName="Sala de Pulsos Roja"
+
+[ZoneInfo11]
+ZoneName="Sala de Pulsos Azul"
+
+[ZoneInfo4]
+ZoneName="Sala de Cohetes Azul"
+
+[ZoneInfo5]
+ZoneName="Sala de Metralla Roja"
+
+[ZoneInfo1]
+ZoneName="Sala de Cohetes Azul"
+
+[ZoneInfo9]
+ZoneName="Sala de Metralla Azul"
+
+[ZoneInfo15]
+ZoneName="Túnel Energético Azul"
+
+[ZoneInfo12]
+ZoneName="Túnel Energetico Rojo"
+
+[ZoneInfo8]
+ZoneName="Canal de Energía Rojo"
+
+[ZoneInfo14]
+ZoneName="Canal de Energía Azul"
+
+[LevelSummary]
+Title="Planta Energética Nucleus"
+IdealPlayerCount="12"
+
+[ZoneInfo13]
+ZoneName="Túnel de Energía Rojo"
+
+[ZoneInfo16]
+ZoneName="Túnel de Energía Azul"

@@ -1,0 +1,5 @@
+﻿[Public]
+Preferences=(Caption="Servidor Web",Parent="Juego en Red",Class=UWeb.WebServer)
+
+[WebServer]
+ClassCaption="Servidor Web"

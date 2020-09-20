@@ -1,0 +1,24 @@
+﻿[LevelInfo0]
+Title="Cuevas Eternas"
+IdealPlayerCount="4-8"
+LevelEnterText="¡¡HAZTE CON LAS BANDERAS!!"
+
+[ZoneInfo1]
+ZoneName="Cueva Roja"
+
+[ZoneInfo0]
+ZoneName="Cueva Azul"
+
+[ZoneInfo2]
+ZoneName="Salas Inferiores"
+
+[ZoneInfo3]
+ZoneName="Sala Superior"
+
+[ZoneInfo4]
+ZoneName="Sala Superior"
+
+[LevelSummary]
+Title="Cuevas Eternas"
+IdealPlayerCount="4-8"
+LevelEnterText="¡¡HAZTE CON LAS BANDERAS!!"

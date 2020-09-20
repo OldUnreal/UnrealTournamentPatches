@@ -1,0 +1,241 @@
+﻿[Public]
+Object=(Name=Editor.MasterCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MakeCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ConformCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.BatchExportCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MergeDXTCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageFlagCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DataRipCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.UpdateUModCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ChecksumPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.MD5Commandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.PackageDumpCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.StripSourceCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ExportPackageCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.CompareIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.DumpFontInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ExecCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Editor",Parent="Opciones Avanzadas")
+Preferences=(Caption="Avanzado",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Colores",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Cuadrícula",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Cuadrícula de Rotación",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+
+[MasterCommandlet]
+HelpCmd=master
+HelpOneLiner="Construye archivos maestros de instalación."
+HelpUsage="master [-opción...] [param=valor]..."
+HelpParm[0]="MasterPath"
+HelpDesc[0]="Directorio raíz del cual copiar archivos."
+HelpParm[1]="SrcPath"
+HelpDesc[1]="Directorio raíz al cual copiar los archivos de distribución."
+HelpParm[2]="RefPath"
+HelpDesc[2]="Ruta de referencia para la compresión delta."
+
+[MakeCommandlet]
+HelpCmd=make
+HelpOneLiner="Reconstruye paquetes de UnrealScript."
+HelpUsage="make [-opción...] [param=valor]..."
+HelpParm[0]="Silent"
+HelpDesc[0]="No hace preguntas; asume que todas las preguntas tienen respuesta afirmativa."
+HelpParm[1]="NoBind"
+HelpDesc[1]="No forzar a las funciones nativas a depender de bibliotecas DLL."
+HelpParm[2]="All"
+HelpDesc[2]="Reconstrucción limpia. Por defecto, se reconstruye incrementalmente."
+
+[ConformCommandlet]
+HelpCmd=conform
+HelpOneLiner="Genera archivos binarios conformados."
+HelpUsage="conform existing_file.ext old_file.ext"
+HelpParm[0]="existingfile.ext"
+HelpDesc[0]="Archivo binario existente para cargar, conformar y guardar."
+HelpParm[1]="oldfile.ext"
+HelpDesc[1]="Archivo viejo sobre el cual se va a compatibilizar el archivo fuente."
+
+[BatchExportCommandlet]
+HelpCmd=batchexport
+HelpOneLiner="Exporta objetos por lotes."
+HelpUsage="batchexport package.ext classname export_ext path"
+HelpParm[0]="package.ext"
+HelpDesc[0]="Paquete que contiene los objetos a ser exportados."
+HelpParm[1]="classname"
+HelpDesc[1]="Clase de objeto a exportar. Puede ser uno de los siguientes:"
+HelpParm[2]="   "
+HelpDesc[2]="   class, texture, sound, music, level, model, polys, textbuffer"
+HelpParm[3]="export_ext"
+HelpDesc[3]="Extensión de archivo para la exportación. Las extensiones que cada clase acepta son las siguientes:"
+HelpParm[4]="   "
+HelpDesc[4]="   class: uc, h"
+HelpParm[5]="   "
+HelpDesc[5]="   texture: bmp, pcx"
+HelpParm[6]="   "
+HelpDesc[6]="   sound: wav"
+HelpParm[7]="   "
+HelpDesc[7]="   music: s3m, xm, it u otro formato de música tracker"
+HelpParm[8]="   "
+HelpDesc[8]="   level: t3d"
+HelpParm[9]="   "
+HelpDesc[9]="   model: t3d"
+HelpParm[10]="   "
+HelpDesc[10]="   polys: t3d"
+HelpParm[11]="   "
+HelpDesc[11]="   textbuffer: txt"
+HelpParm[12]="path"
+HelpDesc[12]="Ruta a la cual exportar los archivos, por ejemplo C:\MiRuta."
+
+[PackageFlagCommandlet]
+HelpCmd=packageflag
+HelpOneLiner="Configura los atributos de paquete en los archivos empaquetados."
+HelpUsage="packageflag fuente.ext [destino.ext <+|->opción [<+|->opción] ...]"
+HelpParm[0]="fuente.ext"
+HelpDesc[0]="Archivo existente a cargar."
+HelpParm[1]="destino.ext"
+HelpDesc[1]="Nombre del nuevo archivo empaquetado con los nuevos atributos."
+HelpParm[2]="opción"
+HelpDesc[2]="+ para activar un atributo, o - para eliminarlo, seguido por uno de los siguientes:"
+HelpParm[3]=" "
+HelpDesc[3]="  AllowDownload"
+HelpParm[4]=" "
+HelpDesc[4]="  ClientOptional"
+HelpParm[5]=" "
+HelpDesc[5]="  ServerSideOnly"
+HelpParm[6]=" "
+HelpDesc[6]="  BrokenLinks"
+HelpParm[7]=" "
+HelpDesc[7]="  Unsecure"
+
+[DataRipCommandlet]
+HelpCmd=datarip
+HelpOneLiner="Crea un paquete con datos extraídos de texturas, música y sonido."
+HelpUsage="datarip srcpackage.ext dstpackage.ext"
+HelpParm[0]="srcpackage.ext"
+HelpDesc[0]="Paquete Fuente."
+HelpParm[1]="dstpackage.ext"
+HelpDesc[1]="Paquete Destino."
+
+[UpdateUModCommandlet]
+HelpCmd=updateumod
+HelpOneLiner="Agrega, elimina, reemplaza o extrae archivos desde un .umod"
+HelpUsage="updateumod UmodFile Command [Filename]"
+HelpParm[0]="UmodFile"
+HelpDesc[0]="El archivo .umod para cambiar o ver."
+HelpParm[1]="Command"
+HelpDesc[1]="Puede ser uno de los siguientes:"
+HelpParm[2]="  "
+HelpDesc[2]="  EXTRACT (para extraer)"
+HelpParm[3]="  "
+HelpDesc[3]="  ADD (para agregar)"
+HelpParm[4]="  "
+HelpDesc[4]="  DELETE (para eliminar)"
+HelpParm[5]="  "
+HelpDesc[5]="  REPLACE (para reemplazar)"
+HelpParm[6]="  "
+HelpDesc[6]="  LIST (para mostrar un listado)"
+HelpParm[7]="Filename"
+HelpDesc[7]="El archivo sobre el cual se va a aplicar EXTRACT, ADD, DELETE o REPLACE."
+
+[ChecksumPackageCommandlet]
+HelpCmd=checksumpackage
+HelpOneLiner="Muestra la suma de comprobación (checksum) para un archivo empaquetado."
+HelpUsage="checksumpackage packagename"
+HelpParm[0]="packagename"
+HelpDesc[0]="Nombre del paquete del cual mostrar la suma de comprobación."
+
+[StripSourceCommandlet]
+HelpCmd=StripSource
+HelpOneLiner="Extrae los búferes de texto de un paquete."
+HelpUsage="stripsource packagename"
+HelpWebLink="http://www.oldunreal.com"
+HelpParm[0]="packagename"
+HelpDesc[0]="El nombre del paquete del cual extraer los búferes de texto."
+
+[DumpIntCommandlet]
+HelpCmd=DumpInt
+HelpOneLiner="Vuelca el contenido de internacionalización de un paquete de Unreal a un archivo .int."
+HelpUsage="dumpint packagename"
+HelpWebLink="http://www.oldunreal.com"
+HelpParm[0]="packagename"
+HelpDesc[0]="Nombre del paquete del cual volcar la información."
+
+[ExportPackageCommandlet]
+HelpCmd=ExportPackage
+HelpOneLiner="Exporta el contenido de un paquete a archivos .uc en el directorio previo."
+HelpUsage="exportpackage packagename"
+HelpWebLink="http://www.oldunreal.com"
+HelpParm[0]="packagename"
+HelpDesc[0]="Nombre del paquete del cual exportar los archivos .uc."
+
+[CompareIntCommandlet]
+HelpCmd=CompareInt
+HelpOneLiner="Compara dos archivos de lenguaje y elimina o mueve las entradas a comparar."
+HelpUsage="compareint packageint miscint"
+HelpWebLink="http://www.oldunreal.com"
+HelpParm[0]="packageint"
+HelpDesc[0]="Archivo principal de lenguaje."
+HelpParm[1]="miscint"
+HelpDesc[1]="Archivo secundario de lenguaje (a editar)."
+
+[ListObjectsCommandlet]
+HelpCmd=listobjects
+HelpOneLiner="Lista los objetos de un paquete."
+HelpUsage="listobjects [-s1 -s2 ...] <pkg> [<baseclass>]"
+HelpWebLink=
+HelpParm[0]="-cp"
+HelpDesc[0]="Imprime la ruta en lugar del nombre para una Class (clase)."
+HelpParm[1]="-op"
+HelpDesc[1]="Imprime la ruta en lugar del nombre para un Object (objeto)."
+HelpParm[2]="-na"
+HelpDesc[2]="No indenta la salida."
+HelpParm[3]="-ni"
+HelpDesc[3]="No indenta la jerarquía de objetos."
+HelpParm[4]="-nc"
+HelpDesc[4]="No muestra la clase."
+HelpParm[5]="-co"
+HelpDesc[5]="Solo muestra clases de objeto en lugar de cada objeto."
+HelpParm[6]="pkg"
+HelpDesc[6]="Archivo empaquetado."
+HelpParm[7]="baseclass"
+HelpDesc[7]="Clase base de los objetos listados. (Opcional)."
+
+[MergeDXTCommandlet]
+HelpCmd=mergedxt
+HelpOneLiner="Mezcla las texturas DXT con las estándares."
+HelpUsage="mergedxt srcpath oldpath destpath"
+HelpParm[0]="srcpath"
+HelpDesc[0]="Ruta que contiene los archivos fuente."
+HelpParm[1]="oldpath"
+HelpDesc[1]="Ruta que contiene los archivos viejos."
+HelpParm[2]="destpath"
+HelpDesc[2]="Ruta para los archivos destino."
+
+[MD5Commandlet]
+HelpCmd=md5
+HelpOneLiner="Manipula el archivo lista de sumas de comprobación (checksums) Packages.md5."
+HelpUsage="md5 [-option] [Filename|Wildcard]"
+HelpParm[0]="-a Wildcard"
+HelpDesc[0]="Agrega todos los archivos que cumplan con el comodín al listado de Packages.md5."
+HelpParm[1]="-l [Filename]"
+HelpDesc[1]="Muestra el contenido actual del archivo Packages.md5 especificado. Si no se otorga un nombre de archivo, Packages.md5 será utilizado."
+HelpParm[2]="-m Filename"
+HelpDesc[2]="Combina el contenido de dos archivos Packages.md5. Filename debe indicar un archivo Packages.md5 válido."
+HelpParm[3]="-p Wildcard"
+HelpDesc[3]="Elimina los checksums de todos los archivos del listado de Packages.md5 que cumplan con el comodín."
+
+[PackageDumpCommandlet]
+HelpCmd=packagedump
+HelpOneLiner="Vuelca la estructura de un Paquete de Unreal a stdout."
+HelpUsage="packagedump [Filename]"
+
+[DumpFontInfoCommandlet]
+HelpCmd=dumpfontinfo
+HelpOneLiner="Vuelca información sobre fuentes."
+HelpUsage="dumpfontinfo <pkg>"
+HelpWebLink=
+
+[ExecCommandlet]
+HelpCmd=exec
+HelpOneLiner="Ejecuta un archivo de comando en un ambiente de edición mínimo."
+HelpUsage="exec filename"

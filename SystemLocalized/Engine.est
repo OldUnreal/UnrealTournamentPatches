@@ -1,0 +1,187 @@
+﻿[Public]
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Avanzado",Parent="Opciones Avanzadas")
+Preferences=(Caption="Sonido",Parent="Opciones Avanzadas")
+Preferences=(Caption="Reproducción",Parent="Opciones Avanzadas")
+Preferences=(Caption="Juego en Red",Parent="Opciones Avanzadas")
+Preferences=(Caption="Configuración de Motor de Juego",Parent="Avanzado",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Comandos para Asignaciones",Parent="Avanzado",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Asignaciones de Botones",Parent="Avanzado",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Controladores",Parent="Opciones Avanzadas",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Información Pública de Servidor",Parent="Juego en Red",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Configuración de Juego",Parent="Opciones Avanzadas",Class=Engine.GameInfo,Immediate=True)
+
+[PlayerPawn]
+QuickSaveString="Guardado rápido"
+NoPauseMessage="Imposible interrumpir la partida"
+ViewingFrom="Ahora viendo desde "
+OwnCamera="cámara propia"
+FailedView="No se ha podido cambiar la vista."
+CantChangeNameMsg="No puedes cambiar tu nombre durante una partida con registro global."
+
+[Pawn]
+NameArticle=" un "
+
+[Inventory]
+PickupMessage="Objeto recogido."
+ItemArticle="un"
+M_Activated=" activado."
+M_Selected=" seleccionado."
+M_Deactivated=" desactivado."
+
+[LevelInfo]
+Title="Sin Título"
+
+[Weapon]
+MessageNoAmmo=" no tiene munición."
+DeathMessage="%o ha sido asesinado por el %w de %k."
+PickupMessage="Tienes un arma"
+ItemName="Arma"
+DeathMessage[0]="%o ha sido asesinado por el %w de %k."
+DeathMessage[1]="%o ha sido asesinado por el %w de %k."
+DeathMessage[2]="%o ha sido asesinado por el %w de %k."
+DeathMessage[3]="%o ha sido asesinado por el %w de %k."
+
+[Ammo]
+PickupMessage="Has recogido algo de munición."
+
+[Counter]
+CountMessage="Sólo quedan %i más..."
+CompleteMessage="¡Completado!"
+
+[Spectator]
+MenuName="Espectador"
+
+[DamageType]
+Name="asesinado"
+AltName="asesinado"
+NameFem="asesinada"
+AltNameFem="asesinada"
+
+[Progress]
+CancelledConnect="Intento de Conexión Cancelado"
+RunningNet="%s: %s (%i jugadores)"
+NetReceiving="Recibiendo ''%s'': %i/%i"
+NetReceiveOk="Se ha recibido exitosamente ''%s''"
+NetSend="Enviando ''%s''"
+NetSending="Enviando ''%s'': %i/%i"
+Connecting="Conectando..."
+Listening="Esperando clientes..."
+Loading="Cargando"
+Saving="Guardando"
+Paused="Pausado por %s"
+ReceiveFile="Recibiendo ''%s'' (F10 para pasar por alto)"
+ReceiveOptionalFile="Recibiendo archivo opcional ''%s'' (F10 para cancelar)"
+ReceiveSize="Tamaño %iK, Completo %3.1f%% = %iK, Quedan %i paquetes"
+ConnectingText="Conectando (F10 para cancelar):"
+ConnectingURL="unreal://%s/%s"
+
+[WarpZoneInfo]
+OtherSideURL=""
+
+[Pickup]
+ExpireMessage=""
+
+[SpecialEvent]
+DamageString=""
+
+[ServerCommandlet]
+HelpCmd=server
+HelpOneLiner="Servidor en red de juego."
+HelpUsage="server map.unr[?game=tipoDeJuego] [-opción...] [param=valor]..."
+HelpWebLink="http://wiki.oldunreal.com"
+HelpParm[0]="Log"
+HelpDesc[0]="Especifica el archivo de registro que debe ser generado."
+HelpParm[1]="AllAdmin"
+HelpDesc[1]="Da privilegios de administrador a todos los jugadores."
+
+[Console]
+ClassCaption="Consola Unreal Tournament estándar"
+LoadingMessage="CARGANDO"
+SavingMessage="GUARDANDO"
+ConnectingMessage="CONECTANDO"
+PausedMessage="EN PAUSA"
+PrecachingMessage="PRECACHEANDO"
+ChatChannel="(CHAT) "
+TeamChannel="(EQUI) "
+FrameRateText="Veloc. Cuadros"
+AvgText="Prom"
+LastSecText="Últ. Seg."
+MinText="Mín."
+MaxText="Máx."
+fpsText="CPS"
+SecondsText="segundos."
+FramesText="cuadros renderizados en"
+
+[Menu]
+HelpMessage=""
+MenuList=""
+HelpMessage[1]="Este menú aún no ha sido implementado."
+LeftString="Izquierda"
+RightString="Derecha"
+CenterString="Centro"
+EnabledString="Activado"
+DisabledString="Desactivado"
+YesString="sí"
+NoString="no"
+
+[GameInfo]
+SwitchLevelMessage="Cambiando de niveles"
+DefaultPlayerName="Jugador"
+LeftMessage=" ha abandonado la partida."
+FailedSpawnMessage="Error al engendrar actor de jugador"
+FailedPlaceMessage="No se pudo encontrar punto de partida (quizás el nivel necesite un actor ''PlayerStart'')"
+FailedTeamMessage="No se ha podido encontrar equipo para el jugador"
+NameChangedMessage="Nombre cambiado a "
+EnteredMessage=" se ha incorporado a la partida."
+GameName="Partida"
+MaxedOutMessage="El servidor está funcionando al máximo de su capacidad."
+WrongPassword="La contraseña introducida es incorrecta."
+NeedPassword="Necesitas introducir una contraseña para unirte a esta partida."
+IPBanned="Tu dirección IP ha sido vetada de este servidor."
+MaleGender="su"
+FemaleGender="su"
+
+[Errors]
+NetOpen="Error al abrir el archivo"
+NetWrite="Error al escribir en archivo"
+NetRefused="El servidor rechazó el envío de ''%s''"
+NetClose="Error al cerrar el archivo"
+NetSize="Tamaño de archivo erróneo"
+NetMove="Error al mover el archivo"
+NetInvalid="Se ha recibido una petición de archivo no válida"
+NoDownload="El paquete ''%s'' no es descargable"
+DownloadFailed="No se ha podido descargar el paquete ''%s'': %s"
+RequestDenied="El servidor ha solicitado un archivo del nivel pendiente: Solicitud denegada"
+ConnectionFailed="Conexión fallida"
+ChAllocate="No se ha podido asignar un canal"
+NetAlready="Conexión de red ya realizada"
+NetListen="Comunicación fallida: No hay enlazador disponible."
+LoadEntry="No se puede cargar Entry: %s"
+InvalidUrl="Dirección URL no válida: %s"
+InvalidLink="Enlace no válido: %s"
+FailedBrowse="No se ha podido entrar en %s: %s"
+Listen="Comunicación fallida: %s"
+AbortToEntry="Error; regresando a Entry"
+ServerOpen="Los servidores no pueden abrir los URL de red"
+ServerListen="El servidor dedicado no puede esperar: %s"
+Pending="Conexión pendiente con ''%s'' ha fallado; %s"
+LoadPlayerClass="Fallo al cargar la clase de jugador"
+ServerOutdated="Versión del servidor obsoleta"
+ClientOutdated="Necesitas actualizar a la última versión de parche"
+RejectedByServer="Rechazado por el servidor"
+NetDecompressFail="Error al descomprimir el archivo ''%s''"
+
+[General]
+Upgrade="Para acceder a este servidor, necesitarás el último parche de actualización gratuito de Unreal Tournament, disponible en el sitio web de OldUnreal:"
+UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
+UpgradeQuestion="¿Quieres abrir tu explorador de Internet e ir a la página de actualizaciones ahora?"
+Version="Versión %i"
+
+[CheckSumCommandlet]
+HelpCmd=checksum
+HelpOneLiner="Calcula la suma de verificación (checksum) para el registro de estadísticas"
+HelpUsage="checksum packagename.u"
+HelpParm[0]="packagename.u"
+HelpDesc[0]="El archivo del cual se va a calcular el checksum"

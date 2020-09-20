@@ -1,0 +1,30 @@
+﻿[LevelInfo0]
+Title="The Peak Monastery"
+IdealPlayerCount="6-8"
+LevelEnterText="Watch your step!! It's a long way down!!"
+
+[ZoneInfo0]
+ZoneName="Outside"
+
+[ZoneInfo3]
+ZoneName="Main Room"
+
+[ZoneInfo5]
+ZoneName="The Pit Room"
+
+[ZoneInfo7]
+ZoneName="Window Hall"
+
+[ZoneInfo2]
+ZoneName="Upper Room"
+
+[ZoneInfo4]
+ZoneName="Lower Room"
+
+[ZoneInfo6]
+ZoneName="Lower Hall"
+
+[LevelSummary]
+Title="The Peak Monastery"
+IdealPlayerCount="6-8"
+LevelEnterText="Watch your step!! It's a long way down!!"

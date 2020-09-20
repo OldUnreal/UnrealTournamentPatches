@@ -1,0 +1,8 @@
+﻿[Public]
+Object=(Name=D3D9Drv.D3D9RenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=d3d9.dll)
+Preferences=(Caption="Soporte para Direct3D 9",Parent="Reproducción",Class=D3D9Drv.D3D9RenderDevice,Immediate=True)
+
+[D3D9RenderDevice]
+ClassCaption="Soporte para Direct3D 9"
+AskInstalled="¿Quieres utilizar Direct3D 9?"
+AskUse=""

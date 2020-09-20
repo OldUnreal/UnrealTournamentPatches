@@ -1,0 +1,28 @@
+﻿[LevelInfo0]
+Title="Instalación Gearbolt"
+IdealPlayerCount="6-12"
+
+[ZoneInfo8]
+ZoneName="Puente"
+
+[ZoneInfo7]
+ZoneName="Rampa"
+
+[ZoneInfo9]
+ZoneName="Ascensor"
+
+[ZoneInfo10]
+ZoneName="Planta Baja"
+
+[ControlPoint2]
+PointName="Puente"
+
+[ControlPoint0]
+PointName="Ascensor"
+
+[ControlPoint1]
+PointName="Rampa"
+
+[LevelSummary]
+Title="Instalación Gearbolt"
+IdealPlayerCount="6-12"

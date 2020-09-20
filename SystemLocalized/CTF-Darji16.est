@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+Title="Puesto Avanzado Darji #16-A"
+IdealPlayerCount="12-16"
+LevelEnterText="En el desierto existe el dolor."
+
+[ZoneInfo1]
+ZoneName="Afueras"
+
+[ZoneInfo5]
+ZoneName="Cruce Rojo"
+
+[ZoneInfo4]
+ZoneName="Cruce Azul"
+
+[ZoneInfo3]
+ZoneName="Sótano Azul"
+
+[ZoneInfo8]
+ZoneName="Sótano Rojo"
+
+[ZoneInfo7]
+ZoneName="Base Roja"
+
+[ZoneInfo2]
+ZoneName="Base Azul"
+
+[ZoneInfo12]
+ZoneName="Torre de Francotirador Azul"
+
+[ZoneInfo10]
+ZoneName="Torre de Francotirador Roja"
+
+[LevelSummary]
+Title="Puesto Avanzado Darji #16-A"
+IdealPlayerCount="12-16"
+LevelEnterText="En el desierto existe el dolor."
+
+[ZoneInfo11]
+ZoneName="Torre de Francotirador Roja"
+
+[ZoneInfo13]
+ZoneName="Torre de Francotirador Azul"
+
+[locationid0]
+LocationName="Sala de Bandera Azul"

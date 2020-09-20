@@ -1,0 +1,30 @@
+﻿[LevelInfo0]
+Title="Penitenciaría Submarina November"
+IdealPlayerCount="8-12"
+LevelEnterText="Entrando en la Penitenciaría Submarina November."
+
+[ZoneInfo4]
+ZoneName="Penitenciaría Submarina"
+
+[ZoneInfo2]
+ZoneName="Base Azul"
+
+[ZoneInfo6]
+ZoneName="Vestíbulo Rojo"
+
+[ZoneInfo5]
+ZoneName="Entrada Roja"
+
+[ZoneInfo3]
+ZoneName="Vestíbulo Azul"
+
+[ZoneInfo0]
+ZoneName="Base Roja"
+
+[WaterZone5]
+ZoneName="Agua"
+
+[LevelInfo0]
+Title="Penitenciaría Submarina November"
+IdealPlayerCount="8-12"
+LevelEnterText="Entrando en la Penitenciaría Submarina November."

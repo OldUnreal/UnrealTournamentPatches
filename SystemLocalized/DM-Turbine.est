@@ -1,0 +1,16 @@
+﻿[LevelInfo0]
+Title="Turbina"
+IdealPlayerCount="4-8"
+
+[ZoneInfo15]
+ZoneName="Campo de Batalla"
+
+[ZoneInfo17]
+ZoneName="Sótano"
+
+[ZoneInfo16]
+ZoneName="Escondrijo"
+
+[LevelSummary]
+Title="Turbina"
+IdealPlayerCount="4-8"

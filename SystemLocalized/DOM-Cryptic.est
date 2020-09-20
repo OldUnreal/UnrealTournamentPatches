@@ -1,0 +1,30 @@
+﻿[LevelInfo0]
+Title="Cripta"
+IdealPlayerCount="6-12"
+LevelEnterText="Contrólate"
+
+[ZoneInfo4]
+ZoneName="Sala Semicircular"
+
+[ZoneInfo7]
+ZoneName="Sala Cuartocircular"
+
+[ZoneInfo5]
+ZoneName="Pasillo Largo"
+
+[ControlPoint4]
+PointName="Estrella de Hierro"
+
+[ControlPoint2]
+PointName="Cabeza del Demonio"
+
+[ControlPoint3]
+PointName="Gárgola"
+
+[ZoneInfo6]
+ZoneName="Pasillo Corto"
+
+[LevelSummary]
+Title="Cripta"
+IdealPlayerCount="6-12"
+LevelEnterText="Contrólate"

@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+Title="Centro Industrial Coret"
+IdealPlayerCount="4-8"
+LevelEnterText="Bienvenido al Centro Industrial Coret. Esperamos que disfrutes la estadía."
+
+[ZoneInfo1]
+ZoneName="Área Central"
+
+[ZoneInfo3]
+ZoneName="Base Roja"
+
+[ZoneInfo4]
+ZoneName="Base Azul"
+
+[ZoneInfo6]
+ZoneName="Sala Azul Principal"
+
+[ZoneInfo11]
+ZoneName="Sala Roja Principal"
+
+[ZoneInfo7]
+ZoneName="Sala Lateral Azul"
+
+[ZoneInfo5]
+ZoneName="Vestíbulo Azul"
+
+[ZoneInfo2]
+ZoneName="Acceso Lateral Rojo"
+
+[ZoneInfo10]
+ZoneName="Vestíbulo Rojo"
+
+[ZoneInfo8]
+ZoneName="Sala Superior Azul"
+
+[ZoneInfo9]
+ZoneName="Sala Superior Roja"
+
+[ZoneInfo0]
+ZoneName="Área central - Arriba"
+
+[LevelSummary]
+Title="Centro Industrial Coret"
+IdealPlayerCount="4-8"
+LevelEnterText="Bienvenido al Centro Industrial Coret. Esperamos que disfrutes la estadía."

@@ -1,0 +1,15 @@
+[TranslatorEvent38]
+Message=Corporeal Pelli Onsov: Si estás leyendo mis noticias probablemente estoy muerto y nuestro barco ha sido invadido por alienígenas llamados
+
+[TranslatorEvent1]
+Message=Diario: M. Mottobanov: Hemos colocado a ISV-Kran para explorar actividades humanas fuera de las puertas de la nave. Cuando alguien entre, la luz roja, las puertas de la nave se abren. La plataforma estará abajo durante poco tiempo.
+Hint=Entra en el barco y quédate en la luz roja. Las puertas de la nave se abrirán y bajará un ascensor. Tienes que ser muy rápido si quieres subir al ascensor y saltar en la nave antes de que el ascensor te triture.
+
+[TranslatorEvent0]
+Message= Diario N. Onatop: Hasta ahora lo hemos logrado.. sólo falta enfrentarnos cara a cara con otra bestia titánica. Ahora descansamos y solucionaremos mañana el problema. Sin comunicar con ISV-Kran, la radio sólo recibe señales estáticas.
+Hint=Entra en el barco y quédate en la luz roja. Las puertas de la nave se abrirán y bajará un ascensor. Tienes que ser muy rápido si quieres subir al ascensor y saltar en la nave antes de que el ascensor te triture.
+
+[LevelInfo2]
+Title=ISV-KRAN Deck 4
+LevelEnterText=Entrando a Plataforma 4 ISV-KRAN
+

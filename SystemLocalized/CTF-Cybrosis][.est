@@ -1,0 +1,79 @@
+﻿[LevelInfo0]
+Title="Cybrosis ]["
+IdealPlayerCount="4-12"
+
+[ZoneInfo24]
+ZoneName="Base Exterior Azul"
+
+[ZoneInfo2]
+ZoneName="Base Exterior Roja"
+
+[ZoneInfo25]
+ZoneName="Sala de Agua Azul"
+
+[ZoneInfo3]
+ZoneName="Sala de Agua Roja"
+
+[ZoneInfo12]
+ZoneName="Base de Bandera Roja"
+
+[ZoneInfo11]
+ZoneName="Base de Bandera Azul"
+
+[ZoneInfo28]
+ZoneName="Sala de Tuberías Azul"
+
+[ZoneInfo6]
+ZoneName="Sala de Tuberías Roja"
+
+[ZoneInfo26]
+ZoneName="Antecámara Azul"
+
+[ZoneInfo23]
+ZoneName="Centro Superior Azul"
+
+[ZoneInfo4]
+ZoneName="Antecámara Roja"
+
+[ZoneInfo1]
+ZoneName="Centro Superior Rojo"
+
+[ZoneInfo27]
+ZoneName="Pasaje Superior Azul"
+
+[ZoneInfo30]
+ZoneName="Pasaje Superior Azul"
+
+[ZoneInfo5]
+ZoneName="Pasaje Superior Rojo"
+
+[ZoneInfo31]
+ZoneName="Centro Superior Azul"
+
+[ZoneInfo9]
+ZoneName="Centro Superior Rojo"
+
+[ZoneInfo8]
+ZoneName="Pasaje Superior Rojo"
+
+[ZoneInfo10]
+ZoneName="Centro Superior Rojo"
+
+[ZoneInfo32]
+ZoneName="Centro Superior Azul"
+
+[ZoneInfo7]
+ZoneName="Pasaje Inferior Rojo"
+
+[ZoneInfo29]
+ZoneName="Pasaje Inferior Azul"
+
+[SpecialEvent1]
+DamageString="%K cometió un error electrificante."
+
+[LevelSummary]
+Title="Cybrosis ]["
+IdealPlayerCount="4-12"
+
+[SpecialEvent11]
+DamageString="%K cometió un error electrificante."

@@ -1,0 +1,67 @@
+[LevelInfo0]
+Title="Templo del Dios Marino Chizra-Nali"
+LevelEnterText="Estás entrando en el Templo del Dios Marino Chizra- Nali"
+
+[TranslatorEvent0]
+Message="Cuidado: aquellos que entren en la piscina del trueno con motivos impuros se enfrentarán al demonio de las estrellas"
+
+[TranslatorEvent7]
+Message="El dios marino Chizra-Nali y su templo sagrado han sido inundados por las serpientes del agua y los demonios que proceden de las estrellas. El único que ahora puede purificar el templo es el mesias."
+
+[TranslatorEvent2]
+Message=Este es el obelisco de las nubes. A partir de aquí se encuentra la piscina del trueno.
+.
+
+[TranslatorEvent15]
+Message=1400 h. Comandante Mac Harrison: SITREP: Esos nativos poseen un lanzador de cohetes de 6 cañones en un altar bien protegido por las Salamandras. Nali lo llama "El Garrote de los 6 fuegos". Intentaré introducirme a hurtadillas esta noche.
+
+[TranslatorEvent12]
+Message=Esta es la piscina del trueno. Las almas impuras que se bañen en el agua se enfrentarán al demonio que vino de las estrellas.
+
+[TranslatorEvent1]
+Message= Aquellos que dejen que la cascada caiga sobre sus cabezas en la piscina del trueno recibirán una fuerza poderosa.
+
+[TranslatorEvent19]
+Message= Sube por las piedras sueltas para alcanzar la laguna del fuego relámpago. Ten cuidado con el demonio que viene de las estrellas y se oculta entre las sombras. Un necio seguramente perecerá.
+
+[TranslatorEvent13]
+Message= El centro de la pirámide es el punto focal del poder Chizra del dios marino Nali.
+
+[TranslatorEvent10]
+Message= EL GARROTE DE LOS 6 FUEGOS VINO DEL DIOS MARINO NALI CUANDO CAYÓ LA ESTRELLA DEL CIELO.  PARA ENCONTRAR LA ESTRELLA TIENES QUE PASAR POR EL ALA DE CEREMONIAS.
+
+[Counter3]
+CountMessage=Clic!
+CompleteMessage=La balsa está suelta.
+
+[TranslatorEvent5]
+Message= Sólo el guerrero que esgrima el garrote de los 6 fuegos podrá entrar en las cámaras internas de ceremonias.  En cuanto el garrote de los 6 fuegos esté en tu poder, se elevará el precinto de la piedra.
+
+[TranslatorEvent3]
+Message=Para llegar a la piscina del trueno tienes que escalar por las piedras sueltas.
+
+[TranslatorEvent4]
+Message= Sólo el guerrero que toque la cara del ídolo del dios marino podrá entrar en este templo.
+
+[TranslatorEvent14]
+Message= Los demonios descendieron de las estrellas en una carroza metálica como castigo por los pecados del Nali.
+
+[TranslatorEvent18]
+Message= Detrás de esta puerta de oro hay el altar del garrote de los 6 fuegos. Sólo se puede entrar tocando las primeras piedras de los pilares del fuego relámpago.
+
+[TranslatorEvent6]
+Message= Más allá de este precinto de piedra están las cámaras internas de ceremonias del dios marino Nali.
+
+[TranslatorEvent9]
+Message= PIRÁMIDE ES LA CLAVE PARA ENTRAR EN LA CÁMARA DE LA MUERTE. AQUÍ ENCONTRARÁS MÁS POTENCIA PARA EL GARROTE DE LOS 6 FUEGOS.
+
+[TranslatorEvent8]
+Message= SÓLO EL GUERRERO QUE SE BAÑE EN LA PISCINA DEL TRUENO MÁS ALLÁ DEL OBELISCO DE LAS NUBES LLEGARÁ AL GARROTE DE LOS 6 FUEGOS.
+
+[TranslatorEvent11]
+Message= AGARRA EL GARROTE DE LOS 6 FUEGOS Y AVANZA HACIA LAS CÁMARAS INTERNAS DE CEREMONIAS. ALLÍ ENCONTRARÁS LA SALIDA DESDE EL LUGAR DE DONDE VINISTE Y LA CARROZA METÁLICA QUE CAYÓ DE LAS ESTRELLAS.
+
+[TranslatorEvent20]
+Message= Mírate a los ojos. Y cuando tu valor sea el más fuerte, gracias a tu fe podrás dar el último paso para que alcances el premio.
+
+

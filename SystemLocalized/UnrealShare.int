@@ -1,0 +1,695 @@
+﻿[Public]
+Object=(Name=UnrealShare.DispersionPistol,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.ASMD,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.Eightball,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.AutoMag,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.Stinger,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.FemaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Female 1")
+Object=(Name=UnrealShare.MaleThree,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 3")
+Object=(Name=UnrealShare.UnrealSpectator,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Spectator")
+Object=(Name=UnrealShare.FemaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Female 1")
+Object=(Name=UnrealShare.MaleThreeBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 3")
+Object=(Name=UnrealShare.SinglePlayer,Class=Class,MetaClass=UnrealShare.SinglePlayer)
+
+[DeathMatchGame]
+ClassCaption="Deathmatch"
+GlobalNameChange=" changed name to "
+NoNameChange=" is already in use"
+TimeMessage[0]="5 minutes left in the game!"
+TimeMessage[1]="4 minutes left in the game!"
+TimeMessage[2]="3 minutes left in the game!"
+TimeMessage[3]="2 minutes left in the game!"
+TimeMessage[4]="1 minute left in the game!"
+TimeMessage[5]="30 seconds left!"
+TimeMessage[6]="10 seconds left!"
+TimeMessage[7]="5 seconds and counting..."
+TimeMessage[8]="4..."
+TimeMessage[9]="3..."
+TimeMessage[10]="2..."
+TimeMessage[11]="1..."
+TimeMessage[12]="Time Up!"
+GameName="DeathMatch"
+
+[UnrealGameInfo]
+DeathMessage[0]="killed"
+DeathMessage[1]="ruled"
+DeathMessage[2]="smoked"
+DeathMessage[3]="slaughtered"
+DeathMessage[4]="annihilated"
+DeathMessage[5]="put down"
+DeathMessage[6]="splooged"
+DeathMessage[7]="perforated"
+DeathMessage[8]="shredded"
+DeathMessage[9]="destroyed"
+DeathMessage[10]="whacked"
+DeathMessage[11]="canned"
+DeathMessage[12]="busted"
+DeathMessage[13]="creamed"
+DeathMessage[14]="smeared"
+DeathMessage[15]="shut out"
+DeathMessage[16]="beaten down"
+DeathMessage[17]="smacked down"
+DeathMessage[18]="pureed"
+DeathMessage[19]="sliced"
+DeathMessage[20]="diced"
+DeathMessage[21]="ripped"
+DeathMessage[22]="blasted"
+DeathMessage[23]="torn up"
+DeathMessage[24]="spanked"
+DeathMessage[25]="eviscerated"
+DeathMessage[26]="neutered"
+DeathMessage[27]="whipped"
+DeathMessage[28]="shafted"
+DeathMessage[29]="trashed"
+DeathMessage[30]="smashed"
+DeathMessage[31]="trounced"
+DeathModifier[0]="thoroughly "
+DeathModifier[1]="completely "
+DeathModifier[2]="absolutely "
+DeathModifier[3]="totally "
+DeathModifier[4]="utterly "
+MajorDeathMessage[0]=" ripped a new one"
+MajorDeathMessage[1]=" messed up real bad"
+MajorDeathMessage[2]=" given a new definition of pain"
+HeadLossMessage[0]="decapitated"
+HeadLossMessage[1]="beheaded"
+DeathVerb=" was "
+DeathPrep=" by "
+DeathTerm="killed"
+ExplodeMessage=" was blown up"
+SuicideMessage=" had a sudden heart attack."
+FallMessage=" left a small crater."
+DrownedMessage=" forgot to come up for air."
+BurnedMessage=" was incinerated"
+CorrodedMessage=" was slimed"
+HackedMessage=" was hacked"
+BleededMessage=" bled to death."
+
+[UnrealHUD]
+IdentifyName="Name"
+IdentifyHealth="Health"
+SomeoneName="Someone"
+VersionMessage="Version"
+TeamName[0]="Red Team: "
+TeamName[1]="Blue Team: "
+TeamName[2]="Green Team: "
+TeamName[3]="Gold Team: "
+
+[UnrealGameOptionsMenu]
+AdvancedString="Advanced Options"
+AdvancedHelp="Edit advanced game configuration options."
+HelpMessage[1]="Adjust the speed at which time passes in the game."
+HelpMessage[2]="If true, reduces the gore in the game."
+MenuList[1]="Game Speed"
+MenuList[2]="Reduced Gore"
+MenuTitle="GAME OPTIONS"
+
+[UnrealQuitMenu]
+YesSelString="[YES]  No "
+NoSelString=" Yes  [NO]"
+HelpMessage[1]="Select yes and hit enter to return to your puny, miserable, useless real life, if you can't handle UNREALity."
+MenuList[0]="A Digital Extremes/Epic Megagames"
+MenuList[1]="Collaboration"
+MenuList[2]="Game Design: James Schmalz"
+MenuList[3]="    Cliff Bleszinski"
+MenuList[4]="Level Design: Cliff Bleszinski"
+MenuList[5]="    T. Elliot Cannon  Pancho Eekels"
+MenuList[6]="    Jeremy War  Cedric Fiorentino"
+MenuList[7]="    Shane Caudle"
+MenuList[8]="Animator: Dave Carter"
+MenuList[9]="Art: James Schmalz "
+MenuList[10]="    Mike Leatham  Artur Bialas"
+MenuList[11]="Programming: Tim Sweeney  Steven Polge"
+MenuList[12]="    Erik de Neve  James Schmalz"
+MenuList[13]="    Carlo Vogelsang  Nick Michon"
+MenuList[14]="Music: Alexander Brandon"
+MenuList[15]="    Michiel van den Bos"
+MenuList[16]="Sound Effects: Dave Ewing"
+MenuList[17]="Producer for GT: Jason Schreiber"
+MenuList[18]="Biz: Mark Rein Nigel Kent"
+MenuList[19]="    Craig Lafferty"
+MenuList[20]="Oldunreal patch: Jochen Goernitz"
+MenuList[21]="    and the Oldunreal community"
+MenuTitle="Quit?"
+
+[UnrealIndivBotMenu]
+HelpMessage[1]="Which Bot Configuration is being edited. Use left and right arrows to change."
+HelpMessage[2]="Hit enter to edit the name of this bot."
+HelpMessage[3]="Use the left and right arrow keys to change the class of this bot."
+HelpMessage[4]="Use the left and right arrow keys to change the skin of this bot."
+HelpMessage[5]="Adjust the overall skill of this bot by this amount (relative to the base skill for bots)."
+HelpMessage[6]="Type in which team this bot plays on (Red, Blue, Green, or Yellow)."
+MenuList[1]="Configuration"
+MenuList[2]="Name"
+MenuList[3]="Class"
+MenuList[4]="Skin"
+MenuList[5]="Skill Adjust"
+MenuList[6]="Team"
+MenuTitle="Artificial Intelligence Configuration"
+
+[DispersionPistol]
+DeathMessage="%o was killed by %k's %w.  What a loser!"
+PickupMessage="You got the Dispersion Pistol"
+ItemName="Dispersion Pistol"
+
+[UnrealVideoMenu]
+LowText="Low"
+HighText="High"
+ShadowDetail[0]="Blob"
+ShadowDetail[1]="Low Res"
+ShadowDetail[2]="Mid Res"
+ShadowDetail[3]="High Res"
+ShadowDetail[4]="Ultra Res"
+HelpMessage[1]="Adjust display brightness using the left and right arrow keys."
+HelpMessage[2]="Display Unreal in a window. Note that going to a software display mode may remove high detail actors that were visible with hardware acceleration."
+HelpMessage[3]="Use the left and right arrows to select a resolution, and press enter to select this resolution."
+HelpMessage[4]="Use the left and right arrows to adjust Field of View (FoV) for widescreen displays"
+HelpMessage[5]="Use the low texture detail option to improve performance.  Changes to this setting will take effect on the next level change."
+HelpMessage[6]="Adjust the volume of the music using the left and right arrow keys."
+HelpMessage[7]="Adjust the volume of sound effects in the game using the left and right arrow keys."
+HelpMessage[8]="Adjust the volume of speech, taunt and grunt effects in the game using the left and right arrow keys."
+HelpMessage[9]="Use the low sound quality option to improve performance on machines with 32 megabytes or less of memory.  Changes to this setting will take effect on the next level change."
+HelpMessage[10]="If enabled, you will hear voice messages during gametypes that use them."
+HelpMessage[11]="If enabled, you will hear a beep when you receive a message."
+HelpMessage[12]="If enabled, some specific meshes may use flat shading."
+HelpMessage[13]="If enabled, some specific meshes may use curved surfaces for extra detail."
+HelpMessage[14]="If enabled, pawns cast shadows. Changes to this setting will take effect on the next level change."
+HelpMessage[15]="If enabled, decoration cast shadows. Changes to this setting will take effect on the next level change."
+HelpMessage[16]="If blob, use blob shadows, else use realistic shadows with different resolutions."
+HelpMessage[17]="Use this option to precaching map content like sounds and textures."
+HelpMessage[18]="Use this option to active/deactivate trilinear filtering."
+MenuList[1]="Brightness"
+MenuList[2]="Toggle Fullscreen Mode"
+MenuList[3]="Select Resolution"
+MenuList[4]="Field of View"
+MenuList[5]="Texture Detail"
+MenuList[6]="Music Volume"
+MenuList[7]="Sound Volume"
+MenuList[8]="Speech Volume"
+MenuList[9]="Sound Quality"
+MenuList[10]="Voice Messages"
+MenuList[11]="Message Beep"
+MenuList[12]="Flat Shading"
+MenuList[13]="Curvy Meshes"
+MenuList[14]="Cast Shadows"
+MenuList[15]="Deco Shadows"
+MenuList[16]="Realistic Shadows"
+MenuList[17]="PreCaching Content"
+MenuList[18]="Trilinear Filtering"
+MenuTitle="AUDIO/VIDEO"
+
+[UnrealFavoritesMenu]
+EditList[0]="Name for Server:"
+EditList[1]="Address:"
+HelpMessage[1]="Hit enter to go to this server.  Hit the right arrow key to edit this entry."
+HelpMessage[2]="Hit enter to go to this server.  Hit the right arrow key to edit this entry."
+HelpMessage[3]="Hit enter to go to this server.  Hit the right arrow key to edit this entry."
+HelpMessage[4]="Hit enter to go to this server.  Hit the right arrow key to edit this entry."
+HelpMessage[5]="Hit enter to go to this server.  Hit the right arrow key to edit this entry."
+HelpMessage[6]="Hit enter to go to this server.  Hit the right arrow key to edit this entry."
+HelpMessage[7]="Hit enter to go to this server.  Hit the right arrow key to edit this entry."
+HelpMessage[8]="Hit enter to go to this server.  Hit the right arrow key to edit this entry."
+HelpMessage[9]="Hit enter to go to this server.  Hit the right arrow key to edit this entry."
+HelpMessage[10]="Hit enter to go to this server.  Hit the right arrow key to edit this entry."
+HelpMessage[11]="Hit enter to go to this server.  Hit the right arrow key to edit this entry."
+HelpMessage[12]="Hit enter to go to this server.  Hit the right arrow key to edit this entry."
+MenuTitle="FAVORITES"
+
+[Translator]
+NewMessage="Universal Translator"
+HintString="Hint:"
+PickupMessage="Press F2 to activate the Translator"
+ItemName="Universal Translator"
+
+[UnrealTeamScoreBoard]
+TeamName[0]="Red Team: "
+TeamName[1]="Blue Team: "
+TeamName[2]="Green Team: "
+TeamName[3]="Gold Team: "
+
+[UnrealScoreBoard]
+DeadStr="You are dead. Hit [Fire] to respawn!"
+SpectatorStr="You are spectating.  Hit [Fire] to view from another player!"
+
+[UnrealServerMenu]
+BotTitle="BOTMATCH"
+HelpMessage[1]="Choose Game Type."
+HelpMessage[2]="Choose Map."
+HelpMessage[3]="Modify Game Options."
+HelpMessage[4]="Start Game."
+HelpMessage[5]="Start a dedicated server on this machine."
+MenuList[1]="Select Game"
+MenuList[2]="Select Map"
+MenuList[3]="Configure Game"
+MenuList[4]="Start Game"
+MenuList[5]="Launch Dedicated Server"
+MenuTitle="MULTIPLAYER"
+
+[UnrealMeshMenu]
+HelpMessage[4]="Change your class using the left and right arrow keys."
+HelpMessage[5]="To enter with an adminpassword or gamepassword, launch the server Browser, right click a server and select 'Join with password'."
+HelpMessage[6]="Should spectate the match instead of playing."
+HelpMessage[7]="Press enter to start game."
+MenuList[4]="Class:"
+MenuList[5]="Passwords are now entered from the Unreal Server browser."
+MenuList[6]="Spectate:"
+MenuList[7]="Start Game"
+
+[UnrealPlayerMenu]
+Teams[0]="Red"
+Teams[1]="Blue"
+Teams[2]="Green"
+Teams[3]="Gold"
+Teams[4]="None"
+HelpMessage[1]="Hit enter to type in your name. Be sure to do this before joining a multiplayer game."
+HelpMessage[2]="Use the arrow keys to change your team color (Red, Blue, Green, or Yellow)."
+HelpMessage[3]="Change your skin using the left and right arrow keys."
+MenuList[1]="Name: "
+MenuList[2]="Team Color:"
+MenuList[3]="Skin:"
+MenuTitle="Select Digital Representation"
+
+[UnrealJoinGameMenu]
+InternetOption="(Dial-Up)"
+FastInternetOption="(Dial-Up)"
+VeryFastInternetOption="(Broadband)"
+HighSpeedInternetOption="(Broadband)"
+LANOption="(LAN)"
+HelpMessage[1]="Listen for local servers"
+HelpMessage[2]="Choose a server from a list of favorites"
+HelpMessage[3]="Hit enter to type in a server address.  Hit enter again to go to this server."
+HelpMessage[4]="Set networking speed."
+HelpMessage[5]="Open Unreal Server List"
+MenuList[1]="Find Local Servers"
+MenuList[2]="Choose From Favorites"
+MenuList[3]="Open"
+MenuList[4]="Net Speed"
+MenuList[5]="Go to the Unreal server list"
+MenuTitle="JOIN GAME"
+
+[UnrealOptionsMenu]
+HideString="Hidden"
+InternetOption="(Dial-Up)"
+FastInternetOption="(Dial-Up)"
+VeryFastInternetOption="(Broadband)"
+HighSpeedInternetOption="(Broadband)"
+LANOption="(LAN)"
+HelpMessage[1]="Enable or disable vertical aiming help."
+HelpMessage[2]="Toggle enabling of joystick."
+HelpMessage[3]="Adjust the mouse sensitivity, or how far you have to move the mouse to produce a given motion in the game."
+HelpMessage[4]="Enable or disable mouse smoothing (disable for high resolution mice)"
+HelpMessage[5]="Invert the mouse X axis.  When true, pushing the mouse forward causes you to look down rather than up."
+HelpMessage[6]="If enabled, when you let go of the mouselook key the view will automatically center itself."
+HelpMessage[7]="If enabled, the mouse is always used for looking up and down, with no need for a mouselook key."
+HelpMessage[8]="If enabled, when not mouse-looking your view will automatically be adjusted to look up and down slopes and stairs."
+HelpMessage[9]="If enabled, your screen will flash when you fire your weapon."
+HelpMessage[10]="Choose the crosshair appearing at the center of your screen"
+HelpMessage[11]="Select where your weapon will appear."
+HelpMessage[12]="If enabled, double-clicking on the movement keys (forward, back, strafe left, and strafe right) will cause you to do a fast dodge move."
+HelpMessage[13]="Hit enter to customize keyboard, mouse, and joystick configuration."
+HelpMessage[14]="Hit enter to prioritize weapon switching order. (If never auto-switch is false)"
+HelpMessage[15]="Never auto-switch to better weapon on pickup."
+HelpMessage[16]="Use the left and right arrow keys to select a Heads Up Display configuration."
+HelpMessage[17]="Adjust the amount of bobbing when moving."
+HelpMessage[18]="Set your optimal networking speed. This has an impact on internet gameplay."
+HelpMessage[19]="Open advanced preferences configuration menu."
+MenuList[1]="Auto Aim"
+MenuList[2]="Joystick Enabled"
+MenuList[3]="Mouse Sensitivity"
+MenuList[4]="Mouse Smoothing"
+MenuList[5]="Invert Mouse"
+MenuList[6]="LookSpring"
+MenuList[7]="Always MouseLook"
+MenuList[8]="Auto Slope Look"
+MenuList[9]="Weapon Flash"
+MenuList[10]="Crosshair"
+MenuList[11]="Weapon Hand"
+MenuList[12]="Dodging"
+MenuList[13]="Customize Controls"
+MenuList[14]="Prioritize Weapons"
+MenuList[15]="No Auto Weapon Switch"
+MenuList[16]="HUD Configuration"
+MenuList[17]="View Bob"
+MenuList[18]="Net Speed"
+MenuList[19]="Advanced Options"
+MenuTitle="OPTIONS MENU"
+
+[TeamGame]
+ClassCaption="Team Play"
+NewTeamMessage=" is now on "
+TeamColor[0]="Red"
+TeamColor[1]="Blue"
+TeamColor[2]="Green"
+TeamColor[3]="Gold"
+GameName="Team Game"
+
+[ASMD]
+DeathMessage="%k inflicted mortal damage upon %o with the %w."
+PickupMessage="You got the ASMD Rifle"
+ItemName="ASMD Rifle"
+
+[UnrealWeaponMenu]
+MenuTitle="PRIORITIES"
+
+[UnrealBotConfigMenu]
+HelpMessage[1]="If enabled, bots adjust their skill level based on how they are doing against players."
+HelpMessage[2]="Base skill level of bots (between 0 and 3)."
+HelpMessage[3]="If enabled, bots enter the game in random order. If false, they enter in their configuration order."
+HelpMessage[4]="Change the configuration of individual bots."
+HelpMessage[5]="Number of bots to start play (max 15)."
+HelpMessage[6]="Use bots when playing with other people."
+MenuList[1]="Auto-Adjust Skills"
+MenuList[2]="Base Skill"
+MenuList[3]="Random Order"
+MenuList[4]="Configure Individual Bots"
+MenuList[5]="Number of Bots"
+MenuList[6]="Bots in Multiplayer"
+MenuTitle="BOTS"
+
+[Eightball]
+DeathMessage="%o was smacked down multiple times by %k's %w."
+PickupMessage="You got the Eightball gun"
+ItemName="Eightball"
+
+[UnrealKeyboardMenu]
+OrString=" or "
+HelpMessage[1]=""
+MenuList[1]="Fire"
+MenuList[2]="Alternate Fire"
+MenuList[3]="Move Forward"
+MenuList[4]="Move Backward"
+MenuList[5]="Turn Left"
+MenuList[6]="Turn Right"
+MenuList[7]="Strafe Left"
+MenuList[8]="Strafe Right"
+MenuList[9]="Jump/Up"
+MenuList[10]="Crouch/Down"
+MenuList[11]="Mouse Look"
+MenuList[12]="Activate Item"
+MenuList[13]="Next Item"
+MenuList[14]="Previous Item"
+MenuList[15]="Look Up"
+MenuList[16]="Look Down"
+MenuList[17]="Center View"
+MenuList[18]="Walk"
+MenuList[19]="Strafe"
+MenuList[20]="Next Weapon"
+MenuList[21]="Prev Weapon"
+MenuList[22]="Grab Decoration"
+MenuList[23]="Show Admin Menu"
+MenuList[24]="Show Music Menu"
+MenuList[25]="RESET TO DEFAULTS"
+MenuTitle="CONTROLS"
+
+[UnrealNewKeyboardMenu]
+MenuWidth=340
+
+[CoopGame]
+ClassCaption="Cooperative Play"
+GameName="Coop Game"
+
+[Cow]
+MenuName="Cow"
+
+[ShieldBelt]
+PickupMessage="You got the Shield Belt"
+ItemName="Shield Belt"
+
+[Flashlight]
+ExpireMessage="Flashlight batteries have died."
+PickupMessage="You picked up the Flashlight"
+ItemName="Flashlight"
+
+[DevilFish]
+MenuName="DevilFish"
+
+[UnrealMainMenu]
+HelpMessage[1]="Hit enter to modify game options, including loading and saving games, changing difficulty level, and starting a BotMatch."
+HelpMessage[2]="Hit enter to modify Multiplayer setup options, including starting or joining a network game, and changing your appearance, name, or team."
+HelpMessage[3]="Hit enter to customize controls."
+HelpMessage[4]="Change sound and display options"
+HelpMessage[5]="Hit enter to quit game."
+HelpMessage[7]="Call TOLL FREE 1-877-4UNREAL to Order UNREAL!"
+MenuList[1]="GAME"
+MenuList[2]="MULTIPLAYER"
+MenuList[3]="OPTIONS"
+MenuList[4]="AUDIO/VIDEO"
+MenuList[5]="QUIT"
+MenuList[7]="ORDER INFO"
+
+[UnrealLoadMenu]
+RestartString="Restart "
+MenuTitle="LOAD GAME"
+
+[UnrealSlotMenu]
+EmptySlot="..Empty.."
+MonthNames[0]="January"
+MonthNames[1]="February"
+MonthNames[2]="March"
+MonthNames[3]="April"
+MonthNames[4]="May"
+MonthNames[5]="June"
+MonthNames[6]="July"
+MonthNames[7]="August"
+MonthNames[8]="September"
+MonthNames[9]="October"
+MonthNames[10]="November"
+MonthNames[11]="December"
+
+[TranslatorEvent]
+M_NewMessage="New Translator Message"
+M_TransMessage="Translator Message"
+M_HintMessage="New hint message (press F3 to read)."
+
+[NaliFruit]
+PickupMessage="You picked the Nali Healing Fruit +"
+ItemName="Nali Healing Fruit "
+
+[Health]
+PickupMessage="You picked up a Health Pack +"
+ItemName="Health Pack"
+
+[BabyCow]
+MenuName="Baby Cow"
+
+[UnrealGameMenu]
+HelpMessage[1]="Hit enter to save the current game."
+HelpMessage[2]="Hit enter to load a saved game."
+HelpMessage[3]="Select a difficulty level, and start a new game."
+HelpMessage[4]="Hit enter to modify game options.  Note that you cannot do this if you are playing in a multiplayer game."
+HelpMessage[5]="DeathMatch against Bots."
+MenuList[1]="SAVE GAME"
+MenuList[2]="LOAD GAME"
+MenuList[3]="NEW GAME"
+MenuList[4]="GAME OPTIONS"
+MenuList[5]="BOTMATCH"
+
+[UnrealMultiPlayerMenu]
+HelpMessage[1]="Join a network game."
+HelpMessage[2]="Set up and start a network game."
+HelpMessage[3]="Configure appearance, name, and team name."
+MenuList[1]="JOIN GAME"
+MenuList[2]="START GAME"
+MenuList[3]="PLAYER SETUP"
+
+[UnrealChooseGameMenu]
+HelpMessage[1]="Choose which game to play."
+HelpMessage[2]="Choose which game to play."
+HelpMessage[3]="Choose which game to play."
+HelpMessage[4]="Choose which game to play."
+HelpMessage[5]="Choose which game to play."
+HelpMessage[6]="Choose which game to play."
+HelpMessage[7]="Choose which game to play."
+HelpMessage[8]="Choose which game to play."
+HelpMessage[9]="Choose which game to play."
+HelpMessage[10]="Choose which game to play."
+HelpMessage[11]="Choose which game to play."
+HelpMessage[12]="Choose which game to play."
+HelpMessage[13]="Choose which game to play."
+HelpMessage[14]="Choose which game to play."
+HelpMessage[15]="Choose which game to play."
+HelpMessage[16]="Choose which game to play."
+HelpMessage[17]="Choose which game to play."
+HelpMessage[18]="Choose which game to play."
+HelpMessage[19]="Choose which game to play."
+MenuTitle="CHOOSE GAME"
+
+[AutoMag]
+DeathMessage="%o got gatted by %k's %w."
+PickupMessage="You got the Automag"
+ItemName="Automag"
+
+[UnrealHelpMenu]
+HelpMessage[1]="Open the troubleshooting document."
+MenuList[1]="TroubleShooting"
+MenuTitle="HELP"
+
+[UnrealDMGameOptionsMenu]
+GameStyle[0]="Classic"
+GameStyle[1]="Hardcore"
+GameStyle[2]="Turbo"
+DeathMessages[0]="Classic"
+DeathMessages[1]="Weapon Based"
+HelpMessage[3]="Number of frags scored by leading player to end game.  If 0, there is no limit."
+HelpMessage[4]="Time limit (in minutes) to end game.  If 0, there is no limit."
+HelpMessage[5]="Maximum number of players allowed in the game."
+HelpMessage[6]="If Weapons Stay is enabled, weapons respawn instantly, but can only be picked up once by a given player."
+HelpMessage[7]="Configure bot game and individual parameters."
+HelpMessage[8]="Choose Game Style:  Hardcore game speed is faster and weapons do more damage than Classic. Turbo is Hardcore with really fast movement."
+HelpMessage[9]="Classic or new style (weapon based) deathmessages."
+MenuList[3]="Frag limit"
+MenuList[4]="Time Limit"
+MenuList[5]="Max Players"
+MenuList[6]="Weapons Stay"
+MenuList[7]="Configure Bots"
+MenuList[8]="Game Style"
+MenuList[9]="Death Messages"
+
+[YesNoMenu]
+YesSelString="[YES]  No"
+NoSelString=" Yes  [NO]"
+
+[UnrealListenMenu]
+HelpMessage[1]="Hit Enter to select this server."
+HelpMessage[2]="Hit Enter to select this server."
+HelpMessage[3]="Hit Enter to select this server."
+HelpMessage[4]="Hit Enter to select this server."
+HelpMessage[5]="Hit Enter to select this server."
+HelpMessage[6]="Hit Enter to select this server."
+HelpMessage[7]="Hit Enter to select this server."
+HelpMessage[8]="Hit Enter to select this server."
+HelpMessage[9]="Hit Enter to select this server."
+HelpMessage[10]="Hit Enter to select this server."
+HelpMessage[11]="Hit Enter to select this server."
+HelpMessage[12]="Hit Enter to select this server."
+HelpMessage[13]="Hit Enter to select this server."
+HelpMessage[14]="Hit Enter to select this server."
+HelpMessage[15]="Hit Enter to select this server."
+HelpMessage[16]="Hit Enter to select this server."
+HelpMessage[17]="Hit Enter to select this server."
+HelpMessage[18]="Hit Enter to select this server."
+HelpMessage[19]="Hit Enter to select this server."
+MenuTitle="LOCAL SERVERS"
+
+[SCUBAGear]
+PickupMessage="You picked up the SCUBA Gear"
+ItemName="SCUBA Gear"
+
+[Amplifier]
+ExpireMessage="Energy Amplifier is out of power."
+PickupMessage="You got the Energy Amplifier"
+ItemName="Energy Amplifier"
+
+[UnrealNewGameMenu]
+HelpMessage[1]="Tourist mode."
+HelpMessage[2]="Ready for some action!"
+HelpMessage[3]="Not for the faint of heart."
+HelpMessage[4]="Death wish."
+HelpMessage[5]="For players who want an extra difficulty."
+HelpMessage[6]="For the hardcore gamers."
+HelpMessage[7]="HOLY SHIT!"
+MenuList[1]="EASY"
+MenuList[2]="MEDIUM"
+MenuList[3]="HARD"
+MenuList[4]="UNREAL"
+MenuList[5]="EXTREME"
+MenuList[6]="NIGHTMARE"
+MenuList[7]="ULTRA-UNREAL"
+
+[TazerProj]
+ComboKillMessage="%o couldn't avoid the shock blast from %k's %w"
+
+[SinglePlayer]
+GameName="Unreal"
+
+[UnrealSaveMenu]
+CantSave="CAN'T SAVE WHEN DEAD"
+MenuTitle="SAVE GAME"
+
+[Stinger]
+DeathMessage="%o was perforated by %k's %w."
+PickupMessage="You picked up the Stinger"
+ItemName="Stinger"
+
+[RocketCan]
+PickupMessage="You picked up 12 Eightballs"
+ItemName="Eightballs"
+
+[VoiceBox]
+PickupMessage="You picked up the Voice Box"
+ItemName="Voice Box"
+
+[WeaponPowerUp]
+PickupMessage="You got the Dispersion Pistol Powerup"
+ItemName="Dispersion Pistol Powerup"
+
+[Flare]
+PickupMessage="You got a Flare"
+ItemName="Flare"
+
+[ShellBox]
+PickupMessage="You picked up 50 bullets"
+ItemName="Bullet Box"
+
+[ASMDAmmo]
+PickupMessage="You picked up an ASMD Core"
+ItemName="ASMD Core"
+
+[MaleThree]
+MenuName="Male 3"
+
+[FemaleOne]
+MenuName="Female 1"
+
+[OKMenu]
+OKString="[OK]"
+
+[UnrealTeamGameOptionsMenu]
+HelpMessage[10]="Percentage of damage taken when hit by friendly fire.  Note that you always take full damage from your own weapons."
+MenuList[10]="Friendly Fire Scale"
+
+[UnrealCoopGameOptions]
+HelpMessage[3]="Skill level setting."
+HelpMessage[4]="If enabled, no friendly fire is allowed."
+HelpMessage[5]="If enabled, weapons respawn instantly, but can only be picked up once by a given player."
+HelpMessage[6]="If enabled, weapons will be respawned instantly."
+HelpMessage[7]="If enabled, items will be respawned instantly."
+MenuList[3]="Difficulty"
+MenuList[4]="No Friendly Fire"
+MenuList[5]="Weapons Stay"
+MenuList[6]="Instant Weapon Respawn"
+MenuList[7]="Instant Item Respawn"
+
+[SuperHealth]
+PickupMessage="You picked up the Super Health Pack"
+ItemName="Super Health Pack"
+
+[UpgradeMenu]
+MenuList[1]="You need a newer version of Unreal to play on this server. Would you like to go to the Unreal web site for a newer version?"
+
+[StingerAmmo]
+PickupMessage="You picked up 40 Tarydium Shards"
+ItemName="Tarydium Shards"
+
+[Shells]
+PickupMessage="You picked up 12 shells"
+ItemName="Shells"
+
+[KevlarSuit]
+PickupMessage="You picked up the Kevlar Suit"
+ItemName="Kevlar Suit"
+
+[Clip]
+PickupMessage="You picked up a Clip"
+ItemName="Clip"
+
+[Bandages]
+PickupMessage="You got some Bandages +"
+ItemName="Bandages"
+
+[Armor]
+PickupMessage="You got the Assault Vest"
+ItemName="Assault Vest"
+
+[Hawk]
+MenuName="Hawk"

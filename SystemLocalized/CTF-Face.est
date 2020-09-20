@@ -1,0 +1,19 @@
+﻿[LevelInfo0]
+Title="Mundos Enfrentados"
+IdealPlayerCount="4-10"
+
+[ZoneInfo3]
+ZoneName="Asteroide"
+
+[ZoneInfo2]
+ZoneName="Base Azul"
+
+[ZoneInfo1]
+ZoneName="Base Roja"
+
+[LevelSummary]
+Title="Mundos Enfrentados"
+IdealPlayerCount="4-10"
+
+[SpecialEvent0]
+DamageString="puesto en órbita"

@@ -1,0 +1,17 @@
+[LevelInfo0]
+Title=Templo de Vandora
+
+[TranslatorEvent1]
+message=El Camino está lleno de tinieblas. La Antorcha del Trueno puede encender el sendero de los Elegidos. La progresión espiritual la logran aquellos que encienden la Antorcha de los Truenos.
+Hint=Enciende la Antorcha de los Truenos para poder entrar.
+
+[TranslatorEvent3]
+message=Vandora, Diosa del Relámpago.
+
+[TranslatorEvent2]
+message=Antorcha del Trueno
+
+[TranslatorEvent0]
+message=Y Vandora hizo su aparición, con el fuego del Cielo sobre sus labios y santificando la fuente sagrada con un beso. Así, dijo, aquel que me siga, desprenderá los lazos de la carne y llegará a ser tan escurridizo como la niebla.
+Hint=Sanctifica la fuente sagrada con fuego y llegarás a ser tan escurridizo como la niebla.
+

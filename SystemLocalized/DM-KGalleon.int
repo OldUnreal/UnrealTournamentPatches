@@ -1,0 +1,12 @@
+﻿[LevelInfo0]
+Title="Koos Galleon"
+IdealPlayerCount="4-12"
+LevelEnterText="SHIVER ME TIMBERS!!!"
+
+[WarpZoneInfo0]
+ZoneName="Underwater"
+
+[LevelSummary]
+Title="Koos Galleon"
+IdealPlayerCount="4-12"
+LevelEnterText="SHIVER ME TIMBERS!!!"

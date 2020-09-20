@@ -1,0 +1,78 @@
+[TranslatorEvent1]
+Message=Ehrenräume
+
+[TranslatorEvent9]
+Message=Erste Auffahrt
+Hint= Mit größter Vorsicht vorgehen. Finde den Weg nach oben.
+
+[TranslatorEvent10]
+Message= Wasserbehälter 
+Hint=Im Wasser ist ein Geheimnis. Achte darauf, eine Taschenlampe mitzunehmen. 
+
+[TranslatorEvent20]
+Message= Logbuch: Sicherheitsoffizier A. Connectof: Uns geht die Munition aus. Wir haben nur noch eine Waffe. Nach Aussage des Nalis an den Toren müssen wir nach oben gelangen, um den Kristall aktivieren zu können, der den Himmelslift ruft.
+Hint=Finde den Weg nach oben zum Raum des Kristalls. Von dort aus kannst du den Himmelslift rufen.
+
+[TranslatorEvent14]
+Message=Schlafgemächer
+
+[TranslatorEvent8]
+Message=Bereitmachen zum Einsteigen
+Hint=Aktiviere den Kristall, dann gehe ins Freie und warte darauf, daß der Himmelslift nach unten kommt. Steige ein und genieße die Fahrt.
+
+[TranslatorEvent6]
+Message=Küchen
+Hint=Manchmal führt dich die Dunkelheit zum richtigen Weg. Achte darauf, eine Taschenlampe mitzunehmen. 
+
+[TranslatorEvent13]
+Message=Banketthalle
+
+[TranslatorEvent11]
+Message=Schlafgemächer 
+Hint=Manchmal führt dich die Dunkelheit zum richtigen Weg. Achte darauf, eine Taschenlampe mitzunehmen.
+
+[TranslatorEvent15]
+Message=Banketthalle
+
+[TranslatorEvent5]
+Message= Erste Auffahrt
+
+[TranslatorEvent7]
+Message=Kristallkammer 
+Hint= Aktiviere den Kristall, dann gehe ins Freie und warte darauf, daß der Himmelslift nach unten kommt. Steige ein und genieße die Fahrt.
+
+[TranslatorEvent3]
+Message=Ehrenräume
+
+[TranslatorEvent0]
+Message=Große Halle.
+Hint=Finde den Schalter an der Wand in der Großen Halle. Er wird dir ein Geheimnis zeigen und du wirst den Weg nach oben fortsetzen können. 
+
+[LevelInfo0]
+Title=Der Sonnenturm 
+
+[TranslatorEvent16]
+Message=Erste Auffahrt
+Hint= Mit größter Vorsicht vorgehen. Finde den Weg nach oben.
+
+[TranslatorEvent25]
+Hint= Finde den Weg nach oben zum Raum des Kristalls. Von dort aus kannst du den Himmelsfahrstuhl rufen.
+
+[TranslatorEvent23]
+Hint=Bis hierher hast du es geschafft, weitermachen...
+
+[TranslatorEvent24]
+Message=Logbuch: Unteroffizier N. Onalopov: Wir haben uns aufgeteilt, um die Chance zu verbessern, Kira zu finden. Diese Mistkerle werden dafür zahlen, daß sie sie mitgenommen haben. Ich liebe dich, Kira. Ich werde dich finden, ich schwöre es.
+Hint= Finde den Weg nach oben zum Raum des Kristalls. Von dort aus kannst du den Himmelslift rufen.
+
+
+[TranslatorEvent4]
+Message= Der Sonnenturm
+Hint= Mit größter Vorsicht vorgehen. Finde den Weg nach oben.
+
+[TranslatorEvent12]
+Message=Baderäume
+
+[TranslatorEvent17]
+Message= Ich werde heute nicht zum Sonnenturm zurückkehren. Heute morgen hätte mich der Himmelsdämon beinahe getötet, und ich fürchte um unsere Brüder, die noch nicht entkommen sind. Ich spüre, daß wir sie in diesem Leben nicht mehr sehen werden.
+Hint=Paß auf den Vorsprung auf. Wenn du abstürzt, stürzt du in den Tod. 

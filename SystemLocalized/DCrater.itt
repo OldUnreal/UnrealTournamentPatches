@@ -1,0 +1,24 @@
+[TranslatorEvent4]
+Message=Allarme intrusione. Assicurare tutti i punti d'accesso, tutto il personale in massima allerta. Proteggere la Madre, il fallimento verrà pagato con la MORTE.
+Hint=Attiva il generatore che fornisce energia al portale d'accesso alla nave.
+
+[TranslatorEvent1]
+Message=Pannello di controllo del generatore. Il generatore è operativo. Produzione di energia standard.
+
+[TranslatorEvent0]
+Message=Portale: Attenzione! Energia insufficiente per stabilire un collegamento al portale. Attivare il generatore.
+AltMessage=Portale: Collegamento stabilito. Entrare nel campo di trasporto.
+Hint=Attiva il generatore che fornisce energia al portale della nave.
+
+[TranslatorEvent3]
+Message=Generatore e Stanza di Carico.
+Hint=Attiva il generatore che fornisce energia al portale della nave.
+
+[WarpZoneInfo0]
+OtherSideURL=Teletrasporto2
+
+[WarpZoneInfo1]
+OtherSideURL=Teletrasporto1
+
+[LevelInfo2]
+Title=DCrater

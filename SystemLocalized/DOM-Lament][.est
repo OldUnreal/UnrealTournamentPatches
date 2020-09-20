@@ -1,0 +1,18 @@
+﻿[LevelInfo0]
+Title="Lamento ]["
+IdealPlayerCount="2-4"
+LevelEnterText="¡A romper el hielo, es hora de la DOMINACIÓN!"
+
+[ControlPoint2]
+PointName="Inferior"
+
+[ControlPoint0]
+PointName="Central"
+
+[ControlPoint1]
+PointName="Superior"
+
+[LevelSummary]
+Title="Lamento ]["
+IdealPlayerCount="2-4"
+LevelEnterText="¡A romper el hielo, es hora de la DOMINACIÓN!"

@@ -1,0 +1,23 @@
+[LevelInfo0]
+Title=Terraniux unter Tage
+
+[SpecialEvent0]
+Message= ALARMBEREITSCHAFT 
+
+[TranslatorEvent0]
+message= Biomüll Durchflußkontrolle: Durchflußmenge konstant. Auf gefährliche Viskositäts- bzw. Druckschwankungen hin kontrollieren. Der Alarm scheint noch defekt zu sein. Bei Funktionsstörung Abschaltungsregler betätigen.
+AltMessage=Lift aktiviert. Alle Mitarbeiter werden daran erinnert, daß erteilte Aufgaben erledigt werden müssen.
+
+[TranslatorEvent5]
+message= Abpumpstatus: Biomüll Durchflußmenge innerhalb der Toleranzen. Alle Pumpen in Betrieb. Sektion C  ist leer und kann etwaigen Biomüll-Überlauf aufnehmen. Bitte auf regelmäßige Wartung der Rohre achten. 
+
+[TranslatorEvent4]
+message=Sicherheitsstatus: Eindringling am Eingang entdeckt. Aktiviere Schutzschirme von Forschungslabor und Hydroponiksektion. Alle Sicherheitskräfte zu den Zugangspunkten in Sektionen A, B und C, um Zugang zu Lift 1 zu verhindern.
+Hint=Die Auffangräume A, B und C suchen, und dort die Knöpfe aktivieren, um Zugang zu Lift 1 zu bekommen.
+
+[TranslatorEvent3]
+Message= Kontrollraum Status: Unter Druck gesetzt und gesperrt. Zutritt nur im Notfall.
+
+[TranslatorEvent1]
+Message= Pumpwerk wurde aktiviert, erwartete Speicherkapazität nach Operation: 32% 
+AltMessage= Sektion D: 54% der Aufnahmekapazität erreicht.

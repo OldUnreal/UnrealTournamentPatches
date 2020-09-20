@@ -1,0 +1,42 @@
+﻿[LevelInfo0]
+Title="Presión"
+IdealPlayerCount="4-12"
+LevelEnterText="¡¡LLÉVALOS A LA CÁMARA DE PRESIÓN!!"
+
+[ZoneInfo0]
+ZoneName="Sala del Pasadizo"
+
+[ZoneInfo4]
+ZoneName="Sala de las Columnas"
+
+[ZoneInfo1]
+ZoneName="Sala de Presión"
+
+[ZoneInfo6]
+ZoneName="Sala de las Columnas"
+
+[PressureZone0]
+ZoneName="Cámara de Presión"
+
+[WaterZone0]
+ZoneName="Tanque de Agua"
+
+[ZoneInfo7]
+ZoneName="Túnel de Escape"
+
+[ZoneInfo2]
+ZoneName="Sala de Presión"
+
+[ZoneInfo5]
+ZoneName="Sala de las Columnas"
+
+[ZoneInfo3]
+ZoneName="Sala del Pasadizo"
+
+[WaterZone1]
+ZoneName="Tanque de Agua"
+
+[LevelSummary]
+Title="Presión"
+IdealPlayerCount="4-12"
+LevelEnterText="¡¡LLÉVALOS A LA CÁMARA DE PRESIÓN!!"

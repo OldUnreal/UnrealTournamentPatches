@@ -1,0 +1,9 @@
+[Public]
+Object=(Name=SGLDrv.SGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=SGL.dll)
+Preferences=(Caption="Rendering",Parent="Erweiterte Optionen")
+Preferences=(Caption="PowerVR-SGL-Unterstützung",Parent="Rendering",Class=SGLDrv.SGLRenderDevice,Immediate=True)
+
+[SglRenderDevice]
+ClassCaption="PowerVR SGL für Windows"
+AskInstalled=Besitzt Du eine PowerVR-Karte?
+AskUse=Möchtest Du, daß Unreal die PowerVR-Karte verwendet?

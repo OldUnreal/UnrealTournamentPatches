@@ -1,0 +1,64 @@
+[LevelInfo0]
+Title=Terraniux
+
+[TranslatorEvent1]
+Message=Sezione A: Piena. Attivato il dirottamento dei Rifiuti Biologici alla Sezione B.
+
+[TranslatorEvent3]
+Message=Sala Comandi: pressurizzata e chiusa. Non entrate se non in caso di emergenza.
+
+[TranslatorEvent4]
+Message=Sicurezza: rilevato intruso. Schermi protettivi del Lab. di Ricerca e della Sez. Idroponica attivati. Tutti gli agenti ai punti di accesso delle Sezioni A, B e C.
+Hint=Trova le stanze di contenimento A, B e C e attiva i pulsanti per accedere all'Ascensore 1.
+
+[TranslatorEvent5]
+Message=Drenaggio: flusso di rifiuti biologici a livelli nominali. Tutte le pompe in funzione. La Sezione C è vuota e disponibile per ogni trabocco di rifiuti. Accertarsi che la manutenzione dei tubi sia regolare.
+
+[TranslatorEvent0]
+Message=Sezione B: piena al 48%.
+
+[TranslatorEvent10]
+Message=Serra B: controllate che i rifiuti biologici passino per i filtri della Sala Comandi e che nessun corpo estraneo blocchi il flusso.
+
+[TranslatorEvent12]
+Message=Serra C: la notte arriverà presto. Mantenete un attento controllo del livello igrometrico e della temperatura. Per mantenere i parametri nei limiti ammessi serve un'attenzione costante.
+
+[TranslatorEvent11]
+Message=Serra B: al Karkilys Zegnus serve più fertilizzante. Inviate guardie per ispezionare le case Nali nel Passaggio di Noork. L'autorizzazione allo sbarco deve venire dalla Sala Comandi.
+
+[TranslatorEvent9]
+Message=Serra A: La sezione A è piena. Il flusso di rifiuti biologici deve essere dirottato dalla Sala Comandi. La Sezione B è interamente disponibile. Accertatevi di controllare eventuali impurità nell'acqua.
+Hint=I rifiuti biologici vengono filtrati dalla Sala Comandi
+
+[TranslatorEvent8]
+Message=Accesso negato. Per accedere al Passaggio di Noork serve l'autorizzazione della Sala Comandi.
+AltMessage=Accesso consentito.
+Hint=Puoi raggiungere la Sala Comandi nuotando nei rifiuti biologici.
+
+
+[TranslatorEvent2]
+Message=Sezione C: vuota. Questa stanza di contenimento è danneggiata. Non inviare Rifiuti Biologici fino a riparazione avvenuta.
+
+[TranslatorEvent6]
+Message=Ascensore 1: serratura di sicurezza, accesso negato. Per entrare nelle serre idroponiche bisogna attivare le pompe delle stanze di contenimento.
+AltMessage=Ascensore 1: attivo. Si può accedere alle serre idroponiche.
+
+[TranslatorEvent7]
+Message=Ascensore 2: segnalato un tubo rotto.
+Hint=Questo ascensore è rotto, ma puoi controllare i tubi. Potrebbe esserci qualcosa di interessante.
+
+[TranslatorEvent13]
+Message=Sala Comandi, ACCESSO NEGATO
+Hint=Devi trovare un altro ingresso.
+
+[TranslatorEvent14]
+Message=Accesso Negato. Per accedere al Passaggio di Noork serve l'autorizzazione della Sala Comandi.
+
+[Trigger46]
+Message=Serrature di sicurezza della Sala di Accesso disattivate.
+
+[Trigger32]
+Message=Ascensore al Passaggio di Noork attivato
+
+[TranslatorEvent15]
+Message=Pompa attivata, Rifiuti Biologici trasferiti alla sezione B.

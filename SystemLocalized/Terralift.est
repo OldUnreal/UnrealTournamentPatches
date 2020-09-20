@@ -1,0 +1,25 @@
+[LevelInfo0]
+Title=Sótano Terraniux
+
+[SpecialEvent0]
+Message=ALERTA
+
+[TranslatorEvent0]
+Message=Control de Flujo Biowaste: el flujo es constante. Contrólalo para fluctuaciones peligrosas en viscosidad o presión. Parece que la alarma aún tiene problemas, en caso de funcionamiento defectuoso activa los dos controles de cancelar."
+AltMessage="Ascensor activado. Se recuerda a todo el personal que finalicen sus tareas asignadas.
+
+[TranslatorEvent5]
+Message=Estado de Drenaje: el flujo de Biowaste está a niveles nominales. Todas las bombas en funcionamiento. Sección C vacía y disponible para cualquier desbordamiento del Biowaster. Asegúrate de que se maniobra el mantenimiento de la canalización regular.
+
+[TranslatorEvent4]
+Message= Activando las pantallas de seguridad en el Laboratorio de Investigación Científica y en la Sección Hidropónicas. Todos los elementos de seguridad alrededor de los puntos de acceso en las Secciones A, B y C para se on intruso en Ascencor 1.
+Hint= Busca las salas de Contención A,B y C y activa los botones para acceder al Ascensor 1.
+
+[TranslatorEvent3]
+Message= Estado de la Sala de Control: Presurizada y cerrada. Prohibido entrar excepto en casos de emergencia.
+
+[TranslatorEvent1]
+Message= Se ha activado la estación de bombeo, se espera que despues de la operación la capacidad de almacenamiento sea de un 32%
+AltMessage= Sección D: alcanzada el 54% de la capacidad.
+
+

@@ -1,0 +1,747 @@
+[Public]
+Object=(Name=UnrealI.DarkMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealI.KingOfTheHill,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=Unreali.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=Unreali.GESBioRifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=Unreali.Razorjack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=Unreali.Rifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=Unreali.Minigun,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=Unreali.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Weiblich 2")
+Object=(Name=Unreali.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Männlich 1")
+Object=(Name=Unreali.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Männlich 2")
+Object=(Name=Unreali.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Skaarj")
+Object=(Name=Unreali.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Weiblich 2")
+Object=(Name=Unreali.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Männlich 1")
+Object=(Name=Unreali.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Männlich 2")
+Object=(Name=Unreali.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Skaarj")
+Preferences=(Caption="Spieltypen",Parent="Erweiterte Optionen")
+Preferences=(Caption="Dark Match",Parent="Spieltypen",Class=UnrealI.DarkMatch,Immediate=True)
+Preferences=(Caption="King Of The Hill",Parent="Spieltypen",Class=UnrealI.KingOfTheHill,Immediate=True)
+Preferences=(Caption="Netzwerk",Parent="Erweiterte Optionen")
+Preferences=(Caption="Kartenlisten",Parent="Netzwerk")
+Preferences=(Caption="DarkMatch-Karten",Parent="Kartenlisten",Class=UnrealI.DkMapList,Immediate=True)
+
+[DeathmatchGame]
+ClassCaption="Deathmatch"
+GlobalNameChange=" Name gewechselt zu "
+NoNameChange=" wird bereits benutzt"
+MaxedOutMessage=Server ist ausgelastet.
+Game Name=DeathMatch
+
+[DarkMatch]
+ClassCaption"Dark Match"
+
+[KingOfTheHill]
+ClassCaption="King Of The Hill"
+KingMessage=" ist der neue König des Hügels!"
+GameName=King of the Hill
+
+ [TeamGame]
+ClassCaption="Teamspiel"
+NewTeamMessage=" ist jetzt da "
+TeamColor[0]=Rot
+TeamColor[1]=Blau
+TeamColor[2]=Grün
+TeamColor[3]=Gold
+GameName=Teamspiel
+
+[CoopGame]
+ClassCaption="Co-op-Spiel"
+GameName=Co-op-Spiel
+
+[UnrealGameInfo]
+DeathVerb=" wurde "
+DeathPrep=" von "
+DeathTerm=eliminiert
+DeathArticle=
+ExplodeMessage=" wurde gesprengt"
+SuicideMessage=" hatte einen plötzlichen Herzanfall."
+FallMessage=" hinterließ einen kleinen Krater."
+DrownedMessage=" vergaß, Luft zu holen."
+BurnedMessage=" wurde eingeäschert"
+CorrodedMessage=" wurde eingeschleimt"
+HackedMessage=" wurde umgehauen"
+DeathMessage[0]=eliminiert
+DeathMessage[1]=gemaßregelt
+DeathMessage[2]=in Rauch aufgelöst
+DeathMessage[3]=zerlegt
+DeathMessage[4]=vernichtet
+DeathMessage[5]=zurechtgewiesen
+DeathMessage[6]=über den Boden verteilt
+DeathMessage[7]=perforiert
+DeathMessage[8]=geschreddert
+DeathMessage[9]=zerstört
+DeathMessage[10]=fertiggemacht
+DeathMessage[11]=eingedost
+DeathMessage[12]=niedergemacht
+DeathMessage[13]=aufgeschäumt
+DeathMessage[14]=eingeseift
+DeathMessage[15]=besiegt
+DeathMessage[16]=unterworfen
+DeathMessage[17]=niedergeschlagen
+DeathMessage[18]=püriert
+DeathMessage[19]=geschnetzelt
+DeathMessage[20]=kleingehackt
+DeathMessage[21]=zu Hackfleisch verarbeitet
+DeathMessage[22]=gesprengt
+DeathMessage[23]=aufgelöst
+DeathMessage[24]=versohlt
+DeathMessage[25]=ausgenommen
+DeathMessage[26]=zum Eunuchen gemacht
+DeathMessage[27]=ausgepeitscht
+DeathMessage[28]=gepfählt
+DeathMessage[29]=entwertet
+DeathMessage[30]=niedergestreckt
+DeathMessage[31]=verprügelt
+DeathModifier[0]=gründlich   
+DeathModifier[1]=komplett
+DeathModifier[2]=vollkommen
+DeathModifier[3]=gänzlich
+DeathModifier[4]=völlig  
+MajorDeathMessage[0]=in zwei Teile gerissen
+MajorDeathMessage[1]=übel beschmutzt
+MajorDeathMessage[2]=eine neue Definition von Schmerz gegeben
+MajorDeathMessage[3]=
+MajorDeathMessage[4]=
+MajorDeathMessage[5]=
+MajorDeathMessage[6]=
+MajorDeathMessage[7]=
+HeadLossMessage[0]=enthauptet
+HeadLossMessage[1]=geköpft
+
+[UnrealQuitMenu]
+YesSelString=[JA]  Nein
+NoSelString= Ja  [NEIN]
+MenuTitle=Beenden
+HelpMessage[1]=Wähle JA, um zu Deinem kümmerlichen, armseligen und sinnlosen Realleben zurückzukehren, falls Du mit der UNREALity nicht zurechtkommen solltest.
+MenuList[0]=Digital Extremes/Epic Megagames
+MenuList[1]=Eine Zusammenarbeit von
+MenuList[2]=Spiel-Design: James Schmalz
+MenuList[3]=Cliff Bleszinski
+MenuList[4]=Level Design: Cliff Bleszinski
+MenuList[5]=T. Elliot Cannon Pancho Eekels
+MenuList[6]="Jeremy War  Cedric Fiorentino"
+MenuList[7]=Shane Caudle
+MenuList[8]=Animation: Dave Carter
+MenuList[9]=Künstlerische Gestaltung: James Schmalz 
+MenuList[10]=Mike Leatham  Artur Bialas
+MenuList[11]=Programmierung: Tim Sweeney  Steven Polge
+MenuList[12]=Erik de Neve  James Schmalz
+MenuList[13]=Carlo Vogelsang  Nick Michon
+MenuList[14]=Musik: Alexander Brandon
+MenuList[15]=Michiel van den Bos
+MenuList[16]=Sound-Effekte: Dave Ewing
+MenuList[17]=Produktion für GT: Jason Schreiber
+MenuList[18]="Biz:Mark Rein Nigel Kent Craig Lafferty"
+
+[DispersionPistol]
+PickupMessage=Du hast die Dispersionspistole
+ItemName=Dispersionspistole
+
+[UnrealGameOptionsMenu]
+AdvancedString=Erweiterte Optionen
+AdvancedHelp=Erweiterte Spieloptionen verändern.
+MenuTitle=SPIELOPTIONEN
+HelpMessage[1]="Verändert die Spielgeschwindigkeit"
+HelpMessage[2]=Wenn JA, gibt es weniger Blut im Spiel.
+MenuList[1]=Spielgeschwindigkeit
+MenuList[2]=Weniger Blut 
+
+[UnrealIndivBotMenu]
+MenuTitle=BOT-KONFIGURATION
+HelpMessage[1]=Wählt die zu ändernde Bot-Konfiguration. Auswahl mit den Pfeiltasten links/rechts.
+HelpMessage[2]=Benutze die Eingabetaste, um den Bot-Namen zu ändern.
+HelpMessage[3]=Benutze die Pfeiltasten links/rechts, um die Klasse des Bots zu ändern.
+HelpMessage[4]=Benutze die Pfeiltasten links/rechts, um die Oberfläche des Bots zu ändern.
+HelpMessage[5]="Ändert die Stärke des Bots um diesen Wert (relativ zum Ausgangswert)."
+HelpMessage[6]=Gib ein, in welchem Team dieser Bot-Spieler spielt (Rot, Blau, Grün oder Gelb).
+MenuList[1]="Konfiguration"
+MenuList[2]=Name
+MenuList[3]=Klasse
+MenuList[4]=Oberfläche
+MenuList[5]=Stärke ändern
+MenuList[6]=Team
+
+[IntroNullHud]
+ESCMessage=Drücke ESC, um zu starten
+
+[UnrealFavoritesMenu]
+MenuTitle=FAVORITEN
+EditList[0]=Name für Server:
+EditList[1]=Adresse:
+HelpMessage[1]=Eingabetaste: diesen Server benutzen - Pfeiltaste rechts: Eintrag ändern
+HelpMessage[2]=Eingabetaste: diesen Server benutzen - Pfeiltaste rechts: Eintrag ändern
+HelpMessage[3]=Eingabetaste: diesen Server benutzen - Pfeiltaste rechts: Eintrag ändern
+HelpMessage[4]=Eingabetaste: diesen Server benutzen - Pfeiltaste rechts: Eintrag ändern
+HelpMessage[5]=Eingabetaste: diesen Server benutzen - Pfeiltaste rechts: Eintrag ändern
+HelpMessage[6]=Eingabetaste: diesen Server benutzen - Pfeiltaste rechts: Eintrag ändern
+HelpMessage[7]=Eingabetaste: diesen Server benutzen - Pfeiltaste rechts: Eintrag ändern
+HelpMessage[8]=Eingabetaste: diesen Server benutzen - Pfeiltaste rechts: Eintrag ändern
+HelpMessage[9]=Eingabetaste: diesen Server benutzen - Pfeiltaste rechts: Eintrag ändern
+HelpMessage[10]=Eingabetaste: diesen Server benutzen - Pfeiltaste rechts: Eintrag ändern
+HelpMessage[11]=Eingabetaste: diesen Server benutzen - Pfeiltaste rechts: Eintrag ändern
+HelpMessage[12]=Eingabetaste: diesen Server benutzen - Pfeiltaste rechts: Eintrag ändern
+
+[Translator]
+PickupMessage=F2 drücken, um den Universalübersetzer zu aktivieren
+NewMessage=Universalübersetzer
+
+[UnrealVideoMenu]
+MenuTitle=SOUND/VIDEO
+HelpMessage[1]="Ändere die Bildschirmhelligkeit mit den Pfeiltasten links/rechts.
+HelpMessage[2]=Unreal im Fenster anzeigen. Hinweis: Die Benutzung von Software-Anzeigemodi kann dazu führen, daß einige hochauflösende Elemente nicht angezeigt werden.
+HelpMessage[3]="Auswahl der Auflösung mit den Pfeiltasten links/rechts. Bestätigung mit Eingabetaste."
+HelpMessage[4]=Benutze die Option 'Texturen mit wenig Details', um die Spielgeschwindigkeit zu steigern. Die Veränderung wird mit dem nächsten Level-Wechsel aktiv.
+HelpMessage[5]=Ändere die Musiklautstärke mit den Pfeiltasten links/rechts.
+HelpMessage[6]=Ändere die SFX-Lautstärke mit den Pfeiltasten links/rechts.
+HelpMessage[7]=Benutze die Option 'Niedrige Soundqualität', um die Geschwindigkeit auf Computern mit weniger als 32 MB Speicher zu steigern. Die Veränderung wird mit dem nächsten Level-Wechsel aktiv.
+MenuList[1]=Helligkeit
+MenuList[2]=Vollbild ein/aus
+MenuList[3]=Auflösung wählen
+MenuList[4]=Textur-Detail
+MenuList[5]=Musiklautstärke
+MenuList[6]=Soundlautstärke
+MenuList[7]=Soundqualität
+LowText=Niedrig
+HighText=Hoch
+HelpMessage[8]=Wenn ja, hörst Du die entsprechenden Voice Messages während der Spieltypen
+MenuList[8]=Voice Messages
+
+[UnrealMeshMenu]
+HelpMessage[4]=Eigene Klasse mit Pfeiltasten links/rechts ändern.
+HelpMessage[5]=Gib hier das Verwaltungspaßwort oder das Spiel-Paßwort ein, falls notwendig.
+MenuList[4]=Klasse:
+MenuList[5]=Paßwort
+HelpMessage[6]=Drücke die Eingabetaste, um das Spiel zu starten.
+MenuList[6]=Spiel starten
+
+[UnrealPlayerMenu]
+MenuTitle=Digitale Wiedergabe wählen
+HelpMessage[1]=Eingabetaste, um Namen einzugeben. Unbedingt VOR Teilnahme am Mehrspielerspiel!
+HelpMessage[2]=Eingabetaste, um Team einzugeben (Rot, Blau, Grün oder Gelb).
+HelpMessage[3]=Ändere Dein Äußeres mit den Pfeiltasten links/rechts.
+MenuList[1]=Name:    
+MenuList[2]=Team-Name:
+MenuList[3]=Äußeres:
+HelpMessage[4]=Du kannst Deine Klasse/Dein Modell erst ändern, wenn Du zum ersten Mal einem Multiplayer-Spiel beitrittst oder ein neues Spiel im Einzelspielermodus startest.
+MenuList[4]=Klasse
+
+[UnrealJoinGameMenu]
+InternetOption=Internet (28,8)
+FastInternetOption=Schnelles Internet (ISDN oder Kabelmodem)
+LANOption=LAN
+MenuTitle=BEITRETEN
+HelpMessage[1]=Lokale Server suchen
+HelpMessage[2]=Server aus Favoriten-Liste wählen
+HelpMessage[3]=Eingabetaste, um Server-Adresse einzugeben. Erneut Eingabetaste, um zu Server zu gehen.
+HelpMessage[4]=Stellt optimierte Netzwerkeinstellungen ein: 2500 für Modem, 5000 für ISDN oder Kabelmodem und 20000 für LAN 
+HelpMessage[5]=Öffnet die WWW-Liste der Epic-Unreal-Server.
+MenuList[1]=Lokale Server suchen
+MenuList[2]=In Favoriten suchen
+MenuList[3]=Öffnen
+MenuList[4]=Netzwerkgeschwindigkeit
+MenuList[5]=Zur Epic-Unreal-Serverliste gehen
+
+[UnrealOptionsMenu]
+MenuTitle=EINSTELLUNGEN
+HelpMessage[1]=Aktiviert/deaktiviert die vertikale automatisches Zielhilfe
+HelpMessage[2]=Aktiviert/deaktiviert Joystick.
+HelpMessage[3]=Ändert die Mausempfindlichkeit oder wie weit die Maus bewegt werden muß, um eine Bewegung im Spiel zu erzeugen.
+HelpMessage[4]=Vertauscht die X-Achse der Maus. Wenn JA, erzeugt eine Vorwärtsbeweung einen Blick nach unten.
+HelpMessage[5]=Wenn JA, wird die Ansicht nach Lösen der Mausblick-Taste wieder automatisch zentriert
+HelpMessage[6]=Wenn JA, wird die Maus immer benutzt, um nach oben oder unten zu schauen, ohne die Mausblick-Taste benutzen zu müssen.
+HelpMessage[7]=Wenn JA, wird auch ohne Mausblick-Taste der Blick angepaßt, wenn Du an Hängen und Treppen nach oben/unten blickst.
+HelpMessage[8]=Wenn JA, leuchtet der Bildschirm bei Abfeuern deiner Waffe auf.
+HelpMessage[9]=Wählt, ob das Fadenkeuz in der Bildschirmmitte angezeigt wird.
+HelpMessage[10]=Wählt, wo Deine Waffe angezeigt wird.
+HelpMessage[11]=Wenn aktiviert, führt ein Doppelklick auf den Bewegungstasten (vorwärts, rückwärts, seitlich links/rechts) zu einer schnellen Ausweichbewegung.
+HelpMessage[12]=Eingabetaste, um Tastatur-, Maus- und Joystick-Konfiguration zu ändern.
+HelpMessage[13]=Eingabetaste, um die Waffenprioritätsliste zu ändern.
+HelpMessage[14]=Benutze die Pfeiltasten links/rechts, um die 'Heads Up Display'-Konfiguration zu ändern.
+HelpMessage[15]=Ändert, wie stark sich Dein Blickfeld beim Laufen bewegt.
+HelpMessage[16]=Menü 'Erweiterte Einstellungen' öffnen.
+MenuList[1]=Automatisches Zielen
+MenuList[2]=Joystick aktiviert
+MenuList[3]=Maus-Empfindlichkeit
+MenuList[4]=Maus invertieren
+MenuList[5]=Blick geradeaus
+MenuList[6]=Immer Mausblick
+MenuList[7]=Auto. Blickanpassung
+MenuList[8]=Waffenblitz 
+MenuList[9]=Fadenkreuz
+MenuList[10]=Waffenhand
+MenuList[11]=Ausweichen
+MenuList[12]=Steuerung ändern
+MenuList[13]=Waffenprioritäten
+MenuList[14]=HUD-Konfiguration
+MenuList[15]=Stärke Wippen
+MenuList[16]=Erweiterte Optionen
+
+[EndgameHud]
+Message1=Die Rettungskapsel der Skaarj hat die Anziehungskraft des Planeten überwunden ... gerade noch. Leider hast Du keinen Sprit mehr und treibst hilflos in den Weltraum hinein.
+Message2=Du entkommst einem Ort, an dem viele gestorben sind. Du lachst befreit auf. So viel ist passiert, aber fast nichts hat sich verändert.
+Message3=Vor dem Absturz warst Du in einer engen Zelle gefangen. Und jetzt bist Du wieder in einem Gefängnis.
+Message4=Aber Du bist zuversichtlich, daß jemand Dein kleines Schiff finden wird ... irgendwann.
+Message5=Bis dahin driftest Du und hoffst.
+Message6=Fortsetzung folgt...
+
+[UnrealWeaponMenu]
+MenuTitle=PRIORITÄTEN
+
+[Eightball]
+PickupMessage=Du hast das Achtkugel-Geschütz
+
+[UnrealKeyboardMenu]
+OrString=" oder "
+MenuTitle=STEUERUNGEN
+HelpMessage[1]=
+MenuList[1]=Schießen
+MenuList[2]=Abwechselnd feuern
+MenuList[3]=Vorwärts
+MenuList[4]=Rückwärts
+MenuList[5]=Links
+MenuList[6]=Rechts
+MenuList[7]=Feuer Links
+MenuList[8]=Feuer Rechts
+MenuList[9]=Springen/Oben
+MenuList[10]=Ducken/Unten
+MenuList[11]="Mausblick"
+MenuList[12]=Objekt aktivieren
+MenuList[13]=Nächst. Objekt
+MenuList[14]=Vorh. Objekt
+MenuList[15]=Blick oben
+MenuList[16]=Blick unten
+MenuList[17]=Blick zentr.
+MenuList[18]=Gehen
+MenuList[19]=Feuer
+MenuList[20]=Nächste Waffe
+MenuList[21]=ZURÜCKSETZEN
+
+[TranslatorEvent]
+M_NewMessage=Neue Übersetzernachricht
+M_TransMessage=Übersetzernachricht
+
+[Flashlight]
+ExpireMessage=Taschenlampen-Batterien sind leer.
+PickupMessage=Taschenlampe aufgenommen
+
+[ParentBlob]
+BlobKillMessage=wurde von einem Blob verätzt
+
+[FlakCannon]
+PickupMessage=Du hast die Flak-Kanone
+ItemName=Flak-Kanone
+DeathMessage=%o wurde von %ks %w zerfetzt.
+
+[Rifle]
+PickupMessage=Du hast das Kampfgewehr 
+ItemName=Heckenschützengewehr
+DeathMessage=%k versetzte %os einen Kopfschuß.
+
+[UnrealBotConfigMenu]
+MenuTitle=BOTS
+HelpMessage[1]=Wenn JA, werden die Fähigkeiten der Bots automatisch an deren Ergebnisse gegen Spieler angepaßt.
+HelpMessage[2]=Grundfähigkeit der Bots (zwischen 0 und 3)
+HelpMessage[3]=Wenn JA, erscheinen die Bots in zufälliger, wenn NEIN, dann in der Konfigurations-Reihenfolge.
+HelpMessage[4]=Verändert die Einstellungen für einzelne Bots.
+MenuList[1]=Level autom. anpassen
+MenuList[2]=Grundlevel
+MenuList[3]=Willkürliche Reihenfolge
+MenuList[4]=Bots einzeln konfigurieren
+HelpMessage[5]=Anzahl der Bots zu Spielbeginn (max 15).
+HelpMessage[6]=Bots beim Spiel gegen Teilnehmer verwenden.
+MenuList[5]=Anzahl der Bots
+MenuList[6]=Bots bei Multiplayer
+
+[UnrealLoadMenu]
+RestartString=Neustart 
+MenuTitle=LADEN
+
+[UnrealSlotMenu]
+MonthNames[0]=Jan
+MonthNames[1]=Feb
+MonthNames[2]=Mär
+MonthNames[3]=Apr
+MonthNames[4]=Mai
+MonthNames[5]=Jun
+MonthNames[6]=Jul
+MonthNames[7]=Aug
+MonthNames[8]=Sep
+MonthNames[9]=Okt
+MonthNames[10]=Nov
+MonthNames[11]=Dez
+
+[ASMD]
+PickupMessage=Du hast die ASMD
+
+[UnrealMainMenu]
+HelpMessage[1]=Eingabetaste, um Spieloptionen zu verändern, Laden/Speichern, Schwierigkeitsgrade anzupassen und Bot-Spiel zu starten.
+HelpMessage[2]=Eingabetaste, um Mehrspieleroptionen zu verändern, Netzwerkspiel starten/teilnehmen und Äußeres/Name/Team einstellen.
+HelpMessage[3]=Eingabetaste, um Steuerungen zu ändern.
+HelpMessage[4]=Verändert Sound- und Anzeige-Optionen
+HelpMessage[5]=Eingabetaste, um zu beenden.
+HelpMessage[7]=Bestellungen: Maxupport (01805) 254394
+MenuList[1]=EINSPIELER
+MenuList[2]=MEHRSPIELER
+MenuList[3]=OPTIONEN
+MenuList[4]=SOUND/VIDEO
+MenuList[5]=ENDE
+MenuList[7]=KAUFEN
+
+[UnrealServerMenu]
+BotTitle=BOT SPIEL
+MenuTitle=MEHRSPIELER
+HelpMessage[1]=Spiel-Typ wählen.
+HelpMessage[2]=Karte wählen.
+HelpMessage[3]=Spieloptionen verändern.
+HelpMessage[4]=Spiel starten.
+MenuList[1]=Spiel wählen
+MenuList[2]=Karte wählen
+MenuList[3]=Spiel konfigurieren
+MenuList[4]=Spiel starten
+MenuList[5]=Dedizierten Server starten
+
+[UnrealGameMenu]
+HelpMessage[1]=Eingabetaste, um Spielstand zu speichern.
+HelpMessage[2]=Eingabetaste, um Spielstand zu laden.
+HelpMessage[3]=Schwierigkeitsstufe wählen und neues Spiel starten.
+HelpMessage[4]=Eingabetaste, um Spieloptionen zu ändern. Hinweis: nicht während eines Mehrspieler-Spiels möglich!
+HelpMessage[5]=DeathMatch gegen Bots.
+MenuList[1]=SPEICHERN
+MenuList[2]=LADEN
+MenuList[3]=NEUES SPIEL
+MenuList[4]=SPIELOPTIONEN
+MenuList[5]=BOT SPIEL
+
+[Health]
+PickupMessage=Heilung aufgenommen +
+
+[AutoMag]
+PickupMessage=Du hast AutoMag
+ItemName=Automag 
+
+[UnrealChooseGameMenu]
+MenuTitle=SPIEL WÄHLEN
+HelpMessage[1]=Gewünschtes Spiel wählen
+HelpMessage[2]=Gewünschtes Spiel wählen
+HelpMessage[3]=Gewünschtes Spiel wählen
+HelpMessage[4]=Gewünschtes Spiel wählen
+HelpMessage[5]=Gewünschtes Spiel wählen
+HelpMessage[6]=Gewünschtes Spiel wählen
+HelpMessage[7]=Gewünschtes Spiel wählen
+HelpMessage[8]=Gewünschtes Spiel wählen
+HelpMessage[9]=Gewünschtes Spiel wählen
+HelpMessage[10]=Gewünschtes Spiel wählen
+HelpMessage[11]=Gewünschtes Spiel wählen
+HelpMessage[12]=Gewünschtes Spiel wählen
+HelpMessage[13]=Gewünschtes Spiel wählen
+HelpMessage[14]=Gewünschtes Spiel wählen
+HelpMessage[15]=Gewünschtes Spiel wählen
+HelpMessage[16]=Gewünschtes Spiel wählen
+HelpMessage[17]=Gewünschtes Spiel wählen
+HelpMessage[18]=Gewünschtes Spiel wählen
+HelpMessage[19]=Gewünschtes Spiel wählen
+
+[UnrealMultiPlayerMenu]
+HelpMessage[1]=Teilnahme an einem Netzwerkspiel.
+HelpMessage[2]=Startet ein neues Netzwerkspiel.
+HelpMessage[3]=Verändert Hautsbild, Name und Teamname.
+MenuList[1]=AN SPIEL TEILNEHMEN
+MenuList[2]=SPIEL STARTEN
+MenuList[3]=SPIELER-SETUP
+
+[UnrealHelpMenu]
+MenuTitle=HILFE
+HelpMessage[1]=Öffnet das Troubleshooting-Dokument.
+MenuList[1]=TroubleShooting
+
+[YesNoMenu]
+YesSelString=[JA] Nein
+NoSelString= Ja [NEIN]
+
+[NaliFruit]
+PickupMessage=Nali-Frucht mit Heilwirkung aufgenommen +
+
+[Minigun]
+PickupMessage=Du hast die Minigun
+ItemName=Minigun
+DeathMessage=%ks %w machte %o zu Hackfleisch.
+
+[UnrealListenMenu]
+MenuTitle=LOKALE SERVER
+HelpMessage[1]=Eingabetaste, um Server auszuwählen.
+HelpMessage[2]=Eingabetaste, um Server auszuwählen.
+HelpMessage[3]=Eingabetaste, um Server auszuwählen.
+HelpMessage[4]=Eingabetaste, um Server auszuwählen.
+HelpMessage[5]=Eingabetaste, um Server auszuwählen.
+HelpMessage[6]=Eingabetaste, um Server auszuwählen.
+HelpMessage[7]=Eingabetaste, um Server auszuwählen.
+HelpMessage[8]=Eingabetaste, um Server auszuwählen.
+HelpMessage[9]=Eingabetaste, um Server auszuwählen.
+HelpMessage[10]=Eingabetaste, um Server auszuwählen.
+HelpMessage[11]=Eingabetaste, um Server auszuwählen.
+HelpMessage[12]=Eingabetaste, um Server auszuwählen.
+HelpMessage[13]=Eingabetaste, um Server auszuwählen.
+HelpMessage[14]=Eingabetaste, um Server auszuwählen.
+HelpMessage[15]=Eingabetaste, um Server auszuwählen.
+HelpMessage[16]=Eingabetaste, um Server auszuwählen.
+HelpMessage[17]=Eingabetaste, um Server auszuwählen.
+HelpMessage[18]=Eingabetaste, um Server auszuwählen.
+HelpMessage[19]=Eingabetaste, um Server auszuwählen.
+
+[GESBioRifle]
+PickupMessage="Du hast das GESBioGewehr"
+ItemName=GES Bio Gewehr
+DeathMessage=%o hat %ks grünen Schleim geschluckt. 
+
+[UnrealDMGameOptionsMenu]
+HelpMessage[3]="Anzahl Frags, die für Sieg benötigt werden. Kein Limit: 0"
+HelpMessage[4]=Zeitlimit (in Minuten) für die Spieldauer. Kein Limit: 0
+HelpMessage[5]=Maximale Anzahl der Spieler im Spiel.
+HelpMessage[6]=Ist der Co-op-Waffenmodus aktiviert, erscheinen die Waffe wieder sofort, können von einem Spieler aber nur einmal aufgenommen werden.
+HelpMessage[7]=Konfiguration des Bot-Spiels.
+HelpMessage[8]=Wähle den Spielstil: Hardcore ist schneller, und die Waffen sind vernichtender als normal. Turbo ist wie Hardcore mit ultraschnellen Bewegungen.
+HelpMessage[9]=Klassische oder neue (waffenspezifische) Todesmeldungen.
+MenuList[3]=Frag-Limit
+MenuList[4]=Zeitlimit
+MenuList[5]=Max. Spieler
+MenuList[6]=Co-op Waffenmodus
+MenuList[7]=Anzahl Bots
+MenuList[8]=Bots konfigurieren
+MenuList[9]=Bots im Mehrspieler
+
+[Amplifier]
+ExpireMessage=Verstärker hat keine Energie.
+PickupMessage=Du hast den Energieverstärker
+
+[SearchLight]
+PickupMessage=Suchlicht aufgenommen.
+
+[SCUBAGear]
+PickupMessage=Tauchausrüstung aufgenommen
+
+[UnrealNewGameMenu]
+HelpMessage[1]=Touristenmodus
+HelpMessage[2]=Bereit für ein wenig Action!
+HelpMessage[3]=Nichts für schwache Nerven.
+HelpMessage[4]=Absolut UNREAL
+MenuList[1]=LEICHT
+MenuList[2]=MITTEL
+MenuList[3]=SCHWER
+MenuList[4]=UNREAL
+
+[Stinger]
+PickupMessage=Du hast die Stinger
+
+[RazorAmmo]
+PickupMessage=Razor-Klingen aufgenommen
+
+[RocketCan]
+PickupMessage=12 Achtkugeln
+
+[ShellBox]
+PickupMessage=50 Patronen aufgenommen
+
+[VoiceBox]
+PickupMessage=Soundfeld aufgenommen
+
+[UnrealSaveMenu]
+CantSave=TOTE KÖNNEN NICHT SPEICHERN
+MenuTitle=SPEICHERN
+
+[Seeds]
+PickupMessage=Nali-Fruchtsamen aufgenommen
+
+[RifleAmmo]
+PickupMessage=8 Kampfgewehr-Patronen aufgenommen
+
+[FlakBox]
+PickupMessage=10 Flak-Geschosse aufgenommen
+
+[Flare]
+PickupMessage=Leuchtkörper aufgenommen
+
+[JumpBoots]
+ExpireMessage=Sprungstiefel sind verbraucht
+PickupMessage=Du hast die Sprungstiefel
+
+[WeaponPowerUp]
+PickupMessage=Powerup für Dispersionspistole aufgenommen
+
+[Razorjack]
+PickupMessage=Du hast den RazorJack
+ItemName="Razorjack"
+DeathMessage="%k riß mit %w blutige Stücke aus %o."
+
+[ForceField]
+M_NoRoom=Kein Platz, um Kraftfeld zu aktivieren.
+PickupMessage=Kraftfeld aufgenommen
+
+[ASMDAmmo]
+PickupMessage=ASMD-Kern aufgenommen
+
+[ShieldBelt]
+PickupMessage=Du hast die Tarnung
+
+[UnrealTeamGameOptionsMenu]
+HelpMessage[10]="Prozentsatz an Schaden durch Team-Treffer. Denke daran, daß Du durch eigene Waffen immer vollen Schaden nimmst."
+MenuList[10]=Skala 'Schäden durch Team-Treffer'
+HelpMessage[9]= Prozentsatz an Schaden durch Team-Treffer. Denke daran, daß Du durch eigene Waffen immer vollen Schaden nimmst.
+MenuList[9]= Skala 'Schäden durch Team-Treffer'
+
+[OKMenu]
+OKString=[OK]
+
+[StingerAmmo]
+PickupMessage=40 Tarydium-Scherben aufgenommen
+
+[UpgradeMenu]
+MenuList[1]=Du benötigst eine neuere Version von Unreal, um auf diesem Server spielen zu können. Möchtest Du auf einer Unreal-Website nach einer neuen Version suchen?
+
+[Sludge]
+PickupMessage=25 Einheiten Tarydium-Schlamm aufgenommen
+
+[Invisibility]
+ExpireMessage=Tarnung verbraucht
+PickupMessage=Tarnung aufgenommen
+
+[ToxinSuit]
+PickupMessage=Du hast den antitoxischen Anzug
+
+[Shells]
+PickupMessage=15 Patronen aufgenommen
+
+[RifleRound]
+PickupMessage=Kampfgewehr-Patrone aufgenommen
+
+[QuadShot]
+PickupMessage=Viererschuß aufgenommen
+
+[PowerShield]
+PickupMessage=Kraftfeld aufgenommen
+
+[Dampener]
+ExpireMessage=Schalldämpfer verbraucht
+PickupMessage=Schalldämpfer aufgenommen
+
+[KevlarSuit]
+PickupMessage=Kugelsichere Weste aufgenommen
+
+[FlakShellAmmo]
+PickupMessage=Flak-Geschoß aufgenommen
+
+[Fell]
+Name=gefallen
+AltName=gefallen
+
+[Drowned]
+Name=ertrunken
+AltName=ertrunken
+
+[Decapitated]
+Name=geköpft
+AltName=enthauptet
+
+[Corroded]
+Name=verätzt
+AltName=verschleimt
+
+[Clip]
+PickupMessage=Clip aufgenommen
+
+[Burned]
+Name=geröstet
+AltName=flambiert
+
+[SuperHealth]
+PickupMessage=Maximale Heilung aufgenommen
+
+[Bandages]
+PickupMessage=Einige Pflaster aufgenommen +
+
+[AsbestosSuit]
+PickupMessage=Asbestanzug aufgenommen
+
+[Armor]
+PickupMessage=Rüstung aufgenommen
+
+[UnrealOrderMenu]
+OrderText[0]=Diese Shareware-Version von Unreal ist nur ein kleiner Vorgeschmack darauf, was Dich in der Vollversion von Unreal erwartet.
+OrderText[1]=In USA and Canada call  TOLL-FREE 1-877-4UNREAL  (1-877-486-7325) to Order Unreal NOW.
+OrderText[2]=Die Vollversion von Unreal enthält:
+OrderText[3]=- Mehr als 30 unglaubliche Level für Einzelspieler
+OrderText[4]=- 11 speziell entworfene Multiplayer-Karten
+OrderText[5]=- Alle zehn Waffen mit jeweils 2 Feuermodi und manchmal sogar mit Spezialbewegungen!  
+OrderText[6]=- Mehr als 30 einfach unwirkliche Wesen
+OrderText[7]=- Entdecke unzählige neue Inventarobjekte
+OrderText[8]=- Verschiedene Spielvarianten per Internet, LAN und für Einzelspieler im BotMatch: Darkmatch, Deathmatch, König des Hügels, Teamspiel und Ko-op
+OrderText[9]=- Wähle aus 6 verschiedenen Spilertypen mit unterschiedlichen Hautsformen.
+OrderText[11]=Außerdem erhältst Du eine voll funktionsfähige ** Beta-Version des Unreal-Editors:
+OrderText[12]=- Wahrscheinlich das benutzerfreundlichste 3D-Level-Designtool aller Zeiten!
+OrderText[13]=- Verwendet konstruktive Solid Geometry - erstellt Räume durch das Zurechtschneiden solider Formen
+OrderText[14]=- Erlaubt Dir den Import eigener Texturen, Objekte, Musik und Soundeffekte in gängigen Dateiformaten wie WAV, DXF, BMP etc.
+OrderText[15]=- Erstelle Deine eigenen Karten, oder ändere die vorhandenen nach Deinen Wünschen 
+OrderText[16]=- Mit UnrealScript, der vollintegrierten Objekt-orierten Programmiersprache, in der wir das Unreal-Gameplay geschaffen haben.
+OrderText[17]=- Verteile Deine Karten über das Internet an Mitspieler 
+OrderText[19]=Und Du erhältst die kompletten Unreal Server- und Internetspiel-Funktionen
+OrderText[20]=- Leite Deinen eigenen dedizierten Unreal Server
+OrderText[21]=- Oder lasse als nicht-dedizierter Server andere an deinem Sopiel teilnehmen
+OrderText[22]=- Unterhalte auf Deinen Unreal Lobby-Leveln Links mit anderen Unreal Servern und World Wide Websites*, die wie 3D-Webseiten aussehen
+OrderText[23]=* Web Linking über Unreal Level erfordert einen von Unreal unterstützten Web-Browser.
+OrderText[24]=Du erhältst Unreal bei Deinem Softwarehändler oder direkt bei Epic MegaGames. Und so bestellst Du bei Epic... 
+OrderText[25]=Kreditkartenbestellungen kannst Du direkt auf der geschützten Bestellseite unserer Website vornehmen  - http://www.epicgames.com/UnrealOrders  
+OrderText[26]=USA / Canada
+OrderText[27]=Unreal is $39.95 US dollars includes shipping & handling
+OrderText[29]=Or order from our secure ordering page at http://www.epicgames.com/UnrealOrders
+OrderText[30]=Großbritannien & Europa
+OrderText[32]=Andere Staaten
+OrderText[34]=Unsere Online-Partner
+OrderText[35]=Besuche auch die Websites und Unreal-Spielserver unserer wunderbaren Online-Partner:
+OrderText[37]=Leute, die Unreal auf eine völlig neue Ebene der Unwirklichkeit versetzen.
+OrderText[38]=WON.NET - Das World Opponent Network ist der leichteste Weg in ein KOSTENLOSES Unreal Deathmatch über das Internet. Mit IE4.0 oder Netscape 4.0 erwartet Dich KOSTENLOSES Fragging unter http://www.won.net/unreal.
+OrderText[39]=Mach mit bei Unreal mit Leveldesign-Wettbewerben, Message Boards, Links, minimalen Pingzeiten, neuen Oberflächen und Leveln und KOSTENLOSEM Online-Spiel... Unreal bei WON.
+OrderText[41]=Wireplay gibt es derzeit in Europa und Australien. Weitere Infos erhältst Du unter http:// www.wireplay.com/uk/unreal
+OrderText[43]=http://www.heat.net - kostenloses Internet-Gaming.
+OrderText[44]=AT&T WorldNet - Spiele Unreal auf AT&T's GameHub Server-über eine T3-Stabdleitung direkt auf AT&T WorldNet's Backbone - für schnelle und zuverlässige Verbindungen.
+OrderText[45]=www.gamehub.net/unreal  GameHub - der komplette Internet Gaming Dienst: Chat Rooms, E-Mail, Online-Spielmagazine, Turniere und die besten Multiplayer-Online-Games.
+OrderText[46]=GameSpy 3D ist ein Internet Service Browser und findet im gesamten Netz die besten Server für Unreal mit der schnellsten Verbindung zu Deinem Computer.
+OrderText[47]=Just fire it up, pick a game you want to play, double-click, and wham!  You're kicking some Internet butt!  http://www.gamespy.com for more information.
+OrderText[48]=Bestelle coole Unreal Merchandise 
+OrderText[49]=Unter http://www.epicgames.com/UnrealOrders findest Du die coolen Unreal-Sachen, die Du direkt bei Epic MegaGames bestellen kannst - Mützen, Shirts, Mauspads, Becher, Poster und mehr zu äußerst günstigen Preisen. 
+OrderText[50]=Sonderangebote 
+OrderText[51]=Von Zeit zu Zeit gibt es bei Epic MegaGames Sonderangebote aus Unreal-Softwareprodukten und/oder Unreal-Merchandise. Unter http://www.unreal.com  findest Du die neusten Infos und Preise.  
+MenuTitle=BESTELLINFO
+
+[UnrealHUD]
+IdentifyName=Name
+IdentifyHealth=Gesundheit
+
+[Queen]
+NameArticle=" die "
+
+[Warlord]
+NameArticle=" der "
+
+[UnrealCoopGameOptions]
+Difficulties[0]=Einfach
+Difficulties[1]=Mittel
+Difficulties[2]=Schwierig
+Difficulties[3]=Unwirklich
+HelpMessage[3]=Leveleinstellung.
+MenuList[3]=Schwierigkeit
+
+[naliplayer]
+MenuName="Nali"
+
+[SkaarjPlayer]
+MenuName=Skaarj
+
+[MaleOne]
+MenuName=Männlich 1
+
+[FemaleTwo]
+MenuName="Weiblich 2"
+
+[MaleTwo]
+MenuName=Männlich 2
+

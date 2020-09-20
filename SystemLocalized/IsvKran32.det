@@ -1,0 +1,86 @@
+[TranslatorEvent9]
+Message=Hauptmaschinenraum wurde durch Kraftfeld abgeriegelt. Vor Betreten des Maschinenraums 
+muß Kraftfeldgenerator zerstört werden 
+
+[TranslatorEvent6] 
+Message=Die erste Welle der Skaarj wurde aufgehalten. Ich bezweifle, ob sie durch die Lüftungsschächte in den Hauptteil des Schiffes gelangen können. Wir ziehen uns auf Deck 1 zurück und riegeln den Hauptmaschinenraum mit einem Kraftfeld ab.
+
+[TranslatorEvent34]
+Message=KÜHLSYSTEM STATUS: KÜHLMITTEL AUSGETRETEN IM AUFFANGRAUM DER UNTEREN EBENE. MANUELLE EINGABE DURCH UNBEFUGTE ABGELEHNT.
+
+[TranslatorEvent27]
+Message= SCANNINGSTATION 2: Primitive Bauwerke sind auf der Planetenoberfläche zu sehen. Entdeckt wurde auf einem am Himmel schwebenden Felsen eine Stadt mit höheren Technologien. Ein Obelisk in dieser Stadt ist offenbar eine Energiequelle.
+
+[TranslatorEvent26]
+Message=SCANNINGSTATION 1: Auf Nahaufnahmen der Planetenoberfläche ist ein großes, außerirdisches Raumschiff zu erkennen. Das Schiff paßt zur Beschreibung eines Schiffes, das beim Eintauchen in die Atmosphäre des beobachtet wurde.
+
+[TranslatorEvent24]
+Message=BIOSCHUTZANZUG-KONTROLLSTATION: SYSTEMAUSFALL: ENERGIE WIRD VON EINDRINGLINGEN AUF DECK 1 UMGELEITET.
+
+[TranslatorEvent35]
+Hint= KÜHLSYSTEM STATUS: SYNTAXFEHLER? INKORREKTE AUTORISATION.
+
+[TranslatorEvent23]
+Message=ACHTUNG: TRIEBWERKKÜHLMITTEL AUSGELAUFEN IN DER UNTERSTEN EBENE DIESES BEREICHS
+
+[TranslatorEvent22]
+Message=ACHTUNG: KRAFTFELDGENERATORKERN FREIGELEGT: DIESER KERN IST HOCHEXPLOSIV - VOR DEM ABFEUERN VON WAFFEN ZURÜCKTRETEN.
+
+[TranslatorEvent21]
+Message= ACHTUNG: KRAFTFELDGENERATORKERN FREIGELEGT: DIESER KERN IST HOCHEXPLOSIV - VOR DEM ABFEUERN VON WAFFEN ZURÜCKTRETEN.
+
+[TranslatorEvent20]
+Message= KRAFTFELDGENERATORKERNE HOCHEXPLOSIV: ALLE WAFFEN MÜSSEN GESICHERT WERDEN.  
+
+[TranslatorEvent18]
+Message=: NOTKRAFTFELD AKTIVIERT. GOLDENE KERNE VOM KRAFTFELDGENERATOR MÜSSEN ZERSTÖRT WERDEN, UM DIESES KRAFTFELD ZU DEAKTIVIEREN. 
+AltMessage=HAUPTMASCHINENRAUM: EINDRINGLINGE ENTDECKT, MIT VORSICHT VORGEHEN. 
+
+[TranslatorEvent14]
+Message=KÜHLSYSTEM-NOTENTWÄSSERUNGSVENTIL AKTIVIERT.
+
+[TranslatorEvent4]
+Message=Shuttle Hauptdeck: Logbucheintrag des Dockmeisters Ivan Romanov, 2. Offizier ISV-KRAN. Die Steuerung der Dockluken  kann mit Hilfe einer Automatikabschaltung in einem der Zugangsrohre reaktiviert werden.
+
+[TranslatorEvent3]
+Message=Shuttle Hauptdeck: Logbucheintrag des Dockmeisters Ivan Romanov, 2. Offizier ISV-KRAN. Ich habe die Dockluken mit einem Team von Laserschweißern zusammengeschweißt. Mir kommen keine Außerirdische in mein Shuttledeck. 
+
+[TranslatorEvent16]
+Message= KÜHLSYSTEME NOTPUMPE AKTIVIERT.
+
+[TranslatorEvent17]
+Message=ACHTUNG: KÜHLMITTELÜBERLAUF. VOR DEM BETRETEN DIESES BEREICHS MUSS DIE NOTPUMPE UND DAS NOTENTWÄSSERUNGSVENTIL AKTIVIERT WERDEN.
+AltMessage=KÜHLMITTELNOTPUMPE AKTIVIERT. KRAFTFELDSYSTEME WERDEN VON AUSSERIRDISCHEN EINDRINGLINGEN UMGELEITET.
+
+[TranslatorEvent8]
+Message= Shuttle Hauptdeck. Automatikabschaltung 
+AltMessage= Shuttle Hauptdeck Docklukensteuerung jetzt voll einsatzbereit - Umleitung erfolgreich 
+
+[TranslatorEvent11]
+Message=INBETRIEBNAHME VOM HAUPT-TURBOLIFT ERFORDERT VOLLE TRIEBKRAFT.
+AltMessage= HAUPT-TURBOLIFT. ENERGIE WIEDERHERGESTELLT- ACHTUNG: ZUM BELADEN TRITT EINE ZWEI SEKUNDEN LANGE SICHERHEITSVERZÖGERUNG IN KRAFT	
+
+[TranslatorEvent31]
+Message=ISV-KRAN DECK 3 STATUS: UNBEKANNTE EINDRINGLINGE VERSUCHEN, HAUPTTRIEBKRAFT UMZULEITEN. TRIEBKRAFT-KAPAZITÄT 75%.
+
+[TranslatorEvent32]
+Message=SCANNINGSTATION 1. Ein außerirdisches Raumschiff wurde beobachtet, als es in die Atmosphäre eintauchte und wieder austrat. Das Schiff landete in einem nördlichen Tal in der Nähe von Gewitterstürmen.
+
+[TranslatorEvent30]
+Message=HAUPTTRIEBWERK DIAGNOSTIKPANEEL. VERFÜGBARE TRIEBWERKLEISTUNG 75%. KÜHLMITTELLECK IN KRAFTFELDGENERATOR LOKALISIERT. LETZTER VERSUCH, ENERGIE UMZULEITEN ERFOLGLOS.
+
+[TranslatorEvent29]
+Message=ISV-KRAN TRIEBWERKSTATUS - OFFLINE. SCHADENSBERICHT: SCHÄDEN MINIMAL. LEBENSERHALTENDE SYSTEME ONLINE. DECK 1 ENERGIEPEGEL VOLL. SCHIFFSRUMPF AM AUSSICHTSSALON DURCHBROCHEN. 
+
+[TranslatorEvent28]
+Message=KRAFTFELDGENERATOR ONLINE. GOLDENE REAKTORKERNE INSTABIL DURCH ÜBERMÄSSIGE BELASTUNG BEIM ABRIEGELN DES MASCHINENRAUMS. BEI ZERSTÖRUNG VON GOLDENEN REAKTORKERNEN WERDEN KRAFTFELDER VOM HAUPTMASCHINENRAUM DEAKTIVIERT.
+
+[TranslatorEvent5]
+Message= Zur Aktivierung dieser Schalttafel ist eine Umleitung erforderlich. 
+
+[TranslatorEvent10]
+Message=Die Skaarj haben den Bereich um das Dock infiltriert. Wir werden uns auf Deck1 zurückziehen und dort eine behelfsmäßige Hochspannungsabsperrung improvisieren. Dort müßten wir in Sicherheit sein. 
+
+[LevelInfo2]
+Title=ISV-KRAN Deck 3 und 2
+LevelEnterText=Eingang ISV-KRAN Deck 3

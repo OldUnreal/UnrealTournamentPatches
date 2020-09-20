@@ -1,0 +1,22 @@
+﻿[LevelInfo0]
+Title="Luna Fobos"
+IdealPlayerCount="4-8"
+
+[ZoneInfo5]
+ZoneName="Espacio Exterior"
+
+[ZoneInfo7]
+ZoneName="Central"
+
+[ZoneInfo6]
+ZoneName="Ascensor 1"
+
+[ZoneInfo8]
+ZoneName="Pasillo de las Escaleras"
+
+[ZoneInfo9]
+ZoneName="Pasillo de Metralla"
+
+[LevelSummary]
+Title="Luna Fobos"
+IdealPlayerCount="4-8"

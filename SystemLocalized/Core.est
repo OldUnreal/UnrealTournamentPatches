@@ -1,0 +1,100 @@
+﻿[Public]
+Preferences=(Caption="Sistema de Archivos",Parent="Avanzado",Class=Core.System,Immediate=True)
+Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
+
+[Language]
+Language="Español"
+LangId=10
+SubLangId=0
+
+[Query]
+OldVersion="El archivo %s ha sido guardado con una versión anterior que no es compatible con ésta. Es posible que no pueda leerse o que el ordenador se bloquee. ¿Quieres intentarlo de todos modos?"
+Name="Nombre:"
+Password="Contraseña:"
+PassPrompt="Introducir nombre de usuario y contraseña:"
+PassDlg="Comprobación de identidad"
+Overwrite="El archivo ''%s'' tiene que ser actualizado. ¿Actualizar la versión existente?"
+
+[Progress]
+Saving="Guardando el archivo %s..."
+Loading="Cargando el archivo %s..."
+Closing="Cerrando"
+
+[HelloWorldCommandlet]
+HelpCmd=HelloWorld
+HelpOneLiner="Ejemplo"
+HelpUsage="HelloWorld (sin parámetros)"
+HelpParm[0]="ParamEnt"
+HelpParm[1]="ParamCad"
+HelpDesc[0]="Un parámetro de número entero."
+HelpDesc[1]="Un parámetro de cadena de texto."
+
+[Errors]
+Unknown="Error Desconocido"
+Aborted="Cancelado"
+ExportOpen="Error al exportar %s: no se ha podido leer el archivo ''%s''"
+ExportWrite="Error al exportar %s: no se ha podido escribir en el archivo ''%s''"
+FileNotFound="No se ha podido hallar el archivo ''%s''"
+ObjectNotFound="No se ha podido hallar el objeto ''%s %s.%s''"
+PackageNotFound="No se ha podido hallar el archivo para el paquete ''%s''"
+PackageResolveFailed="No se ha podido resolver el nombre del paquete"
+FilenameToPackage="No se ha podido convertir el nombre del archivo ''%s'' al nombre del paquete"
+Sandbox="El paquete ''%s'' no está disponible en este entorno protegido"
+PackageVersion="Versión errónea del paquete ''%s''"
+FailedLoad="No se ha podido cargar ''%s'': %s"
+ConfigNotFound="No se ha podido encontrar ''%s'' en el archivo de configuración"
+LoadClassMismatch="%s no es una subclase de %s.%s"
+NotDll="''%s'' no es un paquete DLL; no se ha podido encontrar la exportación ''%s''"
+NotInDll="No se ha podido encontrar ''%s'' en ''%s.dll''"
+FailedLoadPackage="No se ha podido cargar el paquete: %s"
+FailedLoadObject="No se ha podido cargar ''%s %s.%s'': %s"
+TransientImport="Objeto transitorio importado: %s"
+FailedSavePrivate="No se puede guardar %s: El grafo está enlazado a un objeto privado externo %s"
+FailedImportPrivate="No se puede importar el objeto privado %s %s."
+FailedCreate="No se ha encontrado %s %s para su creación"
+FailedImport="No se ha podido encontrar %s en el archivo ''%s''"
+FailedSaveFile="Error al guardar el archivo ''%s'': %s"
+SaveWarning="Error al guardar ''%s''"
+NotPackaged="El objeto no está en el paquete: %s %s"
+NotWithin="Objeto %s %s creado en %s en lugar de %s"
+Abstract="No se puede crear el objeto %s: la clase %s es abstracta"
+NoReplace="No se puede sustituir %s por %s"
+NoFindImport="No se ha podido encontrar el archivo ''%s'' para su importación"
+ReadFileFailed="No se ha podido leer el archivo ''%s'' para su importación"
+SeekFailed="Error al buscar el archivo"
+OpenFailed="Error al abrir el archivo"
+WriteFailed="Error al escribir en el archivo"
+ReadEof="Lectura más allá del final de archivo"
+IniReadOnly="El archivo %s está protegido contra escritura; no se puede guardar la configuración"
+UrlFailed="No se ha podido iniciar el URL"
+Warning="Advertencia"
+Question="Pregunta"
+OutOfMemory="Memoria virtual agotada. Para evitar que esto suceda, se debe liberar más espacio en el disco duro principal."
+History="Historial"
+Assert="Aserción fallida: %s [Archivo: %s] [Línea: %i]"
+Debug="Aserción de depuración fallida: %s [Archivo: %s] [Línea: %i]"
+LinkerExists="El enlazador para ''%s'' ya existe"
+BinaryFormat="El archivo ''%s'' contiene datos irreconocibles"
+SerialSize="%s: Tamaño de serie erróneo: Obtenido %i, Esperado %i"
+ExportIndex="Índice de exportación incorrecto %i/%i"
+ImportIndex="Índice de importación incorrecto %i/%i"
+Password="Contraseña desconocida"
+Exec="Comando desconocido"
+BadProperty="''%s'': Propiedad ''%s'' incorrecta o no disponible"
+MisingIni="Archivo .ini no disponible: %s"
+ExportFail="Error al exportar %s"
+
+[General]
+Product="Unreal Tournament"
+Engine="Motor de Unreal"
+Copyright="Copyright 1999 Epic Games, Inc."
+True="Verdadero"
+False="Falso"
+None="Ninguno"
+Yes="Sí"
+No="No"
+
+[SimpleCommandlet]
+HelpCmd=Simple
+HelpOneLiner="Simple"
+HelpUsage="Simple"

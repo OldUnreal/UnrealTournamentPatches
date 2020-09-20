@@ -1,0 +1,64 @@
+[LevelInfo0]
+Title=Terraniux
+
+[TranslatorEvent1]
+Message= Sektion A: Status voll. Biomüll Umleitung nach Sektion B aktiv. 
+
+[TranslatorEvent3]
+Message= Kontrollraum Status: Unter Druck gesetzt und gesperrt. Zutritt nur im Notfall. 
+
+[TranslatorEvent4]
+message=Sicherheitsstatus: Eindringling am Eingang entdeckt. Aktiviere Schutzschirme von Forschungslabor und Hydroponiksektion. Alle Sicherheitskräfte zu den Zugangspunkten in Sektionen A, B und C, um Zugang zu Lift 1 zu verhindern.
+Hint= Die Auffangräume A, B und C suchen, und dort die Knöpfe aktivieren, um Zugang zu Lift 1 zu bekommen.
+
+[TranslatorEvent5]  
+message= Abpumpstatus: Biomüll Durchflußmenge innerhalb der Toleranzen. Alle Pumpen in Betrieb. Sektion C  ist leer und kann etwaigen Biomüll-Überlauf aufnehmen. Bitte auf regelmäßige Wartung der Rohre achten.
+
+[TranslatorEvent0]
+Message=Sektion B: Status 48% voll.
+
+[TranslatorEvent10]
+Message= Gewächshaus B: Bitte prüfen, ob der Biomüll durch die Filter im Kontrollraum gepumpt wird, und ob keine Fremdkörper den Fluß blockieren. 
+
+[TranslatorEvent12]
+Message= Gewächshaus B: Bitte prüfen, ob der Biomüll durch die Filter im Kontrollraum gepumpt wird, und ob keine Fremdkörper den Fluß blockieren.
+
+
+[TranslatorEvent11]
+Message=Gewächshaus B: Die Karkilys Zegnus brauchen mehr Nahrungslösung. Bitte eine Wachmannschaft entsenden, um die Häuser der Nali im Noork Ellbogen zu kontrollieren. Die Genehmigung zur Ausschiffung muß im Kontrollraum geholt werden. 
+
+[TranslatorEvent9]
+message=Gewächshaus A: Sektion A voll. Biomülldurchfluß vom Kontrollraum aus umleiten. Sektion B der Müllanlage hat freie Kapazitäten. Bitte darauf achten, die Wasserversorgung regelmäßig auf Unreinheiten hin zu kontrollieren.
+Hint=Der Biomüll wird im Kontrollraum gefiltert.
+
+[TranslatorEvent8]
+message=Zutritt verweigert. Zugangsgenehmigung für Kontrollraum muß erteilt werden, um Zutritt in Noork Ellbogen zu bekommen.
+AltMessage=Zutritt erteilt.
+Hint=Wenn du durch den Biomüll nach unten schwimmst, kannst du in den Kontrollraum gelangen.
+
+[TranslatorEvent2]
+Message= Sektion C: Status leer, dieses Auffangbecken ist defekt. Bitte keinen Biomüll hierherschicken, bis wir es reparieren können.
+
+[TranslatorEvent6]
+message=Lift 1: Sicherheitsschloß, Zutritt verweigert. Pumpen des Auffangbeckens müssen vor Eintritt in die Hydroponik-Gewächshäuser in Betrieb sein.
+AltMessage=Lift 1: Status im Betrieb. Zutritt zu den Hydroponik-Gewächshäusern gestattet.
+
+[TranslatorEvent7]
+message=Lift 1: Sicherheitsschloß, Zutritt verweigert. Pumpen des Auffangbeckens müssen vor Eintritt in die Hydroponik-Gewächshäuser in Betrieb sein.
+AltMessage=Lift 1: Status im Betrieb. Zutritt zu den Hydroponik-Gewächshäusern gestattet.
+
+[TranslatorEvent13]
+message=Kontrollraum, ZUTRITT VERWEIGERT
+Hint=Du mußt einen anderen Weg finden, um in diesen Raum zu gelangen.
+
+[TranslatorEvent14]
+Message= Zutritt verweigert. Zugangsgenehmigung für Kontrollraum muß erteilt werden, um Zutritt in Noork Ellbogen zu bekommen.
+
+[Trigger46]
+Message= Zugangsraum- Sicherheitschlösser gelöst.
+
+[Trigger32]
+Message= Lift nach Noork Ellbogen aktiviert.
+
+[TranslatorEvent15]
+Message=Pumpe aktiviert, Biomüll nach Sektion B befördert.

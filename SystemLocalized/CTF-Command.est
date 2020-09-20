@@ -1,0 +1,16 @@
+﻿[LevelInfo0]
+Title="El Último Comando"
+IdealPlayerCount="6-8"
+
+[ZoneInfo2]
+ZoneName="Base Azul"
+
+[ZoneInfo1]
+ZoneName="Base Roja"
+
+[ZoneInfo0]
+ZoneName="Área Central"
+
+[LevelSummary]
+Title="El Último Comando"
+IdealPlayerCount="6-8"

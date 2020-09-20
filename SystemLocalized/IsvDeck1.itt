@@ -1,0 +1,38 @@
+[TranslatorEvent11]
+Message=TRASPORTATORE DI EMERGENZA ATTIVO E TARATO SULLE COORDINATE DEL VILLAGGIO NALI A 5 KM DALLA MONTAGNA A FORMA DI CUPOLA.
+
+[TranslatorEvent8]
+Message=ESCLUSORE DEL CAMPO DI SICUREZZA DEL PONTE: ATTIVO
+AltMessage=ESCLUSORE DEL CAMPO DI SICUREZZA DEL PONTE: INATTIVO
+
+[TranslatorEvent9]
+Message=ACCESSO AL PONTE NEGATO: CAMPO DI FORZA ATTIVO: L'ESCLUSORE SI TROVA NELL'OSSERVATORIO 
+AltMessage=ACCESSO AL PONTE PERMESSO: CAMPO DI FORZA SPENTO
+
+[TranslatorEvent6]
+Message=Ponte 1 della ISV-KRAN: diario del Capitano Michail Leatham. Non c'è modo di ucciderli tutti: ci sono semplicemente troppi Skaarj per le munizioni rimaste.
+
+[TranslatorEvent4]
+Message=ALLARME: TUTTO L'EQUIPAGGIO RAGGIUNGA IL PONTE 4: LA NAVE È STATA INFILTRATA DA SOLDATI SKAARJ.
+
+[TranslatorEvent3]
+Message=PONTE 1 DELLA ISV-KRAN: ATTENZIONE - BARRIERA DA 85000 VOLT PRESSO IL LABORATORIO DI RICERCA. L'ENERGIA VIENE DA TRE SALE CONTROLLO DEI TRASFORMATORI
+AltMessage=PONTE 1 DELLA ISV-KRAN: BARRIERA ELETTRICA DISATTIVATA.
+
+[TranslatorEvent2]
+Message=Ponte 1 della ISV-KRAN: diario del Capitano Michail Leatham. Gli attacchi Skaarj ci hanno costretto a ripiegare nel Laboratorio di Ricerca. Abbiamo attivato una barriera elettrica di fortuna che ha ucciso 40 dei loro. Ma ne restano ancora 20.
+
+[TranslatorEvent0]
+Message=ISV-KRAN: CAMPIONI DEL LABORATORIO SCIENTIFICO: ho scoperto che queste amebe amorfe hanno un alto tasso di acido. La struttura della loro base genetica è incredibile.  Tatiana Zimna - Capo ufficiale medico 
+
+[TranslatorEvent7]
+Message=PONTE 1 DELLA ISV-KRAN: ALLARME - TRABOCCO DI REFRIGERANTE. TUBI FESSURATI. EVACUATE SUBITO LA NAVE.
+
+[TranslatorEvent12]
+Message=ISTRUZIONI DEL TRASPORTATORE DI EMERGENZA: SALITE SULLA PEDANA OTTAGONALE E IL SISTEMA SI ATTIVERÀ AUTOMATICAMENTE 
+
+[TranslatorEvent1]
+Message=ATTENZIONE: LE PORTE DEL LABORATORIO E I CAMPI DI TENUTA DEL MATERIALE SONO IN AVARIA. DOPO L'ATTIVAZIONE CI SARÀ UN RITARDO DI RILASCIO DI 30 SECONDI.
+
+[LevelInfo0]
+Title=PONTE 1 DELLA ISV-KRAN

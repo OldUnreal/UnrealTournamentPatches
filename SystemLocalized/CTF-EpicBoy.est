@@ -1,0 +1,37 @@
+﻿[LevelInfo0]
+Title="Niño Épico"
+IdealPlayerCount="6-10"
+
+[LevelSummary]
+Title="Niño Épico"
+IdealPlayerCount="6-10"
+
+[ZoneInfo0]
+ZoneName="Patio"
+
+[ZoneInfo1]
+ZoneName="Entrada Lateral Azul"
+
+[ZoneInfo2]
+ZoneName="Sala de Redentor Azul"
+
+[ZoneInfo3]
+ZoneName="Corredizo Inferior Azul"
+
+[ZoneInfo4]
+ZoneName="Base de Bandera Azul"
+
+[ZoneInfo5]
+ZoneName="Corredizo Superior Azul"
+
+[ZoneInfo6]
+ZoneName="Entrada Lateral Roja"
+
+[ZoneInfo8]
+ZoneName="Corredizo Superior Rojo"
+
+[ZoneInfo9]
+ZoneName="Base de Bandera Roja"
+
+[ZoneInfo10]
+ZoneName="Sala Inferior Roja"

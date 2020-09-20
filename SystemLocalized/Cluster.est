@@ -1,0 +1,42 @@
+﻿;
+; Language:  Spanish
+; Author(s): Sebastian Kaufel (original) - Luciano "Neon_Knight" Balducchi (spanish)
+; Date:      20200609
+;
+[Public]
+Object=(Name=Cluster.ClusterAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem)
+Preferences=(Caption="Soporte de Sonido 3D Cluster",Parent="Sonido",Class=Cluster.ClusterAudioSubsystem,Immediate=True)
+
+[ClusterAudioSubsystem]
+; User facing name (used in startup wizard list, preferences, etc.).
+ClassCaption="Soporte de Sonido 3D Cluster"
+; User facing desciption (intended to be used in startup wizard for a detailed description instead of Startup.int:Descriptions.<Package>.<Object>).
+ClassDescription="Cluster está diseñado para ser un sustituto de similar sonoridad al antiguo Audio Galaxy 3D."
+
+[General]
+; Serialized to log on init.
+Init="Cluster inicializado."
+; Serialized to log on exit.
+Exit="Cluster apagado."
+; Serialized to log on exit after error.
+ExitAfterError="Cluster apagado tras error."
+; Serialized to log on init in case -No3dSound switch was used on the commandline which forces Use3dHardware option to be ignored.
+No3dSoundSwitch="Ejecutando con parámetro -No3dSound. La opción de Usar Hardware 3D será ignorada por Cluster."
+; Cluster will use some heuristics to determine whether it should or should not patch the environment (won't patch if Launch is detected in Deus Ex, never on Unreal 227 or UT, etc.).
+ClusterFuck="Cluster ha inyectado parches binarios para la funcionalidad deficiente en el paquete Engine. Puede usar -NoClusterFuck para desactivarla."
+
+[Warnings]
+; Serialized to output device for each digital music command in case UseDigitalMusic is disabled.
+NoDigitalMusicCommand="Soporte de música digital desactivado según configuración."
+; Serialized to output device for each CD music command in case UseCDMusic is disabled.
+NoCDMusicCommand="Soporte de música por CD desactivado según configuración."
+; Serialized to log in case a non mono Sound is encountered. First format option is the FullName of the Sound and the second its number of channels.
+MonoSoundExpected="%s tiene %i canales."
+
+[Errors]
+; For some reasons FMOD fails straight ahead. First format option is an FMOD supplied english error description.
+SystemCreate="Falla al crear objeto de sistema FMOD: %s."
+; Displayed on a message box in case fmod.dll is available, Cluster.dll loads with it, but is a version prior to the one Cluster was build with.
+Version="Cluster necesita, como mínimo, la versión de librería FMOD %s, sin embargo se ha hallado %s."
+; For some reasons FMOD fails at basic init. First format option is an FMOD supplied english error description.
+SystemInit="Falla al inicializar el objeto de sistema FMOD: %s."

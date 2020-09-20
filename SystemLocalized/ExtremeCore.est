@@ -1,0 +1,37 @@
+[LevelInfo0]
+Title="Núcleo de Buque Escolta"
+
+[TranslatorEvent13]
+message="Suministro de Potencia de Emergencia, ACCESO DENEGADO: Suministro de Potencia Primario completamente funcional."
+Hint="Busca el Generador Central y destrúyelo para poder entrar en esta zona."
+
+[TranslatorEvent4]
+message="AVISO: Intruso armado detectado. Cierra todos los accesos a la Fuente y al Suministro de Potencia Primario. Es muy importante impedir que los intrusos entren en el Generador Central."
+AltMessage="ALERTA ROJA: Expuesta la Seguridad del Generador Central."
+
+[TranslatorEvent5]
+message="ALERTA DE SEGURIDAD: Todos los WarMasters dirigirse a las posiciones del Generador Central para asegurar su protección."
+AltMessage="Intruso detectado cerca del Generador Central. Debe mantenerse la seguridad del Generador Central. Se castigará la debilidad."
+
+[TranslatorEvent6]
+message="Debe mantenerse la seguridad del Generador Central. Cerradas las puertas de acceso hasta que se contenga el quebrantamiento de seguridad."
+AltMessage="Abierta la Puerta de Acceso al Núcleo "
+
+[TranslatorEvent10]
+AltMessage="Permitido el Acceso al Puesto de Seguridad."
+Hint="Dirígete al Puesto de Seguridad para entrar en el Suministro de Potencia Primario Generador Central."
+
+[TranslatorEvent11]
+message="ACCESO DENEGADO: El Intruso debe ser eliminado. Todos los WarMasters se desvían a esta zona cuando lleguen a la Fuente."
+Hint="Para entrar en esta zona, hay que matar a todos los Skaarj."
+
+[TranslatorEvent12]
+AltMessage="Estado CryoPods: Temperatura constante, Potencia a niveles nominales, sistemas de seguridad activos."
+
+[TranslatorEvent8]
+message=" Puesto de Seguridad, ACCESO DENEGADO"
+
+[TranslatorEvent9]
+message="Suministro de Potencia Primario, ACCESO DENEGADO"
+Hint="Las puertas pueden abrirse desde el panel de control en el Puesto de Seguridad."
+

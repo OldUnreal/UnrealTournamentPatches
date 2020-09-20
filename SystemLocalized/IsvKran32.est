@@ -1,0 +1,86 @@
+[TranslatorEvent9]
+Message=La ingeniería principal se ha sellado con un Campo de Contención. El Generado del Campo de Contención debe ser destruido antes de acceder a la ingeniería.
+
+[TranslatorEvent6]
+Message=Se ha aislado la primera oleada de Skaarj en la CUBIERTA4. No creo que puedan pasar por las tuberías y entrar en la Nave Principal. Retrocederemos a la Cubierta 1 y sellaremos la Ingeniería con un Campo de Fuerza de Contención.
+
+[TranslatorEvent34]
+Message=ESTADO DEL SISTEMA DE REFRIGERACIÓN: ESCAPE DE REFRIGERACIÓN EN NIVEL INFERIOR CENTRAL DE CONTENCIÓN. DENEGADO MANUAL INTRODUCIDO POR PERSONAL NO AUTORIZADO.
+
+[TranslatorEvent27]
+Message=Exploración de Superficie indica estructuras primitivas indígenas en la superficie del planeta.  Detectada una torre de alta tecnología en una roca en el cielo por algún tipo de fuerza. Fuentes de potencia emanan de un obelisco dentro de esta ciudad.
+
+[TranslatorEvent26]
+Message=Exploración de superficie a corto alcance indica lugar de gran nave espacial alienígena en la superficie del planeta que coincide con la descripción de la misma nave que se vio entrar y dejar el campo Taridio del planeta antes del arrastre orbital.
+
+[TranslatorEvent24]
+Message= ESTACIÓN DE CONTROL BIO SUIT: FALLO EN SISTEMA: POTENCIA DESVIADA POR INTRUSOS EN CUBIERTA 1.
+
+[TranslatorEvent35]
+Hint=ESTADO DE SISTEMA DE REFRIGERACIÓN: ¿ERROR SINTÁCTICO? AUTORIZACIÓN INCORRECTA.
+
+[TranslatorEvent23]
+Message=AVISO: ESCAPE DE REFRIGERACIÓN DE MOTORES EN LA SUPERFICIE MÁS BAJA DE ESTE ÁREA
+
+[TranslatorEvent22]
+Message=AVISO EXPUESTO NÚCLEO DE CONTENCIÓN: ESTE NÚCLEO ES ALTAMENTE EXPLOSIVO - MANTÉNGASE ALEJADO ANTES DE QUE DISPAREN LAS ARMAS.
+
+[TranslatorEvent21]
+Message= AVISO EXPUESTO NÚCLEO DE CONTENCIÓN: ESTE NÚCLEO ES ALTAMENTE EXPLOSIVO - MANTÉNGASE ALEJADO ANTES DE QUE DISPAREN LAS ARMAS.
+
+[TranslatorEvent20]
+Message=NÚCLEOS DE ENERGÍA DE CONTENCIÓN ALTAMENTE VOLÁTILES: TODAS LAS ARMAS HAN DE GUARDARSE EN LUGAR SEGURO.
+
+[TranslatorEvent18]
+Message=INGENIERÍA PRINCIPAL: ACTIVO CAMPO DE CONTENCIÓN DE EMERGENCÍA. LOS NÚCLEOS DE ORO DEL GENERADOR DEL CAMPO DE CONTENCIÓN DEBEN SER DESTRUIDOS ANTES DE QUE SE DESACTIVE ESTE CAMPO.
+AltMessage= INGENIERÍA PRINCIPAL: INTRUSOS DETECTADOS PROCEDER CON PRECAUCIÓN.
+
+[TranslatorEvent14]
+Message=ACTIVADA VÁLVULA DE DRENAJE DE EMERGENCIA DEL SISTEMA REFRIGERANTE.
+
+[TranslatorEvent4]
+Message=Bahía Lanzadera Primaria: Registro por el Segundo Oficial Dockmaster Ivan Romanov ISV-KRAN. El panel de control de las puertas del muelle pueden reactivarse con la anulación de uno de los tubos de Acceso.
+
+[TranslatorEvent3]
+Message= Bahía Lanzadera Primaria: Registro por el Segundo Oficial Dockmaster Ivan Romanov ISV-KRAN. He sellado la principal Escotilla Iris con un equipo soldador láser. Ningún capullo Alienígena va a entrar en mi bahía lanzadera.
+
+[TranslatorEvent16]
+Message=ACTIVADA BOMBA DE EMERGENCIA DEL SISTEMA REFRIGERANTE.
+
+[TranslatorEvent17]
+Message=AVISO: DESBORDAMIENTO EN REFRIGERACIÓN DE MOTORES. ANTES DE ENTRAR EN ESTE ÁREA DEBEN ACTIVARSE BOMBA DE EMERGENCIA Y VÁLVULA DE DRENAJE DEL SISTEMA REFRIGERANTE.
+AltMessage=ACTIVAS LAS BOMBAS REFRIGERANTES DE EMERGENCIA DEL MOTOR. SISTEMAS DE CAMPO DE CONTENCIÓN ESTAN SIENDO DESVIADOS POR INTRUSOS ALIENÍGENAS.
+
+[TranslatorEvent8]
+Message=Controles Anulación Puertas de Bahía Lanzadera Primaria
+AltMessage= Controles Anulación Puertas de Bahía Lanzadera Primaria a máxima potencia -Desvío positivo.
+
+[TranslatorEvent11]
+Message= TURBO PRIMARIO -ASCENSOR REQUIERE POTENCIA MÁXIMA DE MOTORES.
+AltMessage= TURBO PRIMARIO POTENCIA DE ASCENSOR RESTAURADA-AVISO: HAY UN RETRASO DE 2 SEGUNDOS PARA CARGAR
+
+[TranslatorEvent31]
+Message=ISV-KRAN, ESTADO EN CUBIERTA 3: INTRUSOS DESCONOCIDOS INTENTAN DESVIAR EL SISTEMAS DE MOTORES. CAPACIDAD DE POTENCIA DE MOTORES A 75%.
+
+[TranslatorEvent32]
+Message= ESTACIÓN DE EXPLORACIÓN DEL PLANETA. DETECTADA NAVE DE LAS GALAXIAS ALINENÍGENA Y SALIENDO DE LA ATMOSFERA. BUQUE ESCOLTA ALINENÍGENA ATERRIZA EN VALLE NORTEÑO CERCA DE LAS TORMENTAS ELÉCTRICAS ATMOSFÉRICAS.
+
+[TranslatorEvent30]
+Message= PANEL DIAGNÓSTICO DEL MOTOR PRINCIPAL. DISPONIBLE POTENCIA DE MOTORES A 75%. LOCALIZADO ESCAPE DE REFRIGERACIÓN EN ÁREA DE GENERADOR CENTRAL DE CONTENCIÓN. FALLADO EL ÚLTIMO INTENTO PARA DESVIAR  LA POTENCIA.
+
+[TranslatorEvent29]
+Message=ISV-KRAN, ESTADO DE MOTORES-FUERA DE LÍNEA. INFORME DE DAÑOS: SISTEMAS DE SOPORTE VITAL MÍNIMO EN LÍNEA. MÁXIMOS NIVELES DE POTENCIA EN CUBIERTA 1. ROTURA CASCO DE NAVE EN SALA DE OBSERVACIÓN.
+
+[TranslatorEvent28]
+Message=GENERADOR CAMPO DE CONTENCIÓN EN LÍNEA. NÚCLEOS POTENCIA DE ORO INESTABLE DEBIDO A EXCESIVA TENSIÓN DE LA INGENIERÍA DE CIERRE. PUEDEN DESACTIVARSE CAMPOS PRINCIPALES DE FUERZA DE CONTENCIÓN DE INGENIERÍA DESTRUYENDO LOS NÚCLEOS DE ORO.
+
+[TranslatorEvent5]
+Message=Este panel necesita desviarse para activarse.
+
+[TranslatorEvent10]
+Message=Los Skaarj se han infiltrado en el área del Muelle. Retrocederemos a la Cubierta 1 y formaremos una barrera provisional de alto voltaje. Así estaremos seguros.
+
+[LevelInfo2]
+Title=ISV-KRAN Cubiertas 3 y 2
+LevelEnterText=Estáis entrando en la Cubierta 3 de ISV-KRAN.
+

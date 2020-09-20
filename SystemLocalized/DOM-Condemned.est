@@ -1,0 +1,48 @@
+﻿[LevelInfo0]
+Title="En Ruinas"
+IdealPlayerCount="6"
+LevelEnterText="¡Domina la competición!"
+
+[ZoneInfo1]
+ZoneName="Callejón"
+
+[ControlPoint2]
+PointName="Arturo"
+
+[ZoneInfo0]
+ZoneName="Edificio en Ruinas"
+
+[ControlPoint1]
+PointName="Techo"
+
+[ControlPoint0]
+PointName="Taller"
+
+[locationid3]
+LocationName="Techo"
+
+[locationid4]
+LocationName="Techo"
+
+[LevelSummary]
+Title="En Ruinas"
+IdealPlayerCount="6"
+LevelEnterText="¡Domina la competición!"
+
+[locationid5]
+LocationName="Techo"
+
+[ZoneInfo4]
+ZoneName="Callejones"
+
+[ScrollingMessageTexture0]
+ScrollingMessage="ESTA NOCHE, A LAS 10:00PM EST... %p CONDUCE A SU EQUIPO INVICTO %h AL CAMPO DE BATALLA EN RUINAS"
+
+[locationid0]
+LocationName="Taller"
+
+[locationid2]
+LocationName="Techo"
+
+[locationid1]
+LocationName="Bar de Arturo"

@@ -1,0 +1,28 @@
+[LevelInfo3]
+Title= Burg der Nali 
+
+[Trigger9]
+message= Zack Zack!
+
+[TranslatorEvent5]
+message=Nur der Erleuchtete, der das Buch der Guten Kunde in der Kapelle gelesen hat, darf durch dieses himmlische Tor hindurch gehen. 
+Hint=Reise zu der Kapelle und lies das Buch, um Zutritt zu bekommen.
+
+[TranslatorEvent1]
+message=Ich sitze hier und warte auf den Tod. Das Warten ist schlimmer, als der Tod selbst. Ängste zerren an meiner Seele. Ich höre das Geheul der anderen, wenn sie in den Kerker geschleppt werden, um dem Himmelsdämon geopfert zu werden.
+
+[TranslatorEvent4]
+message=Wer Wissen sucht tut gut daran, die dicken Bände unter die Lupe zu nehmen, die in der Hauptbanketthalle aufbewahrt werden.
+
+[TranslatorEvent3]
+message=Nur dem Krieger der seine Tapferkeit unter Beweis stellt, indem er den fünfäugigen Dämon im Turm besiegt, wird der Zutritt zum Kerker erlaubt.
+Hint=Gehe zum höchsten Turm und erschlage den Dämon, um den Zutritt zum Kerker zu bekommen.
+
+[TranslatorEvent2]
+message= Nur dem Krieger, der seine Tapferkeit unter Beweis stellt, indem er den fünfäugigen Dämon im Turm besiegt wird der Zutritt zum Kerker erlaubt.
+Hint=Gehe zum höchsten Turm und erschlage den Dämon um den Zutritt zum Kerker zu bekommen.
+
+
+[TranslatorEvent0]
+message=Der Pfad, dem gefolgt werden muß ist lang und schrecklich, aber wer kräftigen Herzens und voller Entschlossenheit ist, wird sich den Herausforderungen gewachsen zeigen.
+Hint=Dein Weg ist jetzt klar.

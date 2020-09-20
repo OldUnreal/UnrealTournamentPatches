@@ -1,0 +1,43 @@
+[TranslatorEvent7]
+Message=Sbarramento del magazzino - L'esclusore è nella soffitta superiore.
+
+[TranslatorEvent33]
+Message=ESCLUSORE DELLE SERRATURE DI SICUREZZA: SERRATURE ATTIVE.
+AltMessage=ESCLUSORE DELLE SERRATURE DI SICUREZZA: SERRATURE APERTE. ACCESSO AL MAGAZZINO PERMESSO
+Hint=Tocca questo pannello per aprire la serratura di sicurezza
+
+[TranslatorEvent19]
+Message=PONTE 4 DELLA ISV-KRAN: ALLARME INTRUSI: SERRATURE DI SICUREZZA ATTIVATE. VARI INTRUSI SU TUTTI I PONTI STANNO CERCANDO DI RIATTIVARE I MOTORI - TELETRASPORTO DI EMERGENZA DEL PONTE 1 SBARRATO.
+
+[TranslatorEvent0]
+Message=STAZIONE DI CARICO DI POPPA DELLA ISV-KRAN: siamo bloccati su questa montagna ormai da due mesi. Ogni notte appaiono questi dinosauri alti 4 piani che battono sulla poppa della nave. Sembrano abbastanza stupidi e lenti.
+
+[TranslatorEvent2]
+Message=Serrature anti-intrusione attive - Serve un comando prioritario. Il pannello prioritario si trova nel mezzanino di elaborazione della ventilazione.
+AltMessage=Serrature anti-intrusione disattivate
+
+[TranslatorEvent13]
+Message=Comandi dello sbarramento del magazzino: PANNELLO SPENTO - RIPRISTINARE L'ENERGIA DALLA CONSOLE.
+AltMessage=Sbarramento del magazzino disattivato: accesso consentito
+
+[TranslatorEvent1]
+Message=Tubi del mezzanino di elaborazione della ventilazione: solo personale autorizzato. ATTENZIONE: PERDITA DI REFRIGERANTE NEL MEZZANINO 
+
+[TranslatorEvent12]
+Message=ENERGIA AL PANNELLO COMANDI DELLO SBARRAMENTO DEL MAGAZZINO RIPRISTINATA.
+
+[TranslatorEvent37]
+Message=Caporale Anders Kerig: stanno arrivando! Posso sentirli nei tubi di ventilazione. Attiverò lo sbarramento del magazzino e impianterò un DNA umano in modo che solo un altro terrestre possa escludere lo sbarramento.
+
+[TranslatorEvent38]
+Message=Caporale Pelli Onsov: se state leggendo il mio diario, probabilmente sarò morto e la nave sarà invasa dagli alieni chiamati "Skaarj". L'unica speranza è distruggere i nuclei d'oro di tenuta, riattivare i motori e raggiungere i trasportatori del Ponte 1.
+
+[TranslatorEvent36]
+Message=Sottufficiale Yuri Andromov: le truppe aliene hanno aperto un buco nello scafo e stanno invadendo la nave sfruttando i condotti di ventilazione. Kerig, Onsov e io proveremo a fermarli con gli Stinger, qui nella zona di carico.
+
+[TranslatorEvent15]
+Message=PANNELLO RICABLATO PER ATTIVARE UN ALLARME - SISTEMA USATO DA INTRUSI NON AUTORIZZATI
+
+[LevelInfo2]
+Title=Ponte 4 della ISV-KRAN
+LevelEnterText=Arrivo al Ponte 4 della ISV-KRAN

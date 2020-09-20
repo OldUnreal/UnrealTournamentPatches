@@ -1,0 +1,64 @@
+[LevelInfo0]
+Title=Terraniux
+
+[TranslatorEvent1]
+Message= Sección A: Estado completo. Biowaste desviado a la Sección B activa.
+
+[TranslatorEvent3]
+Message= Estado de la Sala de Control: Presurizada y cerrada. Prohibido entrar excepto en casos de emergencia.
+
+[TranslatorEvent4]
+Message= Intruso detectado en la entrada. Activando las pantallas de seguridad en el Laboratorio de Investigación Científica y Hidropónicas. Los elementos de seguridad ir a los puntos de acceso en Sec.A, B, C y para que el intruso no pueda acceder al Ascensor 1."
+Hint=" Busca las salas de Contención A,B,C y botones para acceder al Ascensor 1.
+
+[TranslatorEvent5]
+Message=Estado de Drenaje: el flujo de Biowaste está a niveles nominales. Todas las bombas en funcionamiento. Sección C vacía y disponible para cualquier desbordamiento del Biowaster. Asegúrate de que se maniobra el mantenimiento de la canalización regular.
+
+[TranslatorEvent0]
+Message= Sección B: Estado 48% completo.
+
+[TranslatorEvent10]
+Message= Invernadero B: Verifique que el Biowaste se bombea a través de los filtros de la Sala de Control y que no hay objetos extraños que bloqueen el flujo.
+
+[TranslatorEvent12]
+Message=Invernadero C: Pronto va a ser de noche, controle con cuidado el control del nivel higrométrico y la temperatura atmosférica. Es necesario llevar un control constante para que se mantengan a niveles adecuados.
+
+[TranslatorEvent11]
+Message= Invernadero B: El Karkilys Zegnus necesita más fertilizante. Envía a un grupo de guardias para que inspeccionen las casas de Nali en el Codo Noork. El desembarco debe autorizarlo la Sala de Control.
+
+[TranslatorEvent9]
+Message=Invernadero A: Sección A completa, el flujo de Biowaste debe desviarse desde la Sala de Control. Sección B de la instalación de desechos tiene rendimiento libre. Asegúrese de controlar el suministro de agua por si hay impurezas.
+Hint=El BioWaste se filtra en la Sala de Control
+
+[TranslatorEvent8]
+Message= Acceso Denegado. Debe haber una autorización de la Sala de Control para acceder al Codo Noork.
+AltMessage="Acceso concedido."
+Hint=Si nadas abajo en el BioWaste podrás acceder a la Sala de Control.
+
+[TranslatorEvent2]
+Message=Sección C: Estado Vacío, esta Sala de Contención está dañada, por favor no envíen aquí BioWaste hasta que la podamos arreglar.
+
+[TranslatorEvent6]
+Message= Ascensor 1: Cierre de Seguridad, Acceso denegado. Las bombas en la sala de contención deben activarse para entrar al invernadero hidropónico.
+AltMessage= Ascensor 1: Estado en funcionamiento. Acceso permitido a los jardines hidropónicos.
+
+[TranslatorEvent7]
+Message=Estado del Ascensor 2: Se ha informado que una tubería se ha roto.
+Hint= Este Ascensor está estropeado, pero verifica las tuberías , puede que haya algo interesante escondido.
+
+[TranslatorEvent13]
+Message= Sala de Control, ACCESO DENEGADO
+Hint=Para entrar en esta sala tienes que encontrar otro camino.
+
+[TranslatorEvent14]
+Message= Acceso Denegado. Debe haber una autorización de la Sala de Control para acceder al Codo Noork.
+
+[Trigger46]
+Message= Cerrojos de seguridad de la Sala de Acceso desenganchados.
+
+[Trigger32]
+Message= Ascensor al Codo Noork activado
+
+[TranslatorEvent15]
+Message=Bomba activada, Biowaste transferido a la sección B.
+

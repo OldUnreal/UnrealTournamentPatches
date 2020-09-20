@@ -1,0 +1,11 @@
+﻿[UTBrowserServerGrid]
+ngStatsName="Registro Estad."
+VersionName="Versión"
+EnabledText="Activado"
+AskNgStatsTitle="¿Usar ngWorldStats?"
+AskNgStatsText="Este servidor tiene activado el registro de estadísticas. Tu contraseña de ngWorldStats no ha sido configurada. Si configuras una nueva contraseña de ngWorldStats, ¡podrás registrar todas tus estadísticas de juego (Bajas, Suicidios, etc) en línea! Si no configuras una contraseña, tus estadísticas no serán registradas.\n\n¿Deseas configurar una contraseña de ngWorldStats?"
+ActiveText="Activo"
+InactiveText="Inactivo"
+
+[UTBrowserMainWindow]
+WindowTitleString="Buscador de Servidores Unreal Tournament"

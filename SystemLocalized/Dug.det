@@ -1,0 +1,24 @@
+[TranslatorEvent3]
+message= Sekundäre Aktivierungseinheit für Tarydium Transportkarren.
+
+[TranslatorEvent16]
+message=Canada ist richtig kalt. Mir schmeckt Dos Equis Bier. Meine Katzen sind wuschelig.
+
+[TranslatorEvent12]
+message=Treibstoff Umleitungsstation Status: Schleusen sind unter Druck gesetzt und verriegelt.
+AltMessage= Schleusen dekomprimiert. Zutritt gestattet.
+
+[TranslatorEvent18]
+message=Craig ist Großmeister Blödmann.
+
+[TranslatorEvent17]
+message=Kommt doch rein, die Lava ist warm! 
+
+[TranslatorEvent4]
+message=ACHTUNG: In unmittelbarer Nähe von Tarydium-Kisten extrem vorsichtig sein.
+
+[TranslatorEvent2]
+message=Primäre Aktivierungseinheit für Tarydium Transportkarren.
+
+[LevelInfo0]
+Title=Tiefen von Rrajigar

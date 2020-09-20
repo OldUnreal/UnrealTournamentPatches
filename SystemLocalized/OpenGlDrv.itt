@@ -1,0 +1,14 @@
+[Public]
+Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
+Preferences=(Caption="Resa",Parent="Opzioni avanzate")
+Preferences=(Caption="Supporto OpenGL ",Parent="Resa",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+
+[OpenGLRenderDevice]
+ClassCaption="Supporto OpenGL di Tim"
+AskInstalled=Desideri installare un acceleratore 3D compatibile con OpenGL?
+AskUse=Desideri utilizzare l'acceleratore OpenGL di Unreal?
+
+[Errors]
+NoFindGL=Impossibile trovare il driver OpenGL %s
+MissingFunc=Funzione OpenGL %s (%i) mancante
+ResFailed=Impostazione risoluzione fallita

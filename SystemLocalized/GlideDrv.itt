@@ -1,0 +1,9 @@
+[Public]
+Object=(Name=GlideDrv.GlideRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=Glide2X.dll)
+Preferences=(Caption="Rendering",Parent="Opzioni avanzate")
+Preferences=(Caption="Supporto 3dfx Glide",Parent="Rendering",Class=GlideDrv.GlideRenderDevice,Immediate=True)
+
+[GlideRenderDevice]
+ClassCaption="3dfx Glide per Windows"
+AskInstalled=Hai una scheda 3dfx installata?
+AskUse=Unreal è compatibile con 3dfx Voodoo 1 e Voodoo 2, non lo è con le schede basate su Voodoo Rush. Vuoi che Unreal usi la tua scheda 3dfx?

@@ -1,0 +1,13 @@
+[TranslatorEvent0]
+Message= Sgt W. Ford: Mein ganzer Trupp wurde von diesen Salamanderviechern getötet. Ich habe keine Munition mehr und verstecke mich seit Tagen bei einem einheimischen Priester in diesem Schrein. Er betet, und ich behalte die Tür im Auge.
+
+[Counter2]
+CountMessage=Beweise den Göttern deine Fertigkeiten als Krieger.
+CompleteMessage=Gut gemacht!
+
+[TranslatorEvent15]
+Message=Die inneren Zeremonienkammern. Hier leben die Schlangen des Wassergottes, die darauf warten, das Fleisch der Schwachen zu verschlingen. Nur ein Krieger, der wie eine Schlange schwimmt kann sich aus ihren Klauen befreien.
+
+[LevelInfo0]
+Title=Die Zeremonienkammern
+LevelEnterText= Eingang zum Zeremonienflügel

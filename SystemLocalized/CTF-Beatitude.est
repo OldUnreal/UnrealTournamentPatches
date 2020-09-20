@@ -1,0 +1,22 @@
+﻿[LevelInfo0]
+Title="Templo de la Beatitud"
+IdealPlayerCount="8-16"
+
+[ZoneInfo6]
+ZoneName="Base Roja"
+
+[ZoneInfo2]
+ZoneName="Base Azul"
+
+[ZoneInfo0]
+ZoneName="Centro"
+
+[ZoneInfo5]
+ZoneName="Sala de Tuberías Roja"
+
+[ZoneInfo1]
+ZoneName="Sala de Tuberías Azul"
+
+[LevelSummary]
+Title="Templo de la Beatitud"
+IdealPlayerCount="8-16"

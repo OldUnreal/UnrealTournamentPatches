@@ -1,0 +1,8 @@
+﻿[Public]
+Object=(Name=GlideDrv.GlideRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=Glide2X.dll)
+Preferences=(Caption="Soporte para 3dfx Glide",Parent="Reproducción",Class=GlideDrv.GlideRenderDevice,Immediate=True)
+
+[GlideRenderDevice]
+ClassCaption="Soporte para 3dfx Glide"
+AskInstalled="¿Tienes una tarjeta 3dfx instalada?"
+AskUse="¿Quieres utilizar tu tarjeta 3dfx con Unreal?"

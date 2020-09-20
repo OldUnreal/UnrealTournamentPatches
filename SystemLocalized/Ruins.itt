@@ -1,0 +1,16 @@
+[LevelInfo0]
+Title=Tempio di Vandora
+
+[TranslatorEvent1]
+message=La Strada è piena di oscurità. La Torcia del Tuono illuminerà la via ai valorosi. Il progresso spirituale spetta a chi riuscirà ad accendere la Torcia del Tuono.
+Hint=Accendi la Torcia del Tuono e potrai proseguire.
+
+[TranslatorEvent3]
+message=Vandora, Dea del Fulmine.
+
+[TranslatorEvent2]
+message=Torcia del Tuono
+
+[TranslatorEvent0]
+message=E venne Vandora, col fuoco del Cielo sulle labbra, e santificò la sacra fontana con un bacio. Poi disse: 'Chi mi seguirà, potrà superare i vincoli della carne e diventare elusivo come la nebbia'.
+Hint=Santifica la fontana sacra col fuoco e diventa elusivo come la nebbia.

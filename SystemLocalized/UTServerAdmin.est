@@ -1,0 +1,5 @@
+﻿[Public]
+Preferences=(Caption="Administración Remota Basada en Web",Parent="Juego en Red",Class=UTServerAdmin.UTServerAdmin)
+
+[WebServer]
+ClassCaption="Administración Remota Basada en Web"

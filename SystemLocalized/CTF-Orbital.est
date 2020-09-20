@@ -1,0 +1,34 @@
+﻿[LevelInfo0]
+Title="Estación Orbital #12"
+IdealPlayerCount="12-24"
+
+[ZoneInfo4]
+ZoneName="Sala Central"
+
+[ZoneInfo0]
+ZoneName="Base Principal Azul"
+
+[ZoneInfo5]
+ZoneName="Base Principal Roja"
+
+[ZoneInfo1]
+ZoneName="Sala de Amplificador Azul"
+
+[ZoneInfo6]
+ZoneName="Sala de Amplificador Roja"
+
+[ZoneInfo3]
+ZoneName="Pasaje de Francotirador Azul"
+
+[ZoneInfo2]
+ZoneName="Sala de Metralla Azul"
+
+[ZoneInfo7]
+ZoneName="Sala de Metralla Roja"
+
+[ZoneInfo8]
+ZoneName="Pasaje de Francotirador Rojo"
+
+[LevelSummary]
+Title="Estación Orbital #12"
+IdealPlayerCount="12-24"

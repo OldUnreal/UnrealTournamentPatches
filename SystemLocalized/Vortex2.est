@@ -1,0 +1,43 @@
+[LevelInfo0]
+Title=Vortex Rikers
+
+[TranslatorEvent2]
+message=Registro del Capitán S.Kroon:VortexRikers. Quizá ha sido perjudicial alterar el curso de nuestra misión. Estamos en el campo gravitacional de un planeta desconocido.He ordenado al encargado de máquinas desviar la potencia a los mecanismos de transmisión.
+
+[TranslatorEvent0]
+message=Diario del Navegante: Vortex Rikers. Estamos de camino a la prisión de la luna. Los sensores de largo alcance detectan masas magnéticas en el Sector Gamma 83H. El capitán ha ordenado cambiar el curso.
+Hint=Golpéate la cabeza contra el interruptor que hay en el Armamento para desactivar el campo de fuerza.
+
+[TranslatorEvent1]
+message= Diario del Primer Oficial: Vortex Rikers. Los prisioneros están más inquietos en cuanto nos acercamos a la prisión de la luna. Los de Seguridad dicen que tienen a los prisioneros bajo control pero ya han tenido que tratar a varios en el Laboratorio.
+
+[TranslatorEvent11]
+message=ATENCIÓN A TODOS LOS PRISIONEROS: No olvidéis ser amables con vuestros compañeros. No se tolerará la violencia.
+Hint=Ves por el conducto de aire para escapar.
+
+[TranslatorEvent5]
+message=Registro del Encargado de Máquinas: Buque de la prisión 254 Vortex Rikers. Estoy vigorizando toda la potencia que puedo para escapar de la fuerza de tracción gravitatoria de este misterioso planeta. Pero parece que no funciona.
+
+[TranslatorEvent6]
+message=Registro del Guarda del Jefe de Seguridad: Buque de la prisión 254 Vortex Rikers. Han arrastrado toda la potencia a los mecanismos de transmisión pero sin ningún efecto. Estamos siendo arrastrados en espiral hacia el planeta. No sé qué va a ser nosotros.
+Hint=Dispara el vidrio para abrir la compuerta.
+
+[TranslatorEvent10]
+message= ATENCIÓN A TODOS LOS PRISIONEROS: Hoy se apagan las luces a las 20:00. Sin excepciones.
+Hint=Ves por el conducto de aire para escapar.
+
+[TranslatorEvent9]
+message=Diario de Benjamin Nathaniel, día 93: Hoy es mi cumpleaños. Lo celebraré empezando otro disturbio en la prisión.
+
+[TranslatorEvent7]
+message= Diario de Jonas Gershwin, día 204: En mi comida de hoy había otra cucaracha. Me pregunto cómo se introducen a bordo de estos buques. Si esa zorra de la celda 4A me sigue mirando de forma tan rara juro que le voy a arrancar de una tajada el cuello!
+
+[TranslatorEvent8]
+message= Diario de Boris Clague, día 3: Hace tan sólo tres días que estoy aquí y ya tengo dos costillas rotas, un muslo fracturado y 14 suturas. No sé si podré llegar a la prisión de la luna y mucho menos a final de la próxima semana.
+
+[TranslatorEvent12]
+message=Prisionero 853, James Cavanaugh listo para electrocutar.
+
+[TranslatorEvent3]
+message=Registro del Oficial Jefe Médico: Buque de la prisión 254 Vortex Rikers. Las continuas peleas entre prisioneros están empeorando. A este paso nos quedaremos sin suministros mucho antes de llegar a la prisión de la luna.
+

@@ -1,0 +1,22 @@
+﻿[LevelInfo0]
+Title="Templo Arcano"
+IdealPlayerCount="3-8"
+
+[LevelSummary]
+Title="Templo Arcano"
+IdealPlayerCount="3-8"
+
+[WaterZone0]
+ZoneName="Tope de la Cascada"
+
+[WaterZone1]
+ZoneName="Corriente de la Cascada"
+
+[WaterZone2]
+ZoneName="Lago del Redentor"
+
+[WaterZone3]
+ZoneName="Zona de Rampas (Nadando)"
+
+[ZoneInfo0]
+ZoneName="Afueras"

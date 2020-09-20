@@ -1,0 +1,70 @@
+﻿[LevelInfo0]
+Title="Puesto Avanzado Dreary"
+IdealPlayerCount="8-12"
+
+[ZoneInfo17]
+ZoneName="Sala Roja Principal"
+
+[ZoneInfo18]
+ZoneName="Galería Central"
+
+[ZoneInfo16]
+ZoneName="Sala Azul Principal"
+
+[ZoneInfo19]
+ZoneName="Sala Roja Superior"
+
+[ZoneInfo20]
+ZoneName="Sala Roja Inferior"
+
+[ZoneInfo22]
+ZoneName="Sala Azul Superior"
+
+[ZoneInfo1]
+ZoneName="Entrada al Ascensor Derecho Rojo"
+
+[ZoneInfo3]
+ZoneName="Entrada al Ascensor Derecho Azul"
+
+[ZoneInfo0]
+ZoneName="Entrada al Ascensor Izquierdo Rojo"
+
+[ZoneInfo21]
+ZoneName="Sala Azul Inferior"
+
+[ZoneInfo2]
+ZoneName="Entrada al Ascensor Izquierdo Azul"
+
+[ZoneInfo15]
+ZoneName="Galería Azul"
+
+[ZoneInfo14]
+ZoneName="Galería Roja"
+
+[ZoneInfo11]
+ZoneName="Ascensor Izquierdo Azul"
+
+[ZoneInfo9]
+ZoneName="Ascensor Izquierdo Rojo"
+
+[ZoneInfo8]
+ZoneName="Ascensor Derecho Rojo"
+
+[ZoneInfo10]
+ZoneName="Ascensor Derecho Azul"
+
+[SlimeZone0]
+ZoneName="Pozo Ácido Rojo"
+
+[SlimeZone1]
+ZoneName="Pozo Ácido Azul"
+
+[LevelSummary]
+Title="Puesto Avanzado Dreary"
+IdealPlayerCount="8-12"
+
+[ZoneInfo13]
+ZoneName="Base Roja"
+
+[ZoneInfo12]
+ZoneName="Base Azul"

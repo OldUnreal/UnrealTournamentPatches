@@ -1,0 +1,69 @@
+[LevelInfo0]
+Title="Laboratorio Buque Escolta"
+
+[TranslatorEvent3]
+message="Intruso detectado. Protege la Fuente a toda costa. Hay que parar al intruso antes de que penetre en el perímetro defensivo de la Fuente."
+
+[TranslatorEvent2]
+message="Personal de seguridad dirigirse a las zonas de despliegue alrededor del Bloque de Detención al Suministro de Potencia Alterna en línea. Hay que retener a todos los detenidos."
+
+[TranslatorEvent1]
+AltMessage="El suministro de energía para la Fuente está seguro, Suministro de Potencia Alterna listo para el combate. Es de vital importancia mantener el flujo de energía a la Fuente. Se castigará la debilidad."
+
+[TranslatorEvent7]
+message="ACCESO DENEGADO: Reservas de Potencia a 100%"
+AltMessage="Tienes que ir al Laboratorio de Investigación para disminuir el nivel de Energía."
+Hint="Tienes que ir al Labotario de Investigación para disminuir el nivel de Energía."
+
+[TranslatorEvent0]
+AltMessage="El Suministro Primario de Potencia funciona a un rendimiento óptimo. El suministro Auxiliar de Potencia funciona a un rendimiento del 80%. Es muy importante activar el Suministro de Potencia Alterna para el Campo de Fuerzas de Seguridad."
+
+[TranslatorEvent21]
+message="Centro de Investigación"
+
+[TranslatorEvent22]
+Message="Informe 190: Shrk'Tajji 2º Ojo Inferior de Ess'Tajji observando. Estamos listos para el siguiente experimento. Esperamos una disminución del 18% en las Reservas de Potencia de los niveles al 100%. El sujeto de prueba está en su sitio y el Tarydium está preparado para cargar."
+
+[TranslatorEvent20]
+message="Departamento Genético"
+
+[TranslatorEvent14]
+AltMessage="Intruso detectado en Buque Escolta, todos los experimentos se suspenden por órdenes de Chakti'Nrrj 2º Gran Talón de Ssa'Nrrj hasta próximo aviso. Las Reservas de Potencia deben estar al 100% para que el funcionamiento del sistema de seguridad sea óptimo."
+
+[TranslatorEvent15]
+AltMessage=" Informe 187: Shrk'Tajji 2º Ojo Inferior de Ess'Tajji informando. A pesar del fallo en nuestras pruebas anteriores en el efecto de defensa, las celdas de sujetos de prueba muestran algunos efectos residuales. Muy interesante..."
+
+[TranslatorEvent16]
+AltMessage=" Informe 189: Shrk'Tajji 2º Ojo Inferior de Ess'Tajji informando. Después de los análisis cruzados de los resultados de las pruebas en todos los sujetos, hemos llegado a la conclusión de que el campo magnético del Generador Central."
+
+[TranslatorEvent17]
+AltMessage=" Informe 188: Shrk'Tajji 2º Ojo Inferior de Ess'Tajji informando. Los estudios sobre las celdas de los sujetos probados muestran una defensa persistente con fluctuaciones menores en la reflectividad. Es extraño que éstas estén perfectamente sincronizadas."
+
+[TranslatorEvent19]
+message="Centro de Investigación"
+
+[TranslatorEvent18]
+message="Departamento de Energía"
+
+[TranslatorEvent23]
+AltMessage="Si el experimento tiene éxito, intentaremos trasladar el Centro de Investigación al  Emplazamiento B donde nos protegeremos del campo magnetico del Generador Central. Si lo conseguimos alcanzaremos el nivel verde o incluso el azul."
+
+[TranslatorEvent24]
+AltMessage="Estado CryoPods: Temperatura a 269 grados Kelvin, Presión a 748 milibares, los sujetos están preparados para comenzar el experimento."
+
+[TranslatorEvent26]
+message="Reserva de Potencia al 100%, Efecto de defensa a 0.0025%. Las lecturas de EEG/EKG son normales, el estado fisiológico está criogenizado."
+AltMessage="Reserva de Potencia al 80%, Efecto de defensa a 5,64%, las lecturas de EEG/EKG muestran disturbios masivos, el estado fisiológico está activo y los sistemas de endorfina y adrenalina producen sobrecargas de hormonas."
+
+[TranslatorEvent25]
+AltMessage="Sujetos de prueba colocados en Área de Detención. Los campos de fuerzas les mantienen confinados y sin protección. Los sujetos continúan mostrando un comportamiento muy agresivo cuando no están en campos magnéticos bien sintonizados."
+
+[TranslatorEvent6]
+message="ACCESO DENEGADO"
+
+[TranslatorEvent4]
+AltMessage="Informe 190: listos para el próximo experimento, el sujeto en la posición correcta y la Potencia Primaria del Generador se reducirá a un 80%. El sujeto no se verá afectado, el nivel de energía esperado se caracteriza por ser de color naranja."
+
+[TranslatorEvent5]
+message="Instalación de Experimentos"
+

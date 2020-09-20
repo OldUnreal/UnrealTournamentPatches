@@ -1,0 +1,148 @@
+[Public]
+Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Preferences=(Caption="Erweitert",Parent="Erweiterte Optionen")
+Preferences=(Caption="Game-Engine-Einstellungen",Parent="Erweitert",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Key Aliases",Parent="Erweitert",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Raw Key Bindings",Parent="Erweitert",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Treiber",Parent="Erweiterte Optionen",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Öffentliche Server-Info",Parent="Netzwerk",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Spieleinstellungen",Parent="Erweiterte Optionen",Class=Engine.GameInfo,Immediate=True)
+
+[Errors]
+NetOpen=Fehler beim Öffnen der Datei
+NetWrite=Fehler beim Schreiben der Datei
+NetRefused=Server lehnte Senden von '%s' ab
+NetClose=Fehler beim Schließen der Datei
+NetSize=Fehlerhafte Dateigröße
+NetMove=Fehler beim Verschieben der Datei
+NetInvalid=Bekam fehlerhafte Dateianforderung
+NoDownload=Paket '%s' kann nicht heruntergeladen werden
+DownloadFailed=Herunterladen von Paket '%s' fehlgeschlagen: %s
+RequestDenied=Server lehnte angeforderten Level ab
+ConnectionFailed=Verbindung fehlgeschlagen
+ChAllocate=Kanal konnte nicht allokiert werden
+NetAlready=Schon im Netzwerk
+NetListen=Antwort fehlgeschlagen: Kein Link-Kontext verfügbar
+LoadEntry=Kann Eintrag nicht laden: %s
+InvalidUrl=Fehlerhafter URL: %s
+FailedBrowse=Fehler beim Betreten von %s: %s
+Listen=Antwort fehlgeschlagen: %s
+AbortToEntry=Fehlgeschlagen; kehre zum Eingang zurück
+ServerOpen=Server können Netzwerk-URLs nicht öffnen
+ServerListen=Dedizierter Server antwortet nicht: %s
+Pending=Angeforderte Verbindung zu '%s' fehlgeschlagen; %s
+LoadPlayerClass=Laden der Spielerklasse gescheitert
+ServerOutdated=Server verwendet veraltete Version
+
+[Progress]
+RunningNet=%s: %s (%i Spieler)
+NetReceiving=Empfange '%s': %i/%i
+NetReceiveOk='%s' erfolgreich empfangen
+NetSend=Sende '%s'
+NetSending=Sende '%s': %i/%i
+Connecting=Verbinde...
+Listening=Warte auf Clients...
+Loading=Lade
+Saving=Speichere
+Paused=Angehalten durch %s
+ReceiveFile=Empfange '%s' (F10 für Abbruch)
+ReceiveSize=Größe %iK, Erledigt %3.1f%%
+ConnectingText=Verbinde (F10 für Abbruch):
+ConnectingURL=unreal://%s/%s
+
+[Console]
+ClassCaption="Standard-Unreal-Konsole"
+LoadingMessage=LADEVORGANG
+SavingMessage=SPEICHERVORGANG
+ConnectingMessage=VERBINDE
+PausedMessage=PAUSE
+PrecachingMessage=CACHE-ZUGRIFF
+ChatChannel=(CHAT) 
+TeamChannel=(TEAM) 
+
+[General]
+Upgrade=Für diesen Server benötigst Du die neuste Version von Epic's Website:
+UpgradeURL=http://www.unreal.com/upgrade
+UpgradeQuestion=Möchtest Du jetzt den Browser starten und das Update herunterladen?
+Version=Version %i
+
+[Menu]
+HelpMessage=
+MenuList=
+LeftString=Links
+RightString=Rechts
+CenterString=Zentrieren
+EnabledString=Aktiviert
+DisabledString=Deaktiviert
+HelpMessage[1]="Dieses Menü wurde noch nicht implementiert."
+YesString=Ja
+NoString=Nein
+
+[Inventory]
+PickupMessage=Gegenstand aufgenommen
+M_Activated=" aktiviert"
+M_Selected=" ausgewählt"
+M_Deactivated=" deaktiviert"
+ItemArticle=a
+
+[WarpZoneInfo]
+OtherSideURL=
+
+[GameInfo]
+SwitchLevelMessage=Wechsele Level 
+DefaultPlayerName=Spieler
+LeftMessage=" hat das Spiel verlassen."
+FailedSpawnMessage=Spieler-Aktor konnte nicht erzeugt werden
+FailedPlaceMessage=Startpunkt wurde nicht gefunden (Level benötigt Aktor 'PlayerStart')
+NameChangedMessage=Name geändert in... 
+EnteredMessage=" betritt das Spiel."
+GameName=Spiel
+MaxedOutMessage=Serverkapazität erschöpft.
+WrongPassword=Das eingegebene Paßwort ist ungültig.
+NeedPassword="Du mußt ein Paßwort eingeben, um diesem Spiel beizutreten."
+FailedTeamMessage=Team des Spielers nicht gefunden
+
+[LevelInfo]
+Title=Ohne Titel
+
+[Weapon]
+MessageNoAmmo=" hat keine Munition."
+PickupMessage=Waffe aufgenommen
+DeathMessage=%o fiel %ks %w zum Opfer.
+ItemName=Waffe
+DeathMessage[0]=%o fiel %ks %w zum Opfer.
+DeathMessage[1]=%o fiel %ks %w zum Opfer.
+DeathMessage[2]=%o fiel %ks %w zum Opfer.
+DeathMessage[3]=%o fiel %ks %w zum Opfer.
+
+[Counter]
+CountMessage=Nur noch %i übrig...
+CompleteMessage=Geschafft!
+
+[Ammo]
+PickupMessage=Munition aufgenommen
+
+[Pickup]
+ExpireMessage=
+
+[SpecialEvent]
+DamageString=
+
+[DamageType]
+Name=eliminiert
+AltName=eliminiert
+
+[PlayerPawn]
+QuickSaveString=Schnellspeichern
+NoPauseMessage=Spielpause nicht möglich
+ViewingFrom=Perpektive jetzt 
+OwnCamera=eigene Kamera
+FailedView=Ansicht konnte nicht geändert werden.
+CantChangeNameMsg=Namensänderung in globalem Spiel nicht möglich
+
+[Pawn]
+NameArticle="  "
+
+[Spectator]
+MenuName=Zuschauer
+

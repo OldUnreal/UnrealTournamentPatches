@@ -1,0 +1,30 @@
+﻿[LevelInfo0]
+Title="Monasterio de la Cumbre"
+IdealPlayerCount="6-8"
+LevelEnterText="¡Ten cuidado por donde pisas! ¡Es una larga caída!"
+
+[ZoneInfo0]
+ZoneName="Afueras"
+
+[ZoneInfo3]
+ZoneName="Habitación Principal"
+
+[ZoneInfo5]
+ZoneName="Sala del Pozo"
+
+[ZoneInfo7]
+ZoneName="Mirador"
+
+[ZoneInfo2]
+ZoneName="Sala Superior"
+
+[ZoneInfo4]
+ZoneName="Sala Inferior"
+
+[ZoneInfo6]
+ZoneName="Corredor Inferior"
+
+[LevelSummary]
+Title="Monasterio de la Cumbre"
+IdealPlayerCount="6-8"
+LevelEnterText="¡Ten cuidado por donde pisas! ¡Es una larga caída!"

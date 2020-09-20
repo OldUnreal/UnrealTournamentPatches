@@ -1,0 +1,37 @@
+[LevelInfo0]
+Title="Core, Mutterschiff "
+
+[TranslatorEvent13]
+message="Notenergieversorgung, ZUTRITT VERWEIGERT: Primäre Energieversorgung voll funktionsfähig."
+Hint="Suche den Core Generator und zerstöre ihn, um dir zu diesem Gebiet Zugang zu verschaffen."
+
+[TranslatorEvent4]
+message="ACHTUNG: Bewaffneter Eindringling entdeckt. Alle Zugänge zur Quelle und zur primären Energieversorgung sichern. Eindringling am Zugang zum Core zu hindern ist unbedingt notwendig."
+AltMessage=" HÖCHSTE ALARMBEREITSCHAFT: Core Generator Sicherheitsverletzung." 
+
+[TranslatorEvent5]
+message="SICHERHEITSWARNUNG: An alle Kriegsmeister, begeben Sie sich auf ihre Posten am Core Generator, um seinen Schutz zu gewährleisten."
+AltMessage=" Eindringling in der Nähe des Core Generators entdeckt. Die Sicherheit vom Core Generator muß aufrechterhalten werden. Schwäche wird bestraft."
+
+[TranslatorEvent6]
+message=" Die Sicherheit vom Core Generator muß aufrechterhalten werden. Zugangstore sind verriegelt, bis Sicherheitsrisiko beseitigt wird."
+AltMessage="Core Zugangstor geöffnet "
+
+[TranslatorEvent10]
+AltMessage="Zutritt zur Sicherheitszentrale erteilt."
+Hint="Gehe zur Sicherheitszentrale, um dir Zutritt zur primären Energieversorgung der Core Generator zu verschaffen."
+
+[TranslatorEvent11]
+message="ZUTRITT VERWEIGERT: Der Eindringling muß eliminiert werden. Alle Kriegsmeister werden bei der Ankunft aus der Quelle in dieses Gebiet geschickt."
+Hint="Töte alle Skaarj, um in dieses Gebiet zu kommen."
+
+[TranslatorEvent12]
+AltMessage=" Kryopods Status: Temperatur konstant, Energieverbrauch nominal, Sicherheitssysteme aktiv."
+
+[TranslatorEvent8]
+message="Sicherheitszentrale, ZUTRITT VERWEIGERT "
+
+[TranslatorEvent9]
+message="Primäre Energieversorgung, ZUTRITT VERWEIGERT "
+Hint="Tor kann von der Schalttafel in der Sicherheitszentrale aus aufgeschlossen werden." 
+

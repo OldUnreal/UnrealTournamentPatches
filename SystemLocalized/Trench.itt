@@ -1,0 +1,14 @@
+[TranslatorEvent38]
+Message=Caporale Pelli Onsov: Se state leggendo questo log, probabilmente sarò morto e la nave sarà in mano ad alieni chiamati
+
+[TranslatorEvent1]
+Message=Diario: M. Mottobanov. Abbiamo regolato l'ISV-Kran in modo che avverta attività umana oltre le porte. Se qualcuno dovesse entrare nella luce rossa, le porte si apriranno. La piattaforma resterà abbassata solo per breve tempo.
+Hint=Raggiungi la nave e mettiti presso la luce rossa. Le porte si apriranno e un ascensore scenderà. Dovrai essere veloce a salirvi e a saltar via nel deposito prima di finire schiacciato.
+
+[TranslatorEvent0]
+Message=Diario di N. Onatop: siamo arrivati fin qui solo per trovarci davanti un'altra di quelle immense bestie. Ora ci riposeremo e domani penseremo al problema. Impossibile comunicare con l'ISV-Kran: la radio capta solo disturbi.
+Hint=Raggiungi la nave e mettiti presso la luce rossa. Le porte si apriranno e un ascensore scenderà. Dovrai essere veloce a salirvi e a saltar via nel deposito prima di finire schiacciato.
+
+[LevelInfo2]
+Title=Ponte 4 dell'ISV-KRAN
+LevelEnterText=Entrata al ponte 4 dell'ISV-KRAN

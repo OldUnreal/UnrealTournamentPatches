@@ -1,0 +1,38 @@
+﻿[LevelInfo0]
+Title="Rook"
+IdealPlayerCount="6-10"
+LevelEnterText="Don thy Armor, Prepare for Battle"
+
+[LevelSummary]
+Title="Rook"
+IdealPlayerCount="6-10"
+LevelEnterText="Don thy Armor, Prepare for Battle"
+
+[FortStandard1]
+FortName=" "
+DestroyedMessage=" "
+
+[FortStandard0]
+FortName=" "
+DestroyedMessage=" "
+
+[FortStandard2]
+FortName="The Main Doors"
+DestroyedMessage="are now open!"
+
+[FortStandard6]
+FortName="The Library"
+DestroyedMessage="is now Open!"
+
+[FortStandard3]
+FortName=" "
+DestroyedMessage=" "
+
+[SpecialEvent0]
+Message="The Gatehouse is now open!"
+
+[AssaultInfo0]
+ObjDesc[0]="Exit the castle and make a hard right where you will locate the switch which will allow access to the library."
+ObjDesc[1]="Proceed through the library where you will locate a winch that is held in place with two chains. Destroy the chains; this will allow access to the gatehouse in the courtyard."
+ObjDesc[2]="Return to the courtyard and flip the switch in the gatehouse to open the front doors of the castle."
+ObjDesc[3]="Escape the castle alive through the front doors!"

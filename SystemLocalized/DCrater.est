@@ -1,0 +1,19 @@
+[TranslatorEvent4]
+Message=Advertencia de Intrusos. Asegurar todos los puntos de acceso, todo el personal en alerta. Proteger a la Madre, si falla MORIRÁ.
+Hint=Activa el Generador que acciona la puerta del barco.
+
+[TranslatorEvent1]
+Message=Panel de Control del Generador. El Generador funciona. Potencia de salida nominal.
+
+[TranslatorEvent0]
+Message=Puerta de Entrada:  Aviso; no hay suficiente potencia para establecer un contacto con la puerta.     Activar el Generador.
+AltMessage=Puerta de Entrada: Contacto Establecido.   Entrar en el campo de transporte.
+Hint= Activa el Generador que acciona la puerta del barco.
+
+[TranslatorEvent3]
+Message=Generador y Cuarto de Carga.
+Hint= Activa el Generador que acciona la puerta del barco.
+
+[LevelInfo2]
+Title=DCrater
+

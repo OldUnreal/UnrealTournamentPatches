@@ -1,0 +1,64 @@
+[LevelInfo0]
+Title=Chizra - Nali Tempel des Wassergottes
+LevelEnterText=Eingang von Chizra - Der Nali Tempel des Wassergottes 
+
+[TranslatorEvent0]
+Message= Achtung: Diejenigen, die aus niederen Beweggründen den Tümpel des Donners betreten, müssen sich dem Dämon von den Sternen stellen 
+
+[TranslatorEvent7]
+Message= Der heilige Tempel des Nali Wassergottes Chizra ist von den Wasserschlangen und den Dämonen, die von den Sternen kamen überlaufen. Jetzt kann nur der Messias den Tempel reinigen 
+
+[TranslatorEvent2]
+Message= Dies ist der Obelisk der Wolken. Jenseits von hier liegt der Tümpel des Donners.
+
+[TranslatorEvent15]
+Message=Capt. M. Harrison: Die Nali haben einen Raketenwerfer mit 6 Rohren auf einem Altar aufbewahrt, der von diesen Salamanderkreaturen bewacht wird. Er wird  "Stock der 6 Flammen" genannt. Ich versuche heute Abend mich hineinzuschleichen.
+
+[TranslatorEvent12]
+Message= Dies ist der Tümpel des Donners. Unreine Seelen, die in diesem Wasser baden, müssen sich dem Dämon stellen, der von den Sternen stammt 
+
+[TranslatorEvent1]
+Message= Mächtige Kraft kommt von denen, die sich am Tümpel des Donners vom Wasserfall überfluten lassen.
+
+[TranslatorEvent19]
+Message= Klettere die losen Steine hinauf, um die Lagune des Blitzfeuers zu erreichen. Achtung: der Dämon, der von den Sternen kam versteckt sich in den Schatten. Ein Narr wird bestimmt sterben.
+
+[TranslatorEvent13]
+Message= Das Zentrum der Pyramide ist der Brennpunkt der Macht von Chizra, dem Wassergott der Nali.
+
+[TranslatorEvent10]
+Message=DER STOCK DER SECHS FLAMMEN KAM VON DEM NALI WASSERGOTT, ALS DER STERN VOM HIMMEL FIEL. UM DEN STERN ZU FINDEN MUSS MAN DEN ZEREMONIENFLÜGEL DURCHQUEREN.
+
+[Counter3]
+CountMessage= Knacks!
+CompleteMessage=Das Floß treibt davon
+
+[TranslatorEvent5]
+Message= Nur ein Krieger, der den Stock der sechs Flammen bei sich trägt darf die inneren Zeremonienkammern betreten. Sobald du den Stock der sechs Flammen zu fassen bekommst, wird das Steinsiegel aufgehen.
+
+[TranslatorEvent3]
+Message=Um den Tümpel des Donners zu erreichen muß man die losen Steine hinaufklettern.
+
+[TranslatorEvent4]
+Message= Nur ein Krieger, der das Gesicht des Wassergottes berührt hat, darf diesen Tempel betreten.
+
+[TranslatorEvent14]
+Message=Die Dämonen kamen in einem metallenen Wagen von den Sternen herunter, um die Sünden der Nali zu bestrafen.
+
+[TranslatorEvent18]
+Message= Jenseits dieses goldenen Tores befindet sich der heilige Altar des Stockes der sechs Flammen. Eintreten kann nur, wer die eingelassenen Steine in den Säulen des Blitzfeuers berührt.
+
+[TranslatorEvent6]
+Message=Jenseits dieses Steinsiegels liegen die inneren Zeremonienkammern des Nali Wassergottes
+
+[TranslatorEvent9]
+Message= DIE PYRAMIDE IST DER SCHLÜSSEL ZUR KAMMER DES TODES. DORT WIRST DU MEHR KRAFT FINDEN FÜR DEN STOCK DER SECHS FLAMMEN
+
+[TranslatorEvent8]
+Message= DEN STOCK DER SECHS FLAMMEN KANN NUR EIN KRIEGER ERREICHEN, DER IM TÜMPEL DES DONNERS, JENSEITS DES OBELISKS DER WOLKEN, GEBADET HAT.
+
+[TranslatorEvent11]
+Message=NIMM DEN STOCK DER SECHS FLAMMEN UND BEGIB DICH ZU DEN INNEREN ZEREMONIENKAMMERN. DORT WIRST DU DEN WEG AN DEN ORT ZURÜCKFINDEN, WOHER DU GEKOMMEN BIST, UND DEN METALLENEN WAGEN, DER VOM STERNENHIMMEL FIEL.
+
+[TranslatorEvent20]
+Message= Sieh in deine eigenen Augen hinein. Und wenn dein Mut am stärksten ist, wird dein letzter Schritt, der dich zum Preis führt, durch deinen Glauben gestützt.

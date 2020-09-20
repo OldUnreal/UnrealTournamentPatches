@@ -1,0 +1,46 @@
+﻿[LevelInfo0]
+Title="Bahía del Lobo"
+IdealPlayerCount="6"
+
+[ZoneInfo21]
+ZoneName="Popa"
+
+[ZoneInfo5]
+ZoneName="Cubierta de Cargamento"
+
+[ZoneInfo3]
+ZoneName="Sala de Motor"
+
+[ControlPoint1]
+PointName="Puente"
+
+[ControlPoint2]
+PointName="Cargamento"
+
+[ControlPoint0]
+PointName="Motor"
+
+[ZoneInfo1]
+ZoneName="Puente"
+
+[ZoneInfo6]
+ZoneName="Túnel de Estribor"
+
+[ZoneInfo10]
+ZoneName="Túnel de Puerto"
+
+[ZoneInfo2]
+ZoneName="Sala de Ventilación"
+
+[ZoneInfo4]
+ZoneName="Túnel de Puerto"
+
+[WaterZone0]
+ZoneName="Hundiéndose"
+
+[LevelSummary]
+Title="Bahía del Lobo"
+IdealPlayerCount="6"
+
+[ZoneInfo22]
+ZoneName="Afueras"

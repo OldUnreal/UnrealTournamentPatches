@@ -1,0 +1,44 @@
+﻿[LevelInfo0]
+Title="Fortaleza Guardia"
+IdealPlayerCount="6-12"
+
+[AssaultInfo2]
+ObjDesc[0]="Dispárenle al fusible para prenderle fuego y hacer que la dinamita explote. Solo entonces podrán acceder a la base subterránea."
+ObjDesc[1]="Atraviesen la base, esquivando las torretas y los enemigos que encuentren por el camino, hasta llegar a un ascensor que los llevará a la plataforma en la que se encuentra el interruptor de activación del garaje."
+ObjDesc[2]="Una vez abierto el portón, destruyan el tanque prototipo disparando a la torreta."
+
+[FortStandard0]
+FortName="El Puente de Lava"
+DestroyedMessage="¡ha sido cruzado!"
+
+[FortStandard4]
+FortName="La Cueva"
+DestroyedMessage="¡ha sido atravesada!"
+
+[LevelSummary]
+Title="Fortaleza Vigía"
+IdealPlayerCount="6-12"
+
+[FortStandard1]
+FortName="La Mecha"
+DestroyedMessage="¡ha sido encendida!"
+
+[FortStandard2]
+FortName="El Portón del Garaje"
+DestroyedMessage="¡ha sido abierto!"
+
+[FortStandard3]
+FortName="La Torreta del Tanque"
+DestroyedMessage="¡ha sido destruida!"
+
+[ZoneInfo0]
+ZoneName="Cueva de los Atacantes"
+
+[ZoneInfo1]
+ZoneName="Cerca del Fusible"
+
+[ZoneInfo2]
+ZoneName="Pasillos de la Base"
+
+[WaterZone0]
+ZoneName="Bajo el Agua"

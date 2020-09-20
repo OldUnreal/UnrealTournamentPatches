@@ -1,0 +1,22 @@
+﻿[LevelInfo0]
+Title="Metralla ]["
+IdealPlayerCount="6-16"
+
+[ZoneInfo1]
+ZoneName="Centro"
+
+[ZoneInfo0]
+ZoneName="Sala de Metralla"
+
+[ZoneInfo4]
+ZoneName="Ala Este"
+
+[ZoneInfo2]
+ZoneName="Sala de Cinturón de Protección"
+
+[ZoneInfo3]
+ZoneName="Sala de Lanzacohetes"
+
+[LevelSummary]
+Title="Metralla ]["
+IdealPlayerCount="6-16"

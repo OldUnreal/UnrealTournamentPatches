@@ -1,0 +1,25 @@
+[LevelInfo0]
+Title=Sotterraneo di Terraniux 
+
+[SpecialEvent0]
+Message=ALLARME
+
+[TranslatorEvent0]
+Message=Controllo Rifiuti Biologici: flusso costante. Controllare ogni  fluttuazione pericolosa. Il sistema d'allarme ha ancora problemi: in caso di avarie attivare i due comandi manuali.
+AltMessage=Ascensore attivato. Portare a termine gli incarichi assegnati.
+
+
+[TranslatorEvent5]
+Message=Drenaggio: il flusso di Rifiuti Biologici è a livelli nominali. Tutte le pompe in funzione. La Sezione C è vuota e disponibile per ogni trabocco. Accertarsi che la manutenzione dei tubi sia regolare.
+
+[TranslatorEvent4]
+Message=Sicurezza: rilevato intruso. Schermi protettivi del Lab. di Ricerca e della Sez. Idroponica attivati. Tutti gli agenti ai punti di accesso nelle Sezioni A, B e C.
+Hint=Trova le stanze di contenimento A, B e C e attiva i pulsanti per accedere all'Ascensore 1.
+
+[TranslatorEvent3]
+Message=Stato della Sala Comandi: pressurizzata e chiusa. Non entrate se non in caso di emergenza.
+
+[TranslatorEvent1]
+Message=Sezione D: raggiunto il 54% della capacità.
+AltMessage=Stazione di pompaggio attivata. Capacità di deposito stimata dopo l'operazione: 32%
+AltMessage=Sezione D: raggiunto il 54% della piena capacità.

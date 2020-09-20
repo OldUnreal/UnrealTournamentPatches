@@ -1,0 +1,49 @@
+[TranslatorEvent2]
+message=Il villaggio di Harobed è sull'altro versante di queste montagne. Attenderò finché i due soli saranno tramontati e procederò attraverso la miniera di Rrajigar. È l'unico modo.
+
+[TranslatorEvent0]
+message=ALLARME: rivolta degli schiavi di Nali rilevata nel Settore 3A. Uso letale di forza autorizzato per sopprimere l'attività ribelle.
+
+[TranslatorEvent1]
+message=ATTENZIONE: i ponti di accesso nella parte inferiore della miniera non sono sicuri. Procedere con cautela.
+
+[TranslatorEvent11]
+message=ATTENZIONE: rilevato intruso nelle Sezioni C-6 e D-8. Tutto il personale è responsabile per il pattugliamento della propria zona.
+Hint=Spara al vicino pulsante rosso per sollevare il ponte attraverso la lava.
+
+[TranslatorEvent8]
+message=Lo stato della prima fonte d'energia del Campo di Forza è "attiva".
+Hint=Premi i pulsanti rossi sul muro andandoci contro.
+
+[TranslatorEvent7]
+message=Lo stato della seconda fonte d'energia del Campo di Forza è "attiva".
+Hint=Premi i pulsanti rossi sul muro andandoci contro.
+
+[TranslatorEvent9]
+message=ATTENZIONE: lo stato della prima fonte d'energia del Campo di Forza è "disattivata". Condizione di sicurezza due raggiunta.
+
+[TranslatorEvent10]
+message=ATTENZIONE: lo stato della seconda fonte d'energia del Campo di Forza è "disattivata". Condizione di sicurezza due raggiunta.
+
+[TranslatorEvent6]
+message=Campo di Forza intatto. Tutti i sistemi normali.
+Hint=Il Campo di Forza deve essere disattivato. Trova la stanza di controllo.
+
+[TranslatorEvent5]
+message=ATTENZIONE! Campo di Forza disattivato. Rilevato intruso nella Sezione C-6. Eliminare qualunque presenza non autorizzata.
+Hint=Spara a tutti i barili rossi.
+
+[LevelInfo0]
+Title=Miniera di Rrajigar
+
+[TranslatorEvent19]
+message=NOTA: l'area deve essere sgombra perché il montacarichi funzioni correttamente.
+
+[TranslatorEvent15]
+message=Sei GIÀ morto.
+
+[TranslatorEvent14]
+message=Che diavolo stai facendo quassù?
+
+[TranslatorEvent20]
+message=Area di controllo del Campo di Forza.

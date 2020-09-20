@@ -1,0 +1,50 @@
+[TranslatorEvent2]
+message=La Aldea Harobed está al otro lado de estas montañas. Esperaré hasta que salgan los dos soles y seguiré a través de la mina Rrajigar. Es el único camino.
+
+[TranslatorEvent0]
+message=ALERTA: Detectada resistencia de los esclavos del Nali en el Sector 3A. Fuerza letal autorizada para suprimir las rebeliones.
+
+[TranslatorEvent1]
+message=AVISO: Los puentes de acceso en la mitad inferior de la mina no son seguras. Sigue con precaución.
+
+[TranslatorEvent11]
+message=AVISO: Intruso detectado en las Secciones C-6 y D-8. Todo el personal es responsable de patrullar su propia zona.
+Hint=Dispara el próximo botón rojo para elevar el puente estrecho a través de la lava.
+
+[TranslatorEvent8]
+message=Está activado el estado nivel uno de la fuente de potencia del Campo de Fuerza.
+Hint=Pulsa los botones rojos del muro chocando contra ellos.
+
+[TranslatorEvent7]
+message= Está activado el estado nivel dos de la fuente de potencia del Campo de Fuerza.
+Hint=Pulsa los botones rojos del muro chocando contra ellos.
+
+[TranslatorEvent9]
+message=AVISO: Está inactivo el estado nivel uno de la fuente de potencia del Campo de Fuerza. Alcanzado el Estado de Seguridad Dos.
+
+[TranslatorEvent10]
+message=AVISO: Está activado el estado nivel dos de la fuente de potencia del Campo de Fuerza. Alcanzado el Estado de Seguridad Dos.
+
+[TranslatorEvent6]
+message=Campo de fuerza intacto. Todos los sistemas normales.
+Hint=Debe desactivarse el campo de fuerza. Busca la sala de control.
+
+[TranslatorEvent5]
+message=AVISO! Campo de Fuerza desactivado. Intruso detectado en la Sección C-6. Elimina toda presencia desautorizada.
+Hint=Dispara todos los cañones rojos.
+
+[LevelInfo0]
+Title=Mina Rrajigar
+
+[TranslatorEvent19]
+message=NOTA: El área debe estar libre para que pueda funcionar el elevador de transporte.
+
+[TranslatorEvent15]
+message=Estás BIEN muerto.
+
+[TranslatorEvent14]
+message=Pero qué demonios estás haciendo tú allá arriba?
+
+[TranslatorEvent20]
+message=Área de Control del Campo de Fuerza
+

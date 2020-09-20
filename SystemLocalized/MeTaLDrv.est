@@ -1,0 +1,8 @@
+﻿[Public]
+Object=(Name=MeTaLDrv.MeTaLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=S3_6.dll)
+Preferences=(Caption="Soporte para S3 MeTaL",Parent="Reproducción",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
+
+[MeTaLRenderDevice]
+ClassCaption="Soporte para S3 MeTaL"
+AskInstalled="¿Tienes instalada una tarjeta Savage aceleradora de gráficos en 3D?"
+AskUse="¿Quieres que Unreal utilice una tarjeta Savage aceleradora de gráficos en 3D?"

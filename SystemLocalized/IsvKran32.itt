@@ -1,0 +1,85 @@
+[TranslatorEvent9]
+Message=Il reparto Ingegneria è stato bloccato da un campo di tenuta. Per accedervi bisogna prima distruggere il generatore del campo.
+
+[TranslatorEvent6]
+Message=La prima ondata di Skaarj è stata isolata nel Ponte 4. Dubito che riusciranno a usare le tubazioni per entrare nella nave. Ci ritireremo nel Ponte 1 e bloccheremo l'Ingegneria con un campo di tenuta.
+
+[TranslatorEvent34]
+Message=SISTEMA DI RAFFREDDAMENTO: PERDITA DI REFRIGERANTE NEL LIVELLO INFERIORE DEI NUCLEI DI TENUTA. COMANDI MANUALI PROIBITI AL PERSONALE NON AUTORIZZATO.
+
+[TranslatorEvent27]
+Message=STAZIONE DI OSSERVAZIONE 2: l'analisi di superficie rivela strutture indigene primitive. Esiste una città ad alta tecnologia sospesa nel cielo grazie a una forza ignota. Un obelisco della città emana una fortissima energia.
+
+[TranslatorEvent26]
+Message=STAZIONE DI OSSERVAZIONE 1: l'analisi a corto raggio mostra una grande nave aliena sulla superficie. Sembra uguale al vascello che è stato visto entrare e uscire dai campi di Tarydium del pianeta prima del decadimento orbitale.
+
+[TranslatorEvent24]
+Message=STAZIONE DI CONTROLLO DELLE BIO-TUTE IN AVARIA: L'ENERGIA È DIROTTATA DA INTRUSI SUL PONTE 1.
+
+[TranslatorEvent35]
+Hint=SISTEMA DI RAFFREDDAMENTO: ERRORE DI SINTASSI? AUTORIZZAZIONE ERRATA.
+
+[TranslatorEvent23]
+Message=ATTENZIONE: PERDITA DI REFRIGERANTE AL LIVELLO INFERIORE DI QUESTA ZONA
+
+[TranslatorEvent22]
+Message=ATTENZIONE: NUCLEO DI TENUTA SCOPERTO: PERICOLO DI ESPLOSIONE. ALLONTANATEVI PRIMA DI SCARICARE LE ARMI.
+
+[TranslatorEvent21]
+Message=ATTENZIONE: NUCLEO DI TENUTA SCOPERTO: PERICOLO DI ESPLOSIONE. ALLONTANATEVI PRIMA DI SCARICARE LE ARMI.
+
+[TranslatorEvent20]
+Message=I NUCLEI DI CONTENIMENTO SONO MOLTO INSTABILI: METTERE LA SICURA A TUTTE LE ARMI.
+
+[TranslatorEvent18]
+Message=INGEGNERIA PRINCIPALE: CAMPO DI TENUTA D'EMERGENZA ATTIVO. PER DISATTIVARLO, I NUCLEI D'ORO CHE GENERANO IL CAMPO DEVONO ESSERE DISTRUTTI.
+AltMessage=INGEGNERIA PRINCIPALE: INTRUSI RILEVATI. PROCEDERE CON CAUTELA.
+
+[TranslatorEvent14]
+Message=VALVOLA DI SCARICO D'EMERGENZA DEL REFRIGERANTE ATTIVA.
+
+[TranslatorEvent4]
+Message=Hangar primario: nota del Secondo Ufficiale Ivan Romanov della ISV-KRAN. Il pannello di controllo dei portelloni può essere riattivato con il comando prioritario che si trova in un tubo di accesso.
+
+[TranslatorEvent3]
+Message=Hangar primario: nota del Secondo Ufficiale Ivan Romanov della ISV-KRAN. Ho bloccato il boccaporto principale Iris con una saldatura laser. Nessun bastardo alieno entrerà nel mio hangar.
+
+[TranslatorEvent16]
+Message=POMPA DI RAFFREDDAMENTO DI EMERGENZA ATTIVATA.
+
+[TranslatorEvent17]
+Message=ATTENZIONE: TRABOCCO DI REFRIGERANTE. PRIMA DI ENTRARE IN QUESTA ZONA BISOGNA ATTIVARE LA POMPA DI EMERGENZA E LA VALVOLA DI SCARICO.
+AltMessage=POMPA DI RAFFREDDAMENTO DI EMERGENZA ATTIVA. INTRUSI ALIENI STANNO PRENDENDO IL CONTROLLO DEL CAMPO DI TENUTA.
+
+[TranslatorEvent8]
+Message=Comandi prioritari dei portelloni dell'hangar 
+AltMessage=Portelloni dell'hangar alimentati: procedura di scavalcamento riuscita
+
+[TranslatorEvent11]
+Message=IL TURBO-ASCENSORE PRIMARIO RICHIEDE LA PIENA POTENZA.
+AltMessage=ENERGIA DEL TURBO-ASCENSORE PRIMARIO RIPRISTINATA - ATTENZIONE: ESISTE UN RITARDO DI SICUREZZA DI 2 SECONDI PER IL CARICAMENTO.
+
+[TranslatorEvent31]
+Message=PONTE 3 DELLA ISV-KRAN: INTRUSI IGNOTI STANNO CERCANDO DI ASSUMERE IL CONTROLLO DEI MOTORI. POTENZA MASSIMA DEI MOTORI: 75%.
+
+[TranslatorEvent32]
+Message=STAZIONE DI ESPLORAZIONE PLANETARIA. RILEVATA NAVE ALIENA CHE ENTRA ED ESCE DALL'ATMOSFERA. UNA NAVE MADRE ALIENA È ATTERRATA NELLA VALLE A NORD VICINO ALLA TEMPESTE ELETTRICHE.
+
+[TranslatorEvent30]
+Message=PANNELLO DEI MOTORI PRINCIPALI. DISPONIBILE IL 75% DELLA POTENZA. LOCALIZZATA PERDITA DI REFRIGERANTE IN UN NUCLEO CHE GENERA IL CAMPO DI TENUTA. FALLITO L'ULTIMO TENTATIVO DI RECUPERARE L'ENERGIA.
+
+[TranslatorEvent29]
+Message=MOTORI DELLA ISV-KRAN: SPENTI. DANNI MINIMI. SISTEMI DI SUPPORTO VITALI ATTIVI. IL PONTE 1 HA TUTTA L'ENERGIA RICHIESTA. SCAFO PERFORATO PRESSO L'OSSERVATORIO.
+
+[TranslatorEvent28]
+Message=GENERATORE DEL CAMPO DI TENUTA ATTIVO. I NUCLEI D'ORO SONO INSTABILI PER IL SOVRACCARICO NECESSARIO A BLOCCARE INGEGNERIA. I CAMPI DI TENUTA POSSONO ESSERE DISATTIVATI DISTRUGGENDO I NUCLEI.
+
+[TranslatorEvent5]
+Message=Per attivare questo pannello serve un comando prioritario.
+
+[TranslatorEvent10]
+Message=Gli Skaarj hanno raggiunto la zona dell'hangar. Ci ritireremo nel Ponte 1 e prepareremo una barriera di fortuna ad alta tensione. Dovremmo essere al sicuro.
+
+[LevelInfo2]
+Title=Ponti 2 e 3 della ISV-KRAN
+LevelEnterText=Arrivo al ponte 3 della ISV-KRAN

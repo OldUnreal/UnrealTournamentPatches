@@ -1,0 +1,69 @@
+[LevelInfo0]
+Title="Mutterschiff, Labor"
+
+[TranslatorEvent3]
+message=" Eindringling entdeckt. Die Quelle muß um jeden Preis beschützt werden. Eindringling muß aufgehalten werden, bevor er die äußere Verteidigungsanlage der Quelle durchbricht."
+
+[TranslatorEvent2] 				
+message="An alle Sicherheitskräfte, begeben Sie sich zu ihren Stationen um den Gefängnisblock bis das APS wieder online ist. Kein Häftling darf entkommen "
+
+[TranslatorEvent1]
+AltMessage="Energieversorgung der Quelle ist gesichert, Notenergieversorgung ist in Betrieb. Aufrechterhaltung der Energieversorgung der Quelle hat höchste Priorität. Schwäche wird bestraft."
+
+[TranslatorEvent7]
+message="ZUTRITT VERWEIGERT: Energiereserven bei 100%"
+AltMessage="Du mußt zum Forschungslabor gehen und die Energiemenge drosseln. "
+
+Hint="Du mußt zum Forschungslabor gehen und die Energiemenge drosseln. "
+
+[TranslatorEvent0]
+AltMessage="Primäre Energieversorgung läuft auf Höchstleistung. Sekundäre Versorgung liefert 80% Leistung. Aktivierung der zusätzlichen Energieversorgung für die Sicherheitskraftfelder dringend erforderlich. Schwäche wird bestraft."
+
+[TranslatorEvent21]
+message="Forschungszentrum "
+
+[TranslatorEvent22]
+Message="Bericht 190: Shrk'Tajji, 2. Assistent von Ess'Tajji. Das nächste Experiment ist vorbereitet. Erwartet wird ein 18% Rückgang in den Energiereserven. Versuchsobjekt ist in Position und Tarydium ist bereit zur Aufladung." 
+
+[TranslatorEvent20] 
+message="Genetische Abteilung"
+
+[TranslatorEvent14]
+AltMessage="Achtung: Eindringling im Mutterschiff entdeckt, alle Experimente werden auf Befehl von Chakti'Nrrj bis auf weiteres eingestellt. Für die Sicherheitssysteme müssen 100% Energiereserven zur Verfügung stehen."
+
+[TranslatorEvent15]
+AltMessage="Bericht 187: Shrk'Tajji, 2. Assistent von Ess'Tajji. Trotz der Mißerfolge bei unseren bisherigen Experimenten mit dem abschirmenden Effekt, weisen die Zellen der Versuchsobjekte doch einige interessante Nachwirkungen auf."
+
+[TranslatorEvent16]
+AltMessage="Bericht 189: Shrk'Tajji 2. Assistent von Ess'Tajji. Nach erneuter Analyse der Testergebnisse sind wir zu dem Schluß gekommen, daß das magnetische Feld des Core Generators vermutlich die Ursache der Mißerfolge ist."
+
+[TranslatorEvent17]
+AltMessage="Bericht 188: Shrk'Tajji, 2. Assistent von Ess'Tajji. Die Untersuchungsreihen der Zellen der Versuchsobjekte weisen anhaltende Abschirmungseffekte auf. Seltsamerweise sind diese alle völlig synchron."
+
+[TranslatorEvent19]
+message="Forschungszentrum "
+
+[TranslatorEvent18]
+message="Energieabteilung"
+
+[TranslatorEvent23]
+AltMessage="Ist dieses Experiment erfolgreich, ziehen wir mit dem Forschungszentrum nach Basis B um, wo wir vor der magnetischen Strahlung des Core Generators abgeschirmt sind. Bei Erfolg erreichen wir Pegel grün, vielleicht sogar Pegel blau."
+
+[TranslatorEvent24]
+AltMessage="KryoPods Status: Temperatur 269 Grad Kelvin, Druck 748 Millibar, Versuchsobjekte zur Fortsetzung des Experiments vorbereitet."
+
+[TranslatorEvent26]
+message="Energiereserven 100%, Abschirmungseffekt liegt bei 0.0025%. EEG/EKG Ausgaben sind normal, physiologischer Status ist kryogenisiert."
+AltMessage=" Energiereserven 80%, Abschirmungseffekt liegt bei 5.64%, EEG/EKG Ausgaben zeigen massive Störungen, physiologischer Status ist aktiv, und Endorphin- Adrenalsysteme produzieren hormonelle Überlasten." 
+
+[TranslatorEvent25]
+AltMessage="Die Versuchsobjekte sind in Sicherungsverwahrung. Sie sind durch Kraftfelder in einem kleinen Gebiet eingegrenzt und nicht abgeschirmt. Sie sind sehr gefährlich, wenn sie nicht in präzise justierten Magnetfelder gehalten werden."
+
+[TranslatorEvent6]
+message="ZUTRITT VERWEIGERT"
+
+[TranslatorEvent4]
+AltMessage="Bericht 190: Das nächste Experiment ist vorbereitet, und die Energie des 1. Generators ist auf 80%. Das Versuchsobjekt dürfte kaum Folgen aufweisen. Der erwartete Energiepegel wird durch einen orangenen Schimmer gekennzeichnet."
+
+[TranslatorEvent5]
+message=" Experimentelle Einrichtung"

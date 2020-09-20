@@ -1,0 +1,13 @@
+[TranslatorEvent0]
+message=Sgt. William Bradford: la mia intera squadra è stata uccisa da questa specie di salamandre. Non ho più munizioni e sono rimasto bloccato per giorni in questo santuario con uno dei preti del luogo. Mentre egli prega, io tengo d'occhio la porta.
+
+[Counter2]
+CountMessage=Prova agli dei le tua abilità di Guerriero
+CompleteMessage=Ben fatto!
+
+[TranslatorEvent15]
+message=Le stanze cerimoniali interne. Qui risiedono i serpenti della divinità dell'acqua, in attesa della carne dei deboli da divorare. Solo il guerriero che nuota come il serpente potrà sfuggire loro.
+
+[LevelInfo0]
+Title=Le Stanze Cerimoniali
+LevelEnterText=Accesso all'Ala Cerimoniale

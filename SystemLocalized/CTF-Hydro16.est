@@ -1,0 +1,34 @@
+﻿[LevelInfo0]
+Title="Bases Hídricas"
+IdealPlayerCount="6-12"
+
+[ZoneInfo9]
+ZoneName="Sala de Bandera Roja"
+
+[ZoneInfo1]
+ZoneName="Pasaje de Pilares Rojo"
+
+[ZoneInfo2]
+ZoneName="Sala de Bandera Azul"
+
+[ZoneInfo10]
+ZoneName="Sala de Calderas Azul"
+
+[ZoneInfo3]
+ZoneName="Pasaje de Pilares Azul"
+
+[ZoneInfo13]
+ZoneName="Sala de Calderas Roja"
+
+[ZoneInfo6]
+ZoneName="Patio Rojo"
+
+[ZoneInfo5]
+ZoneName="Patio Azul"
+
+[ZoneInfo4]
+ZoneName="Puentes"
+
+[LevelSummary]
+Title="Bases Hídricas"
+IdealPlayerCount="6-12"

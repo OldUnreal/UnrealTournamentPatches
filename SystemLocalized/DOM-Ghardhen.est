@@ -1,0 +1,43 @@
+﻿[LevelInfo0]
+Title="Laboratorios Ghardhen"
+IdealPlayerCount="6-12"
+
+[ZoneInfo13]
+ZoneName="Sótano"
+
+[ControlPoint2]
+PointName="Arriba"
+
+[ZoneInfo12]
+ZoneName="Sala Hacia Arriba"
+
+[ControlPoint0]
+PointName="Abajo"
+
+[ControlPoint3]
+PointName="Centro"
+
+[ZoneInfo8]
+ZoneName="Plataforma de Observación"
+
+[ZoneInfo11]
+ZoneName="Sala Hacia Abajo"
+
+[ZoneInfo10]
+ZoneName="Cámara de Explosión 1"
+
+[ZoneInfo9]
+ZoneName="Cámara de Explosión 2"
+
+[LevelSummary]
+Title="Laboratorios Ghardhen"
+IdealPlayerCount="6-12"
+
+[locationid7]
+LocationName="Sala Central: Abajo"
+
+[locationid6]
+LocationName="Sala Central: Arriba"
+
+[locationid8]
+LocationName="Sala Central: Medio"

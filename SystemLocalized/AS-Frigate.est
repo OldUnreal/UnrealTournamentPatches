@@ -1,0 +1,32 @@
+﻿[LevelInfo0]
+Title="Fragata"
+IdealPlayerCount="4-8"
+
+[LevelSummary]
+Title="Fragata"
+IdealPlayerCount="4-8"
+
+[FortStandard0]
+FortName="Los Misiles"
+DestroyedMessage="¡han sido disparados!"
+
+[FortStandard1]
+FortName="La Fragata"
+DestroyedMessage="¡ha sido ocupada!"
+
+[FortStandard2]
+FortName="El Compresor Hidráulico"
+DestroyedMessage="¡ha sido destruido!"
+
+[AssaultInfo0]
+ObjDesc[0]="La puerta de la sala de control del barco se acciona mediante un compresor hidráulico situado en la cabina de popa de la embarcación. Este compresor debe ser destruido para que puedan acceder a la sala de control."
+ObjDesc[1]="Deberán secuestrar el acorazado atravesando el muelle y escabulliéndose hasta alcanzar la sala de control en el piso superior de la nave. Allí, encontrarán un botón rojo que activará los cañones del barco y les permitirá zarpar del puerto."
+
+[ZoneInfo0]
+ZoneName="Corredor medio de la nave"
+
+[WaterZone0]
+ZoneName="Nadando en el lago"
+
+[WaterZone1]
+ZoneName="En las profundidades"

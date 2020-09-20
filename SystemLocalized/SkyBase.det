@@ -1,0 +1,35 @@
+[LevelInfo0]
+Title="Bergfestung"
+
+[TranslatorEvent2]
+message=" Mitteilung, Logbuch 7: Mutterschiff bestätigt Bitte um Belieferung von Außenposten 3J. Aufklärungsgleiter 3J-1A ist autorisiert, zum Mutterschiff zurückzukehren um Fracht abzuholen."
+
+[TranslatorEvent4]
+message="Steuerung Kraftfeld "
+
+[TranslatorEvent0]
+message="Sicherheit Logbuch: Außenposten 3J, Basiskommandant Ssja'Rath, 10te Kralle von Ssa'Rath.  Um die Ordnung und Sicherheit zu bewahren werden die Nali in der Stadt ständig von uns bewacht. Wachsamkeit ist der Hüter der Ehre."
+
+[TranslatorEvent3]
+message="Torsteuerung des linken Hangardecks"
+
+[TranslatorEvent1]
+message="Torsteuerung des Hauptfrachtraums"
+
+[TranslatorEvent5]
+message=" Torsteuerung des rechten Hangardecks "
+
+[TranslatorEvent6]
+message="Steuerung des Kraftfeldes am Heckeingang"
+
+[TranslatorEvent7]
+message="Steuerung des Teleporters"
+
+[TranslatorEvent8]
+message="Teleporter Zielkoordinaten eingestellt auf Oberflächentransporter Nummer 13. Wachpersonal bereits an Ort entsandt, um Gebiet abzuriegeln. Gebiet freigegeben zur Frachtübertragung."
+
+[TranslatorEvent9]
+message="Zutritt zu den unteren Katakomben der Kirche für Unbefugte verboten. Alle Personen müssen von der Sicherheit überprüft werden, bevor der Zutritt gestattet wird."
+
+[TranslatorEvent10]
+message="Steuerung des unteren Zugangs für Sicherheitskräfte"

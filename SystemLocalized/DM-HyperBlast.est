@@ -1,0 +1,24 @@
+﻿[LevelInfo0]
+Title="Hiperexplosión"
+IdealPlayerCount="2-8"
+LevelEnterText="¡¡ES LA HORA CLAVE!!"
+
+[ZoneInfo1]
+ZoneName="Cubiertas Centrales"
+
+[ZoneInfo0]
+ZoneName="Afuera de la Nave"
+
+[ZoneInfo3]
+ZoneName="Cubiertas Inferiores"
+
+[ZoneInfo2]
+ZoneName="Cubiertas Superiores"
+
+[VacuumZone0]
+DamageString="¡%k fue catapultado al espacio!"
+
+[LevelSummary]
+Title="Hiperexplosión"
+IdealPlayerCount="2-8"
+LevelEnterText="¡¡ES LA HORA CLAVE!!"

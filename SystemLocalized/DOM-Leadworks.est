@@ -1,0 +1,39 @@
+﻿[LevelInfo0]
+Title="Fundición de Plomo del Lado Sur"
+IdealPlayerCount="6-12"
+LevelEnterText="Entrando en la Fundición de Plomo al Sur"
+
+[ZoneInfo0]
+ZoneName="Torre"
+
+[ZoneInfo4]
+ZoneName="Deposito de Cohetes"
+
+[ZoneInfo2]
+ZoneName="Puente de Lava"
+
+[ZoneInfo3]
+ZoneName="Procesamiento"
+
+[ZoneInfo6]
+ZoneName="Almacén"
+
+[ControlPoint2]
+PointName="Puente"
+
+[ControlPoint1]
+PointName="Torre"
+
+[ZoneInfo1]
+ZoneName="Pasillos"
+
+[ControlPoint0]
+PointName="Almacén"
+
+[ZoneInfo5]
+ZoneName="Depósito de Cuchillas"
+
+[LevelSummary]
+Title="Fundición de Plomo del Lado Sur"
+IdealPlayerCount="6-12"
+LevelEnterText="Entrando en la Fundición de Plomo al Sur"

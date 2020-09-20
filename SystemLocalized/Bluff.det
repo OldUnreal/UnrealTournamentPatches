@@ -1,0 +1,99 @@
+[TranslatorEvent30]
+Message= WACHTTURM HAUPTTOR 
+
+[TranslatorEvent29]
+Message= Kruun's Tagebuch: Ich darf nicht zu oft durch die Höhlen ins Kloster. Ich habe den quadratischen Tunnel der ins Kloster führt mit einem Kreuz gekennzeichnet. Der andere Tunnel führt zum Gefängnis, in dem mein Bruder festgehalten wird. 
+
+[TranslatorEvent19]
+Message=Ich bin krank, habe ein schlimmes Husten. Diese Zelle ist feucht. Ich hoffe nur, daß mein Bruder Kruun entkommen und unser Kindheitsversteck in den Abwasserkanälen finden kann. Von dort aus kann er ins Innere des Klosters gelangen.
+
+[TranslatorEvent28]
+Message= Gefängniswärter Hrang: Nicht zu fassen! Das Mädchen ist entkommen! Einer von diesen nichtsnützigen Nali-Mönchen muß sie durch einen Tunnel geschleust haben. So eine Scheiße! 
+
+[TranslatorEvent27]
+Message= Gefängniswärter Hrang: Dorro schuldet mir 25,000 Goldpaaras! Er ist miserabel im Todesknochenspiel. Ihn zu beschummeln ist echt leicht. So, ich glaube es wird wieder Zeit, dieses häßliche Mädchen von Terra zu verprügeln!
+
+[TranslatorEvent25]
+Message= Gefängniswärter Hrang: wir haben ein Mädchen vom Planeten Terra gefangengenommen. Einige von meinen Soldaten wollen ein bißchen Spaß mit ihr haben. Hauptsache sie nehmen sich vor ihren Stiefeln in acht. Mich hat sie in die Eier getreten.
+[TranslatorEvent15]
+Message= Gruft der Toten - Hierin befindet sich die letzte Ruhestätte des Hohenpriesters von Bluff Eversmoking sowie die vom Messias verwendeten Artefakte.
+Hint=Suche nach einem geheimen Hebel im Friedhof.
+
+[TranslatorEvent24]
+Message= Grorq vom Stamm der Roten Hände. Wir erwarten demnächst einen größeren Transport aus dem Menschenraumschiff. Ich muß ein paar Reparaturen an den elektrischen Schienen am Kliff vornehmen lassen, aber bis dahin müßten wir fertig sein. 
+
+[TranslatorEvent26]
+Message= Grorq vom Stamm der Roten Hände. Allmählich werde ich es leid, wie uns die Skaarj behandeln. Sie kommandieren uns herum und wir müssen ihre jämmerlichen Nali-Sklaven bewachen. Meine Truppen haben es auch langsam satt. 
+
+[TranslatorEvent9]
+Message=ELEKTROSTATISCHER-ENTLADUNGS-KNOTENPUNKT: VOR ENTLADUNG MÜSSEN ÖSTLICHE UND WESTLICHE LEISTUNGSSCHALTER BETÄTIGT WERDEN.
+AltMessage= ELEKTROSTATISCHE ENTLADUNG ERFOLGREICH - HYDROELEKTRISCHER TRANSPORTWAGON JETZT EINSATZBEREIT.
+
+[TranslatorEvent3]
+Message=Mein Bruder Kriin ist in der Zelle unter mir. Kruun, mein anderer Bruder, ist durch den Wassertunnel unter den Sternen entkommen. Mein bester Freund Jaara hat sich geopfert, um Kruun's Ausbruch zu ermöglichen.
+
+[TranslatorEvent0]
+Message=ISV-KRAN Logbuch: Chefsanitätsoffizier Tatiana Zimna: Bei unserer Suche nach Kira´s Entführer haben wir ein Kloster gefunden. Wir schlagen heute Abend unser Lager neben diesem Kruzifix auf und ziehen morgen früh gleich weiter. 
+
+[TranslatorEvent5]
+Message=SKAARJ TRANSPORTBETRIEB - ENERGIEVERTEILUNGSSTATION: HYDROELEKTRISCHER TRANSPORTWAGON STATUS - AUS / ZUR REAKTIVIERUNG ELEKTROSTATISCHE-ENTLADUNGS-KNOTENPUNKTE AM GLOCKENTURM ÖFFNEN. 
+
+[TranslatorEvent8]
+Message=MAGNETSCHLÖSSER AKTIVIERT: GENEHMIGT  VON CAPTAIN DUK'CHOROTH- VOM 12en HAUS DUBREVI
+AltMessage= MAGNETSCHLÖSSER DEAKTIVIERT
+
+[TranslatorEvent10]
+Message=HABE VERTRAUEN UND WEICHE NICHT VON DEINEM GLAUBEN AB. NUR EINE SEELE, DIE TROTZ ALLER UNTERDRÜCKUNG DEM GLAUBEN TREU BLEIBT WIRD TRIUMPHIEREN WENN DIE RETTENDE PRINZESSIN VON DEN STERNEN KOMMT
+
+[TranslatorEvent2]
+Message= Unteroffizier K. Argmanov: Bin von der übrigen Besatzung getrennt. Ein Einheimischer hat mir geholfen, aus der Zelle auszubrechen in der mich die Skaarj gehalten haben. Ich habe mich hier in einem Glockenturm verschanzt.
+
+[TranslatorEvent20]
+Message=Hoher Priester De'Nasha Breeche 255-480
+
+[TranslatorEvent21]
+Message= Ministrant Ne'Lin Garas 353-487
+
+[TranslatorEvent4]
+Message=HYDROLASER KONTROLLSTATION: LASERS AKTIVIERT UND EINSATZBEREIT
+AltMessage=HYDROLASER KONTROLLSTATION: LASERS DEAKTIVIERT - ZUGANG ZUM HYDROELEKTRISCHEN GENERATOR UNTERHALB GLOCKENTURM GESTATTET 
+
+[TranslatorEvent1]
+Message=Sicherheitsoffizier Sergai Dubrov: ISV-KRAN:LOGBUCHEINTRAG: Wir sind der Skaarj-Patrouille dicht auf den Fersen, die Kira in der Nähe des Sonnenturms gefangengenommen hat. Sie steuert auf die blauen Gewitter am Horizont zu. 
+
+[TranslatorEvent7]
+Message= HYDROELEKTRISCHER TRANSPORTWAGON VOLL AUFGELADEN UND ABFAHRBEREIT. VOR DEM START DES WAGGONS MÜSSEN DIE ELEKTROSTATISCHEN ENTLADUNGSKNOTENPUNKTE AM GLOCKENTURM AKTIVIERT WERDEN. 
+
+[TranslatorEvent6] 
+AltMessage= MAGNETSCHLÖSSER VOM GLOCKENTURM DEAKTIVIERT: ZUGANG ZUM GLOCKENTURM GESTATTET.
+
+[TranslatorEvent12]
+Message= Gestern Nacht verließ ich mein Versteck und schwamm durch die Rohre ins Gefängnis. Ein Mädchen wird dort gefangengehalten! Ein Soldtat bekam ihren Stiefel ins Gesicht als er versuchte, sich an sie ranzumachen. Ha! Das geschah ihm recht!
+
+[TranslatorEvent14]
+Message=Die Frau soll hingerichtet werden. Das kann ich nicht zulassen! Ich will versuchen, sie aus der Zelle hinaus und durch den Geheimtunnel nach draußen zu schmuggeln. Bis zum Einbruch der Dunkelheit kann sie sich im Glockenturm verstecken.
+
+[TranslatorEvent11]
+Message=Mir ist, als ob ich mich hier schon seit Monaten verstecke. Die Skaarj die unser Kloster übernommen haben transportieren weiterhin seltsame mechanische Apparate mit Hilfe ihres Blitzschlittens. Ich habe Angst, daß sie mich entdecken.
+
+[TranslatorEvent13]
+Message=Hoher Priester Na'Then von Yurash 450-561
+
+[TranslatorEvent16]
+Message=ACHTUNG- ELEKTROSTATISCHE ENTLADUNGSPUNKTE  - VORSICHT BEI BETRIEB.
+
+[TranslatorEvent17]
+Message=Nur wenn man in die Richtung der aufgehenden Sonne blickt wird man einen neuen Tag entdecken..
+
+[TranslatorEvent18]
+Message= Ministrant Ne'Pher Dunis 350-488
+
+[TranslatorEvent23]
+Message=Pelit  20. Jan 1997- 17. Juli 1997
+
+[TranslatorEvent22]
+Message=Sohn von Ne'Lin Garas 380-390
+
+[LevelInfo0]
+Title=Bluff Eversmoking
+LevelEnterText=Eingang Bluff Eversmoking

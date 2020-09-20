@@ -1,0 +1,8 @@
+﻿[Public]
+Object=(Name=D3DDrv.D3DRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=d3d7.dll)
+Preferences=(Caption="Soporte para Direct3D 7",Parent="Reproducción",Class=D3DDrv.D3DRenderDevice,Immediate=True)
+
+[D3DRenderDevice]
+ClassCaption="Soporte para Direct3D 7"
+AskInstalled="¿Quieres utilizar Direct3D 7?"
+AskUse=""

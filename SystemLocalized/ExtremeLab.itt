@@ -1,0 +1,68 @@
+[LevelInfo0]
+Title="Laboratorio dell'Astronave Madre"
+
+[TranslatorEvent3]
+message="Rilevato intruso. Proteggere la Fonte a qualunque costo. L'intruso deve essere fermato prima che penetri il perimetro difensivo della Fonte."
+
+[TranslatorEvent2]
+message="Il personale di sicurezza faccia rapporto nelle zone di controllo intorno al blocco di detenzione finché l'APS non sarà tornato online. Tutti i detenuti devono essere contenuti."
+
+[TranslatorEvent1]
+AltMessage="Il Generatore Alternativo di Energia è operativo: l'afflusso di energia alla Fonte è assicurato. Il mantenimento del flusso d'energia alla Fonte è di priorità assoluta. Ogni mancanza verrà punita."
+
+[TranslatorEvent7]
+message="ACCESSO NEGATO: riserve d'energia al 100%"
+AltMessage="Devi dirigerti al Laboratorio di Ricerca per abbassare il livello di energia."
+Hint=" Devi dirigerti al laboratorio di ricerca per abbassare il livello di energia."
+
+[TranslatorEvent0]
+AltMessage="Il Generatore Primario sta operando al massimo dell'efficienza. Quello Ausiliario è operativo all'80%. L'uso del Generatore Ausiliario per il rifornimento dei Campi di Forza di sicurezza è assolutamente imperativo." 
+
+[TranslatorEvent21]
+message="Centro Ricerche"
+
+[TranslatorEvent22]
+Message="Rapporto 190: osservazione di Shrk'Tajji, II Occhio Minore di Ess'Tajji. Siamo pronti per il prossimo esperimento. Ci aspettiamo un calo del 18% nelle riserve d'energia. Il soggetto del test è in posizione e il Tarydium è pronto per la carica."
+
+[TranslatorEvent20]
+message="Dipartimento di Genetica"
+
+[TranslatorEvent14]
+AltMessage="Ordini di sicurezza: rilevato intruso nell'Astronave Madre, tutti gli esperimenti sono sospesi per ordine di Chakti'Nrrj, II Grande Artiglio di Ssa'Nrrj. Le riserve d'energia devono essere al 100% perché le operazioni del Sistema di Sicurezza siano ottimali."
+
+[TranslatorEvent15]
+AltMessage="Rapporto 187: Shrk'Tajji, II Occhio Minore di Ess'Tajji. Malgrado il fallimento dei nostri test precedenti sull'effetto scudo, le cellule dei soggetti del test mostrano alcuni effetti residui. Molto interessante..."
+
+[TranslatorEvent16]
+AltMessage="Rapporto 189: Shrk'Tajji, II Occhio Minore di Ess'Tajji. Dopo l'analisi incrociata dei risultati dei test su tutti i soggetti, abbiamo raggiunto la conclusione che il campo magnetico del Nucleo del Generatore è probabilmente la causa dei fallimenti."
+
+[TranslatorEvent17]
+AltMessage="Rapporto 188: Shrk'Tajji, II Occhio Minore di Ess'Tajji. Studi sulle cellule dei soggetti del test mostrano schermature persistenti, con fluttuazioni minori nella riflettività. Stranamente, queste sono tutte perfettamente sincronizzate."
+
+[TranslatorEvent19]
+message="Centro Ricerche"
+
+[TranslatorEvent18]
+message="Dipartimento Energetico"
+
+[TranslatorEvent23]
+AltMessage="Se l'esperimento avrà successo, vedremo di spostare il Centro Ricerche al Sito B dove saremo schermati dal campo magnetico del Nucleo del Generatore. Se avremo successo allora, raggiungeremo il livello verde o anche blu."
+
+[TranslatorEvent24]
+AltMessage="Stato dei Gusci Criogenici: temperatura a 269 gradi Kelvin, pressione a 748 millibar, i soggetti sono pronti per l'inizio dell'esperimento."
+
+[TranslatorEvent26]
+message="Riserve energetiche al 100%, effetto schermatura allo 0,0025%. Le letture EEG/EKG sono normali, stato fisiologico: criogenizzato."
+AltMessage="Riserve energetiche all'80%, effetto schermatura al 5,64%, le letture EEG/EKG mostrano gravi disturbi, lo stato fisiologico è attivo e i sistemi endorfina/adrenalina stanno producendo un sovraccarico ormonale."
+
+[TranslatorEvent25]
+AltMessage="Tutti i soggetti dei test sono stati piazzati nell'Area di Detenzione. I campi di forza li tengono confinati, ma loro continuano a mostrare un comportamento aggressivo quando non si trovano in campi magnetici attentamente tarati."
+
+[TranslatorEvent6]
+message="ACCESSO NEGATO"
+
+[TranslatorEvent4]
+AltMessage="Rapporto 190: siamo pronti per il prossimo esperimento, il soggetto è posizionato correttamente e l'energia del generatore primario verrà ridotta all'80%. Il soggetto ne sarà appena influenzato, il livello di energia atteso è caratterizzato dal colore arancio."
+
+[TranslatorEvent5]
+message="Laboratorio di Sperimentazione"

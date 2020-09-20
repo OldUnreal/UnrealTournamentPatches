@@ -1,0 +1,31 @@
+﻿[LevelInfo0]
+Title="Fundición de Carbón"
+IdealPlayerCount="6-12"
+
+[ZoneInfo18]
+ZoneName="Escondrijo"
+
+[ZoneInfo21]
+ZoneName="Lado Sur"
+
+[ZoneInfo20]
+ZoneName="Lava"
+
+[ControlPoint2]
+PointName="Escondrijo"
+
+[ControlPoint1]
+PointName="Lava"
+
+[ControlPoint0]
+PointName="Superior"
+
+[ZoneInfo22]
+ZoneName="Elevador"
+
+[LevelSummary]
+Title="Fundición de Carbón"
+IdealPlayerCount="6-12"
+
+[ZoneInfo19]
+ZoneName="Área Principal"

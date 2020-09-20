@@ -1,0 +1,73 @@
+﻿[LevelInfo0]
+Title="Mundos Enfrentados Edición Especial"
+IdealPlayerCount="4-10"
+
+[ZoneInfo3]
+ZoneName="Asteroide"
+
+[ZoneInfo2]
+ZoneName="Base Azul"
+
+[ZoneInfo1]
+ZoneName="Base Roja"
+
+[ZoneInfo6]
+ZoneName="Sala de Francotirador Roja"
+
+[ZoneInfo7]
+ZoneName="Sala de Francotirador Azul"
+
+[ZoneInfo5]
+ZoneName="Sala de Redentor Azul"
+
+[ZoneInfo4]
+ZoneName="Sala de Redentor Roja"
+
+[SpecialEvent0]
+DamageString="puso en órbita"
+
+[locationid0]
+LocationName="Patio Trasero Azul"
+
+[locationid1]
+LocationName="Asteroide Azul"
+
+[locationid2]
+LocationName="Asteroide Azul"
+
+[locationid3]
+LocationName="Asteroide Azul"
+
+[locationid4]
+LocationName="Asteroide Azul"
+
+[locationid5]
+LocationName="Asteroide Rojo"
+
+[locationid6]
+LocationName="Asteroide Rojo"
+
+[locationid7]
+LocationName="Asteroide Rojo"
+
+[locationid8]
+LocationName="Asteroide Rojo"
+
+[locationid9]
+LocationName="Asteroide Rojo"
+
+[locationid10]
+LocationName="Patio Trasero Rojo"
+
+[locationid11]
+LocationName="Torre Azul"
+
+[locationid12]
+LocationName="Torre Roja"
+
+[locationid13]
+LocationName="Torre Roja"
+
+[LevelSummary]
+Title="Mundos Enfrentados Edición Especial"
+IdealPlayerCount="4-10"

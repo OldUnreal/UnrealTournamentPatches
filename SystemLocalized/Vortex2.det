@@ -1,0 +1,44 @@
+[LevelInfo0]
+Title=Vortex Rikers
+
+[TranslatorEvent2]
+message= Logbuch Capt. S. Kroon: Vortex Rikers. Unsere Kursänderung hat die Mission eventuell gefährdet. Wir sind in das Gravitationsfeld eines unbekannten Planeten geraten. Ich habe befohlen, sämtliche Energie an die Triebwerke umzuleiten.
+
+[TranslatorEvent0]
+message=Logbuch Navigator Vortex Rikers. Wir sind auf dem Weg zum Gefängnismond. Sensoren mit großer Reichweite haben bisher unbekannte magnetische Masse im Gamma Sektor 83H festgestellt. Der Captain hat eine Kursänderung befohlen.
+Hint=Stoße mit dem Kopf auf den Schalter in der Waffenkammer, um das Kraftfeld zu deaktivieren.
+
+[TranslatorEvent1]
+message= Logbuch 1.Offizier Vortex Rikers. Die Gefangenen werden immer unruhiger, je mehr wir uns dem Gefängnismond nähern. Die Sicherheit meint, sie hätte die Gefangenen im Griff, aber einige mußten zur Behandlung ins medizinische Labor.
+
+[TranslatorEvent11]
+message=ACHTUNG, AN ALLE GEFANGENEN: Denk daran, sei nett zu deinem Zellengenossen. Gewalt wird nicht geduldet.
+Hint=Gehe zum Lüftungschacht, um auszubrechen.
+
+[TranslatorEvent5]
+message= Logbuch Bordingineur: Gefangenentransporter 254 Vortex Rikers. Ich versuche, soviel Energie wie möglich aufzubringen, um dem Gravitationsfeld dieses rätselhaften Planeten zu entkommen. Es scheint nicht zu funktionieren.
+
+[TranslatorEvent6]
+message=Logbuch Chefoffizier der Sicherheitskräfte: 254 Gefangenentransporter Vortex Rikers. Die gesamte Energie wurde auf die Triebwerke umgeleitet, vergebens. Wir stürzen auf den Planeten zu. Ich weiß nicht, was aus uns werden wird. 
+Hint=Schieße auf das Glas, um die Luke zu öffnen.
+
+[TranslatorEvent10]
+message= ACHTUNG, AN ALLE GEFANGENEN: Licht aus heute Abend um 20:00. Keine Ausnahmen.
+Hint=Gehe zum Lüftungschacht, um auszubrechen.
+
+[TranslatorEvent9]
+message=Tagebuch von Benjamin Nathaniel, Tag 93: Heute habe ich Geburtstag. Ich werde ihn dadurch feiern, daß ich versuche, wieder einen Aufruhr unter den Gefangenen anzuzetteln.
+
+[TranslatorEvent7]
+message=Tagebuch von J. Gershwin, Tag 204: Heute war wieder eine Kakerlake in meinem Essen. Wie kommen sie nur an Bord von Sternenschiffen wie diesem? Wenn mich dieser Arsch von Zelle 4 morgen nochmal so schief ansieht, kann er was erleben.
+
+[TranslatorEvent8]
+message= Tagebuch von Boris Clague, Tag 3: Ich bin erst seit 3 Tagen hier und habe schon 2 gebrochene Rippen, einen Oberschenkelbruch und 14 Stiche. Ich weiß nicht, ob ich es bis Ende nächster Woche schaffe, geschweige denn bis zum Gefängnismond.
+
+[TranslatorEvent12]
+message=Gefangener 853, James Cavanaugh bereit zur Hinrichtung auf dem elektrischen Stuhl.
+
+[TranslatorEvent3]
+message=Logbuch Chefsanitätsoffizier: Gefangenentransporter 254 Vortex Rikers. Die ständigen Auseinandersetzungen unter den Gefangenen scheinen immer schlimmer zu werden.
+
+message=Logbuch Chefsanitätsoffizier: Gefangenentransporter 254 Vortex Rikers. Der ständige Streit unter den Gefangenen wird immer schlimmer. Wenn das so weitergeht, habe ich bald keine medizinischen Vorräte mehr. 

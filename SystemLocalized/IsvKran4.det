@@ -1,0 +1,43 @@
+[TranslatorEvent7]
+Message= Sicherheitsgitter Lagerhaus. Automatikabschaltung befindet auf dem Dachboden des oberen Lagerhauses.
+
+[TranslatorEvent33]
+Message=SICHERHEITSSCHLOSS  UMLEITUNGSSTATION: SICHERHEITSSCHLÖSSER AKTIVIERT.
+AltMessage= SICHERHEITSSCHLOSS UMLEITUNGSSTATION: ALLE SCHLÖSSER GEÖFFNET. ZUTRITT ZUM LAGER GESTATTET
+Hint=Berühre dieses Paneel, um die Tür mit dem Sicherheitsschloß zu öffnen.
+
+[TranslatorEvent19]
+Message=ISV-KRAN DECK 4 STATUS: ACHTUNG, EINDRINGLING: SICHERHEITSSCHLÖSSER: EINDRINGLINGE AUF ALLEN DECKS VERSUCHEN HAUPTTRIEBWERKE ZU REAKTIVIEREN - DECK 1 NOTTELEPORTER AUF DER BRÜCKE GESICHERT.
+
+[TranslatorEvent0]
+Message= LADERAUM HECK: ISV-KRAN: Wir sitzen jetzt seit zwei Monaten in diesem Berg fest. Nachts kommen dinosaurierartige Biester und schlagen auf das Heck des Schiffes ein. Sie scheinen ziemlich unintelligent zu sein und bewegen sich langsam.
+
+[TranslatorEvent2]
+Message=EINDRINGLING: SICHERHEITSSCHLÖSSER AKTIVIERT - Umleitung erforderlich: Umleitungspaneel befindet sich im Belüftungstechnikraum im Halbgeschoß.
+AltMessage=EINDRINGLING: SICHERHEITSSCHLÖSSER DEAKTIVIERT 
+
+[TranslatorEvent13]
+Message= Steuerung Sicherheitsgitter Lagerhaus: OFFLINE - LEITE ENERGIE VOM COMPUTERPULT UM.
+AltMessage= Steuerung Sicherheitsgitter Lagerhaus: Zugang zum Dock gestattet.
+
+[TranslatorEvent1]
+Message= Belüftungstechnik, Lüftungsschächte Halbgeschoß: Zutritt nur für Wartungspersonal: ACHTUNG,  KÜHLMITTELLECK IM HALBGESCHOSS
+
+[TranslatorEvent12]
+Message=ENERGIE ZUR STEUERTAFEL VOM SICHERHEITSGITTER IM LAGERHAUS UMGELEITET.
+
+[TranslatorEvent37]
+Message= Sgt. A. Kerig: Sie kommen! Ich höre sie in den Lüftungsschächten. Ich werde die Sicherheitsschlösser zum Lagerhaus aktivieren und einen menschlichen DNS Code implantieren damit nur ein Terraner wie ich die Schloßsysteme umleiten kann.
+
+[TranslatorEvent38]
+Message=Corp. P.Onsov: Wenn du diesen Eintrag liest, bin ich tot und unser Schiff von den "Skaarj" überrannt. Du mußt die goldenen Kraftfeld-Reaktorkerne zerstören, die Triebwerke reaktivieren, und zu den Transportern auf Deck 1 gelangen. 
+
+[TranslatorEvent36]
+Message= Corp. Y.Andromov: Die Außerirdischen haben ein Loch in den Rumpf gesprengt und gelangen durch die Lüftungsschächte ins Schiff - Kerig, Onsov und ich wollen hier im Ladebereich mit den Stingerraketen letzten Widerstand leisten.
+
+[TranslatorEvent15]
+Message=PANEEL UMPROGRAMMIERT, UM BEI BENUTZUNG VON UNBEFUGTEN ALARM AUSZULÖSEN
+
+[LevelInfo2]
+Title=ISV-KRAN Deck 4
+LevelEnterText=Eingang ISV-KRAN Deck 4

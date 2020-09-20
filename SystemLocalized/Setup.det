@@ -1,0 +1,118 @@
+[Errors]
+MissingProductTitle=%s kann in diesem Ordner nicht %s werden
+MissingProductInstalled=installiert
+MissingProductPatched=aktualisiert
+MissingProductThis=Diese Aktualisierung
+MissingProduct=%s verlangt, daß %s zuerst im Ordner installiert wird. Bitte suche den vorhandenen Ordner für %s, oder beende das Programm und installiere ihn jetzt.\n\nKlicke unten auf den Weblink, um Produktinformationen aufzurufen.
+OldVersion=%s verlangt %s Version %i oder neuer, aber die Version auf Deinem Computer ist älter (Du hast Version %i). Bitte installiere %s Version %i oder neuer, und versuche es nochmal. Weitere Informationen erhältst Du, wenn Du unten auf den Weblink klickst.\n\nSetup wird nun abgebrochen.
+FolderTitle=Ordner "%s"
+FolderFormat=Der Ordnername "%s" ist ungültig. Versuche es nochmal.
+AlreadyRunningTitle=Kann nicht installiert werden, während es geöffnet ist
+AlreadyRunning=Um den Installationsprozeß fortzusetzen, schließe alle anderen geöffneten Exemplare, und drücke auf OK. Um diese Option zu verlassen, drücke Abbrechen.
+WrongCdTitle=Dateien auf der CD-ROM nicht gefunden
+WrongCd=Die gewünschte %s Datei %s wurde im CD-ROM-Laufwerk nicht gefunden.\n\n Bitte überprüfe, ob die richtige CD im Laufwerk eingelegt ist.
+MissingInstallerFile=Installationsdatei nicht gefunden
+MissingReferenceFile=Referenzdatei nicht gefunden
+MissingSourceFile=Ursprungsdatei nicht gefunden
+FailedOpenSource=Fehler beim Öffnen der Ursprungsdatei
+FailedOpenDest=Fehler beim Öffnen der Zieldatei
+FailedReadingSource=Fehler beim Lesen der Ursprungsdatei
+FailedWritingDest=Fehler beim Schreiben der Zieldatei
+FailedLoadingUpdate=Fehler beim Laden der Aktualisierungsdatei
+FailedReadingReference=Fehler beim Lesen der Referenzdatei
+FailedClosingSource=Fehler beim Schließen der Ursprungsdatei
+FailedClosingDest=Fehler beim Schließen der Zieldatei
+FailedMakeDir=Fehler beim Erstellen des Verzeichnisses für die Zieldatei
+AdviseBadMedia=Ursprungsmedium fehlerhaft. Wenn Du von einer CD installierst, reinige die CD, überprüfe das CD-Laufwerk, und versuche es nochmal.
+AdviseBadDownload=Die heruntergeladenen Aktualisierungsdateien sind eventuell korrupt.
+AdviseBadDest=Das Ziellaufwerk ist vielleicht voll oder enthält fehlerhafte Sektoren.
+PatchCorrupt=Die Patch-Datei %s ist korrupt.\n\n%s
+CdFileMismatch=Die Datei %s auf der CD-ROM ist nicht die erwartete Version. Deshalb kann %s nicht repariert werden.
+
+[General]
+Space=%i Megabytes
+Ready=Setup ist zum Installieren von %s bereit.\nDer Zielordner ist: %s\n\nKlicke auf "Installieren", um mit der Installation zu beginnen.\nKlicke auf "Abbrechen", um die Installation von %s abzubrechen.
+InstallCancel= Installation abbrechen
+CancelPrompt=Warnung! Wenn Du die Installation jetzt abbrichst, wird %s nicht richtig funktionieren. Möchtest Du die Installation wirklich abbrechen?
+CdDescription=Um die Aktualisierung von %s zu installieren, müssen einige Dateien von der Original %s-CD-ROM kopiert werden.\n\nBitte lege die %s CD-ROM in Dein CD-ROM-Laufwerk, und klicke auf "Weiter". Wenn nicht der richtige Kennbuchstabe für Dein CD-Laufwerk erscheint, gib ihn unten ein.
+CdDrive=CD-ROM-Laufwerk
+NotEnoughSpaceTitle=Kann dort nicht installieren
+NotEnoughSpace=Im Laufwerk %s ist nicht genug Platz zum Installieren von %s. Wähle ein Laufwerk mit mehr freiem Speicherplatz, oder verlasse die Option, schaffe mehr Speicherplatz, und versuche es nochmal.
+Finish=&Fertig
+RebootButton=&Reboot
+ExitButton=&Verlassen
+
+[IDDIALOG_FilerPageAutoPlay]
+IDC_Options=Unreal-Optionen
+IDC_Play=S&pielen
+IDC_Reinstall=Neu installie&ren
+IDC_Uninstall=&Deinstallieren
+IDC_ReleaseNotes=Programmdate&n 
+IDC_Web=Unreal-&Website
+IDC_Complete=Installation erfolgreich abgeschlossen!
+IDC_CompleteReboot=Installation erfolgreich abgeschlossen!\nVor Spielbeginn mußt Du den Computer neu starten.
+
+[IDDIALOG_FilerPageWelcome]
+IDC_WelcomePrompt=%s wird jetzt auf Deinem Computer installiert.\n\nKlicke auf "Weiter", um das Setup zu starten, oder klicke zu einem beliebigen Zeitpunkt auf "Abbrechen", um den Vorgang zu verlassen.\n\nDas Feld unten enthält Weblinks, auf die Du klicken kannst, um weitere Informationen zu erhalten.
+IDC_WelcomePromptUpdate=Dieses Programm wird Dein Exemplar von %s auf Version %s aktualisieren.\n\nKlicke auf "Weiter", um das Setup zu starten, oder klicke zu einem beliebigen Zeitpunkt auf "Abbrechen", um die Option zu verlassen. \n\nDie Information in untenstehendem Feld enthält Weblinks, auf die Du klicken kannst, um weitere Informationen zu erhalten.
+IDC_LanguagePrompt=&Sprache
+
+[IDDIALOG_FilerPageLicense]
+IDC_LicenseText=Bitte lies das folgende Lizenzabkommen. Zur Installation dieses Programms mußt Du Dich mit den Lizenzbedingungen einverstanden erklären.
+IDC_LicenseQuestion=Bist Du mit den oben genannten Lizenzbedingungen einverstanden? Klicke auf "Ich akzeptiere" oder "Abbrechen".
+
+[IDDIALOG_FilerPageComponents]
+IDC_ComponentsText=Wähle die Komponenten, die Du installieren möchtest.
+IDC_ComponentsPrompt=&Komponenten:
+IDC_DiskSpaceFrame=Speicherplatz
+IDC_DescriptionFrame=Beschreibung
+IDC_SpaceRequiredMessage=erfordert:
+IDC_SpaceAvailableMessage=verfügbar:
+
+[IDDIALOG_FilerPageFolder]
+IDC_FolderDescription=Setup installiert %s im folgenden Ordner.\n\nZur Installation in diesem Ordner klicke auf Weiter.\n\nZur Installation in einem anderen Ordner gib den vollständigen Namen des neuen Ordners ein, einschließlich Kennbuchstaben des Laufwerks, z.B.: C:\\NeuerOrdner
+IDC_FolderDescriptionPatch=Setup aktualisiert die vorhandene Installation von %s im folgenden Ordner.\n\nKlicke auf Weiter, um fortzufahren.\n\nWenn Du mehr als ein Exemplar installiert hast, gib den vollständigen Namen des vorhandenen Ordners ein, einschließlich des Kennbuchstabens des Laufwerks, z.B.: C:\\IrgendeinOrdner
+IDC_FolderDescriptionMissing=Setup aktualisiert eine vorhandene Installation von %s.\n\nGib den vollständigen Namen des vorhandenen Ordners ein, einschließlich Kennbuchstaben des Laufwerks, z.B.: C:\\IrgendeinOrdner
+IDC_FolderHolder=Zielordner
+IDC_Browse=Durch&suchen 
+IDC_Default=&Rücksetzen
+IDC_SpaceAvailableMessage=Verfügbarer Speicherplatz im Laufwerk:
+IDC_FullSpaceRequiredMessage=Erforderlicher Speicherplatz für Standardinstallation:
+
+[IDDIALOG_FilerPageInstallProgress]
+IDC_InstallText=Dateien werden installiert...
+IDC_InstallingText=Installatiere:
+IDC_ProgressText=Dateivorgang:
+IDC_TotalText=Gesamtvorgang:
+
+[IDDIALOG_FilerPageUninstallProgress]
+IDC_InstallText=Dateien werden deinstalliert...
+IDC_InstallingText=in Bearbeitung:
+IDC_ProgressText=Dateivorgang:
+IDC_TotalText=Gesamtvorgang:
+
+[IDDIALOG_Restart]
+IDC_Restart=Installation abgeschlossen
+IDC_RestartMessage=Du mußt Windows neu starten, um die Installation abzuschließen.
+IDC_RestartText=Bevor Du den Computer neu startest, schließe alle geöffneten Anwendungen, einschließlich MS-DOS-Programmen, und speichere alle aktuellen Dokumente. Enferne alle Disketten aus dem Laufwerk. Klicke dann auf die Schaltfläche Windows neu starten.
+IDC_Complete=Nachdem Du Windows neu gestartet hast, ist das Setup abgeschlossen.
+IDC_Restart=Windows neu sta&rten
+IDC_Exit=Setup &verlassen
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog=Unreal Filer
+
+[IDDIALOG_FailedRequirement]
+IDC_FailedRequirement=Dieses Produkt kann hier nicht installiert werden
+IDC_FailedMessage=Für dieses Produkt muß erst das folgende Produkt in dem Ordner installiert werden. Suche den vorhandenen Ordner, oder verlasse den Vorgang, und installiere es jetzt.\n\nDu kannst auf den untenstehenden Weblink klicken, um weitere Informationen zu erhalten.
+IDC_ProductHolder=Erforderliches Produkt
+
+[IDDIALOG_ProductInfo]
+IDC_ProductHolder=Produkt
+IDC_ProductText=Produkt:
+IDC_VersionText=Version:
+IDC_DeveloperText=Entwickler:
+
+[IDDIALOG_FilerPageUninstall]
+IDC_UninstallPrompt=Damit wird %s entfernt.
+IDC_UninstallQuestion=Möchten Sie diese Komponenten wirklich entfernen?

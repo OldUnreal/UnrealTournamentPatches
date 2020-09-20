@@ -1,0 +1,24 @@
+﻿[LevelInfo0]
+Title="Tutorial de Asalto"
+IdealPlayerCount=2-4
+
+[LevelSummary]
+Title="Tutorial de Asalto"
+IdealPlayerCount=2-4
+
+[FortStandard1]
+FortName="La Mecha"
+DestroyedMessage="¡ha sido encendida!"
+
+[FortStandard2]
+FortName="La Puerta del Garaje"
+DestroyedMessage="¡ha sido atravesada!"
+
+[FortStandard3]
+FortName="La Torreta del Tanque"
+DestroyedMessage="¡ha sido destruida!"
+
+[AssaultInfo0]
+ObjDesc[0]="Dispárenle al fusible para prenderle fuego y hacer que la dinamita explote. Solo entonces podrán acceder a la base subterránea."
+ObjDesc[1]="Atraviesen la base, esquivando las torretas y los enemigos que encuentren por el camino, hasta llegar a un ascensor que los llevará a la plataforma en la que se encuentra el interruptor de activación del garaje."
+ObjDesc[2]="Una vez abierto el portón, destruyan el tanque prototipo disparando a la torreta."

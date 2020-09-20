@@ -1,0 +1,31 @@
+﻿[LevelInfo0]
+Title="Antiguo Acuífero"
+IdealPlayerCount="4-6"
+
+[ZoneInfo2]
+ZoneName="Sala de Punto Inferior"
+
+[ZoneInfo0]
+ZoneName="Sala Central"
+
+[ZoneInfo1]
+ZoneName="Sala de Punto Superior"
+
+[ZoneInfo3]
+ZoneName="Sala de Elevador Encadenado"
+
+[ControlPoint1]
+PointName="Inferior"
+
+[ControlPoint2]
+PointName="Superior"
+
+[ControlPoint0]
+PointName="Central"
+
+[WaterZone0]
+ZoneName="Acueducto"
+
+[LevelSummary]
+Title="Antiguo Acuífero"
+IdealPlayerCount="4-6"

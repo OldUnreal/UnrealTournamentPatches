@@ -1,0 +1,6 @@
+[Public]
+Preferences=(Caption="Editor",Parent="Erweiterte Optionen")
+Preferences=(Caption="Erweitert",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Farben",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Gitter",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rotationsgitter",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)

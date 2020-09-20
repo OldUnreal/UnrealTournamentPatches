@@ -1,0 +1,14 @@
+[TranslatorEvent38]
+Message= Corporal Pelli Onsov: Wenn du meine Eintragung im Logbuch liest, bin ich vermutlich tot und unser Schiff  wurde überrannt von Außerirdischen genannt... 
+
+[TranslatorEvent1]
+Message=Logbuch: M. Mottobanov: Die Fläche vor den Frachtraumtoren der "ISV-Kran" wird ständig per Sensor abgetastet. Sobald ein Mensch in das rote Licht tritt, öffnen sich die Tore. Die Rampe wird nur für kurze Zeit nach unten gefahren.
+Hint=Gehe zum Schiff und stelle dich ins rote Licht. Die Frachtraumtore werden sich öffnen und ein Lift nach unten kommen. Steige schnell hinein, fahre hinauf und springe im Frachtraum so ab, daß dich der Lift nicht zu Tode quetscht.
+
+[TranslatorEvent0]
+Message= Logbuch: N. Onatop: Nun sind wir hier und werden mit einer weiteren, riesigen Bestie konfrontiert. Wir ruhen uns jetzt aus und gehen das Problem morgen an. Wir kriegen keine Verbindung zur "ISV-Kran"; unser Radio empfängt nur Rauschen.
+Hint= Gehe zum Schiff und stelle dich ins rote Licht. Die Frachtraumtore werden sich öffnen und ein Lift nach unten kommen. Steige schnell hinein, fahre hinauf und springe im Frachtraum so ab, daß dich der Lift nicht zu Tode quetscht.
+
+[LevelInfo2]
+Title=ISV-KRAN Deck 4
+LevelEnterText=Eingang ISV-KRAN Deck 4

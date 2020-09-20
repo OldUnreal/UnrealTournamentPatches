@@ -1,0 +1,20 @@
+﻿[Public]
+Class=(Class=SDLDrv.SDLClient,SuperClass=Engine.Client)
+Preferences=(Caption="Imagen",Parent="Opciones Avanzadas",Class=SDLDrv.SDLClient,Immediate=True,Category=Display)
+Preferences=(Caption="Mando",Parent="Opciones Avanzadas",Class=SDLDrv.SDLClient,Immediate=True,Category=Joystick)
+
+[Errors]
+Failed3D="No se ha podido inicializar el hardware 3D"
+
+[General]
+ViewPersp="Mapa de Perspectiva"
+ViewXY="Mapa de Vista Aérea"
+ViewXZ="Mapa XZ"
+ViewYZ="Mapa YZ"
+ViewOther="Ventana"
+Color16="Color en &16 bits"
+Color32="Color en &32 bits"
+AdvancedOptions="Opciones Avanzadas"
+
+[SDLClient]
+ClassCaption="Administrador de SDL Linux Estándar"

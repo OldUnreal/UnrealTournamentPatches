@@ -1,0 +1,10 @@
+﻿[Public]
+Object=(Name=SDLSoftDrv.SDLSoftwareRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=libSDL.so)
+Preferences=(Caption="Reproducción por Software SDL",Parent="Reproducción",Class=SDLSoftDrv.SDLSoftwareRenderDevice,Immediate=True)
+
+[SDLSoftwareRenderDevice]
+ClassCaption="Reproducción por Software SDL"
+AskUse="¿Quieres que Unreal use renderizado a través de software SDL?"
+
+[Errors]
+ResFailed="No se ha podido establecer la resolución"

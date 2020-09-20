@@ -1,0 +1,27 @@
+﻿[LevelInfo0]
+Title="Laboratorio Experimental Niven"
+IdealPlayerCount="4-6"
+LevelEnterText="Laboratorio Experimental Niven"
+
+[ZoneInfo1]
+ZoneName="Área Central"
+
+[ZoneInfo3]
+ZoneName="Reactor Rojo"
+
+[ZoneInfo5]
+ZoneName="Reactor Azul"
+
+[ZoneInfo4]
+ZoneName="Base Roja"
+
+[ZoneInfo6]
+ZoneName="Base Azul"
+
+[LevelSummary]
+Title="Laboratorio Experimental Niven"
+IdealPlayerCount="4-6"
+LevelEnterText="Laboratorio Experimental Niven"
+
+[SpecialEvent6]
+DamageString="%1 fue rebanado en pedacitos."

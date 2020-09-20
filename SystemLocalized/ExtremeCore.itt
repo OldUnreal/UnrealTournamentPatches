@@ -1,0 +1,36 @@
+[LevelInfo0]
+Title="Nucleo dell'Astronave Madre"
+
+[TranslatorEvent13]
+message="Generatore di energia di emergenza, ACCESSO NEGATO: il Generatore primario è perfettamente funzionante."
+Hint="Trova il Nucleo del Generatore primario e distruggilo per ottenere l'accesso a quest'area."
+
+[TranslatorEvent4]
+message="ATTENZIONE: rilevato intruso armato. Chiudere tutti gli accessi alla Fonte e al Generatore primario. Impedire agli intrusi l'accesso al nucleo del Generatore è di critica importanza."
+AltMessage="ALLARME ROSSO: la sicurezza del Nucleo del Generatore compromessa."
+
+[TranslatorEvent5]
+message="ALLARME SICUREZZA: tutti i Signori della Guerra a rapporto presso il Nucleo del Generatore per garantirne la protezione."
+AltMessage="Rilevato intruso nei pressi del Nucleo del Generatore. La sicurezza del Nucleo deve essere assicurata. Ogni debolezza verrà punita."
+
+[TranslatorEvent6]
+message="La sicurezza del Nucleo del Generatore deve essere assicurata. Porte di accesso bloccate finché è presente un varco nel sistema di sicurezza."
+AltMessage="Porta di Accesso al Nucleo aperta "
+
+[TranslatorEvent10]
+AltMessage="Accesso alla Stazione di Sicurezza garantito."
+Hint="Vai alla Stazione di Sicurezza per ottenere accesso al Nucleo del Generatore Primario."
+
+[TranslatorEvent11]
+message="ACCESSO NEGATO: l'Intruso deve essere eliminato. Tutti i Signori della Guerra stanno convergendo su quest'area dopo l'arrivo alla Fonte."
+Hint="Uccidi tutti gli Skaarj per procedere in quest'area."
+
+[TranslatorEvent12]
+AltMessage="Stato dei Gusci Criogenici: temperatura costante, energia al livello standard, sistemi di sicurezza attivi."
+
+[TranslatorEvent8]
+message="Stazione di sicurezza, ACCESSO NEGATO"
+
+[TranslatorEvent9]
+message="Generatore primario, ACCESSO NEGATO"
+Hint="La porta può essere sbloccata dal pannello di controllo della Stazione di Sicurezza."

@@ -1,0 +1,43 @@
+﻿[LevelInfo0]
+Title="Base Noxion"
+IdealPlayerCount="6-16"
+
+[ZoneInfo0]
+ZoneName="Mediocampo"
+
+[ZoneInfo10]
+ZoneName="Sala de Bandera Azul"
+
+[ZoneInfo9]
+ZoneName="Sala de Bandera Roja"
+
+[ZoneInfo3]
+ZoneName="Rampas Rojas"
+
+[ZoneInfo4]
+ZoneName="Base Roja"
+
+[ZoneInfo1]
+ZoneName="Base Azul"
+
+[ZoneInfo2]
+ZoneName="Rampas Azules"
+
+[ZoneInfo5]
+ZoneName="Mediocampo Rojo"
+
+[ZoneInfo6]
+ZoneName="Mediocampo Azul"
+
+[ZoneInfo8]
+ZoneName="Sótano Rojo"
+
+[ZoneInfo7]
+ZoneName="Sótano Azul"
+
+[KillingField0]
+ZoneName="Realmente Muerto"
+
+[LevelSummary]
+Title="Base Noxion"
+IdealPlayerCount="6-16"

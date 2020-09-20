@@ -1,0 +1,25 @@
+﻿[LevelInfo0]
+Title="El Guantelete de Hierro"
+IdealPlayerCount="6-8"
+
+[ZoneInfo2]
+ZoneName="Vestíbulo Rojo"
+
+[ZoneInfo4]
+ZoneName="Vestíbulo Azul"
+
+[ZoneInfo1]
+ZoneName="Base Roja"
+
+[ZoneInfo0]
+ZoneName="Base Azul"
+
+[ZoneInfo3]
+ZoneName="Sala de Lava"
+
+[LevelInfo0]
+Title="El Guantelete de Hierro"
+IdealPlayerCount="6-8"
+
+[ZoneInfo5]
+ZoneName="Armería Azul"

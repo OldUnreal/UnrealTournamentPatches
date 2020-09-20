@@ -1,0 +1,70 @@
+﻿[Public]
+Object=(Name=MultiMesh.TSkaarj,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Híbrido Skaarj")
+Object=(Name=MultiMesh.TNali,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Nali")
+Object=(Name=MultiMesh.TCow,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Vaca de Guerra Nali")
+Object=(Name=MultiMesh.SkaarjVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Híbrido Skaarj")
+Object=(Name=MultiMesh.NaliVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Nali")
+Object=(Name=MultiMesh.CowVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Vaca de Guerra Nali")
+Object=(Name=MultiMesh.TSkaarjBot,Class=Class,MetaClass=BotPack.Bot,Description="Híbrido Skaarj")
+Object=(Name=MultiMesh.TNaliBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali")
+Object=(Name=MultiMesh.TCowBot,Class=Class,MetaClass=BotPack.Bot,Description="Vaca de Guerra Nali")
+Object=(Name=MultiMesh.MultiMeshMenu,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Forzar Modelos Predeterminados,Utiliza el modelo por defecto (Soldado Varón) en lugar de cualquier otro modelo de personaje.")
+Object=(Name=MultiMesh.TDMBonusPackMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Mapas de bonificación")
+Object=(Name=MultiMesh.CTFBonusPackMapList,Class=Class,MetaClass=Botpack.CTFmaplist,Description="Mapas de bonificación")
+
+[CustomBot]
+MenuName="Jugador Personalizado"
+
+[customplayer]
+MenuName="Jugador Personalizado"
+
+[tcow]
+MenuName="Vaca Nali"
+
+[tcowbot]
+MenuName="Vaca Nali"
+
+[TSkaarj]
+MenuName="Híbrido Skaarj"
+
+[tnali]
+MenuName="Nali"
+
+[tnalibot]
+MenuName="Nali"
+
+[TSkaarjbot]
+MenuName="Híbrido Skaarj"
+
+[multimeshmenu]
+MenuCaption="&Forzar Modelos por Defecto"
+MenuHelp="Hace que los jugadores aparezcan con el modelo del Soldado Masculino en lugar de otros personajes."
+
+[skaarjvoice]
+TauntString[0]="¡$#%#!"
+TauntString[1]="¡%&$##!"
+TauntString[2]="¡*@#&$!"
+
+[CowVoice]
+AckString[0]="¡Moo!"
+AckString[1]="¡Moo!"
+FFireString[0]="¡Moo!"
+FFireString[1]="¡Moo!"
+FFireAbbrev[1]="¡Moo!"
+TauntString[0]="¡Moo!"
+TauntString[1]="¡Moo!"
+
+[nalivoice]
+AckString[0]="¡Habouji!"
+AckString[1]="¡Nouwandi!"
+AckString[2]="¡Qupada!"
+AckTime[2]=0.850000
+FFireString[0]="¡Mouhaga!"
+FFireString[1]="¡Batai d'va!"
+FFireAbbrev[1]="¡Batai d'va!"
+TauntString[0]="¡Bywonda!"
+TauntString[1]="¡Habouji!"
+TauntString[2]="¡Nouwandi!"
+TauntString[3]="¡Qupada!"
+TauntString[4]="¡Mouhaga!"
+TauntString[5]="¡Batai d'va!"

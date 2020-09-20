@@ -1,0 +1,45 @@
+[TranslatorEvent7]
+Message=Barras de seguridad del almacén. Anulación en desván superior del almacén.
+
+[TranslatorEvent33]
+Message=ESTACIÓN BLOQUEO DE DESVÍO DE SEGURIDAD: CIERRES DE SEGURIDAD ACTIVADOS.
+AltMessage= ESTACIÓN BLOQUEO DE DESVÍO DE SEGURIDAD: TODOS LOS CIERRES ABIERTOS, ACCESO PERMITIDO AL ALMACÉN.
+Hint=Toca este panel para abrir el cierre de seguridad
+
+[TranslatorEvent19]
+Message=ESTADO DE CUBIERTA 4 EN ISV-KRAN: ALERTA INTRUSO: CIERRES DE SEGURIDAD ACTIVADOS: INTRUSOS EN TODAS LAS CUBIERTAS E INTENTANDO REACTIVAR MOTORES PRINCIPALES - TELEGUARDÍAN DE EMERGENCIA EN CUBIERTA 1 PARA ASEGURAR PUENTE.
+
+[TranslatorEvent0]
+Message=AFT ESTACIÓN DE CARGA: ISV-KRAN: Estamos en esta colina en la montaña desde hace dos meses. Cada noche vienen esas 4 bestias tipo dinosaurio grandotes y golpean en la parte trasera de la nave. Parece que no son muy inteligentes y van muy lentos.
+
+[TranslatorEvent2]
+Message=Activados Cierres de Seguridad para Intrusos -Desvío Necesario: panel de desvío localizado en Entresuelo de Procesamiento de Ventilación.
+AltMessage=Desactivados Cierres de Seguridad para Intrusos
+
+[TranslatorEvent13]
+Message= Panel de Control de Barras de Seguridad del Almacén: PANEL FUERA DE SERVICIO-POTENCIA DESVIADA DESDE LA CONSOLA DEL ORDENADOR.
+AltMessage= Desactivadas Barras de Seguridad del Almacén: Acceso permitido al muelle.
+
+[TranslatorEvent1]
+Message=Conductos Entresuelo de Procesamiento de Ventilación: Sólo personal de mantenimiento:AVISO ESCAPE EN REFRIGERANTE DE MOTOR EN ENTRESUELO.
+
+[TranslatorEvent12]
+Message=POTENCIA DESVIADA A PANEL DE CONTROL DE BARRA DE SEGURIDAD DEL ALMACÉN.
+
+[TranslatorEvent37]
+Message=Cabo Anders Kerig: ¡Ya llegan! Los oigo por los conductos de ventilación. Voy a activar los cierres de seguridad al Almacén e implantar un código de DNA Humano para que sólo los Terran puedan desviar los sistemas de bloqueo.
+
+[TranslatorEvent38]
+Message= Cabo Pelli Onsov: Si estás leyendo mis noticias probablemente estoy muerto y nuestra nave ha sido invadido por alienígenas llamados "Skaarj". Tu única salida es destruir los Núcleos de contención de oro, reactivar los motores y llegar a la Cubierta 1.
+
+[TranslatorEvent36]
+Message= Oficial Subordinado: Yuri Andromov: El destacamento de guerra alienígeno ha reventado el casco y está entrando en la nave a través de los ejes de ventilación - Kerig, Onsov y yo vamos a oponer resistencia aquí con los Stingers en el área de carga.
+
+[TranslatorEvent15]
+Message=PANEL ARREGLADO PARA SOLTAR ALARMA -SISTEMA ACCEDIDO POR USUARIOS NO AUTORIZADOS-
+
+[LevelInfo2]
+Title=ISV-KRAN Deck 4
+LevelEnterText=Estáis entrando en la Cubierta 4 de ISV-KRAN
+
+

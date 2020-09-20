@@ -1,0 +1,84 @@
+[Language]
+Language=Italiano
+LangId=16
+SubLangId=0
+
+[Public]
+Preferences=(Caption="Avanzate",Parent="Opzioni avanzate")
+Preferences=(Caption="File di sistema",Parent="Avanzate",Class=Core.System,Immediate=True)
+
+[Errors]
+Unknown=Errore sconosciuto
+Aborted=Annullato
+ExportOpen=Errore esportando %s: impossibile aprire il file '%s'
+ExportWrite=Errore esportando %s: impossibile scrivere il file '%s'
+FileNotFound=Impossibile trovare il file '%s'
+ObjectNotFound=Impossibile trovare l'oggetto '%s %s.%s'
+PackageNotFound=Impossibile trovare il file per il pacchetto '%s'
+PackageResolveFailed=Impossibile risolvere il nome del pacchetto
+FilenameToPackage=Impossibile convertire il nome del file '%s' nel nome del pacchetto
+Sandbox=Il pacchetto '%s' non è accessibile in questa buca di sabbia
+PackageVersion=La versione del pacchetto '%s' non corrisponde
+FailedLoad=Impossibile caricare '%s': %s
+ConfigNotFound=Impossibile trovare '%s' nel file di configurazione
+LoadClassMismatch=%s non è una classe affiliata di %s.%s
+NotDll='%s' non è un pacchetto DLL; impossibile trovare '%s' per l'esportazione
+NotInDll=Impossibile trovare '%s' in '%s.dll'
+FailedLoadPackage=Caricamento fallito del pacchetto: %s
+FailedLoadObject=Caricamento fallito di '%s %s.%s': %s
+TransientImport=Oggetto transitorio importato: %s
+FailedSavePrivate=Impossibile salvare %s: la grafica è legata all'oggetto privato esterno %s
+FailedImportPrivate=Impossibile trovare l'oggetto privato %s %s.%s
+FailedCreate=%s %s non trovato per la creazione
+FailedImport=Impossibile trovare %s %s nel file '%s'
+FailedSaveFile=Errore salvando il file '%s': %s
+SaveWarning=Errore salvando '%s'
+NotPackaged=L'oggetto non è impacchettato: %s %s
+Abstract=Impossibile creare l'oggetto %s: classe %s è astratta
+NoReplace=Impossibile sostituire %s con %s
+NoFindImport=Impossibile trovare il file '%s' per l'importazione
+ReadFileFailed=Impossibile leggere il file '%s' per l'importazione
+SeekFailed=Fallita ricerca file
+OpenFailed=Fallita apertura file
+WriteFailed=Fallita scrittura file
+ReadEof=Leggi oltre la fine del file
+IniReadOnly=Il file %s è protetto; le impostazioni non possono essere salvate
+UrlFailed=Avvio di URL fallito
+Warning=Attenzione
+Question=Domanda
+OutOfMemory=Memoria virtuale esaurita. Per prevenire questa condizione, devi liberare più spazio sul tuo hard disk.
+History=Storia
+Assert=Asserzione fallita: %s [File:%s] [Linea: %i]
+Debug=Asserzione del debug fallita: %s [File:%s] [Linea: %i]
+LinkerExists=Legame con '%s' già esistente
+BinaryFormat=Il file '%s' contiene dei dati sconosciuti
+SerialSize=%s: Dimensioni seriali non corrispondono: avuti %i, aspettati %i
+ExportIndex=Indice d'esportazione errato %i/%i
+ImportIndex=Indice d'importazione errato %i/%i
+Password=Password non riconosciuta
+Exec=Comando sconosciuto
+BadProperty='%s': proprietà mancante o errata '%s'
+
+[Query]
+OldVersion=Il file %s è stato salvato con una versione precedente che non è compatibile con questa. La sua lettura potrebbe fallire e causare un crash del programma. Vuoi provare comunque?
+Name=Nome:
+Password=Password:
+PassPrompt=Inserisci nome e password:
+PassDlg=Controllo identità
+Overwrite=Il file '%s' deve essere aggiornato. Si desidera sovrascrivere la versione esistente?
+
+
+[Progress]
+Saving=Sto salvando il file %s...
+Loading=Sto caricando il file %s...
+Closing=Chiusura
+
+[General]
+Product=Unreal
+Engine=Motore di Unreal
+Copyright=Copyright 1998 Epic MegaGames, Inc.
+True=Vero
+False=Falso
+None=Nessuno
+Yes=Sì
+No=No

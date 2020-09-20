@@ -1,0 +1,34 @@
+﻿[LevelInfo0]
+Title="Cañón Kosov"
+IdealPlayerCount="14"
+
+[ZoneInfo2]
+ZoneName="Valle Kosov"
+
+[ZoneInfo3]
+ZoneName="Base Azul"
+
+[ZoneInfo0]
+ZoneName="Cataratas Kosov"
+
+[ZoneInfo1]
+ZoneName="Base Roja"
+
+[ZoneInfo4]
+ZoneName="Cueva"
+
+[ZoneInfo6]
+ZoneName="Sala de Armadura Azul"
+
+[WaterZone0]
+ZoneName="Lago Kosov"
+
+[WaterZone2]
+ZoneName="Caverna Subacuática"
+
+[ZoneInfo5]
+ZoneName="Cataratas Kosov"
+
+[LevelSummary]
+Title="Cañón Kosov"
+IdealPlayerCount="14"

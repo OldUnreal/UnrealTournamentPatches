@@ -1,0 +1,42 @@
+[LevelInfo0]
+Title=Vortex Rikers
+
+[TranslatorEvent2]
+message=Diario del capitano S. Kroon: Vortex Rikers. Il cambio di rotta potrebbe essere stato dannoso per la nostra missione. Siamo stati catturati dal campo gravitazionale di un pianeta sconosciuto. Ho ordinato al capo macchine di dirottare l'energia ai motori. 
+
+[TranslatorEvent0]
+message=Diario Uff. di Rotta: Vortex Rikers. Direzione: satellite prigione. Masse magnetiche sconosciute rilevate nel settore Gamma 83H. Il capitano ha ordinato un cambio di rotta.
+Hint=Salta e attiva l'interruttore nell'Armeria per annullare il campo di forza.
+
+[TranslatorEvent1]
+message=Diario del Primo Ufficiale: Vortex Rikers. I prigionieri stanno diventando più irrequieti man mano che ci avviciniamo al satellite prigione. La sicurezza sostiene di avere i prigionieri sotto controllo ma alcuni di loro sono stati portati in Infermeria.
+
+[TranslatorEvent11]
+message=A TUTTI I PRIGIONIERI: Ricordate, siate gentili col vostro compagno di cella. Non verrà tollerata alcuna violenza.
+Hint=Vai al condotto d'areazione per fuggire.
+
+[TranslatorEvent5]
+message=Diario del capo macchine: Vascello prigione 254 Vortex Rikers. Sto concentrando tutta l'energia che posso nel tentativo di sfuggire alla morsa gravitazionale del misterioso pianeta. Non sembra funzionare.
+
+[TranslatorEvent6]
+message=Diario del Capo della Sicurezza: Vascello prigione 254 Vortex Rikers. Hanno ridirezionato tutta l'energia ai motori, ma senza risultato. Stiamo scendendo a spirale verso il pianeta. Non so cosa ci succederà.
+Hint=Spara al vetro per aprire il portello.
+
+[TranslatorEvent10]
+message=A TUTTI I PRIGIONIERI: Stanotte tutte le luci si spegneranno alle 20:00. Nessuna eccezione.
+Hint=Vai al condotto d'areazione per fuggire.
+
+[TranslatorEvent9]
+message=Diario di Benjamin Nathaniel, giorno 93: Oggi è il mio compleanno. Lo festeggerò tentando d'iniziare una nuovo sommossa.
+
+[TranslatorEvent7]
+message=Diario di Jonas Gershwin, giorno 204: Oggi c'era un altro scarafaggio nel mio pranzo. Mi domanda come lo facciano, il pranzo, su una nave come questa. Se quella baldracca della cella 4A continua a guardarmi in modo strano, giuro che le strappo la trachea!
+
+[TranslatorEvent8]
+message=Diario di Boris Clague, giorno 3: Sono qui da tre giorni e ho già due costole incrinate, il femore fratturato e mi hanno dato quattordici punti. Non so se ce la farò fino al satellite prigione, tanto meno alla fine della settimana.
+
+[TranslatorEvent12]
+message=Prigioniero 853, James Cavanaugh pronto per l'elettrocuzione.
+
+[TranslatorEvent3]
+message=Diario dell'ufficiale medico in capo: Vascello prigioniero 254 Vortex Rikers. Le costanti lotte tra prigionieri sembrano peggiorare. A questo ritmo, rimarrò senza medicazioni molto prima di raggiungere il satellite prigione.

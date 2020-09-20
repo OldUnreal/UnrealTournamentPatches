@@ -1,0 +1,28 @@
+[LevelInfo3]
+Title=Castillo Nali
+
+[Trigger9]
+message=Chop Chop!
+
+[TranslatorEvent5]
+message=Sólo el iluminado que haya leído la Biblia de la Sabiduría en la capilla tendrá la puerta abierta a la torre a través de estas divinas entradas.
+Hint=Viaja a la capilla y lee el libro para poder entrar.
+
+[TranslatorEvent1]
+message=Estoy aquí sentado,esperando la muerte. La espera es todavía peor que la misma muerte. El temor me está desgarrando el alma.Los lamentos de los demás cuando los llevan a las entrañas de la mazmorra para ser sacrificados al Demonio del Cielo con alas.
+
+[TranslatorEvent4]
+message=Aquel que busque el saber será recompensado por estudiar los tomos guardados en la sala principal del festín.
+
+[TranslatorEvent3]
+message=Sólo el guerrero que demuestre su valentía venciendo al demonio de los cinco ojos en la torre podrá entrar a la mazmorra.
+Hint=Ves a la torre más alta y mata al demonio para poder entrar en la mazmorra.
+
+[TranslatorEvent2]
+message= Sólo el guerrero que demuestre su valentía venciendo al demonio de los cinco ojos en la torre podrá entrar a la mazmorra.
+Hint= Ves a la torre más alta y mata al demonio para poder entrar en la mazmorra.
+
+[TranslatorEvent0]
+message=El camino a seguir es largo y asolador, pero el que tenga voluntad y un corazón duro vencerá a los desafíos.
+Hint=El camino ahora está libre.
+

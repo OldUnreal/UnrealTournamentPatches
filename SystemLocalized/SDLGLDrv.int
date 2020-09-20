@@ -1,0 +1,12 @@
+﻿[Public]
+Object=(Name=SDLGLDrv.SDLGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=libGL.so.1)
+Preferences=(Caption="SDL OpenGL Support",Parent="Rendering",Class=SDLGLDrv.SDLGLRenderDevice,Immediate=True)
+
+[SDLGLRenderDevice]
+ClassCaption="SDL OpenGL Support"
+AskUse="Do you want Unreal to use your SDL OpenGL RenderDevice?"
+
+[Errors]
+NoFindGL="Can't find OpenGL driver %s"
+MissingFunc="Missing OpenGL function %s (%i)"
+ResFailed="Failed to set resolution"

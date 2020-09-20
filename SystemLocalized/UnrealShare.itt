@@ -1,0 +1,727 @@
+[Public]
+Object=(Name=UnrealShare.DeathmatchGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealShare.TeamGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealShare.CoopGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealShare.DispersionPistol,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.Automag,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.Stinger,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.ASMD,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.Eightball,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.FemaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Femmina 1")
+Object=(Name=UnrealShare.MaleThree,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Maschio 3")
+Object=(Name=UnrealShare.UnrealSpectator,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Spettatore")
+Object=(Name=UnrealShare.FemaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Femmina 1")
+Object=(Name=UnrealShare.MaleThreeBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Maschio 3")
+Object=(Name=UnrealShare.SinglePlayer,Class=Class,MetaClass=UnrealShare.SinglePlayer)
+Preferences=(Caption="Tipi di gioco",Parent="Opzioni avanzate")
+Preferences=(Caption="Gioco Co-op",Parent="Tipi di gioco",Class=UnrealShare.CoopGame,Immediate=True)
+Preferences=(Caption="Deathmatch",Parent=" Tipi di gioco",Class=UnrealShare.DeathmatchGame,Immediate=True)
+Preferences=(Caption="Gioco a Squadre",Parent="Tipi di gioco",Class=UnrealShare.TeamGame,Immediate=True)
+Preferences=(Caption="In rete",Parent="Opzioni avanzate")
+Preferences=(Caption="Lista delle mappe",Parent="In rete")
+Preferences=(Caption="Mappe Deathmatch",Parent="Lista delle mappe",Class=UnrealShare.DmMapList,Immediate=True)
+
+[DeathmatchGame]
+ClassCaption=Deathmatch
+GlobalNameChange=" ha cambiato nome in "
+NoNameChange=" è già in uso"
+MaxedOutMessage=Il server è già al massimo.
+GameName=DeathMatch
+
+[TeamGame]
+ClassCaption=Gioco a Squadre
+NewTeamMessage=" è ora su "
+TeamColor[0]=Rossa
+TeamColor[1]=Blu
+TeamColor[2]=Verde
+TeamColor[3]=Oro
+GameName=Gioco a Squadre
+
+[CoopGame]
+ClassCaption=Gioco in Cooperazione
+GameName=Gioco Co-op
+
+[UnrealGameInfo]
+DeathVerb=" è stato "
+DeathPrep=" da "
+DeathTerm=ucciso
+DeathArticle=un  
+ExplodeMessage=" è stato spazzato via"
+SuicideMessage=" ha subito un attacco di cuore."
+FallMessage=" ha lasciato un piccolo cratere."
+DrownedMessage=" si è dimenticato di risalire in superficie."
+BurnedMessage=" si è incenerito"
+CorrodedMessage=" si è smerdato"
+HackedMessage=" si è squarciato"
+DeathMessage[0]=ucciso
+DeathMessage[1]=dominato
+DeathMessage[2]=affumicato
+DeathMessage[3]=macellato
+DeathMessage[4]=annichilito
+DeathMessage[5]=sottomesso
+DeathMessage[6]=spolpato
+DeathMessage[7]=perforato
+DeathMessage[8]=frantumato
+DeathMessage[9]=distrutto
+DeathMessage[10]=fatto a pezzi
+DeathMessage[11]=silurato
+DeathMessage[12]=beccato
+DeathMessage[13]=cremato
+DeathMessage[14]=denigrato
+DeathMessage[15]=scacciato
+DeathMessage[16]=battuto
+DeathMessage[17]=picchiato
+DeathMessage[18]=epurato
+DeathMessage[19]=affettato
+DeathMessage[20]=evirato
+DeathMessage[21]=squartato
+DeathMessage[22]=disintegrato
+DeathMessage[23]=strappato
+DeathMessage[24]=abbrustolito
+DeathMessage[25]=sviscerato
+DeathMessage[26]=castrato
+DeathMessage[27]=smontato
+DeathMessage[28]=fregato
+DeathMessage[29]=cestinato
+DeathMessage[30]=spiattellato
+DeathMessage[31]=troncato
+DeathModifier[0]=direttamente    
+DeathModifier[1]=completamente    
+DeathModifier[2]=assolutamente    
+DeathModifier[3]=totalmente    
+DeathModifier[4]=del tutto    
+MajorDeathMessage[0]=squartato a dovere
+MajorDeathMessage[1]=ridotto a una poltiglia
+MajorDeathMessage[2]=istruito su una nuova definizione di dolore
+MajorDeathMessage[3]=
+MajorDeathMessage[4]=
+MajorDeathMessage[5]=
+MajorDeathMessage[6]=
+MajorDeathMessage[7]=
+HeadLossMessage[0]=decapitato
+HeadLossMessage[1]=decapitato
+
+[UnrealQuitMenu]
+YesSelString=[SÌ]  No
+NoSelString=" Sì  [NO]"
+MenuTitle=Esci?
+HelpMessage[1]=Seleziona sì e premi Invio per tornare alla tua gracile, miserabile, inutile esistenza, se non sei in grado di affrontare l'irrealtà.
+MenuList[0]=Digital Extremes/Epic Megagames
+MenuList[1]=Una collaborazione
+MenuList[2]=Design di gioco: James Schmalz
+MenuList[3]=Cliff Bleszinski
+MenuList[4]=Design livelli: Cliff Bleszinski
+MenuList[5]=T. Elliot Cannon  Pancho Eekels
+MenuList[6]="Jeremy War  Cedric Fiorentino"
+MenuList[7]=Shane Caudle
+MenuList[8]=Animazione: Dave Carter
+MenuList[9]=Grafica: James Schmalz 
+MenuList[10]=Mike Leatham  Artur Bialas
+MenuList[11]=Programmazione: Tim Sweeney  Steven Polge
+MenuList[12]=Erik de Neve  James Schmalz
+MenuList[13]=Carlo Vogelsang  Nick Michon
+MenuList[14]=Musica: Alexander Brandon
+MenuList[15]=Michiel van den Bos
+MenuList[16]=Effetti sonori: Dave Ewing
+MenuList[17]=Producer di GT: Jason Schreiber
+MenuList[18]="Biz:Mark Rein Nigel Kent Craig Lafferty
+
+[DispersionPistol]
+PickupMessage=Hai preso la Pistola Dissolvente 
+ItemName=Pistola Dissolvente
+DeathMessage=%o è stato ucciso da %w di %k.  Che frana!
+
+[UnrealGameOptionsMenu]
+AdvancedString=Opzioni avanzate
+AdvancedHelp=Modifica le opzioni avanzate della configurazione di gioco. 
+MenuTitle=OPZIONI GIOCO
+HelpMessage[1]="Regola la velocità con lo scorrere del tempo nel gioco."
+HelpMessage[2]=Se vero, riduce la violenza nel gioco.
+MenuList[1]=Velocità di gioco
+MenuList[2]=Violenza ridotta 
+
+[UnrealIndivBotMenu]
+MenuTitle=Configurazione Intelligenza Artificiale
+HelpMessage[1]=Quale configurazione Bot sta per essere modificata. Usa le frecce sinistra e destra per cambiare.
+HelpMessage[2]=Premi Invio per modificare il nome di questo Bot.
+HelpMessage[3]=Usa le frecce sinistra e destra per cambiare la classe di questo Bot.
+HelpMessage[4]=Usa le frecce sinistra e destra per cambiare la pelle di questo Bot.
+HelpMessage[5]="Regola l'abilità globale di questo Bot (è relativa all'abilità di base dei Bot)."
+HelpMessage[6]="Digita in quale squadra gioca questo Bot (Rossa, Blu, Verde o Gialla)."
+MenuList[1]="Configurazione"
+MenuList[2]=Nome
+MenuList[3]=Classe
+MenuList[4]=Pelle
+MenuList[5]=Regola abilità
+MenuList[6]=Squadra 
+
+[IntroNullHud]
+ESCMessage=Premi ESC per iniziare
+
+[UnrealFavoritesMenu]
+MenuTitle=PREFERITI
+EditList[0]=Nome del Server:
+EditList[1]=Indirizzo:
+HelpMessage[1]=Premi Invio per andare al server selezionato. La freccia destra modifica questa voce.
+HelpMessage[2]=Premi Invio per andare al server selezionato. La freccia destra modifica questa voce.
+HelpMessage[3]=Premi Invio per andare al server selezionato. La freccia destra modifica questa voce.
+HelpMessage[4]=Premi Invio per andare al server selezionato. La freccia destra modifica questa voce.
+HelpMessage[5]=Premi Invio per andare al server selezionato. La freccia destra modifica questa voce.
+HelpMessage[6]=Premi Invio per andare al server selezionato. La freccia destra modifica questa voce.
+HelpMessage[7]=Premi Invio per andare al server selezionato. La freccia destra modifica questa voce.
+HelpMessage[8]=Premi Invio per andare al server selezionato. La freccia destra modifica questa voce.
+HelpMessage[9]=Premi Invio per andare al server selezionato. La freccia destra modifica questa voce.
+HelpMessage[10]=Premi Invio per andare al server selezionato. La freccia destra modifica questa voce.
+HelpMessage[11]=Premi Invio per andare al server selezionato. La freccia destra modifica questa voce.
+HelpMessage[12]=Premi Invio per andare al server selezionato. La freccia destra modifica questa voce.
+
+[Translator]
+PickupMessage=Premi F2 per attivare il Traduttore
+NewMessage=Traduttore Universale
+
+[UnrealVideoMenu]
+MenuTitle=AUDIO/VIDEO
+HelpMessage[1]="Regola la luminosità usando le frecce sinistra e destra."
+HelpMessage[2]=Mostra Unreal in finestra. Nota che passando a questa modalità software alcuni elementi a dettaglio elevato, visibili con l'accelerazione hardware, potrebbero essere rimossi.
+HelpMessage[3]="Usa le frecce sinistra e destra per scegliere una risoluzione e premi Invio per selezionarla."
+HelpMessage[4]=Usa l'opzione delle texture a bassa definizione per migliorare le prestazioni. La modifica a quest'impostazione avrà effetto al prossimo cambio di livello.
+HelpMessage[5]=Regola il livello della musica usando le frecce sinistra e destra.
+HelpMessage[6]=Regola il volume degli effetti sonori usando le frecce sinistra e destra.
+HelpMessage[7]=Usa la bassa qualità audio per migliorare le prestazioni dei computer con 32 MB di RAM o meno. La modifica di quest'impostazione avrà effetto al prossimo cambio di livello.
+MenuList[1]=Luminosità
+MenuList[2]=Att./disatt. modalità tutto schermo 
+MenuList[3]=Scegli risoluzione
+MenuList[4]=Dettaglio texture
+MenuList[5]=Volume musica
+MenuList[6]=Volume audio
+MenuList[7]=Qualità audio
+LowText=Bassa
+HighText=Alta
+HelpMessage[8]=Se vero, sentirai il parlato nei giochi che ne fanno uso.
+MenuList[8]=Parlato
+
+[UnrealMeshMenu]
+HelpMessage[4]=Cambia la tua classe usando le frecce sinistra e destra.
+HelpMessage[5]=Inserisci qui la password di amministrazione oppure la password di gioco se richiesta.
+MenuList[4]=Classe:
+MenuList[5]=Password:
+HelpMessage[6]=Premi Invio per iniziare a giocare.
+MenuList[6]=Inizia gioco
+
+[UnrealPlayerMenu]
+MenuTitle=Seleziona Rappresentazione Digitale
+HelpMessage[1]=Premi Invio per inserire il tuo nome. Assicurati di farlo prima di partecipare a una partita multigiocatore.
+HelpMessage[2]=Usa i tasti freccia per cambiare il colore della tua squadra (Rossa, Blu, Verde o Gialla).
+HelpMessage[3]=Cambia pelle usando i tasti freccia sinistra e destra.
+MenuList[1]=Nome:    
+MenuList[2]=Col. Squad.:
+MenuList[3]=Pelle:
+HelpMessage[4]=Puoi cambiare modello/classe soltanto quando inizi a partecipare ad una partita multigiocatore o quando cominci una nuova partita ad un giocatore.
+MenuList[4]=Classe:
+Teams[0]=Rossa
+Teams[1]=Blu
+Teams[2]=Gialla
+Teams[3]=Verde
+
+[UnrealJoinGameMenu]
+InternetOption=" Internet (28.8 - 56K)"
+FastInternetOption=" Internet veloce (ISDN, modem con cavo)"
+LANOption=" LAN"
+MenuTitle=PARTECIPA
+HelpMessage[1]=Ascolta server locali
+HelpMessage[2]=Scegli un server dalla lista dei preferiti
+HelpMessage[3]=Premi Invio per inserire l'indirizzo del server. Premi nuovamente Invio per andare al server.
+HelpMessage[4]=Imposta l'ottimizzazione di rete.
+HelpMessage[5]= Apri la pagina Web della lista di server di Epic Unreal
+MenuList[1]=Trova il server locale 
+MenuList[2]=Scegli da un elenco
+MenuList[3]=Apri
+MenuList[4]=Ottimizzato per
+MenuList[5]="Vai alla lista server di Epic Unreal"
+
+[UnrealOptionsMenu]
+MenuTitle=MENU OPZIONI
+HelpMessage[1]=Attiva o disattiva l'aiuto di puntamento verticale.
+HelpMessage[2]=Attiva o disattiva l'abilitazione del joystick.
+HelpMessage[3]=Regola la sensibilità del mouse o quanto devi spostare il mouse per produrre un dato movimento nel gioco.
+HelpMessage[4]=Inverti l'asse X del mouse. Se vero, spostando il mouse in avanti guarderai in basso anziché in alto.
+HelpMessage[5]=Se vero, quando lasci andare il pulsante del mouse che regola la visuale essa si centrerà automaticamente.
+HelpMessage[6]=Se vero, il mouse è sempre usato per guardare su e giù, senza dover usare uno dei tasti.
+HelpMessage[7]=Se vero, quando non stai usando il mouse per guardare, la visuale verrà regolata automaticamente per guardare su e giù sui pendii e sulle scale.
+HelpMessage[8]=Se vero, lo schermo lampeggerà quando sparerai con la tua arma.
+HelpMessage[9]=Scegli che il mirino appaia al centro dello schermo
+HelpMessage[10]= Scegli dove debba apparire la tua arma.
+HelpMessage[11]= "Se attivato, cliccando due volte sui tasti di movimento (avanti, indietro, laterale a sx e laterale a dx) eseguirai una schivata veloce."
+HelpMessage[12]=Premi Invio per personalizzare la configurazione della tastiera, del mouse e del joystick.
+HelpMessage[13]=Premi Invio per modificare l'ordine di priorità delle armi.
+HelpMessage[14]=Usa i tasti freccia sinistra e destra per modificare la configurazione dell'HUD.
+HelpMessage[15]=Regola il livello di ondeggiamento durante il movimento.
+HelpMessage[16]= Apri il menu di configurazione delle impostazioni avanzate.
+MenuList[1]=Auto-mira
+MenuList[2]=Joystick attivato
+MenuList[3]=Sensibilità del mouse
+MenuList[4]=Inverti mouse
+MenuList[5]=Auto-centramento
+MenuList[6]=Vista mouse
+MenuList[7]=Vista dislivelli auto
+MenuList[8]=Lampeggiamento arma
+MenuList[9]=Mirino 
+MenuList[10]=Mano arma 
+MenuList[11]=Scarto laterale 
+MenuList[12]=Personalizza controlli 
+MenuList[13]=Priorità armi 
+MenuList[14]=Configurazione HUD 
+MenuList[15]=Liv. ondeggiamento 
+MenuList[16]=Opzioni avanzate
+
+[EndgameHud]
+Message1=La capsula di salvataggio Skaarj è riuscita a sottrarsi alla forza gravitazionale del pianeta... forse. Il carburante è esaurito... vai alla deriva senza possibilità di scampo.
+Message2=Sei riuscito a fuggire dal luogo dove molti sono morti. Ridi fra te e te; sono successe così tante cose, ma quasi nulla è cambiato.
+Message3=Prima dello schianto eri rinchiuso in una piccola cella. Ora, sei stato sbattuto nuovamente in prigione.
+Message4=Ma, sei sicuro che qualcuno ti raggiungerà sul piccolo vascello... forse.
+Message5=Fino ad allora, continui ad andare alla deriva e a sperare.
+Message6=Continua...
+
+[UnrealWeaponMenu]
+MenuTitle=PRIORITÀ
+
+[Eightball]
+PickupMessage=Hai preso il Lancia 8-ball
+ItemName=8-ball
+DeathMessage=%o è stato picchiato un sacco di volte da %w di %k.
+
+[UnrealKeyboardMenu]
+OrString=" o "
+MenuTitle=CONTROLLI
+HelpMessage[1]=
+MenuList[1]=Fuoco
+MenuList[2]=Fuoco alternato
+MenuList[3]=Avanti
+MenuList[4]=Indietro
+MenuList[5]=Gira a sx
+MenuList[6]=Gira a dx
+MenuList[7]=Mov. lat. sx
+MenuList[8]=Mov. lat. dx
+MenuList[9]=Salta/Su
+MenuList[10]=Abbassati/Giù
+MenuList[11]="Vista Mouse"
+MenuList[12]=Attiva oggetto
+MenuList[13]=Ogg. succ.
+MenuList[14]=Ogg. prec.
+MenuList[15]=Guarda su
+MenuList[16]=Guarda giù
+MenuList[17]=Centra visuale
+MenuList[18]=Cammina
+MenuList[19]=Mov. laterale
+MenuList[20]=Arma succ.
+MenuList[21]=RIPRISTINA DEFAULT 
+
+[TranslatorEvent]
+M_NewMessage=Nuovo messaggio del Traduttore
+M_TransMessage=Messaggio del Traduttore
+
+[Flashlight]
+ExpireMessage=Le pile della torcia si sono esaurite.
+PickupMessage=Hai raccolto la torcia
+
+[ParentBlob]
+BlobKillMessage=è stato corroso da un Blob
+
+[FlakCannon]
+PickupMessage=Hai preso il cannone Flak
+ItemName=Cannone Flak 
+
+[Rifle]
+PickupMessage=Hai preso il Fucile 
+ItemName=Fucile Cecchino
+
+[UnrealBotConfigMenu]
+MenuTitle=BOT
+HelpMessage[1]=Se vero, i Bot regolano il loro livello d'abilità basandosi su quello degli utenti.
+HelpMessage[2]=Livello dell'abilità di base dei Bot (tra 0 e 3).
+HelpMessage[3]=Se vero, i Bot entrano in gioco in ordine casuale. Se falso, entrano nell'ordine di configurazione.
+HelpMessage[4]=Cambia la configurazione dei singoli Bot.
+MenuList[1]=Autoregolazione abilità
+MenuList[2]=Abilità di base
+MenuList[3]=Ordine casuale
+MenuList[4]=Configura Bot singoli 
+HelpMessage[5]=Numero di Bot  (max 15).
+HelpMessage[6]=Usa Bot quando giochi con altre persone.
+MenuList[5]=Numero di Bot
+MenuList[6]=Configura Bot singoli 
+
+[UnrealLoadMenu]
+RestartString=Ricomincia 
+MenuTitle=CARICA PART. 
+
+[UnrealSlotMenu]
+MonthNames[0]=Gennaio
+MonthNames[1]=Febbraio
+MonthNames[2]=Marzo
+MonthNames[3]=Aprile
+MonthNames[4]=Maggio
+MonthNames[5]=Giugno
+MonthNames[6]=Luglio
+MonthNames[7]=Agosto
+MonthNames[8]=Settembre
+MonthNames[9]=Ottobre
+MonthNames[10]=Novembre
+MonthNames[11]=Dicembre
+
+[ASMD]
+PickupMessage=Hai preso l'ASMD 
+ItemName=ASMD
+DeathMessage=%k ha inflitto danni mortali a %o con %w.
+
+[UnrealMainMenu]
+HelpMessage[1]=Premi Invio per modificare le opzioni di gioco, inclusi il caricamento e il salvataggio delle partite, il livello di difficoltà e i BotMatch.
+HelpMessage[2]=Premi Invio per modificare le opzioni di setup del multigiocatore, incluso iniziare o partecipare a una partita in rete, e cambiare l'aspetto, il nome, o la squadra.
+HelpMessage[3]=Premi Invio per personalizzare i controlli.
+HelpMessage[4]=Cambia le opzioni audio e video
+HelpMessage[5]=Premi Invio per uscire dal gioco.
+HelpMessage[7]=Chiama gratis l'1-877-4UNREAL per ordinare UNREAL!
+MenuList[1]=GIOCO
+MenuList[2]=MULTIGIOCATORE
+MenuList[3]=OPZIONI
+MenuList[4]=AUDIO/VIDEO
+MenuList[5]=ESCI
+MenuList[7]=INFO ORDINAZIONE
+
+[UnrealServerMenu]
+BotTitle=BOTMATCH
+MenuTitle=MULTIGIOCATORE
+HelpMessage[1]="Scegli il tipo di gioco."
+HelpMessage[2]=Scegli la mappa.
+HelpMessage[3]=Modifica le opzioni di gioco.
+HelpMessage[4]=Inizia il gioco.
+MenuList[1]=Scegli gioco
+MenuList[2]=Scegli mappa
+MenuList[3]=Configura gioco
+MenuList[4]=Inizia gioco
+MenuList[5]=Lancia server dedicato
+HelpMessage[5]=Avvia un server dedicato su questo computer.
+
+[UnrealGameMenu]
+HelpMessage[1]=Premi Invio per salvare la partita attuale.
+HelpMessage[2]=Premi Invio per caricare una partita salvata.
+HelpMessage[3]="Scegli un livello di difficoltà e inizia una nuova partita."
+HelpMessage[4]=Premi Invio per modificare le opzioni di gioco. Nota che non puoi farlo se stai giocando in modalità multigiocatore.
+HelpMessage[5]=DeathMatch contro i Bot.
+MenuList[1]=SALVA PART.
+MenuList[2]=CARICA PART.
+MenuList[3]=NUOVA PARTITA
+MenuList[4]=OPZIONI GIOCO
+MenuList[5]=BOTMATCH
+
+[Health]
+PickupMessage=Hai preso la Supersalute +
+
+[AutoMag]
+PickupMessage=Hai preso l'AutoMag
+ItemName=Automag
+DeathMessage=%o è stato fatto fuori da %w di %k.
+
+[UnrealChooseGameMenu]
+MenuTitle=SCEGLI GIOCO
+HelpMessage[1]=Scegli quale partita giocare.
+HelpMessage[2]=Scegli quale partita giocare.
+HelpMessage[3]=Scegli quale partita giocare.
+HelpMessage[4]=Scegli quale partita giocare.
+HelpMessage[5]=Scegli quale partita giocare.
+HelpMessage[6]=Scegli quale partita giocare.
+HelpMessage[7]=Scegli quale partita giocare.
+HelpMessage[8]=Scegli quale partita giocare.
+HelpMessage[9]=Scegli quale partita giocare.
+HelpMessage[10]=Scegli quale partita giocare.
+HelpMessage[11]=Scegli quale partita giocare.
+HelpMessage[12]=Scegli quale partita giocare.
+HelpMessage[13]=Scegli quale partita giocare.
+HelpMessage[14]=Scegli quale partita giocare.
+HelpMessage[15]=Scegli quale partita giocare.
+HelpMessage[16]=Scegli quale partita giocare.
+HelpMessage[17]=Scegli quale partita giocare.
+HelpMessage[18]=Scegli quale partita giocare.
+HelpMessage[19]=Scegli quale partita giocare.
+
+[UnrealMultiPlayerMenu]
+HelpMessage[1]=Partecipa a una partita in rete.
+HelpMessage[2]=Imposta e inizia una partita in rete.
+HelpMessage[3]=Configura aspetto e nome della squadra.
+MenuList[1]=PARTECIPA
+MenuList[2]=INIZIA
+MenuList[3]=IMP. GIOCAT.
+
+[UnrealHelpMenu]
+MenuTitle=AIUTO
+HelpMessage[1]=Apri il documento sulla risoluzione dei problemi.
+MenuList[1]=Risoluzione dei Problemi
+
+[YesNoMenu]
+YesSelString=[SÌ]  No
+NoSelString=" Sì  [NO]"
+
+[NaliFruit]
+PickupMessage=Hai raccolto il frutto medico dei Nali +
+
+[Minigun]
+PickupMessage=Hai preso il Minifucile 
+ItemName=Minifucile
+
+[UnrealListenMenu]
+MenuTitle=SERVER LOCALI
+HelpMessage[1]=Premi Invio per selezionare questo server.
+HelpMessage[2]=Premi Invio per selezionare questo server.
+HelpMessage[3]=Premi Invio per selezionare questo server.
+HelpMessage[4]=Premi Invio per selezionare questo server.
+HelpMessage[5]=Premi Invio per selezionare questo server.
+HelpMessage[6]=Premi Invio per selezionare questo server.
+HelpMessage[7]=Premi Invio per selezionare questo server.
+HelpMessage[8]=Premi Invio per selezionare questo server.
+HelpMessage[9]=Premi Invio per selezionare questo server.
+HelpMessage[10]=Premi Invio per selezionare questo server.
+HelpMessage[11]=Premi Invio per selezionare questo server.
+HelpMessage[12]=Premi Invio per selezionare questo server.
+HelpMessage[13]=Premi Invio per selezionare questo server.
+HelpMessage[14]=Premi Invio per selezionare questo server.
+HelpMessage[15]=Premi Invio per selezionare questo server.
+HelpMessage[16]=Premi Invio per selezionare questo server.
+HelpMessage[17]=Premi Invio per selezionare questo server.
+HelpMessage[18]=Premi Invio per selezionare questo server.
+HelpMessage[19]=Premi Invio per selezionare questo server.
+
+[GESBioRifle]
+PickupMessage=Hai preso il Biofucile GES 
+ItemName=Biofucile GES 
+
+[UnrealDMGameOptionsMenu]
+HelpMessage[3]="Numero di frag segnati dal giocatore principale per finire la partita. Se 0, non c'è limite."
+HelpMessage[4]=Limite di tempo (in minuti) per finire la partita. Se 0, non c'è limite.
+HelpMessage[5]=Numero massimo di giocatori in partita consentito.
+HelpMessage[6]=Se la modalità armi in cooperazione è attivata, le armi si rigenerano istantaneamente, ma possono essere prese dal medesimo giocatore solo una volta.
+HelpMessage[7]=Configura i Bot e i parametri individuali.
+HelpMessage[8]=Scegli stile di gioco: nello stile Aggressivo l'azione di gioco è più veloce e le armi provocano più danni rispetto allo stile Classico. Lo stile Turbo è simile a quello Aggressivo con movimenti estremamente veloci.
+HelpMessage[9]=Messaggi di morte in stile classico o nuovo (a seconda delle armi).
+MenuList[3]=Limite di frag
+MenuList[4]=Limite di tempo
+MenuList[5]=N. max di giocatori
+MenuList[6]=Modalità armi co-op 
+MenuList[7]=Configura Bot
+MenuList[8]=Stile di gioco
+MenuList[9]=Messaggi di morte
+GameStyle[0]=Classico
+GameStyle[1]=Aggressivo
+GameStyle[2]=Turbo
+
+[Amplifier]
+ExpireMessage=L'Amplificatore è senza energia.
+PickupMessage="Hai raccolto l'Amplificatore di Energia"
+
+[SearchLight]
+PickupMessage=Hai raccolto il Riflettore.
+
+[SCUBAGear]
+PickupMessage=Hai raccolto l'Equipaggiamento Subacqueo 
+
+[UnrealNewGameMenu]
+HelpMessage[1]=Modalità turista.
+HelpMessage[2]=Pronto per l'azione!
+HelpMessage[3]=Non per i deboli di cuore.
+HelpMessage[4]=Desiderio di morte.
+MenuList[1]=FACILE
+MenuList[2]=MEDIO
+MenuList[3]=DIFFICILE
+MenuList[4]=IRREALE
+
+[Stinger]
+PickupMessage=Hai preso lo Stinger 
+ItemName=Stinger
+DeathMessage=%o è stato perforato da %w di %k.
+
+[RazorAmmo]
+PickupMessage=Hai raccolto le Lame di Rasoio 
+
+[RocketCan]
+PickupMessage=Hai raccolto 12 8-ball
+
+[ShellBox]
+PickupMessage=Hai raccolto 50 proiettili
+
+[VoiceBox]
+PickupMessage=Hai raccolto il Simulatore
+
+[UnrealSaveMenu]
+CantSave=IMPOSSIBILE SALVARE DA MORTO
+MenuTitle=SALVA PART.
+
+[Seeds]
+PickupMessage=Hai preso i semi del frutto dei Nali
+
+[RifleAmmo]
+PickupMessage=Hai raccolto 8 cartucce per il fucile.
+
+[FlakBox]
+PickupMessage=Hai raccolto 10 cariche per il Flak
+
+[Flare]
+PickupMessage=Hai raccolto un razzo
+
+[JumpBoots]
+ExpireMessage=Gli stivali da salto si sono esauriti
+PickupMessage=Hai raccolto gli stivali da salto
+
+[WeaponPowerUp]
+PickupMessage="Hai preso una ricarica della Pistola Dissolvente"
+
+[Razorjack]
+PickupMessage=Hai preso il RazorJack 
+ItemName=Razorjack
+
+[ForceField]
+M_NoRoom=Non c'è spazio per attivare il Campo Magnetico.
+PickupMessage=Hai raccolto il Campo Magnetico
+
+[ASMDAmmo]
+PickupMessage=Hai raccolto un nucleo ASMD.
+
+[ShieldBelt]
+PickupMessage="Hai preso la Cintura di Protezione"
+
+[UnrealTeamGameOptionsMenu]
+HelpMessage[10]="Percentuale di danno subito quando colpito dal fuoco amico. Nota che subisci comunque i danni causati dalle tue stesse armi."
+MenuList[10]=Scala del fuoco amico 
+
+[OKMenu]
+OKString=[OK]
+
+[StingerAmmo]
+PickupMessage=Hai raccolto 40 schegge di Tarydium
+
+[UpgradeMenu]
+MenuList[1]= Hai bisogno di una versione più recente di Unreal per giocare su questo server. Vuoi andare al sito web di Unreal per ottenere una versione più recente?
+
+[Sludge]
+PickupMessage=Hai raccolto 25 chili di fanghiglia di Tarydium 
+
+[Invisibility]
+ExpireMessage= Invisibilità esaurita.
+PickupMessage=Hai preso l'Invisibilità
+
+[ToxinSuit]
+PickupMessage=Hai raccolto la Tuta Antitossica
+
+[Shells]
+PickupMessage=Hai raccolto 15 ricariche
+
+[RifleRound]
+PickupMessage= Hai preso una cartuccia di fucile.
+
+[QuadShot]
+PickupMessage=Hai rubato il Colpo Quadruplo
+
+[PowerShield]
+PickupMessage=Hai preso lo Scudo Potenziato
+
+[Dampener]
+ExpireMessage=Silenziatore esaurito.
+PickupMessage=Hai raccolto il Silenziatore
+
+
+[KevlarSuit]
+PickupMessage=Hai raccolto la Tuta in Kevlar
+
+[FlakShellAmmo]
+PickupMessage=Hai preso una ricarica per il Flak.
+
+[Fell]
+Name=abbattuto
+AltName=atterrato
+
+[Drowned]
+Name=affogato
+AltName=affogato
+
+[Decapitated]
+Name=decapitato
+AltName=decapitato
+
+[Corroded]
+Name=corroso
+AltName=smerdato
+
+[Clip]
+PickupMessage=Hai raccolto un Caricatore
+
+[Burned]
+Name=arrostito
+AltName=bruciato
+
+[SuperHealth]
+PickupMessage=Hai raccolto la Supersalute
+
+[Bandages]
+PickupMessage=Hai preso alcune bende +
+
+[AsbestosSuit]
+PickupMessage=Hai raccolto la Tuta d'Amianto
+
+[Armor]
+PickupMessage=Hai raccolto la Tuta Antiproiettile
+
+[UnrealHUD]
+IdentifyName=Nome
+IdentifyHealth=Salute
+
+[UnrealCoopGameOptions]
+Difficulties[0]=Facile
+Difficulties[1]=Medio
+Difficulties[2]=Difficile
+Difficulties[3]=Irreale
+HelpMessage[3]=Impostazione livello abilità.
+MenuList[3]=Difficoltà
+
+
+
+
+13
+
+
+[DeathmatchGame]
+TimeMessage[0]=restano ancora 5 minuti!
+TimeMessage[1]=restano ancora 4 minuti!
+TimeMessage[2]=restano ancora 3 minuti!
+TimeMessage[3]=restano ancora 2 minuti!
+TimeMessage[4]=resta ancora 1 minuto!
+TimeMessage[5]=0 secondi rimasti!
+TimeMessage[6]= secondi rimasti!
+TimeMessage[7]=5 secondi e contando...
+TimeMessage[8]=4...
+TimeMessage[9]=3...
+TimeMessage[10]=2...
+TimeMessage[11]=1...
+TimeMessage[12]=Tempo scaduto!
+
+[UnrealVideoMenu]
+HelpMessage[9]=Se vero, sentirai un bip quando ricevi un messaggio.
+MenuList[9]=Bip messaggio
+[UnrealOptionsMenu]
+HideString=Nascosto
+
+[UnrealHUD]
+VersionMessage=Versione
+TeamName[0]=Squadra rossa:
+TeamName[1]=Squadra blu:
+TeamName[2]=Squadra verde:
+TeamName[3]=Squadra oro:
+[UnrealTeamScoreBoard]
+TeamName[0]=Squadra rossa:
+TeamName[1]=Squadra blu:
+TeamName[2]=Squadra verde:
+TeamName[3]=Squadra oro:
+[SinglePlayer]
+GameName=Unreal
+
+[MaleThree]
+MenuName=Maschio 3
+
+[FemaleOne]
+MenuName=Femmina 1

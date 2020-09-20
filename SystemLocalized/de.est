@@ -1,0 +1,4 @@
+﻿[Public]
+Object=(Name=de.VolatileAmmo,Class=Class,MetaClass=Engine.Mutator,Description="Munición Volátil,Los paquetes de munición explotan al ser disparados.")
+Object=(Name=de.VolatileWeapon,Class=Class,MetaClass=Engine.Mutator,Description="Armas Volátiles,Los jugadores muertos vacían sus armas.")
+Object=(Name=de.TeamBeacon,Class=Class,MetaClass=Engine.Mutator,Description="Señalizador de Equipo,Identifica a los compañeros de equipo.")

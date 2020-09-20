@@ -1,0 +1,49 @@
+[TranslatorEvent2]
+message=Das Harobed Dorf befindet sich jenseits dieser Berge. Ich werde warten, bis die beiden Sonnen untergehen, und dann meinen Weg durch das Rrajigar Bergwerk fortsetzen. Das ist der einzige Weg.
+
+[TranslatorEvent0]
+message=ACHTUNG: Aufstand der Nali festgestellt im Sektor 3A. Tödliche Gewaltanwendung zur Niederschlagung des Sklavenaufstandes genehmigt.   
+
+[TranslatorEvent1]
+message= ACHTUNG: Zufahrtsbrücken in den unteren Ebenen des Bergwerks sind unsicher. Mit größter Vorsicht vorgehen.
+
+[TranslatorEvent11]
+message=ACHTUNG: Eindringling festgestellt in Sektionen C-6 und D-8. Alle Einheiten sind dafür verantwortlich, ihre Gebiete zu patrouillieren.
+Hint=Schieße auf den nahe gelegenen roten Knopf, um die schmale Brücke über der Lava hochzuziehen.
+
+[TranslatorEvent8]
+message= Kraftfeld Energieversorgung eins, Status ist aktiv.
+Hint=Drücke auf die roten Knöpfe an der Wand, indem du gegen sie stößt.
+
+[TranslatorEvent7]
+message= Kraftfeld Energieversorgung zwei, Status ist aktiv.
+Hint= Drücke auf die roten Knöpfe an der Wand, indem du gegen sie stößt.
+
+[TranslatorEvent9]
+message=ACHTUNG: Kraftfeld Energieversorgung eins, Status ist inaktiv. Sicherheitszustand Zwei erreicht.
+
+[TranslatorEvent10]
+message= ACHTUNG: Kraftfeld Energieversorgung zwei, Status ist inaktiv. Sicherheitszustand Zwei erreicht.
+
+[TranslatorEvent6]
+message= Kraftfeld unbeschädigt. Alle Systeme normal.
+Hint=Das Kraftfeld muß deaktiviert werden. Finde den Kontrollraum.
+
+[TranslatorEvent5]
+message= ACHTUNG! Kraftfeld deaktiviert. Eindringling festgestellt in Sektion C-6. Jeden Unbefugten eliminieren.
+Hint=Schieße auf alle roten Fässer.
+
+[LevelInfo0]
+Title=Rrajigar Bergwerk 
+
+[TranslatorEvent19]
+message=ACHTUNG: Bereich muß freigehalten werden, damit Transportfahrstuhl richtig funktioniert.
+
+[TranslatorEvent15]
+message=Du bist tot.
+
+[TranslatorEvent14]
+message=Was zum Teufel hast du hier oben zu suchen?
+
+[TranslatorEvent20]
+message=Kraftfeld Kontrollbereich.

@@ -1,0 +1,84 @@
+[Language]
+Language=Deutsch
+LangId=7
+SubLangId=0
+
+[Public]
+Preferences=(Caption="Erweitert",Parent="Erweiterte Optionen")
+Preferences=(Caption="Dateisystem",Parent="Erweitert",Class=Core.System,Immediate=True)
+
+[Errors]
+Unknown=Unbekannter Fehler
+Aborted=Abgebrochen
+ExportOpen=Exportfehler bei %s: konnte '%s' nicht öffnen
+ExportWrite=Exportfehler bei %s: konnte '%s' nicht schreiben
+FileNotFound=Kann '%s' nicht finden
+ObjectNotFound=Kann Objekte '%s %s.%s' nicht finden
+PackageNotFound=Kann Datei '%s' nicht finden
+PackageResolveFailed=Kann Paketnamen nicht analysieren
+FilenameToPackage=Kann Dateiname '%s' nicht in Paketnamen konvertieren
+Sandbox=Auf Paket '%s' kann von dieser Umgebung nicht zugegriffen werden
+PackageVersion=Paket '%s' von anderer Version
+FailedLoad=Ladefehler: '%s': %s
+ConfigNotFound=Kann '%s' in der Konfigurationsdatei nicht finden
+LoadClassMismatch=%s gehört nicht zur Klasse von Kind-Klasse von %s.%s
+NotDll='%s' ist keine DLL; kann Export '%s' nicht finden
+NotInDll=Kann '%s' in '%s.dll' nicht finden
+FailedLoadPackage=Ladefehler bei Paket: %s
+FailedLoadObject=Ladefehler bei '%s %s.%s': %s
+TransientImport=Übergangsweises Objekt importiert: %s
+FailedSavePrivate=Speicherfehler %s: Graph mit externem privaten Objekt %s verknüpft
+FailedImportPrivate=Kann privates Objekt %s %s.%s nicht importieren
+FailedCreate=%s %s für die Erstellung nicht gefunden
+FailedImport=Kann %s in Datei '%s' nicht finden
+FailedSaveFile=Speicherfehler bei '%s': %s
+SaveWarning=Fehler beim Speichern von '%s'
+NotPackaged=Objekt nicht gepackt: %s %s
+NotWithin=Objekt %s %s wurde in %s anstatt %s erstellt
+Abstract=Kann Objekt %s nicht erzeugen: Klasse %s ist abstrakt
+NoReplace=Kann %s nicht durch %s ersetzen
+NoFindImport=Kann Datei '%s' für den Import nicht finden
+ReadFileFailed=Lesefehler beim Import von '%s'
+SeekFailed=Fehler beim Suchen der Datei
+OpenFailed=Fehler beim Öffnen der Datei
+WriteFailed=Fehler beim Schreiben der Datei
+ReadEof=Über das Ende der Datei hinaus gelesen
+IniReadOnly=Die Datei %s ist schreibgeschützt; Einstellungen können nicht gespeichert werden
+UrlFailed=URL kann nicht aufgerufen werden
+Warning=Warnung
+Question=Frage
+OutOfMemory=Kein virtueller Speicher mehr vorhanden. Du mußt mehr freien Speicherplatz auf Deiner ersten Festplatte schaffen.
+History=Verlauf
+Assert=Einrichtung fehlgeschlagen: %s [Datei:%s] [Zeile: %i]
+Debug=Debug-Einrichtung fehlgeschlagen: %s [Datei:%s] [Zeile: %i]
+LinkerExists=Link für '%s' existiert bereits
+BinaryFormat=Die Datei '%s' enthält unbekannte Daten
+SerialSize=%s: Größenunterschied: vorgefunden %i, erwartet %i
+ExportIndex=Fehlerhafter Export-Index %i/%i
+ImportIndex=Fehlerhafter Import-Index %i/%i
+Password=Paßwort unbekannt
+Exec=Unbekanntes Kommando
+BadProperty='%s': falsche oder fehlende Zuordnung bei '%s'
+
+[Query]
+OldVersion=Die Datei %s wurde auf einer älteren, nicht kompatiblen Version gespeichert. Das Einlesen kann den Rechner zum Absturz bringen. Dennoch versuchen?
+Name=Name:
+Password=Paßwort:
+PassPrompt=Namen und Paßwort eingeben:
+PassDlg=Identitätskontrolle
+Overwrite=Die Datei '%s' muß aktualisiert werden. Möchtest Du die vorhandene Version überschreiben?
+
+[Progress]
+Saving=Speichere Datei %s...
+Loading=Lade Datei %s...
+Closing=Schließe
+
+[General]
+Product=Unreal
+Engine=Unreal-Engine
+Copyright=Copyright 1998 Epic MegaGames, Inc.
+True=Ja
+False=Nein
+None=Nichts
+Yes=JA
+No=Nein

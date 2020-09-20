@@ -1,0 +1,39 @@
+﻿[LevelInfo0]
+Title="Lava Gigante"
+IdealPlayerCount="8-14"
+LevelEnterText="¡¡HAZTE CON LAS BANDERAS!!"
+
+[ZoneInfo0]
+ZoneName="En la isla"
+
+[ZoneInfo3]
+ZoneName="Área Inferior Azul"
+
+[ZoneInfo1]
+ZoneName="Área Inferior Roja"
+
+[ZoneInfo2]
+ZoneName="Área Inferior Roja"
+
+[ZoneInfo4]
+ZoneName="Área Inferior Azul"
+
+[LevelSummary]
+Title="Lava Gigante"
+IdealPlayerCount="8-14"
+LevelEnterText="¡¡HAZTE CON LAS BANDERAS!!"
+
+[locationid1]
+LocationName="Base Roja"
+
+[locationid5]
+LocationName="Sierra del Lanzacohetes"
+
+[locationid4]
+LocationName="Sierra del Cinturón de Protección"
+
+[locationid2]
+LocationName="Base Azul"
+
+[locationid3]
+LocationName="Sierra del Redentor"
