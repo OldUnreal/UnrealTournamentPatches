@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>%Title%</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<frameset cols="230,*" rows="*" border="0" scrolling="No" frameborder="no" noresize framespacing="0" marginheight="0"> 
+  <frame src="%IndexURI%" name="index" border="0" scrolling="No" frameborder="no" noresize framespacing="0" marginheight="0">
+  <frame src="%MainURI%" name="main" border="0" frameborder="no" noresize framespacing="0" marginheight="0">
+</frameset>
+
+<noframes><body bgcolor="#FFFFFF">
+</body></noframes>
+</html>

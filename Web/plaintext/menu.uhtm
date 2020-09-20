@@ -1,0 +1,11 @@
+<!-- #include file="inc/header.inc" -->
+<table width="100%%" border="0" align="left">
+  <tr>
+    <td align="center" rowspan="2"><font color="#FFffFF" size="6"><nobr>Unreal Tournament - Remote Server Admin</nobr></font></td>
+    <td align="center" width="175" bgcolor="%CurrentBG%"><a href="%CurrentURI%" target="_top"><b>Current</b></a></td>
+  </tr>
+  <tr>
+    <td align="center" width="175" bgcolor="%DefaultsBG%"><a href="%DefaultsURI%" target="_top"><b>Defaults</b></a></td>
+  </tr>
+</table>
+<!-- #include file="inc/footer.inc" -->

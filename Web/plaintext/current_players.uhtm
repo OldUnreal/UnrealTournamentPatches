@@ -1,0 +1,31 @@
+<!-- #include file="inc/whiteheader.inc" -->
+<form method="post" action="%PostAction%">
+  <input type="hidden" name="Sort" value="%Sort%">
+  <table width="400" border="0">
+    <tr>
+      <td width="1%%">
+        <input type="submit" name="Refresh" value="Refresh">
+      </td>
+      <td align="right">
+        <div align="right">Minimum&nbsp;players:&nbsp;&nbsp;
+          <input type="text" name="MinPlayers" size="2" maxlength="2" value="%MinPlayers%">
+          <input type="submit" name="SetMinPlayers" value="Set">
+        </div>
+      </td>
+    </tr>
+  </table>
+  <table width="400" border="0">
+    <tr>
+      <td width="1%%">Kick</td>
+      <td width="1%%">BanIP</td>
+      <td><a href="%PostAction%?Sort=Name" target="_self">Name:</a></td>
+      <td width="1%%"><a href="%PostAction%?Sort=Team" target="_self">Team:</a></td>
+      <td width="1%%"><a href="%PostAction%?Sort=Ping" target="_self">Ping:</a></td>
+      <td width="1%%"><a href="%PostAction%?Sort=Score" target="_self">Score:</a></td>
+      <td width="1%%">IP:</td>
+    </tr>
+%PlayerList%
+  </table>
+  <input type="submit" name="Kick" value="Kick / Ban">
+</form>
+<!-- #include file="inc/footer.inc" -->

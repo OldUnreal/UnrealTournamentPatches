@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>%Title%</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<frameset rows="60,*" cols="*"> 
+  <frame src="%MenuURI%" name="menu" noresize frameborder="0" marginheight="5">
+  <frame src="%MainURI%" name="main">
+</frameset>
+
+<noframes><body bgcolor="#FFFFFF">
+</body></noframes>
+</html>

@@ -1,0 +1,11 @@
+<!-- #include file="inc/header.inc" -->
+<!-- #include file="inc/top_begin.inc" -->
+        <td align="right" valign="top">
+		  <font face="Verdana, Arial, Helvetica" size="-2" color="#ffffff"><b>Choose&nbsp;Your&nbsp;Options:</b></font>
+          <br>
+		  <font face="Verdana, Arial, Helvetica" size="-1" color="%CurrentBG%"><a href="%CurrentURI%" target="_top"><b>Current</b></a>&nbsp;«</font><br>
+          <font face="Verdana, Arial, Helvetica" size="-1" color="%DefaultsBG%"><a href="%DefaultsURI%" target="_top"><b>Defaults</b></a>&nbsp;«</font><br>
+          </font>
+		</td>
+<!-- #include file="inc/top_end.inc" -->
+<!-- #include file="inc/footer.inc" -->

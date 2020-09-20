@@ -1,0 +1,10 @@
+<!-- #include file="inc/header.inc" -->
+<table width="100%%" border="0" align="center">
+  <tr align="center"><td bgcolor="%GameBG%"><a href="%GameURI%" target="_parent"><b>Current Game</b></a></td></tr>
+  <tr align="center"><td bgcolor="%PlayersBG%"><a href="%PlayersURI%" target="_parent"><b>Player List</b></a></td>
+  <tr align="center"><td bgcolor="%ConsoleBG%"><a href="%ConsoleURI%" target="_parent"><b>Server Console</b></a></td></tr>
+  <tr align="center"><td bgcolor="%MutatorsBG%"><a href="%MutatorsURI%" target="_parent"><b>Mutators</b></a></td></tr>
+  <tr><td bgcolor="#000000">&nbsp;</td></tr>
+  <tr align="center"><td bgcolor="%RestartBG%"><a href="%RestartURI%" target="_parent"><b>Restart Level</b></a></td></tr>
+</table>
+<!-- #include file="inc/footer.inc" -->

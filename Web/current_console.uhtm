@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<frameset rows="*,40" cols="*" border="0" scrolling="No" frameborder="no" noresize framespacing="0" marginheight="0"> 
+  <frame src="%LogURI%#END" border="0" frameborder="no" noresize framespacing="0" marginheight="0">
+  <frame src="%SayURI%" marginheight="0" border="0" scrolling="No" frameborder="no" noresize framespacing="0" marginheight="0">
+</frameset>
+<noframes><body bgcolor="#FFFFFF">
+
+</body></noframes>
+</html>

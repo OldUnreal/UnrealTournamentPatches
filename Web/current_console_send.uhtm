@@ -1,0 +1,10 @@
+<!-- #include file="inc/header.inc" -->
+<form method="post" action="%PostAction%" name="" target="_parent">
+  <table width="100%%">
+    <tr>
+      <td><input type="text" name="SendText" value="%DefaultSendText%" size="60"></td>
+      <td nowrap width="1%%"><input type="submit" name="Send" value="Send"></td>
+    </tr>
+  </table>
+</form>
+<!-- #include file="inc/footer.inc" -->

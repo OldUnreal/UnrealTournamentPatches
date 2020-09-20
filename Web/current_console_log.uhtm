@@ -1,0 +1,6 @@
+<!-- #include file="inc/header.inc" -->
+<!-- #include file="inc/content_header_tables.inc" -->
+%LogText%
+<a name="END"></a>
+<!-- #include file="inc/content_footer_tables.inc" -->
+<!-- #include file="inc/footer.inc" -->

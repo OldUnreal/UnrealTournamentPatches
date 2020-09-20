@@ -1,0 +1,14 @@
+<!-- #include file="inc/header.inc" -->
+<!-- #include file="inc/menu_header.inc" -->
+         <TD bgColor=#226474 width=149>
+	   <FONT color=white face="Verdana, Arial, Helvetica" size=-1>
+	   <B><FONT color="%GameBG%">»</FONT></B>&nbsp;<b><a href="%GameURI%" target="_parent">Current Game</a></b><br>
+           <B><FONT color="%PlayersBG%">»</FONT></B>&nbsp;<b><a href="%PlayersURI%" target="_parent">Player List</a></b><br>
+           <B><FONT color="%ConsoleBG%">»</FONT></B>&nbsp;<b><a href="%ConsoleURI%" target="_parent">Server Console</a></b><br>
+           <B><FONT color="%MutatorsBG%">»</FONT></B>&nbsp;<b><a href="%MutatorsURI%" target="_parent">Mutators</a></b><br>
+		   <br>
+           <B><FONT color="%RestartBG%">»</FONT></B>&nbsp;<b><a href="%RestartURI%" target="_parent">Restart Level</a></b><br>
+           </FONT>
+		 </TD>
+<!-- #include file="inc/menu_footer.inc" -->
+<!-- #include file="inc/footer.inc" -->

@@ -1,0 +1,51 @@
+<!-- #include file="inc/whiteheader.inc" -->
+<form method="post" action="%PostAction%">
+  <input type="hidden" name="GameType" value="%GameType%">
+  <input type="hidden" name="MapListType" value="%MapListType%">
+  <table width="300" border="0">
+    <tr valign="middle" align="center">
+      <td colspan="3">Use&nbsp;Map&nbsp;List:&nbsp;&nbsp;&nbsp;
+        <select name="MapListSelect">
+%MapListOptions%
+        </select>
+        <input type="submit" name="MapListSet" value="Use">
+      </td>
+    </tr>
+    <tr nowrap valign="middle" align="center">
+      <td width="49%%" align="center">Maps&nbsp;not&nbsp;in&nbsp;Cycle</td>
+      <td width="2%%">&nbsp;</td>
+      <td width="49%%" align="center">Maps&nbsp;in&nbsp;Cycle</td>
+    </tr>
+    <tr valign="middle" align="center">
+      <td>
+        <select name="ExcludeMapsSelect" size="9" multiple>
+%ExcludeMapsOptions%
+        </select>
+      </td>
+      <td align="center">
+        <p>
+          <input type="submit" name="AddMap" value="  &gt; "><br>
+          <input type="submit" name="DelMap" value="  &lt; "><br>
+          &nbsp;<br>
+          <input type="submit" name="AddAllMap" value="&gt; &gt;"><br>
+          <input type="submit" name="DelAllMap" value="&lt; &lt;"><br>
+        </p>
+      </td>
+      <td align="center">
+        <select name="IncludeMapsSelect" size="9" multiple>
+%IncludeMapsOptions%
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td align="center">
+        <input type="text" name="MoveMapCount" size="1" maxlength="1" value="1">
+        <input type="submit" name="MoveMap" value="Up">
+        <input type="submit" name="MoveMap" value="Down">
+      </td>
+    </tr>
+  </table>
+</form>
+<!-- #include file="inc/footer.inc" -->

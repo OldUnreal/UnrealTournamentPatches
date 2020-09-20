@@ -1,0 +1,16 @@
+<!-- #include file="inc/whiteheader.inc" -->
+<form method="post" action="%PostAction%" name="">
+  <table width="300" border="0">
+    <tr><td nowrap>Switch Game Type:</td>
+      <td nowrap>%GameTypeSelect%</td>
+      <td width="1%%">%GameTypeButton%</td>
+    </tr>
+    <tr><td nowrap>Switch Map:</td>
+      <td><select name="MapSelect">
+%MapSelect%
+      </select></td>
+      <td width="1%%">%MapButton%</td>
+    </tr>
+  </table>
+</form>
+<!-- #include file="inc/footer.inc" -->

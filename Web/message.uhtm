@@ -1,0 +1,6 @@
+<!-- #include file="inc/header.inc" -->
+<!-- #include file="inc/content_header_tables.inc" -->
+<font face="Verdana,Arial" color="White">
+%Message%
+<!-- #include file="inc/content_footer_tables.inc" -->
+<!-- #include file="inc/footer.inc" -->
