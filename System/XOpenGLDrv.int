@@ -1,0 +1,15 @@
+[Public]
+Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="XOpenGL Support",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+
+[XOpenGLRenderDevice]
+ClassCaption="XOpenGL Support"
+AskInstalled=Do you have a OpenGL compatible 3D accelerator installed?
+AskUse=Do you want Unreal to use your OpenGL accelerator?
+
+[Errors]
+NoFindGL=Can't find OpenGL driver %ls
+MissingFunc=Missing OpenGL function %ls (%i)
+ResFailed=Failed to set resolution

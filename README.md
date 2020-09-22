@@ -10,7 +10,17 @@ Patch releases hosted here are considered stable enough for widespread use, but 
 
 ## Installation
 
-The Windows and Linux version of our patches are distributed as file archives. They are meant to be unpacked **on top of an existing installation** of Unreal Tournament. If you want to test out our patches, but maintain the possibility to uninstall them, we strongly urge you to create a backup of your entire UT folder before installing the patch.
+This repository contains development snapshots as well as official releases.
+
+### Development Snapshots
+
+If you are a modder or beta tester and you would like to test our latest changes, then simply use git to check out this repository. Note, however, that our development snapshots are generally not suitable for online play, as they might not be recognized by various anti-cheat solutions. Development snapshots may also be less stable than the official releases.
+
+### Official Releases
+
+Our official patch releases can be found on the [Releases Page](https://github.com/OldUnreal/UnrealTournamentPatches/releases). If you are a regular player or if you want to play online, then please use official releases only.
+
+Our official Windows and Linux releases are distributed as file archives. They are meant to be unpacked **on top of an existing installation** of Unreal Tournament. If you want to test out our patches, but maintain the possibility to uninstall them, we strongly urge you to create a backup of your entire UT folder before installing the patch.
 
 The macOS version of our patch comes as an application bundle. You should drag this bundle into your applications library. If you're installing our macOS patch for the first time, you will also need to copy the data files from an existing UT installation into the bundle. You can do this by right clicking the bundle in Finder and by selecting the "Show Package Contents" option. Next, you should navigate to the Contents>MacOS folder. Finally, you should drag the Maps, Sounds, Textures, and Music folders from an existing UT installation into this folder.
 
@@ -103,6 +113,7 @@ We also want to recognize the hard work of the many beta testers and contributor
 * Sizzl, batonix, ue, Zim: for extensive testing and feedback on the game server
 * uZi, batonix, zkyp, and the members of the UTCTF.pug community: for helping us debug the invisible weapon/flag problem
 * Sp0ngeb0b, proasm, Deepu: for extensive testing and feedback on UnrealScript-related issues
+* Buggie: for extremely thorough testing and for the record number of bug reports
 
 Finally, we want to express our sincerest gratitude to the following people:
 * Stacey Conley (aka "Flak"): this project would not have happened without her. Thank you Stacey, you are amazing!

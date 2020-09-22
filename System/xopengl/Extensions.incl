@@ -1,0 +1,20 @@
+/*=============================================================================
+	Extension.incl, GL shader extensions to be loaded.
+	This data is added before any other shader data.
+
+	Revision history:
+		* Created by Smirftsch
+=============================================================================*/
+#ifdef BINDLESSTEXTURES
+#extension GL_ARB_bindless_texture : require
+#extension GL_ARB_gpu_shader_int64 : enable
+#extension GL_ARB_shading_language_420pack : enable
+#endif
+
+#ifdef GL_ES
+precision mediump float;
+precision mediump int;
+#endif
+
+// The following directive resets the line number to 1 to have the correct output logging for a possible error within the shader files.
+#line 1

@@ -1,0 +1,253 @@
+/*=============================================================================
+	Globals.incl, shader globals.
+	This data is added after loading extensions.
+	Note that #version is internally added before, depending on
+	if GL or GLES is being used:
+
+	if Core:
+	GL #version 330 core
+	or if UseBindlessTextures || UsePersistentBuffers
+	GL #version 450 core
+
+	if ES:
+	GLES #version 300 es
+
+	UseBindlessTextures also sets #define BINDLESSTEXTURES
+
+	To see invalid or unused shader vars comment Suppress=Dev in game ini
+	or set UseOpenGLDebug=True and a DebugLevel>=2 (GL_DEBUG_SEVERITY_LOW)
+
+	Geometry shaders are only available in Core profile
+	Use #ifdef GL_ES in such cases
+
+	Using UED adds #define EDITOR
+
+	Revision history:
+		* Created by Smirftsch
+=============================================================================*/
+
+//Unreal 227 / UT PolyFlags. May require edits for other UE1 games.
+const uint PF_None			    = 0x00000000u;	// None.
+const uint PF_Invisible			= 0x00000001u;	// Poly is invisible.
+const uint PF_Masked			= 0x00000002u;	// Poly should be drawn masked.
+const uint PF_Translucent	 	= 0x00000004u;	// Poly is transparent.
+const uint PF_NotSolid			= 0x00000008u;	// Poly is not solid; doesn't block.
+const uint PF_Environment   	= 0x00000010u;	// Poly should be drawn environment mapped.
+const uint PF_Semisolid	  		= 0x00000020u;	// Poly is semi-solid = collision solid; Csg nonsolid.
+const uint PF_Modulated 		= 0x00000040u;	// Modulation transparency.
+const uint PF_FakeBackdrop		= 0x00000080u;	// Poly looks exactly like backdrop.
+const uint PF_TwoSided			= 0x00000100u;	// Poly is visible from both sides.
+const uint PF_AutoUPan		 	= 0x00000200u;	// Automatically pans in U direction.
+const uint PF_AutoVPan 			= 0x00000400u;	// Automatically pans in V direction.
+const uint PF_NoSmooth			= 0x00000800u;	// Don't smooth textures.
+const uint PF_BigWavy 			= 0x00001000u;	// Poly has a big wavy pattern in it.
+const uint PF_SpecialPoly		= 0x00001000u;	// Game-specific poly-level render control (reuse BigWavy flag)
+const uint PF_HeightMap			= 0x00001000u;	// Use Macrotexture as HeightMap
+const uint PF_SmallWavy			= 0x00002000u;	// Small wavy pattern (for water/enviro reflection).
+const uint PF_Flat				= 0x00004000u;	// Flat surface.
+const uint PF_ForceViewZone		= 0x00004000u;	// Force current iViewZone in OccludeBSP (reuse Flat flag)
+const uint PF_LowShadowDetail	= 0x00008000u;	// Low detail shadows.
+const uint PF_NoMerge			= 0x00010000u;	// Don't merge poly's nodes before lighting when rendering.
+const uint PF_AlphaBlend 		= 0x00020000u;	// This poly should be alpha blended. In UT PF_CloudWavy, but of little use without DXT3/DXT5 texture flags.
+const uint PF_DirtyShadows		= 0x00040000u;	// Dirty shadows.
+const uint PF_BrightCorners		= 0x00080000u;	// Brighten convex corners.
+const uint PF_SpecialLit		= 0x00100000u;	// Only special lit lights apply to this poly.
+const uint PF_Gouraud			= 0x00200000u;	// Gouraud shaded.
+const uint PF_NoBoundRejection	= 0x00200000u;	// Disable bound rejection in OccludeBSP (reuse Gouraud flag)
+const uint PF_Unlit				= 0x00400000u;	// Unlit.
+const uint PF_HighShadowDetail	= 0x00800000u;	// High detail shadows.
+const uint PF_Portal			= 0x04000000u;	// Portal between iZones.
+const uint PF_Mirrored			= 0x08000000u;	// Reflective surface.
+
+// Editor flags.
+const uint PF_Memorized			= 0x01000000u;	// Editor: Poly is remembered.
+const uint PF_Selected			= 0x02000000u;	// Editor: Poly is selected.
+const uint PF_Highlighted		= 0x10000000u;	// Editor: Poly is highlighted.
+const uint PF_FlatShaded		= 0x40000000u;	// FPoly has been split by SplitPolyWithPlane.
+
+// Internal.
+const uint PF_EdProcessed 		= 0x40000000u;	// FPoly was already processed in editorBuildFPolys.
+const uint PF_EdCut       		= 0x80000000u;	// FPoly has been split by SplitPolyWithPlane.
+const uint PF_RenderFog			= 0x40000000u;	// Render with fog mapping.
+const uint PF_Occlude			= 0x80000000u;	// Occludes even if PF_NoOcclude.
+const uint PF_RenderHint		= 0x01000000u;   // Rendering optimization hint.
+
+#ifdef EDITOR
+// enum ERenderType
+const uint	REN_None			= 0u;	// Hide completely.
+const uint	REN_Wire			= 1u;	// Wireframe of EdPolys.
+const uint	REN_Zones			= 2u;	// Show zones and zone portals.
+const uint	REN_Polys			= 3u;	// Flat-shaded Bsp.
+const uint	REN_PolyCuts		= 4u;	// Flat-shaded Bsp with normals displayed.
+const uint	REN_DynLight		= 5u;	// Illuminated texture mapping.
+const uint	REN_PlainTex		= 6u;	// Plain texture mapping.
+const uint	REN_OrthXY			= 13u;	// Orthogonal overhead (XY) view.
+const uint	REN_OrthXZ			= 14u;	// Orthogonal XZ view.
+const uint	REN_OrthYZ			= 15u;	// Orthogonal YZ view.
+const uint	REN_TexView			= 16u;	// Viewing a texture (no actor).
+const uint	REN_TexBrowser		= 17u;	// Viewing a texture browser (no actor).
+const uint	REN_MeshView		= 18u;	// Viewing a mesh.
+const uint	REN_LightingOnly	= 19u;	// Render only lights on plain white texture.
+const uint	REN_Normals			= 20u;	// Render normals only.
+const uint	REN_MAX				= 21u;
+#endif
+
+// Spatial Lighting
+const uint	LE_None=0u;
+const uint	LE_TorchWaver=1u;
+const uint	LE_FireWaver=2u;
+const uint	LE_WateryShimmer=3u;
+const uint	LE_Searchlight=4u;
+const uint	LE_SlowWave=5u;
+const uint	LE_FastWave=6u;
+const uint	LE_CloudCast=7u;
+const uint	LE_StaticSpot=8u;
+const uint	LE_Shock=9u;
+const uint	LE_Disco=10u;
+const uint	LE_Warp=11u;
+const uint	LE_Spotlight=12u;
+const uint	LE_NonIncidence=13u;
+const uint	LE_Shell=14u;
+const uint	LE_OmniBumpMap=15u;
+const uint	LE_Interference=16u;
+const uint	LE_Cylinder=17u;
+const uint	LE_Rotor=18u;
+const uint	LE_Sunlight=19u;
+const uint	LE_MAX=20u;
+
+// Light modulation
+const uint  LT_None=0u;
+const uint	LT_Steady=1u;
+const uint	LT_Pulse=2u;
+const uint	LT_Blink=3u;
+const uint	LT_Flicker=4u;
+const uint	LT_Strobe=5u;
+const uint	LT_BackdropLight=6u;
+const uint	LT_SubtlePulse=7u;
+const uint	LT_TexturePaletteOnce=8u;
+const uint	LT_TexturePaletteLoop=9u;
+const uint	LT_RandomPulse=10u; //using random LightPeriod.
+const uint	LT_RandomSubtlePulse=11u; //using random LightPeriod.
+
+// Texture Formats
+const uint TEXF_P8			    = 0u;
+const uint	TEXF_RGBA7		    = 1u;
+const uint	TEXF_RGB16		    = 2u;
+const uint	TEXF_DXT1           = 3u;
+const uint	TEXF_RGB8           = 4u;
+const uint	TEXF_RGBA8          = 5u;
+const uint	TEXF_DXT3		    = 6u;
+const uint	TEXF_DXT5		    = 7u;
+
+// RGTC.
+const uint	TEXF_RGTC_R         = 8u; // GL_COMPRESSED_RED_RGTC1
+const uint	TEXF_RGTC_R_SIGNED  = 9u; // GL_COMPRESSED_SIGNED_RED_RGTC1
+const uint	TEXF_RGTC_RG        = 10u; // GL_COMPRESSED_RG_RGTC2
+const uint	TEXF_RGTC_RG_SIGNED = 11u; // GL_COMPRESSED_SIGNED_RG_RGTC2
+
+// BPTC.
+const uint	TEXF_BPTC_RGBA		= 12u;
+const uint	TEXF_BPTC_RGB_SF	= 13u;
+const uint	TEXF_BPTC_RGB_UF	= 14u;
+
+// RGBA (continued).
+const uint	TEXF_RGBA16         = 40u;
+const uint	TEXF_RGBA16_S       = 41u;
+const uint	TEXF_RGBA32         = 42u;
+const uint	TEXF_RGBA32_S       = 43u;
+const uint	TEXF_MAX			= 255u;
+
+// DrawFlags
+const uint	DF_DiffuseTexture	= 0x00000001u;
+const uint	DF_DetailTexture	= 0x00000002u;
+const uint	DF_MacroTexture	 	= 0x00000004u;
+const uint	DF_BumpMap			= 0x00000008u;
+const uint	DF_LightMap         = 0x00000010u;
+const uint	DF_FogMap          	= 0x00000020u;
+const uint	DF_EnvironmentMap  	= 0x00000040u;
+
+
+layout(std140) uniform GlobalMatrices
+{
+	mat4 modelMat;
+	mat4 viewMat;
+	mat4 projMat;
+	mat4 lightSpaceMat;
+};
+
+layout(std140) uniform ClipPlaneParams
+{
+    vec4  ClipParams;		// Clipping params, ClipIndex,0,0,0
+	vec4  ClipPlane;		// Clipping planes. Plane.X, Plane.Y, Plane.Z, Plane.W
+};
+
+// Light information.
+layout(std140) uniform StaticLightInfo
+{
+	vec4 LightPos[MAX_LIGHTS];
+	vec4 LightData1[MAX_LIGHTS]; // LightBrightness, LightHue, LightSaturation, LightCone
+	vec4 LightData2[MAX_LIGHTS]; // LightEffect, LightPeriod, LightPhase, LightRadius
+	vec4 LightData3[MAX_LIGHTS]; // LightType, VolumeBrightness, VolumeFog, VolumeRadius
+	vec4 LightData4[MAX_LIGHTS]; // WorldLightRadius, NumLights, ZoneNumber, CameraRegion->ZoneNumber
+	vec4 LightData5[MAX_LIGHTS]; // NormalLightRadius, bZoneNormalLight, unused, unused
+};
+
+layout(std140) uniform DistanceFogParams
+{
+	vec4  DistanceFogColor;		// Fog color
+	vec4  DistanceFogValues;
+};
+
+layout(std140) uniform GlobalCoords
+{
+	mat4 FrameCoords;
+	mat4 FrameUncoords;
+};
+
+#ifdef BINDLESSTEXTURES
+layout(std140) uniform TextureHandles
+{
+	sampler2D Textures[NUMTEXTURES];
+};
+#endif
+
+//DistanceFog
+struct FogParameters
+{
+	vec4  FogColor;		// Fog color
+	float FogStart;		// Only for linear fog
+	float FogEnd;		// Only for linear fog
+	float FogDensity;	// For exp and exp2 equation
+	float FogCoord;
+	int FogMode; // 0 = linear, 1 = exp, 2 = exp2
+};
+
+float getFogFactor(FogParameters DistanceFog)
+{
+
+	// DistanceFogValues.x = FogStart
+	// DistanceFogValues.y = FogEnd
+	// DistanceFogValues.z = FogDensity
+	// DistanceFogValues.w = FogMode
+    //FogResult = (Values.y-FogCoord)/(Values.y-Values.x);
+
+	float FogResult = 1.0;
+	if(DistanceFog.FogMode == 0 )
+		FogResult = ((DistanceFog.FogEnd-DistanceFog.FogCoord)/(DistanceFog.FogEnd-DistanceFog.FogStart));
+	else if(DistanceFog.FogMode == 1)
+		FogResult = exp(-DistanceFog.FogDensity*DistanceFog.FogCoord);
+	else if(DistanceFog.FogMode  == 2)
+		FogResult = exp(-pow(DistanceFog.FogDensity*DistanceFog.FogCoord, 2.0));
+
+	FogResult = 1.0-clamp(FogResult, 0.0, 1.0);
+
+	return FogResult;
+}
+
+float PlaneDot( vec4 Plane, vec3 Point )
+{
+    return dot(Plane.xyz,Point)-Plane.w;
+}
+
+// The following directive resets the line number to 1 to have the correct output logging for a possible error within the shader files.
+#line 1

@@ -1,0 +1,87 @@
+[Language]
+Language=English (International)
+LangId=9
+SubLangId=1
+
+[Public]
+Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
+
+[Errors]
+Unknown=Unknown Error
+Aborted=Aborted
+ExportOpen=Error exporting %s: couldn't open file '%s'
+ExportWrite=Error exporting %s: couldn't write file '%s'
+ExportFail=Error exporting %s
+FileNotFound=Can't find file '%s'
+ObjectNotFound=Failed to find object '%s %s.%s'
+PackageNotFound=Can't find file for package '%s'
+PackageResolveFailed=Can't resolve package name
+FilenameToPackage=Can't convert filename '%s' to package name
+Sandbox=Package '%s' is not accessible in this sandbox
+PackageVersion=Package '%s' version mismatch
+FailedLoad=Failed to load '%s': %s
+ConfigNotFound=Can't find '%s' in configuration file
+LoadClassMismatch=%s is not a child class of %s.
+NotDll='%s' is not a DLL package; can't find export '%s'
+NotInDll=Can't find '%s' in '%s.dll'
+FailedLoadPackage=Failed loading package: %s
+FailedLoadObject=Failed to load '%s %s.%s': %s
+TransientImport=Transient object imported: %s
+FailedSavePrivate=Can't save %s: Graph is linked to external private object %s
+FailedImportPrivate=Can't import private object %s %s
+FailedCreate=%s %s not found for creation
+FailedImport=Can't find %s in file '%s'
+FailedSaveFile=Error saving file '%s': %s
+SaveWarning=Error saving '%s'
+NotPackaged=Object is not packaged: %s %s
+NotWithin=Object %s %s created in %s instead of %s
+Abstract=Can't create object %s: class %s is abstract
+NoReplace=Can't replace %s with %s
+NoFindImport=Can't find file '%s' for import
+ReadFileFailed=Failed to read file '%s' for import
+SeekFailed=Error seeking file
+OpenFailed=Error opening file
+WriteFailed=Error writing to file
+ReadEof=Read beyond end of file
+IniReadOnly=The file %s is write protected; settings cannot be saved
+UrlFailed=Failed launching URL
+Warning=Warning
+Question=Question
+OutOfMemory=Ran out of virtual memory. To prevent this condition, you must free up more space on your primary hard disk.
+History=History
+Assert=Assertion failed: %s [File:%s] [Line: %i]
+Debug=Debug assertion failed: %s [File:%s] [Line: %i]
+LinkerExists=Linker for '%s' already exists
+BinaryFormat=The file '%s' contains unrecognizable data
+SerialSize=%s: Serial size mismatch: Got %i, Expected %i
+ExportIndex=Bad export index %i/%i
+ImportIndex=Bad import index %i/%i
+Password=Password not recognized
+Exec=Unrecognized command
+BadProperty='%s': Bad or missing property '%s'
+MisingIni=Missing .ini file: %s
+
+[Query]
+OldVersion=The file %s was saved by a previous version which is not backwards compatible with this one.  Reading it will likely fail, and may cause a crash. Do you want to try anyway?
+Name=Name:
+Password=Password:
+PassPrompt=Enter your name and password:
+PassDlg=Identity Check
+Overwrite=The file '%s' needs to be updated.  Do you want to overwrite the existing version?
+
+[Progress]
+Saving=Saving file %s...
+Loading=Loading file %s...
+Closing=Closing
+
+[General]
+Product=Unreal
+Engine=Unreal Engine
+Copyright=Copyright 1999 Epic Games, Inc.
+True=True
+False=False
+None=None
+Yes=Yes
+No=No

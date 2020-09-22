@@ -1,0 +1,7 @@
+[Public]
+Preferences=(Caption="Web-based Remote Administration",Parent="Networking",Class=UTServerAdmin.UTServerAdmin)
+
+[WebServer]
+ClassCaption="Web-based Remote Administration"
+
+
