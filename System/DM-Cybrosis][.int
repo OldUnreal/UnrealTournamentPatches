@@ -1,0 +1,22 @@
+﻿[LevelInfo0]
+Title="Cybrosis Central ]["
+IdealPlayerCount="3-8"
+
+[ControlPoint0]
+PointName="Low Point"
+
+[ControlPoint1]
+PointName="Center Point"
+
+[ControlPoint2]
+PointName="Far Point"
+
+[SpecialEvent1]
+DamageString="%K made a shocking mistake"
+
+[LevelSummary]
+Title="Cybrosis Central ]["
+IdealPlayerCount="3-8"
+
+[SpecialEvent3]
+DamageString="%K didn't manage to keep the Damage Amplifier"

@@ -1,0 +1,28 @@
+﻿[LevelInfo0]
+Title="Gearbolt Installation"
+IdealPlayerCount="6-12"
+
+[ZoneInfo8]
+ZoneName="Bridge"
+
+[ZoneInfo7]
+ZoneName="Ramp"
+
+[ZoneInfo9]
+ZoneName="Lift"
+
+[ZoneInfo10]
+ZoneName="Basement"
+
+[ControlPoint2]
+PointName="Bridge"
+
+[ControlPoint0]
+PointName="Lift"
+
+[ControlPoint1]
+PointName="Ramp"
+
+[LevelSummary]
+Title="Gearbolt Installation"
+IdealPlayerCount="6-12"

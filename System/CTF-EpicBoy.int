@@ -1,0 +1,37 @@
+﻿[LevelInfo0]
+Title="Epic Boy"
+IdealPlayerCount="6-10"
+
+[LevelSummary]
+Title="Epic Boy"
+IdealPlayerCount="6-10"
+
+[ZoneInfo0]
+ZoneName="Courtyard"
+
+[ZoneInfo1]
+ZoneName="Blue Side Entrance"
+
+[ZoneInfo2]
+ZoneName="Blue Redeemer Hall"
+
+[ZoneInfo3]
+ZoneName="Blue Lower Hallway"
+
+[ZoneInfo4]
+ZoneName="Blue Flag Base"
+
+[ZoneInfo5]
+ZoneName="Blue Upper Hallway"
+
+[ZoneInfo6]
+ZoneName="Red Side Entrance"
+
+[ZoneInfo8]
+ZoneName="Red Upper Hallway"
+
+[ZoneInfo9]
+ZoneName="Red Flag Base"
+
+[ZoneInfo10]
+ZoneName="Red Lower Hallway"

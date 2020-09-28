@@ -1,0 +1,43 @@
+﻿[LevelInfo0]
+Title="Noxion Base"
+IdealPlayerCount="6-16"
+
+[ZoneInfo0]
+ZoneName="Middle"
+
+[ZoneInfo10]
+ZoneName="Blue Flag Room"
+
+[ZoneInfo9]
+ZoneName="Red Flag Room"
+
+[ZoneInfo3]
+ZoneName="Red Ramps"
+
+[ZoneInfo4]
+ZoneName="Red Base"
+
+[ZoneInfo1]
+ZoneName="Blue Base"
+
+[ZoneInfo2]
+ZoneName="Blue Ramps"
+
+[ZoneInfo5]
+ZoneName="Red Middle"
+
+[ZoneInfo6]
+ZoneName="Blue Middle"
+
+[ZoneInfo8]
+ZoneName="Red Basement"
+
+[ZoneInfo7]
+ZoneName="Blue Basement"
+
+[KillingField0]
+ZoneName="Really Dead"
+
+[LevelSummary]
+Title="Noxion Base"
+IdealPlayerCount="6-16"

@@ -1,0 +1,17 @@
+﻿[Public]
+Object=(Name=SkeletalChars.WarBoss,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="War Boss")
+Object=(Name=SkeletalChars.XanMk2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Xan Mark II")
+Object=(Name=SkeletalChars.WarBossBot,Class=Class,MetaClass=Botpack.Bot,Description="War Boss")
+Object=(Name=SkeletalChars.XanMk2Bot,Class=Class,MetaClass=Botpack.Bot,Description="Xan Mark II")
+
+[XanMk2]
+MenuName="Xan Mark II"
+
+[XanMk2Bot]
+MenuName="Xan Mark II"
+
+[WarBoss]
+MenuName="War Boss"
+
+[WarBossBot]
+MenuName="War Boss"
