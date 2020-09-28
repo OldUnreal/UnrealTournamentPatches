@@ -16,7 +16,7 @@ FortName="La Cueva"
 DestroyedMessage="¡ha sido atravesada!"
 
 [LevelSummary]
-Title="Fortaleza Vigía"
+Title="Fortaleza Guardia"
 IdealPlayerCount="6-12"
 
 [FortStandard1]

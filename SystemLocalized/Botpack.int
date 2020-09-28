@@ -42,7 +42,7 @@ Object=(Name=Botpack.WarheadLauncher,Class=Class,MetaClass=Botpack.TournamentWea
 ; Mutators
 Object=(Name=Botpack.FatBoy,Class=Class,MetaClass=Engine.Mutator,Description="FatBoy,Everyone fattens when they frag a lot and become thinner when they get fragged.")
 Object=(Name=Botpack.Stealth,Class=Class,MetaClass=Engine.Mutator,Description="Stealth,Everyone is invisible.")
-Object=(Name=Botpack.InstaGibDM,Class=Class,MetaClass=Engine.Mutator,Description="Instagib,All weapons and items are removed from the map, and players have only an Enhanced Shock Rifle with infinite ammo.")
+Object=(Name=Botpack.InstaGibDM,Class=Class,MetaClass=Engine.Mutator,Description="InstaGib,All weapons and items are removed from the map, and players have only an Enhanced Shock Rifle with infinite ammo.")
 Object=(Name=Botpack.NoPowerups,Class=Class,MetaClass=Engine.Mutator,Description="No Powerups,Shield Belts, Damage Amplifiers, Big Kegs O' Health, and Invisibility powerups are removed from the match.")
 Object=(Name=Botpack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Description="Instant Rockets,Rocket Launchers can't be loaded with multiple rockets.")
 Object=(Name=Botpack.LowGrav,Class=Class,MetaClass=Engine.Mutator,Description="Low Gravity,Reduces overall gravity of the match.")
@@ -66,14 +66,14 @@ Object=(Name=BotPack.DOMDefaultMapList,Class=Class,MetaClass=Botpack.DOMMapList,
 Object=(Name=BotPack.CTFDefaultMapList,Class=Class,MetaClass=Botpack.CTFMapList,Description="Default Maps")
 Object=(Name=BotPack.TDKDefaultMapList,Class=Class,MetaClass=Botpack.TDKMapList,Description="Default Maps")
 ; Preferences
-Preferences=(Caption="Game Types",Parent="Advanced Options")
+Preferences=(Caption="Game Types",Parent="Advanced Options",Class=Botpack.TournamentGameInfo,Immediate=True)
 Preferences=(Caption="Tournament Deathmatch",Parent="Game Types",Class=Botpack.DeathmatchPlus,Immediate=True)
 Preferences=(Caption="Tournament Team Game",Parent="Game Types",Class=Botpack.TeamGamePlus,Immediate=True)
 Preferences=(Caption="Capture the Flag",Parent="Game Types",Class=Botpack.CTFGame,Immediate=True)
 Preferences=(Caption="Assault",Parent="Game Types",Class=Botpack.Assault,Immediate=True)
 Preferences=(Caption="Domination",Parent="Game Types",Class=Botpack.Domination,Immediate=True)
 Preferences=(Caption="Last Man Standing",Parent="Game Types",Class=Botpack.LastManStanding,Immediate=True)
-Preferences=(Caption="Tournament Darkmatch",Parent="Game Types",Class=Botpack.LastManStanding,Immediate=True)
+Preferences=(Caption="Tournament Darkmatch",Parent="Game Types",Class=Botpack.TDarkMatch,Immediate=True)
 
 [DeathMatchPlus]
 TourneyMessage="Waiting for other players."
@@ -148,14 +148,14 @@ MaleSuicideMessage=" killed his own dumb self."
 FemaleSuicideMessage=" killed her own dumb self."
 
 [TournamentPlayer]
-spreenote[0]="is on a killing spree!"
-spreenote[1]="is on a rampage!"
-spreenote[2]="is dominating!"
-spreenote[3]="is brutalizing the competition!"
-spreenote[4]="is unstoppable!"
-spreenote[5]="owns you!"
-spreenote[6]="needs to find some real competition!"
-spreenote[7]="is a GOD!"
+SpreeNote[0]="is on a killing spree!"
+SpreeNote[1]="is on a rampage!"
+SpreeNote[2]="is dominating!"
+SpreeNote[3]="is brutalizing the competition!"
+SpreeNote[4]="is unstoppable!"
+SpreeNote[5]="owns you!"
+SpreeNote[6]="needs to find some real competition!"
+SpreeNote[7]="is a GOD!"
 
 [ChallengeHUD]
 VersionMessage="Version"
@@ -170,6 +170,15 @@ IdentifyName="Name:"
 IdentifyHealth="Health:"
 IdentifyCallsign="Callsign:"
 LiveFeed="Live Feed from "
+
+[TournamentGameReplicationInfo]
+HumanString="*Human*"
+CommanderString="*Commander*"
+SupportString="supporting"
+DefendString="defending"
+AttackString="attacking"
+HoldString="holding"
+FreelanceString="freelancing"
 
 [CTFGame]
 StartUpMessage=""
@@ -201,27 +210,28 @@ GameName="Assault"
 [ControlPoint]
 PointName="Position"
 
+[FortStandard]
+FortName="Assault Target"
+DestroyedMessage="was destroyed!"
+
 [Domination]
 StartUpMessage="Capture and hold control points to win."
 gamegoal="points wins the match!"
 GameName="Domination"
 
-[FortStandard]
-FortName="Assault Target"
-DestroyedMessage="was destroyed!"
-
-[TournamentGameReplicationInfo]
-HumanString="*Human*"
-CommanderString="*Commander*"
-SupportString="supporting"
-DefendString="defending"
-AttackString="attacking"
-HoldString="holding"
-FreelanceString="freelancing"
+[ChallengeBotInfo]
+Skills[0]="Novice"
+Skills[1]="Average"
+Skills[2]="Experienced"
+Skills[3]="Skilled"
+Skills[4]="Adept"
+Skills[5]="Masterful"
+Skills[6]="Inhuman"
+Skills[7]="Godlike"
 
 [TrainingDM]
 TutMessage[0]="Welcome to Deathmatch combat training. Deathmatch is a sport in which you compete against other gun-wielding players in a fast paced free-for-all. The object is to destroy all of your enemies by any means necessary."
-TutMessage[1]="Every time you take an enemy out you get a point, called a 'frag' in gaming lingo. You can see your frag count on the left side of the screen. At the end of the game the player with the most frags wins the match."
+TutMessage[1]="Every time you take an enemy out you get a point, called a "frag" in gaming lingo. You can see your frag count on the left side of the screen. At the end of the game the player with the most frags wins the match."
 TutMessage[2]="Remember, if you accidentally blow yourself up or fall into lava you will lose a frag!"
 TutMessage[3]="Let's learn some basics about moving around. A good deathmatch player is always moving, because a moving target is harder to hit than a stationary one."
 TutMessage[4]="The forward key moves you forward while the backward key makes you backpedal. The left key causes you to strafe left, while the right key, you guessed it, strafes right."
@@ -234,7 +244,7 @@ TutMessage[10]="Excellent. You can also look vertically to see what's occuring a
 TutMessage[11]="If you feel like you are looking around too quickly you can easily adjust the sensitivity of the mouse in the OPTIONS menu."
 TutMessage[12]="Let's learn about offense. Remember, the only way to win at deathmatch is to destroy your foes with weaponry that you collect."
 TutMessage[13]="I'm going to open the weapons locker and allow access to some guns, let's pick them up and get ready for some target practice."
-TutMessage[14]="Great, now we're armed. The gun you're carrying is commonly called the 'Shock Rifle'. It, like all the weapons in the Tournament, has two firing modes. Let's try shooting the gun now. Press the fire button to emit a lethal electric beam."
+TutMessage[14]="Great, now we're armed. The gun you're carrying is commonly called the "Shock Rifle". It, like all the weapons in the Tournament, has two firing modes. Let's try shooting the gun now. Press the fire button to emit a lethal electric beam."
 TutMessage[15]="Very good. The Shock Rifle's primary fire will instantly hit the person you shoot at. In Unreal Tournament, every weapon also has an alternate firing mode. Press the alt fire button to shoot a ball of plasma at your enemy."
 TutMessage[16]="Great! The alt fire on the Shock Rifle is slower moving than the primary fire, but does more damage. Its up to you to decide which attack is right for the situation. Sometimes you might be carrying more than one weapon. I've just put an 'Enforcer' sidearm in your pack. Each weapon has an associated number, as you can see at the bottom of your screen. The Enforcer is weapon number 2. Press 2 and switch to the enforcer. You can switch back to the Shock Rifle by pressing its number."
 TutMessage[17]="Good, now you know how to switch weapons in battle. Every weapon in Unreal Tournament is a projectile weapon except one, the 'Impact Hammer'. Press 1 now to switch to the Impact Hammer."
@@ -371,11 +381,17 @@ TimeString="Time"
 LossString="Loss"
 FPHString="FPH"
 
-[Translocator]
-WeaponDescription="Classification: Personal Teleportation Device\n\nPrimary Fire: Launches the destination module.  Throw the module to the location you would like to teleport to.\n\nSecondary Fire: Activates the translocator and teleports the user to the destination module.\n\nTechniques: Throw your destination module at another player and then activate the secondary fire, and you will telefrag your opponent!  If you press your primary fire button when activating your translocator with the secondary fire, the last weapon you had selected will automatically return once you have translocated."
-DeathMessage="%k telefragged %o!"
-PickupMessage="You got the Translocator Source Module."
-ItemName="Translocator"
+[TournamentPickup]
+M_Activated=""
+M_Selected=""
+M_Deactivated=""
+
+[ChallengeVoicePack]
+LeaderSign[0]="Red Leader"
+LeaderSign[1]="Blue Leader"
+LeaderSign[2]="Green Leader"
+LeaderSign[3]="Gold Leader"
+CommaText=", "
 
 [ServerInfoCTF]
 FlagsCapturedText="Flags Captured:"
@@ -389,34 +405,15 @@ Titles[4]="Warlord"
 Titles[5]="Battle Master"
 Titles[6]="Champion"
 
-[ChallengeVoicePack]
-LeaderSign[0]="Red Leader"
-LeaderSign[1]="Blue Leader"
-LeaderSign[2]="Green Leader"
-LeaderSign[3]="Gold Leader"
-CommaText=", "
-
 [LastManStanding]
-StartUpMessage="Last Man Standing. How long can you live?"
+StartUpMessage="Last Man Standing.  How long can you live?"
 GameName="Last Man Standing"
-
-[ChallengeBotInfo]
-Skills[0]="Novice"
-Skills[1]="Average"
-Skills[2]="Experienced"
-Skills[3]="Skilled"
-Skills[4]="Adept"
-Skills[5]="Masterful"
-Skills[6]="Inhuman"
-Skills[7]="Godlike"
-
-[TournamentPickup]
-M_Activated=""
-M_Selected=""
-M_Deactivated=""
 
 [VacuumZone]
 DamageString="%o was depressurized"
+
+[TBoss]
+MenuName="Boss"
 
 [UT_Eightball]
 WeaponDescription="Classification: Heavy Ballistic\n\nPrimary Fire: Slow moving but deadly rockets are fired at opponents. Trigger can be held down to load up to six rockets at a time, which can be fired at once.\n\nSecondary Fire: Grenades are lobbed from the barrel. Secondary trigger can be held as well to load up to six grenades.\n\nTechniques: Keeping this weapon pointed at an opponent will cause it to lock on, and while the gun is locked the next rocket fired will be a homing rocket.  Because the Rocket Launcher can load up multiple rockets, it fires when you release the fire button.  If you prefer, it can be configured to fire a rocket as soon as you press fire button down, at the expense of the multiple rocket load-up feature.  This is set in the Input Options menu."
@@ -430,7 +427,7 @@ TeamBio="Thunder Crash is the current big city favorite. Sporting a calculated b
 BotNames[0]="Othello"
 BotNames[1]="Azure"
 BotNames[2]="Aryss"
-BotNames[3]="Malcolm"
+BotNames[3]="Malcom"
 BotNames[4]="Riker"
 BotNames[5]="Annaka"
 BotNames[6]="Tamika"
@@ -446,7 +443,7 @@ BotClassifications[7]="Warrior"
 BotBio[0]="Once a trader for the Cyron Financial Commission, Othello became a suicidal pit fighter following the mysterious death of his wife."
 BotBio[1]="Born into an extremely rich family, Azure has had the benefit of training from the top fighters of her time. Physical engineering from the best hospitals has enhanced her abilities to the limit of perfection."
 BotBio[2]="A former hotshot pilot, Aryss found that her skill and agility worked well on the battlefield, earning her a spot on the Thunder Crash team."
-BotBio[3]="FenTech's finest creation, Malcolm is an engineered warrior enhanced by chemicals. Adrenaline stimulants, synaptic catalysts, and impulse regulators combine to create a superhuman killing machine."
+BotBio[3]="FenTech's finest creation, Malcom is an engineered warrior enhanced by chemicals. Adrenaline stimulants, synaptic catalysts, and impulse regulators combine to create a superhuman killing machine."
 BotBio[4]="Riker is a walking fusion of tactics and style. He always tries to find new ways of killing his opponents and has won multiple awards for creative improvisation."
 BotBio[5]="Annika's sister, a miner, was killed due to incompetent Liandri management in the depths of Vulcana 32. She joined the Thunder Crash to help win the Tournament so she can bring a class action lawsuit against the corporation and make them pay for the death of her sibling."
 BotBio[6]="Tamika's mother left her at an early age and she was raised in a house full of men where she was hardened by years of abuse. Bitter beyond belief, she is a hard combatant with a penchant for obliterating male contestants."
@@ -476,27 +473,33 @@ ItemName="Shield Belt"
 [DeathMessagePlus]
 KilledString="was killed by"
 
-[TBoss]
-MenuName="Boss"
-
 [TBossBot]
 MenuName="Boss"
 
 [AssaultHUD]
 IdentifyAssault=" !! Assault Target !! "
 
-[LMSScoreboard]
-VictoryGoal="Be the last one alive!"
-FragsString="Lives"
+[TeamCannon]
+PostKillMessage="was killed by an automatic cannon!"
+MenuName="automatic cannon!"
+NameArticle="an "
+
+[ShockRifle]
+WeaponDescription="Classification: Energy Rifle\n\nPrimary Fire: Instant hit laser beam.\n\nSecondary Fire: Large, slow moving plasma balls.\n\nTechniques: Hitting the secondary fire plasma balls with the regular fire's laser beam will cause an immensely powerful explosion."
+DeathMessage="%k inflicted mortal damage upon %o with the %w."
+PickupMessage="You got the ASMD Shock Rifle."
+ItemName="Shock Rifle"
 
 [ScrollingMessageTexture]
 HisMessage="his"
 HerMessage="her"
 
-[TeamCannon]
-PostKillMessage="was killed by an automatic cannon!"
-MenuName="automatic cannon!"
-NameArticle="an "
+[LMSScoreboard]
+VictoryGoal="Be the last one alive!"
+FragsString="Lives"
+
+[PressureZone]
+DamageString="%o was depressurized by %k."
 
 [PulseGun]
 WeaponDescription="Classification: Plasma Rifle\n\nPrimary Fire: Medium sized, fast moving plasma balls are fired at a fast rate of fire.\n\nSecondary Fire: A bolt of green lightning is expelled for 100 meters, which will shock all opponents.\n\nTechniques: Firing and keeping the secondary fire's lightning on an opponent will melt them in seconds."
@@ -505,17 +508,11 @@ DeathMessage="%o ate %k's burning plasma death."
 PickupMessage="You got a Pulse Gun"
 ItemName="Pulse Gun"
 
-[ShockRifle]
-WeaponDescription="Classification: Energy Rifle\n\nPrimary Fire: Instant hit laser beam.\n\nSecondary Fire: Large, slow moving plasma balls.\n\nTechniques: Hitting the secondary fire plasma balls with the regular fire's laser beam will cause an immensely powerful explosion."
-DeathMessage="%k inflicted mortal damage upon %o with the %w."
-PickupMessage="You got the ASMD Shock Rifle."
-ItemName="Shock Rifle"
-
-[SniperRifle]
-WeaponDescription="Classification: Long Range Ballistic\n\nRegular Fire: Fires a high powered bullet. Can kill instantly when applied to the cranium of opposing forces. \n\nSecondary Fire: Zooms the rifle in, up to eight times normal vision. Allows for extreme precision from hundreds of yards away.\n\nTechniques: Great for long distance headshots!"
-DeathMessage="%k put a bullet through %o's head."
-PickupMessage="You got a Sniper Rifle."
-ItemName="Sniper Rifle"
+[ImpactHammer]
+WeaponDescription="Classification: Melee Piston\n\nPrimary Fire: When trigger is held down, touch opponents with this piston to inflict massive damage.\n\nSecondary Fire: Damages opponents at close range and has the ability to deflect projectiles.\n\nTechniques: Shoot at the ground while jumping to jump extra high."
+DeathMessage="%o got smeared by %k's piston."
+PickupMessage="You got the Impact Hammer."
+ItemName="Impact Hammer"
 
 [CTFMessage]
 ReturnBlue="returns the blue flag!"
@@ -535,14 +532,11 @@ DeathMessage="%o was vaporized by %k's %w!!"
 PickupMessage="You got the Redeemer."
 ItemName="Redeemer"
 
-[ImpactHammer]
-WeaponDescription="Classification: Melee Piston\n\nPrimary Fire: When trigger is held down, touch opponents with this piston to inflict massive damage.\n\nSecondary Fire: Damages opponents at close range and has the ability to deflect projectiles.\n\nTechniques: Shoot at the ground while jumping to jump extra high."
-DeathMessage="%o got smeared by %k's piston."
-PickupMessage="You got the Impact Hammer."
-ItemName="Impact Hammer"
-
-[PressureZone]
-DamageString="%o was depressurized by %k."
+[SniperRifle]
+WeaponDescription="Classification: Long Range Ballistic\n\nRegular Fire: Fires a high powered bullet. Can kill instantly when applied to the cranium of opposing forces. \n\nSecondary Fire: Zooms the rifle in, up to eight times normal vision. Allows for extreme precision from hundreds of yards away.\n\nTechniques: Great for long distance headshots!"
+DeathMessage="%k put a bullet through %o's head."
+PickupMessage="You got a Sniper Rifle."
+ItemName="Sniper Rifle"
 
 [UDamage]
 PickupMessage="You got the Damage Amplifier!"
@@ -554,6 +548,13 @@ DeathMessage="%o was ripped to shreds by %k's %w."
 PickupMessage="You got the Flak Cannon."
 ItemName="Flak Cannon"
 
+[MultiKillMessage]
+DoubleKillString="Double Kill!"
+TripleKillString="Triple Kill!"
+MultiKillString="Multi Kill!"
+UltraKillString="ULTRA KILL!!"
+MonsterKillString="M O N S T E R  K I L L !!!"
+
 [CHNullHUD]
 ESCMessage="Press ESC to begin."
 
@@ -561,75 +562,21 @@ ESCMessage="Press ESC to begin."
 ESCMessage="Press ESC to continue..."
 
 [ut_biorifle]
-WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the BioRifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
+WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the Bio Rifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
 DeathMessage="%o drank a glass of %k's dripping green load."
-PickupMessage="You got the GES BioRifle."
-ItemName="GES BioRifle"
+PickupMessage="You got the GES Bio Rifle."
+ItemName="GES Bio Rifle"
 
-[RatedTeamInfo1]
-TeamName="Iron Guard"
-TeamBio="This veteran squad of elite warriors once served as personal bodyguards to the powerful arms smuggler Jihan Nyhn. After Jihan's assassination, the Iron Guard found themselves unemployed and the Tournament was an ideal arena to vent their aggression."
-BotNames[0]="Harlin"
-BotNames[1]="Rylisa"
-BotNames[2]="Johnson"
-BotNames[3]="Lauren"
-BotNames[4]="Brock"
-BotNames[5]="Shyann"
-BotNames[6]="Rankin"
-BotNames[7]="Sara"
-BotClassifications[0]="Iron Guard Warrior"
-BotClassifications[1]="Iron Guard Warrior"
-BotClassifications[2]="Iron Guard Warrior"
-BotClassifications[3]="Iron Guard Warrior"
-BotClassifications[4]="Iron Guard Warrior"
-BotClassifications[5]="Iron Guard Warrior"
-BotClassifications[6]="Iron Guard"
-BotClassifications[7]="Iron Guard"
-BotBio[0]="Harlin is a solid fighter with plenty of field experience. He joined the Iron Guard after watching NEG Storm Troopers execute his family during a block raid."
-BotBio[1]="Little is known about Rylisa or her motivations for joining the Iron Guard. Nearly every member of the Guard has a reason for fighting the NEG and Liandri, but she has not confided in any members of the group since joining."
-BotBio[2]="Johnson was hired out of the black market slave trade to serve as bodyguard to Nyhn. He is strong and has an extreme amount of endurance."
-BotBio[3]="Lauren was said to be Jihan Nyhn's lover. Suspecting Liandri to be the cause of his death, she has joined the Iron Guard to uncover the truth."
-BotBio[4]="Brock's combat abilities are second only to his presense of character. When he's not trying to seduce the ladies, he'll be in the arena, pulse gun in hand."
-BotBio[5]="Shyann is skilled at managing weapons and equipment. She serves as the Iron Guard's technician and armorer."
-BotBio[6]="Rankin left Jihan Nyhn's holdings to seek new fortune in battle. He is a capable warrior with a short temper."
-BotBio[7]="Sara's life is dedicated to protecting others. Her service to Nyhn was contingent upon his support of outworld guerillas fighting NEG oppression. Now that he is dead, she continues to fight the NEG in their own death game."
-
-[TournamentHealth]
-PickupMessage="You picked up a Health Pack +"
-ItemName="Health Pack"
-
-[RatedTeamInfo3]
-TeamName="Blood Reavers"
-TeamBio="An organization of mercenaries and ex-military specialists, the Blood Reavers are interested in fame and fortune. They seek to win the Tournament for the prize that victory offers: nearly limitless wealth and power."
-BotNames[0]="Kyla"
-BotNames[1]="Boris"
-BotNames[2]="Mariana"
-BotNames[3]="Luthor"
-BotNames[4]="Jayce"
-BotNames[5]="Ramirez"
-BotNames[6]="Tanya"
-BotNames[7]="Graves"
-BotClassifications[0]="Reavers Leader"
-BotClassifications[1]="Blood Reaver"
-BotClassifications[2]="Blood Reaver"
-BotClassifications[3]="Blood Reaver"
-BotClassifications[4]="Blood Reaver"
-BotClassifications[5]="Blood Reaver"
-BotClassifications[6]="Blood Reaver"
-BotClassifications[7]="Blood Reaver"
-BotBio[0]="Kyla was captured after a five year manhunt that spanned 13 star systems. Guilty of masterminding one of the largest miner rebellions in history (Green's World), she has been forced to fight in the Tournament for her life."
-BotBio[1]="Boris fought for the Earth Defense Force, but fled the field during a particularly bloody skirmish on Io. Apprehended soon after, he has been given sentence for the ultimate punishment: death at the hands of Xan Kriegor."
-BotBio[2]="Unlike many of the other Blood Reavers, Mariana served the NEG faithfully for four years. That four years ended in her discharge with little compensation. She feels that the government and Liandri owe her for her service."
-BotBio[3]="Luthor spent twenty years as a covert black ops specialist. He was arrested by the NEG security force during a government sanctioned internal raid. He feels betrayed and now fights against the government that created him."
-BotBio[4]="Jayce is the team's tech specialist. She uses her top notch military training to service and stock equipment."
-BotBio[5]="Little is known about Ramirez. He is an ace sniper, but his tour of duty is entirely classified."
-BotBio[6]="Tanya acts as a competition scout for the Blood Reavers. Their success lies not only in their experience, but in their gathered intelligence."
-BotBio[7]="Graves fled the NEG security forces after being suspended for excessive use of force. He now applies that force towards the goals of the Reavers."
+[minigun2]
+WeaponDescription="Classification: Gatling Gun\n\nPrimary Fire: Bullets are sprayed forth at a medium to fast rate of fire and good accuracy.\n\nSecondary Fire: Minigun fires twice as fast and is half as accurate.\n\nTechniques: Secondary fire is much more useful at close range, but can eat up tons of ammunition."
+DeathMessage="%k's %w turned %o into a leaky piece of meat."
+PickupMessage="You got the Minigun."
+ItemName="Minigun"
 
 [ChainSaw]
 WeaponDescription="Classification: Melee Blade\n\nPrimary Fire: When the trigger is held down, the chain covered blade will rev up. Drive this blade into opponents to inflict massive damage.\n\nSecondary Fire: The revved up blade can be swung horizontally and can cause instant decapitation of foes.\n\nTechniques: The chainsaw makes a loud and recognizable roar and can be avoided by listening for audio cues."
 DeathMessage="%k ripped into %o with a blood soaked %w."
-PickupMessage="Its been five years since I've seen one of these."
+PickupMessage="It's been five years since I've seen one of these."
 ItemName="Chainsaw"
 
 [VoiceMaleTwo]
@@ -751,55 +698,158 @@ OtherAbbrev[15]="Got your back."
 OtherAbbrev[16]=""
 OtherAbbrev[17]=""
 
-[ThighPads]
-PickupMessage="You got the Thigh Pads."
-ItemName="Thigh Pads"
+[RatedTeamInfo1]
+TeamName="Iron Guard"
+TeamBio="This veteran squad of elite warriors once served as personal bodyguards to the powerful arms smuggler Jihan Nyhn. After Jihan's assassination, the Iron Guard found themselves unemployed and the Tournament was an ideal arena to vent their aggression."
+BotNames[0]="Harlin"
+BotNames[1]="Rylisa"
+BotNames[2]="Johnson"
+BotNames[3]="Lauren"
+BotNames[4]="Brock"
+BotNames[5]="Shyann"
+BotNames[6]="Rankin"
+BotNames[7]="Sara"
+BotClassifications[0]="Iron Guard Warrior"
+BotClassifications[1]="Iron Guard Warrior"
+BotClassifications[2]="Iron Guard Warrior"
+BotClassifications[3]="Iron Guard Warrior"
+BotClassifications[4]="Iron Guard Warrior"
+BotClassifications[5]="Iron Guard Warrior"
+BotClassifications[6]="Iron Guard"
+BotClassifications[7]="Iron Guard"
+BotBio[0]="Harlin is a solid fighter with plenty of field experience. He joined the Iron Guard after watching NEG Storm Troopers execute his family during a block raid."
+BotBio[1]="Little is known about Rylisa or her motivations for joining the Iron Guard. Nearly every member of the Guard has a reason for fighting the NEG and Liandri, but she has not confided in any members of the group since joining."
+BotBio[2]="Johnson was hired out of the black market slave trade to serve as bodyguard to Nyhn. He is strong and has an extreme amount of endurance."
+BotBio[3]="Lauren was said to be Jihan Nyhn's lover. Suspecting Liandri to be the cause of his death, she has joined the Iron Guard to uncover the truth."
+BotBio[4]="Brock's combat abilities are second only to his presense of character. When he's not trying to seduce the ladies, he'll be in the arena, pulse gun in hand."
+BotBio[5]="Shyann is skilled at managing weapons and equipment. She serves as the Iron Guard's technician and armorer."
+BotBio[6]="Rankin left Jihan Nyhn's holdings to seek new fortune in battle. He is a capable warrior with a short temper."
+BotBio[7]="Sara's life is dedicated to protecting others. Her service to Nyhn was contingent upon his support of outworld guerillas fighting NEG oppression. Now that he is dead, she continues to fight the NEG in their own death game."
 
-[Armor2]
-PickupMessage="You got the Body Armor."
-ItemName="Body Armor"
+[TournamentHealth]
+PickupMessage="You picked up a Health Pack +"
+ItemName="Health Pack"
 
 [DeathMatchMessage]
 OvertimeMessage="Score tied at the end of regulation. Sudden Death Overtime!!!"
 GlobalNameChange="changed name to"
 NewTeamMessage="is now on"
 
-[minigun2]
-WeaponDescription="Classification: Gatling Gun\n\nPrimary Fire: Bullets are sprayed forth at a medium to fast rate of fire and good accuracy.\n\nSecondary Fire: Minigun fires twice as fast and is half as accurate.\n\nTechniques: Secondary fire is much more useful at close range, but can eat up tons of ammunition."
-DeathMessage="%k's %w turned %o into a leaky piece of meat."
-PickupMessage="You got the Minigun."
-ItemName="Minigun"
-
 [TMale2]
 MenuName="Male Soldier"
 
-[RatedTeamInfo2]
-TeamName="Black Legion"
-TeamBio="A powerful team of Necris Phayder assassins that seek to dominate the Tournament. By destroying Xan Kriegor, the corrupt Tournament Champion, the Legion believes it can take control of Liandri operations."
-BotNames[0]="Cryss"
-BotNames[1]="Kragoth"
-BotNames[2]="Freylis"
-BotNames[3]="Malakai"
-BotNames[4]="Visse"
-BotNames[5]="Necroth"
-BotNames[6]="Malise"
-BotNames[7]="Grail"
-BotClassifications[0]="Phayder Assassin"
-BotClassifications[1]="Phayder Assassin"
-BotClassifications[2]="Necris Blademaiden"
-BotClassifications[3]="Phayder Assassin"
-BotClassifications[4]="Phayder Assassin"
-BotClassifications[5]="Phayder Master"
-BotClassifications[6]="Necris Blademaiden"
-BotClassifications[7]="Phayder Assassin"
-BotBio[0]="Cryss, like Visse, takes pleasure in destruction. Unlike her Blood Sister, however, she is less likely to be overcome by a berserker rage. Distance weapons and silent tactics are her favorite."
-BotBio[1]="Known as the 'Star Slayer,' Kragoth is a dread assassin of the Phayder secret society. He is rumored to have single handedly killed the entire crew of an ICV Star Cruiser. Liandri will neither confirm nor deny this information."
-BotBio[2]="A Blademaiden of the highest order, Freylis is a skilled and experienced warrior. She understands team tactics well and will always be where her team needs her the most."
-BotBio[3]="Malakai fights for glory and destruction. He, like many Necris, believe that every emotion is to be savored, every nuance of pain divine."
-BotBio[4]="Seeking only pleasure in the pain of others, Visse rends her enemies with relentless fervor."
-BotBio[5]="Necroth is Phayder Master for the Black Legion. Each Necris Master serves as a sort of dark chaplain, maintaining the morale of the group."
-BotBio[6]="Malise, like her name implies, is an embodiment of hate. If she was not so closely watched by Necroth, she would turn upon even her own bretheren."
-BotBio[7]="Grail is the most educated member of the Legion. He quietly bides his time, waiting for the right moment to take control."
+[TMale1]
+MenuName="Male Commando"
+
+[Armor2]
+PickupMessage="You got the Body Armor."
+ItemName="Body Armor"
+
+[ThighPads]
+PickupMessage="You got the Thigh Pads."
+ItemName="Thigh Pads"
+
+[VoiceMaleOne]
+NameTime[0]=0.960000
+NameTime[1]=1.100000
+NameTime[2]=1.020000
+NameTime[3]=0.990000
+AckString[0]="Got it"
+AckString[1]="Roger"
+AckString[2]="On my way"
+AckString[3]="I'm on it."
+AckAbbrev[0]=""
+AckAbbrev[1]=""
+AckAbbrev[2]=""
+AckAbbrev[3]=""
+AckTime[0]=0.780000
+AckTime[1]=0.810000
+AckTime[2]=0.980000
+AckTime[3]=0.980000
+FFireString[0]="Hey! Same team!"
+FFireString[1]="I'm on your team, you idiot!"
+FFireAbbrev[0]=""
+FFireAbbrev[1]="On your team!"
+TauntString[0]="Eat that!"
+TauntString[1]="You like that?"
+TauntString[2]="Yeah, bitch!"
+TauntString[3]="Boom!"
+TauntString[4]="Burn, baby"
+TauntString[5]="Lets Rock!"
+TauntString[6]="Die, bitch."
+TauntString[7]="Loser."
+TauntString[8]="Nailed 'im."
+TauntString[9]="That was nasty."
+TauntString[10]="Nice."
+TauntString[11]="Oh, yeah!"
+TauntString[12]="I just slaughtered that guy."
+TauntString[13]="Sucker!"
+TauntString[14]="Yeehaw!"
+TauntString[15]="You suck!"
+TauntAbbrev[0]=""
+TauntAbbrev[1]=""
+TauntAbbrev[2]=""
+TauntAbbrev[3]=""
+TauntAbbrev[4]=""
+TauntAbbrev[5]=""
+TauntAbbrev[6]=""
+TauntAbbrev[7]=""
+TauntAbbrev[8]=""
+TauntAbbrev[9]=""
+TauntAbbrev[10]=""
+TauntAbbrev[11]=""
+TauntAbbrev[12]="Slaughtered him."
+TauntAbbrev[13]=""
+TauntAbbrev[14]=""
+TauntAbbrev[15]=""
+OrderString[0]="Defend the base."
+OrderString[1]="Hold this position."
+OrderString[2]="Assault the base."
+OrderString[3]="Cover me."
+OrderString[4]="Engage according to operational parameters."
+OrderString[10]="Take their flag."
+OrderString[11]="Search and destroy."
+OrderAbbrev[0]="Defend"
+OrderAbbrev[1]=""
+OrderAbbrev[2]="Attack"
+OrderAbbrev[3]=""
+OrderAbbrev[4]="Freelance."
+OrderAbbrev[10]=""
+OrderAbbrev[11]=""
+otherstring[0]="Base is uncovered!"
+otherstring[1]="Somebody get our flag back!"
+otherstring[2]="I've got the flag."
+otherstring[3]="I've got your back."
+otherstring[4]="I'm hit!"
+otherstring[5]="Man down!"
+otherstring[6]="I'm under heavy attack!"
+otherstring[7]="You got point."
+otherstring[8]="I've got our flag."
+otherstring[9]="I'm in position."
+otherstring[10]="On my way."
+otherstring[11]="Control point is secure."
+otherstring[12]="Enemy flag carrier is here."
+otherstring[13]="I need some backup."
+otherstring[14]="Take them down."
+otherstring[15]="I've got you covered."
+otherstring[16]="Objective destroyed."
+OtherAbbrev[0]=""
+OtherAbbrev[1]="Get our flag!"
+OtherAbbrev[2]="Got the flag."
+OtherAbbrev[3]="Got your back."
+OtherAbbrev[4]=""
+OtherAbbrev[5]=""
+OtherAbbrev[6]="Under attack!"
+OtherAbbrev[7]=""
+OtherAbbrev[8]="Got our flag."
+OtherAbbrev[9]="In position."
+OtherAbbrev[10]=""
+OtherAbbrev[11]="Point is secure."
+OtherAbbrev[12]="Enemy carrier here."
+OtherAbbrev[13]=""
+OtherAbbrev[14]=""
+OtherAbbrev[15]="Got you covered."
+OtherAbbrev[16]=""
 
 [VoiceBoss]
 NameTime[0]=0.960000
@@ -905,110 +955,33 @@ OtherAbbrev[14]=""
 OtherAbbrev[15]="Got your back."
 OtherAbbrev[16]=""
 
-[VoiceMaleOne]
-NameTime[0]=0.960000
-NameTime[1]=1.100000
-NameTime[2]=1.020000
-NameTime[3]=0.990000
-AckString[0]="Got it"
-AckString[1]="Roger"
-AckString[2]="On my way"
-AckString[3]="I'm on it."
-AckAbbrev[0]=""
-AckAbbrev[1]=""
-AckAbbrev[2]=""
-AckAbbrev[3]=""
-AckTime[0]=0.780000
-AckTime[1]=0.810000
-AckTime[2]=0.980000
-AckTime[3]=0.980000
-FFireString[0]="Hey! Same team!"
-FFireString[1]="I'm on your team, you idiot!"
-FFireAbbrev[0]=""
-FFireAbbrev[1]="On your team!"
-TauntString[0]="Eat that!"
-TauntString[1]="You like that?"
-TauntString[2]="Yeah, bitch!"
-TauntString[3]="Boom!"
-TauntString[4]="Burn, baby"
-TauntString[5]="Lets Rock!"
-TauntString[6]="Die, bitch."
-TauntString[7]="Loser."
-TauntString[8]="Nailed 'im."
-TauntString[9]="That was nasty."
-TauntString[10]="Nice."
-TauntString[11]="Oh, yeah!"
-TauntString[12]="I just slaughtered that guy."
-TauntString[13]="Sucker!"
-TauntString[14]="Yeehaw!"
-TauntString[15]="You suck!"
-TauntAbbrev[0]=""
-TauntAbbrev[1]=""
-TauntAbbrev[2]=""
-TauntAbbrev[3]=""
-TauntAbbrev[4]=""
-TauntAbbrev[5]=""
-TauntAbbrev[6]=""
-TauntAbbrev[7]=""
-TauntAbbrev[8]=""
-TauntAbbrev[9]=""
-TauntAbbrev[10]=""
-TauntAbbrev[11]=""
-TauntAbbrev[12]="Slaughtered him."
-TauntAbbrev[13]=""
-TauntAbbrev[14]=""
-TauntAbbrev[15]=""
-OrderString[0]="Defend the base."
-OrderString[1]="Hold this position."
-OrderString[2]="Assault the base."
-OrderString[3]="Cover me."
-OrderString[4]="Engage according to operational parameters."
-OrderString[10]="Take their flag."
-OrderString[11]="Search and destroy."
-OrderAbbrev[0]="Defend"
-OrderAbbrev[1]=""
-OrderAbbrev[2]="Attack"
-OrderAbbrev[3]=""
-OrderAbbrev[4]="Freelance."
-OrderAbbrev[10]=""
-OrderAbbrev[11]=""
-otherstring[0]="Base is uncovered!"
-otherstring[1]="Somebody get our flag back!"
-otherstring[2]="I've got the flag."
-otherstring[3]="I've got your back."
-otherstring[4]="I'm hit!"
-otherstring[5]="Man down!"
-otherstring[6]="I'm under heavy attack!"
-otherstring[7]="You got point."
-otherstring[8]="I've got our flag."
-otherstring[9]="I'm in position."
-otherstring[10]="On my way."
-otherstring[11]="Control point is secure."
-otherstring[12]="Enemy flag carrier is here."
-otherstring[13]="I need some backup."
-otherstring[14]="Take them down."
-otherstring[15]="I've got you covered."
-otherstring[16]="Objective destroyed."
-OtherAbbrev[0]=""
-OtherAbbrev[1]="Get our flag!"
-OtherAbbrev[2]="Got the flag."
-OtherAbbrev[3]="Got your back."
-OtherAbbrev[4]=""
-OtherAbbrev[5]=""
-OtherAbbrev[6]="Under attack!"
-OtherAbbrev[7]=""
-OtherAbbrev[8]="Got our flag."
-OtherAbbrev[9]="In position."
-OtherAbbrev[10]=""
-OtherAbbrev[11]="Point is secure."
-OtherAbbrev[12]="Enemy carrier here."
-OtherAbbrev[13]=""
-OtherAbbrev[14]=""
-OtherAbbrev[15]="Got you covered."
-OtherAbbrev[16]=""
-
-[TMale1]
-MenuName="Male Commando"
+[RatedTeamInfo3]
+TeamName="Blood Reavers"
+TeamBio="An organization of mercenaries and ex-military specialists, the Blood Reavers are interested in fame and fortune. They seek to win the Tournament for the prize that victory offers: nearly limitless wealth and power."
+BotNames[0]="Kyla"
+BotNames[1]="Boris"
+BotNames[2]="Mariana"
+BotNames[3]="Luthor"
+BotNames[4]="Jayce"
+BotNames[5]="Ramirez"
+BotNames[6]="Tanya"
+BotNames[7]="Graves"
+BotClassifications[0]="Reavers Leader"
+BotClassifications[1]="Blood Reaver"
+BotClassifications[2]="Blood Reaver"
+BotClassifications[3]="Blood Reaver"
+BotClassifications[4]="Blood Reaver"
+BotClassifications[5]="Blood Reaver"
+BotClassifications[6]="Blood Reaver"
+BotClassifications[7]="Blood Reaver"
+BotBio[0]="Kyla was captured after a five year manhunt that spanned 13 star systems. Guilty of masterminding one of the largest miner rebellions in history (Green's World), she has been forced to fight in the Tournament for her life."
+BotBio[1]="Boris fought for the Earth Defense Force, but fled the field during a particularly bloody skirmish on Io. Apprehended soon after, he has been given sentence for the ultimate punishment: death at the hands of Xan Kriegor."
+BotBio[2]="Unlike many of the other Blood Reavers, Mariana served the NEG faithfully for four years. That four years ended in her discharge with little compensation. She feels that the government and Liandri owe her for her service."
+BotBio[3]="Luthor spent twenty years as a covert black ops specialist. He was arrested by the NEG security force during a government sanctioned internal raid. He feels betrayed and now fights against the government that created him."
+BotBio[4]="Jayce is the team's tech specialist. She uses her top notch military training to service and stock equipment."
+BotBio[5]="Little is known about Ramirez. He is an ace sniper, but his tour of duty is entirely classified."
+BotBio[6]="Tanya acts as a competition scout for the Blood Reavers. Their success lies not only in their experience, but in their gathered intelligence."
+BotBio[7]="Graves fled the NEG security forces after being suspended for excessive use of force. He now applies that force towards the goals of the Reavers."
 
 [VoiceFemaleOne]
 NameTime[0]=0.890000
@@ -1120,6 +1093,11 @@ OtherAbbrev[13]=""
 OtherAbbrev[14]=""
 OtherAbbrev[15]="Got your back."
 OtherAbbrev[16]=""
+
+[UT_Jumpboots]
+ExpireMessage="The AntiGrav Boots have drained."
+PickupMessage="You picked up the AntiGrav boots."
+ItemName="AntiGrav Boots"
 
 [VoiceFemaleTwo]
 NameTime[0]=0.890000
@@ -1242,10 +1220,11 @@ OtherAbbrev[14]=""
 OtherAbbrev[15]="Got your back."
 OtherAbbrev[16]=""
 
-[UT_Jumpboots]
-ExpireMessage="The AntiGrav Boots have drained."
-PickupMessage="You picked up the AntiGrav boots."
-ItemName="AntiGrav Boots"
+[ripper]
+WeaponDescription="Classification: Ballistic Blade Launcher\n\nPrimary Fire: Razor sharp titanium disks are launched at a medium rate of speed. Shots will ricochet off of any surfaces.\n\nSecondary Fire: Explosive disks are launched at a slow rate of fire.\n\nTechniques: Aim for the necks of your opponents. Secondary fire can launch opponents in the air."
+DeathMessage="%k ripped a chunk of meat out of %o with the %w."
+PickupMessage="You got the Ripper."
+ItemName="Ripper"
 
 [KillingSpreeMessage]
 EndSpreeNote="'s killing spree was ended by"
@@ -1257,124 +1236,70 @@ spreenote[2]="is dominating!"
 spreenote[3]="is unstoppable!"
 spreenote[4]="is Godlike!"
 
-[TFemale1]
-MenuName="Female Commando"
-
-[ripper]
-WeaponDescription="Classification: Ballistic Blade Launcher\n\nPrimary Fire: Razor sharp titanium disks are launched at a medium rate of speed. Shots will ricochet off of any surfaces.\n\nSecondary Fire: Explosive disks are launched at a slow rate of fire.\n\nTechniques: Aim for the necks of your opponents. Secondary fire can launch opponents in the air."
-DeathMessage="%k ripped a chunk of meat out of %o with the %w."
-PickupMessage="You got the Ripper."
-ItemName="Ripper"
-
 [TDarkMatch]
 GameName="Tournament DarkMatch"
 
-[UnrealCTFScoreboard]
-FragGoal="Capture Limit:"
+[TFemale1]
+MenuName="Female Commando"
 
-[MultiKillMessage]
-DoubleKillString="Double Kill!"
-TripleKillString="Triple Kill!"
-MultiKillString="Multi Kill!"
-UltraKillString="ULTRA KILL!!"
-MonsterKillString="M O N S T E R  K I L L !!!"
+[RatedTeamInfo2]
+TeamName="Black Legion"
+TeamBio="A powerful team of Necris Phayder assassins that seek to dominate the Tournament. By destroying Xan Kriegor, the corrupt Tournament Champion, the Legion believes it can take control of Liandri operations."
+BotNames[0]="Cryss"
+BotNames[1]="Kragoth"
+BotNames[2]="Freylis"
+BotNames[3]="Malakai"
+BotNames[4]="Visse"
+BotNames[5]="Necroth"
+BotNames[6]="Malise"
+BotNames[7]="Grail"
+BotClassifications[0]="Phayder Assassin"
+BotClassifications[1]="Phayder Assassin"
+BotClassifications[2]="Necris Blademaiden"
+BotClassifications[3]="Phayder Assassin"
+BotClassifications[4]="Phayder Assassin"
+BotClassifications[5]="Phayder Master"
+BotClassifications[6]="Necris Blademaiden"
+BotClassifications[7]="Phayder Assassin"
+BotBio[0]="Cryss, like Visse, takes pleasure in destruction. Unlike her Blood Sister, however, she is less likely to be overcome by a berserker rage. Distance weapons and silent tactics are her favorite."
+BotBio[1]="Known as the 'Star Slayer,' Kragoth is a dread assassin of the Phayder secret society. He is rumored to have single handedly killed the entire crew of an ICV Star Cruiser. Liandri will neither confirm nor deny this information."
+BotBio[2]="A Blademaiden of the highest order, Freylis is a skilled and experienced warrior. She understands team tactics well and will always be where her team needs her the most."
+BotBio[3]="Malakai fights for glory and destruction. He, like many Necris, believe that every emotion is to be savored, every nuance of pain divine."
+BotBio[4]="Seeking only pleasure in the pain of others, Visse rends her enemies with relentless fervor."
+BotBio[5]="Necroth is Phayder Master for the Black Legion. Each Necris Master serves as a sort of dark chaplain, maintaining the morale of the group."
+BotBio[6]="Malise, like her name implies, is an embodiment of hate. If she was not so closely watched by Necroth, she would turn upon even her own bretheren."
+BotBio[7]="Grail is the most educated member of the Legion. He quietly bides his time, waiting for the right moment to take control."
 
 [SuperShockRifle]
 DeathMessage="%k electrified %o with the %w."
 PickupMessage="You got the enhanced Shock Rifle."
 ItemName="Enhanced Shock Rifle"
 
-[TFemale2]
-MenuName="Female Soldier"
-
 [Miniammo]
 PickupMessage="You picked up 50 bullets."
 ItemName="Large Bullets"
+
+[FirstBloodMessage]
+FirstBloodString="drew first blood!"
+
+[UnrealCTFScoreboard]
+FragGoal="Capture Limit:"
+
+[TFemale2]
+MenuName="Female Soldier"
 
 [AssaultScoreboard]
 AssaultCondition="Assault the Base!"
 FragGoal="Score Limit:"
 
-[CTFMessage2]
-YouHaveFlagString="You have the flag, return to base!"
-EnemyHasFlagString="The enemy has your flag, recover it!"
+[BulletBox]
+PickupMessage="You got a box of rifle rounds."
+ItemName="Box of Rifle Rounds"
 
 [UT_invisibility]
 ExpireMessage="Invisibility has worn off."
 PickupMessage="You have Invisibility."
 ItemName="Invisibility"
-
-[BulletBox]
-PickupMessage="You got a box of rifle rounds."
-ItemName="Box of Rifle Rounds"
-
-[RatedTeamInfoDemo2]
-TeamName="Thunder Crash"
-TeamBio="Thunder Crash is the current big city favorite. Sporting a calculated balance of strength and style, they always manage to crush the opposition and look good at the same time."
-BotNames[0]="Othello"
-BotNames[1]="Johnson"
-BotNames[2]="Malcolm"
-BotNames[3]="Kulgan"
-BotNames[4]="Riker"
-BotClassifications[0]="Warrior"
-BotClassifications[1]="Warrior"
-BotClassifications[2]="Chem Killer"
-BotClassifications[3]="Warrior"
-BotClassifications[4]="Warrior"
-BotBio[0]="Once a trader for the Cyron Financial Commission, Othello became a suicidal pit fighter following the mysterious death of his wife."
-BotBio[1]="Johnson was hired out of the black market slave trade to serve as bodyguard to the powerful arms smuggler Jihan Nyhn. He is strong and has an extreme amount of endurance."
-BotBio[2]="FenTech's finest creation, Malcolm is an engineered warrior enhanced by chemicals. Adrenaline stimulants, synaptic catalysts, and impulse regulators combine to create a superhuman killing machine."
-BotBio[3]="Kulgan's combat abilities are second only to his presense of character. When he's not trying to seduce the ladies, he'll be in the arena, pulse gun in hand."
-BotBio[4]="Riker is a walking fusion of tactics and style. He always tries to find new ways of killing his opponents and has won multiple awards for creative improvisation."
-
-[Commander]
-MenuName="Commander"
-
-[ShockCore]
-PickupMessage="You picked up a Shock Core."
-ItemName="Shock Core"
-
-[FirstBloodMessage]
-FirstBloodString="drew first blood!"
-
-[EradicatedDeathMessage]
-EradicatedMessage="was eradicated by the unholy power of"
-
-[KillerMessagePlus]
-YouKilled="You killed"
-ScoreString="Your Score:"
-
-[VictimMessage]
-YouWereKilledBy="You were killed by"
-KilledByTrailer="!"
-
-[RatedTeamInfo5]
-TeamName="Venom"
-TeamBio="Venom is an elite faction of warriors and athletes. Every member is female and all fight solely for their own enjoyment."
-BotNames[0]="Athena"
-BotNames[1]="Cilia"
-BotNames[2]="Sarena"
-BotNames[3]="Tara"
-BotNames[4]="Zanna"
-BotNames[5]="Lovelace"
-BotNames[6]="Xyra"
-BotNames[7]="Ada"
-BotClassifications[0]="Warrior"
-BotClassifications[1]="Warrior"
-BotClassifications[2]="Warrior"
-BotClassifications[3]="Warrior"
-BotClassifications[4]="Chem Killer"
-BotClassifications[5]="Warrior"
-BotClassifications[6]="Warrior"
-BotClassifications[7]="Warrior"
-BotBio[0]="Athena fights for the sake of the battle. Her eyes sharp and her mind focused only on victory. She will not confide in the rest of Venom, but something drives her solely towards victory."
-BotBio[1]="Cilia fights for perfection of self. She sees the Tournament as the greatest standard of physical strength devised and seeks to master it as she seeks to master herself."
-BotBio[2]="Unknown to her battle sisters, Sarena is the result of a complex mindcontrol experiment by the NEG. She fights not of her own volition, but as a test of government conditioning."
-BotBio[3]="Tara is the athletic model of the new era. She is strong, quick, and intelligent. She wields all weapons with equal proficiency and studies many forms of battle."
-BotBio[4]="Zanna is a prototype chem warrior developed by FenTech Incorporated. Her considerable physical strength is augmented by a constant flow of synaptic catalysts and endorphins."
-BotBio[5]="Lovelace left behind the corporate world to seek a new life of physical perfection. She studies the martial and tactical arts under the direction of Cilia."
-BotBio[6]="Xyra sees herself as a sort of superhero. Fighting in the Tournament as a symbol against the NEG's oppressive policies."
-BotBio[7]="No known description."
 
 [RatedTeamInfo4]
 TeamName="Raw Steel"
@@ -1404,58 +1329,33 @@ BotBio[5]="Rolph is the weakest of the team, but is still very tough by normal h
 BotBio[6]="Arnold is an ex-movie stunt man turned Tournament combatant. He is always in search of the biggest and toughest thrill and the Tournament fulfills his needs completely."
 BotBio[7]="No known description."
 
-[ChallengeDMP]
-GameName="Lightning DeathMatch"
-
-[LadderAS]
-MapTitle[0]="AS Tutorial"
-MapTitle[1]="Frigate"
-MapTitle[2]="High Speed"
-MapTitle[3]="Rook"
-MapTitle[4]="Mazon"
-MapTitle[5]="Ocean Floor"
-MapTitle[6]="Overlord"
-MapDescription[0]="Learn the basic rules of Assault in this special training environment. Test your skills against an untrained enemy before entering the tournament proper."
-MapDescription[1]="A somewhat antiquated Earth warship, the restored SS Victory is still seaworthy. A dual security system prevents intruders from activating the guns by only allowing crew members to open the control room portal. However, should the aft boiler be damaged beyond repair the door will auto-release, allowing access to anyone."
-MapDescription[2]="Always looking to entertain the public, LC refitted this 200 mph high speed train for Tournament purposes. This time the combatants will have the added danger of being able to fall off a train. Get your popcorn out people and enjoy the show!"
-MapDescription[3]="This ancient castle, nestled in the highlands of Romania, was purchased by Xan Kriegor as a personal training ground for his opponents, hoping to cull the best of the best to challenge him. The attacking team must open the main gates and escape the castle by breaking free the main winch in the library and throwing the gatehouse lever, while the defending team must prevent their escape."
-MapDescription[4]="Nestled deep within the foothills of the jungle planet Zeus 6 lies Mazon Fortress, a seemingly impregnable stronghold. Deep within the bowels of the base resides an enormous shard of the rare and volatile element Tarydium. The shard is levitating between two enormous electron rods above a pool of superconductive swamp water."
-MapDescription[5]="OceanFloor Station 5, built by universities around the globe for deep sea research, almost ran out of money when LC came to the rescue. Jerl Liandri President LC: 'If we can't ensure education for our children, what will come of this world?'"
-MapDescription[6]="The tournament organizers at Liandri have decided that the recreation of arguably the Earth's most violent war would create the perfect arena of combat. Storming the beaches of Normandy in WWII was chosen in particular because of the overwhelming odds facing each member of the attacking force. Defending this beach, however, will prove to be no less of a daunting task."
-
-[ControlPointMessage]
-ControlPointStr="Control Point"
-ControlledBy="now controlled by"
-
-[LMSOutMessage]
-OutMessage="is OUT!"
-
-[TimeMessage]
-TimeMessage[0]="5 minutes left in the game!"
-TimeMessage[2]="3 minutes left in the game!"
-TimeMessage[3]="2 minutes left in the game!"
-TimeMessage[4]="1 minute left in the game!"
-TimeMessage[5]="30 seconds left!"
-TimeMessage[6]="10 seconds left!"
-TimeMessage[7]="9..."
-TimeMessage[8]="8..."
-TimeMessage[9]="7..."
-TimeMessage[10]="6..."
-TimeMessage[11]="5 seconds and counting..."
-TimeMessage[12]="4..."
-TimeMessage[13]="3..."
-TimeMessage[14]="2..."
-TimeMessage[15]="1..."
-
-[DecapitationMessage]
-DecapitationString="Head Shot!!"
-
-[FlakAmmo]
-PickupMessage="You picked up 10 Flak Shells."
-ItemName="Flak Shells"
-
-[DominationScoreboard]
-FragGoal="Score Limit:"
+[RatedTeamInfo5]
+TeamName="Venom"
+TeamBio="Venom is an elite faction of warriors and athletes. Every member is female and all fight solely for their own enjoyment."
+BotNames[0]="Athena"
+BotNames[1]="Cilia"
+BotNames[2]="Sarena"
+BotNames[3]="Tara"
+BotNames[4]="Zanna"
+BotNames[5]="Lovelace"
+BotNames[6]="Xyra"
+BotNames[7]="Ada"
+BotClassifications[0]="Warrior"
+BotClassifications[1]="Warrior"
+BotClassifications[2]="Warrior"
+BotClassifications[3]="Warrior"
+BotClassifications[4]="Chem Killer"
+BotClassifications[5]="Warrior"
+BotClassifications[6]="Warrior"
+BotClassifications[7]="Warrior"
+BotBio[0]="Athena fights for the sake of the battle. Her eyes sharp and her mind focused only on victory. She will not confide in the rest of Venom, but something drives her solely towards victory."
+BotBio[1]="Cilia fights for perfection of self. She sees the Tournament as the greatest standard of physical strength devised and seeks to master it as she seeks to master herself."
+BotBio[2]="Unknown to her battle sisters, Sarena is the result of a complex mindcontrol experiment by the NEG. She fights not of her own volition, but as a test of government conditioning."
+BotBio[3]="Tara is the athletic model of the new era. She is strong, quick, and intelligent. She wields all weapons with equal proficiency and studies many forms of battle."
+BotBio[4]="Zanna is a prototype chem warrior developed by FenTech Incorporated. Her considerable physical strength is augmented by a constant flow of synaptic catalysts and endorphins."
+BotBio[5]="Lovelace left behind the corporate world to seek a new life of physical perfection. She studies the martial and tactical arts under the direction of Cilia."
+BotBio[6]="Xyra sees herself as a sort of superhero. Fighting in the Tournament as a symbol against the NEG's oppressive policies."
+BotBio[7]="No known description."
 
 [RatedTeamInfo6]
 TeamName="Dark Phalanx"
@@ -1485,65 +1385,143 @@ BotBio[5]="Whitman is a former Neo-Cop from Outpost Glosk who decided to trade t
 BotBio[6]="Iyrash left the Glosk Neo-Cop forces with Whitman. She has served by his side for five years and will continue to fight wherever he takes his personal battles."
 BotBio[7]="No known description."
 
-[RatedTeamInfoDemo1]
-TeamName="Raw Steel"
-TeamBio="Only men are allowed in the fighting force known as 'Raw Steel.' An amalgamation of human muscle and polyfoam metals, 'Raw Steel' upholds strength and power over all other virtues."
-BotNames[0]="Slain"
-BotNames[1]="Manwell"
-BotNames[2]="Kregore"
-BotNames[3]="Bruce"
-BotNames[4]="Arkon"
-BotNames[5]="Rolph"
-BotNames[6]="Arnold"
-BotNames[7]="Lugar"
+[DecapitationMessage]
+DecapitationString="Head Shot!!"
+
+[CTFMessage2]
+YouHaveFlagString="You have the flag, return to base!"
+EnemyHasFlagString="The enemy has your flag, recover it!"
+
+[TimeMessage]
+TimeMessage[0]="5 minutes left in the game!"
+TimeMessage[2]="3 minutes left in the game!"
+TimeMessage[3]="2 minutes left in the game!"
+TimeMessage[4]="1 minute left in the game!"
+TimeMessage[5]="30 seconds left!"
+TimeMessage[6]="10 seconds left!"
+TimeMessage[7]="9..."
+TimeMessage[8]="8..."
+TimeMessage[9]="7..."
+TimeMessage[10]="6..."
+TimeMessage[11]="5 seconds and counting..."
+TimeMessage[12]="4..."
+TimeMessage[13]="3..."
+TimeMessage[14]="2..."
+TimeMessage[15]="1..."
+
+[Commander]
+MenuName="Commander"
+
+[VictimMessage]
+YouWereKilledBy="You were killed by"
+KilledByTrailer="!"
+
+[KillerMessagePlus]
+YouKilled="You killed"
+ScoreString="Your Score:"
+
+[EradicatedDeathMessage]
+EradicatedMessage="was eradicated by the unholy power of"
+
+[ShockCore]
+PickupMessage="You picked up a Shock Core."
+ItemName="Shock Core"
+
+[RatedTeamInfoDemo2]
+TeamName="Thunder Crash"
+TeamBio="Thunder Crash is the current big city favorite. Sporting a calculated balance of strength and style, they always manage to crush the opposition and look good at the same time."
+BotNames[0]="Othello"
+BotNames[1]="Johnson"
+BotNames[2]="Malcom"
+BotNames[3]="Kulgan"
+BotNames[4]="Riker"
 BotClassifications[0]="Warrior"
 BotClassifications[1]="Warrior"
-BotClassifications[2]="Warrior"
+BotClassifications[2]="Chem Killer"
 BotClassifications[3]="Warrior"
 BotClassifications[4]="Warrior"
-BotClassifications[5]="Warrior"
-BotClassifications[6]="Warrior"
-BotClassifications[7]="Warrior"
-BotBio[0]="Slain is the founder of Raw Steel. He understands that the success of the team lies not only in their physical strength, but in their crowd pleasing 'pro-wrestling' style."
-BotBio[1]="Manwell is the strongest of the Raw Steel. He uses a custom mixture of biochem enhancements to keep his power level at a maximum at all times."
-BotBio[2]="Kregore is a rough dude. Having survived multiple Tournament championships, he knows the venues well and is the most experienced Raw Steel warrior."
-BotBio[3]="Bruce is all about style. He'll often stop in the middle of a fight to make side comments towards the nearest holocam. A favorite among the inner worlds."
-BotBio[4]="Arkon left the NEG security forces after Raw Steel offered him a position. He never liked the military and finds the Tournaments lack of rules more his kind of fighting."
-BotBio[5]="Rolph is the weakest of the team, but is still very tough by normal human standards. What he lacks in brute force he makes up in raw speed and endurance."
-BotBio[6]="Arnold is an ex-movie stunt man turned Tournament combatant. He is always in search of the biggest and toughest thrill and the Tournament fulfills his needs completely."
-BotBio[7]="No known description."
+BotBio[0]="Once a trader for the Cyron Financial Commission, Othello became a suicidal pit fighter following the mysterious death of his wife."
+BotBio[1]="Johnson was hired out of the black market slave trade to serve as bodyguard to the powerful arms smuggler Jihan Nyhn. He is strong and has an extreme amount of endurance."
+BotBio[2]="FenTech's finest creation, Malcom is an engineered warrior enhanced by chemicals. Adrenaline stimulants, synaptic catalysts, and impulse regulators combine to create a superhuman killing machine."
+BotBio[3]="Kulgan's combat abilities are second only to his presense of character. When he's not trying to seduce the ladies, he'll be in the arena, pulse gun in hand."
+BotBio[4]="Riker is a walking fusion of tactics and style. He always tries to find new ways of killing his opponents and has won multiple awards for creative improvisation."
 
-[RocketPack]
-PickupMessage="You picked up a rocket pack."
-ItemName="Rocket Pack"
+[RatedTeamInfo8]
+TeamName="Iron Skull"
+TeamBio="The N.E.G. has long recognized the superiority of the Skaarj warrior as a military fighting machine, as was made clear in the brutal Human-Skaarj wars.  The Skaarj Hybrid is the result of secret military genetic research using both human and Skaarj DNA performed after the capture of a Skaarj scout ship. If proven in Tournament battle, the Hybrids shall become a leading force in ground based ops."
+BotNames[0]="Reaper"
+BotNames[1]="Baetal"
+BotNames[2]="Pharoh"
+BotNames[3]="Skrilax"
+BotNames[4]="Anthrax"
+BotNames[5]="Entropy"
+BotClassifications[0]="Classified: L9"
+BotClassifications[1]="Classified: L9"
+BotClassifications[2]="Classified: L9"
+BotClassifications[3]="Classified: L9"
+BotClassifications[4]="Classified: L9"
+BotClassifications[5]="Classified: L9"
+BotBio[0]="No profile available. Level 9 security clearance required."
+BotBio[1]="No profile available. Level 9 security clearance required."
+BotBio[2]="No profile available. Level 9 security clearance required."
+BotBio[3]="No profile available. Level 9 security clearance required."
+BotBio[4]="No profile available. Level 9 security clearance required."
+BotBio[5]="No profile available. Level 9 security clearance required."
 
-[PAmmo]
-PickupMessage="You picked up a Pulse Cell."
-ItemName="Pulse Cell"
+[RatedTeamInfo7]
+TeamName="Red Claw"
+TeamBio="The N.E.G. has long recognized the superiority of the Skaarj warrior as a military fighting machine, as was made clear in the brutal Human-Skaarj wars.  The Skaarj Hybrid is the result of secret military genetic research using both human and Skaarj DNA performed after the capture of a Skaarj scout ship. If proven in Tournament battle, the Hybrids shall become a leading force in ground based ops."
+BotNames[0]="Dominator"
+BotNames[1]="Berserker"
+BotNames[2]="Guardian"
+BotNames[3]="Devastator"
+BotNames[4]="Pestilence"
+BotNames[5]="Plague"
+BotClassifications[0]="Classified: L9"
+BotClassifications[1]="Classified: L9"
+BotClassifications[2]="Classified: L9"
+BotClassifications[3]="Classified: L9"
+BotClassifications[4]="Classified: L9"
+BotClassifications[5]="Classified: L9"
+BotBio[0]="No profile available. Level 9 security clearance required."
+BotBio[1]="No profile available. Level 9 security clearance required."
+BotBio[2]="No profile available. Level 9 security clearance required."
+BotBio[3]="No profile available. Level 9 security clearance required."
+BotBio[4]="No profile available. Level 9 security clearance required."
+BotBio[5]="No profile available. Level 9 security clearance required."
 
-[SuperShockCore]
-PickupMessage="You picked up an enhanced Shock Core."
-ItemName="Enhanced Shock Core"
+[LadderAS]
+MapTitle[0]="AS Tutorial"
+MapTitle[1]="Frigate"
+MapTitle[2]="High Speed"
+MapTitle[3]="Rook"
+MapTitle[4]="Mazon"
+MapTitle[5]="Ocean Floor"
+MapTitle[6]="Overlord"
+MapDescription[0]="Learn the basic rules of Assault in this special training environment. Test your skills against an untrained enemy before entering the tournament proper."
+MapDescription[1]="A somewhat antiquated Earth warship, the restored SS Victory is still seaworthy. A dual security system prevents intruders from activating the guns by only allowing crew members to open the control room portal. However, should the aft boiler be damaged beyond repair the door will auto-release, allowing access to anyone."
+MapDescription[2]="Always looking to entertain the public, LC refitted this 200 mph high speed train for Tournament purposes. This time the combatants will have the added danger of being able to fall off a train. Get your popcorn out people and enjoy the show!"
+MapDescription[3]="This ancient castle, nestled in the highlands of Romania, was purchased by Xan Kriegor as a personal training ground for his opponents, hoping to cull the best of the best to challenge him. The attacking team must open the main gates and escape the castle by breaking free the main winch in the library and throwing the gatehouse lever, while the defending team must prevent their escape."
+MapDescription[4]="Nestled deep within the foothills of the jungle planet Zeus 6 lies Mazon Fortress, a seemingly impregnable stronghold. Deep within the bowels of the base resides an enormous shard of the rare and volatile element Tarydium. The shard is levitating between two enormous electron rods above a pool of superconductive swamp water."
+MapDescription[5]="OceanFloor Station 5, built by universities around the globe for deep sea research, almost ran out of money when LC came to the rescue. Jerl Liandri President LC: 'If we can't ensure education for our children, what will come of this world?'"
+MapDescription[6]="The tournament organizers at Liandri have decided that the recreation of arguably the Earth's most violent war would create the perfect arena of combat. Storming the beaches of Normandy in WWII was chosen in particular because of the overwhelming odds facing each member of the attacking force. Defending this beach, however, will prove to be no less of a daunting task."
 
-[BioAmmo]
-PickupMessage="You picked up the Biosludge Ammo."
-ItemName="Biosludge Ammo"
+[ControlPointMessage]
+ControlPointStr="Control Point"
+ControlledBy="now controlled by"
 
-[BladeHopper]
-PickupMessage="You picked up some Razor Blades."
-ItemName="Blade Hopper"
+[LMSOutMessage]
+OutMessage="is OUT!"
 
-[HealthPack]
-PickupMessage="You picked up the Big Keg O' Health +"
-ItemName="Super Health Pack"
-
-[HealthVial]
-PickupMessage="You picked up a Health Vial +"
-ItemName="Health Vial"
-
-[EClip]
-PickupMessage="You picked up a clip."
-ItemName="Clip"
+[LadderChal]
+MapTitle[0]="Phobos Moon"
+MapTitle[1]="Morpheus"
+MapTitle[2]="Zeto Station"
+MapTitle[3]="HyperBlast"
+MapDescription[0]="This Martian space station is caught between Mars and it's satellite Phobos, resulting in a chaotic rotation. Fortunately, the gravity generators are working well enough to lend a fast paced rhythm to deathmatch."
+MapDescription[1]="LMC knew they had found an excellent arena at the very top of a newly constructed Galaxyscraper SuperStructure. Thanks to the modern miracle of super tensile solids, these three buildings reach a staggering 12 miles high at their pinnacle. The thin atmosphere and reduced influence of Earth's gravity provide an interesting test of the tournament athlete's ability to adapt and conquer in extreme environments."
+MapDescription[2]="Liandri Corp., in an attempt to recoup financial losses from a failed research station on the arctic moon of Coret, has converted this frozen outpost into a Tournament arena."
+MapDescription[3]="Thanks to Magnetic Anti-Vacuum Resonance technology, combatants are able to battle outside of Xan's 'HyperBlast' ArenaShip for an extended period of time. Use extreme caution though, one mistake and you'll find yourself floating in space."
 
 [LadderCTF]
 MapTitle[0]="CTF Tutorial"
@@ -1567,48 +1545,11 @@ MapDescription[7]="The Last Command is a fully functional Nuclear Processing Sta
 MapDescription[8]="This volatile world has an extremely low orbit around a superdense gas giant. The resulting gravitational forces have caused the planetary mantle to collapse. Combatants are issued special gravbelts for each match."
 MapDescription[9]="Battle around a retired November class nuclear submarine docked in an underground pen. This relic, left from the First Cold War, still includes machinegun nests and defensive positions key to victory."
 
-[LadderDOMDemo]
-MapTitle[0]="DOM Tutorial"
-MapTitle[1]="Tomb of Sesmar"
-MapDescription[0]="Learn the basic rules and systems of Domination in this special training environment. Test your skills against an untrained enemy team before entering the tournament proper."
-MapDescription[1]="Despite worldwide protests, this historical landmark is now owned by Liandri. Jerl Liandri, President Liandri Mining Corporation: 'We owe it to the people to ensure quality cultural events. We won't settle for less.'"
-
-[doubleenforcer]
-ItemName="Double Enforcers"
-
-[LadderDOM]
-MapTitle[0]="DOM Tutorial"
-MapTitle[1]="Condemned"
-MapTitle[2]="Ghardhen Labs"
-MapTitle[3]="Cryptic"
-MapTitle[4]="Cinder Foundry"
-MapTitle[5]="Gearbolt Install"
-MapTitle[6]="Leadworks"
-MapTitle[7]="Olden Aquifer"
-MapTitle[8]="Tomb of Sesmar"
-MapTitle[9]="Metal Dream"
-MapDescription[0]="Learn the basic rules and systems of Domination in this special training environment. Test your skills against an untrained enemy team before entering the tournament proper."
-MapDescription[1]="The many gang-related fights that ravaged this particular area have already proven this section of the city slums to be a bloody battle ground. The Liandri organizers are expecting this to be the case once again, only this time, as a tournament domination arena."
-MapDescription[2]="A newly constructed explosion testing facility, Ghardhen Labs houses two blast chambers. Unfortunately, one of the silent investors was a Liandri location scout, and Ghardhen fell to Liandri."
-MapDescription[3]="One of the few 'manufactured' Tournament arenas, this ancient-seeming ruin was built by the legendary Tournament Master Kilbragh as a personal training facility. After his death, the property reverted to Liandri, who now makes full use of it."
-MapDescription[4]="After dozens of broken legs and incinerated employees, the Cinder Foundry was finally shut down and placed upon the auction block, where it was promptly snatched up by a savvy Liandri location scout."
-MapDescription[5]="New peace treaties by the NEG have resulted in many abandoned military facilities. Gearbolt was once an underground storage base for military weapons and inventory."
-MapDescription[6]="An old leadworks on the wrong side of the tracks is excellent place for a war. You can expect molten lead still pooled in some areas of this facility. Step lightly if you plan on being effective."
-MapDescription[7]="This ancient temple was sacred to the race that built it, but not to Liandri. Upon discovering it, nestled in the mountains above the Eternal Cave, Liandri desecrated it for battle."
-MapDescription[8]="Despite worldwide protests, this historical landmark is now owned by Liandri. Jerl Liandri, President Liandri Mining Corporation: 'We owe it to the people to ensure quality cultural events. We won't settle for less.'"
-MapDescription[9]="This oil rig has been converted into a Domination Arena. It is located near strange meteorological phenomenon in the northern reaches of Kryllia. Use the architecture to dominate your opponents."
-
-[LadderDMDemo]
-MapTitle[0]="DM Tutorial"
-MapTitle[1]="Turbine"
-MapTitle[2]="Phobos Moon"
-MapTitle[3]="Morpheus"
-MapTitle[4]="Tempest"
-MapDescription[0]="Learn the basic rules of Deathmatch in this special training environment. Test your skills against an untrained enemy before entering the tournament proper."
-MapDescription[1]="A decaying water-treatment facility that has been purchased for use in the Tourney, the Turbine Facility offers an extremely tight and fast arena for combatants which ensures that there is no running, and no hiding, from certain death."
-MapDescription[2]="This Martian space station is caught between Mars and it's satellite Phobos, resulting in a chaotic rotation. Fortunately, the gravity generators are working well enough to lend a fast paced rhythm to deathmatch."
-MapDescription[3]="LMC knew they had found an excellent arena at the very top of a newly constructed Galaxyscraper SuperStructure. Thanks to the modern miracle of super tensile solids, these three buildings reach a staggering 12 miles high at their pinnacle. The thin atmosphere and reduced influence of Earth's gravity provide an interesting test of the tournament athlete's ability to adapt and conquer in extreme environments."
-MapDescription[4]="The Tempest Facility was built specifically for the Tournament. It was designed strictly for arena combat, with multi-layered areas and tiny hiding spots. It is a personal training arena of Xan Kriegor and sits high above the sprawling Reconstructed New York City."
+[LadderCTFGOTY]
+MapTitle[10]="Hydro Bases"
+MapTitle[11]="Orbital Station"
+MapDescription[10]="This enormous hydroelectric plant used to power the colonies on Vesuvius 9 until a mysterious virus killed everyone off.  Now that a few years have passed, Liandri official have declared the plant safe for combat (safe is relative to Liandri officials)."
+MapDescription[11]="The interior of this dual-sided space station may appear complete, but much functionality was never completed when funding ran out due to corrupt contractors and irresponsible administrators.  As usual, the savvy Liandri location scouts caught wind of this and picked the station up at a discount for inclusion in the tourney."
 
 [LadderDM]
 MapTitle[0]="DM Tutorial"
@@ -1640,33 +1581,117 @@ MapDescription[11]="A textbook Liandri ore processing facility located at Earth'
 MapDescription[12]="This refinery makes for a particularly well balanced arena. A multilevel central chamber keeps fighters on their toes while the nearby smelting tub keeps them toasty."
 MapDescription[13]="Originally built by the Nipi Monks in Nepal to escape moral degradation, this serene and beautiful place once called for meditation; until Liandri acquired it for perfect tournament conditions."
 
-[TMale2Bot]
-MenuName="Male Soldier"
+[LadderDMGOTY]
+MapTitle[7]="Arcane Temple"
+MapTitle[8]="Grinder"
+MapTitle[9]="Malevolence"
+MapTitle[10]="Koos Galleon"
+MapTitle[11]="Tempest"
+MapTitle[12]="Shrapnel"
+MapTitle[13]="Liandri Core"
+MapTitle[14]="Conveyor"
+MapTitle[15]="Peak Monastery"
+MapDescription[7]="The Nali, an ancient race of four armed aliens, constructed this hidden temple to worship their Gods in secrecy when they were oppressed by the vicious Skaarj aliens.  Unfortunately for the Nali, the Skaarj eventually located the temple and systematically slaughtered every inhabitant."
+MapDescription[8]="A former Liandri smelting facility, this complex has proven to be one of the bloodiest arenas for tournament participants. Lovingly called the Heavy Metal Grinder, those who enter can expect nothing less than brutal seek and destroy action."
+MapDescription[9]="This small facility is well suited for testing rising tournament favorites in one-on-one combat."
+MapDescription[10]="The indigenous people of Koos World are waterborne and find there to be no more fitting an arena than this ancient transport galleon."
+MapDescription[11]="The Tempest Facility was built specifically for the Tournament. It was designed strictly for arena combat, with multi-layered areas and tiny hiding spots. It is a personal training arena of Xan Kriegor and sits high above the sprawling Reconstructed New York City."
+MapDescription[12]="Tournament coordinators love burnt out factories, foundries, and warehouses because of the natural height and architectural hazards they provide. With the original name of this burnt-out facility long forgotten, the contestants have morbidly nicknamed this place 'Shrapnel'."
+MapDescription[13]="A textbook Liandri ore processing facility located at Earth's Mohorovicic discontinuity roughly below Mexico. Phased ion shields hold back the intense heat and pressure characteristic of deep lithosphere mining."
+MapDescription[14]="This refinery makes for a particularly well balanced arena. A multilevel central chamber keeps fighters on their toes while the nearby smelting tub keeps them toasty."
+MapDescription[15]="Originally built by the Nipi Monks in Nepal to escape moral degradation, this serene and beautiful place once called for meditation; until Liandri acquired it for perfect tournament conditions."
 
-[TMale1Bot]
-MenuName="Male Commando"
+[LadderDOM]
+MapTitle[0]="DOM Tutorial"
+MapTitle[1]="Condemned"
+MapTitle[2]="Ghardhen Labs"
+MapTitle[3]="Cryptic"
+MapTitle[4]="Cinder Foundry"
+MapTitle[5]="Gearbolt Install"
+MapTitle[6]="Leadworks"
+MapTitle[7]="Olden Aquifer"
+MapTitle[8]="Tomb of Sesmar"
+MapTitle[9]="Metal Dream"
+MapDescription[0]="Learn the basic rules and systems of Domination in this special training environment. Test your skills against an untrained enemy team before entering the tournament proper."
+MapDescription[1]="The many gang-related fights that ravaged this particular area have already proven this section of the city slums to be a bloody battle ground. The Liandri organizers are expecting this to be the case once again, only this time, as a tournament domination arena."
+MapDescription[2]="A newly constructed explosion testing facility, Ghardhen Labs houses two blast chambers. Unfortunately, one of the silent investors was a Liandri location scout, and Ghardhen fell to Liandri."
+MapDescription[3]="One of the few 'manufactured' Tournament arenas, this ancient-seeming ruin was built by the legendary Tournament Master Kilbragh as a personal training facility. After his death, the property reverted to Liandri, who now makes full use of it."
+MapDescription[4]="After dozens of broken legs and incinerated employees, the Cinder Foundry was finally shut down and placed upon the auction block, where it was promptly snatched up by a savvy Liandri location scout."
+MapDescription[5]="New peace treaties by the NEG have resulted in many abandoned military facilities. Gearbolt was once an underground storage base for military weapons and inventory."
+MapDescription[6]="An old leadworks on the wrong side of the tracks is excellent place for a war. You can expect molten lead still pooled in some areas of this facility. Step lightly if you plan on being effective."
+MapDescription[7]="This ancient temple was sacred to the race that built it, but not to Liandri. Upon discovering it, nestled in the mountains above the Eternal Cave, Liandri desecrated it for battle."
+MapDescription[8]="Despite worldwide protests, this historical landmark is now owned by Liandri. Jerl Liandri, President Liandri Mining Corporation: 'We owe it to the people to ensure quality cultural events. We won't settle for less.'"
+MapDescription[9]="This oil rig has been converted into a Domination Arena. It is located near strange meteorological phenomenon in the northern reaches of Kryllia. Use the architecture to dominate your opponents."
 
-[TFemale2Bot]
-MenuName="Female Soldier"
+[ChallengeDMP]
+GameName="Lightning DeathMatch"
+
+[RocketPack]
+PickupMessage="You picked up a rocket pack."
+ItemName="Rocket Pack"
+
+[RatedTeamInfoDemo1]
+TeamName="Raw Steel"
+TeamBio="Only men are allowed in the fighting force known as 'Raw Steel.' An amalgamation of human muscle and polyfoam metals, 'Raw Steel' upholds strength and power over all other virtues."
+BotNames[0]="Slain"
+BotNames[1]="Manwell"
+BotNames[2]="Kregore"
+BotNames[3]="Bruce"
+BotNames[4]="Arkon"
+BotNames[5]="Rolph"
+BotNames[6]="Arnold"
+BotNames[7]="Lugar"
+BotClassifications[0]="Warrior"
+BotClassifications[1]="Warrior"
+BotClassifications[2]="Warrior"
+BotClassifications[3]="Warrior"
+BotClassifications[4]="Warrior"
+BotClassifications[5]="Warrior"
+BotClassifications[6]="Warrior"
+BotClassifications[7]="Warrior"
+BotBio[0]="Slain is the founder of Raw Steel. He understands that the success of the team lies not only in their physical strength, but in their crowd pleasing 'pro-wrestling' style."
+BotBio[1]="Manwell is the strongest of the Raw Steel. He uses a custom mixture of biochem enhancements to keep his power level at a maximum at all times."
+BotBio[2]="Kregore is a rough dude. Having survived multiple Tournament championships, he knows the venues well and is the most experienced Raw Steel warrior."
+BotBio[3]="Bruce is all about style. He'll often stop in the middle of a fight to make side comments towards the nearest holocam. A favorite among the inner worlds."
+BotBio[4]="Arkon left the NEG security forces after Raw Steel offered him a position. He never liked the military and finds the Tournaments lack of rules more his kind of fighting."
+BotBio[5]="Rolph is the weakest of the team, but is still very tough by normal human standards. What he lacks in brute force he makes up in raw speed and endurance."
+BotBio[6]="Arnold is an ex-movie stunt man turned Tournament combatant. He is always in search of the biggest and toughest thrill and the Tournament fulfills his needs completely."
+BotBio[7]="No known description."
+
+[SuperShockCore]
+PickupMessage="You picked up an enhanced Shock Core."
+ItemName="Enhanced Shock Core"
+
+[BioAmmo]
+PickupMessage="You picked up the Biosludge Ammo."
+ItemName="Biosludge Ammo"
+
+[PAmmo]
+PickupMessage="You picked up a Pulse Cell."
+ItemName="Pulse Cell"
+
+[BladeHopper]
+PickupMessage="You picked up some Razor Blades."
+ItemName="Blade Hopper"
+
+[FlakAmmo]
+PickupMessage="You picked up 10 Flak Shells."
+ItemName="Flak Shells"
+
+[DominationScoreboard]
+FragGoal="Score Limit:"
 
 [TFemale1Bot]
 MenuName="Female Commando"
 
-[LadderChal]
-MapTitle[0]="Phobos Moon"
-MapTitle[1]="Morpheus"
-MapTitle[2]="Zeto Station"
-MapTitle[3]="HyperBlast"
-MapDescription[0]="This Martian space station is caught between Mars and it's satellite Phobos, resulting in a chaotic rotation. Fortunately, the gravity generators are working well enough to lend a fast paced rhythm to deathmatch."
-MapDescription[1]="LMC knew they had found an excellent arena at the very top of a newly constructed Galaxyscraper SuperStructure. Thanks to the modern miracle of super tensile solids, these three buildings reach a staggering 12 miles high at their pinnacle. The thin atmosphere and reduced influence of Earth's gravity provide an interesting test of the tournament athlete's ability to adapt and conquer in extreme environments."
-MapDescription[2]="Liandri Corp., in an attempt to recoup financial losses from a failed research station on the arctic moon of Coret, has converted this frozen outpost into a Tournament arena."
-MapDescription[3]="Thanks to Magnetic Anti-Vacuum Resonance technology, combatants are able to battle outside of Xan's 'HyperBlast' ArenaShip for an extended period of time. Use extreme caution though, one mistake and you'll find yourself floating in space."
+[TMale1Bot]
+MenuName="Male Commando"
 
-[LadderCTFDemo]
-MapTitle[0]="CTF Tutorial"
-MapTitle[1]="Coret Center"
-MapDescription[0]="Learn the basic rules and systems of Capture the Flag in this special training environment. Test your skills against an untrained enemy team before entering the tournament proper."
-MapDescription[1]="Built into a mountaintop on the Coret moon, this facility was once the waypoint between the Interstellar zonegate in orbit over the moon and the Zeto Research Station located half the moon away in the frozen wastes."
+[TMale2Bot]
+MenuName="Male Soldier"
+
+[TFemale2Bot]
+MenuName="Female Soldier"
 
 [RifleShell]
 PickupMessage="You got a rifle round."
@@ -1738,6 +1763,14 @@ Bio[1]="Rather than face execution at the hands of the Mars Prison Tribunal, Bot
 Bio[2]="Kregore fought with the 47th Mechanized Imperial during the First Necris Invasion. He is a distinguished veteran of modern military operations. Although his skills tend toward the tactical, he is, nonetheless, an excellent hand to hand fighter."
 Bio[3]="Skirge is a ruthless murderer and he wouldn't want it any other way. This guy has his wires crossed...deriving pleasure from pain and vice versa. Probably the nastiest mother you'll ever meet."
 
+[RatedMatchDM9G]
+BotNames[0]="Reaper"
+BotNames[1]="Loque"
+BotClassifications[0]="Classified: L9"
+BotClassifications[1]="Necris Phayder"
+Bio[0]="No profile available. Level 9 security clearance required."
+Bio[1]="Loque is a suspected Phayder captured snooping around the Io Directorship buildings. The Phayder have become more active as of late and are believed to be responsible for at least 6 tac-nuke bombings against NEG installations in the past month."
+
 [RatedMatchDM9]
 BotNames[0]="Arys"
 BotNames[1]="Blake"
@@ -1771,6 +1804,23 @@ Bio[1]="The Tournament has a don't ask-don't tell policy on 'enhancement stimula
 Bio[2]="Anna is an ex-circus performer who is forced into the tourney for financial reasons and she's none-too-happy about it. As a result, she loves the Ripper because she can juggle her opponents in the air with its explosive alternate fire."
 Bio[3]="Suckered into competing in the tournament by his former employers at Liandri Corp., this poor ex-miner stands no chance of winning the tournament. He is lost in despair and will do anything to kill an enemy, regardless of the damage to himself."
 Bio[4]="Captured and forced into the slave trade, Tajheri made a daring escape and was later picked up by the NEG police and forced to fight in the tourney. She has little fighting experience and will be happy to find any gun at all."
+
+[RatedMatchDM7G]
+BotNames[0]="Dominator"
+BotNames[1]="Baetal"
+BotNames[2]="Skrilax"
+BotNames[3]="Reaper"
+BotNames[4]="Berserker"
+BotClassifications[0]="Classified: L9"
+BotClassifications[1]="Classified: L9"
+BotClassifications[2]="Classified: L9"
+BotClassifications[3]="Classified: L9"
+BotClassifications[4]="Classified: L9"
+Bio[0]="No profile available. Level 9 security clearance required."
+Bio[1]="No profile available. Level 9 security clearance required."
+Bio[2]="No profile available. Level 9 security clearance required."
+Bio[3]="No profile available. Level 9 security clearance required."
+Bio[4]="No profile available. Level 9 security clearance required."
 
 [RatedMatchDM7]
 BotNames[0]="Hijinxs"
@@ -1958,97 +2008,47 @@ Bio[2]="A warrior slave. Member of 'The Corrupt,' a group of reprogrammed warrio
 Bio[3]="A warrior slave. Member of 'The Corrupt,' a group of reprogrammed warriors who fight for the entertainment of Xan Kriegor."
 Bio[4]="A warrior slave. Member of 'The Corrupt,' a group of reprogrammed warriors who fight for the entertainment of Xan Kriegor."
 
-[LadderCTFGOTY]
-MapTitle[10]="Hydro Bases"
-MapTitle[11]="Orbital Station"
-MapDescription[10]="This enormous hydroelectric plant used to power the colonies on Vesuvius 9 until a mysterious virus killed everyone off.  Now that a few years have passed, Liandri official have declared the plant safe for combat (safe is relative to Liandri officials)."
-MapDescription[11]="The interior of this dual-sided space station may appear complete, but much functionality was never completed when funding ran out due to corrupt contractors and irresponsible administrators.  As usual, the savvy Liandri location scouts caught wind of this and picked the station up at a discount for inclusion in the tourney."
+[LadderDOMDemo]
+MapTitle[0]="DOM Tutorial"
+MapTitle[1]="Tomb of Sesmar"
+MapDescription[0]="Learn the basic rules and systems of Domination in this special training environment. Test your skills against an untrained enemy team before entering the tournament proper."
+MapDescription[1]="Despite worldwide protests, this historical landmark is now owned by Liandri. Jerl Liandri, President Liandri Mining Corporation: 'We owe it to the people to ensure quality cultural events. We won't settle for less.'"
 
-[LadderDMGOTY]
-MapTitle[7]="Arcane Temple"
-MapTitle[8]="Grinder"
-MapTitle[9]="Malevolence"
-MapTitle[10]="Koos Galleon"
-MapTitle[11]="Tempest"
-MapTitle[12]="Shrapnel"
-MapTitle[13]="Liandri Core"
-MapTitle[14]="Conveyor"
-MapTitle[15]="Peak Monastery"
-MapDescription[7]="The Nali, an ancient race of four armed aliens, constructed this hidden temple to worship their Gods in secrecy when they were oppressed by the vicious Skaarj aliens.  Unfortunately for the Nali, the Skaarj eventually located the temple and systematically slaughtered every inhabitant."
-MapDescription[8]="A former Liandri smelting facility, this complex has proven to be one of the bloodiest arenas for tournament participants. Lovingly called the Heavy Metal Grinder, those who enter can expect nothing less than brutal seek and destroy action."
-MapDescription[9]="This small facility is well suited for testing rising tournament favorites in one-on-one combat."
-MapDescription[10]="The indigenous people of Koos World are waterborne and find there to be no more fitting an arena than this ancient transport galleon."
-MapDescription[11]="The Tempest Facility was built specifically for the Tournament. It was designed strictly for arena combat, with multi-layered areas and tiny hiding spots. It is a personal training arena of Xan Kriegor and sits high above the sprawling Reconstructed New York City."
-MapDescription[12]="Tournament coordinators love burnt out factories, foundries, and warehouses because of the natural height and architectural hazards they provide. With the original name of this burnt-out facility long forgotten, the contestants have morbidly nicknamed this place 'Shrapnel'."
-MapDescription[13]="A textbook Liandri ore processing facility located at Earth's Mohorovicic discontinuity roughly below Mexico. Phased ion shields hold back the intense heat and pressure characteristic of deep lithosphere mining."
-MapDescription[14]="This refinery makes for a particularly well balanced arena. A multilevel central chamber keeps fighters on their toes while the nearby smelting tub keeps them toasty."
-MapDescription[15]="Originally built by the Nipi Monks in Nepal to escape moral degradation, this serene and beautiful place once called for meditation; until Liandri acquired it for perfect tournament conditions."
+[LadderDMDemo]
+MapTitle[0]="DM Tutorial"
+MapTitle[1]="Turbine"
+MapTitle[2]="Phobos Moon"
+MapTitle[3]="Morpheus"
+MapTitle[4]="Tempest"
+MapDescription[0]="Learn the basic rules of Deathmatch in this special training environment. Test your skills against an untrained enemy before entering the tournament proper."
+MapDescription[1]="A decaying water-treatment facility that has been purchased for use in the Tourney, the Turbine Facility offers an extremely tight and fast arena for combatants which ensures that there is no running, and no hiding, from certain death."
+MapDescription[2]="This Martian space station is caught between Mars and it's satellite Phobos, resulting in a chaotic rotation. Fortunately, the gravity generators are working well enough to lend a fast paced rhythm to deathmatch."
+MapDescription[3]="LMC knew they had found an excellent arena at the very top of a newly constructed Galaxyscraper SuperStructure. Thanks to the modern miracle of super tensile solids, these three buildings reach a staggering 12 miles high at their pinnacle. The thin atmosphere and reduced influence of Earth's gravity provide an interesting test of the tournament athlete's ability to adapt and conquer in extreme environments."
+MapDescription[4]="The Tempest Facility was built specifically for the Tournament. It was designed strictly for arena combat, with multi-layered areas and tiny hiding spots. It is a personal training arena of Xan Kriegor and sits high above the sprawling Reconstructed New York City."
 
-[RatedTeamInfo7]
-TeamName="Red Claw"
-TeamBio="The N.E.G. has long recognized the superiority of the Skaarj warrior as a military fighting machine, as was made clear in the brutal Human-Skaarj wars.  The Skaarj Hybrid is the result of secret military genetic research using both human and Skaarj DNA performed after the capture of a Skaarj scout ship. If proven in Tournament battle, the Hybrids shall become a leading force in ground based ops."
-BotNames[0]="Dominator"
-BotNames[1]="Berserker"
-BotNames[2]="Guardian"
-BotNames[3]="Devastator"
-BotNames[4]="Pestilence"
-BotNames[5]="Plague"
-BotClassifications[0]="Classified: L9"
-BotClassifications[1]="Classified: L9"
-BotClassifications[2]="Classified: L9"
-BotClassifications[3]="Classified: L9"
-BotClassifications[4]="Classified: L9"
-BotClassifications[5]="Classified: L9"
-BotBio[0]="No profile available. Level 9 security clearance required."
-BotBio[1]="No profile available. Level 9 security clearance required."
-BotBio[2]="No profile available. Level 9 security clearance required."
-BotBio[3]="No profile available. Level 9 security clearance required."
-BotBio[4]="No profile available. Level 9 security clearance required."
-BotBio[5]="No profile available. Level 9 security clearance required."
+[LadderCTFDemo]
+MapTitle[0]="CTF Tutorial"
+MapTitle[1]="Coret Center"
+MapDescription[0]="Learn the basic rules and systems of Capture the Flag in this special training environment. Test your skills against an untrained enemy team before entering the tournament proper."
+MapDescription[1]="Built into a mountaintop on the Coret moon, this facility was once the waypoint between the Interstellar zonegate in orbit over the moon and the Zeto Research Station located half the moon away in the frozen wastes."
 
-[RatedMatchDM9G]
-BotNames[0]="Reaper"
-BotNames[1]="Loque"
-BotClassifications[0]="Classified: L9"
-BotClassifications[1]="Necris Phayder"
-Bio[0]="No profile available. Level 9 security clearance required."
-Bio[1]="Loque is a suspected Phayder captured snooping around the Io Directorship buildings. The Phayder have become more active as of late and are believed to be responsible for at least 6 tac-nuke bombings against NEG installations in the past month."
+[HealthVial]
+PickupMessage="You picked up a Health Vial +"
+ItemName="Health Vial"
 
-[RatedMatchDM7G]
-BotNames[0]="Dominator"
-BotNames[1]="Baetal"
-BotNames[2]="Skrilax"
-BotNames[3]="Reaper"
-BotNames[4]="Berserker"
-BotClassifications[0]="Classified: L9"
-BotClassifications[1]="Classified: L9"
-BotClassifications[2]="Classified: L9"
-BotClassifications[3]="Classified: L9"
-BotClassifications[4]="Classified: L9"
-Bio[0]="No profile available. Level 9 security clearance required."
-Bio[1]="No profile available. Level 9 security clearance required."
-Bio[2]="No profile available. Level 9 security clearance required."
-Bio[3]="No profile available. Level 9 security clearance required."
-Bio[4]="No profile available. Level 9 security clearance required."
+[HealthPack]
+PickupMessage="You picked up the Big Keg O' Health +"
+ItemName="Super Health Pack"
 
-[RatedTeamInfo8]
-TeamName="Iron Skull"
-TeamBio="The N.E.G. has long recognized the superiority of the Skaarj warrior as a military fighting machine, as was made clear in the brutal Human-Skaarj wars.  The Skaarj Hybrid is the result of secret military genetic research using both human and Skaarj DNA performed after the capture of a Skaarj scout ship. If proven in Tournament battle, the Hybrids shall become a leading force in ground based ops."
-BotNames[0]="Reaper"
-BotNames[1]="Baetal"
-BotNames[2]="Pharoh"
-BotNames[3]="Skrilax"
-BotNames[4]="Anthrax"
-BotNames[5]="Entropy"
-BotClassifications[0]="Classified: L9"
-BotClassifications[1]="Classified: L9"
-BotClassifications[2]="Classified: L9"
-BotClassifications[3]="Classified: L9"
-BotClassifications[4]="Classified: L9"
-BotClassifications[5]="Classified: L9"
-BotBio[0]="No profile available. Level 9 security clearance required."
-BotBio[1]="No profile available. Level 9 security clearance required."
-BotBio[2]="No profile available. Level 9 security clearance required."
-BotBio[3]="No profile available. Level 9 security clearance required."
-BotBio[4]="No profile available. Level 9 security clearance required."
-BotBio[5]="No profile available. Level 9 security clearance required."
+[EClip]
+PickupMessage="You picked up a clip."
+ItemName="Clip"
+
+[doubleenforcer]
+ItemName="Double Enforcers"
+
+[Translocator]
+WeaponDescription="Classification: Personal Teleportation Device\n\nPrimary Fire: Launches the destination module.  Throw the module to the location you would like to teleport to.\n\nSecondary Fire: Activates the translocator and teleports the user to the destination module.\n\nTechniques: Throw your destination module at another player and then activate the secondary fire, and you will telefrag your opponent!  If you press your primary fire button when activating your translocator with the secondary fire, the last weapon you had selected will automatically return once you have translocated."
+DeathMessage="%k telefragged %o!"
+PickupMessage="You got the Translocator Source Module."
+ItemName="Translocator"

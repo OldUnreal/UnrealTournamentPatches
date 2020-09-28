@@ -19,12 +19,12 @@ Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Desc
 ESCMessage="Pulsa ESC para comenzar"
 
 [EndgameHud]
-Message1="La nave de fuga Skaarj ha conseguido escapar de la atracción gravitatoria del planeta. Sin embargo, te has quedado sin combustible y estás a la deriva."
+Message1="La nave de fuga Skaarj ha conseguido escapar de la atracción gravitatoria del planeta... por muy poco. Sin embargo, te has quedado sin combustible y estás a la deriva."
 Message2="Has escapado de donde la mayoría perecen. Sonríes en soledad: ¡han pasado tantas cosas...! Sin embargo, es tan poco lo que ha cambiado..."
 Message3="Antes del aterrizaje forzoso, estabas en una celda diminuta. Ahora vuelves a encontrarte en los confines de una prisión."
-Message4="Pero confías en que, al final, alguien eventualmente encontrará tu pequeña nave."
-Message5="Hasta entonces, lo único que puedes hacer es alimentar tus esperanzas mientras sigues desplazándote sin rumbo fijo."
-Message6="Continuará..."
+Message4="Sin embargo confías en que, al final, alguien eventualmente encontrará tu pequeña nave."
+Message5="Hasta entonces, solo puedes esperar y vagar."
+Message6="Presiona Escape para reiniciar"
 
 [KingOfTheHill]
 ClassCaption="Rey de la Colina"
@@ -107,7 +107,7 @@ M_NoRoom="No hay espacio para activar el Campo de Fuerza."
 PickupMessage="Has recogido el Campo de Fuerza"
 ItemName="Campo de Fuerza"
 
-[Razorjack]
+[RazorJack]
 DeathMessage="%k le pegó un buen tajo a %o con el %w."
 PickupMessage="Tienes el Lanzacuchillas"
 ItemName="Lanzacuchillas"

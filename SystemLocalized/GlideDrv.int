@@ -5,4 +5,4 @@ Preferences=(Caption="3dfx Glide Support",Parent="Rendering",Class=GlideDrv.Glid
 [GlideRenderDevice]
 ClassCaption="3dfx Glide Support"
 AskInstalled="Do you have a 3dfx card installed?"
-AskUse="Do you want Unreal to use your 3dfx card?"
+AskUse="Do you want Unreal Tournament to use your 3dfx card?"

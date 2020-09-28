@@ -1,5 +1,5 @@
 ﻿[LevelInfo0]
-Title="Cybrosis ]["
+Title="Central Cybrosis ]["
 IdealPlayerCount="3-8"
 
 [ControlPoint0]
@@ -15,8 +15,8 @@ PointName="Lejano"
 DamageString="%K cometió un error electrificante."
 
 [LevelSummary]
-Title="Cybrosis ]["
+Title="Central Cybrosis ]["
 IdealPlayerCount="3-8"
 
 [SpecialEvent3]
-DamageString="%K no pudo llegar al Amplificador de Daños."
+DamageString="%K no pudo quedarse con el Amplificador de Daños."

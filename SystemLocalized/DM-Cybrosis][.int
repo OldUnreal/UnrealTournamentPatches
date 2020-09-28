@@ -1,5 +1,5 @@
 ﻿[LevelInfo0]
-Title="Cybrosis ]["
+Title="Cybrosis Central ]["
 IdealPlayerCount="3-8"
 
 [ControlPoint0]
@@ -15,7 +15,7 @@ PointName="Far Point"
 DamageString="%K made a shocking mistake"
 
 [LevelSummary]
-Title="Cybrosis ]["
+Title="Cybrosis Central ]["
 IdealPlayerCount="3-8"
 
 [SpecialEvent3]

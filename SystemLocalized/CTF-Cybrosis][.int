@@ -1,5 +1,5 @@
 ﻿[LevelInfo0]
-Title="Cybrosis ]["
+Title="Cybrosis Central ]["
 IdealPlayerCount="4-12"
 
 [ZoneInfo24]
@@ -72,7 +72,7 @@ ZoneName="Underpassage Blue"
 DamageString="%K made a shocking mistake"
 
 [LevelSummary]
-Title="Cybrosis ]["
+Title="Cybrosis Central ]["
 IdealPlayerCount="4-12"
 
 [SpecialEvent11]

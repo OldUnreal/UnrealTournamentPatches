@@ -291,7 +291,7 @@ CategoryHelp="Select a category of gametype!"
 GeneralText="Unreal Tournament"
 
 [UTBotConfigClient]
-BalanceTeamsText="Balance Teams"
+BalanceTeamsText="Bots Balance Teams"
 BalanceTeamsHelp="If this setting is checked, bots will automatically change teams to ensure there is a balanced number of members on each team."
 DumbDownText="Enhanced Team AI"
 DumbDownHelp="Enable enhanced team artificial intelligence features for the bots in this game."

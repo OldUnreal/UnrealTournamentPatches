@@ -1,7 +1,7 @@
 ﻿;
 ; Language:  Spanish
-; Author(s): Sebastian Kaufel (original) - Luciano "Neon_Knight" Balducchi (spanish)
-; Date:      20200609
+; Author(s): Sebastian Kaufel (original) - OldUnreal Community (spanish)
+; Date:      20200922
 ;
 [Public]
 Object=(Name=Cluster.ClusterAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem)
@@ -31,12 +31,12 @@ NoDigitalMusicCommand="Soporte de música digital desactivado según configuraci
 ; Serialized to output device for each CD music command in case UseCDMusic is disabled.
 NoCDMusicCommand="Soporte de música por CD desactivado según configuración."
 ; Serialized to log in case a non mono Sound is encountered. First format option is the FullName of the Sound and the second its number of channels.
-MonoSoundExpected="%s tiene %i canales."
+MonoSoundExpected="%ls tiene %i canales."
 
 [Errors]
 ; For some reasons FMOD fails straight ahead. First format option is an FMOD supplied english error description.
-SystemCreate="Falla al crear objeto de sistema FMOD: %s."
+SystemCreate="Falla al crear objeto de sistema FMOD: %ls."
 ; Displayed on a message box in case fmod.dll is available, Cluster.dll loads with it, but is a version prior to the one Cluster was build with.
-Version="Cluster necesita, como mínimo, la versión de librería FMOD %s, sin embargo se ha hallado %s."
+Version="Cluster necesita, como mínimo, la versión de librería FMOD %ls, sin embargo se ha hallado la versión %ls."
 ; For some reasons FMOD fails at basic init. First format option is an FMOD supplied english error description.
-SystemInit="Falla al inicializar el objeto de sistema FMOD: %s."
+SystemInit="Falla al inicializar el objeto de sistema FMOD: %ls."

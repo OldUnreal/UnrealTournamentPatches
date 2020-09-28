@@ -7,29 +7,29 @@ Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Descriptio
 Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Reliquia: Venganza,Una reliquia mágica que castiga a los asesinos del portador con una gran explosión.")
 
 [RelicInventory]
-PickupMessage="Has recogido una Reliquia nula"
+PickupMessage="¡Has recogido una Reliquia nula!"
 ItemName="Reliquia"
 
 [RelicRedemptionInventory]
-PickupMessage="Has recogido la Reliquia de la Redención"
+PickupMessage="¡Has recogido la Reliquia de la Redención!"
 ItemName="Reliquia de la Redención"
 
 [RelicStrengthInventory]
-PickupMessage="Has recogido la Reliquia de la Fuerza"
+PickupMessage="¡Has recogido la Reliquia de la Fuerza!"
 ItemName="Reliquia de la Fuerza"
 
 [RelicDeathInventory]
-PickupMessage="Has recogido la Reliquia de la Venganza"
+PickupMessage="¡Has recogido la Reliquia de la Venganza!"
 ItemName="Reliquia de la Venganza"
 
 [RelicDefenseInventory]
-PickupMessage="Has recogido la Reliquia de la Defensa"
+PickupMessage="¡Has recogido la Reliquia de la Defensa!"
 ItemName="Reliquia de la Defensa"
 
 [RelicSpeedInventory]
-PickupMessage="Has recogido la Reliquia de la Velocidad"
+PickupMessage="¡Has recogido la Reliquia de la Velocidad!"
 ItemName="Reliquia de la Velocidad"
 
 [RelicRegenInventory]
-PickupMessage="Has recogido la Reliquia de la Regeneración"
+PickupMessage="¡Has recogido la Reliquia de la Regeneración!"
 ItemName="Reliquia de la Regeneración"

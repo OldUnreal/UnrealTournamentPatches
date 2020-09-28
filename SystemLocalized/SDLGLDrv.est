@@ -2,11 +2,11 @@
 Object=(Name=SDLGLDrv.SDLGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=libGL.so.1)
 Preferences=(Caption="Soporte para OpenGL SDL",Parent="Reproducción",Class=SDLGLDrv.SDLGLRenderDevice,Immediate=True)
 
+[Errors]
+NoFindGL="No se puede encontrar el controlador de OpenGL %ls"
+MissingFunc="No se encuentra la función de OpenGL %ls (%i)"
+ResFailed="No se ha podido establecer la resolución"
+
 [SDLGLRenderDevice]
 ClassCaption="Soporte para OpenGL SDL"
-AskUse="¿Quieres que Unreal use aceleración SDL OpenGL?"
-
-[Errors]
-NoFindGL="No se puede encontrar el controlador de OpenGL %s"
-MissingFunc="No se encuentra la función de OpenGL %s (%i)"
-ResFailed="No se ha podido establecer la resolución"
+AskUse="¿Quieres que Unreal Tournament use aceleración SDL OpenGL?"

@@ -1,0 +1,64 @@
+﻿[LevelInfo0]
+Title="Suelo Oceánico "Estación 5""
+IdealPlayerCount="8-10"
+LevelEnterText="¡Controla la base submarina!"
+
+[ZoneInfo5]
+ZoneName="Área Central"
+
+[ZoneInfo3]
+ZoneName="Área Principal de Desembarque"
+
+[ZoneInfo4]
+ZoneName="Área Secundaria de Atraque"
+
+[ZoneInfo1]
+ZoneName="Submarino"
+
+[ZoneInfo2]
+ZoneName="Centro de Operaciones"
+
+[ZoneInfo7]
+ZoneName="Corredor"
+
+[SpecialEvent0]
+Message="¡La terminal 1 ha sido inutilizada!"
+
+[FortStandard0]
+FortName="La Terminal 3"
+DestroyedMessage="¡ha sido destruida!"
+
+[SpecialEvent10]
+Message="¡La terminal 4 ha sido inutilizada!"
+
+[FortStandard1]
+FortName="La Terminal 1"
+DestroyedMessage="¡ha sido destruida!"
+
+[FortStandard2]
+FortName="La Terminal 2"
+DestroyedMessage="¡ha sido destruida!"
+
+[FortStandard3]
+FortName="La Terminal 4"
+DestroyedMessage="¡ha sido destruida!"
+
+[LevelSummary]
+Title="Suelo Oceánico "Estación 5""
+IdealPlayerCount="8-10"
+LevelEnterText="¡Controla la base submarina!"
+
+[AssaultInfo0]
+ObjDesc[0]="Naden hasta la base ubicada debajo del submarino. Dentro de la base hay 4 terminales con teclados conectados en ellas que deben ser destruidas para inutilizar la base. Destruyan la terminal 1. No existe un orden fijo para destruir las terminales."
+ObjDesc[1]="Destruyan la terminal 2. No existe un orden fijo para destruir las terminales."
+ObjDesc[2]="Destruyan la terminal 3. No existe un orden fijo para destruir las terminales."
+ObjDesc[3]="Destruyan la terminal 4. No existe un orden fijo para destruir las terminales."
+
+[ZoneInfo6]
+ZoneName="Zona del Elevador"
+
+[SpecialEvent15]
+Message="¡La terminal 3 ha sido inutilizada!"
+
+[SpecialEvent5]
+Message="¡La terminal 2 ha sido inutilizada!"

@@ -37,7 +37,7 @@ Object=(Name=tskmskins.PitF5Baetal,Class=Texture)
 Object=(Name=tskmskins.PitF5Pharoh,Class=Texture)
 Object=(Name=tskmskins.PitF5Skrilax,Class=Texture)
 
-Object=(Name=tskmskins.MekS,Class=Texture,Description="Cyborg  Trooper")
+Object=(Name=tskmskins.MekS,Class=Texture,Description="Cyborg Trooper")
 Object=(Name=tskmskins.MekS2,Class=Texture)
 Object=(Name=tskmskins.MekS2Firewall,Class=Texture,Description="Firewall")
 Object=(Name=tskmskins.MekS2Disconnect,Class=Texture,Description="Disconnect")

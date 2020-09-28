@@ -19,7 +19,7 @@ ZoneName="Fuera del Primer Vagón"
 ZoneName="Tanque de Ácido"
 
 [SpecialEvent0]
-DamageString="%s se ha caído entre los vagones. Eso debió doler..."
+DamageString="%ls ha caído entre los vagones. Eso debió doler..."
 
 [FortStandard0]
 FortName="La Cabina de Control"
@@ -34,7 +34,7 @@ FortName="El Primer Vagón"
 DestroyedMessage="¡ha sido tomado por los atacantes!"
 
 [SpecialEvent1]
-DamageString="%s se comió una hélice del helicóptero..."
+DamageString="%ls se comió una hélice del helicóptero..."
 
 [FortStandard4]
 FortName="El Interruptor de la Cabina de Control"
@@ -47,7 +47,7 @@ Message="¡Los atacantes están en el tejado!"
 LocationName="Plataforma de Pilares"
 
 [locationid6]
-LocationName="Plataforma de Tanques"
+LocationName="Plataforma de Tanque"
 
 [locationid7]
 LocationName="Plataforma Vacía"
@@ -59,7 +59,7 @@ LocationName="Tanque de Ácido"
 ObjDesc[0]="Alcancen la parte delantera del tren. En el nivel superior del primer vagón encontrarán un interruptor que abre la puerta de la cabina de control que hay debajo. Activen el interruptor."
 ObjDesc[1]="Bajen a la sala de control. Allí encontrarán una palanca que neutralizará los controles del tren."
 
-[LevelInfo0]
+[LevelSummary]
 Title="A Toda Velocidad"
 IdealPlayerCount="4-10"
 LevelEnterText="¡Controla el tren! ¡¡SIN COMPASIóN!!"

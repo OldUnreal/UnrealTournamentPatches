@@ -125,6 +125,7 @@ ServerText="Server"
 
 [UMenuOptionsWindow]
 WindowTitle="Preferences"
+WindowWidth=300
 
 [UMenuWeaponPriorityListArea]
 AutoSwitchText="Auto-Switch Weapons"

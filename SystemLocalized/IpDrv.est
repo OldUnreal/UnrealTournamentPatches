@@ -10,34 +10,38 @@ Preferences=(Caption="Señalizador de Servidor",Parent="Juego en Red",Class=IpDr
 
 [UpdateServerCommandlet]
 HelpCmd=updateserver
-HelpOneLiner="Envía pedidos de autoactualización al Motor de Unreal."
-HelpUsage="updateserver [-opción...] [param=valor]"
+HelpWeblink="http://www.oldunreal.com"
+HelpOneLiner="Envía pedidos de auto-actualización al Motor de Unreal."
+HelpUsage="updateserver [-opción...] [parámetro=valor]"
 HelpParm[0]="ConfigFile"
 HelpDesc[0]="Archivo de configuración a ser utilizado. Por defecto: UpdateServer.ini."
 
 [MasterServerCommandlet]
 HelpCmd=masterserver
+HelpWeblink="http://www.oldunreal.com"
 HelpOneLiner="Mantiene una lista maestra de servidores."
-HelpUsage="masterserver [-opción...] [param=valor]"
+HelpUsage="masterserver [-opción...] [parámetro=valor]"
 HelpParm[0]="ConfigFile"
 HelpDesc[0]="Archivo de configuración a ser utilizado. Por defecto: MasterServer.ini."
 
 [CompressCommandlet]
 HelpCmd=compress
+HelpWeblink="http://www.oldunreal.com"
 HelpOneLiner="Comprime un paquete de Unreal para la autodescarga. Se creará un archivo de extensión .uz."
-HelpUsage="compress Archivo1 [Archivo2 [Archivo3 ...]]"
-HelpParm[0]="Archivo*"
+HelpUsage="compress archivo1 [archivo2 [archivo3 ...]]"
+HelpParm[0]="archivo*"
 HelpDesc[0]="Comodines o nombres de archivo a ser comprimidos."
 
 [DecompressCommandlet]
 HelpCmd=decompress
+HelpWeblink="http://www.oldunreal.com"
 HelpOneLiner="Descomprime un archivo comprimido con ucc compress."
-HelpUsage="decompress archivoComprimido"
-HelpParm[0]="archivoComprimido"
+HelpUsage="decompress archivo_comprimido"
+HelpParm[0]="archivo_comprimido"
 HelpDesc[0]="El archivo .uz a descomprimir."
 
 [TcpNetDriver]
 ClassCaption="Partida en Red TCP/IP"
 
-[ServerUplink]
-ClassCaption="Señalizador de servidor de LAN"
+[UdpBeacon]
+ClassCaption="Señalizador de Servidor de LAN"

@@ -1,6 +1,6 @@
-﻿[public]
-Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Dorado")
-Object=(Name=UMenu.UMenuBlueLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Azul")
+﻿[Public]
+Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Oro")
+Object=(Name=UMenu.UMenuBlueLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Hielo")
 Object=(Name=UMenu.UMenuMetalLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Metal")
 
 [UMenuBotmatchClientWindow]
@@ -125,6 +125,7 @@ ServerText="Servidor"
 
 [UMenuOptionsWindow]
 WindowTitle="Preferencias"
+WindowWidth=300
 
 [UMenuWeaponPriorityListArea]
 AutoSwitchText="Autocambiar Armas"
@@ -560,12 +561,12 @@ DefaultsHelp="Restablecer los valores originales de todos los controles."
 JoystickText="Mando"
 JoyXText="Eje X"
 JoyXHelp="Selecciona la respuesta del eje izquierda-derecha de tu mando."
-JoyXOptions(0]="Desplazarse a la izda./dcha."
-JoyXOptions(1]="Girar a la izda./dcha."
+JoyXOptions[0]="Desplazarse a la izda./dcha."
+JoyXOptions[1]="Girar a la izda./dcha."
 JoyYText="Eje Y"
 JoyYHelp="Selecciona la respuesta del eje adelante-atrás de tu mando."
-JoyYOptions(0]="Avanzar/Retroceder"
-JoyYOptions(1]="Mirar hacia arriba/abajo"
+JoyYOptions[0]="Avanzar/Retroceder"
+JoyYOptions[1]="Mirar hacia arriba/abajo"
 
 [UMenuGameRulesBase]
 FragText="Bajas Enemigas"
@@ -620,7 +621,7 @@ NetSpeedHelp="Selecciona la velocidad que más se acerque a tu conexión a inter
 NetSpeeds[0]="Lenta (Módem 28.8 - 56K)"
 NetSpeeds[1]="Rápida (ISDN)"
 NetSpeeds[2]="Más Rápida (Cable, xDSL)"
-NetSpeeds[3]="Red de área local (LAN)"
+NetSpeeds[3]="Red de Área Local (LAN)"
 
 [UMenuInputOptionsClientWindow]
 AutoAimText="Autoapuntar"
@@ -675,7 +676,7 @@ MessageBeepText="Pitido de Mensaje"
 MessageBeepHelp="Si se activa, oirás un pitido cada vez que recibas un mensaje de charla."
 
 [UMenuNewGameClientWindow]
-SkillText="Nivel Dificultad:"
+SkillText="Dificultad:"
 Skills[0]="Fácil"
 Skills[1]="Medio"
 Skills[2]="Difícil"
@@ -716,7 +717,7 @@ ConsoleHelp="Esta opción abre la consola de Unreal. Puedes utilizarla para intr
 TimeDemoName="Estadísticas de Demostración de T&iempo"
 TimeDemoHelp="Activa las estadísticas de demostración de tiempo para medir tu velocidad de visualización."
 LogName="Mostrar Registro (&L)"
-LogHelp="Muestra la ventana de registro de comandos de Unreal Tournament."
+LogHelp="Muestra la ventana de registro de Unreal Tournament."
 
 [UMenuSaveGameClientWindow]
 CantSave="Imposible Guardar: estás muerto."

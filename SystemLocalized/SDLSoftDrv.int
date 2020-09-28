@@ -2,9 +2,9 @@
 Object=(Name=SDLSoftDrv.SDLSoftwareRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=libSDL.so)
 Preferences=(Caption="SDL Software Support",Parent="Rendering",Class=SDLSoftDrv.SDLSoftwareRenderDevice,Immediate=True)
 
-[SDLSoftwareRenderDevice]
-ClassCaption="SDL Software Support"
-AskUse="Do you want Unreal to use your SDL Software RenderDevice?"
-
 [Errors]
 ResFailed="Failed to set resolution"
+
+[SDLSoftwareRenderDevice]
+ClassCaption="SDL Software Support"
+AskUse="Do you want Unreal Tournament to use your SDL Software RenderDevice?"

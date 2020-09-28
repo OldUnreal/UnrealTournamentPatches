@@ -4,7 +4,7 @@ Preferences=(Caption="Imagen",Parent="Opciones Avanzadas",Class=XDrv.XClient,Imm
 Preferences=(Caption="Mando",Parent="Opciones Avanzadas",Class=XDrv.XClient,Immediate=True,Category=Joystick)
 
 [Errors]
-Failed3D="No se ha podido inicializar el hardware 3D"
+Failed3D="Inicialización del hardware 3D fallida"
 
 [General]
 ViewPersp="Mapa de Perspectiva"

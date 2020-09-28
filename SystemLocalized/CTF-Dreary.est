@@ -21,10 +21,10 @@ ZoneName="Sala Roja Inferior"
 ZoneName="Sala Azul Superior"
 
 [ZoneInfo1]
-ZoneName="Entrada al Ascensor Derecho Rojo"
+ZoneName="Entrada al Ascensor Derecho Azul"
 
 [ZoneInfo3]
-ZoneName="Entrada al Ascensor Derecho Azul"
+ZoneName="Entrada al Ascensor Derecho Rojo"
 
 [ZoneInfo0]
 ZoneName="Entrada al Ascensor Izquierdo Rojo"

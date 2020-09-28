@@ -10,6 +10,7 @@ Preferences=(Caption="Server Beacon",Parent="Networking",Class=IpDrv.UdpBeacon,I
 
 [UpdateServerCommandlet]
 HelpCmd=updateserver
+HelpWeblink="http://www.oldunreal.com"
 HelpOneLiner="Service Unreal Engine auto update requests."
 HelpUsage="updateserver [-option...] [parm=value]"
 HelpParm[0]="ConfigFile"
@@ -17,6 +18,7 @@ HelpDesc[0]="Configuration file to use. Default: UpdateServer.ini."
 
 [MasterServerCommandlet]
 HelpCmd=masterserver
+HelpWeblink="http://www.oldunreal.com"
 HelpOneLiner="Maintain master list of servers."
 HelpUsage="masterserver [-option...] [parm=value]"
 HelpParm[0]="ConfigFile"
@@ -24,6 +26,7 @@ HelpDesc[0]="Configuration file to use. Default: MasterServer.ini."
 
 [CompressCommandlet]
 HelpCmd=compress
+HelpWeblink="http://www.oldunreal.com"
 HelpOneLiner="Compress an Unreal package for auto-downloading. A file with extension .uz will be created."
 HelpUsage="compress File1 [File2 [File3 ...]]"
 HelpParm[0]="Files"
@@ -31,6 +34,7 @@ HelpDesc[0]="The wildcard or file names to compress."
 
 [DecompressCommandlet]
 HelpCmd=decompress
+HelpWeblink="http://www.oldunreal.com"
 HelpOneLiner="Decompress a file compressed with ucc compress."
 HelpUsage="decompress CompressedFile"
 HelpParm[0]="CompressedFile"

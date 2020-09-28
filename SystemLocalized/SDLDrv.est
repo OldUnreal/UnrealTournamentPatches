@@ -7,8 +7,8 @@ Preferences=(Caption="Mando",Parent="Opciones Avanzadas",Class=SDLDrv.SDLClient,
 Failed3D="No se ha podido inicializar el hardware 3D"
 
 [General]
-ViewPersp="Mapa de Perspectiva"
-ViewXY="Mapa de Vista Aérea"
+ViewPersp="Mapa de perspectiva"
+ViewXY="Mapa de vista aérea"
 ViewXZ="Mapa XZ"
 ViewYZ="Mapa YZ"
 ViewOther="Ventana"

@@ -19,7 +19,7 @@ ZoneName="Red Lower Area"
 ZoneName="Blue Lower Area"
 
 [LevelSummary]
-Title="LavaGiant"
+Title="Lava Giant"
 IdealPlayerCount="8-14"
 LevelEnterText="GET THOSE FLAGS!!"
 

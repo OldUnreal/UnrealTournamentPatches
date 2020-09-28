@@ -19,7 +19,7 @@ ZoneName="Outside 1st Car"
 ZoneName="Acid Tank"
 
 [SpecialEvent0]
-DamageString="%s fell in between the cars. That hurts..."
+DamageString="%ls fell in between the cars. That hurts..."
 
 [FortStandard0]
 FortName="The Control Cabin"
@@ -34,7 +34,7 @@ FortName="The CAR 1"
 DestroyedMessage="is about to breached!!"
 
 [SpecialEvent1]
-DamageString="%s ate an helicopter blade..."
+DamageString="%ls ate an helicopter blade..."
 
 [FortStandard4]
 FortName="The Control Cabin Access Switch"

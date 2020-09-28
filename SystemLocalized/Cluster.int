@@ -22,7 +22,7 @@ Exit="Cluster shut down."
 ExitAfterError="Cluster shut down after error."
 ; Serialized to log on init in case -No3dSound switch was used on the commandline which forces Use3dHardware option to be ignored.
 No3dSoundSwitch="-No3dSound switch found. Use3dHardware option will be ignored by Cluster."
-; Cluster will use some heuristics to determine whether it should or should not patch the environment (won\'t patch if Launch is detected in Deus Ex, never on Unreal 227 or UT, etc.).
+; Cluster will use some heuristics to determine whether it should or should not patch the environment (won't patch if Launch is detected in Deus Ex, never on Unreal 227 or UT, etc.).
 ClusterFuck="Cluster injected binary patches for broken audio functionality into Engine package. You can use -NoClusterFuck to disable it."
 
 [Warnings]

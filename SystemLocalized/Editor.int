@@ -18,6 +18,7 @@ Object=(Name=Editor.CompareIntCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.DumpFontInfoCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ListObjectsCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ExecCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Editor.ScriptRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Preferences=(Caption="Editor",Parent="Advanced Options")
 Preferences=(Caption="Advanced",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
 Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
@@ -26,6 +27,7 @@ Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,I
 
 [MasterCommandlet]
 HelpCmd=master
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Build master installer files"
 HelpUsage="master [-option...] [parm=value]..."
 HelpParm[0]="MasterPath"
@@ -37,6 +39,7 @@ HelpDesc[2]="Path for delta-compressed path reference."
 
 [MakeCommandlet]
 HelpCmd=make
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Rebuild UnrealScript packages."
 HelpUsage="make [-option...] [parm=value]..."
 HelpParm[0]="Silent"
@@ -48,6 +51,7 @@ HelpDesc[2]="Clean rebuild (otherwise rebuild is incremental)."
 
 [ConformCommandlet]
 HelpCmd=conform
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Generate conforming binary files"
 HelpUsage="conform existing_file.ext old_file.ext"
 HelpParm[0]="existingfile.ext"
@@ -57,6 +61,7 @@ HelpDesc[1]="Old file to make source file binary compatible with."
 
 [BatchExportCommandlet]
 HelpCmd=batchexport
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Export objects in bulk."
 HelpUsage="batchexport package.ext classname export_ext [path]"
 HelpParm[0]="package.ext"
@@ -88,6 +93,7 @@ HelpDesc[12]="Path to export files to, like C:\MyPath."
 
 [PackageFlagCommandlet]
 HelpCmd=packageflag
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Set package flags in package files."
 HelpUsage="packageflag src.ext [dest.ext <+|->flag [<+|->flag] ...]"
 HelpParm[0]="src.ext"
@@ -109,6 +115,7 @@ HelpDesc[7]="   Unsecure"
 
 [DataRipCommandlet]
 HelpCmd=datarip
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Create a package with Texture, Music and Sound data ripped out."
 HelpUsage="datarip srcpackage.ext dstpackage.ext"
 HelpParm[0]="srcpackage.ext"
@@ -118,6 +125,7 @@ HelpDesc[1]="Destination Package."
 
 [UpdateUModCommandlet]
 HelpCmd=updateumod
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Add, delete, replace or extract files from an umod."
 HelpUsage="updateumod UmodFile Command [Filename]"
 HelpParm[0]="UmodFile"
@@ -139,6 +147,7 @@ HelpDesc[7]="The file to EXTRACT, ADD, DELETE or REPLACE."
 
 [ChecksumPackageCommandlet]
 HelpCmd=checksumpackage
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Display checksum for package file."
 HelpUsage="checksumpackage packagename"
 HelpParm[0]="packagename"
@@ -146,33 +155,33 @@ HelpDesc[0]="The name of the package to checksum."
 
 [StripSourceCommandlet]
 HelpCmd=StripSource
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Strip the script buffers from a package."
 HelpUsage="stripsource packagename"
-HelpWebLink="http://www.oldunreal.com"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to strip sources."
 
 [DumpIntCommandlet]
 HelpCmd=DumpInt
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Dump the language text contents out of a file."
 HelpUsage="dumpint packagename"
-HelpWebLink="http://www.oldunreal.com"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to dump language text of."
 
 [ExportPackageCommandlet]
 HelpCmd=ExportPackage
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Simply export a package contents to .uc files in prior directory."
 HelpUsage="exportpackage packagename"
-HelpWebLink="http://www.oldunreal.com"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to export UC files of."
 
 [CompareIntCommandlet]
 HelpCmd=CompareInt
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
 HelpUsage="compareint packageint miscint"
-HelpWebLink="http://www.oldunreal.com"
 HelpParm[0]="packageint"
 HelpDesc[0]="Main language file."
 HelpParm[1]="miscint"
@@ -180,28 +189,31 @@ HelpDesc[1]="Secondary language file (to edit)."
 
 [ListObjectsCommandlet]
 HelpCmd=listobjects
-HelpOneLiner="Lists Objects in package."
-HelpUsage="listobjects [-s1 -s2 ...] <pkg> [<baseclass>]"
 HelpWebLink="http://www.oldunreal.com"
-HelpParm[0]="-cp"
-HelpDesc[0]="Prints pathname instead of name for Class."
-HelpParm[1]="-op"
-HelpDesc[1]="Prints pathname instead of name for Object."
-HelpParm[2]="-na"
-HelpDesc[2]="Do not align output."
-HelpParm[3]="-ni"
-HelpDesc[3]="Do not indent object hierarchy."
-HelpParm[4]="-nc"
-HelpDesc[4]="Do not display class."
-HelpParm[5]="-co"
-HelpDesc[5]="Just display Object Classes instead of each Object."
-HelpParm[6]="pkg"
-HelpDesc[6]="Package file."
-HelpParm[7]="baseclass"
-HelpDesc[7]="Optional base class of listed objects."
+HelpOneLiner="Lists Objects in package."
+HelpUsage="listobjects [-switch1 [-switch2 [...]]] <package> [<baseclass>]"
+HelpParm[0]="-switch1, -switch2..."
+HelpDesc[0]="Option switches, can be one or more of the following:"
+HelpParm[1]="   -cp"
+HelpDesc[1]="   Prints pathname instead of name for Class."
+HelpParm[2]="   -op"
+HelpDesc[2]="   Prints pathname instead of name for Object."
+HelpParm[3]="   -na"
+HelpDesc[3]="   Do not align output."
+HelpParm[4]="   -ni"
+HelpDesc[4]="   Do not indent object hierarchy."
+HelpParm[5]="   -nc"
+HelpDesc[5]="   Do not display class."
+HelpParm[6]="   -co"
+HelpDesc[6]="   Just display Object Classes instead of each Object."
+HelpParm[7]="pkg"
+HelpDesc[7]="Package file."
+HelpParm[8]="baseclass"
+HelpDesc[8]="Optional base class of listed objects."
 
 [MergeDXTCommandlet]
 HelpCmd=mergedxt
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Merge DXT textures with standard textures."
 HelpUsage="mergedxt srcpath oldpath destpath"
 HelpParm[0]="srcpath"
@@ -213,8 +225,9 @@ HelpDesc[2]="Path for destination files."
 
 [MD5Commandlet]
 HelpCmd=md5
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Manage the Packages.md5 checksums list."
-HelpUsage="md5 [-option] [Filename|Wildcard]"
+HelpUsage="md5 [-option Filename|Wildcard]"
 HelpParm[0]="-a Wildcard"
 HelpDesc[0]="Add all files matching the wildcard to the Packages.md5 list."
 HelpParm[1]="-l [Filename]"
@@ -226,16 +239,32 @@ HelpDesc[3]="Removes the checksum for the all files matching the wildcard from t
 
 [PackageDumpCommandlet]
 HelpCmd=packagedump
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Dump the structure of an Unreal Package to stdout."
 HelpUsage="packagedump [Filename]"
 
 [DumpFontInfoCommandlet]
 HelpCmd=dumpfontinfo
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Dumps information about fonts."
 HelpUsage="dumpfontinfo <pkg>"
-HelpWebLink="http://www.oldunreal.com"
 
 [ExecCommandlet]
 HelpCmd=exec
+HelpWebLink="http://www.oldunreal.com"
 HelpOneLiner="Executes a command file in a minimal editor environment."
 HelpUsage="exec filename"
+
+[ScriptRaysCommandlet]
+HelpCmd=scriptrays
+HelpWebLink="http://www.oldunreal.com"
+HelpOneLiner="Rebuilds script source for a package or class"
+HelpUsage="scriptrays <pkg>[.<cls>] <out_d> [-disassemble|-mugshot]"
+HelpParm[0]="pkg[.cls]"
+HelpDesc[0]="Package or class to rebuild."
+HelpParm[1]="out_d"
+HelpDesc[1]="Output directory."
+HelpParm[2]="-disassemble"
+HelpDesc[2]="Output disassembly instead of code."
+HelpParm[3]="-mugshot"
+HelpDesc[3]="Output declarations instead of code."
