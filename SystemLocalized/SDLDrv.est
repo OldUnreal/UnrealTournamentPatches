@@ -1,7 +1,7 @@
 ﻿[Public]
 Class=(Class=SDLDrv.SDLClient,SuperClass=Engine.Client)
-Preferences=(Caption="Imagen",Parent="Opciones Avanzadas",Class=SDLDrv.SDLClient,Immediate=True,Category=Display)
-Preferences=(Caption="Mando",Parent="Opciones Avanzadas",Class=SDLDrv.SDLClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="SDL",Parent="Imagen",Class=SDLDrv.SDLClient,Immediate=True,Category=Display)
+Preferences=(Caption="SDL",Parent="Mando",Class=SDLDrv.SDLClient,Immediate=True,Category=Joystick)
 
 [Errors]
 Failed3D="No se ha podido inicializar el hardware 3D"
