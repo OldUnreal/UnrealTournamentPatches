@@ -1,7 +1,7 @@
 ﻿[LevelInfo0]
 Title="Penitenciaría Submarina November"
 IdealPlayerCount="8-12"
-LevelEnterText="Entrando en la Penitenciaría Submarina November."
+LevelEnterText="Entrando en la Penitenciaría Submarina Nuclear November."
 
 [ZoneInfo4]
 ZoneName="Penitenciaría Submarina"
@@ -24,7 +24,7 @@ ZoneName="Base Roja"
 [WaterZone5]
 ZoneName="Agua"
 
-[LevelInfo0]
+[LevelSummary]
 Title="Penitenciaría Submarina November"
 IdealPlayerCount="8-12"
-LevelEnterText="Entrando en la Penitenciaría Submarina November."
+LevelEnterText="Entrando en la Penitenciaría Submarina Nuclear November."

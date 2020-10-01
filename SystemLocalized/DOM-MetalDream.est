@@ -36,4 +36,4 @@ IdealPlayerCount="6-12"
 LevelEnterText="Bienvenido al Sueño Metálico"
 
 [SpecialEvent7]
-DamageString="ha sido reducido a cubitos."
+DamageString="reducido a cubitos"

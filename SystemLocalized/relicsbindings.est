@@ -1,5 +1,5 @@
 ﻿[public]
-Object=(Name=RelicsBindings.ExtraRelicsBindings,Class=Class,MetaClass=UTMenu.UTExtraKeyBindings,Description="Reliquias,TArrojar Reliquia")
+Object=(Name=RelicsBindings.ExtraRelicsBindings,Class=Class,MetaClass=UTMenu.UTExtraKeyBindings,Description="Reliquias,Arrojar Reliquia")
 
 [ExtraRelicsBindings]
 SectionName="Reliquias"

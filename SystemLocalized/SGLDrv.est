@@ -5,4 +5,4 @@ Preferences=(Caption="Soporte para PowerVR SGL",Parent="Reproducción",Class=SGL
 [SglRenderDevice]
 ClassCaption="Soporte para PowerVR SGL"
 AskInstalled="¿Tienes una tarjeta PowerVR instalada?"
-AskUse="¿Quieres utilizar tu tarjeta PowerVR con Unreal?"
+AskUse="¿Quieres utilizar tu tarjeta PowerVR con Unreal Tournament?"

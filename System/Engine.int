@@ -1,8 +1,12 @@
-[Public]
-;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+﻿[Public]
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="Audio",Parent="Advanced Options")
+Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="Joystick",Parent="Advanced Options")
 Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
 Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
 Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
@@ -10,164 +14,170 @@ Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Imm
 Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
 Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
 
-[Errors]
-NetOpen=Error opening file
-NetWrite=Error writing to file
-NetRefused=Server refused to send '%s'
-NetClose=Error closing file
-NetDecompressFail=Error decompressing file '%s'
-NetSize=File size mismatch
-NetMove=Error moving file
-NetInvalid=Received invalid file request
-NoDownload=Package '%s' is not downloadable
-DownloadFailed=Downloading package '%s' failed: %s
-RequestDenied=Server requested file from pending level: Denied
-ConnectionFailed=Connection failed
-ChAllocate=Couldn't allocate channel
-NetAlready=Already networking
-NetListen=Listen failed: No linker context available
-LoadEntry=Can't load Entry: %s
-InvalidUrl=Invalid URL: %s
-InvalidLink=Invalid Link: %s
-FailedBrowse=Failed to enter %s: %s
-Listen=Listen failed: %s
-AbortToEntry=Failed; returning to Entry
-ServerOpen=Servers can't open network URLs
-ServerListen=Dedicated server can't listen: %s
-Pending=Pending connect to '%s' failed; %s
-LoadPlayerClass=Failed to load player class
-ServerOutdated=Server's version is outdated
-ClientOutdated=You need to upgrade to the latest patch version
-RejectedByServer=Rejected by server
-MD5ChecksumFailed=Package %s failed an MD5 check.
-
-[Progress]
-CancelledConnect=Cancelled Connect Attempt
-RunningNet=%s: %s (%i players)
-NetReceiving=Receiving '%s': %i/%i
-NetReceiveOk=Successfully received '%s'
-NetSend=Sending '%s'
-NetSending=Sending '%s': %i/%i
-Connecting=Connecting...
-Listening=Listening for clients...
-Loading=Loading
-Saving=Saving
-Paused=Paused by %s
-ReceiveFile=Receiving '%s' (F10 Cancels)
-ReceiveOptionalFile=Receiving optional file '%s' (Press F10 to Skip)
-ReceiveSize=Size %iK, Complete %3.1f%% = %iK, %i Packages remaining
-ConnectingText=Connecting (F10 Cancels):
-ConnectingURL=unreal://%s/%s
-
-[Console]
-ClassCaption=Standard Unreal Console
-LoadingMessage=LOADING
-SavingMessage=SAVING
-ConnectingMessage=CONNECTING
-PausedMessage=PAUSED
-PrecachingMessage=PRECACHING
-ChatChannel=(CHAT) 
-TeamChannel=(TEAM) 
-
-[General]
-Upgrade=To enter this server, you need the latest free update to Unreal Tournament available from OldUnreal's Web site:
-UpgradeURL=https://www.oldunreal.com/oldunrealpatches.html
-UpgradeQuestion=Do you want to launch your web browser and go to the upgrade page now?
-Version=Version %i
-
-[Menu]
-HelpMessage=
-MenuList=
-LeftString=Left
-RightString=Right
-CenterString=Center
-EnabledString=Enabled
-DisabledString=Disabled
-HelpMessage[1]="This menu has not yet been implemented."
-YesString=yes
-NoString=no
-
-[Inventory]
-PickupMessage=Snagged an item
-M_Activated=" activated"
-M_Selected=" selected"
-M_Deactivated=" deactivated"
-ItemArticle=a
-
-[WarpZoneInfo]
-OtherSideURL=
-
-[GameInfo]
-SwitchLevelMessage=Switching Levels
-DefaultPlayerName=Player
-LeftMessage=" left the game."
-FailedSpawnMessage=Failed to spawn player actor
-FailedPlaceMessage=Could not find starting spot (level might need a 'PlayerStart' actor)
-NameChangedMessage=Name changed to 
-EnteredMessage=" entered the game."
-GameName="Game"
-MaxedOutMessage=Server is already at capacity.
-WrongPassword=The password you entered is incorrect.
-NeedPassword=You need to enter a password to join this game.
-FailedTeamMessage=Could not find team for player
-
-[LevelInfo]
-Title=Untitled
-
-[Weapon]
-MessageNoAmmo=" has no ammo."
-PickupMessage=You got a weapon
-DeathMessage=%o was killed by %k's %w.
-ItemName=Weapon
-DeathMessage[0]=%o was killed by %k's %w.
-DeathMessage[1]=%o was killed by %k's %w.
-DeathMessage[2]=%o was killed by %k's %w.
-DeathMessage[3]=%o was killed by %k's %w.
-
-[Counter]
-CountMessage=Only %i more to go...
-CompleteMessage=Completed!
-
-[Ammo]
-PickupMessage=You picked up some ammo.
-
-[Pickup]
-ExpireMessage=
-
-[SpecialEvent]
-DamageString=
-
-[DamageType]
-Name=killed
-AltName=killed
-
 [PlayerPawn]
-QuickSaveString=Quick Saving
-NoPauseMessage=Game is not pauseable
-ViewingFrom=Now viewing from 
-OwnCamera=own camera
-FailedView=Failed to change view.
-CantChangeNameMsg=You can't change your name during a global logged game.
+QuickSaveString="Quick Saving"
+NoPauseMessage="Game is not pauseable"
+ViewingFrom="Now viewing from "
+OwnCamera="own camera"
+FailedView="Failed to change view."
+CantChangeNameMsg="You can't change your name during a global logged game."
 
 [Pawn]
 NameArticle=" a "
 
+[Inventory]
+PickupMessage="Snagged an item."
+ItemArticle="a"
+M_Activated=" activated."
+M_Selected=" selected."
+M_Deactivated=" deactivated."
+
+[LevelInfo]
+Title="Untitled"
+
+[Weapon]
+MessageNoAmmo=" has no ammo."
+DeathMessage="%o was killed by %k's %w."
+PickupMessage="You got a weapon"
+ItemName="Weapon"
+DeathMessage[0]="%o was killed by %k's %w."
+DeathMessage[1]="%o was killed by %k's %w."
+DeathMessage[2]="%o was killed by %k's %w."
+DeathMessage[3]="%o was killed by %k's %w."
+
+[Ammo]
+PickupMessage="You picked up some ammo."
+
+[Counter]
+CountMessage="Only %i more to go..."
+CompleteMessage="Completed!"
+
 [Spectator]
-MenuName=Spectator
+MenuName="Spectator"
+
+[DamageType]
+Name="killed"
+AltName="killed"
+NameFem="killed"
+AltNameFem="killed"
+
+[Progress]
+CancelledConnect="Cancelled Connect Attempt"
+RunningNet="%ls: %ls (%i players)"
+NetReceiving="Receiving "%ls": %i/%i"
+NetReceiveOk="Successfully received "%ls""
+NetSend="Sending "%ls""
+NetSending="Sending "%ls": %i/%i"
+Connecting="Connecting..."
+Listening="Listening for clients..."
+Loading="Loading"
+Saving="Saving"
+Paused="Paused by %ls"
+ReceiveFile="Receiving "%ls" (F10 Cancels)"
+ReceiveOptionalFile="Receiving optional file "%ls" (Press F10 to Skip)"
+ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
+ConnectingText="Connecting (F10 Cancels):"
+ConnectingURL="unreal://%ls/%ls"
+
+[WarpZoneInfo]
+OtherSideURL=""
+
+[Pickup]
+ExpireMessage=""
+
+[SpecialEvent]
+DamageString=""
 
 [ServerCommandlet]
 HelpCmd=server
-HelpOneLiner=Network game server
-HelpUsage=server map.unr[?game=gametype] [-option...] [parm=value]...
-HelpWebLink=http://unreal.epicgames.com/servertips.htm
-HelpParm[0]=Log
-HelpDesc[0]=Specify the log file to generate
-HelpParm[1]=AllAdmin
-HelpDesc[1]=Give all players admin privelages
+HelpWebLink="http://www.oldunreal.com/wiki"
+HelpOneLiner="Network game server."
+HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
+HelpParm[0]="Log"
+HelpDesc[0]="Specify the log file to generate."
+HelpParm[1]="AllAdmin"
+HelpDesc[1]="Give all players admin privileges."
+
+[Console]
+ClassCaption="Standard Unreal Tournament Console"
+LoadingMessage="LOADING"
+SavingMessage="SAVING"
+ConnectingMessage="CONNECTING"
+PausedMessage="PAUSED"
+PrecachingMessage="PRECACHING"
+ChatChannel="(CHAT) "
+TeamChannel="(TEAM) "
+
+[Menu]
+HelpMessage=""
+MenuList=""
+HelpMessage[1]="This menu has not yet been implemented."
+LeftString="Left"
+RightString="Right"
+CenterString="Center"
+EnabledString="Enabled"
+DisabledString="Disabled"
+YesString="yes"
+NoString="no"
+
+[GameInfo]
+SwitchLevelMessage="Switching Levels"
+DefaultPlayerName="Player"
+LeftMessage=" left the game."
+FailedSpawnMessage="Failed to spawn player actor"
+FailedPlaceMessage="Could not find starting spot (level might need a 'PlayerStart' actor)"
+FailedTeamMessage="Could not find team for player"
+NameChangedMessage="Name changed to "
+EnteredMessage=" entered the game."
+GameName="Game"
+MaxedOutMessage="Server is already at capacity."
+WrongPassword="The password you entered is incorrect."
+NeedPassword="You need to enter a password to join this game."
+IPBanned="Your IP address has been banned on this server."
+MaleGender="his"
+FemaleGender="her"
+
+[Errors]
+NetOpen="Error opening file"
+NetWrite="Error writing to file"
+NetRefused="Server refused to send '%ls'"
+NetClose="Error closing file"
+NetSize="File size mismatch"
+NetMove="Error moving file"
+NetInvalid="Received invalid file request"
+NoDownload="Package '%ls' is not downloadable"
+DownloadFailed="Downloading package '%ls' failed: %ls"
+RequestDenied="Server requested file from pending level: Denied"
+ConnectionFailed="Connection failed"
+ChAllocate="Couldn't allocate channel"
+NetAlready="Already networking"
+NetListen="Listen failed: No linker context available"
+LoadEntry="Can't load Entry: %ls"
+InvalidUrl="Invalid URL: %ls"
+InvalidLink="Invalid Link: %ls"
+FailedBrowse="Failed to enter %ls: %ls"
+Listen="Listen failed: %ls"
+AbortToEntry="Failed; returning to Entry"
+ServerOpen="Servers can't open network URLs"
+ServerListen="Dedicated server can't listen: %ls"
+Pending="Pending connect to '%ls' failed; %ls"
+LoadPlayerClass="Failed to load player class"
+ServerOutdated="Server's version is outdated"
+ClientOutdated="You need to upgrade to the latest patch version"
+RejectedByServer="Rejected by server"
+NetDecompressFail="Error decompressing file '%ls'"
+MD5ChecksumFailed="Package %ls failed an MD5 check."
+
+[General]
+Upgrade="To enter this server, you need the latest free update to Unreal Tournament available from OldUnreal's Web site:"
+UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
+UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
+Version="Version %i"
 
 [CheckSumCommandlet]
 HelpCmd=checksum
-HelpOneLiner=Calculate package checksum for stat logging
-HelpUsage=checksum packagename.u
-HelpParm[0]=Filename
-HelpDesc[0]=Filename to calculate checksum
+HelpWebLink="http://www.oldunreal.com/wiki"
+HelpOneLiner="Calculate package checksum for stat logging"
+HelpUsage="checksum packagename.u"
+HelpParm[0]="packagename.u"
+HelpDesc[0]="Filename to calculate checksum"

@@ -2,9 +2,11 @@
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Preferences=(Caption="Avanzado",Parent="Opciones Avanzadas")
-Preferences=(Caption="Sonido",Parent="Opciones Avanzadas")
 Preferences=(Caption="Reproducción",Parent="Opciones Avanzadas")
+Preferences=(Caption="Sonido",Parent="Opciones Avanzadas")
 Preferences=(Caption="Juego en Red",Parent="Opciones Avanzadas")
+Preferences=(Caption="Imagen",Parent="Opciones Avanzadas")
+Preferences=(Caption="Mando",Parent="Opciones Avanzadas")
 Preferences=(Caption="Configuración de Motor de Juego",Parent="Avanzado",Class=Engine.GameEngine,Category=Settings,Immediate=True)
 Preferences=(Caption="Comandos para Asignaciones",Parent="Avanzado",Class=Engine.Input,Immediate=True,Category=Aliases)
 Preferences=(Caption="Asignaciones de Botones",Parent="Avanzado",Class=Engine.Input,Immediate=True,Category=RawKeys)
@@ -13,7 +15,7 @@ Preferences=(Caption="Información Pública de Servidor",Parent="Juego en Red",C
 Preferences=(Caption="Configuración de Juego",Parent="Opciones Avanzadas",Class=Engine.GameInfo,Immediate=True)
 
 [PlayerPawn]
-QuickSaveString="Guardado rápido"
+QuickSaveString="Guardado Rápido"
 NoPauseMessage="Imposible interrumpir la partida"
 ViewingFrom="Ahora viendo desde "
 OwnCamera="cámara propia"
@@ -61,21 +63,21 @@ AltNameFem="asesinada"
 
 [Progress]
 CancelledConnect="Intento de Conexión Cancelado"
-RunningNet="%s: %s (%i jugadores)"
-NetReceiving="Recibiendo ''%s'': %i/%i"
-NetReceiveOk="Se ha recibido exitosamente ''%s''"
-NetSend="Enviando ''%s''"
-NetSending="Enviando ''%s'': %i/%i"
+RunningNet="%ls: %ls (%i jugadores)"
+NetReceiving="Recibiendo "%ls": %i/%i"
+NetReceiveOk="Se ha recibido exitosamente "%ls""
+NetSend="Enviando "%ls""
+NetSending="Enviando "%ls": %i/%i"
 Connecting="Conectando..."
 Listening="Esperando clientes..."
 Loading="Cargando"
 Saving="Guardando"
-Paused="Pausado por %s"
-ReceiveFile="Recibiendo ''%s'' (F10 para pasar por alto)"
-ReceiveOptionalFile="Recibiendo archivo opcional ''%s'' (F10 para cancelar)"
+Paused="Pausado por %ls"
+ReceiveFile="Recibiendo "%ls" (F10 para pasar por alto)"
+ReceiveOptionalFile="Recibiendo archivo opcional "%ls" (F10 para cancelar)"
 ReceiveSize="Tamaño %iK, Completo %3.1f%% = %iK, Quedan %i paquetes"
 ConnectingText="Conectando (F10 para cancelar):"
-ConnectingURL="unreal://%s/%s"
+ConnectingURL="unreal://%ls/%ls"
 
 [WarpZoneInfo]
 OtherSideURL=""
@@ -88,9 +90,9 @@ DamageString=""
 
 [ServerCommandlet]
 HelpCmd=server
+HelpWebLink="http://www.oldunreal.com/wiki"
 HelpOneLiner="Servidor en red de juego."
-HelpUsage="server map.unr[?game=tipoDeJuego] [-opción...] [param=valor]..."
-HelpWebLink="http://wiki.oldunreal.com"
+HelpUsage="server map.unr[?game=tipoDeJuego] [-opción...] [parámetro=valor]..."
 HelpParm[0]="Log"
 HelpDesc[0]="Especifica el archivo de registro que debe ser generado."
 HelpParm[1]="AllAdmin"
@@ -105,18 +107,10 @@ PausedMessage="EN PAUSA"
 PrecachingMessage="PRECACHEANDO"
 ChatChannel="(CHAT) "
 TeamChannel="(EQUI) "
-FrameRateText="Veloc. Cuadros"
-AvgText="Prom"
-LastSecText="Últ. Seg."
-MinText="Mín."
-MaxText="Máx."
-fpsText="CPS"
-SecondsText="segundos."
-FramesText="cuadros renderizados en"
 
 [Menu]
-HelpMessage=""
-MenuList=""
+MenuList=" "
+HelpMessage=" "
 HelpMessage[1]="Este menú aún no ha sido implementado."
 LeftString="Izquierda"
 RightString="Derecha"
@@ -127,11 +121,11 @@ YesString="sí"
 NoString="no"
 
 [GameInfo]
-SwitchLevelMessage="Cambiando de niveles"
+SwitchLevelMessage="Cambiando Nivel"
 DefaultPlayerName="Jugador"
 LeftMessage=" ha abandonado la partida."
-FailedSpawnMessage="Error al engendrar actor de jugador"
-FailedPlaceMessage="No se pudo encontrar punto de partida (quizás el nivel necesite un actor ''PlayerStart'')"
+FailedSpawnMessage="Error al crear actor de jugador"
+FailedPlaceMessage="No se pudo encontrar punto de partida (quizás el nivel necesite un actor "PlayerStart")"
 FailedTeamMessage="No se ha podido encontrar equipo para el jugador"
 NameChangedMessage="Nombre cambiado a "
 EnteredMessage=" se ha incorporado a la partida."
@@ -146,32 +140,33 @@ FemaleGender="su"
 [Errors]
 NetOpen="Error al abrir el archivo"
 NetWrite="Error al escribir en archivo"
-NetRefused="El servidor rechazó el envío de ''%s''"
+NetRefused="El servidor rechazó el envío de "%ls""
 NetClose="Error al cerrar el archivo"
 NetSize="Tamaño de archivo erróneo"
 NetMove="Error al mover el archivo"
 NetInvalid="Se ha recibido una petición de archivo no válida"
-NoDownload="El paquete ''%s'' no es descargable"
-DownloadFailed="No se ha podido descargar el paquete ''%s'': %s"
+NoDownload="El paquete "%ls" no es descargable"
+DownloadFailed="No se ha podido descargar el paquete "%ls": %ls"
 RequestDenied="El servidor ha solicitado un archivo del nivel pendiente: Solicitud denegada"
 ConnectionFailed="Conexión fallida"
 ChAllocate="No se ha podido asignar un canal"
 NetAlready="Conexión de red ya realizada"
 NetListen="Comunicación fallida: No hay enlazador disponible."
-LoadEntry="No se puede cargar Entry: %s"
-InvalidUrl="Dirección URL no válida: %s"
-InvalidLink="Enlace no válido: %s"
-FailedBrowse="No se ha podido entrar en %s: %s"
-Listen="Comunicación fallida: %s"
+LoadEntry="No se puede cargar Entry: %ls"
+InvalidUrl="Dirección URL no válida: %ls"
+InvalidLink="Enlace no válido: %ls"
+FailedBrowse="No se ha podido entrar en %ls: %ls"
+Listen="Comunicación fallida: %ls"
 AbortToEntry="Error; regresando a Entry"
 ServerOpen="Los servidores no pueden abrir los URL de red"
-ServerListen="El servidor dedicado no puede esperar: %s"
-Pending="Conexión pendiente con ''%s'' ha fallado; %s"
+ServerListen="El servidor dedicado no puede esperar: %ls"
+Pending="Conexión pendiente con "%ls" ha fallado; %ls"
 LoadPlayerClass="Fallo al cargar la clase de jugador"
 ServerOutdated="Versión del servidor obsoleta"
 ClientOutdated="Necesitas actualizar a la última versión de parche"
 RejectedByServer="Rechazado por el servidor"
-NetDecompressFail="Error al descomprimir el archivo ''%s''"
+NetDecompressFail="Error al descomprimir el archivo "%ls""
+MD5ChecksumFailed="El paquete %ls falló en la comprobación MD5."
 
 [General]
 Upgrade="Para acceder a este servidor, necesitarás el último parche de actualización gratuito de Unreal Tournament, disponible en el sitio web de OldUnreal:"
@@ -181,7 +176,8 @@ Version="Versión %i"
 
 [CheckSumCommandlet]
 HelpCmd=checksum
+HelpWebLink="http://www.oldunreal.com/wiki"
 HelpOneLiner="Calcula la suma de verificación (checksum) para el registro de estadísticas"
-HelpUsage="checksum packagename.u"
-HelpParm[0]="packagename.u"
-HelpDesc[0]="El archivo del cual se va a calcular el checksum"
+HelpUsage="checksum nombre_paquete.u"
+HelpParm[0]="nombre_paquete.u"
+HelpDesc[0]="El archivo del cual se va a calcular el checksum."

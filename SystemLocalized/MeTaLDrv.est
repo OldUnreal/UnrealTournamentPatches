@@ -5,4 +5,4 @@ Preferences=(Caption="Soporte para S3 MeTaL",Parent="Reproducción",Class=MeTaLD
 [MeTaLRenderDevice]
 ClassCaption="Soporte para S3 MeTaL"
 AskInstalled="¿Tienes instalada una tarjeta Savage aceleradora de gráficos en 3D?"
-AskUse="¿Quieres que Unreal utilice una tarjeta Savage aceleradora de gráficos en 3D?"
+AskUse="¿Quieres que Unreal Tournament utilice una tarjeta Savage aceleradora de gráficos en 3D?"

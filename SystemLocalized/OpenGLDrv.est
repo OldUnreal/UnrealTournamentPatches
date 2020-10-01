@@ -2,12 +2,12 @@
 Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
 Preferences=(Caption="Soporte para OpenGL",Parent="Reproducción",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
 
+[Errors]
+NoFindGL="No se ha podido encontrar el controlador OpenGL %ls."
+MissingFunc="Falta la función OpenGL %ls (%i)."
+ResFailed="No se ha podido ajustar la resolución."
+
 [OpenGLRenderDevice]
 ClassCaption="Soporte para OpenGL"
 AskInstalled="¿Tienes instalada una tarjeta compatible OpenGL aceleradora de gráficos en 3D?"
-AskUse="¿Quieres que Unreal utilice tu tarjeta aceleradora OpenGL?"
-
-[Errors]
-NoFindGL="No se ha podido encontrar el controlador OpenGL %s."
-MissingFunc="Falta la función OpenGL %s (%i)."
-ResFailed="No se ha podido ajustar la resolución."
+AskUse="¿Quieres que Unreal Tournament utilice tu tarjeta aceleradora OpenGL?"

@@ -1,0 +1,31 @@
+﻿[LevelInfo0]
+Title="Olden Aquifer"
+IdealPlayerCount="4-6"
+
+[ZoneInfo2]
+ZoneName="Lower Point Room"
+
+[ZoneInfo0]
+ZoneName="Central Room"
+
+[ZoneInfo1]
+ZoneName="Upper Point Room"
+
+[ZoneInfo3]
+ZoneName="Chain Lift Room"
+
+[ControlPoint1]
+PointName="Lower"
+
+[ControlPoint2]
+PointName="Upper"
+
+[ControlPoint0]
+PointName="Mid"
+
+[WaterZone0]
+ZoneName="Aqueduct"
+
+[LevelSummary]
+Title="Olden Aquifer"
+IdealPlayerCount="4-6"

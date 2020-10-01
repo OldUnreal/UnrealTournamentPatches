@@ -1,6 +1,6 @@
 ﻿[Errors]
 Critical="Critical Error"
-FailedConfigLoad="%s (failed load)"
+FailedConfigLoad="%ls (failed load)"
 
 [IDDIALOG_Directory]
 IDC_Directory="Installation Folder"
@@ -47,10 +47,10 @@ NoButton="&No"
 AgreeButton="I &Agree"
 LanguagePrompt="Language:"
 LanguageWindow="Language Selection"
-LogWindow="%s Log Window"
+LogWindow="%ls Log Window"
 PropNone="Nothing Selected"
-PropSingle="%s Properties"
-PropMulti="%s Properties (%i selected)"
+PropSingle="%ls Properties"
+PropMulti="%ls Properties (%i selected)"
 InsertCdText="Please insert the Unreal Tournament CD-Rom into your drive and press OK to continue, or Cancel to exit."
 InsertCdTitle="Cd Required At Startup"
 AdvancedOptionsTitle="Advanced Options"
@@ -59,6 +59,6 @@ High="High"
 
 [FirstRun]
 Caption="Initial Configuration"
-LowMemory="Unreal Tournament has detected that you have %i megabytes of memory available. To improve performance, the 'Low Detail Textures' and 'Low Sound Quality' options have been enabled. You may change this settings in the 'Performance Settings' menu."
-NonMMX="Unreal Tournament has detected that you're using a non-MMX PC. Based on this, the sound playback rate has been set to use the least CPU power. You may change this settings in the 'Advanced Options / Audio' menu."
-Starting="Unreal Tournament is starting up for the first time. If you experience any problems, please read the Troubleshooting section of the Release Notes in the 'Help' folder."
+LowMemory="Unreal Tournament has detected that you have %i megabytes of memory available. To improve performance, the "Low Detail Textures" and "Low Sound Quality" options have been enabled. You may change this settings in the "Performance Settings" menu."
+NonMMX="Unreal Tournament has detected that you're using a non-MMX PC. Based on this, the sound playback rate has been set to use the least CPU power. You may change this settings in the "Advanced Options / Audio" menu."
+Starting="Unreal Tournament is starting up for the first time. If you experience any problems, please read the Troubleshooting section of the Release Notes in the "Help" folder."

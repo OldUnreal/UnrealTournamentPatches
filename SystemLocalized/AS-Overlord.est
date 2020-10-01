@@ -7,7 +7,7 @@ LevelEnterText="Inutiliza el cañón de largo alcance destruyendo el equipo de l
 ZoneName="Cuarteles"
 
 [ZoneInfo5]
-ZoneName="Sala de Munición"
+ZoneName="Sala de Municiones"
 
 [ZoneInfo3]
 ZoneName="Sala de Calderas"

@@ -1,5 +1,5 @@
 ﻿[LevelInfo0]
-Title="Cybrosis ]["
+Title="Cybrosis Central ]["
 IdealPlayerCount="4-12"
 
 [ZoneInfo24]
@@ -72,7 +72,7 @@ ZoneName="Pasaje Inferior Azul"
 DamageString="%K cometió un error electrificante."
 
 [LevelSummary]
-Title="Cybrosis ]["
+Title="Cybrosis Central ]["
 IdealPlayerCount="4-12"
 
 [SpecialEvent11]

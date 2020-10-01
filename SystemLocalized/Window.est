@@ -1,6 +1,6 @@
 ﻿[Errors]
 Critical="Error Grave"
-FailedConfigLoad="%s (no se ha podido cargar)"
+FailedConfigLoad="%ls (no se pudo cargar)"
 
 [IDDIALOG_Directory]
 IDC_Directory="Directorio de Instalación"
@@ -47,10 +47,10 @@ NoButton="&No"
 AgreeButton="&Acepto"
 LanguagePrompt="Idioma:"
 LanguageWindow="Selección de Idioma"
-LogWindow="Ventana de Registro de %s"
+LogWindow="Ventana de Registro de %ls"
 PropNone="Selección Vacía"
-PropSingle="Propiedades de %s"
-PropMulti="Propiedades de %s (%i seleccionados)"
+PropSingle="Propiedades de %ls"
+PropMulti="Propiedades de %ls (%i seleccionados)"
 InsertCdText="Introduce el CD-ROM de Unreal Tournament en la unidad y pulsa ACEPTAR para continuar, o Cancelar para salir."
 InsertCdTitle="Se necesita el CD para arrancar"
 AdvancedOptionsTitle="Opciones Avanzadas"

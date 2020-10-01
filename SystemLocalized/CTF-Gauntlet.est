@@ -17,7 +17,7 @@ ZoneName="Base Azul"
 [ZoneInfo3]
 ZoneName="Sala de Lava"
 
-[LevelInfo0]
+[LevelSummary]
 Title="El Guantelete de Hierro"
 IdealPlayerCount="6-8"
 

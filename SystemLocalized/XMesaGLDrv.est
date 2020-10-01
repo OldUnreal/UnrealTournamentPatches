@@ -2,10 +2,10 @@
 Object=(Name=XMesaGLDrv.XMesaGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
 Preferences=(Caption="Soporte para Mesa 3D",Parent="Reproducción",Class=XMesaGLDrv.XMesaGLRenderDevice,Immediate=True)
 
+[Errors]
+ResFailed="No se pudo establecer la resolución"
+
 [XMesaGLRenderDevice]
 ClassCaption="Soporte para Mesa 3D"
 AskInstalled="¿Tienes una tarjeta 3D compatible con OpenGL instalada?"
-AskUse="¿Quieres que Unreal utilice tu acelerador OpenGL?"
-
-[Errors]
-ResFailed="No se pudo establecer la resolución"
+AskUse="¿Quieres que Unreal Tournament utilice tu acelerador OpenGL?"

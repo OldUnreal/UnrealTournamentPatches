@@ -18,7 +18,7 @@ Object=(Name=tskmskins.Warr5Berserker,Class=Texture)
 Object=(Name=tskmskins.Warr5Dominator,Class=Texture)
 Object=(Name=tskmskins.Warr5Guardian,Class=Texture)
 
-Object=(Name=tskmskins.PitF1,Class=Texture,Description="Luchador de Reñidero")
+Object=(Name=tskmskins.PitF1,Class=Texture,Description="Luchador Subterráneo")
 Object=(Name=tskmskins.PitF2,Class=Texture)
 Object=(Name=tskmskins.PitF2Baetal,Class=Texture,Description="Baetal")
 Object=(Name=tskmskins.PitF2Pharoh,Class=Texture,Description="Pharoh")

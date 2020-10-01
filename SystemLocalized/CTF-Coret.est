@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 Title="Centro Industrial Coret"
-IdealPlayerCount="4-8"
+IdealPlayerCount="6-12"
 LevelEnterText="Bienvenido al Centro Industrial Coret. Esperamos que disfrutes la estadía."
 
 [ZoneInfo1]
@@ -37,9 +37,9 @@ ZoneName="Sala Superior Azul"
 ZoneName="Sala Superior Roja"
 
 [ZoneInfo0]
-ZoneName="Área central - Arriba"
+ZoneName="Área Central - Arriba"
 
 [LevelSummary]
 Title="Centro Industrial Coret"
-IdealPlayerCount="4-8"
+IdealPlayerCount="6-12"
 LevelEnterText="Bienvenido al Centro Industrial Coret. Esperamos que disfrutes la estadía."

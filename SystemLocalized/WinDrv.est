@@ -1,11 +1,11 @@
 ﻿[Public]
 Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)
-Preferences=(Caption="Imagen",Parent="Opciones Avanzadas",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
-Preferences=(Caption="Mando",Parent="Opciones Avanzadas",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="Windows",Parent="Imagen",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Windows",Parent="Mando",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
 
 [Errors]
-Failed3D="No se ha podido inicializar el hardware 3D"
-DDrawMode="DirectDraw no ha podido conseguir la modalidad de vídeo solicitada."
+Failed3D="Inicialización de hardware 3D fallida"
+DDrawMode="DirectDraw no ha podido configurar la modalidad de vídeo solicitada."
 
 [General]
 ViewPersp="Mapa de Perspectiva"

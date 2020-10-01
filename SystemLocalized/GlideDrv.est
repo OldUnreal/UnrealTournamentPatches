@@ -5,4 +5,4 @@ Preferences=(Caption="Soporte para 3dfx Glide",Parent="Reproducción",Class=Glid
 [GlideRenderDevice]
 ClassCaption="Soporte para 3dfx Glide"
 AskInstalled="¿Tienes una tarjeta 3dfx instalada?"
-AskUse="¿Quieres utilizar tu tarjeta 3dfx con Unreal?"
+AskUse="¿Quieres utilizar tu tarjeta 3dfx con Unreal Tournament?"

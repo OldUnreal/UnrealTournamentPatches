@@ -1,0 +1,18 @@
+﻿[LevelInfo0]
+Title="Lament"
+IdealPlayerCount="2-4"
+LevelEnterText="Control it all!"
+
+[ControlPoint0]
+PointName="Central"
+
+[ControlPoint1]
+PointName="Upper"
+
+[ControlPoint2]
+PointName="Lower"
+
+[LevelSummary]
+Title="Lament"
+IdealPlayerCount="2-4"
+LevelEnterText="Control it all!"

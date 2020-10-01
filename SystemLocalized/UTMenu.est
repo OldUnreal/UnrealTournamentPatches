@@ -13,7 +13,7 @@ WON="-"
 MapText="Mapa:"
 AuthorText="Autor:"
 FragText="Límite de Bajas:"
-TeamScoreText="Límite de Puntuación:"
+TeamScoreText="Límite Punt. Equipo:"
 
 [ManagerWindow]
 DMText="Partida a Muerte"
@@ -31,7 +31,7 @@ RankString[3]="Clasificación de Asalto:"
 MatchesString="Partidas completadas:"
 
 [MatchButton]
-UnknownText="Desconocido"
+UnknownText="? Desconocido ?"
 
 [SpeechWindow]
 Options[0]="Respuesta"
@@ -55,7 +55,7 @@ MaleText="Hombre"
 FemaleText="Mujer"
 TeamText="Equipo"
 FaceText="Cara"
-SkillsText="Nivel de Dificultad"
+SkillsText="Dificultad"
 SkillText[0]="Novato"
 SkillText[1]="Promedio"
 SkillText[2]="Experimentado"
@@ -129,30 +129,30 @@ DefaultsText="Restablecer"
 DefaultsHelp="Restablece la configuración predeterminada del HUD."
 
 [UTIndivBotSetupClient]
-SkillText="Ajuste de Destreza"
-SkillHelp="Ajusta la destreza de este Bot, a partir de su nivel base."
+SkillText="Ajustar Destreza"
+SkillHelp="Sube o baja la destreza de este Bot, a partir del nivel base."
 VoicePackText="Voz"
-VoicePackHelp="Elige una voz para los insultos y las órdenes de tu jugador."
+VoicePackHelp="Elige un paquete de voz para las provocaciones y órdenes de este Bot."
 FavoriteWeaponText="Arma Favorita:"
 FavoriteWeaponHelp="Selecciona el arma favorita de este Bot."
-NoFavoriteWeapon="(sin arma favorita)"
-AccuracyText="Puntería:"
-AccuracyHelp="Cambia la puntería del Bot. Mientras más a la derecha esté el señalizador, más certero va a ser el Bot, y viceversa."
-AlertnessText="Alerta:"
-AlertnessHelp="Cambia el estado de alerta del Bot. Mientras más a la derecha esté el señalizador, más alerta va a estar el Bot ante las acciones enemigas."
-CampingText="Acampe:"
-CampingHelp="Cambia la tendencia del Bot a acampar. Mientras más a la derecha esté el señalizador, más va a tender el Bot a acampar."
-StrafingAbilityText="Desplazamiento:"
-StrafingAbilityHelp="Cambia la tendencia del Bot a moverse lateralmente y esquivar. Mientras más a la derecha esté el señalizador, más va a tender el Bot a moverse lateralmente y esquivar."
-CombatStyleText="Estilo de lucha:"
-CombatStyleHelp="Selecciona el estilo de lucha de este Bot."
+NoFavoriteWeapon="(Ninguna)"
+AccuracyText="Puntería"
+AccuracyHelp="Cambia la puntería de este Bot. La posición central es la normal, hacia la izquierda reduce la puntería, y hacia la derecha la aumenta."
+AlertnessText="Estado Alerta"
+AlertnessHelp="Cambia el estado de alerta de este Bot. La posición central es la normal, hacia la izquierda reduce el estado de alerta, y hacia la derecha lo aumenta."
+CampingText="Acampe"
+CampingHelp="Cambia la tendencia del Bot a acampar. Mientras más a la derecha esté el señalizador, más tenderá el Bot a acampar."
+StrafingAbilityText="Despl. Lateral"
+StrafingAbilityHelp="Cambia la tendencia de este Bot a desplazarse lateralmente. La posición central es la normal, hacia la izquierda reduce la tendencia, y hacia la derecha la aumenta."
+CombatStyleText="Estilo Combate"
+CombatStyleHelp="Selecciona el estilo de combate de este Bot."
 CombatStyleNames[0]="Normal"
 CombatStyleNames[1]="Agresivo"
-CombatStyleNames[2]="Desenfrenado"
+CombatStyleNames[2]="Furioso"
 CombatStyleNames[3]="Precavido"
-CombatStyleNames[4]="Esquivo"
-JumpyText="Tendencia a Saltar"
-JumpyHelp="Si está activo, este bot va a saltar demasiado durante la partida."
+CombatStyleNames[4]="Evasor"
+JumpyText="Tend. a Saltar"
+JumpyHelp="Especifica si a este bot le gusta mucho saltar por todo el nivel, tal y como hacen algunos jugadores."
 
 [SpeechBinderCW]
 LabelText="Asignar a tecla:"
@@ -167,27 +167,27 @@ DefaultsHelp="Anular todas las teclas de diálogo."
 [TeamBrowser]
 NameString="Nombre:"
 ClassString="Clasificación:"
-BrowserName="Plantel del Equipo"
+BrowserName="Plantel Equipo"
 
 [InGameObjectives]
 BrowserName="Objetivos de la misión"
 ObjectiveString="Objetivo"
-OrdersTransmissionText="Transmisión de órdenes a Continuación"
+OrdersTransmissionText="Transmisión de Órdenes a Continuación"
 
 [ObjectiveBrowser]
 BrowserName="Objetivos de la Misión"
-OrdersTransmissionText="Transmisión de órdenes a Continuación"
+OrdersTransmissionText="Transmisión de Órdenes a Continuación"
 
 [EnemyBrowser]
 NameString="Nombre:"
 ClassString="Clasificación:"
-BrowserName="Listado de Enemigos"
+BrowserName="Listado Enemigos"
 
 [UTRulesCWindow]
 TourneyText="Torneo"
 TourneyHelp="Si se activa, la partida no comenzará hasta que cada jugadores pulsen el botón de disparo indicando que están listos."
-ForceRespawnText="Forzar regeneración"
-ForceRespawnHelp="Si se activa, los jugadores se regenerarán automáticamente tras ser eliminados, sin que sea necesario pulsar el botón de disparo."
+ForceRespawnText="Forzar Reaparición"
+ForceRespawnHelp="Si se activa, los jugadores reaparecerán automáticamente tras ser eliminados, sin que sea necesario pulsar el botón de disparo."
 
 [UTPasswordCW]
 PasswordText="Contraseña:"
@@ -195,9 +195,9 @@ PasswordText="Contraseña:"
 [UTTeamRCWindow]
 TeamScoreText="Máx. Bajas"
 TeamScoreHelp="Si un equipo logra esta puntuación, termina la partida. 0 anula este límite."
-MaxTeamsText="Máximo de Equipos"
+MaxTeamsText="Máx. Equipos"
 MaxTeamsHelp="El máximo numero de equipos que pueden participar en esta partida."
-BalancePlayersText="Forzar Bal. Equipo"
+BalancePlayersText="Forz. Balan. Equipo"
 BalancePlayersHelp="Si se activa, los jugadores serán obligados a incorporarse al equipo que haga falta para igualar los equipos."
 FFText="Fuego Amigo:"
 FFHelp="Mueve el deslizador para ajustar el máximo daño que el fuego amigo puede causar a los compañeros de equipo."
@@ -213,9 +213,9 @@ AnnouncerVolumeText="Volumen del Relator"
 AnnouncerVolumeHelp="Ajusta el volumen de los anuncios del relator durante el juego."
 AutoTauntText="Autoprovocación"
 AutoTauntHelp="Si está activo, tu personaje enviará automáticamente un mensaje de provocación cuando consigas una baja enemiga."
-Use3DHardwareText="Hardware Sonido 3D"
+Use3DHardwareText="Usar Hardware Sonido 3D"
 Use3DHardwareHelp="Si está activo, Unreal Tournament utilizará el hardware de sonido en 3D para conseguir efectos de entorno más realistas."
-UseSurroundSoundText="Sonido Envolvente"
+UseSurroundSoundText="Usar Sonido Envolvente"
 UseSurroundSoundHelp="Si la opción está marcada, Unreal Tournament utilizará el receptor digital para lograr el efecto de sonido envolvente."
 MessageSettingsText="Repr. Mensajes Voz"
 MessageSettingsHelp="Con esta opción puedes controlar qué mensajes de voz enviados por otros jugadores se oirán."
@@ -232,22 +232,22 @@ NoMatureLanguageHelp="Si está activo, no se escucharán las provocaciones que u
 
 [UTSettingsCWindow]
 TranslocText="Translocalizador"
-TranslocHelp="Si está activo, cada jugador será equipado con un dispositivo de transporte personal (Translocalizador)."
+TranslocHelp="Si está activo, se equipará a cada jugador con un Módulo de Transporte Personal Translocalizador."
 AirControlText="Control Aéreo"
-AirControlHelp="Mueve el deslizador para ajustar el grado de control sobre los movimientos de los jugadores mientras estén en el aire."
+AirControlHelp="Utiliza este deslizador para especificar cuanto control tienen los jugadores sobre sus movimientos mientras están en el aire."
 
 [OrdersChildWindow]
-WindowTitle=""
+WindowTitle=" "
 
 [PhysicalChildWindow]
 PhysicalTaunts[0]="Burla Básica"
 PhysicalTaunts[1]="Movimiento Pélvico"
 PhysicalTaunts[2]="Danza de Victoria"
 PhysicalTaunts[3]="Saludar"
-WindowTitle=""
+WindowTitle=" "
 
 [SpeechChildWindow]
-WindowTitle=""
+WindowTitle=" "
 
 [SpeechMiniDisplay]
 NameString="Nombre:"
@@ -257,7 +257,7 @@ HumanString="Ninguno <Humano>"
 
 [TargetChildWindow]
 AllString="Todo"
-WindowTitle=""
+WindowTitle=" "
 
 [ngWorldSecretClient]
 SecretDesc="Elige tu contraseña para distinguir tus estadísticas en línea en ngWorldStats."
@@ -291,12 +291,12 @@ CategoryHelp="¡Selecciona una categoría de tipos de juego!"
 GeneralText="Unreal Tournament"
 
 [UTBotConfigClient]
-BalanceTeamsText="Equilibrar Equipos"
-BalanceTeamsHelp="Los Bots cambiarán automáticamente de equipo para que no haya desproporción."
+BalanceTeamsText="Bots Balancean Equipos"
+BalanceTeamsHelp="Si está activo, los bots se unirán al equipo necesario para balancear la cantidad de jugadores."
 DumbDownText="IA Avanzada de Equipo"
-DumbDownHelp="Activa la inteligencia artificial mejorada de los Bots del equipo en esta partida."
+DumbDownHelp="Activa las características de IA avanzada de equipo para los bots en esta partida."
 MinPlayersText="Mínimo de Jugadores"
-MinPlayersHelp="Si no hay suficientes jugadores, se crearán Bots hasta lograr el No. mínimo. El 0 desactiva los robots."
+MinPlayersHelp="Los bots se irán sumando hasta completar esta cantidad mínima de jugadores. El valor 0 desactivará los bots."
 Skills[0]="Novato"
 Skills[1]="Promedio"
 Skills[2]="Experimentado"
@@ -374,7 +374,7 @@ LabelList(54)="Consola Rápida"
 [UTInputOptionsCW]
 InstantRocketText="Cohetes Instantáneos"
 InstantRocketHelp="Si está activo, el lanzacohetes disparará un cohete con sólo apretar el botón de disparo (no espera hasta cargar más cohetes)."
-TranslocatorDualButtonSwitchText="Translocalizador: Cambio de Arma de Fuego Dual"
+TranslocatorDualButtonSwitchText="Cambiar Translocalizador a Última Arma con Ambos Disparos"
 TranslocatorDualButtonSwitchHelp="Hace que el Translocalizador cambie a tu última arma utilizada cuando presiones Disparo y Disparo Alternativo a la vez."
 SpeechBinderText="Asignador de Diálogos"
 SpeechBinderHelp="Utiliza esta ventana especial para asignar las órdenes y las provocaciones a determinadas teclas."
@@ -392,6 +392,7 @@ QueryText="¡Libera una ranura primero!"
 DoneText="Aceptar"
 
 [UTPasswordWindow]
+OKText="Aceptar"
 WindowTitle="Introduce la Contraseña del Servidor."
 
 [UTLadderDOM]
@@ -413,7 +414,7 @@ DedicatedHelp="Pulsa para ejecutar un servidor dedicado."
 ServerText="Servidor"
 
 [KillGameQueryWindow]
-WindowTitle="Confirmación de Eliminación de Partida"
+WindowTitle="Confirmar Eliminación de Partida"
 
 [UTGameMenu]
 NewGameName="&Comenzar Nuevo Torneo"
@@ -433,13 +434,13 @@ QuitText="¿Seguro que quieres Salir?"
 WindowTitle="Asignador de Diálogos"
 
 [UTConfigIndivBotsWindow]
-WindowTitle="Configuración Individual de Bots"
+WindowTitle="Config. Individual de Bots"
 
 [FreeSlotsWindow]
-WindowTitle="Todas las Ranuras están Llenas"
+WindowTitle="Todas las Ranuras Llenas"
 
 [UTBotmatchWindow]
-WindowTitle="Comienzo de la Sesión de Práctica"
+WindowTitle="Comenzar Sesión de Prácticas"
 
 [ngWorldSecretWindow]
 WindowTitle="Contraseña ngWorldStats"

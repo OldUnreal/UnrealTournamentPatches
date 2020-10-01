@@ -42,17 +42,17 @@ ZoneName="Túnel Energético Azul"
 ZoneName="Túnel Energetico Rojo"
 
 [ZoneInfo8]
-ZoneName="Canal de Energía Rojo"
+ZoneName="Canal Energetico Rojo"
 
 [ZoneInfo14]
-ZoneName="Canal de Energía Azul"
+ZoneName="Canal Energetico Azul"
 
 [LevelSummary]
 Title="Planta Energética Nucleus"
 IdealPlayerCount="12"
 
 [ZoneInfo13]
-ZoneName="Túnel de Energía Rojo"
+ZoneName="Túnel Energetico Rojo"
 
 [ZoneInfo16]
-ZoneName="Túnel de Energía Azul"
+ZoneName="Túnel Energetico Azul"

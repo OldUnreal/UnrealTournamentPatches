@@ -1,10 +1,10 @@
 ﻿[Public]
 Class=(Class=XDrv.XClient,SuperClass=Engine.Client)
-Preferences=(Caption="Imagen",Parent="Opciones Avanzadas",Class=XDrv.XClient,Immediate=True,Category=Display)
-Preferences=(Caption="Mando",Parent="Opciones Avanzadas",Class=XDrv.XClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="XDrv",Parent="Imagen",Class=XDrv.XClient,Immediate=True,Category=Display)
+Preferences=(Caption="XDrv",Parent="Mando",Class=XDrv.XClient,Immediate=True,Category=Joystick)
 
 [Errors]
-Failed3D="No se ha podido inicializar el hardware 3D"
+Failed3D="Inicialización del hardware 3D fallida"
 
 [General]
 ViewPersp="Mapa de Perspectiva"
