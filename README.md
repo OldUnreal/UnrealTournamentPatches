@@ -50,6 +50,7 @@ Besides fixing hundreds of bugs, the OldUnreal UT patches also add features such
 * Faster server downloads (even without redirect servers)
 * Mouse wheel scrolling support for the game menu
 * High-DPI awareness for the game and Unreal Editor
+* Updated versions of Chris Dohnal's UTGLR OpenGLDrv and D3D9Drv renderers
 
 A full list of patch features and changes is available in the [Release Notes](https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md). 
 
@@ -61,10 +62,11 @@ While the OldUnreal patches preserve compatibility with the original game as wel
 
 All UnrealScript mods for UT v451b or lower will continue to work in OldUnreal's v469 or later. The following native (C++) mods for older UT versions will not work in v469:
 
-* XC_Engine v24 or below: A v469-compatible update for XC_Engine is coming soon
+* XC_Engine v24 or below: v469-compatible versions of XC_Engine are available [here](https://ut99.org/viewforum.php?f=63)
 * Demo Manager 3.4 or below: Our patches include an updated Demo Manager so there is no need to downgrade to an older version
 * D3D8Drv: D3D8Drv will crash in v469. We are not planning to fix this
 * D3D10Drv: D3D10Drv has some rendering glitches and does not work in Unreal Editor 2.2
+* D3D11Drv: D3D11Drv currently works well in game, but crashes in Unreal Editor 2.2
 
 ### For Server Admins
 
@@ -73,13 +75,17 @@ Most UnrealScript mods for UT v451b or lower will continue to work on OldUnreal'
 The following native (C++) server mods will not work in v469:
 * ServerCrashFix: there is no need to install this mods as all of its fixes have been integrated into the OldUnreal patches
 * ACE v1.1f or below: will continue to work on Windows servers but not on Linux servers. Server admins who wish to run ACE on their Linux servers must upgrade to ACE v1.2 or later
-* XC_Engine v24 or below: Most of the bug fixes in XC_Engine have been integrated into the OldUnreal patches. Server admins who rely on XC_Engine for its advanced features must upgrade to XC_Engine v25 or later
+* XC_Engine v24 or below: Most of the bug fixes in XC_Engine have been integrated into the OldUnreal patches. Server admins who rely on XC_Engine for its advanced features must upgrade to XC_Engine v25 or later. You can download the latest XC_Engine [here](https://ut99.org/viewforum.php?f=63)
 
 ### For Developers
 
 OldUnreal's patches add some new UnrealScript features which should not be used in mods that target compatibility with UT v451b or below. We are working on a document that lists the new features and that describes best practices for developers.
 
 Native mod developers may want to use our updated UT SDK, which will be hosted in this repository.
+
+## Malware Warnings
+
+The executable files in our patch packages currently lack a digital signature. For this reason, there are malware/virus scanners that flag our patch as potential malware. Additional information can be found [here](https://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1600846518/46#46) and [here](https://www.digicert.com/blog/ms-smartscreen-application-reputation/). We are working on a solution.
 
 ## Donations
 
@@ -98,6 +104,8 @@ We are more than happy to accept other contributions too. Some of the things we 
 
 You can use our [issue tracker](https://github.com/OldUnreal/UnrealTournamentPatches/issues) to file bug reports. Reasonable feature requests for Unreal Editor can also be posted there. Please do not ask for new features in the game itself as these are out of the scope of our project.
 
+Before filing a bug report, please use the GitHub search function to see if someone else has already reported the same issue. If you find an issue that looks similar to yours, then please submit a comment in the existing issue report.
+
 When filing a bug report, please include relevant details about your setup (i.e., your operating system and version, your UT version and build date, mods you are using) and describe how we can reproduce the problem.
 
 ## Credits
@@ -114,6 +122,8 @@ We also want to recognize the hard work of the many beta testers and contributor
 * uZi, batonix, zkyp, and the members of the UTCTF.pug community: for helping us debug the invisible weapon/flag problem
 * Sp0ngeb0b, proasm, Deepu: for extensive testing and feedback on UnrealScript-related issues
 * Buggie: for extremely thorough testing and for the record number of bug reports
+* Eternity: for helping us solve the FCollisionHash problem
+* Dizzy and NuLL: for helping us solve the invisible collision problem
 
 Finally, we want to express our sincerest gratitude to the following people:
 * Stacey Conley (aka "Flak"): this project would not have happened without her. Thank you Stacey, you are amazing!
