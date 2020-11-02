@@ -13,14 +13,111 @@
 * [UT99.org - Unreal Tournament Community](https://ut99.org)
 * [OldUnreal](https://www.oldunreal.com)
 
-## Unreal Tournament Version 469 Release Notes
+## Unreal Tournament Version 469b Release Notes (Coming Soon!)
 
-Version 469 is completely network compatible with all previous public releases of UT (down to 432).
+Version 469b is completely network compatible with all previous public releases of UT (down to 432).
 The UTPG and OldUnreal teams worked hard to maintain binary compatibility with older native mods.
-Most of these mods will continue to work in version 469. However, some mods may need some trivial updates.
+Most of these mods will continue to work in version 469b. However, some mods may need some trivial updates.
+If you are a native mod author, and you are having trouble updating your mod for version 469b, then please reach out to us at [the OldUnreal forums](https://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?board=nativemods).
+**Note:** This patch disables older versions of ACE.
+Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
+
+### Stability Improvements
+
+#### Unreal Editor
+* Fixed a bug that caused ucc batchexport to crash while exporting native classes
+* Fixed bugs that crashed Unreal Editor when attempting to import non-power-of-two (NPOT) textures
+
+#### Physics and Player Movement
+* Fixed several FCollisionHash stability problems, including the infamous FCollisionHash::ActorLineCheck crash (thanks Eternity/Feralidragon!)
+
+#### Game Client
+* Fixed a bug that caused the game client to crash when resetting configuration options in the preferences window
+
+#### Audio and 3D Rendering
+* Fixed a bug that caused Galaxy to crash during mapswitches if you had UseDigitalMusic set to false
+
+### Bug Fixes
+
+#### Unreal Editor
+* Fixed a bug that caused the 3D viewport camera to jump when clicking and holding down a mouse button without moving the mouse
+* Fixed texture compression artifacts in textures whose width or height were not multiples of 4
+* Fixed a problem that caused constant idle CPU usage when using UEd with audio enabled
+* Fixed an UnrealEd bug that made it impossible to assign songs to MusicEvents
+* Pressing cancel in the file saving dialog now works as expected
+* The mover node count check that happens during map saving now works as expected
+
+#### Physics and Player Movement
+* Restored actor touch behavior for older (<v469) clients and servers
+* Fixed a bug that caused collisions with invisible level geometry when playing at extremely high frame rates
+
+#### Networking and Netcode
+* Fixed a bug that made the server stop responding to in-game browser queries if there were players in PlayerWaiting or PlayerSpectating state on the server
+* Removed the file size check from the HTTP file downloader. This size check prevented players from joining servers when the redirect server sent them a file of a different generation than the one the game server was using
+
+#### Audio and 3D Rendering
+* Fixed a bug that caused scriptedtextures (such as the ammo counters on the minigun, rocket launcher, and flak cannon) not to update properly
+* Fixed a bug that caused the VSync menu option not to work for XOpenGLDrv
+* Fixed a bug that made XOpenGLDrv render complex meshes incorrectly
+* Fixed a bug that caused masked textures to render incorrectly in XOpenGLDrv
+* Fixed XOpenGLDrv texture decompression for small textures and NPOT textures
+* Fixed a bug that caused D3D9Drv to crash when attempting to render textures with empty compressed mipmaps
+* Fixed a directdraw initialization bug that caused SoftDrv to crash in fullscreen mode
+* Fixed an ALAudio bug that caused sounds to play from the wrong location
+* Fixed a Galaxy bug that broke sound spatialization
+* Fixed a bug that caused Cluster to play interface sounds (such as voice taunts) with the wrong pitch
+* Fixed a bug that could cause ALAudio music playback to stop randomly
+* Fixed an XOpenGLDrv bug that caused smallwave textures to be rendered as unmasked textures
+* Fixed an XOpenGLDrv bug that caused part of the viewport to be invisible when going into fullscreen mode from a max-sized window
+* Fixed a bug that caused D3DDrv screenshots to be blank when using windowed mode
+* Fixed a bug that caused D3D10Drv and D3D11Drv to change the windowed mode resolution when going into fullscreen mode using ALT+ENTER
+
+#### UnrealScript
+* Fixed a bug that made it possible to cycle through AnnouncerSpectators (which UTv469 uses to play announcersounds) using F5 or Viewclass binds
+
+#### Miscellaneous
+* Fixed a bug that caused the game to parse commandline parameters incorrectly when the game was launched from a folder containing spaces
+* Added the missing TTF fonts to the Linux patch package
+
+### Enhancements
+
+#### Unreal Editor
+* Added a new package verification routine that can detect and fix up packages that are incompatible with previous versions of UT. This routine automatically runs while compiling/saving a package.
+* Made the font size for the game/UEd log windows configurable in the ini
+* Optimized bulk actor deletion
+* Oversized textures in the texture browser now get clipped rather than ignored
+
+#### Game Client
+* Made the game client automatically load the default viewport manager when the configured viewport manager fails to load (e.g., when trying to load SDLDrv on Windows)
+* Updated libcurl.dll to version 7.72.0_3 (this version will hopefully generate fewer false positive detections by malware scanners)
+* Made the driver and preference caching system filter out duplicates. This fixes the duplicate entries some Linux and macOS players were seeing in the game menus (e.g., in the list of game types or skins)
+* Restored compatibility with a couple of older mods that replace the game menu
+* The top right corner of the in-game menu bar now includes additional version information
+* The renderer no longer gets destroyed when switching between windowed mode and fullscreen mode
+
+#### Audio and 3D Rendering
+* Restored distance culling and sound dampening for occluded sound sources in Galaxy and Cluster
+* Made Cluster reset all music channels when looping tracker music
+* Increased the draw distance in D3D9Drv
+* Restored compatibility with legacy audio drivers from earlier windows patches (although you may have to use the -nodep commandline switch)
+* Improved XOpenGLDrv performance (particularly for people with older GPUs)
+* Revamped OpenGLDrv shader code
+* Enabled Ogg Vorbis support in all audio drivers and in the UnrealEd music browser
+* Added more VSync control options to the in-game menu
+* Added audio output selection options to the in-game menu (supported by ALAudio and Cluster)
+* Increased the size of the vertex selection markers when using OpenGLDrv or D3D9Drv
+
+#### Miscellaneous
+* Added a menu option to control the Translocator's weapon switching behavior when pressing fire and alt-fire simultaneously. This option will only affect local games or games on 469b (and later) servers.
+
+## Unreal Tournament Version 469a Release Notes
+
+Version 469a is completely network compatible with all previous public releases of UT (down to 432).
+The UTPG and OldUnreal teams worked hard to maintain binary compatibility with older native mods.
+Most of these mods will continue to work in version 469a. However, some mods may need some trivial updates.
 If you are a native mod author, and you are having trouble updating your mod for version 469, then please reach out to us at [the OldUnreal forums](https://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?board=nativemods).
 **Note:** This patch disables older versions of ACE.
-Server admins should upgrade ACE to version 1.1e or later to check 469 clients.
+Server admins should upgrade ACE to version 1.1e or later to check 469a clients.
 
 ### Stability Improvements
 
@@ -82,8 +179,8 @@ Server admins should upgrade ACE to version 1.1e or later to check 469 clients.
 * Fixed an issue where the game would speed up dramatically when rendering more than 200 frames per second.
 * Fixed a bug that could cause dodge moves to be delayed.
 * Fixed a bug that caused the server to constantly and incorrectly adjust the client's in-game position. This caused choppy movement when rendering more than 90 frames per second.
-* Fixed a bug that caused players to get stuck in walls or slopes when playing with high frame rates. This bugfix will only work on v469 servers.
-* Fixed a bug that caused extremely large position adjustments when walking sideways into sloped brushes. This bugfix will only work on v469 servers.
+* Fixed a bug that caused players to get stuck in walls or slopes when playing with high frame rates. This bugfix will only work on v469a servers.
+* Fixed a bug that caused extremely large position adjustments when walking sideways into sloped brushes. This bugfix will only work on v469a servers.
 * Fixed several bugs that allowed certain projectiles to ignore collision with level geometry.
 
 #### Input and Windowing
@@ -180,7 +277,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469 clients.
 
 #### Anti-Cheat
 
-* Revamped the UT v468 MD5 code. Older clients can connect to v469 servers now even if they don't support the MD5 extension. The server now also marks which files it wants MD5 checks for.
+* Revamped the UT v468 MD5 code. Older clients can connect to v469a servers now even if they don't support the MD5 extension. The server now also marks which files it wants MD5 checks for.
 * MD5 checking is now disabled by default. To enable, set MD5Enable to True under [Engine.GameEngine] in the server's ini file.
 * Added an auto-updater for the Packages.md5 list. The auto-updater will check for list updates once an hour if you have MD5Enable and MD5AutoUpdate both set to true under [Engine.GameEngine].
 
@@ -223,7 +320,6 @@ MaxFileDownloadRate=0   Maximum download speed in bytes per second
 * Added selectedcursor support to the Linux and Mac clients.
 * Added the -FORCELOGFLUSH command line option. This option makes the game/server flush the log file every time it is written to.
 * Added the -SETHOMEDIR= command line option. Normally, the game looks for the UnrealTournament.ini and User.ini files in \~/.utpg/System (on Linux), \~/Library/Application Support/Unreal Tournament/System (on Mac), or in UnrealTournament\System (on Windows). With this option, you can override the preferences path (e.g., ./ut-bin-x86 -sethomedir=\~/.loki/ut/System).
-* Added a menu option to control the Translocator's weapon switching behavior when pressing fire and alt-fire simultaneously.
 * Made pulsegun and minigun lockdown a configurable option that is disabled by default.
 * UnrealI and UnrealShare decorations can no longer be destroyed if they have bStatic set.
 * Merged Unreal 227's UnrealI and UnrealShare AI fixes.
