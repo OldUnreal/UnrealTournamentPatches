@@ -27,6 +27,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 #### Unreal Editor
 * Fixed a bug that caused ucc batchexport to crash while exporting native classes
 * Fixed bugs that crashed Unreal Editor when attempting to import non-power-of-two (NPOT) textures
+* Fixed a bug that caused Unreal Editor to crash when editing certain actor properties in the editactor window
 
 #### Physics and Player Movement
 * Fixed several FCollisionHash stability problems, including the infamous FCollisionHash::ActorLineCheck crash (thanks Eternity/Feralidragon!)
@@ -36,6 +37,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 
 #### Audio and 3D Rendering
 * Fixed a bug that caused Galaxy to crash during mapswitches if you had UseDigitalMusic set to false
+* Fixed a bug that caused the game client to crash in scenes with lots of lights in them
 
 ### Bug Fixes
 
@@ -71,9 +73,11 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Fixed an XOpenGLDrv bug that caused part of the viewport to be invisible when going into fullscreen mode from a max-sized window
 * Fixed a bug that caused D3DDrv screenshots to be blank when using windowed mode
 * Fixed a bug that caused D3D10Drv and D3D11Drv to change the windowed mode resolution when going into fullscreen mode using ALT+ENTER
+* Fixed a bug that caused objects behind mirrors to be visible in OpenGLDrv and XOpenGLDrv
 
 #### UnrealScript
 * Fixed a bug that made it possible to cycle through AnnouncerSpectators (which UTv469 uses to play announcersounds) using F5 or Viewclass binds
+* Fixed bugs that made it impossible to load mods that imported color palettes from the original Botpack, UnrealI, or UnrealShare packages
 
 #### Miscellaneous
 * Fixed a bug that caused the game to parse commandline parameters incorrectly when the game was launched from a folder containing spaces
@@ -94,6 +98,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Restored compatibility with a couple of older mods that replace the game menu
 * The top right corner of the in-game menu bar now includes additional version information
 * The renderer no longer gets destroyed when switching between windowed mode and fullscreen mode
+* Added new crosshair rendering options to the in-game menu
 
 #### Audio and 3D Rendering
 * Restored distance culling and sound dampening for occluded sound sources in Galaxy and Cluster
