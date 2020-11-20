@@ -56,6 +56,8 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 #### Networking and Netcode
 * Fixed a bug that made the server stop responding to in-game browser queries if there were players in PlayerWaiting or PlayerSpectating state on the server
 * Removed the file size check from the HTTP file downloader. This size check prevented players from joining servers when the redirect server sent them a file of a different generation than the one the game server was using
+* Fixed a bug that caused certain actor properties not to update after becoming relevant to clients again
+* Fixed a bug that made it impossible to play demos recorded on servers running very old versions of UTPure
 
 #### Audio and 3D Rendering
 * Fixed a bug that caused scriptedtextures (such as the ammo counters on the minigun, rocket launcher, and flak cannon) not to update properly
@@ -74,10 +76,14 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Fixed a bug that caused D3DDrv screenshots to be blank when using windowed mode
 * Fixed a bug that caused D3D10Drv and D3D11Drv to change the windowed mode resolution when going into fullscreen mode using ALT+ENTER
 * Fixed a bug that caused objects behind mirrors to be visible in OpenGLDrv and XOpenGLDrv
+* Fixed a bug that made the shield belt effect visible while spectating a player with behindview 0
+* Fixed a bug that caused unlit meshes in fog zones to be rendered without texturing
+* Fixed a bug that caused the pulsegun to be rendered in the wrong position when holding it in your left or right hand
 
 #### UnrealScript
 * Fixed a bug that made it possible to cycle through AnnouncerSpectators (which UTv469 uses to play announcersounds) using F5 or Viewclass binds
 * Fixed bugs that made it impossible to load mods that imported color palettes from the original Botpack, UnrealI, or UnrealShare packages
+* Fixed the broken polygon in the ripper gun
 
 #### Miscellaneous
 * Fixed a bug that caused the game to parse commandline parameters incorrectly when the game was launched from a folder containing spaces
@@ -114,6 +120,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 
 #### Miscellaneous
 * Added a menu option to control the Translocator's weapon switching behavior when pressing fire and alt-fire simultaneously. This option will only affect local games or games on 469b (and later) servers.
+* The gargbage collector now tracks and cleans up actor references stored in object default properties
 
 ## Unreal Tournament Version 469a Release Notes
 
