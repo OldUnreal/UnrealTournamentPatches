@@ -34,9 +34,11 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 
 #### Game Client
 * Fixed a bug that caused the game client to crash when resetting configuration options in the preferences window
+* Fixed a bug that caused the game to crash when preloading very large textures
 
 #### Audio and 3D Rendering
 * Fixed a bug that caused Galaxy to crash during mapswitches if you had UseDigitalMusic set to false
+* Fixed a bug that caused Galaxy to crash when playing a mono sound and a stereo/compressed sound simultaneously
 * Fixed a bug that caused the game client to crash in scenes with lots of lights in them
 
 ### Bug Fixes
@@ -48,6 +50,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Fixed an UnrealEd bug that made it impossible to assign songs to MusicEvents
 * Pressing cancel in the file saving dialog now works as expected
 * The mover node count check that happens during map saving now works as expected
+* Fixed a bug that made UnrealEd's cleanup tool remove original actors too when trying to clean up their duplicates
 
 #### Physics and Player Movement
 * Restored actor touch behavior for older (<v469) clients and servers
@@ -79,15 +82,19 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Fixed a bug that made the shield belt effect visible while spectating a player with behindview 0
 * Fixed a bug that caused unlit meshes in fog zones to be rendered without texturing
 * Fixed a bug that caused the pulsegun to be rendered in the wrong position when holding it in your left or right hand
+* Fixed a bug that made announcer sounds (such as CTF events) too quiet when using Galaxy
+* Fixed an XOpenGLDrv bug that caused decals to render incorrectly
 
 #### UnrealScript
 * Fixed a bug that made it possible to cycle through AnnouncerSpectators (which UTv469 uses to play announcersounds) using F5 or Viewclass binds
 * Fixed bugs that made it impossible to load mods that imported color palettes from the original Botpack, UnrealI, or UnrealShare packages
 * Fixed the broken polygon in the ripper gun
+* Fixed a bug that made the ammo bar in the HUD not to scale properly at high resolutions
 
 #### Miscellaneous
 * Fixed a bug that caused the game to parse commandline parameters incorrectly when the game was launched from a folder containing spaces
 * Added the missing TTF fonts to the Linux patch package
+* Fixed a bug that made Setup.exe not read the Manifest.int file in a umod if you already had a Manifest in your System folder
 
 ### Enhancements
 
@@ -96,6 +103,8 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Made the font size for the game/UEd log windows configurable in the ini
 * Optimized bulk actor deletion
 * Oversized textures in the texture browser now get clipped rather than ignored
+* Added "Import CompMips" button to the texture browser. This allows you to import and compress hi-res image data and add it to an existing texture
+* Made BC3/DXT5 the default compressed texture format for textures whose source image has alpha channel data
 
 #### Game Client
 * Made the game client automatically load the default viewport manager when the configured viewport manager fails to load (e.g., when trying to load SDLDrv on Windows)
