@@ -22,6 +22,9 @@ If you are a native mod author, and you are having trouble updating your mod for
 **Note:** This patch disables older versions of ACE.
 Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 
+### Patch Distribution
+* The Windows and Mac packages are now digitally signed. This should significantly reduce the amount of false-positive malware warnings.
+
 ### Stability Improvements
 
 #### Unreal Editor
@@ -51,6 +54,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Pressing cancel in the file saving dialog now works as expected
 * The mover node count check that happens during map saving now works as expected
 * Fixed a bug that made UnrealEd's cleanup tool remove original actors too when trying to clean up their duplicates
+* Fixed a bug that caused file saving failures for packages that generated compatibility warnings
 
 #### Physics and Player Movement
 * Restored actor touch behavior for older (<v469) clients and servers
@@ -84,6 +88,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Fixed a bug that caused the pulsegun to be rendered in the wrong position when holding it in your left or right hand
 * Fixed a bug that made announcer sounds (such as CTF events) too quiet when using Galaxy
 * Fixed an XOpenGLDrv bug that caused decals to render incorrectly
+* Fixed a bug that caused textures to render with the wrong PolyFlags when setting UsePrecache to true in the renderer settings
 
 #### UnrealScript
 * Fixed a bug that made it possible to cycle through AnnouncerSpectators (which UTv469 uses to play announcersounds) using F5 or Viewclass binds
@@ -105,6 +110,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Oversized textures in the texture browser now get clipped rather than ignored
 * Added "Import CompMips" button to the texture browser. This allows you to import and compress hi-res image data and add it to an existing texture
 * Made BC3/DXT5 the default compressed texture format for textures whose source image has alpha channel data
+* The model points count is now visible on the build sheet
 
 #### Game Client
 * Made the game client automatically load the default viewport manager when the configured viewport manager fails to load (e.g., when trying to load SDLDrv on Windows)
@@ -114,6 +120,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * The top right corner of the in-game menu bar now includes additional version information
 * The renderer no longer gets destroyed when switching between windowed mode and fullscreen mode
 * Added new crosshair rendering options to the in-game menu
+* The Linux client now has an (experimental) wxWidgets-based launcher (wx-ut-bin-<arch>). This launcher adds support for the "preferences" console command. It requires wxWidgets 3.14 or later.
 
 #### Audio and 3D Rendering
 * Restored distance culling and sound dampening for occluded sound sources in Galaxy and Cluster
