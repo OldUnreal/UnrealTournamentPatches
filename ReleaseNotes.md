@@ -24,6 +24,10 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 
 ### Patch Distribution
 * The Windows and Mac packages are now digitally signed. This should significantly reduce the amount of false-positive malware warnings.
+* Updated the included OpenAL Soft binary for Windows to version 1.21.1
+* Updated the included FMOD Engine binaries for all clients to version 2.1.08
+* Updated the included libcurl binary for Windows to version 7.72.0_3 (this version will hopefully generate fewer false positive detections by malware scanners)
+* Updated the included SDL2 binaries for Linux and macOS to version 2.12
 
 ### Stability Improvements
 
@@ -31,6 +35,8 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Fixed a bug that caused ucc batchexport to crash while exporting native classes
 * Fixed bugs that crashed Unreal Editor when attempting to import non-power-of-two (NPOT) textures
 * Fixed a bug that caused Unreal Editor to crash when editing certain actor properties in the editactor window
+* Fixed a bug that caused Unreal Editor to crash after undoing a transaction that had caused an actor to be renamed (e.g., a duplicate or copy/paste operation)
+* Fixed a bug that caused Unreal Editor to crash after editing a combo value in the actor browser
 
 #### Physics and Player Movement
 * Fixed several FCollisionHash stability problems, including the infamous FCollisionHash::ActorLineCheck crash (thanks Eternity/Feralidragon!)
@@ -43,6 +49,10 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Fixed a bug that caused Galaxy to crash during mapswitches if you had UseDigitalMusic set to false
 * Fixed a bug that caused Galaxy to crash when playing a mono sound and a stereo/compressed sound simultaneously
 * Fixed a bug that caused the game client to crash in scenes with lots of lights in them
+* Fixed a bug that caused the game to crash in ProcessDrawCalls when attempting to render a ScriptedTexture with a high-resolution source texture
+
+#### Networking and Netcode
+* Removed the NumInRec<=RELIABLE_BUFFER assertion which could still be reached by certain server crash tools
 
 ### Bug Fixes
 
@@ -55,6 +65,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * The mover node count check that happens during map saving now works as expected
 * Fixed a bug that made UnrealEd's cleanup tool remove original actors too when trying to clean up their duplicates
 * Fixed a bug that caused file saving failures for packages that generated compatibility warnings
+* Fixed a bug that caused certain actor duplication operations to silently fail
 
 #### Physics and Player Movement
 * Restored actor touch behavior for older (<v469) clients and servers
@@ -89,6 +100,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Fixed a bug that made announcer sounds (such as CTF events) too quiet when using Galaxy
 * Fixed an XOpenGLDrv bug that caused decals to render incorrectly
 * Fixed a bug that caused textures to render with the wrong PolyFlags when setting UsePrecache to true in the renderer settings
+* Restored the old sound culling behavior for older clients connected to 469 servers
 
 #### UnrealScript
 * Fixed a bug that made it possible to cycle through AnnouncerSpectators (which UTv469 uses to play announcersounds) using F5 or Viewclass binds
@@ -114,7 +126,6 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 
 #### Game Client
 * Made the game client automatically load the default viewport manager when the configured viewport manager fails to load (e.g., when trying to load SDLDrv on Windows)
-* Updated libcurl.dll to version 7.72.0_3 (this version will hopefully generate fewer false positive detections by malware scanners)
 * Made the driver and preference caching system filter out duplicates. This fixes the duplicate entries some Linux and macOS players were seeing in the game menus (e.g., in the list of game types or skins)
 * Restored compatibility with a couple of older mods that replace the game menu
 * The top right corner of the in-game menu bar now includes additional version information
