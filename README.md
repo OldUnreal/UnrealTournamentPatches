@@ -89,7 +89,7 @@ The executable files in our patch packages currently lack a digital signature. F
 
 ## Donations
 
-We are all volunteers who work on Unreal and Unreal Tournament in our spare time. If you like our work, then please consider making a small donation [here](https://www.oldunreal.com/donate.html). Please make sure to mention Unreal Tournament in your donation note!
+We are all volunteers who work on Unreal and Unreal Tournament in our spare time. If you like our work, then please consider making a small donation [here](https://www.oldunreal.com/phpBB3/donate). Please make sure to mention Unreal Tournament in your donation note!
 
 ## Other Contributions
 
