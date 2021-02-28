@@ -37,6 +37,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Fixed a bug that caused Unreal Editor to crash when editing certain actor properties in the editactor window
 * Fixed a bug that caused Unreal Editor to crash after undoing a transaction that had caused an actor to be renamed (e.g., a duplicate or copy/paste operation)
 * Fixed a bug that caused Unreal Editor to crash after editing a combo value in the actor browser
+* Fixed a bug that caused Unreal Editor to crash when rebuilding brushes with invalid brush links
 
 #### Physics and Player Movement
 * Fixed several FCollisionHash stability problems, including the infamous FCollisionHash::ActorLineCheck crash (thanks Eternity/Feralidragon!)
@@ -44,12 +45,15 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 #### Game Client
 * Fixed a bug that caused the game client to crash when resetting configuration options in the preferences window
 * Fixed a bug that caused the game to crash when preloading very large textures
+* Fixed a bug that caused the garbage collector to crash when loading maps with very long names
 
 #### Audio and 3D Rendering
 * Fixed a bug that caused Galaxy to crash during mapswitches if you had UseDigitalMusic set to false
 * Fixed a bug that caused Galaxy to crash when playing a mono sound and a stereo/compressed sound simultaneously
 * Fixed a bug that caused the game client to crash in scenes with lots of lights in them
 * Fixed a bug that caused the game to crash in ProcessDrawCalls when attempting to render a ScriptedTexture with a high-resolution source texture
+* Fixed a bug that caused D3D9Drv to crash when attempting to render textures with empty compressed mipmaps
+* Fixed a directdraw initialization bug that caused SoftDrv to crash in fullscreen mode
 
 #### Networking and Netcode
 * Removed the NumInRec<=RELIABLE_BUFFER assertion which could still be reached by certain server crash tools
@@ -76,6 +80,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Removed the file size check from the HTTP file downloader. This size check prevented players from joining servers when the redirect server sent them a file of a different generation than the one the game server was using
 * Fixed a bug that caused certain actor properties not to update after becoming relevant to clients again
 * Fixed a bug that made it impossible to play demos recorded on servers running very old versions of UTPure
+* Fixed a bug that caused hidden viewtarget actors not to be replicated. This bug broke bunnytrack maps such as BT-OcarinaOfTime
 
 #### Audio and 3D Rendering
 * Fixed a bug that caused scriptedtextures (such as the ammo counters on the minigun, rocket launcher, and flak cannon) not to update properly
@@ -83,8 +88,6 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Fixed a bug that made XOpenGLDrv render complex meshes incorrectly
 * Fixed a bug that caused masked textures to render incorrectly in XOpenGLDrv
 * Fixed XOpenGLDrv texture decompression for small textures and NPOT textures
-* Fixed a bug that caused D3D9Drv to crash when attempting to render textures with empty compressed mipmaps
-* Fixed a directdraw initialization bug that caused SoftDrv to crash in fullscreen mode
 * Fixed an ALAudio bug that caused sounds to play from the wrong location
 * Fixed a Galaxy bug that broke sound spatialization
 * Fixed a bug that caused Cluster to play interface sounds (such as voice taunts) with the wrong pitch
@@ -101,17 +104,24 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Fixed an XOpenGLDrv bug that caused decals to render incorrectly
 * Fixed a bug that caused textures to render with the wrong PolyFlags when setting UsePrecache to true in the renderer settings
 * Restored the old sound culling behavior for older clients connected to 469 servers
+* Fixed a bug that could cause sounds produced by moving actors to be culled despite being in range of the listener
 
 #### UnrealScript
 * Fixed a bug that made it possible to cycle through AnnouncerSpectators (which UTv469 uses to play announcersounds) using F5 or Viewclass binds
 * Fixed bugs that made it impossible to load mods that imported color palettes from the original Botpack, UnrealI, or UnrealShare packages
 * Fixed the broken polygon in the ripper gun
 * Fixed a bug that made the ammo bar in the HUD not to scale properly at high resolutions
+* Fixed a bug that caused the in-game voice menu to have large black borders under certain conditions
+* Teleporting with the translocator no longer causes you to start falling if you were flying at the start of the teleport
+* ViewShake now allows the camera roll to reset to 0 at high framerates (Thanks Deaod!)
+* SendServerMove now sends the correct viewrotation to the server (Thanks Deaod!)
+* The rocket launcher lock-on crosshair now scales correctly with custom crosshair scaling options (Thanks Deaod!)
 
 #### Miscellaneous
 * Fixed a bug that caused the game to parse commandline parameters incorrectly when the game was launched from a folder containing spaces
 * Added the missing TTF fonts to the Linux patch package
 * Fixed a bug that made Setup.exe not read the Manifest.int file in a umod if you already had a Manifest in your System folder
+* Fixed bugs that broke savegame saving and loading on Linux and macOS
 
 ### Enhancements
 
@@ -127,11 +137,17 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 #### Game Client
 * Made the game client automatically load the default viewport manager when the configured viewport manager fails to load (e.g., when trying to load SDLDrv on Windows)
 * Made the driver and preference caching system filter out duplicates. This fixes the duplicate entries some Linux and macOS players were seeing in the game menus (e.g., in the list of game types or skins)
-* Restored compatibility with a couple of older mods that replace the game menu
 * The top right corner of the in-game menu bar now includes additional version information
 * The renderer no longer gets destroyed when switching between windowed mode and fullscreen mode
+* The Linux client now has an (experimental) wxWidgets-based launcher (wx-ut-bin-<arch>). This launcher adds support for the "preferences" console command. It requires wxWidgets 3.14 or later. (Thanks Buggie!)
+* The client now retains the INI, USERINI, LOG, LANPLAY, and NEWWINDOW command line options when relaunching
+
+#### UnrealScript
+* Restored compatibility with a couple of older mods that replace the game menu
 * Added new crosshair rendering options to the in-game menu
-* The Linux client now has an (experimental) wxWidgets-based launcher (wx-ut-bin-<arch>). This launcher adds support for the "preferences" console command. It requires wxWidgets 3.14 or later.
+* Merged several improvements to the in-game voice menu, including numbered labels, larger lists, and scrolling in larger steps. (Thanks Buggie!)
+* CTF flags now automatically respawn and get returned to their flag base if they get destroyed. This allows CTF flags to work on maps with CloudZones or TriggeredDeath triggers. The fix is enabled by default but can be disabled by setting Botpack.CTFGame.bAutoRespawnFlags to false. (Thanks Buggie!)
+* The pulse beam no longer despawns if you hold the pulsegun altfire button for more than 60 seconds
 
 #### Audio and 3D Rendering
 * Restored distance culling and sound dampening for occluded sound sources in Galaxy and Cluster
