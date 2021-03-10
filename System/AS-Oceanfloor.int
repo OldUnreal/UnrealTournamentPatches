@@ -1,5 +1,5 @@
 ﻿[LevelInfo0]
-Title="Ocean Floor 'Station 5'"
+Title="Ocean Floor "Station 5""
 IdealPlayerCount="8-10"
 LevelEnterText="Control the underwater base!"
 
@@ -44,7 +44,7 @@ FortName="The Terminal 4"
 DestroyedMessage="has been destroyed!"
 
 [LevelSummary]
-Title="Ocean Floor 'Station 5'"
+Title="Ocean Floor "Station 5""
 IdealPlayerCount="8-10"
 LevelEnterText="Control the underwater base!"
 

@@ -199,12 +199,13 @@ void main (void)
     Color = texture(Texture0, texCoords);
     #endif
 
-	Color *= TexCoords[11].x; // Diffuse factor.
+    if (TexCoords[11].x > 0.0)
+        Color *= TexCoords[11].x; // Diffuse factor.
 
 	if (TexCoords[11].z > 0.0)
 		Color.a *= TexCoords[11].z; // Alpha.
 
-   if ( TextureFormat == TEXF_RGTC_RG) //BC5 (GL_COMPRESSED_RG_RGTC2) compression
+    if ( TextureFormat == TEXF_BC5) //BC5 (GL_COMPRESSED_RG_RGTC2) compression
         Color.b = sqrt(1.0 - Color.r*Color.r + Color.g*Color.g);
 
 	// Handle PF_Masked.
@@ -264,7 +265,6 @@ void main (void)
 			#else
 			LightColor = texture(Texture1, vLightMapCoords);
 			#endif
-			LightColor *= 2; // Do 2x lightmap scale here instead of SetTexture
 	#ifdef GL_ES
 			TotalColor*=vec4(LightColor.bgr,1.0);
 	#else
@@ -411,7 +411,6 @@ void main (void)
         #else
 		FogColor = texture(Texture5, vFogMapCoords);
 		#endif
-		FogColor *= 2; // Do 2x fogmap scale here instead of SetTexture
 
 		TotalColor.rgb = TotalColor.rgb * (1.0-FogColor.a) + FogColor.rgb;
 		TotalColor.a   = FogColor.a;

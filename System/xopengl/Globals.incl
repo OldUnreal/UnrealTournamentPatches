@@ -6,13 +6,13 @@
 
 	if Core:
 	GL #version 330 core
-	or if UseBindlessTextures || UsePersistentBuffers
+	or if UsingBindlessTextures || UsingPersistentBuffers
 	GL #version 450 core
 
 	if ES:
 	GLES #version 300 es
 
-	UseBindlessTextures also sets #define BINDLESSTEXTURES
+	UsingBindlessTextures also sets #define BINDLESSTEXTURES
 
 	To see invalid or unused shader vars comment Suppress=Dev in game ini
 	or set UseOpenGLDebug=True and a DebugLevel>=2 (GL_DEBUG_SEVERITY_LOW)
@@ -130,32 +130,130 @@ const uint	LT_RandomPulse=10u; //using random LightPeriod.
 const uint	LT_RandomSubtlePulse=11u; //using random LightPeriod.
 
 // Texture Formats
-const uint TEXF_P8			    = 0u;
-const uint	TEXF_RGBA7		    = 1u;
-const uint	TEXF_RGB16		    = 2u;
-const uint	TEXF_DXT1           = 3u;
-const uint	TEXF_RGB8           = 4u;
-const uint	TEXF_RGBA8          = 5u;
-const uint	TEXF_DXT3		    = 6u;
-const uint	TEXF_DXT5		    = 7u;
-
-// RGTC.
-const uint	TEXF_RGTC_R         = 8u; // GL_COMPRESSED_RED_RGTC1
-const uint	TEXF_RGTC_R_SIGNED  = 9u; // GL_COMPRESSED_SIGNED_RED_RGTC1
-const uint	TEXF_RGTC_RG        = 10u; // GL_COMPRESSED_RG_RGTC2
-const uint	TEXF_RGTC_RG_SIGNED = 11u; // GL_COMPRESSED_SIGNED_RG_RGTC2
-
-// BPTC.
-const uint	TEXF_BPTC_RGBA		= 12u;
-const uint	TEXF_BPTC_RGB_SF	= 13u;
-const uint	TEXF_BPTC_RGB_UF	= 14u;
-
-// RGBA (continued).
-const uint	TEXF_RGBA16         = 40u;
-const uint	TEXF_RGBA16_S       = 41u;
-const uint	TEXF_RGBA32         = 42u;
-const uint	TEXF_RGBA32_S       = 43u;
-const uint	TEXF_MAX			= 255u;
+const uint	TEXF_P8                	=	0x00u;
+const uint	TEXF_BGRA8_LM          	=	0x01u;
+const uint	TEXF_R5G6B5            	=	0x02u;
+const uint	TEXF_BC1               	=	0x03u;
+const uint	TEXF_RGB8              	=	0x04u;
+const uint	TEXF_BGRA8             	=	0x05u;
+const uint	TEXF_BC2               	=	0x06u;
+const uint	TEXF_BC3               	=	0x07u;
+const uint	TEXF_BC4               	=	0x08u;
+const uint	TEXF_BC4_S             	=	0x09u;
+const uint	TEXF_BC5               	=	0x0au;
+const uint	TEXF_BC5_S             	=	0x0bu;
+const uint	TEXF_BC7               	=	0x0cu;
+const uint	TEXF_BC6H_S            	=	0x0du;
+const uint	TEXF_BC6H              	=	0x0eu;
+const uint	TEXF_RGBA16            	=	0x0fu;
+const uint	TEXF_RGBA16_S          	=	0x10u;
+const uint	TEXF_RGBA32            	=	0x11u;
+const uint	TEXF_RGBA32_S          	=	0x12u;
+const uint	TEXF_MONO	            =	0x13u;
+const uint	TEXF_UNCOMPRESSED      	=	0x14u;
+const uint	TEXF_UNCOMPRESSED_LOW  	=	0x15u;
+const uint	TEXF_UNCOMPRESSED_HIGH 	=	0x16u;
+const uint	TEXF_COMPRESSED        	=	0x17u;
+const uint	TEXF_COMPRESSED_LOW    	=	0x18u;
+const uint	TEXF_COMPRESSED_HIGH   	=	0x19u;
+const uint	TEXF_BC1_PA            	=	0x1au;
+const uint	TEXF_R8                	=	0x1bu;
+const uint	TEXF_R8_S              	=	0x1cu;
+const uint	TEXF_R16               	=	0x1du;
+const uint	TEXF_R16_S             	=	0x1eu;
+const uint	TEXF_R32               	=	0x1fu;
+const uint	TEXF_R32_S             	=	0x20u;
+const uint	TEXF_RG8               	=	0x21u;
+const uint	TEXF_RG8_S             	=	0x22u;
+const uint	TEXF_RG16              	=	0x23u;
+const uint	TEXF_RG16_S            	=	0x24u;
+const uint	TEXF_RG32              	=	0x25u;
+const uint	TEXF_RG32_S            	=	0x26u;
+const uint	TEXF_RGB8_S            	=	0x27u;
+const uint	TEXF_RGB16_            	=	0x28u;
+const uint	TEXF_RGB16_S           	=	0x29u;
+const uint	TEXF_RGB32             	=	0x2au;
+const uint	TEXF_RGB32_S           	=	0x2bu;
+const uint	TEXF_RGBA8_            	=	0x2cu;
+const uint	TEXF_RGBA8_S           	=	0x2du;
+const uint	TEXF_R16_F             	=	0x2eu;
+const uint	TEXF_R32_F             	=	0x2fu;
+const uint	TEXF_RG16_F            	=	0x30u;
+const uint	TEXF_RG32_F            	=	0x31u;
+const uint	TEXF_RGB16_F           	=	0x32u;
+const uint	TEXF_RGB32_F           	=	0x33u;
+const uint	TEXF_RGBA16_F          	=	0x34u;
+const uint	TEXF_RGBA32_F          	=	0x35u;
+const uint	TEXF_ETC1              	=	0x36u;
+const uint	TEXF_ETC2              	=	0x37u;
+const uint	TEXF_ETC2_PA           	=	0x38u;
+const uint	TEXF_ETC2_RGB_EAC_A    	=	0x39u;
+const uint	TEXF_EAC_R             	=	0x40u;
+const uint	TEXF_EAC_R_S           	=	0x41u;
+const uint	TEXF_EAC_RG            	=	0x42u;
+const uint	TEXF_EAC_RG_S          	=	0x43u;
+const uint	TEXF_ASTC_4x4          	=	0x44u;
+const uint	TEXF_ASTC_5x4          	=	0x45u;
+const uint	TEXF_ASTC_5x5          	=	0x46u;
+const uint	TEXF_ASTC_6x5          	=	0x47u;
+const uint	TEXF_ASTC_6x6          	=	0x48u;
+const uint	TEXF_ASTC_8x5          	=	0x49u;
+const uint	TEXF_ASTC_8x6          	=	0x4au;
+const uint	TEXF_ASTC_8x8          	=	0x4bu;
+const uint	TEXF_ASTC_10x5         	=	0x4cu;
+const uint	TEXF_ASTC_10x6         	=	0x4du;
+const uint	TEXF_ASTC_10x8         	=	0x4eu;
+const uint	TEXF_ASTC_10x10        	=	0x4fu;
+const uint	TEXF_ASTC_12x10        	=	0x50u;
+const uint	TEXF_ASTC_12x12        	=	0x51u;
+const uint	TEXF_ASTC_3x3x3        	=	0x52u;
+const uint	TEXF_ASTC_4x3x3        	=	0x53u;
+const uint	TEXF_ASTC_4x4x3        	=	0x54u;
+const uint	TEXF_ASTC_4x4x4        	=	0x55u;
+const uint	TEXF_ASTC_5x4x4        	=	0x56u;
+const uint	TEXF_ASTC_5x5x4        	=	0x57u;
+const uint	TEXF_ASTC_5x5x5        	=	0x58u;
+const uint	TEXF_ASTC_6x5x5        	=	0x59u;
+const uint	TEXF_ASTC_6x6x5        	=	0x60u;
+const uint	TEXF_ASTC_6x6x6        	=	0x6au;
+const uint	TEXF_PVRTC1_2BPP       	=	0x6bu;
+const uint	TEXF_PVRTC1_4BPP       	=	0x6cu;
+const uint	TEXF_PVRTC2_2BPP       	=	0x6du;
+const uint	TEXF_PVRTC2_4BPP       	=	0x6eu;
+const uint	TEXF_R8_UI             	=	0x6fu;
+const uint	TEXF_R8_I              	=	0x70u;
+const uint	TEXF_R16_UI            	=	0x71u;
+const uint	TEXF_R16_I             	=	0x72u;
+const uint	TEXF_R32_UI            	=	0x73u;
+const uint	TEXF_R32_I             	=	0x74u;
+const uint	TEXF_RG8_UI            	=	0x75u;
+const uint	TEXF_RG8_I             	=	0x76u;
+const uint	TEXF_RG16_UI           	=	0x77u;
+const uint	TEXF_RG16_I            	=	0x78u;
+const uint	TEXF_RG32_UI           	=	0x79u;
+const uint	TEXF_RG32_I            	=	0x7au;
+const uint	TEXF_RGB8_UI           	=	0x7bu;
+const uint	TEXF_RGB8_I            	=	0x7cu;
+const uint	TEXF_RGB16_UI          	=	0x7du;
+const uint	TEXF_RGB16_I           	=	0x7eu;
+const uint	TEXF_RGB32_UI          	=	0x7fu;
+const uint	TEXF_RGB32_I           	=	0x80u;
+const uint	TEXF_RGBA8_UI          	=	0x81u;
+const uint	TEXF_RGBA8_I           	=	0x82u;
+const uint	TEXF_RGBA16_UI         	=	0x83u;
+const uint	TEXF_RGBA16_I          	=	0x84u;
+const uint	TEXF_RGBA32_UI         	=	0x85u;
+const uint	TEXF_RGBA32_I          	=	0x86u;
+const uint	TEXF_ARGB8             	=	0x87u;
+const uint	TEXF_ABGR8             	=	0x88u;
+const uint	TEXF_RGB10A2           	=	0x89u;
+const uint	TEXF_RGB10A2_UI        	=	0x8au;
+const uint	TEXF_RGB10A2_LM        	=	0x8bu;
+const uint	TEXF_RGB9E5            	=	0x8cu;
+const uint	TEXF_P8_RGB9E5         	=	0x8du;
+const uint	TEXF_R1                	=	0x8eu;
+const uint	TEXF_NODATA            	=	0xfeu;
+const uint	TEXF_MAX			    =   0xffu;
 
 // DrawFlags
 const uint	DF_DiffuseTexture	= 0x00000001u;

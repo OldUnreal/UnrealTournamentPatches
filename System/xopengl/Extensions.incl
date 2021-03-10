@@ -12,6 +12,8 @@
 #endif
 
 #ifdef GL_ES
+// The following extension appears not to be available on RaspberryPi4 at the moment.
+#extension GL_EXT_clip_cull_distance : enable
 precision mediump float;
 precision mediump int;
 #endif

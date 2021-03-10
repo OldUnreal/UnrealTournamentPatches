@@ -1,5 +1,5 @@
 ﻿[LevelInfo0]
-Title="Suelo Oceánico 'Estación 5'"
+Title="Suelo Oceánico "Estación 5""
 IdealPlayerCount="8-10"
 LevelEnterText="¡Controla la base submarina!"
 
@@ -19,7 +19,7 @@ ZoneName="Submarino"
 ZoneName="Centro de Operaciones"
 
 [ZoneInfo7]
-ZoneName="Rampa hacia nivel superior"
+ZoneName="Corredor"
 
 [SpecialEvent0]
 Message="¡La terminal 1 ha sido inutilizada!"
@@ -40,11 +40,11 @@ FortName="La Terminal 2"
 DestroyedMessage="¡ha sido destruida!"
 
 [FortStandard3]
-FortName="La Terminal 3"
+FortName="La Terminal 4"
 DestroyedMessage="¡ha sido destruida!"
 
 [LevelSummary]
-Title="Suelo Oceánico 'Estación 5'"
+Title="Suelo Oceánico "Estación 5""
 IdealPlayerCount="8-10"
 LevelEnterText="¡Controla la base submarina!"
 

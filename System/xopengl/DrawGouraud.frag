@@ -74,12 +74,13 @@ void main(void)
     Color = texture(Texture0, (texCoords*gTexUV.xy));
     #endif
 
-	Color *= gTextureInfo.x; // Diffuse factor.
+    if (gTextureInfo.x > 0.0)
+        Color *= gTextureInfo.x; // Diffuse factor.
 
     if (gTextureInfo.z > 0.0)
 		Color.a *= gTextureInfo.z; // Alpha.
 
-	if (gTextureFormat == TEXF_RGTC_RG) //BC5 (GL_COMPRESSED_RG_RGTC2) compression
+	if (gTextureFormat == TEXF_BC5) //BC5 (GL_COMPRESSED_RG_RGTC2) compression
         Color.b = sqrt(1.0 - Color.r*Color.r + Color.g*Color.g);
 
 	// Handle PF_Masked.
