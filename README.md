@@ -85,7 +85,7 @@ Native mod developers may want to use our updated UT SDK, which will be hosted i
 
 ## Malware Warnings
 
-The executable files in our patch packages currently lack a digital signature. For this reason, there are malware/virus scanners that flag our patch as potential malware. Additional information can be found [here](https://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?num=1600846518/46#46) and [here](https://www.digicert.com/blog/ms-smartscreen-application-reputation/). We are working on a solution.
+Our Windows and macOS binaries are digitally signed, but malware/virus scanners may occasionally still flag them as potentio malware because our signing certificate is still building up reputation. Additional information can be found [here](https://www.digicert.com/blog/ms-smartscreen-application-reputation/). 
 
 ## Donations
 
@@ -110,7 +110,7 @@ When filing a bug report, please include relevant details about your setup (i.e.
 
 ## Credits
 
-The primary developers for the OldUnreal patches were: Smirftsch, Dots, Han, Higor, and [AnthraX](https://github.com/stijn-volckaert).
+The primary developers for the OldUnreal patches were: Smirftsch, Dots, Han, [Higor](https://github.com/CacoFFF), and [AnthraX](https://github.com/stijn-volckaert).
 
 We also want to recognize the hard work of the many beta testers and contributors in our community:
 * Chamberly, Casey: for the many internal bug reports and mental support
@@ -121,9 +121,10 @@ We also want to recognize the hard work of the many beta testers and contributor
 * Sizzl, batonix, ue, Zim: for extensive testing and feedback on the game server
 * uZi, batonix, zkyp, and the members of the UTCTF.pug community: for helping us debug the invisible weapon/flag problem
 * Sp0ngeb0b, proasm, Deepu: for extensive testing and feedback on UnrealScript-related issues
-* Buggie: for extremely thorough testing and for the record number of bug reports
+* Buggie: for extremely thorough testing, for the record number of bug reports, and for contributing the wxWidgets launcher and various bug fixes
 * Eternity: for helping us solve the FCollisionHash problem
 * Dizzy and NuLL: for helping us solve the invisible collision problem
+* Deaod: for feedback on our movement updates and various bug fixes
 
 Finally, we want to express our sincerest gratitude to the following people:
 * Stacey Conley (aka "Flak"): this project would not have happened without her. Thank you Stacey, you are amazing!
