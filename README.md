@@ -20,9 +20,17 @@ If you are a modder or beta tester and you would like to test our latest changes
 
 Our official patch releases can be found on the [Releases Page](https://github.com/OldUnreal/UnrealTournamentPatches/releases). If you are a regular player or if you want to play online, then please use official releases only.
 
-Our official Windows and Linux releases are distributed as file archives. They are meant to be unpacked **on top of an existing installation** of Unreal Tournament. If you want to test out our patches, but maintain the possibility to uninstall them, we strongly urge you to create a backup of your entire UT folder before installing the patch.
+Our official **Windows** and **Linux** releases are distributed as file archives. They are meant to be unpacked **on top of an existing installation** of Unreal Tournament. If you want to test out our patches, but maintain the possibility to uninstall them, we strongly urge you to create a backup of your entire UT folder before installing the patch.
 
-The macOS version of our patch comes as an application bundle. You should drag this bundle into your applications library. If you're installing our macOS patch for the first time, you will also need to copy the data files from an existing UT installation into the bundle. You can do this by right clicking the bundle in Finder and by selecting the "Show Package Contents" option. Next, you should navigate to the Contents>MacOS folder. Finally, you should drag the Maps, Sounds, Textures, and Music folders from an existing UT installation into this folder.
+The macOS version of our patch comes as an application bundle. You should drag this bundle into your applications library. If you're installing our macOS patch for the first time, you will also need to copy the data files from an existing UT installation into your Application Support Library. To install the data files, you need to do the following:
+1. Open a new Finder window
+2. Press ⇧⌘G to bring up the "Go to folder:" dialog
+3. Enter "~/Library/Application Support/" (without the quotes!) in the edit box and click ok
+4. Within the ~/Library/Application Support/ folder, create a new folder called "Unreal Tournament" (without the quotes!)
+5. Copy the Maps, Sounds, Textures, and Music folders from your existing UT installation into the folder you've just created
+6. Go into the Textures folder and delete the LadderFonts.utx and UWindowFonts.utx files
+
+After installing the data files, you should be able to launch the UnrealTournament app!
 
 ## System Requirements
 
