@@ -20,7 +20,19 @@ If you are a modder or beta tester and you would like to test our latest changes
 
 Our official patch releases can be found on the [Releases Page](https://github.com/OldUnreal/UnrealTournamentPatches/releases). If you are a regular player or if you want to play online, then please use official releases only.
 
-Our official **Windows** and **Linux** releases are distributed as file archives. They are meant to be unpacked **on top of an existing installation** of Unreal Tournament. If you want to test out our patches, but maintain the possibility to uninstall them, we strongly urge you to create a backup of your entire UT folder before installing the patch.
+If you want to test out our patches, but maintain the possibility to uninstall them, we strongly urge you to create a backup of your entire UT folder before installing the patch.
+
+#### Windows Installation
+
+We distribute our **Windows** patches in multiple formats. The zip packages can be installed by unpacking them **on top of an existing installation** of Unreal Tournament. No other actions are needed to install the patch.
+
+We also have an exe installer with a wizard. This wizard should automatically find your existing installation.
+
+#### Linux Installation
+
+The **Linux** version of our patch is only available as a tarball. To install, unpack the tarball **on top of an existing installation** of Unreal Tournament. No other actions are needed to install the patch.
+
+#### macOS Installation
 
 The macOS version of our patch comes as an application bundle. You should drag this bundle into your applications library. If you're installing our macOS patch for the first time, you will also need to copy the data files from an existing UT installation into your Application Support Library. To install the data files, you need to do the following:
 1. Open a new Finder window
