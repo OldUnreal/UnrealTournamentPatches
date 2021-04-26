@@ -105,7 +105,7 @@ Native mod developers may want to use our updated UT SDK, which will be hosted i
 
 ## Malware Warnings
 
-Our Windows and macOS binaries are digitally signed, but malware/virus scanners may occasionally still flag them as potentio malware because our signing certificate is still building up reputation. Additional information can be found [here](https://www.digicert.com/blog/ms-smartscreen-application-reputation/). 
+Our Windows and macOS binaries are digitally signed, but malware/virus scanners may occasionally still flag them as potential malware because our signing certificate is still building up reputation. Additional information can be found [here](https://www.digicert.com/blog/ms-smartscreen-application-reputation/). 
 
 ## Donations
 
