@@ -18,7 +18,7 @@
 Version 469b is completely network compatible with all previous public releases of UT (down to 432).
 The UTPG and OldUnreal teams worked hard to maintain binary compatibility with older native mods.
 Most of these mods will continue to work in version 469b. However, some mods may need some trivial updates.
-If you are a native mod author, and you are having trouble updating your mod for version 469b, then please reach out to us at [the OldUnreal forums](https://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?board=nativemods).
+If you are a native mod author, and you are having trouble updating your mod for version 469b, then please reach out to us at [the OldUnreal forums](https://www.oldunreal.com/phpBB3/viewforum.php?f=37).
 **Note:** This patch disables older versions of ACE.
 Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 
@@ -170,7 +170,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 Version 469a is completely network compatible with all previous public releases of UT (down to 432).
 The UTPG and OldUnreal teams worked hard to maintain binary compatibility with older native mods.
 Most of these mods will continue to work in version 469a. However, some mods may need some trivial updates.
-If you are a native mod author, and you are having trouble updating your mod for version 469, then please reach out to us at [the OldUnreal forums](https://www.oldunreal.com/cgi-bin/yabb2/YaBB.pl?board=nativemods).
+If you are a native mod author, and you are having trouble updating your mod for version 469, then please reach out to us at [the OldUnreal forums](https://www.oldunreal.com/phpBB3/viewforum.php?f=37).
 **Note:** This patch disables older versions of ACE.
 Server admins should upgrade ACE to version 1.1e or later to check 469a clients.
 
