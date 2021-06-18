@@ -1,0 +1,41 @@
+﻿[LevelInfo0]
+; EN: Title="Cryptic"
+Title="Segreto"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Control Thyself"
+LevelEnterText="Controllati"
+
+[ZoneInfo4]
+; EN: ZoneName="Half-Circle Room"
+ZoneName="Camera Semicircolare"
+
+[ZoneInfo7]
+; EN: ZoneName="Quarter-Circle Room"
+ZoneName="Camera a Quarto di Cerchio"
+
+[ZoneInfo5]
+; EN: ZoneName="Long Hallway"
+ZoneName="Lungo Corridoio"
+
+[ControlPoint4]
+; EN: PointName="Iron Star"
+PointName="Stella di Ferro"
+
+[ControlPoint2]
+; EN: PointName="Daemon Head"
+PointName="Testa del Demone"
+
+[ControlPoint3]
+; EN: PointName="Gargoyle"
+PointName="Gargolla"
+
+[ZoneInfo6]
+; EN: ZoneName="Short Hallway"
+ZoneName="Corridoio Corto"
+
+[LevelSummary]
+; EN: Title="Cryptic"
+Title="Segreto"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Control Thyself"
+LevelEnterText="Controllati"

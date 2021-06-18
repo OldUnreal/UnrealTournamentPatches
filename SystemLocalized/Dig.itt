@@ -1,49 +1,77 @@
-[TranslatorEvent2]
-message=Il villaggio di Harobed è sull'altro versante di queste montagne. Attenderò finché i due soli saranno tramontati e procederò attraverso la miniera di Rrajigar. È l'unico modo.
+ï»¿[LevelInfo0]
+; EN: Title="Rrajigar Mine"
+Title="Miniera di Rrajigar"
+; EN: LevelEntryText="Entering the Rrajigar Mine"
+LevelEntryText="Arrivo alla'Miniera di Rrajigar"
 
-[TranslatorEvent0]
-message=ALLARME: rivolta degli schiavi di Nali rilevata nel Settore 3A. Uso letale di forza autorizzato per sopprimere l'attività ribelle.
-
-[TranslatorEvent1]
-message=ATTENZIONE: i ponti di accesso nella parte inferiore della miniera non sono sicuri. Procedere con cautela.
+[LevelSummary]
+; EN: Title="Rrajigar Mine"
+Title="Miniera di Rrajigar"
+; EN: LevelEntryText="Entering the Rrajigar Mine"
+LevelEntryText="Arrivo alla'Miniera di Rrajigar"
 
 [TranslatorEvent11]
-message=ATTENZIONE: rilevato intruso nelle Sezioni C-6 e D-8. Tutto il personale è responsabile per il pattugliamento della propria zona.
-Hint=Spara al vicino pulsante rosso per sollevare il ponte attraverso la lava.
+; EN: Message="WARNING: Intruder detected in Sections C-6 and D-8. All personnel are responsible for patrolling their local area."
+Message="ATTENZIONE: rilevato intruso nelle Sezioni C-6 e D-8. Tutto il personale Ã¨ responsabile per il pattugliamento della propria zona."
+; EN: Hint="Shoot the red button nearby to raise the narrow bridge across the lava."
+Hint="Spara al vicino pulsante rosso per sollevare il ponte attraverso la lava."
 
-[TranslatorEvent8]
-message=Lo stato della prima fonte d'energia del Campo di Forza è "attiva".
-Hint=Premi i pulsanti rossi sul muro andandoci contro.
+[TranslatorEvent1]
+; EN: Message="WARNING: Access bridges in lower half of mine are unsafe. Proceed with caution."
+Message="ATTENZIONE: i ponti di accesso nella parte inferiore della miniera non sono sicuri. Procedere con cautela."
 
-[TranslatorEvent7]
-message=Lo stato della seconda fonte d'energia del Campo di Forza è "attiva".
-Hint=Premi i pulsanti rossi sul muro andandoci contro.
+[TranslatorEvent0]
+; EN: Message="ALERT: Nali slave resistance detected in Sector 3A. Lethal force authorized to suppress rebellious activity."
+Message="ALLARME: rivolta degli schiavi di Nali rilevata nel Settore 3A. Uso letale di forza autorizzato per sopprimere l'attivitÃ  ribelle."
 
-[TranslatorEvent9]
-message=ATTENZIONE: lo stato della prima fonte d'energia del Campo di Forza è "disattivata". Condizione di sicurezza due raggiunta.
+[TranslatorEvent2]
+; EN: Message="Harobed Village is on the other side of these mountains. I will wait until the two suns have set and proceed through Rrajigar mine. It is the only way."
+Message="Il villaggio di Harobed Ã¨ sull'altro versante di queste montagne. AttenderÃ² finchÃ© i due soli saranno tramontati e procederÃ² attraverso la miniera di Rrajigar. Ãˆ l'unico modo."
 
 [TranslatorEvent10]
-message=ATTENZIONE: lo stato della seconda fonte d'energia del Campo di Forza è "disattivata". Condizione di sicurezza due raggiunta.
+; EN: Message="WARNING: Force Field power source two status is inactive. Security Condition Two reached."
+Message="ATTENZIONE: lo stato della seconda fonte d'energia del Campo di Forza Ã¨ "disattivo". Condizione di sicurezza due raggiunta."
 
 [TranslatorEvent6]
-message=Campo di Forza intatto. Tutti i sistemi normali.
-Hint=Il Campo di Forza deve essere disattivato. Trova la stanza di controllo.
+; EN: Message="Force field intact. All systems normal."
+Message="Campo di Forza intatto. Tutti i sistemi normali."
+; EN: Hint="The force field must be deactivated. Find the control room."
+Hint="Il Campo di Forza deve essere disattivato. Trova la stanza di controllo."
 
 [TranslatorEvent5]
-message=ATTENZIONE! Campo di Forza disattivato. Rilevato intruso nella Sezione C-6. Eliminare qualunque presenza non autorizzata.
-Hint=Spara a tutti i barili rossi.
+; EN: Message="WARNING! Force field de-activated. Intruder detected in Section C-6. Eliminate any unauthorized presence."
+Message="ATTENZIONE! Campo di Forza disattivato. Rilevato intruso nella Sezione C-6. Eliminare qualunque presenza non autorizzata."
+; EN: Hint="Shoot all red barrels."
+Hint="Spara a tutti i barili rossi."
 
-[LevelInfo0]
-Title=Miniera di Rrajigar
+[TranslatorEvent9]
+; EN: Message="WARNING: Force Field power source one status is inactive. Security Condition Two reached."
+Message="ATTENZIONE: lo stato della prima fonte d'energia del Campo di Forza Ã¨ "disattivo". Condizione di sicurezza due raggiunta."
 
 [TranslatorEvent19]
-message=NOTA: l'area deve essere sgombra perché il montacarichi funzioni correttamente.
+; EN: Message="NOTE: Area must be clear for transport lift to perform properly."
+Message="NOTA: l'area deve essere sgombra perchÃ© il montacarichi funzioni correttamente."
 
 [TranslatorEvent15]
-message=Sei GIÀ morto.
+; EN: Message="You are SO dead."
+Message="Sei GIÃ€ morto."
 
 [TranslatorEvent14]
-message=Che diavolo stai facendo quassù?
+; EN: Message="What the hell are you doing up here?"
+Message="Che diavolo stai facendo quassÃ¹?"
 
 [TranslatorEvent20]
-message=Area di controllo del Campo di Forza.
+; EN: Message="Force Field Control Area"
+Message="Area di controllo del Campo di Forza"
+
+[TranslatorEvent8]
+; EN: Message="Force Field power source one status is active."
+Message="Lo stato della prima fonte d'energia del Campo di Forza Ã¨ "attivo"."
+; EN: Hint="Press the red buttons on the wall by bumping into them."
+Hint="Premi i pulsanti rossi sul muro andandoci contro."
+
+[TranslatorEvent7]
+; EN: Message="Force Field power source two status is active."
+Message="Lo stato della seconda fonte d'energia del Campo di Forza Ã¨ "attivo"."
+; EN: Hint="Press the red buttons on the wall by bumping into them."
+Hint="Premi i pulsanti rossi sul muro andandoci contro."

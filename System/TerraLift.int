@@ -1,0 +1,28 @@
+﻿[LevelInfo0]
+Title="Terraniux Underground"
+LevelEntryText="Entering Terraniux Underground"
+
+[LevelSummary]
+Title="Terraniux Underground"
+LevelEntryText="Entering Terraniux Underground"
+
+[SpecialEvent0]
+Message="ALERT"
+
+[TranslatorEvent0]
+Message="Biowaste Flow Control: the Biowaste flow is constant. Monitor it for dangerous fluctuations in viscosity or pressure. The alarm still seems to have problems, in case of malfunction activate the two override controls."
+AltMessage="Lift activated. All personnel are reminded to complete assigned tasks."
+
+[TranslatorEvent5]
+Message="Drainage Status: Biowaste flow is at nominal levels. All pumps operational. Section C empty and available for any Biowaster overflow. Please be sure that the regular pipe maintenance is handled."
+
+[TranslatorEvent4]
+Message="Security Status: Intruder detected at entrance. Activating security screens on Scientific Research Lab and Hydroponics Section. All security elements deploy around access points in Sections A, B and C to deny intruder access to Lift 1."
+Hint="Find the Containment rooms A, B and C and activate the buttons to access the Lift 1."
+
+[TranslatorEvent3]
+Message="Control Room Status: Pressurized and locked. Do not access except in case of emergency situation."
+
+[TranslatorEvent1]
+Message="Pumping station has been activated, expected storage capacity after operation: 32%."
+AltMessage="Section D: 54% of full capacity reached."

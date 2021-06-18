@@ -1,17 +1,33 @@
-[TranslatorEvent2]
-Message=Dovremo pregare prima di partire per la Spira del Sole, dove troveremo rifugio. Sia lodato il Signore del Buon Sapere per averci dato questa possibilit‡. Il viaggio sar‡ lungo, ma noi ce la faremo!
-Hint=Guarda molto bene i muri.
+Ôªø[LevelInfo0]
+; EN: Title="Harobed Village"
+Title="Villaggio di Harobed"
+; EN: LevelEntryText="Entering the Harobed Village"
+LevelEntryText="Arrivo al Villaggio di Harobed"
 
-[TranslatorEvent0]
-Message=Quanta tristezza. I Demoni del Cielo sono venuti, portando molti di noi alle miniere. Se non obbediremo verremo sterminati. Loro conoscono il nostro segreto nell'Abbazia, ma non l'hanno trovato.
-Hint=Cerca nella chiesa in cima alla collina. I Nali potrebbero avere una sorpresa per te.
+[LevelSummary]
+; EN: Title="Harobed Village"
+Title="Villaggio di Harobed"
+; EN: LevelEntryText="Entering the Harobed Village"
+LevelEntryText="Arrivo al Villaggio di Harobed"
 
 [TranslatorEvent3]
-Hint=Raggiungi l'astronave precipitata, pi˘ avanti sul tuo cammino.
+; EN: Hint="Proceed to the crashed spaceship up ahead."
+Hint="Raggiungi l'astronave precipitata, pi√π avanti sul tuo cammino."
 
 [TranslatorEvent1]
-Message=Non resterÚ qui ancora. Con il prossimo passaggio dei due soli proverÚ a raggiungere la Spira del Sole, dove sarÚ al sicuro. Ma prima riprenderÚ dall'abbazia l'arma dei demoni volanti. 
-Hint= Cerca nella chiesa in cima alla collina. I Nali potrebbero avere una sorpresa.
+; EN: Message="I'll not stay here any longer. With the next passing of the two suns, I'll try to reach the Sunspire. There I will be safe. Before I go I will retrieve the sky demon's weapon from the abbey."
+Message="Non rester√≤ qui ancora. Con il prossimo passaggio dei due soli prover√≤ a raggiungere la Spira del Sole, dove sar√≤ al sicuro. Ma prima riprender√≤ dall'abbazia l'arma dei demoni volanti."
+; EN: Hint="Search the church atop the hill, the Nali may have a surprise for you."
+Hint="Cerca nella chiesa in cima alla collina. I Nali potrebbero avere una sorpresa."
 
-[LevelInfo0]
-Title=Villaggio di Harobed
+[TranslatorEvent0]
+; EN: Message="Sadness fills my soul. The Sky Demons came and took many of us to work in the mines. If we don't obey, we'll be slaughtered. The Sky Demons know about our secret in the abbey, but haven't found it."
+Message="Quanta tristezza. I Demoni del Cielo sono venuti, portando molti di noi alle miniere. Se non obbediremo verremo sterminati. Loro conoscono il nostro segreto nell'Abbazia, ma non l'hanno trovato."
+; EN: Hint="Search the church atop the hill, the Nali may have a surprise for you."
+Hint="Cerca nella chiesa in cima alla collina. I Nali potrebbero avere una sorpresa per te."
+
+[TranslatorEvent2]
+; EN: Message="We shall pray before we set off for the Sunspire. We will find refuge there. Praise be to the God of the Good Lore for giving us sanctuary. The journey will be treacherous but we will prevail!"
+Message="Dovremo pregare prima di partire per la Spira del Sole, dove troveremo rifugio. Sia lodato il Signore del Buon Sapere per averci dato questa possibilit√†. Il viaggio sar√† lungo, ma noi ce la faremo!"
+; EN: Hint="Look very closely along the walls."
+Hint="Guarda molto bene i muri."

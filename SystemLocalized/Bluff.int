@@ -1,0 +1,104 @@
+﻿[LevelInfo0]
+Title="Bluff Eversmoking"
+LevelEnterText="Entering Bluff Eversmoking"
+
+[LevelSummary]
+Title="Bluff Eversmoking"
+LevelEnterText="Entering Bluff Eversmoking"
+
+[TranslatorEvent7]
+Message="HYDRO-ELECTRIC SHIPPING CAR FULLY POWERED AND READY FOR DEPARTURE. ELECTRO-STATIC DISCHARGE NODES AT TOP OF BELL TOWER MUST BE ACTIVATED PRIOR TO CAR START-UP."
+
+[TranslatorEvent20]
+Message="High Priest De'Nasha Breeche 255-480"
+
+[TranslatorEvent11]
+Message="I have been hiding here for what seems like months now. The Skaarj forces that have taken over our monastery continue to transport stolen tarydium and other strange mechanical devices using their lightning sled. I fear that they may find me."
+
+[TranslatorEvent8]
+Message="MAGNETIC LOCKS ENGAGED: AUTHORIZED BY CAPTAIN DUK'CHOROTH - OF THE 12th HOUSE OF dUBREVI"
+AltMessage="MAGNETIC LOCKS DISENGAGED"
+
+[TranslatorEvent9]
+Message="STATIC DISCHARGE NODES: EAST AND WEST BREAKERS MUST BE THROWN TO RELEASE STATIC DISCHARGE."
+AltMessage="STATIC DISCHARGE SUCCESSFUL - HYDRO-ELECTRIC SHIPPING CAR NOW FULLY OPERATIONAL."
+
+[TranslatorEvent6]
+AltMessage="BELL TOWER MAGNETIC LOCKS DISENGAGED: ACCESS TO BELL TOWER PERMITTED."
+
+[TranslatorEvent18]
+Message="Acolyte Ne'Pher Dunis 350-488"
+
+[TranslatorEvent14]
+Message="The woman they captured is scheduled to be executed. I cannot let this happen! As foolish as it sounds I will attempt to sneak her out of the prison cell through our secret caves. From there she can escape to the bell tower until darkness."
+
+[TranslatorEvent5]
+Message="SKAARJ SHIPPING FACILITY POWER MANAGEMENT STATION: HYDRO-ELECTRIC SHIPPING CAR STATUS - OFF / REACTIVATION REQUIRES STATIC DISCHARGE NODES TO BE OPENED AT TOP OF BELL TOWER."
+
+[TranslatorEvent10]
+Message="HAVE FAITH AND NEVER SWAY FROM YOUR BELIEFS. ONLY A SOUL THAT KEEPS THE FAITH DESPITE ALL OPPRESSION SHALL TRIUMPH WHEN THE SAVIOUR PRINCESS COMES FROM THE STARS"
+
+[TranslatorEvent13]
+Message="Myscha Nov 28th 1994- June 1997"
+
+[TranslatorEvent19]
+Message="I am feeling ill. My cough has gotten worse and this darkened cell is not helping. I only hope that my  brother Kruun can escape to our childhood hiding hole in the sewers. From there he can access the inner walls of the monastery."
+
+[TranslatorEvent1]
+Message="Security Officer Sergai Dubrov: ISV-KRAN: LOG ENTRY: We are hot on the trail of the Skaarj Hunting party that captured Kira near the Sunspire. They are headed north towards the blue electrical storms on the horizon."
+
+[TranslatorEvent12]
+Message="I have discovered a secret! Last night I snuck out of my hiding place and swam through the pipes to the prison. They have captured a Girl! The Krall sergeant took two boots in the mouth when he approached her. Haha! I can only laugh at their stupidity."
+
+[TranslatorEvent22]
+Message="Son of Ne'Lin Garas 380-390"
+
+[TranslatorEvent23]
+Message="Pelit Jan 20 1997-July 17 1997"
+
+[TranslatorEvent17]
+Message="Only by facing the direction of the rising sun may one find a new day."
+
+[TranslatorEvent16]
+Message="WARNING-STATIC DISCHARGE NODES-STAY CLEAR DURING OPERATION."
+
+[TranslatorEvent21]
+Message="Acolyte Ne'Lin Garas 353-487"
+
+[TranslatorEvent4]
+Message="HYDRO-LASER CONTROL STATION: LASERS ON AND OPERATIONAL"
+AltMessage="HYDRO-LASER CONTROL STATION: LASERS DISENGAGED - ACCESS TO HYDRO-ELECTRIC GENERATOR BELOW BELL TOWER PERMITTED"
+
+[TranslatorEvent3]
+Message="My brother Kriin is in the cell below me. My other brother Kruun escaped through the water tunnel under the stairs. They sacrificed my best friend Jaara for Kruun's escape."
+
+[TranslatorEvent15]
+Message="Vault of the Dead - Herein lies the last resting place of the High Priest of Bluff Eversmoking and the artifacts used by the Messiah."
+Hint="Find a secret lever in the graveyard"
+
+[TranslatorEvent2]
+Message="Science Officer Kira Argmanov: Separated from my crewmates from ISV-KRAN, I've only been able to stay alive by holding up in this bell tower. A native Nali help me escape the prison cell the Skaarj put me in. Hopefully the Skaarj won't find me here."
+
+[TranslatorEvent0]
+Message="ISV-KRAN Chief Medical Officer Log: Tatiana Zimna: We have come to this beautiful canyon lake monastery in our search for Kira's abductors. We'll make camp by this crucifix tonight and start out early tomorrow."
+
+[TranslatorEvent26]
+Message="Shipping Log: Grorq of the Red Hand Tribe. I am really getting sick with the way the Skaarj are treating us. Constantly bossing us around and making us watch over their pathetic Nali slaves. My troops are getting sick of this situation."
+
+[TranslatorEvent24]
+Message="Shipping Log: Grorq of the Red Hand Tribe. Coming the next full moon we are expecting a large shipment of salvaged supplies from the human spacecraft. I need to make a few repairs to the electric rails around the bluff but we should be ready by then."
+
+[TranslatorEvent25]
+Message="Jailer Hrang of the Red Hand Tribe: we have captured a Terran girl. Some of my soldiers want to try and take liberties with her. I guess that's OK as long as they watch those boots! She kicked me in the Hrangos last time."
+
+[TranslatorEvent27]
+Message="Jailer Hrang of the Red Hand Tribe: Dorro owes me 25,000 gold Paaras when we get home! He truly sucks at death bones. Hustling him is like taking candy from a Terran baby. Speaking of which I think it's time to go beat on that ugly Terran girl some more!"
+
+[TranslatorEvent28]
+Message="Jailer Hrang of the Red Hand Tribe: I can't believe it!!! That Terran girl escaped! One of those worthless Nali Monks must have tunneled her out. I am in DEEP SHIT! If Captain DUK'CHOROTH comes and finds out I let her escape I'll be de-hrangod for sure!"
+
+[TranslatorEvent29]
+Message="Kruun's personal diary: I have to be careful how many times I sneak into the monastery through the tunnels. I've marked the tunnel that leads to the inner monastery with a cross, the other leads to the prison where my brother is still being held."
+
+[TranslatorEvent30]
+Message="MAIN GATE GUARD TOWER"

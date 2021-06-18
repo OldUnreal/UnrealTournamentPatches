@@ -1,36 +1,55 @@
-[LevelInfo0]
-Title="Fortaleza de la MontaÒa"
+Ôªø[LevelInfo2]
+; EN: Title="Outpost 3J"
+Title="Puesto Avanzado 3J"
+; EN: LevelEntryText="Entering the Outpost 3J"
+LevelEntryText="Entrando al Puesto Avanzado 3J"
 
-[TranslatorEvent2]
-message="Registro de Mensaje 7: El Buque Escolta acepta la peticiÛn de volver a suministrar el Fuerte Fronterizo 3J.  Scout Skimmer 3J-1A autorizado a volver al buque escolta para recoger el cargamento."
-
-[TranslatorEvent4]
-message="Controles de Campos de Fuerza"
+[LevelSummary]
+; EN: Title="Outpost 3J"
+Title="Puesto Avanzado 3J"
+; EN: LevelEntryText="Entering the Outpost 3J"
+LevelEntryText="Entrando al Puesto Avanzado 3J"
 
 [TranslatorEvent0]
-message="Registro de Seguridad: Fuerte Fronterizo 3J Comandante Base Ssja'Rath 10∫ TalÛn de Ssa'Rath.  Para mantener el orden y la seguridad hemos vigilado continuamente a Nali en la ciudad.  La Vigilancia es el Guardi·n del Honor."
-
-[TranslatorEvent3]
-message="Controles Izquierdos de la Puerta de la BahÌa Hangar"
-
-[TranslatorEvent1]
-message="Controles Principales de la Puerta de la BahÌa"
-
-[TranslatorEvent5]
-message="Controles Derechos de la Puerta de la BahÌa Hangar "
-
-[TranslatorEvent6]
-message="Controles Posteriores del Campo de Fuerza de Entrada"
+; EN: Message="Security Log: Outpost 3J Base Commander Ssja'Rath 10th Talon of Ssa'Rath. To maintain order and security we have been keeping a constant watch on the Nali in the town. Vigilance is the Guardian of Honor."
+Message="Registro de seguridad: Comandante de Base del Puesto Avanzado 3J Ssja'Rath, 10¬∫ Tal√≥n de Ssa'Rath. Para mantener el orden y la seguridad hemos vigilado continuamente a los Nali en la ciudad. La Vigilancia es la Guardia del Honor."
 
 [TranslatorEvent7]
-message=" Controles del Teleguardi·n"
+; EN: Message="Teleporter Controls
+message="Controles del Teletransportador"
 
-[TranslatorEvent8]
-message="El objetivo del Teleguardi·n es la coordinaciÛn para la plataforma de transporte 13.  Personal de centinela ya enviado para asegurar el ·rea contra resistencia.  ¡rea libre para transmisiÛn de cargamento."
+[TranslatorEvent6]
+; EN: Message="Rear Entrance Force Field Controls"
+Message="Controles del Campo de Fuerza de Entrada Trasera"
 
-[TranslatorEvent9]
-message="Acceso no autorizado para abatir las catacumbas de la iglesia.  Antes de dejar entrar, los de seguridad deben comprobar a todo el personal."
+[TranslatorEvent5]
+; EN: Message="Right Hangar Bay Door Controls"
+message="Controles de la Puerta de la Bah√≠a del Hangar Derecho"
+
+[TranslatorEvent4]
+; EN: Message="Force Field Controls"
+message="Controles del Campo de Fuerza"
+
+[TranslatorEvent3]
+; EN: Message="Left Hangar Bay Door Controls"
+message="Controles de la Puerta de la Bah√≠a del Hangar Izquierdo"
+
+[TranslatorEvent2]
+; EN: Message="Message Log 7: Mothership acknowledges request for resupply of Outpost 3J. Scout Skimmer 3J-1A authorized to return to the mothership to pick up cargo."
+Message="Registro de mensajes 7: La Nave Nodriza acepta la petici√≥n de resuministrar el Puesto Avanzado 3J. Explorador Flotante 3J-1A autorizado a volver a la nave nodriza para recoger cargamento."
+
+[TranslatorEvent1]
+; EN: Message="Main Bay Door Controls"
+message="Controles de Puerta de la Bah√≠a Principal"
 
 [TranslatorEvent10]
-message="Bajar el Panel de Acceso de Seguridad "
+; EN: Message="Lower Security Access Panel"
+message="Panel de Acceso de Seguridad Inferior"
 
+[TranslatorEvent9]
+; EN: Message="No unauthorized access to lower church catacombs. All personnel must be checked by security before access is granted."
+Message="Prohibido el acceso no autorizado a las catacumbas inferiores de la iglesia. Todo el personal debe ser controlado por seguridad antes de autorizar el acceso."
+
+[TranslatorEvent8]
+; EN: Message="Teleporter target coordinates set for surface transporter pad 13. Sentry personnel already dispatched to location to secure area against resistance. Area cleared for cargo transmission."
+Message="Coordenadas de destino del teletransporte situadas en la plataforma de transporte de superficie 13. Personal centinela ya enviado para asegurar el √°rea contra resistencia. √Årea libre para transmisi√≥n de cargamento."

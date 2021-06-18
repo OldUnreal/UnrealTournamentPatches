@@ -1,2 +1,11 @@
-[LevelInfo5]
+﻿[LevelInfo5]
+; EN: Title="The Source Antechamber"
 Title="Anticamera della Fonte"
+; EN: LevelEntryText="Entering The Source Antechamber"
+LevelEntryText="Arrivo alla'Anticamera della Fonte"
+
+[LevelSummary]
+; EN: Title="The Source Antechamber"
+Title="Anticamera della Fonte"
+; EN: LevelEntryText="Entering The Source Antechamber"
+LevelEntryText="Arrivo alla'Anticamera della Fonte"

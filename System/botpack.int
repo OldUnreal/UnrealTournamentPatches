@@ -562,10 +562,10 @@ ESCMessage="Press ESC to begin."
 ESCMessage="Press ESC to continue..."
 
 [ut_biorifle]
-WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the Bio Rifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
+WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the BioRifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
 DeathMessage="%o drank a glass of %k's dripping green load."
-PickupMessage="You got the GES Bio Rifle."
-ItemName="GES Bio Rifle"
+PickupMessage="You got the GES BioRifle."
+ItemName="GES BioRifle"
 
 [minigun2]
 WeaponDescription="Classification: Gatling Gun\n\nPrimary Fire: Bullets are sprayed forth at a medium to fast rate of fire and good accuracy.\n\nSecondary Fire: Minigun fires twice as fast and is half as accurate.\n\nTechniques: Secondary fire is much more useful at close range, but can eat up tons of ammunition."
@@ -1861,7 +1861,7 @@ Bio[2]="Also of the Necris, Kragoth is a known member of the 'Phayder' secret so
 [RatedMatchDM4]
 BotNames[0]="Luthienne"
 BotClassifications[0]="Civilian"
-Bio[0]="Having survived the Wreck of the ISV-Kran, Luthienne was forced to watch all her friends and crewmates die at the hands of the Skaarj until she and 3 others were rescued two years later. Irreparably scarred by her experience, she has entered the Tournament to confront her inner demons and ultimately to silence them through her own death."
+Bio[0]="Having survived the Wreck of the ISV-KRAN, Luthienne was forced to watch all her friends and crewmates die at the hands of the Skaarj until she and 3 others were rescued two years later. Irreparably scarred by her experience, she has entered the Tournament to confront her inner demons and ultimately to silence them through her own death."
 
 [RatedMatchDM3]
 BotNames[0]="Slain"

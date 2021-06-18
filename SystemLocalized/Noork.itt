@@ -1,9 +1,21 @@
+﻿[LevelInfo0]
+; EN: Title="Noork's Elbow"
+Title="Il Passaggio di Noork"
+; EN: LevelEntryText="Entering Noork's Elbow"
+LevelEntryText="Arrivo al Passaggio di Noork"
+
+[LevelSummary]
+; EN: Title="Noork's Elbow"
+Title="Il Passaggio di Noork"
+; EN: LevelEntryText="Entering Noork's Elbow"
+LevelEntryText="Arrivo al Passaggio di Noork"
+
 [TranslatorEvent4]
-Hint=Cerca in tutte le case lungo la strada verso le rovine. Attento ai nemici in agguato.
+; EN: Hint="Search all the houses on your way to the ruins. Watch out for enemies lurking along the way."
+Hint="Cerca in tutte le case lungo la strada verso le rovine. Attento ai nemici in agguato."
 
 [TranslatorEvent0]
-Message=Diario:  L.Goeranov:  siamo bloccati qui da giorni. Abbiamo molto pesce da mangiare, ma ha un gusto strano. Non mi � mai piaciuto il pesce.
-Hint=Presso il ponte levatoio, nelle rovine, una persona amichevole potrebbe aiutarti.
-
-[LevelInfo0]
-Title=Il Passaggio di Noork
+; EN: Message="Log: L. Goeranov: We've been stuck here for days. There are plenty of fish to eat but they taste kinda funny. I never liked fish."
+Message="Diario: L.Goeranov: siamo bloccati qui da giorni. Abbiamo molto pesce da mangiare, ma ha un gusto strano. Non mi è mai piaciuto il pesce."
+; EN: Hint="You might get a helping hand from a friendly individual at the ruins' drawbridge."
+Hint="Presso il ponte levatoio, nelle rovine, una persona amichevole potrebbe aiutarti."

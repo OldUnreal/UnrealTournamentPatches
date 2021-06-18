@@ -1,6 +1,5 @@
 ﻿[Public]
 Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
-Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
 
 [Language]
 Language="English (International)"
@@ -19,15 +18,6 @@ Overwrite="The file "%ls" needs to be updated.  Do you want to overwrite the exi
 Saving="Saving file "%ls"..."
 Loading="Loading file "%ls"..."
 Closing="Closing"
-
-[HelloWorldCommandlet]
-HelpCmd=HelloWorld
-HelpOneLiner="Sample"
-HelpUsage="HelloWorld (no parameters)"
-HelpParm[0]="IntParm"
-HelpParm[1]="StrParm"
-HelpDesc[0]="An integer parameter"
-HelpDesc[1]="A string parameter"
 
 [Errors]
 Unknown="Unknown Error"
@@ -71,8 +61,8 @@ Warning="Warning"
 Question="Question"
 OutOfMemory="Ran out of virtual memory. To prevent this condition, you must free up more space on your primary hard disk."
 History="History"
-Assert="Assertion failed: %ls [File:%ls] [Line: %i]."
-Debug="Debug assertion failed: %ls [File:%ls] [Line: %i]."
+Assert="Assertion failed: %ls [File: %ls] [Line: %i]."
+Debug="Debug assertion failed: %ls [File: %ls] [Line: %i]."
 LinkerExists="Linker for "%ls" already exists."
 BinaryFormat="The file "%ls" contains unrecognizable data."
 SerialSize="%ls: Serial size mismatch: Got %i, Expected %i."
@@ -83,6 +73,7 @@ Exec="Unrecognized command."
 BadProperty=""%ls": Bad or missing property "%ls"."
 MisingIni="Missing .ini file: %ls."
 ExportFail="Error exporting %ls."
+ExportNoData="Did not find exportable data in object %ls."
 
 [General]
 Product="Unreal Tournament"
@@ -93,8 +84,3 @@ False="False"
 None="None"
 Yes="Yes"
 No="No"
-
-[SimpleCommandlet]
-HelpCmd=Simple
-HelpOneLiner="Simple"
-HelpUsage="Simple"

@@ -1,24 +1,37 @@
-[TranslatorEvent3]
-message=Pulsante di attivazione del secondo montacarichi per il trasporto del Tarydium.
+Ôªø[LevelInfo0]
+; EN: Title="Depths of Rrajigar"
+Title="Profondit√† di Rrajigar"
 
-[TranslatorEvent16]
-message=Il Canada Ë veramente freddo. Mi piace la birra Dos Equis. I miei gatti sono arruffati.
-
-[TranslatorEvent12]
-message=Stato della stazione di re-direzionamento del gas: le porte sono pressurizzate e chiuse.
-AltMessage=Porte depressurizzate. Accesso consentito.
-
-[TranslatorEvent18]
-message=Craig Ë il Gran Maestro Doofus.
+[LevelSummary]
+; EN: Title="Depths of Rrajigar"
+Title="Profondit√† di Rrajigar"
+   
+[TranslatorEvent4]
+; EN: Message="WARNING: Exercise caution when in the vicinity of Tarydium barrels."
+Message="ATTENZIONE: massima prudenza in vicinanza delle casse di Tarydium."
 
 [TranslatorEvent17]
-message=Dai, entra! La lava Ë proprio alla temperatura giusta!
+; EN: Message="Come on in, the Lava's fine!"
+Message="Dai, entra! La lava √® proprio alla temperatura giusta!"
 
-[TranslatorEvent4]
-message=ATTENZIONE: massima prudenza in vicinanza delle casse di Tarydium.
+[TranslatorEvent18]
+; EN: Message="Craig is Grand Master Doofus."
+Message="Craig √® il Gran Maestro Doofus."
+
+[TranslatorEvent16]
+; EN: Message="Canada is really cold. I like Dos Equis beer. My cats are fuzzy."
+Message="Il Canada √® veramente freddo. Mi piace la birra Dos Equis. I miei gatti sono arruffati."
+
+[TranslatorEvent3]
+; EN: Message="Secondary Tarydium transport cart activation unit."
+Message="Pulsante di attivazione del secondo montacarichi per il trasporto del Tarydium."
+
+[TranslatorEvent12]
+; EN: Message="Gas Re-Routing Station Status: Doors are pressurized and locked."
+Message="Stato della stazione di re-direzionamento del gas: le porte sono pressurizzate e chiuse."
+; EN: AltMessage="Doors depressurized. Access permitted."
+AltMessage="Porte depressurizzate. Accesso consentito."
 
 [TranslatorEvent2]
-message= Pulsante di attivazione del primo montacarichi per il trasporto del Tarydium.
-
-[LevelInfo0]
-Title=Le profondit‡ di Rrajigar
+; EN: Message="Primary Tarydium transport cart activation unit."
+Message="Pulsante di attivazione del primo montacarichi per il trasporto del Tarydium."

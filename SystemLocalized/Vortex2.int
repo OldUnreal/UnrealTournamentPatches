@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+Title="Vortex Rikers"
+
+[LevelSummary]
+Title="Vortex Rikers"
+
+[TranslatorEvent11]
+Message="ATTENTION ALL PRISONERS: Remember, be kind to your cellmate. Violence will not be tolerated."
+Hint="Go to the air duct to escape."
+
+[TranslatorEvent1]
+Message="First Officer's Log: Vortex Rikers. The prisoners have become more and more restless as we get closer to the prison moon. Security says they have the prisoners under control but several have had to be taken to Med Lab for treatment."
+
+[TranslatorEvent0]
+Message="Navigator's Log: Vortex Rikers. We are on route to the prison moon. Long range sensors are detecting uncharted magnetic masses in Gamma Sector 83H. The captain has ordered a change in course."
+Hint="Bump your head on the switch in the Armoury to deactivate the force field."
+
+[TranslatorEvent2]
+Message="Captain's Log S. Kroon: Vortex Rikers. Altering our course may have proven detrimental to our mission. We are caught in the gravitational field of an uncharted planet. I have ordered the engine foreman to divert power to the drives."
+
+[TranslatorEvent10]
+Message="ATTENTION ALL PRISONERS: Lights out tonight at 20:00. No exceptions."
+Hint="Go to the air duct to escape."
+
+[TranslatorEvent6]
+Message="Chief Security Guard's Log: Prison vessel 254 Vortex Rikers. They've pulled all power to the drives, to no effect. We're spiraling towards the planet. I don't know what is going to happen to us."
+Hint="Shoot the glass to open the hatch."
+
+[TranslatorEvent5]
+Message="Engine Foreman's Log: Prison vessel 254 Vortex Rikers. I am juicing up all the power I can to escape from the gravitational pull of this mysterious planet. It doesn't seem to be working."
+
+[TranslatorEvent8]
+Message="Boris Clague's Diary, day 3: I have been here but three days and already I have two cracked ribs, a fractured thigh, and fourteen stitches. I don't know if I'll make it to the prison moon, much less to the end of next week."
+
+[TranslatorEvent7]
+Message="Jonas Gershwin's Diary, day 204: There was another roach in my lunch today. I wonder how they make it on board starships such as this one. If that bitch in cell 4A keeps looking at me funny I swear I'm going to rip out her larynx!"
+
+[TranslatorEvent9]
+Message="Benjamin Nathaniel's Diary, day 93: Today is my birthday. I will celebrate by attempting to start another prison riot."
+
+[TranslatorEvent12]
+Message="Prisoner 853, James Cavanaugh ready for electrocution."
+
+[TranslatorEvent3]
+Message="Chief Medical Officer's Log: Prison vessel 254 Vortex Rikers. The constant fighting between prisoners seems to be getting worse. At this rate, I will be out of supplies long before we reach the prison moon."

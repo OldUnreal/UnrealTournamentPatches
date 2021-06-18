@@ -1,3 +1,11 @@
-[LevelInfo2]
-Title=Bodegas en el Paso Dasa
+﻿[LevelInfo2]
+; EN: Title="Cellars at Dasa Pass"
+Title="Bodegas en el Paso Dasa"
+; EN: LevelEntryText="Entering the Cellars at Dasa Pass"
+LevelEntryText="Entrando a las Bodegas del Paso Dasa"
 
+[LevelSummary]
+; EN: Title="Cellars at Dasa Pass"
+Title="Bodegas en el Paso Dasa"
+; EN: LevelEntryText="Entering the Cellars at Dasa Pass"
+LevelEntryText="Entrando a las Bodegas del Paso Dasa"

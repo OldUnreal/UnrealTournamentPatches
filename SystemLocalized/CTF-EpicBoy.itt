@@ -1,0 +1,49 @@
+﻿[LevelInfo0]
+; EN: Title="Epic Boy"
+Title="Ragazzo Epico"
+IdealPlayerCount="6-10"
+
+[LevelSummary]
+; EN: Title="Epic Boy"
+Title="Ragazzo Epico"
+IdealPlayerCount="6-10"
+
+[ZoneInfo0]
+; EN: ZoneName="Courtyard"
+ZoneName="Cortile"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Side Entrance"
+ZoneName="Ingresso laterale blu"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Redeemer Hall"
+ZoneName="Sala del Redentore Blu"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Lower Hallway"
+ZoneName="Corridoio inferiore blu"
+
+[ZoneInfo4]
+; EN: ZoneName="Blue Flag Base"
+ZoneName="Base Bandiera Blu"
+
+[ZoneInfo5]
+; EN: ZoneName="Blue Upper Hallway"
+ZoneName="Corridoio superiore blu"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Side Entrance"
+ZoneName="Ingresso laterale rosso"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Upper Hallway"
+ZoneName="Corridoio superiore rosso"
+
+[ZoneInfo9]
+; EN: ZoneName="Red Flag Base"
+ZoneName="Base bandiera rossa"
+
+[ZoneInfo10]
+; EN: ZoneName="Red Lower Hallway"
+ZoneName="Corridoio inferiore rosso"

@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+; EN: Title="Phobos Moon"
+Title="Luna Phobos"
+IdealPlayerCount="4-8"
+
+[ZoneInfo5]
+; EN: ZoneName="Outer Space"
+ZoneName="Spazio Esterno"
+
+[ZoneInfo7]
+; EN: ZoneName="Central"
+ZoneName="Centrale"
+
+[ZoneInfo6]
+; EN: ZoneName="Lift 1"
+ZoneName="Ascensore 1"
+
+[ZoneInfo8]
+; EN: ZoneName="Stairs Corridor"
+ZoneName="Corridoio delle Scale"
+
+[ZoneInfo9]
+; EN: ZoneName="BioRifle Corridor"
+ZoneName="Corridoio Bio Fucile"
+
+[LevelSummary]
+; EN: Title="Phobos Moon"
+Title="Luna Phobos"
+IdealPlayerCount="4-8"

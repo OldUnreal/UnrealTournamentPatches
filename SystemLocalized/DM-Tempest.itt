@@ -1,0 +1,25 @@
+﻿[LevelInfo0]
+; EN: Title="Tempest"
+Title="Tempesta"
+IdealPlayerCount="4-16"
+
+[ZoneInfo0]
+; EN: ZoneName="West Wing"
+ZoneName="Ala Ovest"
+
+[ZoneInfo2]
+; EN: ZoneName="Rocket Room"
+ZoneName="Camera Razzo"
+
+[ZoneInfo1]
+; EN: ZoneName="Damage Amp"
+ZoneName="Amplificatore di Danno"
+
+[ZoneInfo3]
+; EN: ZoneName="Shield Belt"
+ZoneName="Cintura Scudo"
+
+[LevelSummary]
+; EN: Title="Tempest"
+Title="Tempesta"
+IdealPlayerCount="4-16"

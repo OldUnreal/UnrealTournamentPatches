@@ -1,19 +1,35 @@
-[TranslatorEvent4]
-Message=Advertencia de Intrusos. Asegurar todos los puntos de acceso, todo el personal en alerta. Proteger a la Madre, si falla MORIR�.
-Hint=Activa el Generador que acciona la puerta del barco.
+﻿[LevelInfo2]
+; EN: Title="Demon Crater"
+Title="Cráter del Demonio"
+; EN: LevelEntryText="Entering the Demon Crater"
+LevelEntryText="Entrando al Cráter del Demonio"
+
+[LevelSummary]
+; EN: Title="Demon Crater"
+Title="Cráter del Demonio"
+; EN: LevelEntryText="Entering the Demon Crater"
+LevelEntryText="Entrando al Cráter del Demonio"
 
 [TranslatorEvent1]
-Message=Panel de Control del Generador. El Generador funciona. Potencia de salida nominal.
+; EN: Message="Generator Control Panel. Generator is operational. Power output nominal."
+Message="Panel de control del generador. El generador opera normalmente. Potencia de salida nominal."
 
 [TranslatorEvent0]
-Message=Puerta de Entrada:  Aviso; no hay suficiente potencia para establecer un contacto con la puerta.     Activar el Generador.
-AltMessage=Puerta de Entrada: Contacto Establecido.   Entrar en el campo de transporte.
-Hint= Activa el Generador que acciona la puerta del barco.
+; EN: Message="Portal Gate: Warning: not enough power to establish portal link. Activate the Generator."
+Message="Portal de Entrada: Advertencia: no hay suficiente potencia para establecer el enlace del portal. Activar el generador."
+; EN: AltMessage="Portal Gate: Link Established. Enter transport field."
+AltMessage="Portal de Entrada: enlace establecido. Entrar en el campo de transporte."
+; EN: Hint="Activate the Generator that powers the portal to the ship."
+Hint="Activa el generador que da energía al portal de la nave."
 
 [TranslatorEvent3]
-Message=Generador y Cuarto de Carga.
-Hint= Activa el Generador que acciona la puerta del barco.
+; EN: Message="Generator and Loading Room."
+Message="Generador y Sala de Carga."
+; EN: Hint="Activate the Generator that powers the portal to the ship."
+Hint="Activa el generador que da energía al portal de la nave."
 
-[LevelInfo2]
-Title=DCrater
-
+[TranslatorEvent4]
+; EN: Message="Intruder Alert. Secure all access points, all personnel on full alert. Protect the Mother, failure results in DEATH."
+Message="Alerta de Intruso. Asegurar todos los puntos de acceso, todo el personal en alerta máxima. Proteger a la Madre, el fracaso significará LA MUERTE."
+; EN: Hint="Activate the Generator that powers the portal to the ship."
+Hint="Activa el generador que da energía al portal de la nave."

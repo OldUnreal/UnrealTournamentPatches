@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+; EN: Title="Temple of Beatitude"
+Title="Tempio della Beatitudine"
+IdealPlayerCount="8-16"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Base"
+ZoneName="Base rossa"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Base blu"
+
+[ZoneInfo0]
+; EN: ZoneName="Center"
+ZoneName="Centro"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Tube Room"
+ZoneName="Camera rossa della metropolitana"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Tube Room"
+ZoneName="Camera Blue Tube"
+
+[LevelSummary]
+; EN: Title="Temple of Beatitude"
+Title="Tempio della Beatitudine"
+IdealPlayerCount="8-16"

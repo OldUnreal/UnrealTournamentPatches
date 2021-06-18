@@ -1,0 +1,40 @@
+﻿[LevelInfo2]
+Title="Outpost 3J"
+LevelEntryText="Entering the Outpost 3J"
+
+[LevelSummary]
+Title="Outpost 3J"
+LevelEntryText="Entering the Outpost 3J"
+
+[TranslatorEvent0]
+Message="Security Log: Outpost 3J Base Commander Ssja'Rath 10th Talon of Ssa'Rath. To maintain order and security we have been keeping a constant watch on the Nali in the town. Vigilance is the Guardian of Honor."
+
+[TranslatorEvent7]
+Message="Teleporter Controls"
+
+[TranslatorEvent6]
+Message="Rear Entrance Force Field Controls"
+
+[TranslatorEvent5]
+Message="Right Hangar Bay Door Controls"
+
+[TranslatorEvent4]
+Message="Force Field Controls"
+
+[TranslatorEvent3]
+Message="Left Hangar Bay Door Controls"
+
+[TranslatorEvent2]
+Message="Message Log 7: Mothership acknowledges request for resupply of Outpost 3J. Scout Skimmer 3J-1A authorized to return to the mothership to pick up cargo."
+
+[TranslatorEvent1]
+Message="Main Bay Door Controls"
+
+[TranslatorEvent10]
+Message="Lower Security Access Panel"
+
+[TranslatorEvent9]
+Message="No unauthorized access to lower church catacombs. All personnel must be checked by security before access is granted."
+
+[TranslatorEvent8]
+Message="Teleporter target coordinates set for surface transporter pad 13. Sentry personnel already dispatched to location to secure area against resistance. Area cleared for cargo transmission."

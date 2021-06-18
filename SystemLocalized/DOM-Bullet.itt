@@ -1,0 +1,21 @@
+﻿[LevelInfo0]
+; EN: Title="Bulletproof"
+Title="Antiproiettile"
+IdealPlayerCount="8-16"
+
+[ControlPoint2]
+; EN: PointName="Omega"
+PointName="Omega"
+
+[ControlPoint1]
+; EN: PointName="Delta"
+PointName="Delta"
+
+[ControlPoint0]
+; EN: PointName="Alpha"
+PointName="Alfa"
+
+[LevelSummary]
+; EN: Title="Bulletproof"
+Title="Antiproiettile"
+IdealPlayerCount="8-16"

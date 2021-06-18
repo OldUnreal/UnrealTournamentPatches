@@ -1,0 +1,13 @@
+﻿[LevelInfo0]
+; EN: Title="Viridian Dreams"
+Title="Sogni Viridiani"
+IdealPlayerCount="2-6"
+; EN: LevelEnterText="Westside!"
+LevelEnterText="Lato Ovest!"
+
+[LevelSummary]
+; EN: Title="Viridian Dreams"
+Title="Sogni Viridiani"
+IdealPlayerCount="2-6"
+; EN: LevelEnterText="Westside!"
+LevelEnterText="Lato Ovest!"

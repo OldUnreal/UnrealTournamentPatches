@@ -1,0 +1,27 @@
+﻿[LevelInfo0]
+; EN: Title="Dasa Mountain Pass"
+Title="Pas del Mont Dasa"
+; EN: LevelEnterText="Entering Dasa Mouantain Pass"
+LevelEnterText="Entrant al Pas del Mont Dasa"
+
+[LevelSummary]
+; EN: Title="Dasa Mountain Pass"
+Title="Pas del Mont Dasa"
+; EN: LevelEnterText="Entering Dasa Mouantain Pass"
+LevelEnterText="Entrant al Pas del Mont Dasa"
+
+[TranslatorEvent3]
+; EN: Message="Diary: Grok Vhul'rath: I ordered repairs to the Drawbridge again! This is getting really old. I'm sick of dealing with the Behemoths. They constantly break things and they're slobs like Aldarian Pigs. I'm anxious to get back to my homeworld."
+Message="Diari: Grok Vhul'rath: He ordenat reparar el pont llevadís un cop més! Ja passa de taca d'oli-Estic fart de tractar amb els behemoth-ho trenquen tot constantment i són deixats com porcs aldarians. Tinc ganes de tornar al meu món natal."
+
+[TranslatorEvent4]
+; EN: Message="Bridge Foreman Khan Vhranna: I've about had it with Grok Vhul'rath. He's such a pompous son-of-a Bulrach. If he makes us fix the drawbridge one more time in the rain, I'm going to bust his face in."
+Message="Capatàs de Pont Khan Vhranna: Estic fart de Grok Vhul'rath. És tal fill de bulrach pompós. Si ens fa arreglar el pont llevadís una vegada més sota la pluja, li partiré la cara."
+
+[TranslatorEvent2]
+; EN: Message="SHIPPING LOG: Dasa Pass Mountain Station: Grok Vhul'rath: We've decided to ditch using the Nali as slaves here. The word is they all believe their "savior" has come from the stars to kill us. We decided to execute them for refusing to work anyways."
+Message="REGISTRE D'ENVIAMENTS: Estació Pas del Mont Dasa: Grok Vhul'rath: Hem decidit menysprear l'ús de nali com a esclaus aquí. El rumor és que creuen que el seu "salvador" ha vingut de les estrelles per matar-nos. Hem decidit executar-los per negar-se a treballar de totes formes."
+
+[TranslatorEvent0]
+; EN: Message="SHIPPING LOG: Dasa Pass Mountain Station: Grok Vhul'rath: This past week we've received over 45 cases of high tech equipment from the crashed human spacecraft ISV-KRAN. I've decided to store them in the cellars before we ship to the Warlord."
+Message="REGISTRE D'ENVIAMENTS: Estació Pas del Mont Dasa: Grok Vhul'rath- Aquesta última setmana hem rebut més de 45 caixes d'equipament d'alta tecnologia de la nau espacial humana estavellada ISV-KRAN. He decidit guardar-les en els cellers abans que les enviem al Senyor de la Guerra."

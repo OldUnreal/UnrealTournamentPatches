@@ -249,6 +249,13 @@ InGameFontScalingText="Override Font Scaling"
 InGameFontScalingHelp="If checked, you can control the scale of your in-game fonts using the slider below."
 InGameFontScalingSliderText="Font Scaling Factor"
 InGameFontScalingSliderHelp="Adjust the scale of the in-game fonts."
+VSyncText="Vertical Sync."
+VSyncHelp="If enabled, synchronizes the frame rate of the game with the refresh rate of your monitor. This can reduce screen tearing."
+VSyncStates[0]="Disabled"
+VSyncStates[1]="Enabled"
+VSyncStates[2]="Adaptive"
+VSyncStates[3]="Driver-Controlled"
+VSyncStates[4]="Not Supported"
 
 [UMenuPlayerSetupClient]
 NameText="Name:"
@@ -674,6 +681,9 @@ VoiceMessagesText="Voice Messages"
 VoiceMessagesHelp="If checked, you will hear voice messages and commands from other players."
 MessageBeepText="Message Beep"
 MessageBeepHelp="If checked, you will hear a beep sound when chat message received."
+OutputDeviceText="Output Device"
+OutputDeviceHelp="This is your current audio output device."
+OutputDeviceDefault="System Default"
 
 [UMenuNewGameClientWindow]
 SkillText="Skill Level:"

@@ -1,0 +1,23 @@
+﻿[LevelInfo2]
+Title="Demon Crater"
+LevelEntryText="Entering the Demon Crater"
+
+[LevelSummary]
+Title="Demon Crater"
+LevelEntryText="Entering the Demon Crater"
+
+[TranslatorEvent1]
+Message="Generator Control Panel. Generator is operational. Power output nominal."
+
+[TranslatorEvent0]
+Message="Portal Gate: Warning: not enough power to establish portal link. Activate the Generator."
+AltMessage="Portal Gate: Link Established. Enter transport field."
+Hint="Activate the Generator that powers the portal to the ship."
+
+[TranslatorEvent3]
+Message="Generator and Loading Room."
+Hint="Activate the Generator that powers the portal to the ship."
+
+[TranslatorEvent4]
+Message="Intruder Alert. Secure all access points, all personnel on full alert. Protect the Mother, failure results in DEATH."
+Hint="Activate the Generator that powers the portal to the ship."

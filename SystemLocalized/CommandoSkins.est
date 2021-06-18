@@ -1,4 +1,5 @@
 ﻿[public]
+; EN: Object=(Name=CommandoSkins.cmdo1,Class=Texture,Description="Commando")
 Object=(Name=CommandoSkins.cmdo1,Class=Texture,Description="Comando")
 Object=(Name=CommandoSkins.cmdo2,Class=Texture)
 Object=(Name=CommandoSkins.cmdo2Blake,Class=Texture,Description="Blake")
@@ -19,6 +20,7 @@ Object=(Name=CommandoSkins.cmdo5Blake,Class=Texture)
 Object=(Name=CommandoSkins.cmdo5Gorn,Class=Texture)
 Object=(Name=CommandoSkins.cmdo5Nickolai,Class=Texture)
 Object=(Name=CommandoSkins.cmdo5Whitman,Class=Texture)
+; EN: Object=(Name=CommandoSkins.daco1,Class=Texture,Description="Mercenary")
 Object=(Name=CommandoSkins.daco1,Class=Texture,Description="Mercenario")
 Object=(Name=CommandoSkins.daco2,Class=Texture)
 Object=(Name=CommandoSkins.daco2Boris,Class=Texture,Description="Boris")

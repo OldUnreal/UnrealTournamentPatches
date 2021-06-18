@@ -1,0 +1,17 @@
+﻿[LevelInfo0]
+; EN: Title="Koos Galleon"
+Title="Galeone Koos"
+IdealPlayerCount="4-12"
+; EN: LevelEnterText="SHIVER ME TIMBERS!!!"
+LevelEnterText="DANNAZIONE!!!"
+
+[WarpZoneInfo0]
+; EN: ZoneName="Underwater"
+ZoneName="Sott'acqua"
+
+[LevelSummary]
+; EN: Title="Koos Galleon"
+Title="Galeone Koos"
+IdealPlayerCount="4-12"
+; EN: LevelEnterText="SHIVER ME TIMBERS!!!"
+LevelEnterText="DANNAZIONE!!!"

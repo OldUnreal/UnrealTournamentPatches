@@ -1,9 +1,15 @@
-[LevelInfo3]
-Title="The Darkening"
+﻿[LevelInfo3]
+; EN: Title="The Darkening"
+Title="El Oscurecimiento"
 
-[TranslatorEvent0]
-AltMessage="Autorizaci�n concedida. Activa el suministro de potencia de emergencia."
+[LevelSummary]
+; EN: Title="The Darkening"
+Title="El Oscurecimiento"
 
 [TranslatorEvent10]
-message="La Antec�mara de la Fuente, ACCESO DENEGADO"
+; EN: Message="The Source Antechamber, ACCESS DENIED."
+message="Antecámara del Origen, ACCESO DENEGADO."
 
+[TranslatorEvent0]
+; EN: AltMessage="Authorization granted. Activate the Emergency Power Supply."
+AltMessage="Autorización concedida. Activar la fuente de alimentación de emergencia."

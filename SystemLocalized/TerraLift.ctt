@@ -1,0 +1,41 @@
+﻿[LevelInfo0]
+; EN: Title="Terraniux Underground"
+Title="Subsòl Terraniux"
+; EN: LevelEntryText="Entering Terraniux Underground"
+LevelEntryText="Entrant a l'subsòl Terraniux"
+
+[LevelSummary]
+; EN: Title="Terraniux Underground"
+Title="Subsòl Terraniux"
+; EN: LevelEntryText="Entering Terraniux Underground"
+LevelEntryText="Entrant a l'subsòl Terraniux"
+
+[SpecialEvent0]
+; EN: Message="ALERT"
+Message="ALERTA"
+
+[TranslatorEvent0]
+; EN: Message="Biowaste Flow Control: the Biowaste flow is constant. Monitor it for dangerous fluctuations in viscosity or pressure. The alarm still seems to have problems, in case of malfunction activate the two override controls."
+Message="Control del flux de residus bio: el flux de residus bio és constant. Controleu-lo per si hi hagi fluctuacions perilloses de viscositat o pressió. Sembla que l’alarma encara té problemes, en cas de mal funcionament, activeu els dos controls d’anul·lació."
+; EN: AltMessage="Lift activated. All personnel are reminded to complete assigned tasks."
+AltMessage="Ascensor activat. Es recorda a tot el personal que realitzi les tasques assignades."
+
+[TranslatorEvent5]
+; EN: Message="Drainage Status: Biowaste flow is at nominal levels. All pumps operational. Section C empty and available for any Biowaster overflow. Please be sure that the regular pipe maintenance is handled."
+Message="Estat de drenatge: el flux de residus orgànics es troba a nivells nominals. Totes les bombes en funcionament. La secció C està buida i està disponible per a qualsevol desbordament de Biowaster. Assegureu-vos que es realitza el manteniment regular de la canonada."
+
+[TranslatorEvent4]
+; EN: Message="Security Status: Intruder detected at entrance. Activating security screens on Scientific Research Lab and Hydroponics Section. All security elements deploy around access points in Sections A, B and C to deny intruder access to Lift 1."
+Message="Estat de seguretat: s’ha detectat un intrús a l’entrada. Activació de pantalles de seguretat al Laboratori de Recerca Científica i Secció d’Hidroponia. Tots els elements de seguretat es desplegen al voltant dels punts d'accés de les seccions A, B i C per denegar l'accés dels intrusos a Lift 1."
+; EN: Hint="Find the Containment rooms A, B and C and activate the buttons to access the Lift 1."
+Hint="Cerqueu les sales de contenció A, B i C i activeu els botons per accedir a l’ascensor 1."
+
+[TranslatorEvent3]
+; EN: Message="Control Room Status: Pressurized and locked. Do not access except in case of emergency situation."
+Message="Estat de la sala de control: a pressió i bloquejat. No s’hi accedeix excepte en cas d’emergència."
+
+[TranslatorEvent1]
+; EN: Message="Pumping station has been activated, expected storage capacity after operation: 32%."
+Message="L'estació de bombament s'ha activat, capacitat d'emmagatzematge prevista després del funcionament: 32%."
+; EN: AltMessage="Section D: 54% of full capacity reached."
+AltMessage="Secció D: assolit el 54% de la capacitat completa."

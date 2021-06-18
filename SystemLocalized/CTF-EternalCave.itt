@@ -1,0 +1,33 @@
+﻿[LevelInfo0]
+; EN: Title="Eternal Caves"
+Title="Caverne Eterne"
+IdealPlayerCount="4-8"
+; EN: LevelEnterText="GET THOSE FLAGS!!"
+LevelEnterText="OTTIENI QUELLE BANDIERE!!"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Cave"
+ZoneName="Caverna Rossa"
+
+[ZoneInfo0]
+; EN: ZoneName="Blue Cave"
+ZoneName="Caverna Blu"
+
+[ZoneInfo2]
+; EN: ZoneName="Lower Hall"
+ZoneName="Le Sale Inferiori"
+
+[ZoneInfo3]
+; EN: ZoneName="Upper Hall"
+ZoneName="La Sala Superiore"
+
+[ZoneInfo4]
+; EN: ZoneName="Upper Hall"
+ZoneName="La Sala Superiore"
+
+[LevelSummary]
+; EN: Title="Eternal Caves"
+Title="Caverne Eterne"
+IdealPlayerCount="4-8"
+; EN: LevelEnterText="GET THOSE FLAGS!!"
+LevelEnterText="OTTIENI QUELLE BANDIERE!!"

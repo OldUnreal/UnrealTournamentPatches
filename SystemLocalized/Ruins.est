@@ -1,17 +1,31 @@
-[LevelInfo0]
-Title=Templo de Vandora
+Ôªø[LevelInfo0]
+; EN: Title="Temple of Vandora"
+Title="Templo de Vandora"
+; EN: LevelEntryText="Entering the Temple of Vandora"
+LevelEntryText="Entrando al Templo de Vandora"
 
-[TranslatorEvent1]
-message=El Camino est· lleno de tinieblas. La Antorcha del Trueno puede encender el sendero de los Elegidos. La progresiÛn espiritual la logran aquellos que encienden la Antorcha de los Truenos.
-Hint=Enciende la Antorcha de los Truenos para poder entrar.
-
-[TranslatorEvent3]
-message=Vandora, Diosa del Rel·mpago.
-
-[TranslatorEvent2]
-message=Antorcha del Trueno
+[LevelSummary]
+; EN: Title="Temple of Vandora"
+Title="Templo de Vandora"
+; EN: LevelEntryText="Entering the Temple of Vandora"
+LevelEntryText="Entrando al Templo de Vandora"
 
 [TranslatorEvent0]
-message=Y Vandora hizo su apariciÛn, con el fuego del Cielo sobre sus labios y santificando la fuente sagrada con un beso. AsÌ, dijo, aquel que me siga, desprender· los lazos de la carne y llegar· a ser tan escurridizo como la niebla.
-Hint=Sanctifica la fuente sagrada con fuego y llegar·s a ser tan escurridizo como la niebla.
+; EN: Message="And Vandora came forth, with fire from the Sky upon her lips, and sanctified the sacred fountain with her kiss. Thus, she said, he who follows me shall cast off the bonds of flesh and become as elusive as the mist."
+Message="Y Vandora hizo su aparici√≥n, con el fuego del Cielo sobre sus labios, y santific√≥ la fuente sagrada con su beso. As√≠, dijo, quien me siga, se deshar√° de las ataduras de la carne y ser√° tan escurridizo como la niebla."
+; EN: Hint="Sanctify the sacred fountain with fire and become as elusive as the mist."
+Hint="Santifica la fuente sagrada con fuego y vu√©lvete tan esquivo como la niebla."
 
+[TranslatorEvent1]
+; EN: Message="The Way is filled with darkness. The Torch of Tranquility must light the path of the worthy. Spiritual progression is achieved by those who set the Torch of Tranquility aflame."
+Message="El Camino est√° lleno de oscuridad. La Antorcha de la Calma debe iluminar el sendero de los dignos. La progresi√≥n espiritual la lograr√°n aquellos que enciendan la Antorcha de la Calma."
+; EN: Hint="Set the Torch of Thunder aflame to gain access."
+Hint="Enciende la Antorcha del Trueno para acceder."
+
+[TranslatorEvent3]
+; EN: Message="Vandora, Goddess of Lightning."
+Message="Vandora, diosa del rayo."
+
+[TranslatorEvent2]
+; EN: Message="Torch of Tranquility"
+Message="Antorcha de la Calma"

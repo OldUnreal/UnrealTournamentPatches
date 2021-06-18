@@ -1,2 +1,11 @@
-[LevelInfo2]
-Title="Livello sotterraneo dell'Astronave Madre"
+﻿[LevelInfo2]
+; EN: Title="MotherShip Basement"
+Title="Livello Sotterraneo dell'Astronave Madre"
+; EN: LevelEntryText="Entering the MotherShip Basement"
+LevelEntryText="Arrivo al Livello Sotterraneo dell'Astronave Madre"
+
+[LevelSummary]
+; EN: Title="MotherShip Basement"
+Title="Livello Sotterraneo dell'Astronave Madre"
+; EN: LevelEntryText="Entering the MotherShip Basement"
+LevelEntryText="Arrivo al Livello Sotterraneo dell'Astronave Madre"

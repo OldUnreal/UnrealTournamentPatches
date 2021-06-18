@@ -1,0 +1,66 @@
+﻿[LevelInfo0]
+Title="Terraniux"
+
+[LevelSummary]
+Title="Terraniux"
+
+[TranslatorEvent3]
+Message="Control Room Status: Pressurized and locked. Do not access except in case of emergency situation."
+
+[TranslatorEvent4]
+Message="Security Status: Intruder detected at entrance. Activating security screens on Scientific Research Lab and Hydroponics Section. All security elements deploy around access points in Sections A, B and C to deny intruder access to Lift 1."
+Hint="Find the Containment rooms A, B and C and activate the buttons to access the Lift 1."
+
+[TranslatorEvent5]
+Message="Drainage Status: Biowaste flow is at nominal levels. All pumps operational. Section C empty and available for any Biowaster overflow. Please be sure that the regular pipe maintenance is handled."
+
+[TranslatorEvent0]
+Message="Section B: Status 48% full."
+
+[TranslatorEvent10]
+Message="Greenhouse B: Please verify that the Biowaste is being pumped through the Control Room filters and that no foreign objects are blocking the flow."
+
+[Trigger32]
+Message="Lift to Noork's Elbow activated"
+
+[TranslatorEvent1]
+Message="Section A: Status full. Biowaste redirect to Section B active."
+
+[TranslatorEvent8]
+Message="Access Denied. Control Room authorization must be granted to access Noork's Elbow."
+AltMessage="Access granted."
+Hint="If you swim down in the BioWaste you can access the Control Room."
+
+[TranslatorEvent2]
+Message="Section C: Status Empty, this Containment Room is damaged, please avoid sending BioWaste here until we can fix it."
+
+[TranslatorEvent6]
+Message="Lift 1: Security Lock, Access denied. Containment room pumps must be active for entrance to hydroponic greenhouses."
+AltMessage="Lift 1: Status working. Access to hydroponic gardens permitted."
+
+[TranslatorEvent7]
+Message="Lift 2 Status: A broken pipe was reported."
+Hint="This Lift is broken, but verify the pipes, something interesting could be hidden."
+
+[TranslatorEvent9]
+Message="Greenhouse A: Section A is full. Biowaste flow must be redirected from the Control Room. Section B of the waste facility has free capacity. Please be sure to monitor the water supply for impurities."
+Hint="The Biowaste is filtered in the Control Room."
+
+[TranslatorEvent11]
+Message="Greenhouse B: The Karkilys Zegnus need more fertilizer. Please dispatch a group of guards to inspect the Nali homes in the Noork's Elbow. Disembarkment authorization must be granted in the Control Room."
+
+[TranslatorEvent12]
+Message="Greenhouse C: The night is coming soon, please maintain careful control of the hygrometric level and air temperature. Constant monitoring is necessary to keep them within appropriate levels."
+
+[TranslatorEvent13]
+Message="Control Room, ACCESS DENIED."
+Hint="You must find another way to go in this room."
+
+[TranslatorEvent14]
+Message="Access Denied. Control Room authorization must be granted to access Noork Elbow."
+
+[Trigger46]
+Message="Access Room security locks disengaged."
+
+[TranslatorEvent15]
+Message="Pump activated, Biowaste transferred in section B."
