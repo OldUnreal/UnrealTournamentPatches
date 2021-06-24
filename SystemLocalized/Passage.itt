@@ -16,7 +16,7 @@ Hint="Fatti una nuotata e cerca un passaggio segreto."
 
 [TranslatorEvent12]
 ; EN: Message=""...For that will be the key""
-Message=""...Perché questa sarà la chiave""
+Message=""...perché questa sarà la chiave""
 ; EN: Hint="Activate the lever to let the water run."
 Hint="Usa la leva per far scorrere l'acqua."
 

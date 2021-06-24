@@ -14,7 +14,7 @@ LevelEntryText="Arrivo alla'Fonte"
 ; EN: ItemName="Super Jump Boots"
 ItemName="Super Stivali da Salto"
 ; EN: PickupMessage="You picked up Super Jump Boots"
-PickupMessage="Hai preso dei Super Stivali da Salto"
+PickupMessage="Hai raccolto i Super Stivali da Salto"
 ; EN: ExpireMessage="The Super Jump Boots have drained."
 ExpireMessage="I Super Stivali da Salto si sono prosciugati."
 
