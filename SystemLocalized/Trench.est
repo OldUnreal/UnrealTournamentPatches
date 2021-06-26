@@ -1,15 +1,27 @@
+Ôªø[LevelInfo2]
+; EN: Title="The Trench"
+Title="La Trinchera"
+; EN: LevelEntryText="Entering The Trench"
+LevelEntryText="Entrando a la Trinchera"
+
+[LevelSummary]
+; EN: Title="The Trench"
+Title="La Trinchera"
+; EN: LevelEntryText="Entering The Trench"
+LevelEntryText="Entrando a la Trinchera"
+
 [TranslatorEvent38]
-Message=Corporeal Pelli Onsov: Si est·s leyendo mis noticias probablemente estoy muerto y nuestro barco ha sido invadido por alienÌgenas llamados
+; EN: Message="Corporeal Pelli Onsov: If you're reading my log entry I am probably dead and our ship has been overrun by aliens called "
+Message="Cabo Pelli Onsov: Si est√°s leyendo mi entrada de registro, probablemente estoy muerto y nuestra nave ha sido invadida por extraterrestres llamados "
 
 [TranslatorEvent1]
-Message=Diario: M. Mottobanov: Hemos colocado a ISV-Kran para explorar actividades humanas fuera de las puertas de la nave. Cuando alguien entre, la luz roja, las puertas de la nave se abren. La plataforma estar· abajo durante poco tiempo.
-Hint=Entra en el barco y quÈdate en la luz roja. Las puertas de la nave se abrir·n y bajar· un ascensor. Tienes que ser muy r·pido si quieres subir al ascensor y saltar en la nave antes de que el ascensor te triture.
+; EN: Message="Log: M. Mottobanov: We've set ISV-KRAN so that it will scan for human activity outside the baydoors. As soon as one steps into the red light the baydoors will open. The platform will only be down for a short period of time."
+Message="Registro: M. Mottobanov: Hemos configurado ISV-KRAN para que busque actividad humana fuera de las puertas de la nave. Tan pronto como alguien se pare en la luz roja, las puertas de la nave se abrir√°n. La plataforma solo bajar√° por un corto per√≠odo de tiempo."
+; EN: Hint="Get to the ship and stand in the red light. The baydoors will open and a lift will go down. You'll have to be quick to get up the lift and jump off into the bay before the lift crushes you."
+Hint="Alcanza la nave y p√°rate en la luz roja. Las puertas de la nave se abrir√°n y bajar√° un ascensor. Deber√°s apresurarte para subir al ascensor y entrar en la nave antes de que el ascensor te triture."
 
 [TranslatorEvent0]
-Message= Diario N. Onatop: Hasta ahora lo hemos logrado.. sÛlo falta enfrentarnos cara a cara con otra bestia tit·nica. Ahora descansamos y solucionaremos maÒana el problema. Sin comunicar con ISV-Kran, la radio sÛlo recibe seÒales est·ticas.
-Hint=Entra en el barco y quÈdate en la luz roja. Las puertas de la nave se abrir·n y bajar· un ascensor. Tienes que ser muy r·pido si quieres subir al ascensor y saltar en la nave antes de que el ascensor te triture.
-
-[LevelInfo2]
-Title=ISV-KRAN Deck 4
-LevelEnterText=Entrando a Plataforma 4 ISV-KRAN
-
+; EN: Message="N. Onatop Log: We made it so far...  only to come face to face with another of those titanic beasts. We'll rest now and tackle this problem tomorrow. Unable to communicate with ISV-KRAN, our radio receives only static."
+Message="Registro N. Onatop: Llegamos tan lejos... solo para encontrarnos cara a cara con otra de esas bestias tit√°nicas. Descansaremos ahora y solucionaremos este problema ma√±ana. No podemos comunicarnos con el ISV-KRAN, ya que nuestra radio solo recibe est√°tica."
+; EN: Hint="Get to the ship and stand in the red light. The baydoors will open and a lift will go down. You'll have to be quick to get up the lift and jump off into the bay before the lift crushes you."
+Hint="Alcanza la nave y p√°rate en la luz roja. Las puertas de la nave se abrir√°n y bajar√° un ascensor. Deber√°s apresurarte para subir al ascensor y entrar en la nave antes de que el ascensor te triture."

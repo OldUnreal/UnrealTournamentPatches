@@ -1,0 +1,61 @@
+﻿[LevelInfo2]
+; EN: Title="ISV-KRAN Deck 4"
+Title="Coberta 4 de l'ISV-KRAN"
+; EN: LevelEnterText="Entering ISV-KRAN Deck 4"
+LevelEnterText="Entrant a Coberta 4 de l'ISV-KRAN"
+
+[LevelSummary]
+; EN: Title="ISV-KRAN Deck 4"
+Title="Coberta 4 de l'ISV-KRAN"
+; EN: LevelEnterText="Entering ISV-KRAN Deck 4"
+LevelEnterText="Entrant a Coberta 4 de l'ISV-KRAN"
+
+[TranslatorEvent7]
+; EN: Message="Warehouse Safety Bars Override in Upper Warehouse Loft."
+Message="Anulació de Barres de Seguretat de Magatzem en Loft Superior de Magatzem."
+
+[TranslatorEvent13]
+; EN: AltMessage="Warehouse Safety Bars Disengaged: Access to Dock Permitted."
+AltMessage="Barres de Seguretat de Magatzem Desacoblades:Accés al Moll permès."
+
+[TranslatorEvent19]
+; EN: Message="ISV-KRAN DECK 4 STATUS: INTRUDER ALERT: SECURITY LOCKS ACTIVATED: INTRUDERS ON ALL DECKS AND ATTEMPTING TO REACTIVATE MAIN ENGINES - DECK 1 EMERGENCY TELEPORTER AT BRIDGE SECURE"
+Message="ESTAT DE COBERTA 4 ISV-KRAN: ALERTA D'INTRÚS: PANYS DE SEGURETAT ACTIVATS: INTRUSOS EN TOTES LES COBERTES I INTENTANT REACTIVAR MOTORS PRINCIPALS-TRANSPORT D'EMERGÈNCIA EN PONT DE COBERTA 1 SEGUR"
+
+[TranslatorEvent1]
+; EN: Message="Ventilation Processing Mezzanine Ducts: Maintenance Personnel Only: WARNING - ENGINE COOLANT LEAK IN MEZZANINE"
+Message="Conductes Entresol de Processament de Ventilació:Només Personal de Manteniment:ALRTA, FUITA DE REFRIGERANT DE MOTOR EN ENTRESOL"
+
+[TranslatorEvent15]
+; EN: Message="PANEL REWIRED TO TRIP ALARM - SYSTEM ACCESSED BY UNAUTHORIZED USERS"
+Message="PANELL REPROGRAMAT PER FER SALTAR ALARMA - SISTEMA ACCEDIT PER USUARIS NO AUTORITZATS"
+
+[TranslatorEvent2]
+; EN: Message="Intruder Security Locks Activated - Bypass Required: Bypass panel located in Ventilation Processing Mezzanine."
+Message="Panys de Seguretat contra Intrusos Activats-Desviació requerida: Panell de desviació localizat en Entresol de Processament de Ventilació."
+; EN: AltMessage="Intruder Security Locks Disengaged"
+AltMessage="Panys de Seguretat contra Introsos Desacoblats"
+
+[TranslatorEvent0]
+; EN: Message="AFT LOADING STATION: ISV-KRAN: We've been wedged into this mountain ridge for 2 months now. Each night these 4 story tall dinosaur type beasts come and beat on the rear hull of the ship. They appear to be relatively unintelligent and slow moving."
+Message="ESTACIÓ DE CÀRREGA AFT: ISV-KRAN: Hem estat encallats en aquesta cresta de muntanya des de ja fa 2 mesos. Cada nit aquestes feres com dinosaures de 4 pisos venen i fan cops al casc posterior de la nau. Semblen ser relativament poc intel·ligents i de moviments lents."
+
+[TranslatorEvent33]
+; EN: Message="SECURITY BYPASS LOCK STATION: SECURITY LOCKS ENGAGED"
+Message="ESTACIÓ DE DESVIAMENT DE PANY DE SEGURETAT:PANYS DE SEGURETAT TANCATS"
+; EN: AltMessage="SECURITY LOCK BYPASS STATION: ALL LOCKS OPEN ACCESS PERMITTED TO WAREHOUSE"
+AltMessage="ESTACIÓ DE DESVIAMENT DE PANY DE SEGURETAT: TOTS ELS PANYS OBERTS, ACCÉS PERMÈS AL MAGATZEM"
+; EN: Hint="Touch this panel to open the security lock door."
+Hint="Toca aquest panell per obrir la porta tancada amb seguretat."
+
+[TranslatorEvent37]
+; EN: Message="Corporal Anders Kerig: They're coming! I can hear them in the ventilation ducts. I'm going to activate the security locks to the Warehouse and implant a Human DNA code so only another Terran can bypass the lock systems."
+Message="Caporal Anders Kerig: Ja venen! Els puc sentir en els conductes de ventilació. Vaig a activar els panys de seguretat al Magatzem i implantar-hi un codi d'ADN humà per tal que només un altre Terrícola pugui desviar els sistemes de tancat."
+
+[TranslatorEvent38]
+; EN: Message="Corporal Pelli Onsov: If you're reading my log entry I am probably dead and our ship has been overrun by aliens called "Skaarj". Your only hope is to destroy the Gold Containment Cores, re-activate the Engines and get to the Deck 1 transporters."
+Message="Caporal Pelli Onsov: Si estas llegint la meva entrada de diari probablement sigui mort i la nostra nau ha estat envaïda per alienígenes anomenats "Skaarj". La teva única esperança és destruir els Nuclis de Contenció Daurats, reactivar els motors i arribar als transportadors de Coberta 1."
+
+[TranslatorEvent36]
+; EN: Message="Petty Officer: Yuri Andromov: The Alien War Party has blasted a hole through the hull and are accessing the ship through the ventilation shafts - Kerig, Onsov and myself are going to make a stand with Stingers here in the loading area."
+Message="Suboficial: Yuri Andromov: La partida de guerra alienígena ha rebentat un forat pel casc i estan accedint a la nau a través dels conductes de ventilació- Kerig, Onsov and jo mateix aguantarem aquí amb Perforadores a l'àrea de càrrega."

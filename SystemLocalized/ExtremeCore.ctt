@@ -1,0 +1,61 @@
+﻿[LevelInfo0]
+; EN: Title="MotherShip Core"
+Title="Nucli de la Nau Nodrissa"
+; EN: LevelEntryText="Entering the MotherShip Core"
+LevelEntryText="Entrant al Nucli de la Nau Nodrissa"
+
+[LevelSummary]
+; EN: Title="MotherShip Core"
+Title="Nucli de la Nau Nodrissa"
+; EN: LevelEntryText="Entering the MotherShip Core"
+LevelEntryText="Entrant al Nucli de la Nau Nodrissa"
+
+[TranslatorEvent10]
+; EN: AltMessage="Access to the Security Post granted."
+AltMessage="Accés al post de seguretat permès."
+; EN: Hint="Go to the Security Post to gain access to the Primary Power Supply Core Generator."
+Hint="Ves al post de seguretat per aconseguir accés al nucli del generador de subministre d'energia principal."
+
+[TranslatorEvent4]
+; EN: Message="WARNING: Armed intruder detected. Close all access to the Source and to the Primary Power Supply. Preventing intruders from accessing the Core Generator is critical."
+Message="ALERTA: Intrús armat detectat. Tancar tot accés a la Font i a la Font d'Energia Principal. Evitar que intrusos entrin al Generador Principal és crític."
+; EN: AltMessage="RED ALERT: Core Generator Security Compromised."
+AltMessage="ALERTA ROJA: Seguretat del Generador Principal compromesa."
+
+[TranslatorEvent5]
+; EN: Message="SECURITY ALERT: All War Masters report to Core Generator positions to ensure its protection."
+Message="ALERTA DE SEGURETAT: Tots els Mestres de Guerra presentin-se a posicions del Generador Principal per assegurar la seva protecció."
+; EN: AltMessage="Intruder detected near the Core Generator. Core Generator security must be maintained. Weakness shall be punished."
+AltMessage="Intrús detectat prop del Generador Principal. La seva seguretat ha de mantenir-se. La feblesa serà castigada."
+
+[TranslatorEvent8]
+; EN: Message="Security Post, ACCESS DENIED."
+Message="Post de segueretat, ACCÉS DENEGAT."
+
+[TranslatorEvent9]
+; EN: Message="Primary Power Supply, ACCESS DENIED."
+Message="Font Principal d'Energia, ACCÉS DENEGAT."
+; EN: Hint="Door can be unlocked from the control panel in the Security Post."
+Hint="La La porta pot ser oberta des del panell de control en el Post de Seguretat."
+
+[TranslatorEvent11]
+; EN: Message="ACCESS DENIED: The Intruder must be eliminated. All War Masters are being routed to this area upon arrival from the Source."
+Message="ACCÉS DENEGAT: L´intrús ha de ser eliminat. Tots els Mestres de Guerra són essent redirigits a aquesta àrea després d'arribar des de la Font."
+; EN: Hint="Kill all the Skaarj to proceed to this area."
+Hint="Mata a tots els skaarj per entrar a aquesta àrea."
+
+[TranslatorEvent12]
+; EN: AltMessage="Cryo Pods status: Temperature constant, Power at nominal levels, security systems active."
+AltMessage="Estat de Criobeines: Temperatura constant, Potència a nivells nominals, sistemes de seguretat actius."
+
+[TranslatorEvent6]
+; EN: Message="Core Generator security must be maintained. Access doors locked until security breach is contained."
+Message="La seguretat del Generador Principal ha de mantenir-se. Portes d'accés bloquejades fins que la breixa de seguretat sigui continguda."
+; EN: AltMessage="Core Access Door Open."
+AltMessage="Portes d'accés al Nucli obertes."
+
+[TranslatorEvent13]
+; EN: Message="Emergency Power Supply, ACCESS DENIED: Primary Power Supply fully functional."
+Message="Font d'Energia d'Emergència, ACCÉS DENEGAT: Font d'Energia Principal plenament funcional."
+; EN: Hint="Find the Core Generator and destroy it to gain access to this area."
+Hint="Troba el Generador Principal i destrueix-lo per aconseguir accés a aquesta àrea."

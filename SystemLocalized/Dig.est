@@ -1,50 +1,77 @@
-[TranslatorEvent2]
-message=La Aldea Harobed est· al otro lado de estas montaÒas. EsperarÈ hasta que salgan los dos soles y seguirÈ a travÈs de la mina Rrajigar. Es el ˙nico camino.
+Ôªø[LevelInfo0]
+; EN: Title="Rrajigar Mine"
+Title="Mina de Rrajigar"
+; EN: LevelEntryText="Entering the Rrajigar Mine"
+LevelEntryText="Entrando a la Mina de Rrajigar"
 
-[TranslatorEvent0]
-message=ALERTA: Detectada resistencia de los esclavos del Nali en el Sector 3A. Fuerza letal autorizada para suprimir las rebeliones.
-
-[TranslatorEvent1]
-message=AVISO: Los puentes de acceso en la mitad inferior de la mina no son seguras. Sigue con precauciÛn.
+[LevelSummary]
+; EN: Title="Rrajigar Mine"
+Title="Mina de Rrajigar"
+; EN: LevelEntryText="Entering the Rrajigar Mine"
+LevelEntryText="Entrando a la Mina de Rrajigar"
 
 [TranslatorEvent11]
-message=AVISO: Intruso detectado en las Secciones C-6 y D-8. Todo el personal es responsable de patrullar su propia zona.
-Hint=Dispara el prÛximo botÛn rojo para elevar el puente estrecho a travÈs de la lava.
+; EN: Message="WARNING: Intruder detected in Sections C-6 and D-8. All personnel are responsible for patrolling their local area."
+Message="ADVERTENCIA: Intruso detectado en las Secciones C-6 y D-8. Todo el personal es responsable de patrullar su √°rea local."
+; EN: Hint="Shoot the red button nearby to raise the narrow bridge across the lava."
+Hint="Dispara al bot√≥n rojo cercano para elevar el puente estrecho que atraviesa la lava."
 
-[TranslatorEvent8]
-message=Est· activado el estado nivel uno de la fuente de potencia del Campo de Fuerza.
-Hint=Pulsa los botones rojos del muro chocando contra ellos.
+[TranslatorEvent1]
+; EN: Message="WARNING: Access bridges in lower half of mine are unsafe. Proceed with caution."
+Message="ADVERTENCIA: Los puentes de acceso en la mitad inferior de la mina no son seguros. Proceder con precauci√≥n."
 
-[TranslatorEvent7]
-message= Est· activado el estado nivel dos de la fuente de potencia del Campo de Fuerza.
-Hint=Pulsa los botones rojos del muro chocando contra ellos.
+[TranslatorEvent0]
+; EN: Message="ALERT: Nali slave resistance detected in Sector 3A. Lethal force authorized to suppress rebellious activity."
+Message="ALERTA: Resistencia de esclavos Nali detectada en el Sector 3A. Fuerza letal autorizada para reprimir la actividad rebelde."
 
-[TranslatorEvent9]
-message=AVISO: Est· inactivo el estado nivel uno de la fuente de potencia del Campo de Fuerza. Alcanzado el Estado de Seguridad Dos.
+[TranslatorEvent2]
+; EN: Message="Harobed Village is on the other side of these mountains. I will wait until the two suns have set and proceed through Rrajigar mine. It is the only way."
+Message="La Aldea Harobed est√° al otro lado de estas monta√±as. Esperar√© hasta que los dos soles se hayan puesto y atravesar√© la mina Rrajigar. Es la √∫nica forma."
 
 [TranslatorEvent10]
-message=AVISO: Est· activado el estado nivel dos de la fuente de potencia del Campo de Fuerza. Alcanzado el Estado de Seguridad Dos.
+; EN: Message="WARNING: Force Field power source two status is inactive. Security Condition Two reached."
+Message="ADVERTENCIA: Estado de la fuente de potencia dos del Campo de Fuerza: inactivo. Condici√≥n de Seguridad Dos alcanzada."
 
 [TranslatorEvent6]
-message=Campo de fuerza intacto. Todos los sistemas normales.
-Hint=Debe desactivarse el campo de fuerza. Busca la sala de control.
+; EN: Message="Force field intact. All systems normal."
+Message="Campo de fuerza intacto. Todos los sistemas normales."
+; EN: Hint="The force field must be deactivated. Find the control room."
+Hint="El campo de fuerza tiene que ser desactivado. Encuentra la sala de control."
 
 [TranslatorEvent5]
-message=AVISO! Campo de Fuerza desactivado. Intruso detectado en la SecciÛn C-6. Elimina toda presencia desautorizada.
-Hint=Dispara todos los caÒones rojos.
+; EN: Message="WARNING! Force field de-activated. Intruder detected in Section C-6. Eliminate any unauthorized presence."
+Message="¬°ADVERTENCIA! Campo de fuerza desactivado. Intruso detectado en la Secci√≥n C-6. Eliminar toda presencia no autorizada."
+; EN: Hint="Shoot all red barrels."
+Hint="Dispara a todos los barriles rojos."
 
-[LevelInfo0]
-Title=Mina Rrajigar
+[TranslatorEvent9]
+; EN: Message="WARNING: Force Field power source one status is inactive. Security Condition Two reached."
+Message="ADVERTENCIA: Estado de la fuente de energ√≠a uno del Campo de Fuerza: inactivo. Condici√≥n de Seguridad Dos alcanzada."
 
 [TranslatorEvent19]
-message=NOTA: El ·rea debe estar libre para que pueda funcionar el elevador de transporte.
+; EN: Message="NOTE: Area must be clear for transport lift to perform properly."
+Message="NOTA: El √°rea debe estar despejada para que la plataforma de transporte pueda funcionar adecuadamente."
 
 [TranslatorEvent15]
-message=Est·s BIEN muerto.
+; EN: Message="You are SO dead."
+Message="Est√°s BIEN muerto."
 
 [TranslatorEvent14]
-message=Pero quÈ demonios est·s haciendo t˙ all· arriba?
+; EN: Message="What the hell are you doing up here?"
+Message="¬øQu√© diablos haces aqu√≠ arriba?"
 
 [TranslatorEvent20]
-message=¡rea de Control del Campo de Fuerza
+; EN: Message="Force Field Control Area"
+Message="√Årea de control del campo de fuerza"
 
+[TranslatorEvent8]
+; EN: Message="Force Field power source one status is active."
+Message="Fuente de energ√≠a uno del Campo de Fuerza activa."
+; EN: Hint="Press the red buttons on the wall by bumping into them."
+Hint="Pulsa los botones rojos del muro toc√°ndolos."
+
+[TranslatorEvent7]
+; EN: Message="Force Field power source two status is active."
+Message="Fuente de energ√≠a dos del Campo de Fuerza activa."
+; EN: Hint="Press the red buttons on the wall by bumping into them."
+Hint="Pulsa los botones rojos del muro toc√°ndolos."

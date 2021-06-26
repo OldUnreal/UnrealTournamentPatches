@@ -1,10 +1,25 @@
-[LevelInfo0]
-Title="Las C·maras de Ceremonias"
-LevelEnterText="Est·s entrando al Sector de Ceremonias"
+Ôªø[LevelInfo0]
+; EN: Title="The Ceremonial Chambers"
+Title="Las C√°maras Ceremoniales"
+; EN: LevelEnterText="Entering The Ceremonial Wing"
+LevelEnterText="Entrando en el Ala Ceremonial"
+
+[LevelSummary]
+; EN: Title="The Ceremonial Chambers"
+Title="Las C√°maras Ceremoniales"
+; EN: LevelEnterText="Entering The Ceremonial Wing"
+LevelEnterText="Entrando en el Ala Ceremonial"
 
 [TranslatorEvent15]
-message="C·maras internas de ceremonias. AquÌ residen las serpientes del dios marino para devorar la carne de los dÈbiles. SÛlo escapar· de sus garras el guerrero que sepa nadar como una serpiente."
+; EN: Message="The inner ceremonial chambers. Here the water god's serpents reside to accept the flesh of the weak to be devoured. Only a warrior who swims like the serpent shall escape their clutches."
+Message="Las c√°maras ceremoniales internas. Aqu√≠ residen las serpientes del Dios del Agua para aceptar y devorar la carne de los d√©biles. Solo un guerrero que nade como las serpientes escapar√° de sus garras."
 
 [TranslatorEvent0]
-message="Sgt. William Bradford: Toda mi patrulla ha sido asesinadas por estas salamandras. No me queda municiÛn y por unos dÌas me he quedado en este templo con uno de los sacerdotes nativos. Mientras Èl reza yo vigilo la puerta. "
+; EN: Message="Sgt. William Bradford: My entire squad has been killed by these salamander things. There's no ammo left and I've been holding up at this shrine with one of the native priests for days. While he prays I try and keep a watchful eye at the door."
+Message="Sargento William Bradford: Todo mi escuadr√≥n ha sido asesinado por estas "salamandras". No me queda munici√≥n, y he estado aguantando en este santuario con uno de los sacerdotes nativos durante d√≠as. Mientras √©l reza, trato de vigilar la puerta."
 
+[Counter2]
+; EN: CountMessage="Prove to the Gods your Warrior Skills"
+CountMessage="Demuestra a los Dioses tus Habilidades como Guerrero"
+; EN: CompleteMessage="Well Done!"
+CompleteMessage="¬°Bien Hecho!"

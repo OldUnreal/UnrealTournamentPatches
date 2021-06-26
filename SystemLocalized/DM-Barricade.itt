@@ -1,0 +1,21 @@
+﻿[LevelInfo0]
+; EN: Title="Orion's Barricade"
+Title="Barriera di Orione"
+IdealPlayerCount="6-12"
+
+[ZoneInfo11]
+; EN: ZoneName="Outside"
+ZoneName="Esterno"
+
+[ZoneInfo12]
+; EN: ZoneName="Castle"
+ZoneName="Casello"
+
+[ZoneInfo13]
+; EN: ZoneName="Basement"
+ZoneName="Scantinato"
+
+[LevelSummary]
+; EN: Title="Orion's Barricade"
+Title="Barriera di Orione"
+IdealPlayerCount="6-12"

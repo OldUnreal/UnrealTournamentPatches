@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+; EN: Title="Orbital Station #12"
+Title="Stazione Orbitale #12"
+IdealPlayerCount="12-24"
+
+[ZoneInfo4]
+; EN: ZoneName="Central Room"
+ZoneName="Sala centrale"
+
+[ZoneInfo0]
+; EN: ZoneName="Blue Main Base"
+ZoneName="Base principale blu"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Main Base"
+ZoneName="Base principale rossa"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Damage Amp Room"
+ZoneName="Blue Damage Amp Room"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Damage Amp Room"
+ZoneName="Red Damage Amp Room"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Sniper Halls"
+ZoneName="Sale dei cecchini blu"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Flak Cannon Room"
+ZoneName="Blue Flak Cannon Room"
+
+[ZoneInfo7]
+; EN: ZoneName="Red Flak Cannon Room"
+ZoneName="Red Flak Cannon Room"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Sniper Halls"
+ZoneName="Sale dei cecchini rossi"
+
+[LevelSummary]
+; EN: Title="Orbital Station #12"
+Title="Stazione Orbitale #12"
+IdealPlayerCount="12-24"

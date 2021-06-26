@@ -1,0 +1,15 @@
+﻿[LevelInfo3]
+; EN: Title="The Darkening"
+Title="L’enfosquiment"
+
+[LevelSummary]
+; EN: Title="The Darkening"
+Title="L’enfosquiment"
+
+[TranslatorEvent10]
+; EN: Message="The Source Antechamber, ACCESS DENIED."
+Message="L'Antecambra de la Font, ACCÉS DENEGAT."
+
+[TranslatorEvent0]
+; EN: AltMessage="Authorization granted. Activate the Emergency Power Supply."
+AltMessage="Autorització concedida. Activar la Font d'Energia d'Emergència."

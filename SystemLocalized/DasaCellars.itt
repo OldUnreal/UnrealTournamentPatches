@@ -1,2 +1,11 @@
-[LevelInfo2]
-Title=Ipogei del Passo di Dasa
+﻿[LevelInfo2]
+; EN: Title="Cellars at Dasa Pass"
+Title="Ipogei del Passo di Dasa"
+; EN: LevelEntryText="Entering the Cellars at Dasa Pass"
+LevelEntryText="Arrivo al Ipogei del Passo di Dasa"
+
+[LevelSummary]
+; EN: Title="Cellars at Dasa Pass"
+Title="Ipogei del Passo di Dasa"
+; EN: LevelEntryText="Entering the Cellars at Dasa Pass"
+LevelEntryText="Arrivo al Ipogei del Passo di Dasa"

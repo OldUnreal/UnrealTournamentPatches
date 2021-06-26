@@ -1,22 +1,29 @@
 ﻿[LevelInfo0]
+; EN: Title="Arcane Temple"
 Title="Templo Arcano"
 IdealPlayerCount="3-8"
 
 [LevelSummary]
+; EN: Title="Arcane Temple"
 Title="Templo Arcano"
 IdealPlayerCount="3-8"
 
 [WaterZone0]
-ZoneName="Tope de la Cascada"
+; EN: ZoneName="Top of the Cascade"
+ZoneName="Parte Superior de la Cascada"
 
 [WaterZone1]
+; EN: ZoneName="Cascade Current"
 ZoneName="Corriente de la Cascada"
 
 [WaterZone2]
+; EN: ZoneName="Redeemer Lake"
 ZoneName="Lago del Redentor"
 
 [WaterZone3]
-ZoneName="Zona de Rampas (Nadando)"
+; EN: ZoneName="Ramps Area (Swimming)"
+ZoneName="Área de Rampas (Nadando)"
 
 [ZoneInfo0]
+; EN: ZoneName="Outside"
 ZoneName="Afueras"

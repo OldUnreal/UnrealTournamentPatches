@@ -1,14 +1,27 @@
+Ôªø[LevelInfo2]
+; EN: Title="The Trench"
+Title="La Trincea"
+; EN: LevelEntryText="Entering The Trench"
+LevelEntryText="Arrivo alla'Trincea"
+
+[LevelSummary]
+; EN: Title="The Trench"
+Title="La Trincea"
+; EN: LevelEntryText="Entering The Trench"
+LevelEntryText="Arrivo alla'Trincea"
+
 [TranslatorEvent38]
-Message=Caporale Pelli Onsov: Se state leggendo questo log, probabilmente sarÚ morto e la nave sar‡ in mano ad alieni chiamati
+; EN: Message="Corporeal Pelli Onsov: If you're reading my log entry I am probably dead and our ship has been overrun by aliens called "
+Message="Caporale Pelli Onsov: Se state leggendo questo log, probabilmente sar√≤ morto e la nave sar√† in mano ad alieni chiamati "
 
 [TranslatorEvent1]
-Message=Diario: M. Mottobanov. Abbiamo regolato l'ISV-Kran in modo che avverta attivit‡ umana oltre le porte. Se qualcuno dovesse entrare nella luce rossa, le porte si apriranno. La piattaforma rester‡ abbassata solo per breve tempo.
-Hint=Raggiungi la nave e mettiti presso la luce rossa. Le porte si apriranno e un ascensore scender‡. Dovrai essere veloce a salirvi e a saltar via nel deposito prima di finire schiacciato.
+; EN: Message="Log: M. Mottobanov: We've set ISV-KRAN so that it will scan for human activity outside the baydoors. As soon as one steps into the red light the baydoors will open. The platform will only be down for a short period of time."
+Message="Diario: M. Mottobanov. Abbiamo regolato l'ISV-KRAN in modo che avverta attivit√† umana oltre le porte. Se qualcuno dovesse entrare nella luce rossa, le porte si apriranno. La piattaforma rester√† abbassata solo per breve tempo."
+; EN: Hint="Get to the ship and stand in the red light. The baydoors will open and a lift will go down. You'll have to be quick to get up the lift and jump off into the bay before the lift crushes you."
+Hint="Raggiungi la nave e mettiti presso la luce rossa. Le porte si apriranno e un ascensore scender√†. Dovrai essere veloce a salirvi e a saltar via nel deposito prima di finire schiacciato."
 
 [TranslatorEvent0]
-Message=Diario di N. Onatop: siamo arrivati fin qui solo per trovarci davanti un'altra di quelle immense bestie. Ora ci riposeremo e domani penseremo al problema. Impossibile comunicare con l'ISV-Kran: la radio capta solo disturbi.
-Hint=Raggiungi la nave e mettiti presso la luce rossa. Le porte si apriranno e un ascensore scender‡. Dovrai essere veloce a salirvi e a saltar via nel deposito prima di finire schiacciato.
-
-[LevelInfo2]
-Title=Ponte 4 dell'ISV-KRAN
-LevelEnterText=Entrata al ponte 4 dell'ISV-KRAN
+; EN: Message="N. Onatop Log: We made it so far...  only to come face to face with another of those titanic beasts. We'll rest now and tackle this problem tomorrow. Unable to communicate with ISV-KRAN, our radio receives only static."
+Message="Diario di N. Onatop: siamo arrivati fin qui solo per trovarci davanti un'altra di quelle immense bestie. Ora ci riposeremo e domani penseremo al problema. Impossibile comunicare con l'ISV-KRAN: la radio capta solo disturbi."
+; EN: Hint="Get to the ship and stand in the red light. The baydoors will open and a lift will go down. You'll have to be quick to get up the lift and jump off into the bay before the lift crushes you."
+Hint="Raggiungi la nave e mettiti presso la luce rossa. Le porte si apriranno e un ascensore scender√†. Dovrai essere veloce a salirvi e a saltar via nel deposito prima di finire schiacciato."

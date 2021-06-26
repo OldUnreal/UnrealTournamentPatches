@@ -1,64 +1,93 @@
-[LevelInfo0]
-Title=Il Tempio di Chizra, dio dell'Acqua dei Nali
-LevelEnterText=State entrando nel Tempio di Chizra, dio dell'Acqua dei Nali
+Ôªø[LevelInfo0]
+; EN: Title="Chizra - Nali Water God"
+Title="Tempio di Chizra, dio dell'Acqua dei Nali"
+; EN: LevelEnterText="Entering Chizra - The Nali Water God Temple"
+LevelEnterText="Arrivo al Tempio di Chizra, dio dell'Acqua dei Nali"
 
-[TranslatorEvent0]
-Message=Stiano attenti coloro dagli impuri motivi che entreranno nella pozza del tuono: affronteranno il demone venuto dalle stelle
+[LevelSummary]
+; EN: Title="Chizra - Nali Water God"
+Title="Tempio di Chizra, dio dell'Acqua dei Nali"
+; EN: LevelEnterText="Entering Chizra - The Nali Water God Temple"
+LevelEnterText="Arrivo al Tempio di Chizra, dio dell'Acqua dei Nali"
 
 [TranslatorEvent7]
-message=Il dio dell'acqua dei Nali, Chizra, e il suo sacro tempio sono invasi dai serpenti d'acqua e dai demoni venuti dalle stelle. Adesso solo il messia potr‡ purificare il tempio.
-
-[TranslatorEvent2]
-message=Questo Ë l'obelisco delle nuvole. Oltre questo punto giace la pozza del tuono.
-
-[TranslatorEvent15]
-message=1400 ore - Comandante Mac Harrison: SITREP: i nativi del luogo hanno un lanciamissili a 6 canne su un altare, ma Ë custodito severamente da quelle specie di salamandre. I Nali continuano a chiamarlo "Il bastone dei 6 fuochi". ProverÚ a entrare stanotte.
-
-[TranslatorEvent12]
-message=Questa Ë la pozza del tuono. Le anime impure che si bagnano nell'acqua affronteranno il demone che viene dalle stelle
-
-[TranslatorEvent1]
-message=Una grande forza promana da coloro che si lasciano investire dalla cascata presso la pozza del tuono.
-
-[TranslatorEvent19]
-message=Scala le pietre smosse per raggiungere la laguna del fulmine ardente. Attento al demone venuto dalle stelle che giace in agguato nell'ombra. Lo sciocco perir‡ sicuramente.
-
-[TranslatorEvent13]
-message=Il centro della piramide Ë il punto focale del potere di Chizra, il dio dell'acqua dei Nali
-
-[TranslatorEvent10]
-message=IL BASTONE DEI SEI FUOCHI VENNE DAL DIO DELL'ACQUA NALI QUANDO LA STELLA CADDE DAL CIELO. PER TROVARE LA STELLA BISOGNA ATTRAVERSARE L'ALA CERIMONIALE.
-
-[Counter3]
-CountMessage=Schianto!
-CompleteMessage=La zattera Ë andata perduta!
-
-[TranslatorEvent5]
-message=Solo il guerriero che impugna il bastone dei 6 fuochi potr‡ entrare nelle stanze cerimoniali interne. Una volta che il bastone dei 6 fuochi sar‡ in tuo possesso, il sigillo di pietra s'innalzer‡.
-
-[TranslatorEvent3]
-message=Per raggiungere la pozza del tuono bisogna scalare le pietre smosse.
-
-[TranslatorEvent4]
-message=Solo il guerriero che ha toccato la faccia dell'idolo del dio dell'acqua puÚ entrare in questo tempio.
-
-[TranslatorEvent14]
-message=I demoni venuti gi˘ dalle stelle nel carro di metallo sono la punizione per i peccati dei Nali.
-
-[TranslatorEvent18]
-message=Oltre questa porta dorata giace il sacro altare del bastone dei 6 fuochi. Solo toccando le pietre sporgenti dalle colonne del fulmine ardente sar‡ possibile entrare.
-
-[TranslatorEvent6]
-message=Oltre questo sigillo di pietra giacciono le stanze cerimoniali interne del dio dell'acqua dei Nali.
-
-[TranslatorEvent9]
-message=LA PIRAMIDE » LA CHIAVE PER LA STANZA DELLA MORTE. QUI POTRAI AUMENTARE IL POTERE DEL BASTONE DEI 6 FUOCHI.
-
-[TranslatorEvent8]
-message=IL BASTONE DEI SEI FUOCHI PU“ ESSERE SOLO RAGGIUNTO DAL GUERRIERO CHE SI » BAGNATO NELLA POZZA DEL TUONO, OLTRE L'OBELISCO DELLE NUVOLE.
+; EN: Message="The Nali Water God Chizra and his holy temple has been overrun by the water serpents and the demons who came from the stars. Only the messiah can purify the temple now."
+Message="Il dio dell'acqua dei Nali, Chizra, e il suo sacro tempio sono invasi dai serpenti d'acqua e dai demoni venuti dalle stelle. Adesso solo il messia potr√† purificare il tempio."
 
 [TranslatorEvent11]
-message=PRENDI IL BASTONE DEI SEI FUOCHI E PROCEDI VERSO LE STANZE CERIMONIALI. LÃ TROVERAI LA STRADA PER TORNARE DA DOVE SEI VENUTO E IL CARRO DI METALLO CADUTO DALLE STELLE.
+; EN: Message="Take the stick of 6 fires and go forth to the inner ceremonial chamber. There you shall find you way back to the place from whence you came and the metal chariot that fell from the stars."
+Message="PRENDI IL BASTONE DEI SEI FUOCHI E PROCEDI VERSO LE STANZE CERIMONIALI. L√å TROVERAI LA STRADA PER TORNARE DA DOVE SEI VENUTO E IL CARRO DI METALLO CADUTO DALLE STELLE."
 
 [TranslatorEvent20]
-message=Guarda nei tuoi stessi occhi. E quando il tuo coraggio sar‡ pi˘ forte, l'ultimo passo verso il premio sar‡ sostenuto dalla tua fede.
+; EN: Message="Look into your own eyes. And when your courage is strongest your last step to the prize will be upheld by your faith."
+Message="Guarda nei tuoi stessi occhi. E quando il tuo coraggio sar√† pi√π forte, l'ultimo passo verso il premio sar√† sostenuto dalla tua fede."
+
+[TranslatorEvent8]
+; EN: Message="The stick of 6 fires can only be reached by a warrior who has bathed in the pool of thunder, past the obelisk of the clouds."
+Message="IL BASTONE DEI SEI FUOCHI PU√í ESSERE RAGGIUNTO SOLO DAL GUERRIERO CHE SI √à BAGNATO NELLA POZZA DEL TUONO, OLTRE L'OBELISCO DELLE NUVOLE."
+
+[TranslatorEvent9]
+; EN: Message="The pyramid is the key to the chamber of death. Here you shall find more power for the stick of 6 fires."
+Message="LA PIRAMIDE √à LA CHIAVE PER LA STANZA DELLA MORTE. QUI POTRAI AUMENTARE IL POTERE DEL BASTONE DEI 6 FUOCHI."
+
+[Counter3]
+; EN: CountMessage="Snap!"
+CountMessage="Schianto!"
+; EN: CompleteMessage="The raft is loose"
+CompleteMessage="La zattera √® andata perduta"
+
+[TranslatorEvent6]
+; EN: Message="Beyond this stone seal lies the inner ceremonial chambers of the Nali water god."
+Message="Oltre questo sigillo di pietra giacciono le stanze cerimoniali interne del dio dell'acqua dei Nali."
+
+[TranslatorEvent18]
+; EN: Message="Beyond this golden door lies the holy altar of the stick of 6 fires. Only by touching the outset stones of the lightning fire pillars may one enter."
+Message="Oltre questa porta dorata giace il sacro altare del bastone dei 6 fuochi. Solo toccando le pietre sporgenti dalle colonne del fulmine ardente sar√† possibile entrare."
+
+[TranslatorEvent14]
+; EN: Message="The demons came down from the stars in a metal chariot as punishment for the sins of The Nali."
+Message="I demoni discesi dalle stelle nel carro di metallo sono la punizione per i peccati dei Nali."
+
+[TranslatorEvent5]
+; EN: Message="Only a warrior who wields the stick of 6 fires may enter the inner ceremonial chambers. Once the stick of 6 fires is in your grasp the stone seal will rise."
+Message="Solo il guerriero che impugna il bastone dei 6 fuochi potr√† entrare nelle stanze cerimoniali interne. Una volta che il bastone dei 6 fuochi sar√† in tuo possesso, il sigillo di pietra s'innalzer√†."
+
+[TranslatorEvent10]
+; EN: Message="THE STICK OF 6 FIRES CAME FROM THE NALI WATER GOD WHEN THE STAR FELL FROM THE SKY. TO FIND THE STAR ONE MUST PASS THROUGH THE CEREMONIAL WING."
+Message="IL BASTONE DEI SEI FUOCHI VENNE DAL DIO DELL'ACQUA NALI QUANDO LA STELLA CADDE DAL CIELO. PER TROVARE LA STELLA BISOGNA ATTRAVERSARE L'ALA CERIMONIALE."
+
+[TranslatorEvent13]
+; EN: Message="The pyramid's center is the focal point of Chizra the Nali water god's power."
+Message="Il centro della piramide √® il punto focale del potere di Chizra, il dio dell'acqua dei Nali."
+
+[TranslatorEvent19]
+; EN: Message="Climb the loose stones to reach the lagoon of lightning fire. Beware the demon who came from the stars lurks in the shadows. A fool shall surely perish."
+Message="Scala le pietre smosse per raggiungere la laguna del fulmine ardente. Attento al demone venuto dalle stelle che giace in agguato nell'ombra. Lo sciocco perir√† sicuramente."
+
+[TranslatorEvent1]
+; EN: Message="Powerful strength comes from those who let the waterfall wash over them at the pool of thunder."
+Message="Una grande forza promana da coloro che si lasciano investire dalla cascata presso la pozza del tuono."
+
+[TranslatorEvent12]
+; EN: Message="This is the pool of thunder. Impure souls who bathe in the water shall face the demon that came from the stars"
+Message="Questa √® la pozza del tuono. Le anime impure che si bagnano nell'acqua affronteranno il demone che viene dalle stelle"
+
+[TranslatorEvent4]
+; EN: Message="Only a warrior who has touched the face of the water god idol may enter this temple."
+Message="Solo il guerriero che ha toccato la faccia dell'idolo del dio dell'acqua pu√≤ entrare in questo tempio."
+
+[TranslatorEvent3]
+; EN: Message="To reach the pool of thunder one must climb the loose stones."
+Message="Per raggiungere la pozza del tuono bisogna scalare le pietre smosse."
+
+[TranslatorEvent15]
+; EN: Message="1400 hours Commander Mac Harrison: SITREP: These local natives have a 6 barreled rocket launcher on an altar but it is heavily guarded by those Salamander things. "The Stick of 6 fires" is what the Nali keep calling it. I'll try to sneak in tonight."
+Message="1400 ore - Comandante Mac Harrison: SITREP: i nativi del luogo hanno un lanciamissili a 6 canne su un altare, ma √® custodito severamente da quelle specie di salamandre. I Nali continuano a chiamarlo "Il bastone dei 6 fuochi". Prover√≤ a entrare stanotte."
+
+[TranslatorEvent2]
+; EN: Message="This is the obelisk of the clouds. Beyond here lies the pool of thunder."
+Message="Questo √® l'obelisco delle nuvole. Oltre questo punto giace la pozza del tuono."
+
+[TranslatorEvent0]
+; EN: Message="Beware those of impure motives who enter the pool of thunder shall face the demon from the stars"
+Message="Stiano attenti coloro dalle impure intenzioni che entreranno nella pozza del tuono: affronteranno il demone venuto dalle stelle"

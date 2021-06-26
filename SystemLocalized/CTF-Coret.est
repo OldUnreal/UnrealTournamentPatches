@@ -1,45 +1,61 @@
 ﻿[LevelInfo0]
+; EN: Title="Coret Facility"
 Title="Centro Industrial Coret"
 IdealPlayerCount="6-12"
-LevelEnterText="Bienvenido al Centro Industrial Coret. Esperamos que disfrutes la estadía."
+; EN: LevelEnterText="Welcome to Coret Facility. Enjoy your stay."
+LevelEnterText="Bienvenido al Centro Industrial Coret. Disfruta tu estancia."
 
 [ZoneInfo1]
-ZoneName="Área Central"
+; EN: ZoneName="Central Area"
+ZoneName="Area Central"
 
 [ZoneInfo3]
+; EN: ZoneName="Red Base"
 ZoneName="Base Roja"
 
 [ZoneInfo4]
+; EN: ZoneName="Blue Base"
 ZoneName="Base Azul"
 
 [ZoneInfo6]
-ZoneName="Sala Azul Principal"
+; EN: ZoneName="Blue Main Hall"
+ZoneName="Salón Principal Azul"
 
 [ZoneInfo11]
-ZoneName="Sala Roja Principal"
+; EN: ZoneName="Red Main Hall"
+ZoneName="Salón Principal Rojo"
 
 [ZoneInfo7]
-ZoneName="Sala Lateral Azul"
+; EN: ZoneName="Blue Side Hall"
+ZoneName="Salón Lateral Azul"
 
 [ZoneInfo5]
+; EN: ZoneName="Blue Foyer"
 ZoneName="Vestíbulo Azul"
 
 [ZoneInfo2]
+; EN: ZoneName="Red Side Approach"
 ZoneName="Acceso Lateral Rojo"
 
 [ZoneInfo10]
+; EN: ZoneName="Red Foyer"
 ZoneName="Vestíbulo Rojo"
 
 [ZoneInfo8]
-ZoneName="Sala Superior Azul"
+; EN: ZoneName="Blue Overhead Hall"
+ZoneName="Pasillo Superior Azul"
 
 [ZoneInfo9]
-ZoneName="Sala Superior Roja"
+; EN: ZoneName="Red Overhead Hall"
+ZoneName="Pasillo Superior Rojo"
 
 [ZoneInfo0]
+; EN: ZoneName="Middle Area - Top"
 ZoneName="Área Central - Arriba"
 
 [LevelSummary]
+; EN: Title="Coret Facility"
 Title="Centro Industrial Coret"
 IdealPlayerCount="6-12"
-LevelEnterText="Bienvenido al Centro Industrial Coret. Esperamos que disfrutes la estadía."
+; EN: LevelEnterText="Welcome to Coret Facility. Enjoy your stay."
+LevelEnterText="Bienvenido al Centro Industrial Coret. Disfruta tu estancia."

@@ -1,0 +1,82 @@
+﻿[LevelInfo0]
+Title="The Sunspire"
+LevelEntryText="Entering The Sunspire"
+
+[LevelSummary]
+Title="The Sunspire"
+LevelEntryText="Entering The Sunspire"
+
+[TranslatorEvent17]
+Message="I will not return to the Sunspire today. I was almost slain by the Sky Demon this morning and I fear for our brothers that have not yet escaped. I feel that we will not see them again in this life."
+Hint="Watch out on the ledge. If you fall, you will fall to your death."
+
+[TranslatorEvent1]
+Message="Chambers of Honour"
+
+[TranslatorEvent3]
+Message="Chambers of Honour"
+
+[TranslatorEvent20]
+Message="Log: Security Officer A. Connectof: We are running out of ammo fast. There's only one weapon left. We have to reach the top where we can activate the crystal that calls the Sky Elevator, according to the Nali at the gates."
+Hint="Find your way up to the crystal room. From there you can call the skyelevator."
+
+[TranslatorEvent10]
+Message="Cistern"
+Hint="There is a secret in the water. Make sure you bring your flashlight."
+
+[TranslatorEvent14]
+Message="Sleeping Chambers"
+
+[TranslatorEvent9]
+Message="Primary Ascension"
+Hint="Proceed with great care. Find your way to the top."
+
+[TranslatorEvent0]
+Message="Great Hall."
+Hint="Find the switch on the wall in the great hall. It will show you a secret and you will be able to proceed upwards."
+
+[TranslatorEvent5]
+Message="Primary Ascension"
+
+[TranslatorEvent7]
+Message="Chamber of Crystals"
+Hint="Activate the crystal then go outdoors and wait for the Skyelevator to come down. Get on board and enjoy the ride."
+
+[TranslatorEvent15]
+Message="Feast Hall"
+
+[TranslatorEvent6]
+Message="Kitchens"
+Hint="Sometimes the dark can lead you to the right way. Make sure you bring your flashlight."
+
+[TranslatorEvent11]
+Message="Sleeping Chambers"
+Hint="Sometimes the dark can lead you to the right way. Make sure you bring your flashlight."
+
+[TranslatorEvent13]
+Message="Feast Hall"
+
+[TranslatorEvent12]
+Message="Bathing Chambers"
+
+[TranslatorEvent4]
+Message="Sunspire"
+Hint="Proceed with great care. Find your way to the top."
+
+[TranslatorEvent8]
+Message="Prepare to Embark"
+Hint="Activate the crystal then go outdoors and wait for the Skyelevator to come down. Get on board and enjoy the ride."
+
+[TranslatorEvent16]
+Message="Primary Ascension"
+Hint="Proceed with great care. Find your way to the top."
+
+[TranslatorEvent25]
+Hint="Find your way up to the crystal room. From there you can call the skyelevator."
+
+[TranslatorEvent24]
+Message="Log: Petty Officer N. Onalopov: We split up so we would have a better chance of finding Kira. Those bastards are going to pay for taking her. I love you Kira. I swear I'll find you."
+Hint="Find your way up to the crystal room. From there you can call the skyelevator."
+
+[TranslatorEvent23]
+Hint="You've made it so far, keep going..."

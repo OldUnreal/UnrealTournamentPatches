@@ -1,27 +1,39 @@
-[LevelInfo0]
-Title="Arena Oscura"
+Ôªø[LevelInfo0]
+; EN: Title="Dark Arena"
+Title="Estadio Siniestro"
+; EN: LevelEntryText="Entering the Dark Arena"
+LevelEntryText="Entrando al Estadio Siniestro"
+
+[LevelSummary]
+; EN: Title="Dark Arena"
+Title="Estadio Siniestro"
+; EN: LevelEntryText="Entering the Dark Arena"
+LevelEntryText="Entrando al Estadio Siniestro"
 
 [TranslatorEvent0]
-message="El dÈbil caer· en las garras de la bestia."
+; EN: Message="The weak shall be struck down by the hand of the beast."
+Message="Los d√©biles ser√°n aplastados por la mano de la bestia."
 
 [TranslatorEvent2]
-message="He escapado de mi celda pero no tengo fuerzas para seguir adelante.  Dale recuerdos a mi familia..."
-
-[TranslatorEvent1]
-message="Palancas para abrir la celda de la prisiÛn."
+; EN: Message="I escaped from my cell but can't find the strength to go on. Remember me to my family..."
+Message="He escapado de mi celda, pero no encuentro fuerzas para seguir adelante. Hagan que mi familia me recuerde..."
 
 [TranslatorEvent3]
-message="Ojal· hubiera muerto cuando se estrellÛ el Vortex Rikers.  No sÈ quÈ va a ser de mÌ.  Estoy asustado."
+; EN: Message="I wish I had died when the Vortex Rikers crashed. I do not know what is to become of me. I am scared."
+Message="Ojal√° hubiera muerto cuando se estrell√≥ el Vortex Rikers. No s√© qu√© ser√° de m√≠. Tengo miedo."
 
 [TranslatorEvent4]
-message="Tengo tanta hambre.  Espero que me encuentren los otros del grupo de exploradores del ISV Kran.  Es la ˙nica esperanza que me queda en esta vida.  Si no tuviera algo a lo que aferrarme ya estarÌa loco.  No puedo soportar m·s los gritos de dolor."
+; EN: Message="I'm so hungry. I hope that the others in the scouting party from the ISV-KRAN will find me. This is the only hope that keeps me going from day to day. Without that to cling to I'd be insane by now. I can't stand the screams of pain much longer."
+Message="Tengo mucha hambre. Espero que me encuentre el resto del grupo de exploraci√≥n del ISV-KRAN. Es la √∫nica esperanza que me mantiene vivo d√≠a a d√≠a. Sin aferrarme a ella, me hubiera vuelto loco. No puedo soportar los gritos de dolor por m√°s tiempo."
 
 [TranslatorEvent5]
-message="Si tengo que morir en este lugar, por lo menos me alegra que algunos de mis apresadores estÈn aquÌ conmigo.  MaÒana encontrarÈ la paz en la muerte sabiendo que todos ellos han sufrido antes que yo."
+; EN: Message="If I am to die here in this place, it pleases my mind that some of my former captors are here with me. Tomorrow I will find my own peace in death knowing that they have all suffered before me."
+Message="Si voy a morir en este lugar, por lo menos me alegra saber que algunos de mis captores est√°n aqu√≠ conmigo. Ma√±ana encontrar√© mi paz en la muerte, sabiendo que todos ellos han sufrido antes que yo."
 
 [TranslatorEvent6]
-message="Tengo que encontrar la salida. Teniendo en cuenta el avance tecnolÛgico de sus armas, resulta extraÒo que los hombres lagartos que aquÌ  mandan sean tan extraÒos y b·rbaros. Ser· m·s dificil engaÒarles de lo que pensaba pero tengo que intentarlo."
+; EN: Message="I must try to find a way out of this place. The lizard men in charge here are strangely barbaric given the technological advancement implied by their weapons. It may be harder to fool them than I first thought, but I must make the attempt."
+Message="Tengo que encontrar una forma de salir de aqu√≠. Los hombres lagarto encargados de este lugar son extra√±amente b√°rbaros, teniendo en cuenta el avance tecnol√≥gico que implican sus armas. Puede que enga√±arlos sea m√°s dif√≠cil de lo que pensaba, pero debo intentarlo."
 
 [TranslatorEvent7]
-message="Han introducido un nuevo grupo de dos Pieles Blandas armados que proceden de otros de sus ataques.Temo que uno de ellos sea el Mesias que desciende de los cielos,pero rezarÈ para que me equivoque y no debo abandonar las esperanzas de liberar a mi pueblo."
-
+; EN: Message="The Skaarj have brought in a new batch of the two armed softskins from another of their raids. I fear that one of them is the Messiah, come down from the heavens, but I must pray that I am mistaken and not give up hope for the freedom of my people."
+Message="Los Skaarj han tra√≠do un nuevo grupo de pieles blandas de dos brazos de otra de sus incursiones. Temo que uno de ellos sea el Mes√≠as, descendido de los cielos, pero debo rezar para que me equivoque y no abandonar la esperanza de libertad de mi pueblo."

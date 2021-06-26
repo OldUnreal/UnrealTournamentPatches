@@ -1,0 +1,21 @@
+﻿[LevelInfo0]
+Title="Temple of Vandora"
+LevelEntryText="Entering the Temple of Vandora"
+
+[LevelSummary]
+Title="Temple of Vandora"
+LevelEntryText="Entering the Temple of Vandora"
+
+[TranslatorEvent0]
+Message="And Vandora came forth, with fire from the Sky upon her lips, and sanctified the sacred fountain with her kiss. Thus, she said, he who follows me shall cast off the bonds of flesh and become as elusive as the mist."
+Hint="Sanctify the sacred fountain with fire and become as elusive as the mist."
+
+[TranslatorEvent1]
+Message="The Way is filled with darkness. The Torch of Tranquility must light the path of the worthy. Spiritual progression is achieved by those who set the Torch of Tranquility aflame."
+Hint="Set the Torch of Thunder aflame to gain access."
+
+[TranslatorEvent3]
+Message="Vandora, Goddess of Lightning."
+
+[TranslatorEvent2]
+Message="Torch of Tranquility"

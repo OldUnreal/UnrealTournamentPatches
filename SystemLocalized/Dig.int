@@ -1,0 +1,54 @@
+﻿[LevelInfo0]
+Title="Rrajigar Mine"
+LevelEntryText="Entering the Rrajigar Mine"
+
+[LevelSummary]
+Title="Rrajigar Mine"
+LevelEntryText="Entering the Rrajigar Mine"
+
+[TranslatorEvent11]
+Message="WARNING: Intruder detected in Sections C-6 and D-8. All personnel are responsible for patrolling their local area."
+Hint="Shoot the red button nearby to raise the narrow bridge across the lava."
+
+[TranslatorEvent1]
+Message="WARNING: Access bridges in lower half of mine are unsafe. Proceed with caution."
+
+[TranslatorEvent0]
+Message="ALERT: Nali slave resistance detected in Sector 3A. Lethal force authorized to suppress rebellious activity."
+
+[TranslatorEvent2]
+Message="Harobed Village is on the other side of these mountains. I will wait until the two suns have set and proceed through Rrajigar mine. It is the only way."
+
+[TranslatorEvent10]
+Message="WARNING: Force Field power source two status is inactive. Security Condition Two reached."
+
+[TranslatorEvent6]
+Message="Force field intact. All systems normal."
+Hint="The force field must be deactivated. Find the control room."
+
+[TranslatorEvent5]
+Message="WARNING! Force field de-activated. Intruder detected in Section C-6. Eliminate any unauthorized presence."
+Hint="Shoot all red barrels."
+
+[TranslatorEvent9]
+Message="WARNING: Force Field power source one status is inactive. Security Condition Two reached."
+
+[TranslatorEvent19]
+Message="NOTE: Area must be clear for transport lift to perform properly."
+
+[TranslatorEvent15]
+Message="You are SO dead."
+
+[TranslatorEvent14]
+Message="What the hell are you doing up here?"
+
+[TranslatorEvent20]
+Message="Force Field Control Area"
+
+[TranslatorEvent8]
+Message="Force Field power source one status is active."
+Hint="Press the red buttons on the wall by bumping into them."
+
+[TranslatorEvent7]
+Message="Force Field power source two status is active."
+Hint="Press the red buttons on the wall by bumping into them."

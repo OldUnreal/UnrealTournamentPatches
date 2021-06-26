@@ -1,0 +1,15 @@
+﻿[LevelInfo0]
+; EN: Title="Gateway To Na Pali"
+Title="Porta d’Entrada a Na Pali"
+; EN: LevelEntryText="Entering Na Pali Haven Underground"
+LevelEntryText="Entrant a la Porta d’Entrada Subterrània al Refugi de Na Pali"
+
+[LevelSummary]
+; EN: Title="Gateway To Na Pali"
+Title="Porta d’Entrada a Na Pali"
+; EN: LevelEntryText="Entering Na Pali Haven Underground"
+LevelEntryText="Entrant a la Porta d’Entrada Subterrània al Refugi de Na Pali"
+
+[TranslatorEvent0]
+; EN: Message="I'm the only one left. I've managed to find shelter here and I will rest before I make my final stand tomorrow morning. I am so tired. The day has been long and I have lost all. I only hope they don't discover me sleeping here tonight."
+Message="Sóc l’únic que queda. He aconseguit trobar refugi aquí i descansaré abans de demanar la meva última posició demà al matí. Estic tan cansat. El dia ha estat llarg i ho he perdut tot. Només espero que no em descobreixin dormint aquí aquesta nit."

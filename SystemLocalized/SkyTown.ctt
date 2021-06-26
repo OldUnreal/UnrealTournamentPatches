@@ -1,0 +1,43 @@
+﻿[LevelInfo2]
+; EN: Title="Na Pali Haven"
+Title="Refugi de Na Pali"
+; EN: LevelEntryText="Entering Na Pali Haven"
+LevelEntryText="Entrant a l'Refugi de Na Pali"
+
+[LevelSummary]
+; EN: Title="Na Pali Haven"
+Title="Refugi de Na Pali"
+; EN: LevelEntryText="Entering Na Pali Haven"
+LevelEntryText="Entrant a l'Refugi de Na Pali"
+
+[TranslatorEvent0]
+; EN: Message="I have gathered all of these strange artifacts in the hope that the Messiah shall make use of them in the quest to free us from the Sky Demons. I know not what their uses are but the signs were clear, the stars foretold the need."
+Message="He reunit tots aquests estranys artefactes amb l'esperança que el Messies els faci ús en la recerca d'alliberar-nos dels dimonis del cel. No sé quins usos fan, però els signes eren clars, les estrelles van predir la necessitat."
+
+[TranslatorEvent7]
+; EN: Message="Mountain Base Underwater Entrance Door Controls"
+Message="Controls de la porta d’entrada subaquàtica de la base de muntanya"
+
+[TranslatorEvent6]
+; EN: Message="All security forces must keep the Nali townsfolk under control. Kill all those who show signs of resistance. We only need to maintain enough pliable workers to mine the Tarydium."
+Message="Totes les forces de seguretat han de mantenir sota control els habitants de Nali. Mata a tots aquells que mostren signes de resistència. Només necessitem mantenir prou treballadors flexibles per explotar el Tarydium."
+
+[TranslatorEvent5]
+; EN: Message="Observation Center: The Eye Sees and The Mind Knows. Remember not to disturb the Nali townsfolk unnecessarily as their belief that they are still free prevents outright rebellion. This false hope is our primary control mechanism."
+Message="Centre d’observació: l’ull veu i la ment sap. Recordeu que no molesteu innecessàriament als habitants de Nali, ja que la seva creença que encara són lliures impedeix la rebel·lió. Aquesta falsa esperança és el nostre principal mecanisme de control."
+
+[TranslatorEvent4]
+; EN: Message="Outer Doors Release Lever"
+Message="Palanca d'alliberament de portes exteriors"
+
+[TranslatorEvent3]
+; EN: Message="I don't understand why they toy with us. My establishment used to be a place of laughter and joy for my fellow citizens. Now I just serve the whims of the Sky Demons in exchange for the life of my family. I await the Messiah."
+Message="No entenc per què juguen amb nosaltres. El meu establiment solia ser un lloc de riure i alegria per als meus conciutadans. Ara només serveixo els capricis dels dimonis del cel a canvi de la vida de la meva família. Espero el Messies."
+
+[TranslatorEvent2]
+; EN: Message="I've seen strange flying beasts vanishing into the depths of the mountain at night. The roar as they fly overhead is deafening. Never before have I heard its like. I feel that a great evil must dwell within the mountain."
+Message="He vist estranyes bèsties voladores que desapareixen a les profunditats de la muntanya a la nit. El rugit que vola sobre el cap és ensordidor. Mai abans no n’havia sentit parlar. Crec que un gran mal ha d’habitar a la muntanya."
+
+[TranslatorEvent1]
+; EN: Message="They let us go about our business here, but it is a farce. I know that they are watching us, controlling us. I believe this once safe haven is as deadly as the surface planet below."
+Message="Ens van deixar fer el nostre negoci aquí, però és una farsa. Sé que ens observen i ens controlen. Crec que aquest refugi una vegada segur és tan mortal com el planeta superficial que hi ha a sota."

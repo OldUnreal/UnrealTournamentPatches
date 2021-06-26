@@ -1,0 +1,43 @@
+﻿[LevelInfo0]
+; EN: Title="Sacred Passage"
+Title="Passatge Sagrat"
+; EN: LevelEntryText="Entering the Sacred Passage"
+LevelEntryText="Entrant al Passatge Sagrat"
+
+[LevelSummary]
+; EN: Title="Sacred Passage"
+Title="Passatge Sagrat"
+; EN: LevelEntryText="Entering the Sacred Passage"
+LevelEntryText="Entrant al Passatge Sagrat"
+
+[TranslatorEvent1]
+; EN: Hint="Go for a swim and look for a secret passage."
+Hint="Aneu a nedar i busqueu un passatge secret."
+
+[TranslatorEvent12]
+; EN: Message=""...For that will be the key""
+Message=""... perquè aquesta serà la clau""
+; EN: Hint="Activate the lever to let the water run."
+Hint="Activeu la palanca per deixar córrer l'aigua."
+
+[TranslatorEvent13]
+; EN: Message="You must have a keen eye, so that you may bathe in the sacred waters."
+Message="Cal tenir un ull agut per banyar-se a les aigües sagrades."
+; EN: Hint="Look at each face."
+Hint="Mireu cada cara."
+
+[TranslatorEvent11]
+; EN: Message=""Wood must break free...""
+Message=""La fusta s’ha d’alliberar ...""
+; EN: Hint="Activate the lever to let the water run."
+Hint="Activeu la palanca per deixar córrer l'aigua."
+
+[TranslatorEvent0]
+; EN: Hint="Go for a swim and look for a secret passage."
+Hint="Aneu a nedar i busqueu un passatge secret."
+
+[TranslatorEvent2]
+; EN: Message="Only the purest of heart may pay homage to the God of The Good Lore Chizra"
+Message="Només el més pur del cor pot retre homenatge al déu de la bona tradició Chizra"
+; EN: Hint="Activate the lever to let the water run."
+Hint="Activeu la palanca per deixar córrer l'aigua."

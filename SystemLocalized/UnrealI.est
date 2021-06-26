@@ -9,11 +9,11 @@ Object=(Name=UnrealI.Minigun,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Mujer 2")
 Object=(Name=UnrealI.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Varón 1")
 Object=(Name=UnrealI.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Varón 2")
-Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Skaarj")
+Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Soldado Skaarj")
 Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Mujer 2")
 Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Varón 1")
 Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Varón 2")
-Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Skaarj")
+Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Soldado Skaarj")
 
 [IntroNullHud]
 ESCMessage="Pulsa ESC para comenzar"
@@ -36,6 +36,7 @@ BlobKillMessage="ha sido corroído por una gota ácida."
 
 [FlakCannon]
 DeathMessage="%o ha sido despedazado por el %w de %k."
+FemDeathMessage="%o ha sido despedazada por el %w de %k."
 PickupMessage="Tienes el Cañón de Metralla"
 ItemName="Cañón de Metralla"
 
@@ -48,7 +49,7 @@ ItemName="Rifle"
 NameArticle=" la "
 
 [SkaarjPlayer]
-MenuName="Skaarj"
+MenuName="Soldado Skaarj"
 
 [NaliPlayer]
 MenuName="Nali"

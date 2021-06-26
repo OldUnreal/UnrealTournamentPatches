@@ -1,6 +1,15 @@
-[LevelInfo0]
-Title="Entrada a Na Pali"
+ï»¿[LevelInfo0]
+; EN: Title="Gateway To Na Pali"
+Title="Portal a Na Pali"
+; EN: LevelEntryText="Entering Na Pali Haven Underground"
+LevelEntryText="Entrando al Subsuelo del Refugio Na Pali"
+
+[LevelSummary]
+; EN: Title="Gateway To Na Pali"
+Title="Portal a Na Pali"
+; EN: LevelEntryText="Entering Na Pali Haven Underground"
+LevelEntryText="Entrando al Subsuelo del Refugio Na Pali"
 
 [TranslatorEvent0]
-message="Soy el único que queda. He encontrado cobijo aquí y descansaré antes de parar y resistir por última vez mañana temprano.  Estoy tan cansado.  Hoy ha sido un día largo y he perdido mis pertenencias.  Sólo espero que no me descubran durmiendo aquí."
-
+; EN: Message="I'm the only one left. I've managed to find shelter here and I will rest before I make my final stand tomorrow morning. I am so tired. The day has been long and I have lost all. I only hope they don't discover me sleeping here tonight."
+Message="Soy el Ãºnico que queda. He conseguido encontrar refugio aquÃ­ y descansarÃ© antes de resistir por Ãºltima vez maÃ±ana temprano. Estoy tan cansado. Hoy ha sido un dÃ­a largo y lo he perdido todo. SÃ³lo espero que no me descubran durmiendo aquÃ­."

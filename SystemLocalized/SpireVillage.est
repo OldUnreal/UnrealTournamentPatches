@@ -1,21 +1,37 @@
-[TranslatorEvent2]
-Message=Refugio seguro para aquellos que anhelan la paz, bienvenidos.
-Hint=Examina minuciosamente las casas y sigue por el valle hasta la puerta. Ten cuidado con los Titanes!
+﻿[LevelInfo0]
+; EN: Title="Spire Village"
+Title="Aldea de la Punta"
+; EN: LevelEntryText="Entering the Spire Village"
+LevelEntryText="Entrando en la Aldea de la Punta"
+
+[LevelSummary]
+; EN: Title="Spire Village"
+Title="Aldea de la Punta"
+; EN: LevelEntryText="Entering the Spire Village"
+LevelEntryText="Entrando en la Aldea de la Punta"
 
 [TranslatorEvent19]
-Message=Nuestro Refugio, el gran Sunspire. Los Dioses de la Biblia de la Sabiduria nos ha dado, ha sido corrompido por los Demonios del Cielo. En otro tiempo fue nuestra esperanza es ahora el terror m�s inmunde. Los Demonios del Cielo son m�s fuertes que nunca. 
-Hint= Examina minuciosamente las casa y sigue por el valle hasta la puerta. Ten cuidado con los Titanes!
+; EN: Message="Our Haven, the great Sunspire, given to us by the Gods of the Good Lore, has been corrupted by the Sky Demons. Our once hope is now the foulest of terrors. The Sky Demons are stronger than ever. I had a vision of death, of immense beasts roaming the land."
+Message="Nuestro Refugio, la gran Punta del Sol, otorgado a nosotros por el Dios del Buen Saber, ha sido corrompido por los Demonios del Cielo. Aquello que en otro tiempo fuera nuestra esperanza es ahora el mayor de nuestros terrores. Los Demonios del Cielo son más fuertes que nunca. Tuve una visión de la muerte, de inmensas bestias deambulando por la tierra."
+; EN: Hint="Search the houses thoroughly and follow the valley to the gate. Watch out for those Titans!"
+Hint="Examina minuciosamente las casas y sigue por el valle hasta la puerta. ¡Ten cuidado con esos titanes!"
 
-[TranslatorEvent21]
-Hint= Examina minuciosamente las casas y sigue por el valle hasta la puerta. Ten cuidado con los Titanes!
-
-[TranslatorEvent22]
-Hint= Examina minuciosamente las casas y sigue por el valle hasta la puerta. Ten cuidado con los Titanes!
+[TranslatorEvent2]
+; EN: Message="Safe haven for those who seek peace, welcome."
+Message="Refugio seguro para quienes buscan la paz, bienvenidos."
+; EN: Hint="Search the houses thoroughly and follow the valley to the gate. Watch out for those Titans!"
+Hint="Examina minuciosamente las casas y sigue por el valle hasta la puerta. ¡Ten cuidado con esos titanes!"
 
 [TranslatorEvent18]
-Message=Arrojan los esbirros de nuestros Dioses al campo de batalla a luchar. Nos ponen a prueba. Nuestro mundo se debilita y vomita terribles criaturas. Volveremos a rezar esta noche. Oh, escucha nuestras plegarias! �Env�anos al mesias!
-Hint= Examina minuciosamente las casa y sigue por el valle hasta la puerta. Ten cuidado con los Titanes!
+; EN: Message="The minions of our Gods are cast to the ground to do battle. We are put to the test. Our world is weakening, it spews forth terrible creatures. We will pray again tonight. Oh, hear our plea! Send our messiah!"
+Message="Los esbirros de nuestros Dioses son arrojados al campo de batalla para luchar. Somos puestos a prueba. Nuestro mundo se debilita y vomita terribles criaturas. Volveremos a rezar esta noche. ¡Oh, escucha nuestras plegarias! ¡Envíanos al mesias!"
+; EN: Hint="Search the houses thoroughly and follow the valley to the gate. Watch out for those Titans!"
+Hint="Examina minuciosamente las casas y sigue por el valle hasta la puerta. ¡Ten cuidado con esos titanes!"
 
-[LevelInfo0]
-Title=SpireVillage
+[TranslatorEvent22]
+; EN: Hint="Search the houses thoroughly and follow the valley to the gate. Watch out for those Titans!"
+Hint="Examina minuciosamente las casas y sigue por el valle hasta la puerta. ¡Ten cuidado con esos titanes!"
 
+[TranslatorEvent21]
+; EN: Hint="Search the houses thoroughly and follow the valley to the gate. Watch out for those Titans!"
+Hint="Examina minuciosamente las casas y sigue por el valle hasta la puerta. ¡Ten cuidado con esos titanes!"

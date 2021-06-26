@@ -1,35 +1,43 @@
-[LevelInfo0]
-Title="Las C�maras Ceremoniales"
-LevelEnterText="Entrar la Ceremoniales"
+﻿[LevelInfo0]
+; EN: Title="Sacred Passage"
+Title="Paso Sagrado"
+; EN: LevelEntryText="Entering the Sacred Passage"
+LevelEntryText="Entrando al Paso Sagrado"
 
-[TranslatorEvent15]
-message="The inner c�maras ceremoniales . Aqui el serpirnte del aqua quiere tomar el peil del los que son deb�l . Solo un guerrero que puede nadar como un serpiente lo puede escapar"
-
-[TranslatorEvent0]
-message="Sgt. William Bradford: "Uno de esos slamenandro costias han matado a m� peloton entero . No tengo municion y estoy metido con un cura en un santuario para dias. Quando el rezars mira al puerto".
-
-
-[TranslatorEvent2]
-Message=Solo el puro de coraz(nes pueden pagar homenaje al dios del Chizra
-Hint=Activar la palanca para dejar el aqua pasar.
-
-[TranslatorEvent12]
-Message=' ...Por eso sera la clave
-Hint= Activar la palanca para dejar el aqua pasar
-
-[TranslatorEvent13]
-Message=Tienes ser muy alerta . Para lavar to en los aquas sagrados.
-Hint=Mirar a todos los posibidades.
-
-[TranslatorEvent11]
-Message=' Seguro que puedes romper un trozo de madera'
-Hint= Activar la palanca para dejar el aqua pasar
-
-[TranslatorEvent0]
-Hint=Ba(arse para buscar un pasaje secreto .
+[LevelSummary]
+; EN: Title="Sacred Passage"
+Title="Paso Sagrado"
+; EN: LevelEntryText="Entering the Sacred Passage"
+LevelEntryText="Entrando al Paso Sagrado"
 
 [TranslatorEvent1]
-Hint= Ba(arse para buscar un pasaje secreto .
+; EN: Hint="Go for a swim and look for a secret passage."
+Hint="Ve a nadar y busca un pasaje secreto."
 
-[LevelInfo0]
-Titulo Pasaje sagrado
+[TranslatorEvent12]
+; EN: Message=""...For that will be the key""
+Message=""...ya que esa será la clave""
+; EN: Hint="Activate the lever to let the water run."
+Hint="Activa la palanca para dejar correr el agua."
+
+[TranslatorEvent13]
+; EN: Message="You must have a keen eye, so that you may bathe in the sacred waters."
+Message="Deberás tener un ojo atento, así podrás bañarte en las aguas sagradas."
+; EN: Hint="Look at each face."
+Hint="Observa cada rostro."
+
+[TranslatorEvent11]
+; EN: Message=""Wood must break free...""
+Message=""La madera deberá ser liberada...""
+; EN: Hint="Activate the lever to let the water run."
+Hint="Activa la palanca para dejar correr el agua."
+
+[TranslatorEvent0]
+; EN: Hint="Go for a swim and look for a secret passage."
+Hint="Ve a nadar y busca un pasaje secreto."
+
+[TranslatorEvent2]
+; EN: Message="Only the purest of heart may pay homage to the God of The Good Lore Chizra"
+Message="Solo quienes sean puros de corazón podrán rendir homenaje al Dios del Buen Saber Chizra"
+; EN: Hint="Activate the lever to let the water run."
+Hint="Activa la palanca para dejar correr el agua."

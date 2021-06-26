@@ -1,0 +1,77 @@
+﻿[LevelInfo0]
+; EN: Title="Rrajigar Mine"
+Title="Mina Rrajigar"
+; EN: LevelEntryText="Entering the Rrajigar Mine"
+LevelEntryText="Entrant a la Mina Rrajigar"
+
+[LevelSummary]
+; EN: Title="Rrajigar Mine"
+Title="Mina Rrajigar"
+; EN: LevelEntryText="Entering the Rrajigar Mine"
+LevelEntryText="Entrant a la Mina Rrajigar"
+
+[TranslatorEvent11]
+; EN: Message="WARNING: Intruder detected in Sections C-6 and D-8. All personnel are responsible for patrolling their local area."
+Message="ALERTA: Intrús detectat en Seccions C-6 i D-8. Tot el personal és responsable de patrullar la seva àrea local."
+; EN: Hint="Shoot the red button nearby to raise the narrow bridge across the lava."
+Hint="Dispara al botó vermell a prop per aixecar el pont estret a través de la lava."
+
+[TranslatorEvent1]
+; EN: Message="WARNING: Access bridges in lower half of mine are unsafe. Proceed with caution."
+Message="ALERTA: Els ponts d'accés en la meitat inferior de la mina són insegurs. Procedir amb precaució."
+
+[TranslatorEvent0]
+; EN: Message="ALERT: Nali slave resistance detected in Sector 3A. Lethal force authorized to suppress rebellious activity."
+Message="ALERTA: Resistència d'esclaus nali detectada al Sector 3A. Força letal autoritzada per suprimir activitat rebel."
+
+[TranslatorEvent2]
+; EN: Message="Harobed Village is on the other side of these mountains. I will wait until the two suns have set and proceed through Rrajigar mine. It is the only way."
+Message="La Vila Harobed és a l'altre costat d'aquestes muntanyes. Esperaré fins que els dos sols s'hagin post i procediré per la mina Rrajigar. És l'única forma."
+
+[TranslatorEvent10]
+; EN: Message="WARNING: Force Field power source two status is inactive. Security Condition Two reached."
+Message="ALERTA: L'estat de font d'alimentació de camp de força dos és inactiu. Condició de seguretat dos abastada."
+
+[TranslatorEvent6]
+; EN: Message="Force field intact. All systems normal."
+Message="Camp de força intacte. Tots els sistemes normals."
+; EN: Hint="The force field must be deactivated. Find the control room."
+Hint="El camp de força ha de ser desactivat. Troba la sala de control."
+
+[TranslatorEvent5]
+; EN: Message="WARNING! Force field de-activated. Intruder detected in Section C-6. Eliminate any unauthorized presence."
+Message="ALERTA! Camp de força desactivat. Intrús detectar en Secció C-6. Eliminar qualsevol presència no autoritzada."
+; EN: Hint="Shoot all red barrels."
+Hint="Dispara tots els barrils vermells."
+
+[TranslatorEvent9]
+; EN: Message="WARNING: Force Field power source one status is inactive. Security Condition Two reached."
+Message="ALERTA: L'estat de font d'alimentació de camp de força u és inactiu. Condició de seguretat dos abastada."
+
+[TranslatorEvent19]
+; EN: Message="NOTE: Area must be clear for transport lift to perform properly."
+Message="NOTA: Àrea ha d'estar lliure per operació correcta de muntacàrregues."
+
+[TranslatorEvent15]
+; EN: Message="You are SO dead."
+Message="Ets TANT mort."
+
+[TranslatorEvent14]
+; EN: Message="What the hell are you doing up here?"
+Message="Què coi fas aquí a dalt?"
+
+[TranslatorEvent20]
+; EN: Message="Force Field Control Area"
+Message="Àrea de Control de Camp de Força"
+
+[TranslatorEvent8]
+; EN: Message="Force Field power source one status is active."
+Message="L'estat de font d'alimentació u de camp de força és actiu."
+; EN: Hint="Press the red buttons on the wall by bumping into them."
+Hint="Prem els botons vermells a la paret empenyent-los."
+
+[TranslatorEvent7]
+; EN: Message="Force Field power source two status is active."
+Message="L'estat de font d'alimentació dos de camp de força és actiu."
+; EN: Hint="Press the red buttons on the wall by bumping into them."
+Hint="Prem els botons vermells a la paret empenyent-los."

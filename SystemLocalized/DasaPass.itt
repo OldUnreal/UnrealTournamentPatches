@@ -1,15 +1,27 @@
-[TranslatorEvent0]
-Message=DIARIO DI CARICO: stazione montana del Passo di Dasa: Grok Vhul'rath - La settimana scorsa abbiamo ricevuto oltre 45 macchine ad alta tecnologia provenienti dall'astronave umana ISV-KRAN schiantata. Ho deciso di depositarli nell'ipogeo prima di inviarli al nostro Signore.
+﻿[LevelInfo0]
+; EN: Title="Dasa Mountain Pass"
+Title="Passo Montano di Dasa"
+; EN: LevelEnterText="Entering Dasa Mountain Pass"
+LevelEnterText="Arrivo al Passo Montano di Dasa"
 
-[TranslatorEvent2]
-Message=DIARIO DI CARICO: stazione montana del Passo di Dasa: Grok Vhul'rath: Abbiamo deciso di scavare usando i Nali come schiavi. Pare che credano in una salvatrice venuta dalle stelle per ucciderci. Tanto li giustizieremo per essersi rifiutati di lavorare.
-
-[TranslatorEvent4]
-Message=Addetto al ponte Khan Vhranna: Ne ho abbastanza di Grok Vhul'rath, quel pomposo figlio di un Bulrach. Se ci fa riparare il ponte levatoio un'altra volta in mezzo alla pioggia, gli spacco la faccia.
+[LevelSummary]
+; EN: Title="Dasa Mountain Pass"
+Title="Passo Montano di Dasa"
+; EN: LevelEnterText="Entering Dasa Mountain Pass"
+LevelEnterText="Arrivo al Passo Montano di Dasa"
 
 [TranslatorEvent3]
-Message=Diario: Grok Vhul'rath: ho ordinato ancora di riparare il ponte levatoio, che sta diventando molto vecchio. Sono stufo dei Behemoth: continuano a rompere tutto e sono rozzi come maiali aldariani. Non vedo l'ora di tornare al mio pianeta natale.
+; EN: Message="Diary: Grok Vhul'rath: I ordered repairs to the Drawbridge again! This is getting really old. I'm sick of dealing with the Behemoths. They constantly break things and they're slobs like Aldarian Pigs. I'm anxious to get back to my homeworld."
+Message="Diario: Grok Vhul'rath: ho ordinato ancora di riparare il ponte levatoio, che sta diventando molto vecchio. Sono stufo dei Behemoth: continuano a rompere tutto e sono rozzi come maiali aldariani. Non vedo l'ora di tornare al mio pianeta natale."
 
-[LevelInfo0]
-Title=Passo montano di Dasa
-LevelEnterText=Arrivo al Passo montano di Dasa
+[TranslatorEvent4]
+; EN: Message="Bridge Foreman Khan Vhranna: I've about had it with Grok Vhul'rath. He's such a pompous son-of-a Bulrach. If he makes us fix the drawbridge one more time in the rain, I'm going to bust his face in."
+Message="Addetto al ponte Khan Vhranna: Ne ho abbastanza di Grok Vhul'rath, quel pomposo figlio di un Bulrach. Se ci fa riparare il ponte levatoio un'altra volta in mezzo alla pioggia, gli spacco la faccia."
+
+[TranslatorEvent2]
+; EN: Message="SHIPPING LOG: Dasa Pass Mountain Station: Grok Vhul'rath: We've decided to ditch using the Nali as slaves here. The word is they all believe their "savior" has come from the stars to kill us. We decided to execute them for refusing to work anyways."
+Message="DIARIO DI CARICO: stazione montana del Passo di Dasa: Grok Vhul'rath: Abbiamo deciso di scavare usando i Nali come schiavi. Pare che credano in una salvatrice venuta dalle stelle per ucciderci. Tanto li giustizieremo per essersi rifiutati di lavorare."
+
+[TranslatorEvent0]
+; EN: Message="SHIPPING LOG: Dasa Pass Mountain Station: Grok Vhul'rath: This past week we've received over 45 cases of high tech equipment from the crashed human spacecraft ISV-KRAN. I've decided to store them in the cellars before we ship to the Warlord."
+Message="DIARIO DI CARICO: stazione montana del Passo di Dasa: Grok Vhul'rath - La settimana scorsa abbiamo ricevuto oltre 45 macchine ad alta tecnologia provenienti dall'astronave umana ISV-KRAN schiantata. Ho deciso di depositarli nell'ipogeo prima di inviarli al nostro Signore."

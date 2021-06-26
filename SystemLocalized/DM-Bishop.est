@@ -1,7 +1,9 @@
 ﻿[LevelInfo0]
-Title="Alfil"
+; EN: Title="Bishop"
+Title="Obispo"
 IdealPlayerCount="4-10"
 
 [LevelSummary]
-Title="Alfil"
+; EN: Title="Bishop"
+Title="Obispo"
 IdealPlayerCount="4-10"

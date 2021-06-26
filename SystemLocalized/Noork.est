@@ -1,10 +1,21 @@
+Ôªø[LevelInfo0]
+; EN: Title="Noork's Elbow"
+Title="Codo de Noork"
+; EN: LevelEntryText="Entering Noork's Elbow"
+LevelEntryText="Entrando al Codo de Noork"
+
+[LevelSummary]
+; EN: Title="Noork's Elbow"
+Title="Codo de Noork"
+; EN: LevelEntryText="Entering Noork's Elbow"
+LevelEntryText="Entrando al Codo de Noork"
+
 [TranslatorEvent4]
-Hint=En tu camino hacia las ruinas busca todas las casas que haya. Cuidado con los enemigos que est·n al acecho en el trayecto.
+; EN: Hint="Search all the houses on your way to the ruins. Watch out for enemies lurking along the way."
+Hint="Hurga en todas las casas mientras atraviesas las ruinas. Ten cuidado con los enemigos que acechan en el camino."
 
 [TranslatorEvent0]
-Message=Diario:  L.Goeranov:  Nos hemos quedado atrapados durante varios dÌas. Hay mucho pescado para comer pero tiene un sabor muy raro. Nunca me ha gustado el pescado.
-Hint=PodrÌas conseguir una mano amiga desde un personaje amistoso en el puente levadizo de las ruinas.
-
-[LevelInfo0]
-Title=El Codo de Noork
-
+; EN: Message="Log: L. Goeranov: We've been stuck here for days. There are plenty of fish to eat but they taste kinda funny. I never liked fish."
+Message="Registro: L. Goeranov: Hemos estado atrapados aqu√≠ durante d√≠as. Hay muchos pescados para comer, pero saben un poco raros. Nunca me gust√≥ el pescado."
+; EN: Hint="You might get a helping hand from a friendly individual at the ruins' drawbridge."
+Hint="Podr√≠as obtener una mano amiga de un personaje amistoso en el puente levadizo de las ruinas."

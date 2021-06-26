@@ -127,6 +127,10 @@ CrosshairScaleText="Escala de Punto de Mira"
 CrosshairScaleHelp="Ajusta el tamaño de tu punto de mira."
 DefaultsText="Restablecer"
 DefaultsHelp="Restablece la configuración predeterminada del HUD."
+CrosshairSmoothText="Suavizar Mira"
+CrosshairSmoothHelp="Si está activo, aplica un efecto de suavizado a la mira."
+CrosshairAlwaysCenterText="Siempre Centrar Mira"
+CrosshairAlwaysCenterHelp="Centra la mira aún cuando se utilice la configuración de mano de arma izquierda o derecha."
 
 [UTIndivBotSetupClient]
 SkillText="Ajustar Destreza"
@@ -426,7 +430,7 @@ BotmatchHelp="Selecciona este botón para empezar una partida de práctica contr
 ReturnToGameName="&Volver a la Partida Actual"
 ReturnToGameHelp="Abandona el menú y regresa a la partida. También volverás a la partida que jugabas si pulsas la tecla ESC."
 QuitName="&Salir"
-QuitHelp="Selecciona este botón si deseas guardar tus opciones y salir de Unreal."
+QuitHelp="Selecciona este botón si deseas guardar tus opciones y salir de Unreal Tournament."
 QuitTitle="Confirmar Salida"
 QuitText="¿Seguro que quieres Salir?"
 

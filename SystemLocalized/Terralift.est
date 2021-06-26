@@ -1,25 +1,41 @@
-[LevelInfo0]
-Title=SÛtano Terraniux
+Ôªø[LevelInfo0]
+; EN: Title="Terraniux Underground"
+Title="Subsuelo Terraniux"
+; EN: LevelEntryText="Entering Terraniux Underground"
+LevelEntryText="Entrando al Subsuelo Terraniux"
+
+[LevelSummary]
+; EN: Title="Terraniux Underground"
+Title="Subsuelo Terraniux"
+; EN: LevelEntryText="Entering Terraniux Underground"
+LevelEntryText="Entrando al Subsuelo Terraniux"
 
 [SpecialEvent0]
-Message=ALERTA
+; EN: Message="ALERT"
+Message="ALERTA"
 
 [TranslatorEvent0]
-Message=Control de Flujo Biowaste: el flujo es constante. ContrÛlalo para fluctuaciones peligrosas en viscosidad o presiÛn. Parece que la alarma a˙n tiene problemas, en caso de funcionamiento defectuoso activa los dos controles de cancelar."
-AltMessage="Ascensor activado. Se recuerda a todo el personal que finalicen sus tareas asignadas.
+; EN: Message="Biowaste Flow Control: the Biowaste flow is constant. Monitor it for dangerous fluctuations in viscosity or pressure. The alarm still seems to have problems, in case of malfunction activate the two override controls."
+Message="Control de Flujo de Residuos Biot√≥xicos: el flujo de residuos es constante. Debe ser controlado para detectar fluctuaciones peligrosas en viscosidad o presi√≥n. La alarma todav√≠a parece tener problemas, en caso de mal funcionamiento, activar los dos controles de anulaci√≥n."
+; EN: AltMessage="Lift activated. All personnel are reminded to complete assigned tasks."
+AltMessage="Ascensor activado. Se recuerda a todo el personal que finalice sus tareas asignadas."
 
 [TranslatorEvent5]
-Message=Estado de Drenaje: el flujo de Biowaste est· a niveles nominales. Todas las bombas en funcionamiento. SecciÛn C vacÌa y disponible para cualquier desbordamiento del Biowaster. Aseg˙rate de que se maniobra el mantenimiento de la canalizaciÛn regular.
+; EN: Message="Drainage Status: Biowaste flow is at nominal levels. All pumps operational. Section C empty and available for any Biowaster overflow. Please be sure that the regular pipe maintenance is handled."
+Message="Estado de Drenaje: el flujo de Residuos Biot√≥xicos se encuentra en niveles nominales. Todas las bombas en funcionamiento. Secci√≥n C vac√≠a y disponible para cualquier desbordamiento de Desechador Biot√≥xico. Favor de asegurarse de realizar el mantenimiento regular de la tuber√≠a."
 
 [TranslatorEvent4]
-Message= Activando las pantallas de seguridad en el Laboratorio de InvestigaciÛn CientÌfica y en la SecciÛn HidropÛnicas. Todos los elementos de seguridad alrededor de los puntos de acceso en las Secciones A, B y C para se on intruso en Ascencor 1.
-Hint= Busca las salas de ContenciÛn A,B y C y activa los botones para acceder al Ascensor 1.
+; EN: Message="Security Status: Intruder detected at entrance. Activating security screens on Scientific Research Lab and Hydroponics Section. All security elements deploy around access points in Sections A, B and C to deny intruder access to Lift 1."
+Message="Estado de Seguridad: intruso detectado en la entrada. Activando las pantallas de seguridad en el Laboratorio de Investigaci√≥n Cient√≠fica y la Secci√≥n Hidrop√≥nica. Todos los elementos de seguridad alrededor de los puntos de acceso en las Secciones A, B y C deber√°n detener al intruso antes de que llegue al Ascensor 1."
+; EN: Hint="Find the Containment rooms A, B and C and activate the buttons to access the Lift 1."
+Hint="Busca las salas de contenci√≥n A, B y C y activa los botones para acceder al ascensor 1."
 
 [TranslatorEvent3]
-Message= Estado de la Sala de Control: Presurizada y cerrada. Prohibido entrar excepto en casos de emergencia.
+; EN: Message="Control Room Status: Pressurized and locked. Do not access except in case of emergency situation."
+Message="Estado de la Sala de Control: Presurizada y cerrada. Prohibido entrar excepto en caso de emergencia."
 
 [TranslatorEvent1]
-Message= Se ha activado la estaciÛn de bombeo, se espera que despues de la operaciÛn la capacidad de almacenamiento sea de un 32%
-AltMessage= SecciÛn D: alcanzada el 54% de la capacidad.
-
-
+; EN: Message="Pumping station has been activated, expected storage capacity after operation: 32%."
+Message="Estaci√≥n de bombeo activada, capacidad de almacenamiento esperada despu√©s de la operaci√≥n: 32%."
+; EN: AltMessage="Section D: 54% of full capacity reached."
+AltMessage="Secci√≥n D: 54% de la capacidad total alcanzada."

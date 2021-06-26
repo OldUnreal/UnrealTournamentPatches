@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+Title="Sacred Passage"
+LevelEntryText="Entering the Sacred Passage"
+
+[LevelSummary]
+Title="Sacred Passage"
+LevelEntryText="Entering the Sacred Passage"
+
+[TranslatorEvent1]
+Hint="Go for a swim and look for a secret passage."
+
+[TranslatorEvent12]
+Message=""...For that will be the key""
+Hint="Activate the lever to let the water run."
+
+[TranslatorEvent13]
+Message="You must have a keen eye, so that you may bathe in the sacred waters."
+Hint="Look at each face."
+
+[TranslatorEvent11]
+Message=""Wood must break free...""
+Hint="Activate the lever to let the water run."
+
+[TranslatorEvent0]
+Hint="Go for a swim and look for a secret passage."
+
+[TranslatorEvent2]
+Message="Only the purest of heart may pay homage to the God of The Good Lore Chizra"
+Hint="Activate the lever to let the water run."

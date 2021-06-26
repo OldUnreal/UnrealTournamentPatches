@@ -1,0 +1,97 @@
+﻿[LevelInfo0]
+; EN: Title="Facing Worlds Special Edition"
+Title="Mondi Nemici Edizione Speciale"
+IdealPlayerCount="4-10"
+
+[ZoneInfo3]
+; EN: ZoneName="Asteroid"
+ZoneName="Asteroide"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Base blu"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Base"
+ZoneName="Base rossa"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Sniper"
+ZoneName="Red Sniper"
+
+[ZoneInfo7]
+; EN: ZoneName="Blue Sniper"
+ZoneName="Blue Sniper"
+
+[ZoneInfo5]
+; EN: ZoneName="Blue Redeemer"
+ZoneName="Redentore blu"
+
+[ZoneInfo4]
+; EN: ZoneName="Red Redeemer"
+ZoneName="Red Redentore"
+
+[SpecialEvent0]
+; EN: DamageString="put in orbit"
+DamageString="messo in orbita"
+
+[locationid0]
+; EN: LocationName="Blue Back"
+LocationName="Blue Back"
+
+[locationid1]
+; EN: LocationName="Blue Asteroid"
+LocationName="Asteroide blu"
+
+[locationid2]
+; EN: LocationName="Blue Asteroid"
+LocationName="Asteroide blu"
+
+[locationid3]
+; EN: LocationName="Blue Asteroid"
+LocationName="Asteroide blu"
+
+[locationid4]
+; EN: LocationName="Blue Asteroid"
+LocationName="Asteroide blu"
+
+[locationid5]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide rosso"
+
+[locationid6]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide rosso"
+
+[locationid7]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide rosso"
+
+[locationid8]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide rosso"
+
+[locationid9]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide rosso"
+
+[locationid10]
+; EN: LocationName="Red Back"
+LocationName="Red Back"
+
+[locationid11]
+; EN: LocationName="Blue Tower"
+LocationName="Torre blu"
+
+[locationid12]
+; EN: LocationName="Red Tower"
+LocationName="Torre Rossa"
+
+[locationid13]
+; EN: LocationName="Red Tower"
+LocationName="Torre Rossa"
+
+[LevelSummary]
+; EN: Title="Facing Worlds Special Edition"
+Title="Mondi Nemici Edizione Speciale"
+IdealPlayerCount="4-10"

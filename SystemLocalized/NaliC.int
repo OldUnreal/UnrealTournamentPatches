@@ -1,0 +1,32 @@
+﻿[LevelInfo3]
+Title="Nali Castle"
+LevelEntryText="Entering the Nali Castle"
+
+[LevelSummary]
+Title="Nali Castle"
+LevelEntryText="Entering the Nali Castle"
+
+[TranslatorEvent0]
+Message="The path to be followed is long and harrowing, but the strong of heart and purpose will prevail against the challenges."
+Hint="Thy path is now clear."
+
+[TranslatorEvent5]
+Message="Only the enlightened one who has read the Book of the Good Lore in the chapel shall be granted passage to the tower through these divine gates."
+Hint="Travel to the chapel and read the book to gain access."
+
+[TranslatorEvent4]
+Message="He who seeks knowledge would be well rewarded for perusing the tomes stored in the main feast hall."
+
+[TranslatorEvent1]
+Message="I sit here, waiting to die. Waiting... The wait is worse than death itself. My fears tear at my soul. I hear the wails of the others as they are taken to the bowels of the dungeon to be sacrificed to the winged Sky Daemon."
+
+[TranslatorEvent3]
+Message="Only the warrior who demonstrates his bravery by defeating the five eyed daemon in the tower shall be granted passage to the dungeon."
+Hint="Go to the tallest tower and slay the daemon to gain access to the dungeon."
+
+[TranslatorEvent2]
+Message="Only the warrior who demonstrates his bravery by defeating the five eyed daemon in the tower shall be granted passage to the dungeon."
+Hint="Go to the tallest tower and slay the daemon to gain access to the dungeon."
+
+[TranslatorEvent6]
+Message="What the HELL are you doing up here?"

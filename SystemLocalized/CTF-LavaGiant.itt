@@ -1,0 +1,53 @@
+﻿[LevelInfo0]
+; EN: Title="Lava Giant"
+Title="Gigante di Lava"
+IdealPlayerCount="8-14"
+; EN: LevelEnterText="GET THOSE FLAGS!!"
+LevelEnterText="PRENDI QUELLE BANDIERE!!"
+
+[ZoneInfo0]
+; EN: ZoneName="On The Island"
+ZoneName="Sull'Isola"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Lower Area"
+ZoneName="Area Inferiore Blu"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Lower Area"
+ZoneName="Area Inferiore Rossa"
+
+[ZoneInfo2]
+; EN: ZoneName="Red Lower Area"
+ZoneName="Area Inferiore Rossa"
+
+[ZoneInfo4]
+; EN: ZoneName="Blue Lower Area"
+ZoneName="Area Inferiore Blu"
+
+[LevelSummary]
+; EN: Title="Lava Giant"
+Title="Gigante di Lava"
+IdealPlayerCount="8-14"
+; EN: LevelEnterText="GET THOSE FLAGS!!"
+LevelEnterText="PRENDI QUELLE BANDIERE!!"
+
+[locationid1]
+; EN: LocationName="Red Base"
+LocationName="Base Rossa"
+
+[locationid5]
+; EN: LocationName="Rocket Launcher Ridge"
+LocationName="Cresta del Lanciarazzi"
+
+[locationid4]
+; EN: LocationName="Shield Belt Ridge"
+LocationName="Cresta dell'Cintura Scudo"
+
+[locationid2]
+; EN: LocationName="Blue Base"
+LocationName="Base Blu"
+
+[locationid3]
+; EN: LocationName="Redeemer Ridge"
+LocationName="Cresta del Redentore"

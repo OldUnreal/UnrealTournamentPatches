@@ -1,25 +1,37 @@
-[TranslatorEvent3]
-message=Unidad de activaciÛn secundaria de la carreta de transporte Tarydium.
+Ôªø[LevelInfo0]
+; EN: Title="Depths of Rrajigar"
+Title="Profundidades de Rrajigar"
 
-[TranslatorEvent16]
-message=En Canad· hace mucho frÌo. Me gusta la cerveza Dos Equis. Mis gatos son muy peludos.
-
-[TranslatorEvent12]
-message=Estado de la EstaciÛn de DesviaciÛn de Gas: Las puertas est·n presurizadas y cerradas.
-AltMessage=Puertas despresurizadas. Acceso permitido.
-
-[TranslatorEvent18]
-message=Craig es el Gran Maestro Doofus.
-
-[TranslatorEvent17]
-message=Entra aquÌ, la Lava est· bien!
+[LevelSummary]
+; EN: Title="Depths of Rrajigar"
+Title="Profundidades de Rrajigar"
 
 [TranslatorEvent4]
-message=AVISO: Ten mucho cuidado cuando estÈs cerca de las jaulas de Tarydium.
+; EN: Message="WARNING: Exercise caution when in the vicinity of Tarydium barrels."
+Message="ADVERTENCIA: Ejercer precauci√≥n cerca de los barriles de taridio."
+
+[TranslatorEvent17]
+; EN: Message="Come on in, the Lava's fine!"
+Message="¬°Ven aqu√≠, la Lava est√° tibia!"
+
+[TranslatorEvent18]
+; EN: Message="Craig is Grand Master Doofus."
+Message="Craig es el Gran Maestro Memo."
+
+[TranslatorEvent16]
+; EN: Message="Canada is really cold. I like Dos Equis beer. My cats are fuzzy."
+Message="En Canad√° hace mucho fr√≠o. Me gusta la cerveza Dos Equis. Mis gatos son muy peludos."
+
+[TranslatorEvent3]
+; EN: Message="Secondary Tarydium transport cart activation unit."
+Message="Unidad de activaci√≥n del carro de transporte secundario de taridio."
+
+[TranslatorEvent12]
+; EN: Message="Gas Re-Routing Station Status: Doors are pressurized and locked."
+Message="Estado de la Estaci√≥n de Desviaci√≥n de Gas: Las puertas est√°n presurizadas y cerradas."
+; EN: AltMessage="Doors depressurized. Access permitted."
+AltMessage="Puertas despresurizadas. Acceso permitido."
 
 [TranslatorEvent2]
-message=Unidad de activaciÛn primaria del carro de transporte Tarydium.
-
-[LevelInfo0]
-Title=Profundidades de Rrajigar
-
+; EN: Message="Primary Tarydium transport cart activation unit."
+Message="Unidad de activaci√≥n del carro de transporte primario de taridio."

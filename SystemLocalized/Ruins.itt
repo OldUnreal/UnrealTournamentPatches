@@ -1,16 +1,31 @@
-[LevelInfo0]
-Title=Tempio di Vandora
+Ôªø[LevelInfo0]
+; EN: Title="Temple of Vandora"
+Title="Tempio di Vandora"
+; EN: LevelEntryText="Entering the Temple of Vandora"
+LevelEntryText="Arrivo al Tempio di Vandora"
 
-[TranslatorEvent1]
-message=La Strada Ë piena di oscurit‡. La Torcia del Tuono illuminer‡ la via ai valorosi. Il progresso spirituale spetta a chi riuscir‡ ad accendere la Torcia del Tuono.
-Hint=Accendi la Torcia del Tuono e potrai proseguire.
-
-[TranslatorEvent3]
-message=Vandora, Dea del Fulmine.
-
-[TranslatorEvent2]
-message=Torcia del Tuono
+[LevelSummary]
+; EN: Title="Temple of Vandora"
+Title="Tempio di Vandora"
+; EN: LevelEntryText="Entering the Temple of Vandora"
+LevelEntryText="Arrivo al Tempio di Vandora"
 
 [TranslatorEvent0]
-message=E venne Vandora, col fuoco del Cielo sulle labbra, e santificÚ la sacra fontana con un bacio. Poi disse: 'Chi mi seguir‡, potr‡ superare i vincoli della carne e diventare elusivo come la nebbia'.
-Hint=Santifica la fontana sacra col fuoco e diventa elusivo come la nebbia.
+; EN: Message="And Vandora came forth, with fire from the Sky upon her lips, and sanctified the sacred fountain with her kiss. Thus, she said, he who follows me shall cast off the bonds of flesh and become as elusive as the mist."
+Message="E venne Vandora, col fuoco del Cielo sulle labbra, e santific√≤ la sacra fontana con un bacio. Poi disse: Chi mi seguir√†, potr√† superare i vincoli della carne e diventare elusivo come la nebbia."
+; EN: Hint="Sanctify the sacred fountain with fire and become as elusive as the mist."
+Hint="Santifica la fontana sacra col fuoco e diventa elusivo come la nebbia."
+
+[TranslatorEvent1]
+; EN: Message="The Way is filled with darkness. The Torch of Tranquility must light the path of the worthy. Spiritual progression is achieved by those who set the Torch of Tranquility aflame."
+Message="La Strada √® piena di oscurit√†. La Torcia del Tuono illuminer√† la via ai valorosi. Il progresso spirituale spetta a chi riuscir√† ad accendere la Torcia del Tuono."
+; EN: Hint="Set the Torch of Thunder aflame to gain access."
+Hint="Accendi la Torcia del Tuono e potrai proseguire."
+
+[TranslatorEvent3]
+; EN: Message="Vandora, Goddess of Lightning."
+Message="Vandora, Dea del Fulmine."
+
+[TranslatorEvent2]
+; EN: Message="Torch of Tranquility"
+Message="Torcia del Tuono"

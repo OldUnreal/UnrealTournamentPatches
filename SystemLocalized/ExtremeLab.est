@@ -1,69 +1,99 @@
-[LevelInfo0]
-Title="Laboratorio Buque Escolta"
+Ôªø[LevelInfo0]
+; EN: Title="MotherShip Lab"
+Title="Laboratorio de la Nave Nodriza"
+; EN: LevelEntryText="Entering the MotherShip Lab"
+LevelEntryText="Entrando al Laboratorio de la Nave Nodriza"
 
-[TranslatorEvent3]
-message="Intruso detectado. Protege la Fuente a toda costa. Hay que parar al intruso antes de que penetre en el perÌmetro defensivo de la Fuente."
-
-[TranslatorEvent2]
-message="Personal de seguridad dirigirse a las zonas de despliegue alrededor del Bloque de DetenciÛn al Suministro de Potencia Alterna en lÌnea. Hay que retener a todos los detenidos."
-
-[TranslatorEvent1]
-AltMessage="El suministro de energÌa para la Fuente est· seguro, Suministro de Potencia Alterna listo para el combate. Es de vital importancia mantener el flujo de energÌa a la Fuente. Se castigar· la debilidad."
-
-[TranslatorEvent7]
-message="ACCESO DENEGADO: Reservas de Potencia a 100%"
-AltMessage="Tienes que ir al Laboratorio de InvestigaciÛn para disminuir el nivel de EnergÌa."
-Hint="Tienes que ir al Labotario de InvestigaciÛn para disminuir el nivel de EnergÌa."
+[LevelSummary]
+; EN: Title="MotherShip Lab"
+Title="Laboratorio de la Nave Nodriza"
+; EN: LevelEntryText="Entering the MotherShip Lab"
+LevelEntryText="Entrando al Laboratorio de la Nave Nodriza"
 
 [TranslatorEvent0]
-AltMessage="El Suministro Primario de Potencia funciona a un rendimiento Ûptimo. El suministro Auxiliar de Potencia funciona a un rendimiento del 80%. Es muy importante activar el Suministro de Potencia Alterna para el Campo de Fuerzas de Seguridad."
+; EN: AltMessage="Primary Power Supply is operating at peak efficiency. Auxilliary Power Supply operational at 80% output. Activating the Alternate Power Supply for the Security Force Fields is imperative. Weakness shall be punished."
+AltMessage="La fuente de alimentaci√≥n primaria funciona con la m√°xima eficiencia. La fuente de alimentaci√≥n auxiliar opera al 80% de salida. Es imperativo activar la fuente de alimentaci√≥n alternativa para los campos de fuerza de seguridad. La debilidad ser√° castigada."
 
-[TranslatorEvent21]
-message="Centro de InvestigaciÛn"
+[TranslatorEvent3]
+; EN: Message="Intruder detected. Protect the Source at any cost. Intruder must be halted before penetrating the Source's defensive perimeter."
+Message="Intruso detectado. Proteger el Origen a cualquier precio. El intruso debe ser detenido antes de penetrar el per√≠metro defensivo del Origen."
 
-[TranslatorEvent22]
-Message="Informe 190: Shrk'Tajji 2∫ Ojo Inferior de Ess'Tajji observando. Estamos listos para el siguiente experimento. Esperamos una disminuciÛn del 18% en las Reservas de Potencia de los niveles al 100%. El sujeto de prueba est· en su sitio y el Tarydium est· preparado para cargar."
-
-[TranslatorEvent20]
-message="Departamento GenÈtico"
-
-[TranslatorEvent14]
-AltMessage="Intruso detectado en Buque Escolta, todos los experimentos se suspenden por Ûrdenes de Chakti'Nrrj 2∫ Gran TalÛn de Ssa'Nrrj hasta prÛximo aviso. Las Reservas de Potencia deben estar al 100% para que el funcionamiento del sistema de seguridad sea Ûptimo."
-
-[TranslatorEvent15]
-AltMessage=" Informe 187: Shrk'Tajji 2∫ Ojo Inferior de Ess'Tajji informando. A pesar del fallo en nuestras pruebas anteriores en el efecto de defensa, las celdas de sujetos de prueba muestran algunos efectos residuales. Muy interesante..."
-
-[TranslatorEvent16]
-AltMessage=" Informe 189: Shrk'Tajji 2∫ Ojo Inferior de Ess'Tajji informando. DespuÈs de los an·lisis cruzados de los resultados de las pruebas en todos los sujetos, hemos llegado a la conclusiÛn de que el campo magnÈtico del Generador Central."
-
-[TranslatorEvent17]
-AltMessage=" Informe 188: Shrk'Tajji 2∫ Ojo Inferior de Ess'Tajji informando. Los estudios sobre las celdas de los sujetos probados muestran una defensa persistente con fluctuaciones menores en la reflectividad. Es extraÒo que Èstas estÈn perfectamente sincronizadas."
+[TranslatorEvent2]
+; EN: Message="Security personnel report to deployment zones around the Detention Block until APS back online. All detainees must be contained."
+Message="Personal de seguridad dirigirse a las zonas de despliegue alrededor del Bloque de Detenci√≥n hasta que la fuente de energ√≠a alternativa vuelva a funcionar. Todos los detenidos deben ser contenidos."
 
 [TranslatorEvent19]
-message="Centro de InvestigaciÛn"
+; EN: Message="Research Center"
+Message="Centro de Investigaci√≥n"
 
 [TranslatorEvent18]
-message="Departamento de EnergÌa"
-
-[TranslatorEvent23]
-AltMessage="Si el experimento tiene Èxito, intentaremos trasladar el Centro de InvestigaciÛn al  Emplazamiento B donde nos protegeremos del campo magnetico del Generador Central. Si lo conseguimos alcanzaremos el nivel verde o incluso el azul."
+; EN: Message="Energy Department"
+Message="Departamento de energ√≠a"
 
 [TranslatorEvent24]
-AltMessage="Estado CryoPods: Temperatura a 269 grados Kelvin, PresiÛn a 748 milibares, los sujetos est·n preparados para comenzar el experimento."
+; EN: AltMessage="Cryo Pods Status: Temperature at 269 degrees Kelvin, Pressure at 748 millibars, subjects are prepared for experiment commencement."
+AltMessage="Estado de las Vainas Criog√©nicas: Temperatura a 269 grados Kelvin, presi√≥n a 748 milibares, los sujetos est√°n preparados para el comienzo del experimento."
 
 [TranslatorEvent26]
-message="Reserva de Potencia al 100%, Efecto de defensa a 0.0025%. Las lecturas de EEG/EKG son normales, el estado fisiolÛgico est· criogenizado."
-AltMessage="Reserva de Potencia al 80%, Efecto de defensa a 5,64%, las lecturas de EEG/EKG muestran disturbios masivos, el estado fisiolÛgico est· activo y los sistemas de endorfina y adrenalina producen sobrecargas de hormonas."
+; EN: Message="Power Reserve at 100%, Shielding effect at 0.0025%. EEG/EKG readings are normal, physiological state is cryogenised."
+Message="Reserva de energ√≠a al 100%, Efecto de protecci√≥n al 0,0025%. Las lecturas de EEG/EKG son normales, el estado fisiol√≥gico es criogenizado."
+; EN: AltMessage="Power Reserve at 80%, Shielding effect at 5.64%, EEG/EKG readings showing massive disturbances, physiological state is active and endorphin/adrenal systems are producing hormonal overloads."
+AltMessage="Reserva de energ√≠a al 80%, Efecto de protecci√≥n al 5,64%. Las lecturas de EEG/EKG muestran alteraciones masivas, el estado fisiol√≥gico est√° activo y los sistemas de endorfina/adrenalina est√°n produciendo sobrecargas hormonales."
 
 [TranslatorEvent25]
-AltMessage="Sujetos de prueba colocados en ¡rea de DetenciÛn. Los campos de fuerzas les mantienen confinados y sin protecciÛn. Los sujetos contin˙an mostrando un comportamiento muy agresivo cuando no est·n en campos magnÈticos bien sintonizados."
+; EN: AltMessage="All the test subjects have been placed in the Detention Area. The force fields are keeping them confined and unshielded. All subjects continue to exhibit extremely aggressive behaviour when not in carefully tuned magnetic fields."
+AltMessage="Todos los sujetos de prueba han sido colocados en el √Årea de Detenci√≥n. Los campos de fuerza los mantienen confinados y desprotegidos. Todos los sujetos contin√∫an exhibiendo un comportamiento extremadamente agresivo cuando no est√°n en campos magn√©ticos cuidadosamente calibrados."
+
+[TranslatorEvent1]
+; EN: AltMessage="Energy supply for the Source is secured, Alternate Power Supply operational. Maintaining energy flow to the Source is highest priority. Weakness shall be punished."
+AltMessage="El suministro de energ√≠a para el Origen est√° asegurado, la fuente de alimentaci√≥n alternativa est√° operativa. Es imperativo mantener el flujo de energ√≠a hacia el Origen. La debilidad ser√° castigada."
+
+[TranslatorEvent7]
+; EN: Message="ACCESS DENIED: Power Reserves at 100%."
+Message="ACCESO DENEGADO: Reservas de energ√≠a al 100%."
+; EN: Hint="You need to go the the Research Lab to lower the Energy level."
+Hint="Tienes que ir al laboratorio de investigaci√≥n para disminuir el nivel de energ√≠a."
+
+[TranslatorEvent21]
+; EN: Message="Research Center"
+Message="Centro de Investigaci√≥n"
+
+[TranslatorEvent22]
+; EN: Message="Report 190: Shrk'Tajji 2nd Lesser Eye of Ess'Tajji observing. We are ready for the next experiment. We expect an 18% drop in Power Reserves from 100% levels. The test subject is in place and the Tarydium is prepared for charging."
+Message="Informe 190: Observaci√≥n de Shrk'Tajji, 2¬∞ Ojo Menor de Ess'Tajji. Estamos listos para el pr√≥ximo experimento. Esperamos una disminuci√≥n del 18% en las reservas de energ√≠a desde los niveles del 100%. El sujeto de prueba est√° en su lugar y el taridio est√° preparado para la carga."
+
+[TranslatorEvent20]
+; EN: Message="Genetic Department"
+Message="Departamento de Gen√©tica"
+
+[TranslatorEvent14]
+; EN: AltMessage="Security Orders: Intruder detected in MotherShip, all experiments are suspended on orders of Chakti'Nrrj 2nd Great Talon of Ssa'Nrrj until further notice. Power Reserves must be at 100% for optimal security system operation."
+AltMessage="√ìrdenes de seguridad: Intruso detectado en la Nave Nodriza, todos los experimentos se suspenden por orden de Chakti'Nrrj 2¬∞ Gran Talon of Ssa'Nrrj hasta nuevo aviso. Las reservas de energ√≠a deben estar al 100% para un funcionamiento √≥ptimo del sistema de seguridad."
+
+[TranslatorEvent15]
+; EN: AltMessage="Report 187: Shrk'Tajji 2nd Lesser Eye of Ess'Tajji reporting. Despite the failure in our previous tests on the shielding effect, the test subjects' cells are showing some residual effects. Very interesting..."
+AltMessage="Informe 187: Informe de Shrk'Tajji, 2¬∞ Ojo Menor de Ess'Tajji. A pesar del fracaso en nuestras pruebas anteriores sobre el efecto de blindaje, las c√©lulas de los sujetos de prueba muestran algunos efectos residuales. Muy interesante..."
+
+[TranslatorEvent16]
+; EN: AltMessage="Report 189: Shrk'Tajji 2nd Lesser Eye of Ess'Tajji reporting. After cross-analysis of the test results on all subects, we've reached the conclusion that the Core Generator's magnetic field is probably the cause of the failures."
+AltMessage="Informe 189: Informe de Shrk'Tajji, 2¬∞ Ojo Menor de Ess'Tajji. Despu√©s de un an√°lisis cruzado de los resultados de la prueba en todos los sujetos, hemos llegado a la conclusi√≥n de que el campo magn√©tico del Generador Central sea probablemente la causa de los fallos."
+
+[TranslatorEvent17]
+; EN: AltMessage="Report 188: Shrk'Tajji 2nd Lesser Eye of Ess'Tajji reporting. Studies on the test subjects' cells are showing persistent shielding, with minor fluctuations in reflectivity. Strangely these are all perfectly synchronized."
+AltMessage="Informe 188: Informe de Shrk'Tajji, 2¬∞ Ojo Menor de Ess'Tajji. Los estudios sobre las c√©lulas de los sujetos de prueba muestran un blindaje persistente, con fluctuaciones menores en la reflectividad. Curiosamente, estas est√°n perfectamente sincronizadas."
+
+[TranslatorEvent23]
+; EN: AltMessage="If the experiment is successful we'll look into moving the Research Center to Site B where we'll be shielded from the magnetic field of the Core Generator. If we're successful we'll reach the green level or even blue."
+AltMessage="Si el experimento tiene √©xito, intentaremos trasladar el Centro de Investigaci√≥n al Emplazamiento B, en donde estaremos protegidos del campo magn√©tico del Generador Central. Si tenemos √©xito, alcanzaremos el nivel verde, o incluso el azul."
 
 [TranslatorEvent6]
-message="ACCESO DENEGADO"
-
-[TranslatorEvent4]
-AltMessage="Informe 190: listos para el prÛximo experimento, el sujeto en la posiciÛn correcta y la Potencia Primaria del Generador se reducir· a un 80%. El sujeto no se ver· afectado, el nivel de energÌa esperado se caracteriza por ser de color naranja."
+; EN: Message="ACCESS DENIED"
+Message="ACCESO DENEGADO"
 
 [TranslatorEvent5]
-message="InstalaciÛn de Experimentos"
+; EN: Message="Experimentation Facility"
+Message="Instalaci√≥n de experimentaci√≥n"
 
+[TranslatorEvent4]
+; EN: AltMessage="Report 190: We're ready for the next experiment, the subject is positionned properly and the Primary Generator Power will be reduced to 80%. The subject should barely be affected, the expected energy level is characterised by an orange color."
+AltMessage="Informe 190: Estamos listos para el pr√≥ximo experimento, el sujeto est√° posicionado correctamente y la potencia del generador primario se reducir√° a un 80%. El sujeto apenas deber√≠a verse afectado, el nivel de energ√≠a esperado se caracteriza por un color naranja."

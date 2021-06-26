@@ -7,7 +7,7 @@ Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Descriptio
 Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Vengeance,This relic will punish those who wish to slay you.")
 
 [RelicInventory]
-PickupMessage="You picked up a null Relic."
+PickupMessage="You picked up a Relic."
 ItemName="Relic"
 
 [RelicRedemptionInventory]

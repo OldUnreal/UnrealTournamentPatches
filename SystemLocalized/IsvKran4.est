@@ -1,45 +1,61 @@
+Ôªø[LevelInfo2]
+; EN: Title="ISV-KRAN Deck 4"
+Title="Cubierta 4 de ISV-KRAN"
+; EN: LevelEnterText="Entering ISV-KRAN Deck 4"
+LevelEnterText="Entrando a la Cubierta 4 del ISV-KRAN"
+
+[LevelSummary]
+; EN: Title="ISV-KRAN Deck 4"
+Title="Cubierta 4 de ISV-KRAN"
+; EN: LevelEnterText="Entering ISV-KRAN Deck 4"
+LevelEnterText="Entrando a la Cubierta 4 del ISV-KRAN"
+
 [TranslatorEvent7]
-Message=Barras de seguridad del almacÈn. AnulaciÛn en desv·n superior del almacÈn.
-
-[TranslatorEvent33]
-Message=ESTACI”N BLOQUEO DE DESVÕO DE SEGURIDAD: CIERRES DE SEGURIDAD ACTIVADOS.
-AltMessage= ESTACI”N BLOQUEO DE DESVÕO DE SEGURIDAD: TODOS LOS CIERRES ABIERTOS, ACCESO PERMITIDO AL ALMAC…N.
-Hint=Toca este panel para abrir el cierre de seguridad
-
-[TranslatorEvent19]
-Message=ESTADO DE CUBIERTA 4 EN ISV-KRAN: ALERTA INTRUSO: CIERRES DE SEGURIDAD ACTIVADOS: INTRUSOS EN TODAS LAS CUBIERTAS E INTENTANDO REACTIVAR MOTORES PRINCIPALES - TELEGUARDÕAN DE EMERGENCIA EN CUBIERTA 1 PARA ASEGURAR PUENTE.
-
-[TranslatorEvent0]
-Message=AFT ESTACI”N DE CARGA: ISV-KRAN: Estamos en esta colina en la montaÒa desde hace dos meses. Cada noche vienen esas 4 bestias tipo dinosaurio grandotes y golpean en la parte trasera de la nave. Parece que no son muy inteligentes y van muy lentos.
-
-[TranslatorEvent2]
-Message=Activados Cierres de Seguridad para Intrusos -DesvÌo Necesario: panel de desvÌo localizado en Entresuelo de Procesamiento de VentilaciÛn.
-AltMessage=Desactivados Cierres de Seguridad para Intrusos
+; EN: Message="Warehouse Safety Bars Override in Upper Warehouse Loft."
+Message="Anulaci√≥n de las barras de seguridad del almac√©n ubicada en el desv√°n del almac√©n superior."
 
 [TranslatorEvent13]
-Message= Panel de Control de Barras de Seguridad del AlmacÈn: PANEL FUERA DE SERVICIO-POTENCIA DESVIADA DESDE LA CONSOLA DEL ORDENADOR.
-AltMessage= Desactivadas Barras de Seguridad del AlmacÈn: Acceso permitido al muelle.
+; EN: AltMessage="Warehouse Safety Bars Disengaged: Access to Dock Permitted."
+AltMessage="Barras de seguridad del almac√©n desconectadas: acceso al muelle permitido."
+
+[TranslatorEvent19]
+; EN: Message="ISV-KRAN DECK 4 STATUS: INTRUDER ALERT: SECURITY LOCKS ACTIVATED: INTRUDERS ON ALL DECKS AND ATTEMPTING TO REACTIVATE MAIN ENGINES - DECK 1 EMERGENCY TELEPORTER AT BRIDGE SECURE"
+Message="ISV-KRAN, ESTADO DE CUBIERTA 4: ALERTA DE INTRUSOS: CERRADURAS DE SEGURIDAD ACTIVADAS: INTRUSOS EN TODAS LAS CUBIERTAS INTENTANDO REACTIVAR LOS MOTORES PRINCIPALES - TELETRANSPORTE DE EMERGENCIA EN PUENTE DE CUBIERTA 1 ASEGURADO"
 
 [TranslatorEvent1]
-Message=Conductos Entresuelo de Procesamiento de VentilaciÛn: SÛlo personal de mantenimiento:AVISO ESCAPE EN REFRIGERANTE DE MOTOR EN ENTRESUELO.
-
-[TranslatorEvent12]
-Message=POTENCIA DESVIADA A PANEL DE CONTROL DE BARRA DE SEGURIDAD DEL ALMAC…N.
-
-[TranslatorEvent37]
-Message=Cabo Anders Kerig: °Ya llegan! Los oigo por los conductos de ventilaciÛn. Voy a activar los cierres de seguridad al AlmacÈn e implantar un cÛdigo de DNA Humano para que sÛlo los Terran puedan desviar los sistemas de bloqueo.
-
-[TranslatorEvent38]
-Message= Cabo Pelli Onsov: Si est·s leyendo mis noticias probablemente estoy muerto y nuestra nave ha sido invadido por alienÌgenas llamados "Skaarj". Tu ˙nica salida es destruir los N˙cleos de contenciÛn de oro, reactivar los motores y llegar a la Cubierta 1.
-
-[TranslatorEvent36]
-Message= Oficial Subordinado: Yuri Andromov: El destacamento de guerra alienÌgeno ha reventado el casco y est· entrando en la nave a travÈs de los ejes de ventilaciÛn - Kerig, Onsov y yo vamos a oponer resistencia aquÌ con los Stingers en el ·rea de carga.
+; EN: Message="Ventilation Processing Mezzanine Ducts: Maintenance Personnel Only: WARNING - ENGINE COOLANT LEAK IN MEZZANINE"
+Message="Conductos de entrepiso de procesamiento de ventilaci√≥n: solo personal de mantenimiento: ADVERTENCIA - ESCAPE DE REFRIGERANTE DE MOTORES EN ENTRESUELO"
 
 [TranslatorEvent15]
-Message=PANEL ARREGLADO PARA SOLTAR ALARMA -SISTEMA ACCEDIDO POR USUARIOS NO AUTORIZADOS-
+; EN: Message="PANEL REWIRED TO TRIP ALARM - SYSTEM ACCESSED BY UNAUTHORIZED USERS"
+Message="PANEL RECABLEADO PARA ACTIVAR ALARMA - SISTEMA ACCEDIDO POR USUARIOS NO AUTORIZADOS"
 
-[LevelInfo2]
-Title=ISV-KRAN Deck 4
-LevelEnterText=Est·is entrando en la Cubierta 4 de ISV-KRAN
+[TranslatorEvent2]
+; EN: Message="Intruder Security Locks Activated - Bypass Required: Bypass panel located in Ventilation Processing Mezzanine."
+Message="Cerraduras de seguridad contra intrusos activadas: se requiere anulaci√≥n: panel de desviaci√≥n ubicado en el entrepiso de procesamiento de ventilaci√≥n."
+; EN: AltMessage="Intruder Security Locks Disengaged"
+AltMessage="Cerraduras de seguridad contra intrusos desactivadas"
 
+[TranslatorEvent0]
+; EN: Message="AFT LOADING STATION: ISV-KRAN: We've been wedged into this mountain ridge for 2 months now. Each night these 4 story tall dinosaur type beasts come and beat on the rear hull of the ship. They appear to be relatively unintelligent and slow moving."
+Message="ISV-KRAN, ESTACI√ìN DE CARGA TRASERA: Hemos estado encallados en esta colina desde hace 2 meses. Cada noche, estas bestias tipo dinosaurio de 4 pisos de altura vienen y golpean el casco trasero de la nave. Parecen ser relativamente poco inteligentes y de movimiento lento."
 
+[TranslatorEvent33]
+; EN: Message="SECURITY BYPASS LOCK STATION: SECURITY LOCKS ENGAGED"
+Message="ESTACI√ìN DE BLOQUEO DE DESV√çO DE SEGURIDAD: CERRADURAS DE SEGURIDAD ACTIVADAS."
+; EN: AltMessage="SECURITY LOCK BYPASS STATION: ALL LOCKS OPEN ACCESS PERMITTED TO WAREHOUSE"
+AltMessage="ESTACI√ìN DE BLOQUEO DE DESV√çO DE SEGURIDAD: TODAS LAS CERRADURAS ABIERTAS, ACCESO PERMITIDO AL ALMAC√âN."
+; EN: Hint="Touch this panel to open the security lock door."
+Hint="Toca este panel para abrir la cerradura de seguridad."
+
+[TranslatorEvent37]
+; EN: Message="Corporal Anders Kerig: They're coming! I can hear them in the ventilation ducts. I'm going to activate the security locks to the Warehouse and implant a Human DNA code so only another Terran can bypass the lock systems."
+Message="Cabo Anders Kerig: ¬°Est√°n llegando! Puedo o√≠rlos por los conductos de ventilaci√≥n. Activar√© las cerraduras de seguridad del Almac√©n e implantar√© un c√≥digo de ADN humano para que s√≥lo otro terr√≠cola pueda anular los sistemas de bloqueo."
+
+[TranslatorEvent38]
+; EN: Message="Corporal Pelli Onsov: If you're reading my log entry I am probably dead and our ship has been overrun by aliens called "Skaarj". Your only hope is to destroy the Gold Containment Cores, re-activate the Engines and get to the Deck 1 transporters."
+Message="Cabo Pelli Onsov: Si est√°s leyendo mi entrada de registro, probablemente estoy muerto y nuestra nave ha sido invadida por extraterrestres llamados "Skaarj". Tu √∫nica esperanza es destruir los n√∫cleos dorados de contenci√≥n, reactivar los motores y llegar a los transportadores en la cubierta 1."
+
+[TranslatorEvent36]
+; EN: Message="Petty Officer: Yuri Andromov: The Alien War Party has blasted a hole through the hull and are accessing the ship through the ventilation shafts - Kerig, Onsov and myself are going to make a stand with Stingers here in the loading area."
+Message="Suboficial Yuri Andromov: El Grupo de Guerra Alien√≠gena ha penetrado el casco y est√°n accediendo a la nave a trav√©s de los conductos de ventilaci√≥n. Kerig, Onsov y yo vamos a hacerles frente con nuestros Ca√±ones Perforadores en el √°rea de carga."
