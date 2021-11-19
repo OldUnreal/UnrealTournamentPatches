@@ -1,3 +1,11 @@
-[LevelInfo2]
-Title="S髏ano de Buque Escolta"
+锘縖LevelInfo2]
+; EN: Title="MotherShip Basement"
+Title="S贸tano de la Nave Nodriza"
+; EN: LevelEntryText="Entering the MotherShip Basement"
+LevelEntryText="Entrando al S贸tano de la Nave Nodriza"
 
+[LevelSummary]
+; EN: Title="MotherShip Basement"
+Title="S贸tano de la Nave Nodriza"
+; EN: LevelEntryText="Entering the MotherShip Basement"
+LevelEntryText="Entrando al S贸tano de la Nave Nodriza"

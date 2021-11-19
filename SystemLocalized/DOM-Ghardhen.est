@@ -1,43 +1,57 @@
 ﻿[LevelInfo0]
+; EN: Title="Ghardhen Labs"
 Title="Laboratorios Ghardhen"
 IdealPlayerCount="6-12"
 
 [ZoneInfo13]
+; EN: ZoneName="Basement"
 ZoneName="Sótano"
 
 [ControlPoint2]
-PointName="Arriba"
+; EN: PointName="Top"
+PointName="Superior"
 
 [ZoneInfo12]
-ZoneName="Sala Hacia Arriba"
+; EN: ZoneName="Upward Hall"
+ZoneName="Salón Ascendente"
 
 [ControlPoint0]
-PointName="Abajo"
+; EN: PointName="Bottom"
+PointName="Inferior"
 
 [ControlPoint3]
+; EN: PointName="Center"
 PointName="Centro"
 
 [ZoneInfo8]
+; EN: ZoneName="Observation Deck"
 ZoneName="Plataforma de Observación"
 
 [ZoneInfo11]
-ZoneName="Sala Hacia Abajo"
+; EN: ZoneName="Downward Hall"
+ZoneName="Salón Descendente"
 
 [ZoneInfo10]
+; EN: ZoneName="Blast Chamber 1"
 ZoneName="Cámara de Explosión 1"
 
 [ZoneInfo9]
+; EN: ZoneName="Blast Chamber 2"
 ZoneName="Cámara de Explosión 2"
 
 [LevelSummary]
+; EN: Title="Ghardhen Labs"
 Title="Laboratorios Ghardhen"
 IdealPlayerCount="6-12"
 
 [locationid7]
-LocationName="Sala Central: Abajo"
+; EN: LocationName="Central Room - Lower"
+LocationName="Sala Central - Inferior"
 
 [locationid6]
-LocationName="Sala Central: Arriba"
+; EN: LocationName="Central Room - Top"
+LocationName="Sala Central - Superior"
 
 [locationid8]
-LocationName="Sala Central: Medio"
+; EN: LocationName="Central Room - Mid"
+LocationName="Sala Central - Medio"

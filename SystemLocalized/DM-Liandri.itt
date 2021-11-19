@@ -1,0 +1,13 @@
+﻿[LevelInfo0]
+; EN: Title="Liandri Central Core"
+Title="Nucluo Centrale Liandri"
+IdealPlayerCount="2-14"
+; EN: LevelEnterText="Welcome to the Core"
+LevelEnterText="Benvenuto al Nucleo"
+
+[LevelSummary]
+; EN: Title="Liandri Central Core"
+Title="Nucluo Centrale Liandri"
+IdealPlayerCount="2-14"
+; EN: LevelEnterText="Welcome to the Core"
+LevelEnterText="Benvenuto al Nucleo"

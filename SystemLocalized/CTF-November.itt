@@ -1,0 +1,41 @@
+﻿[LevelInfo0]
+; EN: Title="November Sub Pen"
+Title="Base Sottomarina November"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Entering November-Nuclear Submarine Pen."
+LevelEnterText="Ingresso alla Base Sottomarina Nucleare November."
+
+[ZoneInfo4]
+; EN: ZoneName="Sub Pen"
+ZoneName="Base Sottomarina"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Blu"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Foyer"
+ZoneName="Atrio Rosso"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Entry"
+ZoneName="Ingresso Rosso"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Foyer"
+ZoneName="Atrio Blu"
+
+[ZoneInfo0]
+; EN: ZoneName="Red Base"
+ZoneName="Base Rossa"
+
+[WaterZone5]
+; EN: ZoneName="Water"
+ZoneName="Acqua"
+
+[LevelSummary]
+; EN: Title="November Sub Pen"
+Title="Base Sottomarina November"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Entering November-Nuclear Submarine Pen."
+LevelEnterText="Ingresso alla Base Sottomarina Nucleare November."

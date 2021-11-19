@@ -1,18 +1,22 @@
 ﻿[Public]
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; Main roots
 Preferences=(Caption="Advanced",Parent="Advanced Options")
 Preferences=(Caption="Rendering",Parent="Advanced Options")
 Preferences=(Caption="Audio",Parent="Advanced Options")
 Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="Game Types",Parent="Advanced Options")
 Preferences=(Caption="Display",Parent="Advanced Options")
 Preferences=(Caption="Joystick",Parent="Advanced Options")
+Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+; Advanced
 Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
 Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
 Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
-Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; Networking
 Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
-Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
 
 [PlayerPawn]
 QuickSaveString="Quick Saving"
@@ -26,7 +30,7 @@ CantChangeNameMsg="You can't change your name during a global logged game."
 NameArticle=" a "
 
 [Inventory]
-PickupMessage="Snagged an item."
+PickupMessage="Snagged an item"
 ItemArticle="a"
 M_Activated=" activated."
 M_Selected=" selected."
@@ -46,7 +50,8 @@ DeathMessage[2]="%o was killed by %k's %w."
 DeathMessage[3]="%o was killed by %k's %w."
 
 [Ammo]
-PickupMessage="You picked up some ammo."
+PickupMessage="You picked up some ammo"
+ItemName="Ammo"
 
 [Counter]
 CountMessage="Only %i more to go..."
@@ -58,8 +63,6 @@ MenuName="Spectator"
 [DamageType]
 Name="killed"
 AltName="killed"
-NameFem="killed"
-AltNameFem="killed"
 
 [Progress]
 CancelledConnect="Cancelled Connect Attempt"
@@ -76,7 +79,7 @@ Paused="Paused by %ls"
 ReceiveFile="Receiving "%ls" (F10 Cancels)"
 ReceiveOptionalFile="Receiving optional file "%ls" (Press F10 to Skip)"
 ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
-ConnectingText="Connecting (F10 Cancels):"
+ConnectingText="Connecting (F10 to cancel):"
 ConnectingURL="unreal://%ls/%ls"
 
 [WarpZoneInfo]
@@ -90,7 +93,7 @@ DamageString=""
 
 [ServerCommandlet]
 HelpCmd=server
-HelpWebLink="http://www.oldunreal.com/wiki"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Network game server."
 HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
 HelpParm[0]="Log"
@@ -117,8 +120,8 @@ RightString="Right"
 CenterString="Center"
 EnabledString="Enabled"
 DisabledString="Disabled"
-YesString="yes"
-NoString="no"
+YesString="Yes"
+NoString="No"
 
 [GameInfo]
 SwitchLevelMessage="Switching Levels"
@@ -133,20 +136,20 @@ GameName="Game"
 MaxedOutMessage="Server is already at capacity."
 WrongPassword="The password you entered is incorrect."
 NeedPassword="You need to enter a password to join this game."
-IPBanned="Your IP address has been banned on this server."
 MaleGender="his"
 FemaleGender="her"
+IPBanned="Your IP address has been banned on this server."
 
 [Errors]
 NetOpen="Error opening file"
 NetWrite="Error writing to file"
-NetRefused="Server refused to send '%ls'"
+NetRefused="Server refused to send "%ls""
 NetClose="Error closing file"
 NetSize="File size mismatch"
 NetMove="Error moving file"
 NetInvalid="Received invalid file request"
-NoDownload="Package '%ls' is not downloadable"
-DownloadFailed="Downloading package '%ls' failed: %ls"
+NoDownload="Package "%ls" is not downloadable"
+DownloadFailed="Downloading package "%ls" failed: %ls"
 RequestDenied="Server requested file from pending level: Denied"
 ConnectionFailed="Connection failed"
 ChAllocate="Couldn't allocate channel"
@@ -160,12 +163,12 @@ Listen="Listen failed: %ls"
 AbortToEntry="Failed; returning to Entry"
 ServerOpen="Servers can't open network URLs"
 ServerListen="Dedicated server can't listen: %ls"
-Pending="Pending connect to '%ls' failed; %ls"
+Pending="Pending connect to "%ls" failed; %ls"
 LoadPlayerClass="Failed to load player class"
 ServerOutdated="Server's version is outdated"
 ClientOutdated="You need to upgrade to the latest patch version"
 RejectedByServer="Rejected by server"
-NetDecompressFail="Error decompressing file '%ls'"
+NetDecompressFail="Error decompressing file "%ls""
 MD5ChecksumFailed="Package %ls failed an MD5 check."
 
 [General]
@@ -176,7 +179,7 @@ Version="Version %i"
 
 [CheckSumCommandlet]
 HelpCmd=checksum
-HelpWebLink="http://www.oldunreal.com/wiki"
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
 HelpOneLiner="Calculate package checksum for stat logging"
 HelpUsage="checksum packagename.u"
 HelpParm[0]="packagename.u"

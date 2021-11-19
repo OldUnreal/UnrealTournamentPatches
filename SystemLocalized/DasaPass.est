@@ -1,17 +1,27 @@
-[TranslatorEvent0]
-Message=REGISTRO NAVAL: EstaciÛn de MontaÒa Paso Dasa: Grok Vhul'rath- La semana pasada recibimos m·s de 45 cajas de equipo de la nave espacial humana ISV-KRAN que se estrellÛ. He decidio almacenarlos en las bodegas antes de embarcarnos hacia Warlord.
+Ôªø[LevelInfo0]
+; EN: Title="Dasa Mountain Pass"
+Title="Paso Monta√±√©s de Dasa"
+; EN: LevelEnterText="Entering Dasa Mouantain Pass"
+LevelEnterText="Entrando en el Paso Monta√±√©s de Dasa"
 
-[TranslatorEvent2]
-Message=REGISTRO NAVAL: EstaciÛn de MontaÒa Paso Dasa: Grok Vhul'rath: Hemos decidido abrir zanjas aquÌ con la ayuda de los esclavos Nali. Ellos creen que su "salvador" ha venido de las estrellas para matarnos. Pero, vamos a ejecutarlos por negarse a trabajar.
-
-[TranslatorEvent4]
-Message=Encargado del puente Khan Vhranna: Estoy hasta las narices de Grok Vhul'rath. Es un arrogante hijo de Bulrach. Si nos hace arreglar el puente levadizo bajo la lluvia una vez m·s, le voy a reventar la cabeza.
+[LevelSummary]
+; EN: Title="Dasa Mountain Pass"
+Title="Paso Monta√±√©s de Dasa"
+; EN: LevelEnterText="Entering Dasa Mouantain Pass"
+LevelEnterText="Entrando en el Paso Monta√±√©s de Dasa"
 
 [TranslatorEvent3]
-Message=Diario: Grok Vhul'rath: He ordenado arreglar de nuevo el puente levadizo! Est· ya muy viejo; estoy harto de tratar con los Behemoths, siempre rompen todo y son tan palurdos como Cerdos Aldarianos. Estoy ansioso por volver a mi tierra.
+; EN: Message="Diary: Grok Vhul'rath: I ordered repairs to the Drawbridge again! This is getting really old. I'm sick of dealing with the Behemoths. They constantly break things and they're slobs like Aldarian Pigs. I'm anxious to get back to my homeworld."
+Message="Diario: Grok Vhul'rath: ¬°He ordenado reparaciones del puente levadizo de nuevo! Esto ya se hace muy cansino. Estoy harto de lidiar con los Behemoths. Constantemente rompen cosas y son tan perezosos como Cerdos Aldarianos. Estoy ansioso por volver a mi tierra."
 
-[LevelInfo0]
-Title=Paso de la MontaÒa Dasa
-LevelEnterText=Est·s entrando en el Paso Dasa de la MontaÒa
+[TranslatorEvent4]
+; EN: Message="Bridge Foreman Khan Vhranna: I've about had it with Grok Vhul'rath. He's such a pompous son-of-a Bulrach. If he makes us fix the drawbridge one more time in the rain, I'm going to bust his face in."
+Message="Capataz de puente Khan Vhranna: Estoy ya casi harto de Grok Vhul'rath. Es un arrogante hijo de Bulrach}. Si nos obliga a arreglar el puente levadizo bajo la lluvia una vez m√°s, voy a romperle la cara."
 
+[TranslatorEvent2]
+; EN: Message="SHIPPING LOG: Dasa Pass Mountain Station: Grok Vhul'rath: We've decided to ditch using the Nali as slaves here. The word is they all believe their "savior" has come from the stars to kill us. We decided to execute them for refusing to work anyways."
+Message="REGISTRO DE ENV√çO: Estaci√≥n del Paso Monta√±√©s de Dasa: Grok Vhul'rath: Hemos decidido dejar de utilizar Nali como esclavos aqu√≠. Todos creen que su "salvador" ha venido de las estrellas para matarnos. De todos modos decidimos ejecutarlos por negarse a trabajar."
 
+[TranslatorEvent0]
+; EN: Message="SHIPPING LOG: Dasa Pass Mountain Station: Grok Vhul'rath: This past week we've received over 45 cases of high tech equipment from the crashed human spacecraft ISV-KRAN. I've decided to store them in the cellars before we ship to the Warlord."
+Message="REGISTRO DE ENV√çO: Estaci√≥n del Paso Monta√±√©s de Dasa: Grok Vhul'rath: La semana pasada recibimos m√°s de 45 cajas de equipamiento de alta tecnolog√≠a de la nave espacial humana estrellada ISV-KRAN. He decidido almacenarlas en las bodegas antes de enviarlas al Se√±or de la Guerra."

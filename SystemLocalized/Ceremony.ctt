@@ -1,0 +1,25 @@
+﻿[LevelInfo0]
+; EN: Title="The Ceremonial Chambers"
+Title="Les Cambres Cerimonials"
+; EN: LevelEnterText="Entering The Ceremonial Wing"
+LevelEnterText="Entrant a l'Ala Cerimonial"
+
+[LevelSummary]
+; EN: Title="The Ceremonial Chambers"
+Title="Les Cambres Cerimonials"
+; EN: LevelEnterText="Entering The Ceremonial Wing"
+LevelEnterText="Entrant a l'Ala Cerimonial"
+
+[TranslatorEvent15]
+; EN: Message="The inner ceremonial chambers. Here the water god's serpents reside to accept the flesh of the weak to be devoured. Only a warrior who swims like the serpent shall escape their clutches."
+Message="Les cambres cerimonials interiors. Aquí resideixen les serpents del Déu de l'Aigua per acceptar la carn dels febles per ésser devorada. Només un guerrer que nedi com la serpent escaparà les seves urpes."
+
+[TranslatorEvent0]
+; EN: Message="Sgt. William Bradford: My entire squad has been killed by these salamander things. There's no ammo left and I've been holding up at this shrine with one of the native priests for days. While he prays I try and keep a watchful eye at the door."
+Message="Sgt. William Bradford: Tot el meu escamot ha estat mort per aquesta mena de salamandres. No queda munició i he estat aguantant aquí dalt en aquest altar amb un dels sacerdots nadius durant dies. Mentre prega miro de mantenir un ull guaitant la porta."
+
+[Counter2]
+; EN: CountMessage="Prove to the Gods your Warrior Skills"
+CountMessage="Prova als Déus les teves Habilitats de Guerrer"
+; EN: CompleteMessage="Well Done!"
+CompleteMessage="Ben Fet!"

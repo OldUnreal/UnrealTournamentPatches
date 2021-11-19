@@ -1,9 +1,13 @@
 ﻿[LevelInfo0]
+; EN: Title="Viridian Dreams"
 Title="Sueños Viridianos"
 IdealPlayerCount="2-6"
-LevelEnterText="¡Lado Este!"
+; EN: LevelEnterText="Westside!"
+LevelEnterText="¡Lado Oeste!"
 
 [LevelSummary]
+; EN: Title="Viridian Dreams"
 Title="Sueños Viridianos"
 IdealPlayerCount="2-6"
-LevelEnterText="¡Lado Este!"
+; EN: LevelEnterText="Westside!"
+LevelEnterText="¡Lado Oeste!"

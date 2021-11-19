@@ -1,0 +1,14 @@
+﻿[LevelInfo0]
+Title="Noork's Elbow"
+LevelEntryText="Entering Noork's Elbow"
+
+[LevelSummary]
+Title="Noork's Elbow"
+LevelEntryText="Entering Noork's Elbow"
+
+[TranslatorEvent4]
+Hint="Search all the houses on your way to the ruins. Watch out for enemies lurking along the way."
+
+[TranslatorEvent0]
+Message="Log: L. Goeranov: We've been stuck here for days. There are plenty of fish to eat but they taste kinda funny. I never liked fish."
+Hint="You might get a helping hand from a friendly individual at the ruins' drawbridge."

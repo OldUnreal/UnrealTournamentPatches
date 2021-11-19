@@ -31,12 +31,12 @@ NoDigitalMusicCommand="Digital music support is disabled by configuration."
 ; Serialized to output device for each CD music command in case UseCDMusic is disabled.
 NoCDMusicCommand="CD music support is disabled by configuration."
 ; Serialized to log in case a non mono Sound is encountered. First format option is the FullName of the Sound and the second its number of channels.
-MonoSoundExpected="%s has %i channels."
+MonoSoundExpected="%ls has %i channels."
 
 [Errors]
 ; For some reasons FMOD fails straight ahead. First format option is an FMOD supplied english error description.
-SystemCreate="Failed to create FMOD system object: %s."
+SystemCreate="Failed to create FMOD system object: %ls."
 ; Displayed on a message box in case fmod.dll is available, Cluster.dll loads with it, but is a version prior to the one Cluster was build with.
-Version="Cluster expects a minimum FMOD library version %s, but version was %s found."
+Version="Cluster expects a minimum FMOD library version %ls, but version was %ls found."
 ; For some reasons FMOD fails at basic init. First format option is an FMOD supplied english error description.
-SystemInit="Failed to initialize FMOD system object: %s."
+SystemInit="Failed to initialize FMOD system object: %ls."

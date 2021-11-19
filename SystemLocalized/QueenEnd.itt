@@ -1,0 +1,23 @@
+﻿[LevelInfo2]
+; EN: Title="The Source"
+Title="La Fonte"
+; EN: LevelEntryText="Entering The Source"
+LevelEntryText="Arrivo alla'Fonte"
+
+[LevelSummary]
+; EN: Title="The Source"
+Title="La Fonte"
+; EN: LevelEntryText="Entering The Source"
+LevelEntryText="Arrivo alla'Fonte"
+
+[JumpBoots0]
+; EN: ItemName="Super Jump Boots"
+ItemName="Super Stivali da Salto"
+; EN: PickupMessage="You picked up Super Jump Boots"
+PickupMessage="Hai raccolto i Super Stivali da Salto"
+; EN: ExpireMessage="The Super Jump Boots have drained."
+ExpireMessage="I Super Stivali da Salto si sono prosciugati."
+
+[SpecialEvent18]
+; EN: DamageString="vaporized"
+DamageString="vaporizzato"

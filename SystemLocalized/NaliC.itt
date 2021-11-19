@@ -1,27 +1,47 @@
-[LevelInfo3]
-Title=Castello dei Nali
+Ôªø[LevelInfo3]
+; EN: Title="Nali Castle"
+Title="Castello dei Nali"
+; EN: LevelEntryText="Entering the Nali Castle"
+LevelEntryText="Arrivo al Castello di Nali"
 
-[Trigger9]
-message=Taglia taglia!
-
-[TranslatorEvent5]
-message=Solo un illuminato che ha letto il Libro del Buon Sapere nella cappella potr‡ accedere alla torre, attraversando questi cancelli divini.
-Hint=Per entrare, raggiungi la cappella e leggi il libro.
-
-[TranslatorEvent1]
-message=Siedo qui aspettando di morire. Attendo... L'attesa Ë peggiore della stessa morte. Le mie paure mi lacerano l'anima. Posso udire i gemiti di chi Ë stato portato nella segreta per essere sacrificato al Demone del Cielo.
-
-[TranslatorEvent4]
-message=Chi cerca la conoscenza sar‡ ben ricompensato per aver usato i volumi nella sala delle feste. 
-
-[TranslatorEvent3]
-message=Solo un guerriero che dimostri il suo coraggio sconfiggendo il demone con cinque occhi nella torre potr‡ accedere alla segreta.
-Hint=Raggiungi la torre pi˘ alta e uccidi il demone per essere ammesso nella segreta.
-
-[TranslatorEvent2]
-message=Solo un guerriero che dimostri il suo coraggio sconfiggendo il demone con cinque occhi nella torre potr‡ accedere alla segreta.
-Hint=Raggiungi la torre pi˘ alta e uccidi il demone per essere ammesso nella segreta.
+[LevelSummary]
+; EN: Title="Nali Castle"
+Title="Castello dei Nali"
+; EN: LevelEntryText="Entering the Nali Castle"
+LevelEntryText="Arrivo al Castello di Nali"
 
 [TranslatorEvent0]
-message=La strada da seguire Ë lunga e aspra, ma chi Ë d'animo forte e determinato riuscir‡ a superare le sfide.
-Hint=Ora la strada Ë libera.
+; EN: Message="The path to be followed is long and harrowing, but the strong of heart and purpose will prevail against the challenges."
+Message="La strada da seguire √® lunga e aspra, ma chi √® d'animo forte e determinato riuscir√† a superare le sfide."
+; EN: Hint="Thy path is now clear."
+Hint="Ora la strada √® libera."
+
+[TranslatorEvent5]
+; EN: Message="Only the enlightened one who has read the Book of the Good Lore in the chapel shall be granted passage to the tower through these divine gates."
+Message="Solo un illuminato che ha letto il Libro del Buon Sapere nella cappella potr√† accedere alla torre, attraversando questi cancelli divini."
+; EN: Hint="Travel to the chapel and read the book to gain access."
+Hint="Per entrare, raggiungi la cappella e leggi il libro."
+
+[TranslatorEvent4]
+; EN: Message="He who seeks knowledge would be well rewarded for perusing the tomes stored in the main feast hall."
+Message="Chi cerca la conoscenza sar√† ben ricompensato per aver usato i volumi nella sala delle feste."
+
+[TranslatorEvent1]
+; EN: Message="I sit here, waiting to die. Waiting... The wait is worse than death itself. My fears tear at my soul. I hear the wails of the others as they are taken to the bowels of the dungeon to be sacrificed to the winged Sky Daemon."
+Message="Siedo qui aspettando di morire. Attendo... L'attesa √® peggiore della stessa morte. Le mie paure mi lacerano l'anima. Posso udire i gemiti di chi √® stato portato nella segreta per essere sacrificato al Demone del Cielo."
+
+[TranslatorEvent3]
+; EN: Message="Only the warrior who demonstrates his bravery by defeating the five eyed daemon in the tower shall be granted passage to the dungeon."
+Message="Solo un guerriero che dimostri il suo coraggio sconfiggendo il demone con cinque occhi nella torre potr√† accedere alla segreta."
+; EN: Hint="Go to the tallest tower and slay the daemon to gain access to the dungeon."
+Hint="Raggiungi la torre pi√π alta e uccidi il demone per essere ammesso nelle segrete."
+
+[TranslatorEvent2]
+; EN: Message="Only the warrior who demonstrates his bravery by defeating the five eyed daemon in the tower shall be granted passage to the dungeon."
+Message="Solo un guerriero che dimostri il suo coraggio sconfiggendo il demone con cinque occhi nella torre potr√† accedere alle segrete."
+; EN: Hint="Go to the tallest tower and slay the daemon to gain access to the dungeon."
+Hint="Raggiungi la torre pi√π alta e uccidi il demone per essere ammesso nelle segrete."
+
+[TranslatorEvent6]
+; EN: Message="What the HELL are you doing up here?"
+Message="Che diavolo ci fai qui?"

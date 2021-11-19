@@ -1,0 +1,57 @@
+﻿[LevelInfo0]
+; EN: Title="Ghardhen Labs"
+Title="Laboratorio Ghardhen"
+IdealPlayerCount="6-12"
+
+[ZoneInfo13]
+; EN: ZoneName="Basement"
+ZoneName="Seminterrato"
+
+[ControlPoint2]
+; EN: PointName="Top"
+PointName="Alto"
+
+[ZoneInfo12]
+; EN: ZoneName="Upward Hall"
+ZoneName="Sala Superiore"
+
+[ControlPoint0]
+; EN: PointName="Bottom"
+PointName="Basso"
+
+[ControlPoint3]
+; EN: PointName="Center"
+PointName="Centro"
+
+[ZoneInfo8]
+; EN: ZoneName="Observation Deck"
+ZoneName="Ponte di Osservazione"
+
+[ZoneInfo11]
+; EN: ZoneName="Downward Hall"
+ZoneName="Sala Inferiore"
+
+[ZoneInfo10]
+; EN: ZoneName="Blast Chamber 1"
+ZoneName="Fornace 1"
+
+[ZoneInfo9]
+; EN: ZoneName="Blast Chamber 2"
+ZoneName="Fornace 2"
+
+[LevelSummary]
+; EN: Title="Ghardhen Labs"
+Title="Laboratorio Ghardhen"
+IdealPlayerCount="6-12"
+
+[locationid7]
+; EN: LocationName="Central Room - Lower"
+LocationName="Stanza Centrale - Basso"
+
+[locationid6]
+; EN: LocationName="Central Room - Top"
+LocationName="Stanza Centrale - Alto"
+
+[locationid8]
+; EN: LocationName="Central Room - Mid"
+LocationName="Stanza Centrale - Centro"

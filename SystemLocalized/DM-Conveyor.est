@@ -1,7 +1,9 @@
 ﻿[LevelInfo0]
-Title="Cinta Transportadora"
+; EN: Title="Conveyor"
+Title="Transportador"
 IdealPlayerCount="6-12"
 
 [LevelSummary]
-Title="Cinta Transportadora"
+; EN: Title="Conveyor"
+Title="Transportador"
 IdealPlayerCount="6-12"

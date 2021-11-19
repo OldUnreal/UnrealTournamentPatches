@@ -1,43 +1,61 @@
+Ôªø[LevelInfo2]
+; EN: Title="ISV-KRAN Deck 4"
+Title="Ponte 4 Della ISV-KRAN"
+; EN: LevelEnterText="Entering ISV-KRAN Deck 4"
+LevelEnterText="Arrivo al Ponte 4 Della ISV-KRAN"
+
+[LevelSummary]
+; EN: Title="ISV-KRAN Deck 4"
+Title="Ponte 4 Della ISV-KRAN"
+; EN: LevelEnterText="Entering ISV-KRAN Deck 4"
+LevelEnterText="Arrivo al Ponte 4 Della ISV-KRAN"
+
 [TranslatorEvent7]
-Message=Sbarramento del magazzino - L'esclusore Ë nella soffitta superiore.
-
-[TranslatorEvent33]
-Message=ESCLUSORE DELLE SERRATURE DI SICUREZZA: SERRATURE ATTIVE.
-AltMessage=ESCLUSORE DELLE SERRATURE DI SICUREZZA: SERRATURE APERTE. ACCESSO AL MAGAZZINO PERMESSO
-Hint=Tocca questo pannello per aprire la serratura di sicurezza
-
-[TranslatorEvent19]
-Message=PONTE 4 DELLA ISV-KRAN: ALLARME INTRUSI: SERRATURE DI SICUREZZA ATTIVATE. VARI INTRUSI SU TUTTI I PONTI STANNO CERCANDO DI RIATTIVARE I MOTORI - TELETRASPORTO DI EMERGENZA DEL PONTE 1 SBARRATO.
-
-[TranslatorEvent0]
-Message=STAZIONE DI CARICO DI POPPA DELLA ISV-KRAN: siamo bloccati su questa montagna ormai da due mesi. Ogni notte appaiono questi dinosauri alti 4 piani che battono sulla poppa della nave. Sembrano abbastanza stupidi e lenti.
-
-[TranslatorEvent2]
-Message=Serrature anti-intrusione attive - Serve un comando prioritario. Il pannello prioritario si trova nel mezzanino di elaborazione della ventilazione.
-AltMessage=Serrature anti-intrusione disattivate
+; EN: Message="Warehouse Safety Bars Override in Upper Warehouse Loft."
+Message="Sbarramento del magazzino - L'esclusore √® nella soffitta superiore."
 
 [TranslatorEvent13]
-Message=Comandi dello sbarramento del magazzino: PANNELLO SPENTO - RIPRISTINARE L'ENERGIA DALLA CONSOLE.
-AltMessage=Sbarramento del magazzino disattivato: accesso consentito
+; EN: AltMessage="Warehouse Safety Bars Disengaged: Access to Dock Permitted."
+AltMessage="Sbarramento del magazzino disattivato: Accesso Consentito."
+
+[TranslatorEvent19]
+; EN: Message="ISV-KRAN DECK 4 STATUS: INTRUDER ALERT: SECURITY LOCKS ACTIVATED: INTRUDERS ON ALL DECKS AND ATTEMPTING TO REACTIVATE MAIN ENGINES - DECK 1 EMERGENCY TELEPORTER AT BRIDGE SECURE"
+Message="PONTE 4 DELLA ISV-KRAN: ALLARME INTRUSI: SERRATURE DI SICUREZZA ATTIVATE: VARI INTRUSI SU TUTTI I PONTI STANNO CERCANDO DI RIATTIVARE I MOTORI - TELETRASPORTO DI EMERGENZA DEL PONTE 1 SBARRATO"
 
 [TranslatorEvent1]
-Message=Tubi del mezzanino di elaborazione della ventilazione: solo personale autorizzato. ATTENZIONE: PERDITA DI REFRIGERANTE NEL MEZZANINO 
-
-[TranslatorEvent12]
-Message=ENERGIA AL PANNELLO COMANDI DELLO SBARRAMENTO DEL MAGAZZINO RIPRISTINATA.
-
-[TranslatorEvent37]
-Message=Caporale Anders Kerig: stanno arrivando! Posso sentirli nei tubi di ventilazione. AttiverÚ lo sbarramento del magazzino e impianterÚ un DNA umano in modo che solo un altro terrestre possa escludere lo sbarramento.
-
-[TranslatorEvent38]
-Message=Caporale Pelli Onsov: se state leggendo il mio diario, probabilmente sarÚ morto e la nave sar‡ invasa dagli alieni chiamati "Skaarj". L'unica speranza Ë distruggere i nuclei d'oro di tenuta, riattivare i motori e raggiungere i trasportatori del Ponte 1.
-
-[TranslatorEvent36]
-Message=Sottufficiale Yuri Andromov: le truppe aliene hanno aperto un buco nello scafo e stanno invadendo la nave sfruttando i condotti di ventilazione. Kerig, Onsov e io proveremo a fermarli con gli Stinger, qui nella zona di carico.
+; EN: Message="Ventilation Processing Mezzanine Ducts: Maintenance Personnel Only: WARNING - ENGINE COOLANT LEAK IN MEZZANINE"
+Message="Tubi del mezzanino di elaborazione della ventilazione: solo personale autorizzato: ATTENZIONE - PERDITA DI REFRIGERANTE NEL MEZZANINO"
 
 [TranslatorEvent15]
-Message=PANNELLO RICABLATO PER ATTIVARE UN ALLARME - SISTEMA USATO DA INTRUSI NON AUTORIZZATI
+; EN: Message="PANEL REWIRED TO TRIP ALARM - SYSTEM ACCESSED BY UNAUTHORIZED USERS"
+Message="PANNELLO RICABLATO PER ATTIVARE UN ALLARME - SISTEMA USATO DA INTRUSI NON AUTORIZZATI"
 
-[LevelInfo2]
-Title=Ponte 4 della ISV-KRAN
-LevelEnterText=Arrivo al Ponte 4 della ISV-KRAN
+[TranslatorEvent2]
+; EN: Message="Intruder Security Locks Activated - Bypass Required: Bypass panel located in Ventilation Processing Mezzanine."
+Message="Serrature Anti-Intrusione Attive - Serve un Comando Prioritario. Il pannello prioritario si trova nel Mezzanino di Elaborazione della Ventilazione."
+; EN: AltMessage="Intruder Security Locks Disengaged"
+AltMessage="Serrature Anti-Intrusione Disattivate"
+
+[TranslatorEvent0]
+; EN: Message="AFT LOADING STATION: ISV-KRAN: We've been wedged into this mountain ridge for 2 months now. Each night these 4 story tall dinosaur type beasts come and beat on the rear hull of the ship. They appear to be relatively unintelligent and slow moving."
+Message="STAZIONE DI CARICO DI POPPA DELLA ISV-KRAN: siamo bloccati su questa montagna ormai da due mesi. Ogni notte appaiono questi dinosauri alti 4 piani che battono sulla poppa della nave. Sembrano abbastanza stupidi e lenti."
+
+[TranslatorEvent33]
+; EN: Message="SECURITY BYPASS LOCK STATION: SECURITY LOCKS ENGAGED"
+Message="ESCLUSORE DELLE SERRATURE DI SICUREZZA: SERRATURE ATTIVE"
+; EN: AltMessage="SECURITY LOCK BYPASS STATION: ALL LOCKS OPEN ACCESS PERMITTED TO WAREHOUSE"
+AltMessage="ESCLUSORE DELLE SERRATURE DI SICUREZZA: SERRATURE APERTE. ACCESSO AL MAGAZZINO PERMESSO"
+; EN: Hint="Touch this panel to open the security lock door."
+Hint="Tocca questo pannello per aprire la serratura di sicurezza."
+
+[TranslatorEvent37]
+; EN: Message="Corporal Anders Kerig: They're coming! I can hear them in the ventilation ducts. I'm going to activate the security locks to the Warehouse and implant a Human DNA code so only another Terran can bypass the lock systems."
+Message="Caporale Anders Kerig: stanno arrivando! Posso sentirli nei tubi di ventilazione. Attiver√≤ lo sbarramento del magazzino e impianter√≤ un DNA umano in modo che solo un altro terrestre possa escludere lo sbarramento."
+
+[TranslatorEvent38]
+; EN: Message="Corporal Pelli Onsov: If you're reading my log entry I am probably dead and our ship has been overrun by aliens called "Skaarj". Your only hope is to destroy the Gold Containment Cores, re-activate the Engines and get to the Deck 1 transporters."
+Message="Caporale Pelli Onsov: se state leggendo il mio diario, probabilmente sar√≤ morto e la nave sar√† invasa dagli alieni chiamati "Skaarj". L'unica speranza √® distruggere i nuclei d'oro di tenuta, riattivare i motori e raggiungere i trasportatori del Ponte 1."
+
+[TranslatorEvent36]
+; EN: Message="Petty Officer: Yuri Andromov: The Alien War Party has blasted a hole through the hull and are accessing the ship through the ventilation shafts - Kerig, Onsov and myself are going to make a stand with Stingers here in the loading area."
+Message="Sottufficiale Yuri Andromov: le truppe aliene hanno aperto un buco nello scafo e stanno invadendo la nave sfruttando i condotti di ventilazione. Kerig, Onsov e io proveremo a fermarli con gli Stinger, qui nella zona di carico."

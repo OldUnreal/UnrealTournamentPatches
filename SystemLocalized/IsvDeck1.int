@@ -1,0 +1,43 @@
+﻿[LevelInfo0]
+Title="ISV-KRAN Deck 1"
+LevelEntryText="Entering the ISV-KRAN Deck 1"
+
+[LevelSummary]
+Title="ISV-KRAN Deck 1"
+LevelEntryText="Entering the ISV-KRAN Deck 1"
+
+[TranslatorEvent12]
+Message="EMERGENCY TRANSPORTER INSTRUCTIONS: STEP ONTO OCTAGONAL TRANSPORTER PAD - SYSTEM WILL ACTIVATE AUTOMATICALLY"
+
+[TranslatorEvent2]
+Message="ISV-KRAN DECK 1: Log Entry: Captain Mikail Leatham. Skaarj attacks have forced us to retreat to the Science and Research Lab. We set up a makeshift Electrical Field Barrier that destroyed 40 of them but 20 still remain."
+
+[TranslatorEvent0]
+Message="ISV-KRAN: SCIENCE RESEARCH LAB SPECIMEN MONITOR: I have found these amorphous amoeba to be highly acidic. It's incredible the architecture of their basic genetic structure. Tatiana Zimna - Chief Medical Officer"
+
+[TranslatorEvent1]
+Message="WARNING: LAB DOORS AND SPECIMEN HOLDING FIELDS ARE MALFUNCTIONING - 30 SECOND RELEASE DELAY WILL ENGAGE AFTER ACTIVATION"
+
+[TranslatorEvent7]
+Message="ISV-KRAN DECK 1: ALERT: ENGINE COOLANT OVERFLOW: MAIN ENGINE RUPTURE: EVACUATE SHIP IMMEDIATELY"
+
+[TranslatorEvent6]
+Message="ISV-KRAN DECK 1: Log Entry: Captain Mikail Leatham. There's NO Possible way to kill them ALL. There's just too many Skaarj and we don't have enough ammo."
+
+[TranslatorEvent9]
+Message="BRIDGE ACCESS DENIED: SECURITY FORCEFIELD ACTIVE: MAIN OVERIDE LOCATED IN OBSERVATION LOUNGE"
+AltMessage="BRIDGE ACCESS PERMITTED: SECURITY FORCEFIELD DEACTIVATED"
+
+[TranslatorEvent11]
+Message="EMERGENCY TRANSPORTER SYSTEM ONLINE: COORDINATES SET TO NALI VILLAGE 5 KILOMETERS FROM SPIRE SHAPED MOUNTAIN"
+
+[TranslatorEvent8]
+Message="BRIDGE SECURITY FORCEFIELD OVERRIDE: STATUS ACTIVE"
+AltMessage="BRIDGE SECURITY FORCEFIELD OVERRIDE: STATUS DEACTIVATED"
+
+[TranslatorEvent3]
+Message="ISV-KRAN DECK 1: WARNING - 85,000 VOLT ELECTRICAL FIELD BARRIER IN PLACE AT SCIENCE RESEARCH LAB: POWER DISTRUBUTION FROM THREE TRANSFORMER CONTROL ROOMS ACTIVE"
+AltMessage="ISV-KRAN DECK 1: ELECTRICAL FIELD BARRIER DEACTIVATED"
+
+[TranslatorEvent4]
+Message="ALERT: ALL CREW MEMBERS REPORT TO DECK 4: SHIP HAS BEEN INFILTRATED BY A SKAARJ WAR PARTY"

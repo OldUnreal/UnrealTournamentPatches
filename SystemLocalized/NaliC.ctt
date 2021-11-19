@@ -1,0 +1,47 @@
+﻿[LevelInfo3]
+; EN: Title="Nali Castle"
+Title="Castell Nali"
+; EN: LevelEntryText="Entering the Nali Castle"
+LevelEntryText="Entrant al Castell Nali"
+
+[LevelSummary]
+; EN: Title="Nali Castle"
+Title="Castell Nali"
+; EN: LevelEntryText="Entering the Nali Castle"
+LevelEntryText="Entrant al Castell Nali"
+
+[TranslatorEvent0]
+; EN: Message="The path to be followed is long and harrowing, but the strong of heart and purpose will prevail against the challenges."
+Message="El camí a seguir és llarg i colpidor, però els forts de cor i propòsit prevaldran en tots els reptes."
+; EN: Hint="Thy path is now clear."
+Hint="Thy path is now clear."
+
+[TranslatorEvent5]
+; EN: Message="Only the enlightened one who has read the Book of the Good Lore in the chapel shall be granted passage to the tower through these divine gates."
+Message="Només l'il·lustrat que ha llegit el Llibre del Bon Saber en la capella serà concedit passatge a la torre a través d'aquestes portes divines."
+; EN: Hint="Travel to the chapel and read the book to gain access."
+Hint="Viatja a la capella i llegeix el llibre per aconseguir accés."
+
+[TranslatorEvent4]
+; EN: Message="He who seeks knowledge would be well rewarded for perusing the tomes stored in the main feast hall."
+Message="Qui busqui coneixement serà ben recompensat per llegir els toms guardats en el saló de festes principal."
+
+[TranslatorEvent1]
+; EN: Message="I sit here, waiting to die. Waiting... The wait is worse than death itself. My fears tear at my soul. I hear the wails of the others as they are taken to the bowels of the dungeon to be sacrificed to the winged Sky Daemon."
+Message="Jec aquí, esperant morir. Esperant... L'espera és pitjor que la pròpia mort. Les meves pors esguerren la meva ànima. Escolto els gemecs de la resta mentre els porten als budells de la masmorra per ser sacrificats al Dimoni del Cel amb Ales."
+
+[TranslatorEvent3]
+; EN: Message="Only the warrior who demonstrates his bravery by defeating the five eyed daemon in the tower shall be granted passage to the dungeon."
+Message="Només el guerrer que demostri el seu coratge derrotant el dimoni de cinc ulls a la torre serà concedit passatge a la masmorra."
+; EN: Hint="Go to the tallest tower and slay the daemon to gain access to the dungeon."
+Hint="Ves a la torre més alta i dóna mort al dimoni per aconseguir accés a la masmorra."
+
+[TranslatorEvent2]
+; EN: Message="Only the warrior who demonstrates his bravery by defeating the five eyed daemon in the tower shall be granted passage to the dungeon."
+Message="Només el guerrer que demostri el seu coratge derrotant el dimoni de cinc ulls a la torre serà concedit passatge a la masmorra."
+; EN: Hint="Go to the tallest tower and slay the daemon to gain access to the dungeon."
+Hint="Ves a la torre més alta i dóna mort al dimoni per aconseguir accés a la masmorra."
+
+[TranslatorEvent6]
+; EN: Message="What the HELL are you doing up here?"
+Message="Què COI fas aquí a dalt?"

@@ -1,0 +1,23 @@
+﻿[LevelInfo2]
+; EN: Title="The Source"
+Title="La font"
+; EN: LevelEntryText="Entering The Source"
+LevelEntryText="Entrant a la font"
+
+[LevelSummary]
+; EN: Title="The Source"
+Title="La font"
+; EN: LevelEntryText="Entering The Source"
+LevelEntryText="Entrant a la font"
+
+[JumpBoots0]
+; EN: ItemName="Super Jump Boots"
+ItemName="Botes Super Jump"
+; EN: PickupMessage="You picked up Super Jump Boots."
+PickupMessage="Has recollit Super Jump Boots."
+; EN: ExpireMessage="The Super Jump Boots have drained."
+ExpireMessage="Les botes Super Jump s'han esgotat."
+
+[SpecialEvent18]
+; EN: DamageString="vaporized"
+DamageString="vaporitzat"

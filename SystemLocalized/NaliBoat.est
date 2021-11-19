@@ -1,0 +1,15 @@
+﻿[LevelInfo3]
+; EN: Title="Serpent Canyon"
+Title="Cañón de la Serpiente"
+; EN: LevelEntryText="Entering the Serpent Canyon"
+LevelEntryText="Entrando al Cañón de la Serpiente"
+
+[LevelSummary]
+; EN: Title="Serpent Canyon"
+Title="Cañón de la Serpiente"
+; EN: LevelEntryText="Entering the Serpent Canyon"
+LevelEntryText="Entrando al Cañón de la Serpiente"
+
+[TranslatorEvent0]
+; EN: Message="Here lies Haith M'olner, may his soul soar high with the gods."
+Message="Aquí yace Haith M'olner, que su alma vuele en alto junto a los dioses."

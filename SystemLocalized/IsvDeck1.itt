@@ -1,38 +1,61 @@
-[TranslatorEvent11]
-Message=TRASPORTATORE DI EMERGENZA ATTIVO E TARATO SULLE COORDINATE DEL VILLAGGIO NALI A 5 KM DALLA MONTAGNA A FORMA DI CUPOLA.
+ï»¿[LevelInfo0]
+; EN: Title="ISV-KRAN Deck 1"
+Title="Ponte 1 Della ISV-KRAN"
+; EN: LevelEntryText="Entering the ISV-KRAN Deck 1"
+LevelEntryText="Arrivo al Ponte 1 Della ISV-KRAN"
 
-[TranslatorEvent8]
-Message=ESCLUSORE DEL CAMPO DI SICUREZZA DEL PONTE: ATTIVO
-AltMessage=ESCLUSORE DEL CAMPO DI SICUREZZA DEL PONTE: INATTIVO
-
-[TranslatorEvent9]
-Message=ACCESSO AL PONTE NEGATO: CAMPO DI FORZA ATTIVO: L'ESCLUSORE SI TROVA NELL'OSSERVATORIO 
-AltMessage=ACCESSO AL PONTE PERMESSO: CAMPO DI FORZA SPENTO
-
-[TranslatorEvent6]
-Message=Ponte 1 della ISV-KRAN: diario del Capitano Michail Leatham. Non c'è modo di ucciderli tutti: ci sono semplicemente troppi Skaarj per le munizioni rimaste.
-
-[TranslatorEvent4]
-Message=ALLARME: TUTTO L'EQUIPAGGIO RAGGIUNGA IL PONTE 4: LA NAVE È STATA INFILTRATA DA SOLDATI SKAARJ.
-
-[TranslatorEvent3]
-Message=PONTE 1 DELLA ISV-KRAN: ATTENZIONE - BARRIERA DA 85000 VOLT PRESSO IL LABORATORIO DI RICERCA. L'ENERGIA VIENE DA TRE SALE CONTROLLO DEI TRASFORMATORI
-AltMessage=PONTE 1 DELLA ISV-KRAN: BARRIERA ELETTRICA DISATTIVATA.
-
-[TranslatorEvent2]
-Message=Ponte 1 della ISV-KRAN: diario del Capitano Michail Leatham. Gli attacchi Skaarj ci hanno costretto a ripiegare nel Laboratorio di Ricerca. Abbiamo attivato una barriera elettrica di fortuna che ha ucciso 40 dei loro. Ma ne restano ancora 20.
-
-[TranslatorEvent0]
-Message=ISV-KRAN: CAMPIONI DEL LABORATORIO SCIENTIFICO: ho scoperto che queste amebe amorfe hanno un alto tasso di acido. La struttura della loro base genetica è incredibile.  Tatiana Zimna - Capo ufficiale medico 
-
-[TranslatorEvent7]
-Message=PONTE 1 DELLA ISV-KRAN: ALLARME - TRABOCCO DI REFRIGERANTE. TUBI FESSURATI. EVACUATE SUBITO LA NAVE.
+[LevelSummary]
+; EN: Title="ISV-KRAN Deck 1"
+Title="Ponte 1 Della ISV-KRAN"
+; EN: LevelEntryText="Entering the ISV-KRAN Deck 1"
+LevelEntryText="Arrivo al Ponte 1 Della ISV-KRAN"
 
 [TranslatorEvent12]
-Message=ISTRUZIONI DEL TRASPORTATORE DI EMERGENZA: SALITE SULLA PEDANA OTTAGONALE E IL SISTEMA SI ATTIVERÀ AUTOMATICAMENTE 
+; EN: Message="EMERGENCY TRANSPORTER INSTRUCTIONS: STEP ONTO OCTAGONAL TRANSPORTER PAD - SYSTEM WILL ACTIVATE AUTOMATICALLY"
+Message="ISTRUZIONI DEL TRASPORTATORE DI EMERGENZA: SALITE SULLA PEDANA OTTAGONALE - IL SISTEMA SI ATTIVERÃ€ AUTOMATICAMENTE"
+
+[TranslatorEvent2]
+; EN: Message="ISV-KRAN DECK 1: Log Entry: Captain Mikail Leatham. Skaarj attacks have forced us to retreat to the Science and Research Lab. We set up a makeshift Electrical Field Barrier that destroyed 40 of them but 20 still remain."
+Message="PONTE 1 DELLA ISV-KRAN: diario del Capitano Mikail Leatham. Gli attacchi Skaarj ci hanno costretto a ripiegare nel Laboratorio di Ricerca. Abbiamo attivato una barriera elettrica di fortuna che ha ucciso 40 dei loro. Ma ne restano ancora 20."
+
+[TranslatorEvent0]
+; EN: Message="ISV-KRAN: SCIENCE RESEARCH LAB SPECIMEN MONITOR: I have found these amorphous amoeba to be highly acidic. It's incredible the architecture of their basic genetic structure. Tatiana Zimna - Chief Medical Officer"
+Message="ISV-KRAN: CAMPIONI DEL LABORATORIO SCIENTIFICO: ho scoperto che queste amebe amorfe hanno un alto tasso di acido. La struttura della loro base genetica Ã¨ incredibile. Tatiana Zimna - Capo Ufficiale Medico"
 
 [TranslatorEvent1]
-Message=ATTENZIONE: LE PORTE DEL LABORATORIO E I CAMPI DI TENUTA DEL MATERIALE SONO IN AVARIA. DOPO L'ATTIVAZIONE CI SARÀ UN RITARDO DI RILASCIO DI 30 SECONDI.
+; EN: Message="WARNING: LAB DOORS AND SPECIMEN HOLDING FIELDS ARE MALFUNCTIONING - 30 SECOND RELEASE DELAY WILL ENGAGE AFTER ACTIVATION"
+Message="ATTENZIONE: LE PORTE DEL LABORATORIO E I CAMPI DI TENUTA DEL MATERIALE SONO IN AVARIA. DOPO L'ATTIVAZIONE CI SARÃ€ UN RITARDO DI RILASCIO DI 30 SECONDI"
 
-[LevelInfo0]
-Title=PONTE 1 DELLA ISV-KRAN
+[TranslatorEvent7]
+; EN: Message="ISV-KRAN DECK 1: ALERT: ENGINE COOLANT OVERFLOW: MAIN ENGINE RUPTURE: EVACUATE SHIP IMMEDIATELY"
+Message="PONTE 1 DELLA ISV-KRAN: ALLARME: TRABOCCO DI REFRIGERANTE: TUBI FESSURATI: EVACUATE SUBITO LA NAVE"
+
+[TranslatorEvent6]
+; EN: Message="ISV-KRAN DECK 1: Log Entry: Captain Mikail Leatham. There's NO Possible way to kill them ALL. There's just too many Skaarj and we don't have enough ammo."
+Message="PONTE 1 DELLA ISV-KRAN: diario del Capitano Mikail Leatham. NON c'Ã¨ modo di ucciderli TUTTI: Ci sono semplicemente troppi Skaarj per le munizioni rimaste."
+
+[TranslatorEvent9]
+; EN: Message="BRIDGE ACCESS DENIED: SECURITY FORCEFIELD ACTIVE: MAIN OVERIDE LOCATED IN OBSERVATION LOUNGE"
+Message="ACCESSO AL PONTE NEGATO: CAMPO DI FORZA ATTIVO: L'ESCLUSORE SI TROVA NELL'OSSERVATORIO"
+; EN: AltMessage="BRIDGE ACCESS PERMITTED: SECURITY FORCEFIELD DEACTIVATED"
+AltMessage="ACCESSO AL PONTE PERMESSO: CAMPO DI FORZA SPENTO"
+
+[TranslatorEvent11]
+; EN: Message="EMERGENCY TRANSPORTER SYSTEM ONLINE: COORDINATES SET TO NALI VILLAGE 5 KILOMETERS FROM SPIRE SHAPED MOUNTAIN"
+Message="TRASPORTATORE DI EMERGENZA ATTIVO E TARATO SULLE COORDINATE DEL VILLAGGIO NALI A 5 KM DALLA MONTAGNA A FORMA DI CUPOLA"
+
+[TranslatorEvent8]
+; EN: Message="BRIDGE SECURITY FORCEFIELD OVERRIDE: STATUS ACTIVE"
+Message="ESCLUSORE DEL CAMPO DI SICUREZZA DEL PONTE: ATTIVO"
+; EN: AltMessage="BRIDGE SECURITY FORCEFIELD OVERRIDE: STATUS DEACTIVATED"
+AltMessage="ESCLUSORE DEL CAMPO DI SICUREZZA DEL PONTE: INATTIVO"
+
+[TranslatorEvent3]
+; EN: Message="ISV-KRAN DECK 1: WARNING - 85,000 VOLT ELECTRICAL FIELD BARRIER IN PLACE AT SCIENCE RESEARCH LAB: POWER DISTRUBUTION FROM THREE TRANSFORMER CONTROL ROOMS ACTIVE"
+Message="PONTE 1 DELLA ISV-KRAN: ATTENZIONE - BARRIERA DA 85.000 VOLT PRESSO IL LABORATORIO DI RICERCA: L'ENERGIA VIENE DA TRE SALE CONTROLLO DEI TRASFORMATORI"
+; EN: AltMessage="ISV-KRAN DECK 1: ELECTRICAL FIELD BARRIER DEACTIVATED"
+AltMessage="PONTE 1 DELLA ISV-KRAN: BARRIERA ELETTRICA DISATTIVATA"
+
+[TranslatorEvent4]
+; EN: Message="ALERT: ALL CREW MEMBERS REPORT TO DECK 4: SHIP HAS BEEN INFILTRATED BY A SKAARJ WAR PARTY"
+Message="ALLARME: TUTTO L'EQUIPAGGIO RAGGIUNGA IL PONTE 4: LA NAVE Ãˆ STATA ASSALTATA DA SOLDATI SKAARJ"

@@ -1,24 +1,43 @@
-[TranslatorEvent2]
-Message=Solo i più puri di cuore possono porgere omaggio a Chizra, Dio del Buon Sapere.
-Hint=Usa la leva per far scorrere l'acqua.
+ï»¿[LevelInfo0]
+; EN: Title="Sacred Passage"
+Title="Passaggio Sacro"
+; EN: LevelEntryText="Entering the Sacred Passage"
+LevelEntryText="Arrivo al Passaggio Sacro"
 
-[TranslatorEvent12]
-Message=' ...perché questa sarà la chiave.'
-Hint=Usa la leva per far scorrere l'acqua.
-
-[TranslatorEvent13]
-Message=Devi avere un occhio acuto per riuscire a bagnarti nelle acque sacre.
-Hint=Guarda ogni volto.
-
-[TranslatorEvent11]
-Message=' Il legno si deve liberare...'
-Hint=Usa la leva per far scorrere l'acqua.
-
-[TranslatorEvent0]
-Hint=Fatti una nuotata e cerca un passaggio segreto.
+[LevelSummary]
+; EN: Title="Sacred Passage"
+Title="Passaggio Sacro"
+; EN: LevelEntryText="Entering the Sacred Passage"
+LevelEntryText="Arrivo al Passaggio Sacro"
 
 [TranslatorEvent1]
-Hint= Fatti una nuotata e cerca un passaggio segreto.
+; EN: Hint="Go for a swim and look for a secret passage."
+Hint="Fatti una nuotata e cerca un passaggio segreto."
 
-[LevelInfo0]
-Title=Passaggio sacro
+[TranslatorEvent12]
+; EN: Message=""...For that will be the key""
+Message=""...perchÃ© questa sarÃ  la chiave""
+; EN: Hint="Activate the lever to let the water run."
+Hint="Usa la leva per far scorrere l'acqua."
+
+[TranslatorEvent13]
+; EN: Message="You must have a keen eye, so that you may bathe in the sacred waters."
+Message="Devi avere un occhio acuto per riuscire a bagnarti nelle acque sacre."
+; EN: Hint="Look at each face."
+Hint="Guarda ogni volto."
+
+[TranslatorEvent11]
+; EN: Message=""Wood must break free...""
+Message=""Il legno si deve liberare...""
+; EN: Hint="Activate the lever to let the water run."
+Hint="Usa la leva per far scorrere l'acqua."
+
+[TranslatorEvent0]
+; EN: Hint="Go for a swim and look for a secret passage."
+Hint="Fatti una nuotata e cerca un passaggio segreto."
+
+[TranslatorEvent2]
+; EN: Message="Only the purest of heart may pay homage to the God of The Good Lore Chizra"
+Message="Solo i piÃ¹ puri di cuore possono porgere omaggio a Chizra, Dio del Buon Sapere"
+; EN: Hint="Activate the lever to let the water run."
+Hint="Usa la leva per far scorrere l'acqua."

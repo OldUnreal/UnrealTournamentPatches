@@ -64,7 +64,7 @@ ItemName="Minigun"
 [GESBioRifle]
 DeathMessage="%o drank a glass of %k's dripping green load."
 PickupMessage="You got the GES BioRifle"
-ItemName="GES Bio Rifle"
+ItemName="GES BioRifle"
 
 [Squid]
 MenuName="Squid"

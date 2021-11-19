@@ -1,0 +1,61 @@
+﻿[LevelInfo0]
+; EN: Title="Darji Outpost #16-A"
+Title="Avamposto Darji #16-A"
+IdealPlayerCount="12-16"
+; EN: LevelEnterText="In the desert, there is pain."
+LevelEnterText="Nel deserto c'è dolore."
+
+[ZoneInfo1]
+; EN: ZoneName="Outside"
+ZoneName="Al di fuori"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Crossway"
+ZoneName="Red Crossway"
+
+[ZoneInfo4]
+; EN: ZoneName="Blue Crossway"
+ZoneName="Blue Crossway"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Basement"
+ZoneName="Seminterrato blu"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Basement"
+ZoneName="Seminterrato rosso"
+
+[ZoneInfo7]
+; EN: ZoneName="Red Base"
+ZoneName="Base rossa"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Base blu"
+
+[ZoneInfo12]
+; EN: ZoneName="Blue Sniper Towers"
+ZoneName="Blue Sniper Towers"
+
+[ZoneInfo10]
+; EN: ZoneName="Red Sniper Towers"
+ZoneName="Torri rosse del cecchino"
+
+[LevelSummary]
+; EN: Title="Darji Outpost #16-A"
+Title="Avamposto Darji #16-A"
+IdealPlayerCount="12-16"
+; EN: LevelEnterText="In the desert, there is pain."
+LevelEnterText="Nel deserto c'è dolore."
+
+[ZoneInfo11]
+; EN: ZoneName="Red Sniper Towers"
+ZoneName="Torri rosse del cecchino"
+
+[ZoneInfo13]
+; EN: ZoneName="Blue Sniper Towers"
+ZoneName="Blue Sniper Towers"
+
+[locationid0]
+; EN: LocationName="Blue Flagyard"
+LocationName="Flagyard blu"

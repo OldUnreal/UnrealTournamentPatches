@@ -1,0 +1,24 @@
+﻿[LevelInfo2]
+; EN: Title="The Source"
+Title="El Origen"
+; EN: LevelEntryText="Entering The Source"
+LevelEntryText="Entrando al Origen"
+
+[LevelSummary]
+; EN: Title="The Source"
+Title="El Origen"
+; EN: LevelEntryText="Entering The Source"
+LevelEntryText="Entrando al Origen"
+
+[JumpBoots0]
+; EN: ItemName="Super Jump Boots"
+ItemName="Superbotas de Salto"
+; EN: PickupMessage="You picked up Super Jump Boots"
+PickupMessage="Has conseguido las Superbotas de Salto"
+; EN: ExpireMessage="The Super Jump Boots have drained."
+ExpireMessage="Las Superbotas de Salto se han agotado."
+
+[SpecialEvent18]
+; EN: DamageString="vaporized"
+DamageString="vaporizado"
+FemDamageString="vaporizada"

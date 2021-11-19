@@ -1,0 +1,77 @@
+﻿[LevelInfo0]
+; EN: Title="Nucleus Power Plant"
+Title="Centrale Elettrica Nucleus"
+IdealPlayerCount="12"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Entrance"
+ZoneName="Ingresso rosso"
+
+[ZoneInfo3]
+; EN: ZoneName="Middle"
+ZoneName="Medio"
+
+[ZoneInfo10]
+; EN: ZoneName="Blue Entrance"
+ZoneName="Ingresso blu"
+
+[ZoneInfo2]
+; EN: ZoneName="Red Base"
+ZoneName="Base rossa"
+
+[ZoneInfo0]
+; EN: ZoneName="Blue Base"
+ZoneName="Base blu"
+
+[ZoneInfo7]
+; EN: ZoneName="Red Pulse Room"
+ZoneName="Red Pulse Room"
+
+[ZoneInfo11]
+; EN: ZoneName="Blue Pulse Room"
+ZoneName="Camera Blue Pulse"
+
+[ZoneInfo4]
+; EN: ZoneName="Red Rocket Room"
+ZoneName="Stanza rossa del razzo"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Flak Room"
+ZoneName="Red Flak Room"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Rocket Room"
+ZoneName="Camera Blue Rocket"
+
+[ZoneInfo9]
+; EN: ZoneName="Blue Flak Room"
+ZoneName="Camera Blue Flak"
+
+[ZoneInfo15]
+; EN: ZoneName="Blue Energy Tunnel"
+ZoneName="Blue Energy Tunnel"
+
+[ZoneInfo12]
+; EN: ZoneName="Red Energy Tunnel"
+ZoneName="Tunnel dell'energia rossa"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Energy Channel"
+ZoneName="Red Energy Channel"
+
+[ZoneInfo14]
+; EN: ZoneName="Blue Energy Channel"
+ZoneName="Canale di energia blu"
+
+[LevelSummary]
+; EN: Title="Nucleus Power Plant"
+Title="Centrale Elettrica Nucleus"
+IdealPlayerCount="12"
+
+[ZoneInfo13]
+; EN: ZoneName="Red Energy Tunnel"
+ZoneName="Tunnel dell'energia rossa"
+
+[ZoneInfo16]
+; EN: ZoneName="Blue Energy Tunnel"
+ZoneName="Blue Energy Tunnel"

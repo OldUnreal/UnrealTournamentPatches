@@ -1,0 +1,311 @@
+﻿[Public]
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; Main roots
+; EN: Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Avancerad",Parent="Avancerade alternativ")
+; EN: Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="Tolkning",Parent="Avancerade alternativ")
+; EN: Preferences=(Caption="Audio",Parent="Advanced Options")
+Preferences=(Caption="Audio",Parent="Avancerade alternativ")
+; EN: Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="Nätverk",Parent="Avancerade alternativ")
+; EN: Preferences=(Caption="Game Types",Parent="Advanced Options")
+Preferences=(Caption="Speltyper",Parent="Avancerade alternativ")
+; EN: Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="Visa",Parent="Avancerade alternativ")
+; EN: Preferences=(Caption="Joystick",Parent="Advanced Options")
+Preferences=(Caption="Joystick",Parent="Avancerade alternativ")
+; EN: Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Förare",Parent="Avancerade alternativ",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; EN: Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Spelinställningar",Parent="Avancerade alternativ",Class=Engine.GameInfo,Immediate=True)
+; Advanced
+; EN: Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Spelmotorinställningar",Parent="Avancerad",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+; EN: Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Viktiga alias",Parent="Avancerad",Class=Engine.Input,Immediate=True,Category=Aliases)
+; EN: Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Rå nyckelbindningar",Parent="Avancerad",Class=Engine.Input,Immediate=True,Category=RawKeys)
+; Networking
+; EN: Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Offentlig serverinformation",Parent="Nätverk",Class=Engine.GameReplicationInfo,Immediate=True)
+
+[PlayerPawn]
+; EN: QuickSaveString="Quick Saving"
+QuickSaveString="Snabbsparar"
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage="Spelet är inte pausbart"
+; EN: ViewingFrom="Now viewing from "
+ViewingFrom="Visar nu från "
+; EN: OwnCamera="own camera"
+OwnCamera="egen kamera"
+; EN: FailedView="Failed to change view."
+FailedView="Det gick inte att ändra vyn."
+; EN: CantChangeNameMsg="You can't change your name during a global logged game."
+CantChangeNameMsg="Du kan inte ändra ditt namn under ett globalt loggat spel."
+
+[Pawn]
+NameArticle=" a "
+
+[Inventory]
+; EN: PickupMessage="Snagged an item"
+PickupMessage="Snagged ett objekt"
+; EN: ItemArticle="a"
+ItemArticle="a"
+; EN: M_Activated=" activated."
+M_Activated=" aktiverad."
+; EN: M_Selected=" selected."
+M_Selected=" vald."
+; EN: M_Deactivated=" deactivated."
+M_Deactivated=" inaktiverad."
+
+[LevelInfo]
+; EN: Title="Untitled"
+Title="Ofrälse"
+
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo."
+MessageNoAmmo=" har ingen ammunition."
+; EN: DeathMessage="%o was killed by %k's %w."
+DeathMessage="%o dödades av %w från %k."
+; EN: PickupMessage="You got a weapon"
+PickupMessage="Du har ett vapen"
+; EN: ItemName="Weapon"
+ItemName="Vapen"
+; EN: DeathMessage[0]="%o was killed by %k's %w."
+DeathMessage[0]="%o dödades av %w från %k."
+; EN: DeathMessage[1]="%o was killed by %k's %w."
+DeathMessage[1]="%o dödades av %w från %k."
+; EN: DeathMessage[2]="%o was killed by %k's %w."
+DeathMessage[2]="%o dödades av %w från %k."
+; EN: DeathMessage[3]="%o was killed by %k's %w."
+DeathMessage[3]="%o dödades av %w från %k."
+
+[Ammo]
+; EN: PickupMessage="You picked up some ammo"
+PickupMessage="Du tog upp lite ammunition"
+; EN: ItemName="Ammo"
+ItemName="Ammunition"
+
+[Counter]
+; EN: CountMessage="Only %i more to go..."
+CountMessage="Endast %i mer att gå ..."
+; EN: CompleteMessage="Completed!"
+CompleteMessage="Avslutad!"
+
+[Spectator]
+; EN: MenuName="Spectator"
+MenuName="Åskådare"
+
+[DamageType]
+; EN: Name="killed"
+Name="dödad"
+; EN: AltName="killed"
+AltName="dödad"
+
+[Progress]
+; EN: CancelledConnect="Cancelled Connect Attempt"
+CancelledConnect="Avbruten anslutningsförsök"
+; EN: RunningNet="%ls: %ls (%i players)"
+RunningNet="%ls: %ls (%i spelare)"
+; EN: NetReceiving="Receiving "%ls": %i/%i"
+NetReceiving="Ta emot "%ls": %i/%i"
+; EN: NetReceiveOk="Successfully received "%ls""
+NetReceiveOk="Fick fram "%ls""
+; EN: NetSend="Sending "%ls""
+NetSend="Skickar "%ls""
+; EN: NetSending="Sending "%ls": %i/%i"
+NetSending="Skickar "%ls": %i/%i"
+; EN: Connecting="Connecting..."
+Connecting="Ansluter..."
+; EN: Listening="Listening for clients..."
+Listening="Lyssnar för kunder ..."
+; EN: Loading="Loading"
+Loading="Läser in"
+; EN: Saving="Saving"
+Saving="Sparande"
+; EN: Paused="Paused by %ls"
+Paused="Pausad av %​​ls"
+; EN: ReceiveFile="Receiving "%ls" (F10 Cancels)"
+ReceiveFile="Får "%ls" (F10 avbryts)"
+; EN: ReceiveOptionalFile="Receiving optional file "%ls" (Press F10 to Skip)"
+ReceiveOptionalFile="Ta emot valfri fil "%ls" (Tryck på F10 för att hoppa över)"
+; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
+ReceiveSize="Storlek %iK, Komplett %3.1f%% = %iK, %i Paket kvar"
+; EN: ConnectingText="Connecting (F10 to cancel):"
+ConnectingText="Ansluter (F10 för att avbryta):"
+ConnectingURL="unreal://%ls/%ls"
+
+[WarpZoneInfo]
+OtherSideURL=""
+
+[Pickup]
+ExpireMessage=""
+
+[SpecialEvent]
+DamageString=""
+
+[ServerCommandlet]
+HelpCmd=server
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Network game server."
+HelpOneLiner="Nätverksspelserver."
+; EN: HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
+HelpUsage="server map.unr[?game=Speltype] [-alternativ...] [parm=värde]..."
+HelpParm[0]="Log"
+; EN: HelpDesc[0]="Specify the log file to generate."
+HelpDesc[0]="Ange loggfilen som ska genereras."
+HelpParm[1]="AllAdmin"
+; EN: HelpDesc[1]="Give all players admin privileges."
+HelpDesc[1]="Ge alla spelare administratörsbehörighet."
+
+[Console]
+; EN: ClassCaption="Standard Unreal Tournament Console"
+ClassCaption="Standardkonsol Unreal Tournament"
+; EN: LoadingMessage="LOADING"
+LoadingMessage="LÄSER IN"
+; EN: SavingMessage="SAVING"
+SavingMessage="SPARANDE"
+; EN: ConnectingMessage="CONNECTING"
+ConnectingMessage="ANSLUTER"
+; EN: PausedMessage="PAUSED"
+PausedMessage="PAUSAD"
+; EN: PrecachingMessage="PRECACHING"
+PrecachingMessage="PRECACHING"
+; EN: ChatChannel="(CHAT) "
+ChatChannel="(CHATT) "
+; EN: TeamChannel="(TEAM) "
+TeamChannel="(TEAM) "
+
+[Menu]
+MenuList=" "
+HelpMessage=" "
+; EN: HelpMessage[1]="This menu has not yet been implemented."
+HelpMessage[1]="Denna meny har ännu inte implementerats."
+; EN: LeftString="Left"
+LeftString="Vänster"
+; EN: RightString="Right"
+RightString="Höger"
+; EN: CenterString="Center"
+CenterString="Centrum"
+; EN: EnabledString="Enabled"
+EnabledString="Aktiverad"
+; EN: DisabledString="Disabled"
+DisabledString="Inaktiverad"
+; EN: YesString="Yes"
+YesString="Ja"
+; EN: NoString="No"
+NoString="Nej"
+
+[GameInfo]
+; EN: SwitchLevelMessage="Switching Levels"
+SwitchLevelMessage="Växla nivåer"
+DefaultPlayerName="Player"
+; EN: LeftMessage=" left the game."
+LeftMessage=" lämnade spelet."
+; EN: FailedSpawnMessage="Failed to spawn player actor"
+FailedSpawnMessage="Det gick inte att leka skådespelaren"
+; EN: FailedPlaceMessage="Could not find starting spot (level might need a "PlayerStart" actor)"
+FailedPlaceMessage="Det gick inte att hitta startplatsen (nivå kan behöva en "PlayerStart" -aktör)"
+; EN: FailedTeamMessage="Could not find team for player"
+FailedTeamMessage="Det gick inte att hitta team för spelare"
+; EN: NameChangedMessage="Name changed to "
+NameChangedMessage="Namnet har ändrats till "
+; EN: EnteredMessage=" entered the game."
+EnteredMessage=" kom in i spelet."
+; EN: GameName="Game"
+GameName="Spel"
+; EN: MaxedOutMessage="Server is already at capacity."
+MaxedOutMessage="Servern har redan kapacitet."
+; EN: WrongPassword="The password you entered is incorrect."
+WrongPassword="Lösenordet du angav är felaktigt."
+; EN: NeedPassword="You need to enter a password to join this game."
+NeedPassword="Du måste ange ett lösenord för att gå med i det här spelet."
+; EN: MaleGender="his"
+MaleGender="hans"
+; EN: FemaleGender="her"
+FemaleGender="henne"
+; EN: IPBanned="Your IP address has been banned on this server."
+IPBanned="Din IP-adress har förbjudits på denna server."
+
+[Errors]
+; EN: NetOpen="Error opening file"
+NetOpen="Fel vid öppning av filen"
+; EN: NetWrite="Error writing to file"
+NetWrite="Fel vid skrivning till filen"
+; EN: NetRefused="Server refused to send "%ls""
+NetRefused="Servern vägrade att skicka "%ls""
+; EN: NetClose="Error closing file"
+NetClose="Fel vid stängning av fil"
+; EN: NetSize="File size mismatch"
+NetSize="Filstorlek stämmer inte överens"
+; EN: NetMove="Error moving file"
+NetMove="Fel vid flytt av fil"
+; EN: NetInvalid="Received invalid file request"
+NetInvalid="Mottagen ogiltig filbegäran"
+; EN: NoDownload="Package "%ls" is not downloadable"
+NoDownload="Paketet "%ls" kan inte laddas ner"
+; EN: DownloadFailed="Downloading package "%ls" failed: %ls"
+DownloadFailed="Nedladdning av paketet "%ls" misslyckades: %ls"
+; EN: RequestDenied="Server requested file from pending level: Denied"
+RequestDenied="Serverfrågad fil från väntande nivå: Nekad"
+; EN: ConnectionFailed="Connection failed"
+ConnectionFailed="Anslutningen misslyckades"
+; EN: ChAllocate="Couldn't allocate channel"
+ChAllocate="Det gick inte att tilldela kanal"
+; EN: NetAlready="Already networking"
+NetAlready="Redan nätverkande"
+; EN: NetListen="Listen failed: No linker context available"
+NetListen="Lyssna misslyckades: Inget länkar-sammanhang tillgängligt"
+; EN: LoadEntry="Can't load Entry: %ls"
+LoadEntry="Det går inte att läsa in post: %ls"
+; EN: InvalidUrl="Invalid URL: %ls"
+InvalidUrl="Ogiltig URL: %ls"
+; EN: InvalidLink="Invalid Link: %ls"
+InvalidLink="Ogiltig länk: %ls"
+; EN: FailedBrowse="Failed to enter %ls: %ls"
+FailedBrowse="Det gick inte att ange %ls: %ls"
+; EN: Listen="Listen failed: %ls"
+Listen="Lyssning misslyckades: %ls"
+; EN: AbortToEntry="Failed; returning to Entry"
+AbortToEntry="Misslyckades; återvänder till posten"
+; EN: ServerOpen="Servers can't open network URLs"
+ServerOpen="Servrar kan inte öppna nätverks-URL: er"
+; EN: ServerListen="Dedicated server can't listen: %ls"
+ServerListen="Dedikerad server kan inte lyssna: %ls"
+; EN: Pending="Pending connect to "%ls" failed; %ls"
+Pending="Väntande anslutning till "%ls" misslyckades; %ls"
+; EN: LoadPlayerClass="Failed to load player class"
+LoadPlayerClass="Det gick inte att läsa in spelarklass"
+; EN: ServerOutdated="Server's version is outdated"
+ServerOutdated="Serverns version är föråldrad"
+; EN: ClientOutdated="You need to upgrade to the latest patch version"
+ClientOutdated="Du måste uppgradera till den senaste patchversionen"
+; EN: RejectedByServer="Rejected by server"
+RejectedByServer="Avvisades av servern"
+; EN: NetDecompressFail="Error decompressing file "%ls""
+NetDecompressFail="Fel vid dekomprimering av filen "%ls""
+; EN: MD5ChecksumFailed="Package %ls failed an MD5 check."
+MD5ChecksumFailed="Paket %ls misslyckades med en MD5-kontroll."
+
+[General]
+; EN: Upgrade="To enter this server, you need the latest free update to Unreal Tournament available from OldUnreals's Web site:"
+Upgrade="För att komma in på denna server behöver du den senaste kostnadsfria uppdateringen av Unreal Tournament tillgänglig från OldUnreals webbplats:"
+UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
+; EN: UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
+UpgradeQuestion="Vill du starta din webbläsare och gå till uppgraderingssidan nu?"
+; EN: Version="Version %i"
+Version="Version %i"
+
+[CheckSumCommandlet]
+HelpCmd=checksum
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Calculate package checksum for stat logging"
+HelpOneLiner="Beräkna paketets kontrollsumma för statloggning"
+; EN: HelpUsage="checksum packagename.u"
+HelpUsage="checksum paketnamn.u"
+; EN: HelpParm[0]="packagename.u"
+HelpParm[0]="paketnamn.u"
+; EN: HelpDesc[0]="Filename to calculate checksum"
+HelpDesc[0]="Filnamn för att beräkna kontrollsumman"

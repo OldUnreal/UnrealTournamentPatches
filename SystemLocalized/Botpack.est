@@ -123,6 +123,38 @@ DeathMessage[28]="flagelado"
 DeathMessage[29]="destrozado"
 DeathMessage[30]="derruido"
 DeathMessage[31]="zurrado"
+FemDeathMessage[0]="asesinada"
+FemDeathMessage[1]="dominada"
+FemDeathMessage[2]="ahumada"
+FemDeathMessage[3]="despedazada"
+FemDeathMessage[4]="aniquilada"
+FemDeathMessage[5]="suprimida"
+FemDeathMessage[6]="machacada"
+FemDeathMessage[7]="perforada"
+FemDeathMessage[8]="triturada"
+FemDeathMessage[9]="destruida"
+FemDeathMessage[10]="aporreada"
+FemDeathMessage[11]="enlatada"
+FemDeathMessage[12]="golpeada"
+FemDeathMessage[13]="cremada"
+FemDeathMessage[14]="magullada"
+FemDeathMessage[15]="silenciada"
+FemDeathMessage[16]="apaleada"
+FemDeathMessage[17]="vapuleada"
+FemDeathMessage[18]="hecha puré"
+FemDeathMessage[19]="rebanada"
+FemDeathMessage[20]="cubeteada"
+FemDeathMessage[21]="desgarrada"
+FemDeathMessage[22]="bombardeada"
+FemDeathMessage[23]="desmembrada"
+FemDeathMessage[24]="fustigada"
+FemDeathMessage[25]="destripada"
+FemDeathMessage[26]="neutralizada"
+FemDeathMessage[27]="azotada"
+FemDeathMessage[28]="flagelada"
+FemDeathMessage[29]="destrozada"
+FemDeathMessage[30]="derruida"
+FemDeathMessage[31]="zurrada"
 DeathModifier[0]="plenamente "
 DeathModifier[1]="completamente "
 DeathModifier[2]="absolutamente "
@@ -133,17 +165,24 @@ MajorDeathMessage[1]="herido de gravedad"
 MajorDeathMessage[2]="sometido a un dolor indescriptible"
 HeadLossMessage[0]="decapitado"
 HeadLossMessage[1]="descabezado"
+FemHeadLossMessage[0]="decapitada"
+FemHeadLossMessage[1]="descabezada"
 DeathVerb=" fue "
 DeathPrep=" por "
 DeathTerm="asesinado"
+FemDeathTerm="asesinada"
 ExplodeMessage=" explotó."
 SuicideMessage=" tuvo un ataque cardíaco."
 FallMessage=" dejó un pequeño cráter."
 DrownedMessage=" olvidó salir a respirar."
 BurnedMessage=" fue incinerado."
+FemBurnedMessage=" fue incinerada."
 CorrodedMessage=" fue disuelto."
+FemCorrodedMessage=" fue disuelta."
 HackedMessage=" fue acabado."
+FemHackedMessage=" fue acabada."
 MortarMessage=" fue destruido por un mortero."
+FemMortarMessage=" fue destruida por un mortero."
 MaleSuicideMessage=" cometió suicidio por imbecil."
 FemaleSuicideMessage=" cometió suicidio por imbecil."
 
@@ -483,6 +522,7 @@ GameName="Último Hombre en Pie"
 
 [VacuumZone]
 DamageString="%o ha sido despresurizado."
+FemDamageString="%o ha sido despresurizada."
 
 [TBoss]
 MenuName="Jefe"
@@ -490,6 +530,7 @@ MenuName="Jefe"
 [UT_Eightball]
 WeaponDescription="Clasificación: Munición Pesada\n\nDisparo Principal: Dispara cohetes lentos pero mortales a los oponentes. Si mantienes pulsado el disparador, puedes cargar hasta seis cohetes a la vez, los cuales se disparan al mismo tiempo una vez soltado el disparador.\n\nDisparo Secundario: Se lanzan granadas desde el barril. Si mantienes pulsado el gatillo secundario, puedes cargar hasta seis granadas.\n\nTécnicas: Si mantienes el arma apuntando a un oponente, ésta se fijará en él, y los siguientes cohetes que se lancen en el próximo disparo serán teledirigidos. Ya que el Lanzacohetes puede cargar varios cohetes, éstos se disparan al soltar el botón de disparo. Si lo prefieres, puedes configurar el arma para que solo se dispare un cohete en el momento en que pulses el botón de disparo, a costa de perder la capacidad de cargar múltiples cohetes. Esto se hace en la pestaña de Entrada en el menú de Preferencias."
 DeathMessage="%o fue apaleado por el %w de %k."
+FemDeathMessage="%o fue apaleada por el %w de %k."
 PickupMessage="Has conseguido el Lanzacohetes."
 ItemName="Lanzacohetes"
 
@@ -555,6 +596,7 @@ ItemName="Cinturón de Protección"
 
 [DeathMessagePlus]
 KilledString="fue asesinado por"
+FemKilledString="fue asesinada por"
 
 [TBossBot]
 MenuName="Jefe"
@@ -564,6 +606,7 @@ IdentifyAssault=" ¡¡ Objetivo de asalto !! "
 
 [TeamCannon]
 PostKillMessage="fue acribillado por un Cañón Automático."
+FemPostKillMessage="fue acribillada por un Cañón Automático."
 MenuName="Cañón Automático"
 NameArticle="un "
 
@@ -583,6 +626,7 @@ FragsString="Vidas"
 
 [PressureZone]
 DamageString="%o fue despresurizado por %k."
+FemDamageString="%o fue despresurizada por %k."
 
 [PulseGun]
 WeaponDescription="Clasificación: Rifle de Plasma\n\nDisparo Principal: Se disparan bolas de plasma de tamaño medio que se mueven rápidamente con una frecuencia de disparo rápida.\n\nDisparo secundario: Dispara a 100 metros un haz de rayos verdes, que impactará sobre todos los oponentes.\n\nTécnicas: Si disparas al oponente y mantienes el disparo secundario de rayos sobre él, éste se achicharrará en cuestión de segundos."
@@ -594,6 +638,7 @@ ItemName="Arma de Pulsos"
 [ImpactHammer]
 WeaponDescription="Clasificación: Pistón de Combate Cuerpo a Cuerpo\n\nDisparo Principal: Mientras se mantiene pulsado el disparador, aproxímate a un oponente para herirlo de gravedad.\n\nDisparo Secundario: Produce daños en los enemigos que se encuentran a corta distancia. También disparar proyectiles.\n\nTécnicas: Dispara al suelo mientras saltas y alcanzarás una gran altura."
 DeathMessage="%o ha sido alcanzado por el pistón de %k."
+FemDeathMessage="%o ha sido alcanzada por el pistón de %k."
 PickupMessage="Has conseguido el Martillo de Impacto."
 ItemName="Martillo de Impacto"
 
@@ -612,6 +657,7 @@ HasBlue="tiene la bandera azul."
 [WarheadLauncher]
 WeaponDescription="Clasificación: Dispositivo Termonuclear\n\nDisparo Principal: Lanza un enorme misil que se mueve lentamente y, una vez que choca contra una superficie sólida, explota y emite una gigantesca onda expansiva, pulverizando de forma instantánea a cualquier persona u objeto, incluyéndote a ti, que se encuentre dentro de su inmenso radio de alcance.\n\nDisparo Secundario: Toma el control del misil y dirígelo a cualquier sitio. Puedes pulsar el botón de disparo principal para hacer que el misil explote al instante.\n\nTécnicas: Recuerda que mientras estás usando este cohete serás un blanco fácil. Si un oponente consigue alcanzar tu misil Redentor mientras está en el aire, éste explotará sin provocar grandes daños."
 DeathMessage="¡%o fue vaporizado por el %w de %k!"
+FemDeathMessage="¡%o fue vaporizada por el %w de %k!"
 PickupMessage="Has conseguido el Redentor."
 ItemName="Redentor"
 
@@ -628,6 +674,7 @@ ItemName="Amplificador de Daños"
 [UT_FlakCannon]
 WeaponDescription="Clasificación: Metralla Pesada\n\nDisparo Principal: Dispara trozos de metal blanco caliente con la cadencia de una escopeta. Estos trozos se esparcen por el área de impacto, si no afectan a otro jugador.\n\nDisparo Secundario: Lanza una granada de metralla al enemigo. Esta granada puede dañarte si estás en su área de impacto.\n\nTécnicas: El Cañón de Metralla es mucho más útil en combates a corta distancia."
 DeathMessage="%o ha sido convertido en jirones por el %w de %k."
+FemDeathMessage="%o ha sido convertida en jirones por el %w de %k."
 PickupMessage="Has conseguido el Cañón de Metralla."
 ItemName="Cañón de Metralla"
 
@@ -645,10 +692,10 @@ ESCMessage="Pulsa ESC para comenzar."
 ESCMessage="Pulsa ESC para continuar..."
 
 [ut_biorifle]
-WeaponDescription="Clasificación: Rifle Tóxico\n\nDisparo Principal: Dispara proyectiles de un derivado de Taridio a una distancia media.\n\Disparo Secundario: Si mantienes pulsado el disparador, el Bio Rifle creará un proyectil de dicho derivado de tamaño superior. Cuando se lanza el proyectil, éste se multiplicará en varios de menor tamaño que se pegarán a cualquier superficie. De no impactar contra una pared, este proyectil puede destruir a su usuario u otro jugador al instante.\n\Técnicas: Estos proyectiles derivados se adherirán a muros, suelos o techos. Al taponarse las entradas con este desecho letal verde, podrán producirse reacciones en cadena."
+WeaponDescription="Clasificación: Rifle Tóxico\n\nDisparo Principal: Dispara proyectiles de un derivado de Taridio a una distancia media.\n\Disparo Secundario: Si mantienes pulsado el disparador, el BioRifle creará un proyectil de dicho derivado de tamaño superior. Cuando se lanza el proyectil, éste se multiplicará en varios de menor tamaño que se pegarán a cualquier superficie. De no impactar contra una pared, este proyectil puede destruir a su usuario u otro jugador al instante.\n\Técnicas: Estos proyectiles derivados se adherirán a muros, suelos o techos. Al taponarse las entradas con este desecho letal verde, podrán producirse reacciones en cadena."
 DeathMessage="%o bebió un vaso de la sustancia verde y espesa de %k."
-PickupMessage="Has conseguido el Bio Rifle GES."
-ItemName="Bio Rifle GES"
+PickupMessage="Has conseguido el BioRifle GES."
+ItemName="BioRifle GES"
 
 [minigun2]
 WeaponDescription="Clasificación: Metralleta\n\nDisparo Principal: Dispara balas con una frecuencia media/rápida y una gran precisión.\n\nDisparo Secundario: Dispara el doble de rápido pero con mucha menos precisión.\n\nTécnicas: El disparo secundario es mucho más útil en distancias cortas, pero puede consumir toneladas de munición."
@@ -1178,8 +1225,8 @@ OtherAbbrev[15]=""
 OtherAbbrev[16]=""
 
 [UT_Jumpboots]
-ExpireMessage="Las botas antigravitatorias se han agotado."
-PickupMessage="Has recogido las botas antigravitatorias."
+ExpireMessage="Las Botas Antigravitatorias se han agotado."
+PickupMessage="Has recogido las Botas Antigravitatorias."
 ItemName="Botas Antigravitatorias"
 
 [VoiceFemaleTwo]
@@ -1505,6 +1552,7 @@ ScoreString="Tu Puntaje:"
 
 [EradicatedDeathMessage]
 EradicatedMessage="fue erradicado por el poder divino de"
+FemEradicatedMessage="fue erradicada por el poder divino de"
 
 [ShockCore]
 PickupMessage="Has recogido un Núcleo de Choque."
@@ -1774,7 +1822,7 @@ MenuName="Comando (varón)"
 MenuName="Soldado (varón)"
 
 [TFemale2Bot]
-MenuName="Soldado (varón)"
+MenuName="Soldado (mujer)"
 
 [RifleShell]
 PickupMessage="Has conseguido un Cartucho para Rifle de Francotirador."
@@ -1944,7 +1992,7 @@ Bio[2]="Kragoth está también subyugado por los Necris, y es un conocido miembr
 [RatedMatchDM4]
 BotNames[0]="Luthienne"
 BotClassifications[0]="Civil"
-Bio[0]="Tras sobrevivir la destrucción del ISV-Kran, Luthienne tuvo que presenciar la muerte de sus amigos y de los miembros de su tripulación a manos de los Skaarj, hasta que ella y otros tres prisioneros fueron rescatados dos años más tarde. Esta horrible experiencia le ha dejado muy traumatizada, y se ha incorporado al torneo para poner fin al intenso dolor de su alma acabando con su vida."
+Bio[0]="Tras sobrevivir la destrucción del ISV-KRAN, Luthienne tuvo que presenciar la muerte de sus amigos y de los miembros de su tripulación a manos de los Skaarj, hasta que ella y otros tres prisioneros fueron rescatados dos años más tarde. Esta horrible experiencia le ha dejado muy traumatizada, y se ha incorporado al torneo para poner fin al intenso dolor de su alma acabando con su vida."
 
 [RatedMatchDM3]
 BotNames[0]="Slain"

@@ -1,148 +1,312 @@
-[Public]
-Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
-Preferences=(Caption="Avancées",Parent="Options avancées")
-Preferences=(Caption="Paramètres du moteur du jeu",Parent="Avancées",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-Preferences=(Caption="Alias clés",Parent="Avancées",Class=Engine.Input,Immediate=True,Category=Aliases)
-Preferences=(Caption="Liaisons clés",Parent="Avancées",Class=Engine.Input,Immediate=True,Category=RawKeys)
-Preferences=(Caption="Pilotes",Parent="Options avancées",Class=Engine.Engine,Immediate=False,Category=Drivers)
-Preferences=(Caption="Informations serveur public",Parent="Réseau",Class=Engine.GameReplicationInfo,Immediate=True)
-Preferences=(Caption="Réglages du jeu",Parent="Options avancées",Class=Engine.GameInfo,Immediate=True)
-
-[Errors]
-NetOpen=Erreur d'ouverture de fichier
-NetWrite=Erreur d'écriture dans un fichier 
-NetRefused=Le serveur a refusé d'envoyer '%s'
-NetClose=Erreur de fermeture de fichier
-NetSize=Différence de taille de fichier
-NetMove=Erreur de déplacement de fichier 
-NetInvalid=Réception d'une demande de fichier non valide
-NoDownload=Le package '%s' n'est pas téléchargeable
-DownloadFailed=Echec du téléchargement du package '%s' : %s
-RequestDenied=Le serveur a demandé un fichier en état d'attente : refusé
-ConnectionFailed=Echec de connexion
-ChAllocate=Impossible d'allouer une chaîne
-NetAlready=Déjà en réseau
-NetListen=Echec d'écoute : Aucun contexte de liaison disponible 
-LoadEntry=Impossible de charger l'entrée : %s 
-InvalidUrl=URL non valide : %s 
-InvalidLink=Lien non valide : %s
-FailedBrowse=Impossible d'entrer %s: %s
-Listen=Echec d'écoute : %s
-AbortToEntry=Echec; retour à Entrée 
-ServerOpen=Les serveurs ne réussissent pas à ouvrir les URLs réseau
-ServerListen=Le serveur dédié n'arrive pas à écouter : %s
-Pending=Echec de connexion à '%s' ; %s 
-LoadPlayerClass=Echec de chargement de la classe du joueur
-ServerOutdated=La version du serveur est ancienne
-
-[Progress]
-RunningNet=%s: %s (%i joueur)
-NetReceiving=Réception de '%s': %i/%i
-NetReceiveOk=Réception réussie de '%s'
-NetSend=Envoi '%s'
-NetSending=Envoi '%s': %i/%i
-Connecting=Connexion...
-Listening=Ecoute des clients...
-Loading=Chargement
-Saving=Enregistrement
-Paused=Interrompu par %s
-ReceiveFile=Réception de '%s' (F10 pour annuler)
-ReceiveSize=Taille %iK, Total %3.1f%%
-ConnectingText=Connexion (F10 pour annuler):
-ConnectingURL=unreal://%s/%s
-
-[Console]
-ClassCaption=Console Unreal standard
-LoadingMessage=CHARGEMENT
-SavingMessage=ENREGISTREMENT
-ConnectingMessage=CONNEXION
-PausedMessage=INTERROMPU
-PrecachingMessage=MISE EN MEMOIRE CACHE PROVISOIRE
-ChatChannel=(MESSAGE) 
-TeamChannel=(EQUIPE) 
-
-[General]
-Upgrade=Pour accéder à ce serveur, vous devez vous procurer la dernière mise à jour gratuite de Unreal sur le site Web de Epic :
-UpgradeURL=http://www.unreal.com/upgrade
-UpgradeQuestion=Souhaitez-vous démarrer maintenant votre explorateur Web et afficher la page des mises à jour ?
-Version=Version %i
-
-[Menu]
-HelpMessage=
-MenuList=
-LeftString=Gauche
-RightString=Droite
-CenterString=Centre
-EnabledString=Activé
-DisabledString=Désactivé 
-HelpMessage[1]="Ce menu n'a pas encore été introduit."
-YesString=oui
-NoString=non
-
-[Inventory]
-PickupMessage=Récupéré un élément
-M_Activated=" activé"
-M_Selected=" sélectionné"
-M_Deactivated=" désactivé"
-ItemArticle=a
-
-[WarpZoneInfo]
-OtherSideURL=
-
-[GameInfo]
-SwitchLevelMessage=Changement de niveaux
-DefaultPlayerName=Joueur
-LeftMessage=" a quitté la partie."
-FailedSpawnMessage=N'a pas réussi à générer un acteur joueur
-FailedPlaceMessage=N'a pas trouvé de point de démarrage (le niveau nécessite peut-être un acteur 'PlayerStart')
-NameChangedMessage=Nom changé en... 
-EnteredMessage=" a rejoint la partie."
-GameName=Partie
-MaxedOutMessage=Le serveur a déjà atteint sa capacité maximale.
-WrongPassword=Le mot de passe que vous avez entré n'est pas valide.
-NeedPassword="Vous devez entrer un mot de passe pour rejoindre cette partie."
-FailedTeamMessage=Impossible de trouver l'équipe du joueur 
-
-[LevelInfo]
-Title=Sans titre
-
-[Weapon]
-MessageNoAmmo=" est sans munitions."
-PickupMessage=Vous avez une arme 
-DeathMessage=%o a été tué par %w de %k.
-ItemName=Arme
-DeathMessage[0]=%o a été tué par %w de %k.
-DeathMessage[1]=%o a été tué par %w de %k.
-DeathMessage[2]=%o a été tué par %w de %k.
-DeathMessage[3]=%o a été tué par %w de %k.
-
-[Counter]
-CountMessage=Plus que %i...
-CompleteMessage=Terminé !
-
-[Ammo]
-PickupMessage=Vous avez récupéré des munitions.
-
-[Pickup]
-ExpireMessage=
-
-[SpecialEvent]
-DamageString=
-
-[DamageType]
-Name=tué
-AltName=tué 
+ï»¿[Public]
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
+; Main roots
+; EN: Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="AvancÃ©",Parent="Options avancÃ©es")
+; EN: Preferences=(Caption="Rendering",Parent="Advanced Options")
+Preferences=(Caption="Rendu",Parent="Options avancÃ©es")
+; EN: Preferences=(Caption="Audio",Parent="Advanced Options")
+Preferences=(Caption="Audio",Parent="Options avancÃ©es")
+; EN: Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="RÃ©seau",Parent="Options avancÃ©es")
+; EN: Preferences=(Caption="Game Types",Parent="Advanced Options")
+Preferences=(Caption="Modes de jeu",Parent="Options avancÃ©es")
+; EN: Preferences=(Caption="Display",Parent="Advanced Options")
+Preferences=(Caption="Affichage",Parent="Options avancÃ©es")
+; EN: Preferences=(Caption="Joystick",Parent="Advanced Options")
+Preferences=(Caption="Joystick",Parent="Options avancÃ©es")
+; EN: Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Pilotes",Parent="Options avancÃ©es",Class=Engine.Engine,Immediate=False,Category=Drivers)
+; EN: Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="RÃ©glages du jeu",Parent="Options avancÃ©es",Class=Engine.GameInfo,Immediate=True)
+; Advanced
+; EN: Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="ParamÃ¨tres moteur",Parent="AvancÃ©",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+; EN: Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="ParamÃ¨tres clavier",Parent="AvancÃ©",Class=Engine.Input,Immediate=True,Category=Aliases)
+; EN: Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Raccourcis claviers basiques",Parent="AvancÃ©",Class=Engine.Input,Immediate=True,Category=RawKeys)
+; Networking
+; EN: Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Informations publiques du serveur",Parent="RÃ©seau",Class=Engine.GameReplicationInfo,Immediate=True)
 
 [PlayerPawn]
-QuickSaveString=Enregistrement rapide
-NoPauseMessage=Impossible de mettre la partie en pause
-ViewingFrom=Affichage en cours
-OwnCamera=caméra personnelle
-FailedView=Echec de changement d'affichage.
-CantChangeNameMsg=Vous ne pouvez pas changer de nom lors d'une partie en réseau.
+; EN: QuickSaveString="Quick Saving"
+QuickSaveString="Sauvegarde rapide"
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage="Le jeu ne peut pas Ãªtre mis en pause"
+; EN: ViewingFrom="Now viewing from "
+ViewingFrom="Suivi du point de vue de "
+; EN: OwnCamera="own camera"
+OwnCamera="camÃ©ra libre"
+; EN: FailedView="Failed to change view."
+FailedView="Impossible de changer de vue."
+; EN: CantChangeNameMsg="You can't change your name during a global logged game."
+CantChangeNameMsg="Vous ne pouvez pas changer de nom pendant un match."
 
 [Pawn]
-NameArticle=" a "
+; EN: NameArticle=" a "
+NameArticle=" un "
+
+[Inventory]
+; EN: PickupMessage="Snagged an item"
+PickupMessage="Attraper un objet"
+; EN: ItemArticle="a"
+ItemArticle="un"
+; EN: M_Activated=" activated."
+M_Activated=" activÃ©."
+; EN: M_Selected=" selected."
+M_Selected=" selectionnÃ©."
+; EN: M_Deactivated=" deactivated."
+M_Deactivated=" dÃ©sactivÃ©."
+
+[LevelInfo]
+; EN: Title="Untitled"
+Title="Sans titre"
+
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo."
+MessageNoAmmo=" est sans munitions."
+; EN: DeathMessage="%o was killed by %k's %w."
+DeathMessage="%o a Ã©tÃ© tuÃ© par le %w de %k."
+; EN: PickupMessage="You got a weapon"
+PickupMessage="Vous avez une arme"
+; EN: ItemName="Weapon"
+ItemName="Arme"
+; EN: DeathMessage[0]="%o was killed by %k's %w."
+DeathMessage[0]="%o a Ã©tÃ© tuÃ© par le %w de %k."
+; EN: DeathMessage[1]="%o was killed by %k's %w."
+DeathMessage[1]="%o a Ã©tÃ© tuÃ© par le %w de %k."
+; EN: DeathMessage[2]="%o was killed by %k's %w."
+DeathMessage[2]="%o a Ã©tÃ© tuÃ© par le %w de %k."
+; EN: DeathMessage[3]="%o was killed by %k's %w."
+DeathMessage[3]="%o a Ã©tÃ© tuÃ© par le %w de %k."
+
+[Ammo]
+; EN: PickupMessage="You picked up some ammo"
+PickupMessage="Vous avez ramassÃ© des munitions"
+; EN: ItemName="Ammo"
+ItemName="Munitions"
+
+[Counter]
+; EN: CountMessage="Only %i more to go..."
+CountMessage="Plus que %i..."
+; EN: CompleteMessage="Completed!"
+CompleteMessage="RÃ©ussi!"
 
 [Spectator]
-MenuName=Spectateur
+; EN: MenuName="Spectator"
+MenuName="Spectateur"
+
+[DamageType]
+; EN: Name="killed"
+Name="tuÃ©"
+; EN: AltName="killed"
+AltName="abattu"
+
+[Progress]
+; EN: CancelledConnect="Cancelled Connect Attempt"
+CancelledConnect="Tentative de connexion interrompue"
+; EN: RunningNet="%ls: %ls (%i players)"
+RunningNet="%ls: %ls (%i joueurs)"
+; EN: NetReceiving="Receiving "%ls": %i/%i"
+NetReceiving="RÃ©ception de "%ls": %i/%i"
+; EN: NetReceiveOk="Successfully received "%ls""
+NetReceiveOk="RÃ©ception rÃ©ussie "%ls""
+; EN: NetSend="Sending "%ls""
+NetSend="Envoi de "%ls""
+; EN: NetSending="Sending "%ls": %i/%i"
+NetSending="Envoi de "%ls": %i/%i"
+; EN: Connecting="Connecting..."
+Connecting="Connexion..."
+; EN: Listening="Listening for clients..."
+Listening="Ecoute des clients..."
+; EN: Loading="Loading"
+Loading="Chargement"
+; EN: Saving="Saving"
+Saving="Sauvegarde"
+; EN: Paused="Paused by %ls"
+Paused="Mis en pause par %ls"
+; EN: ReceiveFile="Receiving "%ls" (F10 Cancels)"
+ReceiveFile="Reception de "%ls" (F10 pour annuler)"
+; EN: ReceiveOptionalFile="Receiving optional file "%ls" (Press F10 to Skip)"
+ReceiveOptionalFile="RÃ©ception du fichier optionnel "%ls" (F10 pour passer)"
+; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
+ReceiveSize="Taille: %iK, terminÃ© %3.1f%% = %iK, %i Packages restants"
+; EN: ConnectingText="Connecting (F10 to cancel):"
+ConnectingText="Connexion (F10 pour annuler):"
+ConnectingURL="unreal://%ls/%ls"
+
+[WarpZoneInfo]
+OtherSideURL=""
+
+[Pickup]
+ExpireMessage=""
+
+[SpecialEvent]
+DamageString=""
+
+[ServerCommandlet]
+HelpCmd=server
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Network game server."
+HelpOneLiner="Serveur de jeu en ligne."
+; EN: HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
+HelpUsage="server map.unr[?game=mode_de_jeu][-option...][paramÃ¨tre=valeur_ou_nom_du_paramÃ¨tre]..."
+HelpParm[0]="Log"
+; EN: HelpDesc[0]="Specify the log file to generate."
+HelpDesc[0]="SpÃ©cifier le fichier log Ã  gÃ©nÃ©rer."
+HelpParm[1]="AllAdmin"
+; EN: HelpDesc[1]="Give all players admin privileges."
+HelpDesc[1]="Donne les privilÃ¨ge d'administration Ã  tous les joueurs."
+
+[Console]
+; EN: ClassCaption="Standard Unreal Tournament Console"
+ClassCaption="Console Unreal Tournament Standard"
+; EN: LoadingMessage="LOADING"
+LoadingMessage="CHARGEMENT"
+; EN: SavingMessage="SAVING"
+SavingMessage="SAUVEGARDE"
+; EN: ConnectingMessage="CONNECTING"
+ConnectingMessage="CONNEXION EN COURS"
+; EN: PausedMessage="PAUSED"
+PausedMessage="PAUSE"
+; EN: PrecachingMessage="PRECACHING"
+PrecachingMessage="PRECHARGEMENT"
+; EN: ChatChannel="(CHAT) "
+ChatChannel="(CHAT) "
+; EN: TeamChannel="(TEAM) "
+TeamChannel="(EQP) "
+
+[Menu]
+MenuList=" "
+HelpMessage=" "
+; EN: HelpMessage[1]="This menu has not yet been implemented."
+HelpMessage[1]="Ce menu n'existe pas encore."
+; EN: LeftString="Left"
+LeftString="Gauche"
+; EN: RightString="Right"
+RightString="Droite"
+; EN: CenterString="Center"
+CenterString="Centre"
+; EN: EnabledString="Enabled"
+EnabledString="ActivÃ©"
+; EN: DisabledString="Disabled"
+DisabledString="DÃ©sactivÃ©"
+; EN: YesString="Yes"
+YesString="Oui"
+; EN: NoString="No"
+NoString="Non"
+
+[GameInfo]
+; EN: SwitchLevelMessage="Switching Levels"
+SwitchLevelMessage="Changement de niveau"
+DefaultPlayerName="Player"
+; EN: LeftMessage=" left the game."
+LeftMessage=" a quittÃ© la partie."
+; EN: FailedSpawnMessage="Failed to spawn player actor"
+FailedSpawnMessage="Impossible de gÃ©nÃ©rer un acteur joueur"
+; EN: FailedPlaceMessage="Could not find starting spot (level might need a "PlayerStart" actor)"
+FailedPlaceMessage="Impossible de trouver un point de dÃ©part (il n'y a peut-Ãªtre pas d'actor "PlayerStart")"
+; EN: FailedTeamMessage="Could not find team for player"
+FailedTeamMessage="Impossible d'assigner une Ã©quipe au joueur"
+; EN: NameChangedMessage="Name changed to "
+NameChangedMessage="Nom changÃ© en "
+; EN: EnteredMessage=" entered the game."
+EnteredMessage=" a rejoint la partie."
+; EN: GameName="Game"
+GameName="Partie"
+; EN: MaxedOutMessage="Server is already at capacity."
+MaxedOutMessage="Le serveur est dÃ©jÃ  plein."
+; EN: WrongPassword="The password you entered is incorrect."
+WrongPassword="Le mot de passe saisi est incorrect."
+; EN: NeedPassword="You need to enter a password to join this game."
+NeedPassword="Vous devez saisir un mot de passe pour rejoindre cette partie."
+; EN: MaleGender="his"
+MaleGender="son"
+; EN: FemaleGender="her"
+FemaleGender="sa"
+; EN: IPBanned="Your IP address has been banned on this server."
+IPBanned="Votre adresse IP a Ã©tÃ© bannie de ce serveur."
+
+[Errors]
+; EN: NetOpen="Error opening file"
+NetOpen="Erreur Ã  l'ouverture du fichier"
+; EN: NetWrite="Error writing to file"
+NetWrite="Erreur lors de l'Ã©criture du fichier"
+; EN: NetRefused="Server refused to send "%ls""
+NetRefused="Le serveur refuse d'envoyer "%ls""
+; EN: NetClose="Error closing file"
+NetClose="Erreur Ã  la fermeture du fichier"
+; EN: NetSize="File size mismatch"
+NetSize="Taille du fichier non conforme"
+; EN: NetMove="Error moving file"
+NetMove="Erreur lors du dÃ©placement du fichier"
+; EN: NetInvalid="Received invalid file request"
+NetInvalid="RequÃªte de fichier invalide Ã  la rÃ©ception"
+; EN: NoDownload="Package "%ls" is not downloadable"
+NoDownload="Le package "%ls" ne peut pas Ãªtre tÃ©lÃ©chargÃ©"
+; EN: DownloadFailed="Downloading package "%ls" failed: %ls"
+DownloadFailed="TÃ©lÃ©chargement de "%ls" interrompu: %ls"
+; EN: RequestDenied="Server requested file from pending level: Denied"
+RequestDenied="ReqÃªte de fichier demandÃ© par le niveau en attente refusÃ©"
+; EN: ConnectionFailed="Connection failed"
+ConnectionFailed="Connexion Ã©chouÃ©e"
+; EN: ChAllocate="Couldn't allocate channel"
+ChAllocate="Attribution de canal impossible"
+; EN: NetAlready="Already networking"
+NetAlready="DÃ©jÃ  en rÃ©seau"
+; EN: NetListen="Listen failed: No linker context available"
+NetListen="Ecoute impossible: pas de contexte linker disponible"
+; EN: LoadEntry="Can't load Entry: %ls"
+LoadEntry="Chargement de Entry impossible: %ls"
+; EN: InvalidUrl="Invalid URL: %ls"
+InvalidUrl="Mauvaise URL: %ls"
+; EN: InvalidLink="Invalid Link: %ls"
+InvalidLink="Mauvais lien: %ls"
+; EN: FailedBrowse="Failed to enter %ls: %ls"
+FailedBrowse="Impossible de rejoindre %ls: %ls"
+; EN: Listen="Listen failed: %ls"
+Listen="Ecoute impossible: %ls"
+; EN: AbortToEntry="Failed; returning to Entry"
+AbortToEntry="Echec; renvoi Ã  Entry"
+; EN: ServerOpen="Servers can't open network URLs"
+ServerOpen="Les serveurs ne peuvent pas ouvrir les URLs rÃ©seau"
+; EN: ServerListen="Dedicated server can't listen: %ls"
+ServerListen="Les serveurs dÃ©diÃ©s ne peuvent pas Ã©couter: %ls"
+; EN: Pending="Pending connect to "%ls" failed; %ls"
+Pending="Connexion en cours Ã  '%ls' interrompue; %ls"
+; EN: LoadPlayerClass="Failed to load player class"
+LoadPlayerClass="Impossible de charger la classe du joueur"
+; EN: ServerOutdated="Server's version is outdated"
+ServerOutdated="Le serveur n'est pas Ã  jour"
+; EN: ClientOutdated="You need to upgrade to the latest patch version"
+ClientOutdated="Votre client n'est pas Ã  jouer, installer le dernier patch"
+; EN: RejectedByServer="Rejected by server"
+RejectedByServer="RejetÃ© du serveur"
+; EN: NetDecompressFail="Error decompressing file "%ls""
+NetDecompressFail="Erreur Ã  la dÃ©compression du package "%ls""
+; EN: MD5ChecksumFailed="Package %ls failed an MD5 check."
+MD5ChecksumFailed="Le package %ls n'a pas passÃ© le checksum MD5."
+
+[General]
+; EN: Upgrade="To enter this server, you need the latest free update to Unreal Tournament available from OldUnreals's Web site:"
+Upgrade="Pour accÃ©der Ã  ce serveur, vous avez besoin de la derniÃ¨re mise Ã  jour gratuite d'Unreal Tournament disponible sur le site Web d'OldUnreals:"
+UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
+; EN: UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
+UpgradeQuestion="Voulez-vous lancer votre navigateur pour vous procurer la mise Ã  jour?"
+; EN: Version="Version %i"
+Version="Version %i"
+
+[CheckSumCommandlet]
+HelpCmd=checksum
+HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
+; EN: HelpOneLiner="Calculate package checksum for stat logging"
+HelpOneLiner="GÃ©nÃ©rer le checksum du package"
+; EN: HelpUsage="checksum packagename.u"
+HelpUsage="checksum packagename.u"
+; EN: HelpParm[0]="packagename.u"
+HelpParm[0]="packagename.u"
+; EN: HelpDesc[0]="Filename to calculate checksum"
+HelpDesc[0]="Nom du package pour lequel gÃ©nÃ©rer le checksum"

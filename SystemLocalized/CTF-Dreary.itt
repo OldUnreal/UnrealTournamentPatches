@@ -1,0 +1,93 @@
+﻿[LevelInfo0]
+; EN: Title="Dreary Outpost"
+Title="Avamposto Dreary"
+IdealPlayerCount="8-12"
+
+[ZoneInfo17]
+; EN: ZoneName="Red Main Room"
+ZoneName="Sala Principale Rossa"
+
+[ZoneInfo18]
+; EN: ZoneName="Center loft"
+ZoneName="Soffitta Centrale"
+
+[ZoneInfo16]
+; EN: ZoneName="Blue Main Room"
+ZoneName="Sala Principale Blu"
+
+[ZoneInfo19]
+; EN: ZoneName="Red Upper Hall"
+ZoneName="Sala Superiore Rossa"
+
+[ZoneInfo20]
+; EN: ZoneName="Red Lower Hall"
+ZoneName="Sala Inferiore Rossa"
+
+[ZoneInfo22]
+; EN: ZoneName="Blue Upper Hall"
+ZoneName="Sala Superiore Blu"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Right Lift Entrance"
+ZoneName="Ingresso Ascensore Destro Blu"
+
+[ZoneInfo3]
+; EN: ZoneName="Red Right Lift Entrance"
+ZoneName="Ingresso Ascensore Destro Blu"
+
+[ZoneInfo0]
+; EN: ZoneName="Red Left Lift Entrance"
+ZoneName="Ingresso Ascensore Sinistro Rosso"
+
+[ZoneInfo21]
+; EN: ZoneName="Blue Lower Hall"
+ZoneName="Sala Inferiore Blu"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Left Lift Entrance"
+ZoneName="Ingresso Ascensore Sinistro Blu"
+
+[ZoneInfo15]
+; EN: ZoneName="Blue Loft"
+ZoneName="Soffitta Blu"
+
+[ZoneInfo14]
+; EN: ZoneName="Red Loft"
+ZoneName="Soffitta Rossa"
+
+[ZoneInfo11]
+; EN: ZoneName="Blue Left Lift"
+ZoneName="Ascensore Sinistro Blu"
+
+[ZoneInfo9]
+; EN: ZoneName="Red Left Lift"
+ZoneName="Ascensore Sinistro Rosso"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Right Lift"
+ZoneName="Ascensore Destro Rosso"
+
+[ZoneInfo10]
+; EN: ZoneName="Blue Right Lift"
+ZoneName="Ascensore Destro Blu"
+
+[SlimeZone0]
+; EN: ZoneName="Red Slime Pool"
+ZoneName="Pozza di Fango Rossa"
+
+[SlimeZone1]
+; EN: ZoneName="Blue Slime Pool"
+ZoneName="Pozza di Fango Blu"
+
+[LevelSummary]
+; EN: Title="Dreary Outpost"
+Title="Avamposto Dreary"
+IdealPlayerCount="8-12"
+
+[ZoneInfo13]
+; EN: ZoneName="Red Base"
+ZoneName="Base Rossa"
+
+[ZoneInfo12]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Blu"

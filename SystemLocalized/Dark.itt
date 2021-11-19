@@ -1,26 +1,39 @@
-[LevelInfo0]
+Ôªø[LevelInfo0]
+; EN: Title="Dark Arena"
 Title="Arena Oscura"
+; EN: LevelEntryText="Entering the Dark Arena"
+LevelEntryText="Arrivo all'Arena Oscura"
+
+[LevelSummary]
+; EN: Title="Dark Arena"
+Title="Arena Oscura"
+; EN: LevelEntryText="Entering the Dark Arena"
+LevelEntryText="Arrivo all'Arena Oscura"
 
 [TranslatorEvent0]
-message="Il debole verr‡ abbattuto dalla mano della bestia."
+; EN: Message="The weak shall be struck down by the hand of the beast."
+Message="Il debole verr√† abbattuto dalla mano della bestia."
 
 [TranslatorEvent2]
-message="Sono scappato dalla mia cella ma non trovo la forza di proseguire.  Ricordatemi alla mia famiglia..."
-
-[TranslatorEvent1]
-message="Queste leve azionano l'apertura delle celle."
+; EN: Message="I escaped from my cell but can't find the strength to go on. Remember me to my family..."
+Message="Sono scappato dalla mia cella ma non trovo la forza di proseguire. Ricordatemi alla mia famiglia..."
 
 [TranslatorEvent3]
-message="Vorrei essere morto quando la Vortex Rikers si Ë schiantata. Ora non so cosa sar‡ di me.  Ho paura."
+; EN: Message="I wish I had died when the Vortex Rikers crashed. I do not know what is to become of me. I am scared."
+Message="Vorrei essere morto quando la Vortex Rikers si √® schiantata. Ora non so cosa sar√† di me. Ho paura."
 
 [TranslatorEvent4]
-message="Sono cosÏ affamato. Spero che gli altri del gruppo esplorativo della ISV Kran mi trovino. Questa speranza che mi fa andare ancora avanti: senza di essa sarei gi‡ diventato pazzo. Non riuscirÚ a sopportare le urla di dolore ancora per molto."
+; EN: Message="I'm so hungry. I hope that the others in the scouting party from the ISV-KRAN will find me. This is the only hope that keeps me going from day to day. Without that to cling to I'd be insane by now. I can't stand the screams of pain much longer."
+Message="Sono cos√¨ affamato. Spero che gli altri del gruppo esplorativo della ISV-KRAN mi trovino. Questa speranza che mi fa andare ancora avanti: senza di essa sarei gi√† diventato pazzo. Non riuscir√≤ a sopportare le urla di dolore ancora per molto."
 
 [TranslatorEvent5]
-message="Se dovrÚ morire in questo posto, mi rallegra almeno il fatto che alcuni dei miei aguzzini sono qui con me. Domani troverÚ la pace eterna nella morte, sapendo che anche loro stanno soffrendo."
+; EN: Message="If I am to die here in this place, it pleases my mind that some of my former captors are here with me. Tomorrow I will find my own peace in death knowing that they have all suffered before me."
+Message="Se dovr√≤ morire in questo posto, mi rallegra almeno il fatto che alcuni dei miei aguzzini sono qui con me. Domani trover√≤ la pace eterna nella morte, sapendo che anche loro stanno soffrendo."
 
 [TranslatorEvent6]
-message="Devo trovare una via d'uscita. Questi uomini lucertola sono stranamente barbarici dato il livello tecnologico suggerito dalle loro armi. Potrebbe essere pi˘ difficile ingannarli di quanto pensassi, ma devo tentare."
+; EN: Message="I must try to find a way out of this place. The lizard men in charge here are strangely barbaric given the technological advancement implied by their weapons. It may be harder to fool them than I first thought, but I must make the attempt."
+Message="Devo trovare una via d'uscita. Questi uomini lucertola sono stranamente barbarici dato il livello tecnologico suggerito dalle loro armi. Potrebbe essere pi√π difficile ingannarli di quanto pensassi, ma devo tentare."
 
 [TranslatorEvent7]
-message="Gli Skaarj hanno catturato un altro gruppo di pellemorbida a quattro braccia con una delle loro incursioni. Temo che uno di loro sia il Messia disceso dai cieli, ma devo pregare di essere in errore e non perdere la speranza per la libert‡ della mia gente."
+; EN: Message="The Skaarj have brought in a new batch of the two armed softskins from another of their raids. I fear that one of them is the Messiah, come down from the heavens, but I must pray that I am mistaken and not give up hope for the freedom of my people."
+Message="Gli Skaarj hanno catturato un altro gruppo di pellemorbida a quattro braccia con una delle loro incursioni. Temo che uno di loro sia il Messia disceso dai cieli, ma devo pregare di essere in errore e non perdere la speranza per la libert√† della mia gente."

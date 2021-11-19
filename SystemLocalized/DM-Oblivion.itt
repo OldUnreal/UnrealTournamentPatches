@@ -1,0 +1,15 @@
+﻿[LevelInfo0]
+Title="ITV Oblivion"
+IdealPlayerCount="2-3"
+; EN: LevelEnterText="Smoke 'em..."
+LevelEnterText="Abbrustoliscili..."
+
+[ZoneInfo0]
+; EN: ZoneName="Battle Arena"
+ZoneName="Arena di Battaglia"
+
+[LevelSummary]
+Title="ITV Oblivion"
+IdealPlayerCount="2-3"
+; EN: LevelEnterText="Smoke 'em..."
+LevelEnterText="Abbrustoliscili..."

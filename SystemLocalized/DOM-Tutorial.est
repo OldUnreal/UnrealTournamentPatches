@@ -1,11 +1,15 @@
 ﻿[LevelInfo0]
+; EN: Title="DOM Tutorial"
 Title="Tutorial DOM"
 
 [ControlPoint0]
+; EN: PointName="Alpha"
 PointName="Alfa"
 
 [ControlPoint1]
-PointName="Gamma"
+; EN: PointName="Gamma"
+PointName="Gama"
 
 [LevelSummary]
-Title="DOM Tutorial"
+; EN: Title="DOM Tutorial"
+Title="Tutorial DOM"

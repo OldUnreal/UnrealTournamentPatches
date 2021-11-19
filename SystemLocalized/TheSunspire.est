@@ -1,78 +1,119 @@
-[TranslatorEvent1]
-Message=C·maras de Honor
+Ôªø[LevelInfo0]
+; EN: Title="The Sunspire"
+Title="La Punta del Sol"
+; EN: LevelEntryText="Entering The Sunspire"
+LevelEntryText="Entrando a la Punta del Sol"
 
-[TranslatorEvent9]
-Message= AscensiÛn Primaria
-Hint=Ten mucho cuidado. Busca tu camino a la cima.
-
-[TranslatorEvent10]
-Message=Cisterna
-Hint=Hay un secreto en el agua. No te olvides la linterna.
-
-[TranslatorEvent20]
-Message=Diario:   Oficial de Seguridad A.Connectof: Nos vamos a quedar pronto sin municiones. SÛlo queda un arma.  Hemos de llegar a la cima donde podremos activar los cristales que llaman al ascensor al cielo, seg˙n el nali en las puertas.
-Hint=Busca tu camino en la sala de cristal. Desde aquÌ podr·s llamar al ascensor al cielo.
-
-[TranslatorEvent14]
-Message=C·maras para Dormir
-
-[TranslatorEvent8]
-Message=Preparados para embarcar
-Hint=Activa el cristal, luego vete fuera y espera a que baje el ascensor al cielo. Sube a bordo y disfruta el viaje.
-
-[TranslatorEvent6]
-Message=Cocinas
-Hint=A veces la oscuridad te puede llevar al camino correcto. No te olvides la linterna.
-
-[TranslatorEvent13]
-Message=Sala Festiva
-
-[TranslatorEvent11]
-Message= C·maras para Dormir
-Hint= A veces la oscuridad te puede llevar al camino correcto. No te olvides la linterna.
-
-[TranslatorEvent15]
-Message= Sala Festiva
-
-[TranslatorEvent5]
-Message= AscensiÛn Primaria
-
-[TranslatorEvent7]
-Message=C·mara de Cristal
-Hint= Activa el cristal y luego las puertas exteriores y espera que baje el ascensor al cielo. Sube a bordo y disfruta el viaje.
-
-[TranslatorEvent3]
-Message=C·maras de Honor
-
-[TranslatorEvent0]
-Message=Gran SalÛn.
-Hint=Busca el interruptor en la pared del gran salÛn. Te mostrar· un secreto con el que podr·s continuar hacia arriba.
-
-[LevelInfo0]
-Title=El Sunspire
-
-[TranslatorEvent16]
-Message= AscensiÛn Primaria
-Hint=Ten mucho cuidado. Busca tu camino en la cima.
-
-[TranslatorEvent25]
-Hint=Busca tu camino hasta la sala de cristal. Desde aquÌ puedes llamar al ascensor al cielo.
-
-[TranslatorEvent23]
-Hint=Lo has hecho muy bien hasta ahora, contin˙a asÌ....
-
-[TranslatorEvent24]
-Message=Diario: Oficial Subordinado N. Onalopov: Nos hemos separado para poder tener mejores oportunidades de encontrar a Kira. Esos sinverg¸enzas lo van a pagar muy caro por llev·rsela. Te quiero Kira. Te prometo que te encontrarÈ.
-Hint= Busca tu camino hasta la sala de cristal. Desde aquÌ puedes llamar al ascensor al cielo.
-
-[TranslatorEvent4]
-Message=Sunspire
-Hint= Ten mucho cuidado. Busca tu camino en la cima.
-
-[TranslatorEvent12]
-Message=C·maras de BaÒo
+[LevelSummary]
+; EN: Title="The Sunspire"
+Title="La Punta del Sol"
+; EN: LevelEntryText="Entering The Sunspire"
+LevelEntryText="Entrando a la Punta del Sol"
 
 [TranslatorEvent17]
-Message=' Hoy no voy a volver a Sunspire. Esta maÒana casi me mataron los Demonios del Cielo y estoy muy preocupado por nuestros hermanos que todavÌa no han escapado. Me temo que no los veremos m·s con vida.
-Hint=Cuidado con la plataforma saliente. Si te caes, te morir·s.
+; EN: Message="I will not return to the Sunspire today. I was almost slain by the Sky Demon this morning and I fear for our brothers that have not yet escaped. I feel that we will not see them again in this life."
+Message="No volver√© hoy a la Punta del Sol. Esta ma√±ana casi me mataron los Demonios del Cielo y temo por nuestros hermanos que a√∫n no han escapado. Siento que no los volveremos a ver en esta vida."
+; EN: Hint="Watch out on the ledge. If you fall, you will fall to your death."
+Hint="Cuidado con la cornisa. Si te caes, morir√°s."
 
+[TranslatorEvent1]
+; EN: Message="Chambers of Honour"
+Message="C√°maras de Honor"
+
+[TranslatorEvent3]
+; EN: Message="Chambers of Honour"
+Message="C√°maras de Honor"
+
+[TranslatorEvent20]
+; EN: Message="Log: Security Officer A. Connectof: We are running out of ammo fast. There's only one weapon left. We have to reach the top where we can activate the crystal that calls the Sky Elevator, according to the Nali at the gates."
+Message="Registro: Oficial de seguridad A. Connectof: Nos estamos quedando sin munici√≥n r√°pidamente. Solo queda un arma. Tenemos que llegar a la cima, donde podremos activar el cristal que llama al ascensor a√©reo, seg√∫n el Nali de las puertas."
+; EN: Hint="Find your way up to the crystal room. From there you can call the skyelevator."
+Hint="Trata de llegar a la sala del cristal. Desde all√≠ podr√°s llamar al ascensor a√©reo."
+
+[TranslatorEvent10]
+; EN: Message="Cistern"
+Message="Cisterna"
+; EN: Hint="There is a secret in the water. Make sure you bring your flashlight."
+Hint="Hay un secreto en el agua. No te olvides de utilizar tu linterna."
+
+[TranslatorEvent14]
+; EN: Message="Sleeping Chambers"
+Message="Dormitorios"
+
+[TranslatorEvent9]
+; EN: Message="Primary Ascension"
+Message="Ascenso Primario"
+; EN: Hint="Proceed with great care. Find your way to the top."
+Hint="Ten mucho cuidado. Trata de llegar a la cima."
+
+[TranslatorEvent0]
+; EN: Message="Great Hall"
+Message="Gran sal√≥n"
+; EN: Hint="Find the switch on the wall in the great hall. It will show you a secret and you will be able to proceed upwards."
+Hint="Busca el interruptor en la pared del Gran Sal√≥n. Te mostrar√° un secreto con el que podr√°s continuar hacia arriba."
+
+[TranslatorEvent5]
+; EN: Message="Primary Ascension"
+Message="Ascenso Primario"
+
+[TranslatorEvent7]
+; EN: Message="Chamber of Crystals"
+Message="C√°mara de Cristales"
+; EN: Hint="Activate the crystal then go outdoors and wait for the Sky Elevator to come down. Get on board and enjoy the ride."
+Hint="Activa el cristal, luego sal al exterior y espera a que baje el ascensor a√©reo. Sube a bordo y disfruta del viaje."
+
+[TranslatorEvent15]
+; EN: Message="Feast Hall"
+Message="Sal√≥n de fiestas"
+
+[TranslatorEvent6]
+; EN: Message="Kitchens"
+Message="Cocinas"
+; EN: Hint="Sometimes the dark can lead you to the right way. Make sure you bring your flashlight."
+Hint="A veces, la oscuridad puede llevarte al camino correcto. No te olvides tu linterna."
+
+[TranslatorEvent11]
+; EN: Message="Sleeping Chambers"
+Message="Dormitorios"
+; EN: Hint="Sometimes the dark can lead you to the right way. Make sure you bring your flashlight."
+Hint="A veces, la oscuridad puede llevarte al camino correcto. No te olvides tu linterna."
+
+[TranslatorEvent13]
+; EN: Message="Feast Hall"
+Message="Sal√≥n de fiestas"
+
+[TranslatorEvent12]
+; EN: Message="Bathing Chambers"
+Message="C√°maras de ba√±o"
+
+[TranslatorEvent4]
+; EN: Message="Sunspire"
+Message="Punta del Sol"
+; EN: Hint="Proceed with great care. Find your way to the top."
+Hint="Ten mucho cuidado. Trata de llegar a la cima."
+
+[TranslatorEvent8]
+; EN: Message="Prepare to Embark"
+Message="Prep√°rate para embarcar"
+; EN: Hint="Activate the crystal then go outdoors and wait for the Skyelevator to come down. Get on board and enjoy the ride."
+Hint="Activa el cristal, luego sal al exterior y espera a que baje el ascensor a√©reo. Sube a bordo y disfruta del viaje."
+
+[TranslatorEvent16]
+; EN: Message="Primary Ascension"
+Message="Ascenso Primario"
+; EN: Hint="Proceed with great care. Find your way to the top."
+Hint="Ten mucho cuidado. Trata de llegar a la cima."
+
+[TranslatorEvent25]
+; EN: Hint="Find your way up to the crystal room. From there you can call the skyelevator."
+Hint="Trata de llegar a la sala del cristal. Desde all√≠ podr√°s llamar al ascensor a√©reo."
+
+[TranslatorEvent24]
+; EN: Message="Log: Petty Officer N. Onalopov: We split up so we would have a better chance of finding Kira. Those bastards are going to pay for taking her. I love you Kira. I swear I'll find you."
+Message="Registro: Suboficial N. Onalopov: Nos hemos separado para tener mejores oportunidades de encontrar a Kira. Esos sinverg√ºenzas van a pagar muy caro por llev√°rsela. Te amo Kira. Te juro que te encontrar√©."
+; EN: Hint="Find your way up to the crystal room. From there you can call the skyelevator."
+Hint="Trata de llegar a la sala del cristal. Desde all√≠ podr√°s llamar al ascensor a√©reo."
+
+[TranslatorEvent23]
+; EN: Hint="You've made it so far, keep going..."
+Hint="Lo has hecho muy bien hasta ahora, sigue adelante ..."

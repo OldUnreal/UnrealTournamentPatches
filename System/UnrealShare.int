@@ -345,8 +345,8 @@ GameName="Team Game"
 
 [ASMD]
 DeathMessage="%k inflicted mortal damage upon %o with the %w."
-PickupMessage="You got the ASMD Rifle"
-ItemName="ASMD Rifle"
+PickupMessage="You got the ASMD"
+ItemName="ASMD"
 
 [UnrealWeaponMenu]
 MenuTitle="PRIORITIES"

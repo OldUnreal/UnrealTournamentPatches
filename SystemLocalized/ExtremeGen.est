@@ -1,3 +1,11 @@
-[LevelInfo5]
+﻿[LevelInfo5]
+; EN: Title="Skaarj Generator"
 Title="Generador Skaarj"
+; EN: LevelEntryText="Entering the Skaarj Generator"
+LevelEntryText="Entrando al Generador Skaarj"
 
+[LevelSummary]
+; EN: Title="Skaarj Generator"
+Title="Generador Skaarj"
+; EN: LevelEntryText="Entering the Skaarj Generator"
+LevelEntryText="Entrando al Generador Skaarj"
