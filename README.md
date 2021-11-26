@@ -46,7 +46,7 @@ After installing the data files, you should be able to launch the UnrealTourname
 
 ## System Requirements
 
-Our patches should work on any fairly modern x86 desktop and server.
+A CPU with **SSE2** instruction set is a must. In practice, this means all systems (including Linux and Windows XP or later) will need at least a 64-bit x86 CPU or a Pentium 4 or later.
 
 Windows systems will need to run Windows XP or later. Some features (e.g., Cluster and ALAudio) are only available on systems running Windows Vista or later.
 
