@@ -30,7 +30,11 @@ We also have an exe installer with a wizard. This wizard should automatically fi
 
 #### Linux Installation
 
-The **Linux** version of our patch is only available as a tarball. To install, unpack the tarball **on top of an existing installation** of Unreal Tournament. No other actions are needed to install the patch.
+The **Linux** version of our patch is only available as a tarball. To install, unpack the tarball **on top of an existing installation** of Unreal Tournament.
+
+**Note:** Our patch includes several 3rd party libraries, including SDL2 and OpenAL-Soft. These libraries were built and tested on Debian-based systems. However, if you run a non-Debian-based distribution and if you run into any trouble (e.g., audio not working), we highly recommend that you delete libSDL2 and libopenal from your UnrealTournament/System folder and install your distribution's version of SDL2 and OpenAL-Soft instead. Please contact your distro maintainer for instructions.
+
+No other actions are needed to install the patch.
 
 #### macOS Installation
 
@@ -52,7 +56,7 @@ Windows systems will need to run Windows XP or later. Some features (e.g., Clust
 
 Linux systems will need GNU libc 2.19 or later. 
 
-macOS systems will need a 64-bit x86 CPU and Mac OS X Mavericks (10.9) or later. Some rendering features may be unavaiable on macOS.
+macOS systems will need a 64-bit x86 CPU and Mac OS X Mavericks (10.9) or later. Some rendering features may be unavaiable on macOS. Apple M1 support is planned for the next patch.
 
 ## Features
 
