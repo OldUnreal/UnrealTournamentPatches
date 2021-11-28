@@ -46,11 +46,11 @@ After installing the data files, you should be able to launch the UnrealTourname
 
 ## System Requirements
 
-A CPU with **SSE2** instruction set is a must. In practice, this means all systems (including Linux and Windows XP or later) will need at least a 64-bit x86 CPU or a Pentium 4 or later.
+Windows and Linux systems will need a CPU with **SSE2** instruction set support. In practice, this means all 64-bit x86 CPUs, all Intel CPUs since (and including) the Pentium 4, and all AMD CPUs since (and including) the Athlon 64 are supported.
 
 Windows systems will need to run Windows XP or later. Some features (e.g., Cluster and ALAudio) are only available on systems running Windows Vista or later.
 
-Linux systems will need GNU libc 2.19 or later.
+Linux systems will need GNU libc 2.19 or later. 
 
 macOS systems will need a 64-bit x86 CPU and Mac OS X Mavericks (10.9) or later. Some rendering features may be unavaiable on macOS.
 
