@@ -1,7 +1,8 @@
-[Public]
+﻿[Public]
 Object=(Name=SoftDrv.SoftwareRenderDevice,Class=Class,MetaClass=Engine.RenderDevice)
-Preferences=(Caption="Rendering",Parent="Erweiterte Optionen")
-Preferences=(Caption="Software-Rendering",Parent="Rendering",Class=SoftDrv.SoftwareRenderDevice,Immediate=True)
+; EN: Preferences=(Caption="Software Rendering",Parent="Rendering",Class=SoftDrv.SoftwareRenderDevice,Immediate=True)
+Preferences=(Caption="Rendern über Software",Parent="Rendering",Class=SoftDrv.SoftwareRenderDevice,Immediate=True)
 
 [SoftwareRenderDevice]
-ClassCaption="Software-Rendering"
+; EN: ClassCaption="Software Rendering"
+ClassCaption="Rendern über Software"

@@ -1,0 +1,21 @@
+﻿[LevelInfo0]
+; EN: Title="Orion's Barricade"
+Title="Barrikade des Orion"
+IdealPlayerCount="6-12"
+
+[ZoneInfo11]
+; EN: ZoneName="Outside"
+ZoneName="Draußen"
+
+[ZoneInfo12]
+; EN: ZoneName="Castle"
+ZoneName="Schloss"
+
+[ZoneInfo13]
+; EN: ZoneName="Basement"
+ZoneName="Keller"
+
+[LevelSummary]
+; EN: Title="Orion's Barricade"
+Title="Barrikade des Orion"
+IdealPlayerCount="6-12"

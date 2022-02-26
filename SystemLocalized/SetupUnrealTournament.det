@@ -1,0 +1,27 @@
+﻿[Setup]
+LocalProduct="Unreal Tournament"
+DefaultFolder="C:\Program Files\Unreal Tournament"
+ReadMe="Help\469ReleaseNotes.pdf"
+; EN: SetupWindowTitle="Unreal Tournament Setup"
+SetupWindowTitle="Unreal Tournament Setup"
+; EN: AutoplayWindowTitle="Unreal Tournament Options"
+AutoplayWindowTitle="Unreal Tournament-Optionen"
+ProductURL="http://www.unrealtournament.com/"
+VersionURL="http://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 469 by Oldunreal"
+Developer="Epic Games, Inc. - 469 von Oldunreal"
+DeveloperURL="http://www.oldunreal.com/"
+Logo="Help\Logo.bmp"
+
+[UnrealRequirement]
+LocalProduct="Unreal Tournament"
+ProductURL="http://www.unrealtournament.com/"
+VersionURL="http://www.epicgames.com/"
+Developer="Epic Games, Inc."
+DeveloperURL="http://www.epicgames.com/"
+
+[LinuxGroup]
+; EN: Caption="Linux native files"
+Caption="Native Linux-Dateien"
+; EN: Description="Copies all files required to run and play Unreal Tournament natively in Linux. There is no Advanced Options menu yet, but all settings are noted and can be edited in the UnrealTournamentLinux.ini in the System folder. The level editor UnrealED 2.1 is not available in Linux yet. If you have trouble starting the game, there is more information and a FAQ inside the ReleaseNotes in the Help directory. If your system doesn't provide all libraries, there is a package called lin_convenience_libs.7z in the Help folder which should contain all the necessary files."
+Description="Kopiert alle Dateien, die zum Ausführen und Spielen von Unreal Tournament nativ unter Linux erforderlich sind. Es gibt noch kein Menü für erweiterte Optionen, aber alle Einstellungen werden notiert und können in der Datei UnrealTournamentLinux.ini im Ordner System bearbeitet werden. Der Level-Editor UnrealED 2.1 ist unter Linux noch nicht verfügbar. Wenn Sie Probleme beim Starten des Spiels haben, finden Sie weitere Informationen und häufig gestellte Fragen in den ReleaseNotes im Hilfeverzeichnis. Wenn Ihr System nicht alle Bibliotheken bereitstellt, befindet sich im Hilfeordner ein Paket mit dem Namen lin_convenience_libs.7z, das alle erforderlichen Dateien enthalten sollte."

@@ -1,9 +1,12 @@
-[Public]
+ï»¿[Public]
 Object=(Name=GlideDrv.GlideRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=Glide2X.dll)
-Preferences=(Caption="Rendering",Parent="Erweiterte Optionen")
-Preferences=(Caption="3dfx-Glide-Unterstützung",Parent="Rendering",Class=GlideDrv.GlideRenderDevice,Immediate=True)
+; EN: Preferences=(Caption="3dfx Glide Support",Parent="Rendering",Class=GlideDrv.GlideRenderDevice,Immediate=True)
+Preferences=(Caption="UnterstÃ¼tzung fÃ¼r 3dfx Glide-Video",Parent="Rendern",Class=GlideDrv.GlideRenderDevice,Immediate=True)
 
 [GlideRenderDevice]
-ClassCaption="3dfx Glide für Windows"
-AskInstalled=Besitzt Du eine 3dfx-Karte?
-AskUse=Möchtest Du, daß Unreal die 3dfx-Karte verwendet?
+; EN: ClassCaption="3dfx Glide Support"
+ClassCaption="UnterstÃ¼tzung fÃ¼r 3dfx Glide-Video"
+; EN: AskInstalled="Do you have a 3dfx card installed?"
+AskInstalled="Besitzt Du eine 3dfx-Karte?"
+; EN: AskUse="Do you want Unreal Tournament to use your 3dfx card?"
+AskUse="MÃ¶chtest Du, daÃŸ Unreal Tournament die 3dfx-Karte verwendet?"

@@ -1,0 +1,41 @@
+﻿[LevelInfo0]
+; EN: Title="City Domination"
+Title="Stadtherrschaft"
+IdealPlayerCount="4-8"
+
+[ZoneInfo2]
+; EN: ZoneName="Subway"
+ZoneName="U-Bahn"
+
+[ZoneInfo3]
+; EN: ZoneName="Club"
+ZoneName="Verein"
+
+[ZoneInfo1]
+; EN: ZoneName="Outside"
+ZoneName="Draußen"
+
+[ZoneInfo4]
+; EN: ZoneName="Outside"
+ZoneName="Draußen"
+
+[ZoneInfo0]
+; EN: ZoneName="Roof"
+ZoneName="Dach"
+
+[ControlPoint0]
+; EN: PointName="Club"
+PointName="Verein"
+
+[ControlPoint2]
+; EN: PointName="Subway"
+PointName="U-Bahn"
+
+[ControlPoint1]
+; EN: PointName="Roof"
+PointName="Dach"
+
+[LevelSummary]
+; EN: Title="City Domination"
+Title="Stadtherrschaft"
+IdealPlayerCount="4-8"

@@ -1,7 +1,7 @@
 ﻿;
-; Language:  English (International)
-; Author(s): Sebastian Kaufel
-; Date:      20191107
+; Language:  Italian
+; Author(s): OldUnreal Team
+; Date:      20210629
 ;
 [Public]
 Object=(Name=Cluster.ClusterAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem)
@@ -32,6 +32,8 @@ No3dSoundSwitch="-No3dSound rilevato. L'opzione Use3dHardware verrà ignorata da
 ; Cluster will use some heuristics to determine whether it should or should not patch the environment (won't patch if Launch is detected in Deus Ex, never on Unreal 227 or UT, etc.).
 ; EN: ClusterFuck="Cluster injected binary patches for broken audio functionality into Engine package. You can use -NoClusterFuck to disable it."
 ClusterFuck="Cluster ha inserito patch binarie per funzionalità audio interrotte nel pacchetto Engine. Puoi usare -NoClusterFuck per disabilitarlo."
+; EN: SelectedDriver="Cluster selected output driver: %ls."
+SelectedDriver="Driver di output selezionato per Cluster: %ls."
 
 [Warnings]
 ; Serialized to output device for each digital music command in case UseDigitalMusic is disabled.
@@ -54,3 +56,9 @@ Version="Il cluster prevede una versione minima della libreria FMOd %ls, ma è s
 ; For some reasons FMOD fails at basic init. First format option is an FMOD supplied english error description.
 ; EN: SystemInit="Failed to initialize FMOD system object: %ls."
 SystemInit="Impossibile inizializzare l'oggetto di sistema FMOD: %ls."
+; EN: SystemGetNumDrivers="Failed to get number of FMOD output drivers: %ls."
+SystemGetNumDrivers="Impossibile ottenere il numero di driver di output FMOD: %ls."
+; EN: SystemGetDriver="Failed to get current FMOD output driver: %ls."
+SystemGetDriver="Impossibile ottenere il driver di output FMOD corrente: %ls."
+; EN: SystemSetDriver="Failed to set FMOD output driver: %ls."
+SystemSetDriver="Impossibile impostare il driver di output FMOD: %ls."

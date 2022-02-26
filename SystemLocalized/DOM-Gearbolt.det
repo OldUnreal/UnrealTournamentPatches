@@ -1,0 +1,37 @@
+﻿[LevelInfo0]
+; EN: Title="Gearbolt Installation"
+Title="Installation der Getriebeschraube"
+IdealPlayerCount="6-12"
+
+[ZoneInfo8]
+; EN: ZoneName="Bridge"
+ZoneName="Brücke"
+
+[ZoneInfo7]
+; EN: ZoneName="Ramp"
+ZoneName="Rampe"
+
+[ZoneInfo9]
+; EN: ZoneName="Lift"
+ZoneName="Aufzug"
+
+[ZoneInfo10]
+; EN: ZoneName="Basement"
+ZoneName="Keller"
+
+[ControlPoint2]
+; EN: PointName="Bridge"
+PointName="Brücke"
+
+[ControlPoint0]
+; EN: PointName="Lift"
+PointName="Aufzug"
+
+[ControlPoint1]
+; EN: PointName="Ramp"
+PointName="Rampe"
+
+[LevelSummary]
+; EN: Title="Gearbolt Installation"
+Title="Installation der Getriebeschraube"
+IdealPlayerCount="6-12"

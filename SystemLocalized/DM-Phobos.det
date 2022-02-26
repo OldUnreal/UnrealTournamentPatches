@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+; EN: Title="Phobos Moon"
+Title="Phobos Mond"
+IdealPlayerCount="4-8"
+
+[ZoneInfo5]
+; EN: ZoneName="Outer Space"
+ZoneName="Weltraum"
+
+[ZoneInfo7]
+; EN: ZoneName="Central"
+ZoneName="Zentral"
+
+[ZoneInfo6]
+; EN: ZoneName="Lift 1"
+ZoneName="Heben Sie 1"
+
+[ZoneInfo8]
+; EN: ZoneName="Stairs Corridor"
+ZoneName="Treppenhaus"
+
+[ZoneInfo9]
+; EN: ZoneName="BioRifle Corridor"
+ZoneName="Bio-Gewehrkorridor"
+
+[LevelSummary]
+; EN: Title="Phobos Moon"
+Title="Phobos Mond"
+IdealPlayerCount="4-8"

@@ -1179,8 +1179,8 @@ PickupMessage="Hai raccolto la Supersalute"
 ItemName="Supersalute"
 
 [UpgradeMenu]
-; EN: MenuList[1]="You need a newer version of UnrealTournament to play on this server. Would you like to go to the OldUnreal web site for a newer version?"
-MenuList[1]="Hai bisogno di una versione più recente di Unreal per giocare su questo server. Vuoi andare al sito web di OldUnreal per ottenere una versione più recente?"
+; EN: MenuList[1]="You need a newer version of Unreal Tournament to play on this server. Would you like to go to the OldUnreal web site for a newer version?"
+MenuList[1]="Hai bisogno di una versione più recente di Unreal Tournament per giocare su questo server. Vuoi andare al sito web di OldUnreal per ottenere una versione più recente?"
 
 [StingerAmmo]
 ; EN: PickupMessage="You picked up 40 Tarydium Shards"

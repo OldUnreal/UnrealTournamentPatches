@@ -120,8 +120,6 @@ Object=(Name=BotPack.CTFDefaultMapList,Class=Class,MetaClass=Botpack.CTFMapList,
 ; EN: Object=(Name=BotPack.TDKDefaultMapList,Class=Class,MetaClass=Botpack.TDKMapList,Description="Default Maps")
 Object=(Name=BotPack.TDKDefaultMapList,Class=Class,MetaClass=Botpack.TDKMapList,Description="Mappe predefinite")
 ; Preferences
-; EN: Preferences=(Caption="Game Types",Parent="Advanced Options",Class=Botpack.TournamentGameInfo,Immediate=True)
-Preferences=(Caption="Tipi di Gioco",Parent="Opzioni avanzate",Class=Botpack.TournamentGameInfo,Immediate=True)
 ; EN: Preferences=(Caption="Tournament Deathmatch",Parent="Game Types",Class=Botpack.DeathmatchPlus,Immediate=True)
 Preferences=(Caption="Deathmatch nel Torneo",Parent="Tipi di Gioco",Class=Botpack.DeathmatchPlus,Immediate=True)
 ; EN: Preferences=(Caption="Tournament Team Game",Parent="Game Types",Class=Botpack.TeamGamePlus,Immediate=True)
@@ -419,7 +417,7 @@ Skills[6]="Inumano"
 Skills[7]="Divino"
 
 [TrainingDM]
-; Note: Translated lines and their lengths MUST be synced with their respective lines from TutVoiceDM.uax_itt!
+; N_K: Translated lines and their lengths MUST be synced with their respective lines from TutVoiceDM.uax_itt!
 SoundLengths[0]=14
 SoundLengths[1]=13
 SoundLengths[2]=7

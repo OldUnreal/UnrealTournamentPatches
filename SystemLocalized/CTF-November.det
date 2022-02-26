@@ -1,0 +1,40 @@
+﻿[LevelInfo0]
+; EN: Title="November Sub Pen"
+Title="Unterwasserstrafanstalt November"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Entering November-Nuclear Submarine Pen."
+LevelEnterText="Eintritt in den Nuklear-U-Boot-Gefängnis November."
+
+[ZoneInfo4]
+ZoneName="Sub Pen"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Blaue Basis"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Foyer"
+ZoneName="Rotes Foyer"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Entry"
+ZoneName="Roter Eintrag"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Foyer"
+ZoneName="Blaues Foyer"
+
+[ZoneInfo0]
+; EN: ZoneName="Red Base"
+ZoneName="Rote Basis"
+
+[WaterZone5]
+; EN: ZoneName="Water"
+ZoneName="Wasser"
+
+[LevelSummary]
+; EN: Title="November Sub Pen"
+Title="Unterwasserstrafanstalt November"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Entering November-Nuclear Submarine Pen."
+LevelEnterText="Eintritt in den Nuklear-U-Boot-Gefängnis November."

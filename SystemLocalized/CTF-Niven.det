@@ -1,0 +1,37 @@
+﻿[LevelInfo0]
+; EN: Title="Niven Experimental Lab"
+Title="Versuchslabor Niven"
+IdealPlayerCount="4-6"
+; EN: LevelEnterText="Niven Experimental Lab"
+LevelEnterText="Versuchslabor Niven"
+
+[ZoneInfo1]
+; EN: ZoneName="Central Area"
+ZoneName="Zentralbereich"
+
+[ZoneInfo3]
+; EN: ZoneName="Red Reactor"
+ZoneName="Roter Reaktor"
+
+[ZoneInfo5]
+; EN: ZoneName="Blue Reactor"
+ZoneName="Blauer Reaktor"
+
+[ZoneInfo4]
+; EN: ZoneName="Red Base"
+ZoneName="Rote Basis"
+
+[ZoneInfo6]
+; EN: ZoneName="Blue Base"
+ZoneName="Blaue Basis"
+
+[LevelSummary]
+; EN: Title="Niven Experimental Lab"
+Title="Versuchslabor Niven"
+IdealPlayerCount="4-6"
+; EN: LevelEnterText="Niven Experimental Lab"
+LevelEnterText="Versuchslabor Niven"
+
+[SpecialEvent6]
+; EN: DamageString="%1 was chopped up."
+DamageString="%1 wurde zerhackt."

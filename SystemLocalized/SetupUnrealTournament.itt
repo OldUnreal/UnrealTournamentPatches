@@ -1,6 +1,6 @@
 ﻿[Setup]
 LocalProduct="Unreal Tournament"
-DefaultFolder="C:\UnrealTournament"
+DefaultFolder="C:\Program Files\Unreal Tournament"
 ReadMe="Help\469ReleaseNotes.pdf"
 ; EN: SetupWindowTitle="Unreal Tournament Setup"
 SetupWindowTitle="Installazione di Unreal Tournament"

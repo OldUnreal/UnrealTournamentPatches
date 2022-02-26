@@ -1,0 +1,35 @@
+﻿[LevelInfo0]
+; EN: Title="Assault Tutorial"
+Title="Angriffs-Tutorial"
+IdealPlayerCount="2-4"
+
+[LevelSummary]
+; EN: Title="Assault Tutorial"
+Title="Angriffs-Tutorial"
+IdealPlayerCount="2-4"
+
+[FortStandard1]
+; EN: FortName="The Fuse"
+FortName="Die Sicherung"
+; EN: DestroyedMessage="has been ignited!"
+DestroyedMessage="wurde gezündet!"
+
+[FortStandard2]
+; EN: FortName="The Garage Door"
+FortName="Das Garagentor"
+; EN: DestroyedMessage="was breached!"
+DestroyedMessage="wurde verletzt!"
+
+[FortStandard3]
+; EN: FortName="The Tank Turret"
+FortName="Der Panzerturm"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="wurde zerstört!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Shoot at the fuse to ignite it and blow up the TNT, which will permit access to the underground base."
+ObjDesc[0]="Schießen Sie auf die Sicherung, um sie zu zünden, und sprengen Sie die TNT, die den Zugang zur unterirdischen Basis ermöglicht."
+; EN: ObjDesc[1]="Make your way through the base, dealing with all gun turrets and enemies you find along the way, until you ride a lift up to a platform that has the garage activation switch."
+ObjDesc[1]="Begeben Sie sich durch die Basis und beschäftigen Sie sich mit allen Geschütztürmen und Feinden, die Sie auf dem Weg finden, bis Sie mit einem Aufzug zu einer Plattform fahren, auf der sich der Schalter zur Aktivierung der Garage befindet."
+; EN: ObjDesc[2]="Once the door is opened, destroy the prototype tank by shooting at the turret."
+ObjDesc[2]="Sobald die Tür geöffnet ist, zerstören Sie den Prototyp-Panzer, indem Sie auf den Turm schießen."

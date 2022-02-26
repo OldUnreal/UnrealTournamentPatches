@@ -1,0 +1,25 @@
+﻿[UWindowMessageBoxCW]
+; EN: YesText="Yes"
+YesText="Ja"
+; EN: NoText="No"
+NoText="Nein"
+; EN: OKText="OK"
+OKText="OK"
+; EN: CancelText="Cancel"
+CancelText="Abbrechen"
+
+[UWindowConsoleWindow]
+; EN: WindowTitle="System Console"
+WindowTitle="System Konsole"
+
+[UWindowSmallCloseButton]
+; EN: CloseText="Close"
+CloseText="Schließen"
+
+[UWindowSmallCancelButton]
+; EN: CancelText="Cancel"
+CancelText="Abbrechen"
+
+[UWindowSmallOKButton]
+; EN: OKText="OK"
+OKText="OK"

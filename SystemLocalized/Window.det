@@ -1,63 +1,114 @@
-[Errors]Kritischer Fehler
-FailedConfigLoad=%s (Ladefehler)
-
-[General]
-BrowseButton=...
-UseButton=Benutzen
-ClearButton=Lˆschen
-OkButton=OK
-AddButton=Hinzuf¸gen
-EmptyButton=Leer
-InsertButton=Einf¸gen
-DeleteButton=Lˆschen
-DefaultsButton=Zur¸cksetzen
-BackButton=< &Zur¸ck
-NextButton=&Weiter >
-FinishButton=&Fertig
-CancelButton=Abbrechen
-InstallButton=&Installieren
-YesButton=&Ja
-NoButton=&Nein
-AgreeButton=Ich &akzeptiere
-LanguagePrompt=Sprache:
-LanguageWindow=Sprachenwahl
-LogWindow=%s Protokollfenster
-PropNone=Nichts gew‰hlt
-PropSingle=%s Eigenschaften
-PropMulti=%s Eigenschaften (%i gew‰hlt)
-InsertCdText=Bitte lege die Unreal-CD in Dein Laufwerk, und klicke zum Fortfahren auf OK oder zum Verlassen auf Abbrechen.
-InsertCdTitle=CD beim Start erforderlich
-AdvancedOptionsTitle=Erweiterte Optionen
-Low=Niedrig
-High=Hoch
-
-[FirstRun]
-Caption=Ausgangskonfiguration
-LowMemory=Unreal hat auf Deinem Computer %i Megabyte freien Speicherplatz gefunden. Zur Leistungssteigerung wurde die Optionen "Texturen mit wenigen Details" und "Niedrige Soundqualit‰t" gew‰hlt. Du kannst diese Einstellungen im Men¸ "Performance Settings" ‰ndern.
-NonMMX= Unreal hat entdeckt, daﬂ Du keinen MMX-PC verwendest. Daher wurde die Soundwiedergabe auf die geringste CPU-Belastung gestellt. Du kannst dies im Men¸ "Erweiterte Optionen / Sound" ‰ndern.
-Starting= Unreal wird zum ersten Mal gestartet. Sollten Probleme auftauchen, lese bitte das Kapitel Troubleshooting im Dokument Release Notes im "Start-Men¸".
+Ôªø[Errors]
+; EN: Critical="Critical Error"
+Critical="Kritischer Fehler"
+; EN: FailedConfigLoad="%ls (failed load)"
+FailedConfigLoad="%ls (Ladefehler)"
 
 [IDDIALOG_Directory]
-IDC_Directory=Installationsordner
-IDC_ChoosePrompt=Bitte w‰hle den Installationsordner.
-IDC_PathTitle=&Pfad:
-IDC_DirectoryTitle=&Verzeichnisse:
-IDC_DrivesTitle=Lau&fwerke:
-IDC_NetworkButton=&Netzwerk
+; EN: IDC_Directory="Installation Folder"
+IDC_Directory="Installationsordner"
+; EN: IDC_ChoosePrompt="Please choose the installation folder."
+IDC_ChoosePrompt="Bitte w√§hle den Installationsordner."
+; EN: IDC_PathTitle="&Path:"
+IDC_PathTitle="&Pfad:"
+; EN: IDC_DirectoryTitle="&Directories:"
+IDC_DirectoryTitle="&Verzeichnisse:"
+; EN: IDC_DrivesTitle="Dri&ves:"
+IDC_DrivesTitle="Lau&fwerke:"
+; EN: IDC_NetworkButton="&Network"
+IDC_NetworkButton="&Netzwerk"
 
 [IDDIALOG_Password]
-IDC_Password=Paﬂwortkontrolle
-IDC_Prompt=Bitte gib deinen Namen und Dein Paﬂwort ein.
-IDC_Name=&Name:
-IDC_Password=&Paﬂwort:
+; EN: IDC_Password="Password Check"
+IDC_Password="Pa√üwortkontrolle"
+; EN: IDC_Prompt="Please enter your name and password."
+IDC_Prompt="Bitte gib deinen Namen und Dein Pa√üwort ein."
+; EN: IDC_Name="&Name:"
+IDC_Name="&Name:"
+; EN: IDC_Password="&Password:"
+IDC_Password="&Pa√üwort:"
 
 [IDMENU_NotifyIcon]
-ID_NotifyIcon=Men¸
-ID_NotifyShowLog=&UnrealServer-Konsole
-ID_NotifyAdvancedOptions=&Erweiterte Optionen
-ID_NotifyExit=UnrealServer &verlassen
+; EN: ID_NotifyIcon="Menu"
+ID_NotifyIcon="Men√º"
+; EN: ID_NotifyShowLog="&UnrealServer Console"
+ID_NotifyShowLog="&UnrealServer-Konsole"
+; EN: ID_NotifyAdvancedOptions="&Advanced Options"
+ID_NotifyAdvancedOptions="&Erweiterte Optionen"
+; EN: ID_NotifyExit="E&xit UnrealServer"
+ID_NotifyExit="UnrealServer &verlassen"
 
 [IDMENU_Log]
-ID_LogFile=&Datei
-ID_LogAdvancedOptions=&Erweiterte Optionen
-ID_LogFileExit=&Verlassen
+; EN: ID_LogFile="&File"
+ID_LogFile="&Datei"
+; EN: ID_LogAdvancedOptions="&Advanced Options"
+ID_LogAdvancedOptions="&Erweiterte Optionen"
+; EN: ID_LogFileExit="E&xit"
+ID_LogFileExit="&Verlassen"
+
+[General]
+BrowseButton="..."
+; EN: UseButton="Use"
+UseButton="Benutzen"
+; EN: ClearButton="Clear"
+ClearButton="L√∂schen"
+; EN: OkButton="Ok"
+OkButton="OK"
+; EN: AddButton="Add"
+AddButton="Hinzuf√ºgen"
+; EN: EmptyButton="Empty"
+EmptyButton="Leer"
+; EN: InsertButton="Insert"
+InsertButton="Einf√ºgen"
+; EN: DeleteButton="Delete"
+DeleteButton="L√∂schen"
+; EN: DefaultsButton="Reset To Defaults"
+DefaultsButton="Zur√ºcksetzen"
+; EN: BackButton="< &Back"
+BackButton="< &Zur√ºck"
+; EN: NextButton="&Next >"
+NextButton="&Weiter >"
+; EN: FinishButton="&Finish"
+FinishButton="&Fertig"
+; EN: CancelButton="Cancel"
+CancelButton="Abbrechen"
+; EN: InstallButton="&Install"
+InstallButton="&Installieren"
+; EN: YesButton="&Yes"
+YesButton="&Ja"
+; EN: NoButton="&No"
+NoButton="&Nein"
+; EN: AgreeButton="I &Agree"
+AgreeButton="Ich &Akzeptiere"
+; EN: LanguagePrompt="Language:"
+LanguagePrompt="Sprache:"
+; EN: LanguageWindow="Language Selection"
+LanguageWindow="Sprachenwahl"
+; EN: LogWindow="%ls Log Window"
+LogWindow="%ls Protokollfenster"
+; EN: PropNone="Nothing Selected"
+PropNone="Nichts Gew√§hlt"
+; EN: PropSingle="%ls Properties"
+PropSingle="%ls Eigenschaften"
+; EN: PropMulti="%ls Properties (%i selected)"
+PropMulti="%ls Eigenschaften (%i gew√§hlt)"
+; EN: InsertCdText="Please insert the Unreal Tournament CD-Rom into your drive and press OK to continue, or Cancel to exit."
+InsertCdText="Bitte lege die Unreal Tournament-CD in Dein Laufwerk, und klicke zum Fortfahren auf OK oder zum Verlassen auf Abbrechen."
+; EN: InsertCdTitle="Cd Required At Startup"
+InsertCdTitle="CD beim Start erforderlich"
+; EN: AdvancedOptionsTitle="Advanced Options"
+AdvancedOptionsTitle="Erweiterte Optionen"
+; EN: Low="Low"
+Low="Niedrig"
+; EN: High="High"
+High="Hoch"
+
+[FirstRun]
+; EN: Caption="Initial Configuration"
+Caption="Ausgangskonfiguration"
+; EN: LowMemory="Unreal Tournament has detected that you have %i megabytes of memory available. To improve performance, the "Low Detail Textures" and "Low Sound Quality" options have been enabled. You may change this settings in the "Performance Settings" menu."
+LowMemory="Unreal Tournament hat auf Deinem Computer %i Megabyte freien Speicherplatz gefunden. Zur Leistungssteigerung wurde die Optionen "Texturen mit wenigen Details" und "Niedrige Soundqualit√§t" gew√§hlt. Du kannst diese Einstellungen im Men√º "Performance Settings" √§ndern."
+; EN: NonMMX="Unreal Tournament has detected that you're using a non-MMX PC. Based on this, the sound playback rate has been set to use the least CPU power. You may change this settings in the "Advanced Options / Audio" menu."
+NonMMX="Unreal Tournament hat entdeckt, da√ü Du keinen MMX-PC verwendest. Daher wurde die Soundwiedergabe auf die geringste CPU-Belastung gestellt. Du kannst dies im Men√º "Erweiterte Optionen / Sound" √§ndern."
+; EN: Starting="Unreal Tournament is starting up for the first time. If you experience any problems, please read the Troubleshooting section of the Release Notes in the "Help" folder."
+Starting="Unreal Tournament wird zum ersten Mal gestartet. Sollten Probleme auftauchen, lese bitte das Kapitel Troubleshooting im Dokument Release Notes im "Start-Men√º"."

@@ -1,0 +1,17 @@
+﻿[LevelInfo0]
+; EN: Title="ITV Oblivion"
+Title="ITV Vergessenheit"
+IdealPlayerCount="2-3"
+; EN: LevelEnterText="Smoke 'em..."
+LevelEnterText="Smoke 'em..."
+
+[ZoneInfo0]
+; EN: ZoneName="Battle Arena"
+ZoneName="Kampfarena"
+
+[LevelSummary]
+; EN: Title="ITV Oblivion"
+Title="ITV Vergessenheit"
+IdealPlayerCount="2-3"
+; EN: LevelEnterText="Smoke 'em..."
+LevelEnterText="Smoke 'em..."

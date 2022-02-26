@@ -66,7 +66,6 @@ Object=(Name=BotPack.DOMDefaultMapList,Class=Class,MetaClass=Botpack.DOMMapList,
 Object=(Name=BotPack.CTFDefaultMapList,Class=Class,MetaClass=Botpack.CTFMapList,Description="Default Maps")
 Object=(Name=BotPack.TDKDefaultMapList,Class=Class,MetaClass=Botpack.TDKMapList,Description="Default Maps")
 ; Preferences
-Preferences=(Caption="Game Types",Parent="Advanced Options",Class=Botpack.TournamentGameInfo,Immediate=True)
 Preferences=(Caption="Tournament Deathmatch",Parent="Game Types",Class=Botpack.DeathmatchPlus,Immediate=True)
 Preferences=(Caption="Tournament Team Game",Parent="Game Types",Class=Botpack.TeamGamePlus,Immediate=True)
 Preferences=(Caption="Capture the Flag",Parent="Game Types",Class=Botpack.CTFGame,Immediate=True)
@@ -230,6 +229,7 @@ Skills[6]="Inhuman"
 Skills[7]="Godlike"
 
 [TrainingDM]
+; N_K: Translated lines and their lengths MUST be synced with their respective lines from TutVoiceDM.uax!
 TutMessage[0]="Welcome to Deathmatch combat training. Deathmatch is a sport in which you compete against other gun-wielding players in a fast paced free-for-all. The object is to destroy all of your enemies by any means necessary."
 TutMessage[1]="Every time you take an enemy out you get a point, called a "frag" in gaming lingo. You can see your frag count on the left side of the screen. At the end of the game the player with the most frags wins the match."
 TutMessage[2]="Remember, if you accidentally blow yourself up or fall into lava you will lose a frag!"
@@ -276,6 +276,7 @@ PickupMessage="You picked up another Enforcer!"
 ItemName="Enforcer"
 
 [TrainingCTF]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from TutVoiceCTF.uax!
 TutMessage[0]="Welcome to Capture the Flag combat training. This tutorial will instruct you on the basic rules of CTF. Tutorials on DeathMatch, Domination, and Assault are also available."
 TutMessage[1]="Let's start by learning about the Heads Up Display (HUD). CTF adds a few new elements to the HUD you should be aware of."
 TutMessage[2]="Your HUD color indicates your team affiliation. Your HUD is red, indicating you are on the red team."
@@ -307,6 +308,7 @@ SingleWaitingMessage=""
 GameName="Combat Training: CTF"
 
 [TrainingDOM]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from TutVoiceDOM.uax!
 TutMessage[0]="Welcome to Domination combat training. This tutorial will instruct you on the basic gameplay rules of Domination. Tutorials on Deathmatch, Capture the Flag, and Assault are also available."
 TutMessage[1]="Let's start by learning about the elements Domination adds to the Heads Up Display (HUD)."
 TutMessage[2]="Domination enhances the basic teamplay HUD by adding control point status indicators to the left side of your screen."
@@ -450,6 +452,7 @@ BotBio[6]="Tamika's mother left her at an early age and she was raised in a hous
 BotBio[7]="No description needed."
 
 [TrainingAS]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from TutVoiceAS.uax!
 TutMessage[0]="Welcome to Assault combat training. This tutorial will instruct you on the basic rules of AS. Tutorials on DeathMatch, Domination, and Capture the Flag are also available."
 TutMessage[1]="The first thing you'll notice upon entering an Assault game is the large digital time display to the left of your HUD. This timer counts away the seconds until the game ends. Time is critical in an Assault game."
 TutMessage[2]="The game consists of two teams, each with a unique goal. You are on the attacking team. Your job is to penetrate the enemy base and destroy several key locations. If you fail to succeed in the allotted time, you lose."
@@ -580,6 +583,7 @@ PickupMessage="It's been five years since I've seen one of these."
 ItemName="Chainsaw"
 
 [VoiceMaleTwo]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from Male2Voice.uax! Also use the Abbrev fields if the respective item String doesn't fit in the Voice Orders menu. For example, if TauntString="Anyone else want some?", then TauntAbbrev could be TauntAbbrev="Anyone else?". I'll leave that criteria to you. - N_K
 NameTime[0]=0.960000
 NameTime[1]=1.100000
 NameTime[2]=1.020000
@@ -750,6 +754,7 @@ PickupMessage="You got the Thigh Pads."
 ItemName="Thigh Pads"
 
 [VoiceMaleOne]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from Male1Voice.uax! Also use the Abbrev fields if the respective item String doesn't fit in the Voice Orders menu. For example, if TauntString="Anyone else want some?", then TauntAbbrev could be TauntAbbrev="Anyone else?". I'll leave that criteria to you. - N_K
 NameTime[0]=0.960000
 NameTime[1]=1.100000
 NameTime[2]=1.020000
@@ -852,6 +857,7 @@ OtherAbbrev[15]="Got you covered."
 OtherAbbrev[16]=""
 
 [VoiceBoss]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from BossVoice.uax! Also use the Abbrev fields if the respective item String doesn't fit in the Voice Orders menu. For example, if TauntString="Anyone else want some?", then TauntAbbrev could be TauntAbbrev="Anyone else?". I'll leave that criteria to you. - N_K
 NameTime[0]=0.960000
 NameTime[1]=1.100000
 NameTime[2]=1.020000
@@ -984,6 +990,7 @@ BotBio[6]="Tanya acts as a competition scout for the Blood Reavers. Their succes
 BotBio[7]="Graves fled the NEG security forces after being suspended for excessive use of force. He now applies that force towards the goals of the Reavers."
 
 [VoiceFemaleOne]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from Female1Voice.uax! Also use the Abbrev fields if the respective item String doesn't fit in the Voice Orders menu. For example, if TauntString="Anyone else want some?", then TauntAbbrev could be TauntAbbrev="Anyone else?". I'll leave that criteria to you. - N_K
 NameTime[0]=0.890000
 NameTime[1]=0.940000
 NameTime[2]=0.810000
@@ -1100,6 +1107,7 @@ PickupMessage="You picked up the AntiGrav boots."
 ItemName="AntiGrav Boots"
 
 [VoiceFemaleTwo]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from Female2Voice.uax! Also use the Abbrev fields if the respective item String doesn't fit in the Voice Orders menu. For example, if TauntString="Anyone else want some?", then TauntAbbrev could be TauntAbbrev="Anyone else?". I'll leave that criteria to you. - N_K
 NameTime[0]=0.890000
 NameTime[1]=0.940000
 NameTime[2]=0.810000

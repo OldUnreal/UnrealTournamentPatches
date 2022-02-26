@@ -1,9 +1,12 @@
-[Public]
+﻿[Public]
 Object=(Name=MeTaLDrv.MeTaLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=S3_6.dll)
-Preferences=(Caption="Rendering",Parent="Erweiterte Optionen")
-Preferences=(Caption="S3 MeTaL-Support",Parent="Rendering",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
+; EN: Preferences=(Caption="S3 MeTaL Support",Parent="Rendering",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
+Preferences=(Caption="Unterstützung für S3 MeTaL-Video ",Parent="Rendering",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
 
 [MeTaLRenderDevice]
-ClassCaption="S3 MeTaL f�r Windows"
-AskInstalled=Hast Du eine Savage 3D-Karte installiert?
-AskUse=M�chtest Du, da� Unreal Deine Savage 3D-Karte verwendet?
+; EN: ClassCaption="S3 MeTaL Support"
+ClassCaption="Unterstützung für S3 MeTaL-Video "
+; EN: AskInstalled="Do you have a Savage 3D card installed?"
+AskInstalled="Hast Du eine Savage 3D-Karte installiert?"
+; EN: AskUse="Do you want Unreal Tournament to use your Savage 3D card?"
+AskUse="Möchtest Du, daß Unreal Tournament Deine Savage 3D-Karte verwendet?"
