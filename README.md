@@ -32,6 +32,26 @@ We also have an exe installer with a wizard. This wizard should automatically fi
 
 The **Linux** version of our patch is only available as a tarball. To install, unpack the tarball **on top of an existing installation** of Unreal Tournament.
 
+Alternatively, to spare you the pain of using Wine to install the Windows version, you can unpack our patch into an empty directory, which we will refer to as the **game directory**. You can then install the rest of the game as follows:
+
+**Note:** directory names below are Case Sensitive!
+
+1) **Mount** the UT (GOTY) cd/image or unpack the GOG distribution with the **innoextract** tool. We will refer to the root directory of your game cd/image or GOG distribution as the **distribution directory**.
+2) Copy the **Music** and **Sounds** directories from the distribution directory into the game directory.
+3) Copy the contents of the **Textures** directory from the distribution directory into the existing Textures directory within your game directory **WITHOUT REPLACING** the existing files.
+4) Create a **Maps** directory within the game directory and copy over the unpacked Maps (i.e., map files with a .unr extension) from the distribution directory.
+5) Extract all compressed maps (i.e., maps with a .uz extension) into your game's Maps directory as follows. If there are no compressed maps in your game distribution folder, you may ignore this step.
+```
+for i in <path-to-distribution-directory>/Maps/*.uz; do <path-to-game-directory>/System/ucc-bin decompress $i; done
+mv ~/.utpg/System/*.unr <path-to-game-directory>/Maps/
+```
+
+At this point you're all set.
+
+To install the content from the GOTY cd 2 or bonus packs:
+1) Repeat the procedure above with the Maps, Sounds, and Textures directories.
+2) Copy the .u and .int files to the game's System directory.
+
 **Note:** Our patch includes several 3rd party libraries, including SDL2 and OpenAL-Soft. These libraries were built and tested on Debian-based systems. However, if you run a non-Debian-based distribution and if you run into any trouble (e.g., audio not working), we highly recommend that you delete libSDL2 and libopenal from your UnrealTournament/System folder and install your distribution's version of SDL2 and OpenAL-Soft instead. Please contact your distro maintainer for instructions.
 
 No other actions are needed to install the patch.
