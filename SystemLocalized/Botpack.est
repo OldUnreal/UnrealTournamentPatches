@@ -66,7 +66,6 @@ Object=(Name=BotPack.DOMDefaultMapList,Class=Class,MetaClass=Botpack.DOMMapList,
 Object=(Name=BotPack.CTFDefaultMapList,Class=Class,MetaClass=Botpack.CTFMapList,Description="Por Defecto")
 Object=(Name=BotPack.TDKDefaultMapList,Class=Class,MetaClass=Botpack.TDKMapList,Description="Por Defecto")
 ; Preferences
-Preferences=(Caption="Tipos de Juego",Parent="Opciones Avanzadas",Class=Botpack.TournamentGameInfo,Immediate=True)
 Preferences=(Caption="Partida a Muerte del Torneo",Parent="Tipos de Juego",Class=Botpack.DeathmatchPlus,Immediate=True)
 Preferences=(Caption="Partida por Equipos del Torneo",Parent="Tipos de Juego",Class=Botpack.TeamGamePlus,Immediate=True)
 Preferences=(Caption="Capturar la Bandera",Parent="Tipos de Juego",Class=Botpack.CTFGame,Immediate=True)
@@ -269,6 +268,7 @@ Skills[6]="Superhumano"
 Skills[7]="Supremo"
 
 [TrainingDM]
+; N_K: Translated lines and their lengths MUST be synced with their respective lines from TutVoiceDM.uax_est!
 SoundLengths[0]=14
 SoundLengths[1]=13
 SoundLengths[2]=7
@@ -339,6 +339,7 @@ PickupMessage="¡Conseguiste otro reforzador!"
 ItemName="Reforzador"
 
 [TrainingCTF]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from TutVoiceCTF.uax_est!
 SoundLengths[0]=15
 SoundLengths[1]=11
 SoundLengths[2]=9
@@ -397,6 +398,7 @@ SingleWaitingMessage=""
 GameName="Entrenamiento de combate: CLB"
 
 [TrainingDOM]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from TutVoiceDOM.uax_est!
 SoundLengths[0]=13
 SoundLengths[1]=7
 SoundLengths[2]=8
@@ -563,6 +565,7 @@ BotBio[6]="La madre de Tamika la abandonó cuando sólo era una niña, y los hom
 BotBio[7]="No hace falta ninguna descripción."
 
 [TrainingAS]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from TutVoiceAS.uax_est!
 SoundLengths[0]=14
 SoundLengths[1]=14
 SoundLengths[2]=16
@@ -710,6 +713,7 @@ PickupMessage="Han pasado cinco años desde la última vez que vi uno de estos."
 ItemName="Motosierra"
 
 [VoiceMaleTwo]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from Male2Voice.uax_est! Also use the Abbrev fields if the respective item String doesn't fit in the Voice Orders menu. For example, if TauntString="Anyone else want some?", then TauntAbbrev could be TauntAbbrev="Anyone else?". I'll leave that criteria to you. - N_K
 NameTime[0]=0.960000
 NameTime[1]=1.100000
 NameTime[2]=1.020000
@@ -880,6 +884,7 @@ PickupMessage="Has conseguido las Musleras."
 ItemName="Musleras"
 
 [VoiceMaleOne]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from Male1Voice.uax_est! Also use the Abbrev fields if the respective item String doesn't fit in the Voice Orders menu. For example, if TauntString="Anyone else want some?", then TauntAbbrev could be TauntAbbrev="Anyone else?". I'll leave that criteria to you. - N_K
 NameTime[0]=0.960000
 NameTime[1]=1.100000
 NameTime[2]=1.020000
@@ -982,6 +987,7 @@ OtherAbbrev[15]=""
 OtherAbbrev[16]=""
 
 [VoiceBoss]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from BossVoice.uax_est! Also use the Abbrev fields if the respective item String doesn't fit in the Voice Orders menu. For example, if TauntString="Anyone else want some?", then TauntAbbrev could be TauntAbbrev="Anyone else?". I'll leave that criteria to you. - N_K
 NameTime[0]=0.960000
 NameTime[1]=1.100000
 NameTime[2]=1.020000
@@ -1114,6 +1120,7 @@ BotBio[6]="Tanya se encarga de averiguar información sobre los competidores par
 BotBio[7]="Graves desertó de la fuerzas de seguridad del NGT tras ser separado de su cargo por utilizar fuerza excesiva. Ahora utiliza la misma fuerza para ayudar a los Reavers a alcanzar sus objetivos."
 
 [VoiceFemaleOne]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from Female1Voice.uax_est! Also use the Abbrev fields if the respective item String doesn't fit in the Voice Orders menu. For example, if TauntString="Anyone else want some?", then TauntAbbrev could be TauntAbbrev="Anyone else?". I'll leave that criteria to you. - N_K
 NameTime[0]=0.890000
 NameTime[1]=0.940000
 NameTime[2]=0.810000
@@ -1230,6 +1237,7 @@ PickupMessage="Has recogido las Botas Antigravitatorias."
 ItemName="Botas Antigravitatorias"
 
 [VoiceFemaleTwo]
+; Note: Translated lines and their lengths MUST be synced with their respective lines from Female2Voice.uax_est! Also use the Abbrev fields if the respective item String doesn't fit in the Voice Orders menu. For example, if TauntString="Anyone else want some?", then TauntAbbrev could be TauntAbbrev="Anyone else?". I'll leave that criteria to you. - N_K
 NameTime[0]=0.890000
 NameTime[1]=0.940000
 NameTime[2]=0.810000
@@ -1638,6 +1646,7 @@ MapDescription[5]="La Estación 5 del suelo oceánico, construida por varias uni
 MapDescription[6]="Los organizadores del torneo de Liandri han decidido que la reproducción de, probablemente, la guerra más violenta que haya tenido lugar en la Tierra podría constituir el campo de batalla perfecto. El asalto a las playas de Normandía en la Segunda Guerra Mundial fue elegido, en parte, por los increíbles peligros a los que se debían enfrentar las fuerzas de ataque. La defensa de esta playa, sin embargo, resultó ser también una tarea muy ardua."
 
 [ControlPointMessage]
+ControlPrefix="¡"
 ControlPointStr="El Punto de Control"
 ControlledBy="está controlado ahora por el equipo"
 

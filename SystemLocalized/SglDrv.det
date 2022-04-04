@@ -1,9 +1,12 @@
-[Public]
+ï»¿[Public]
 Object=(Name=SGLDrv.SGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=SGL.dll)
-Preferences=(Caption="Rendering",Parent="Erweiterte Optionen")
-Preferences=(Caption="PowerVR-SGL-Unterstützung",Parent="Rendering",Class=SGLDrv.SGLRenderDevice,Immediate=True)
+; EN: Preferences=(Caption="PowerVR SGL Support",Parent="Rendering",Class=SGLDrv.SGLRenderDevice,Immediate=True)
+Preferences=(Caption="UnterstÃ¼tzung fÃ¼r PowerVR SGL-Video",Parent="Rendern",Class=SGLDrv.SGLRenderDevice,Immediate=True)
 
 [SglRenderDevice]
-ClassCaption="PowerVR SGL für Windows"
-AskInstalled=Besitzt Du eine PowerVR-Karte?
-AskUse=Möchtest Du, daß Unreal die PowerVR-Karte verwendet?
+; EN: ClassCaption="PowerVR SGL for Windows"
+ClassCaption="UnterstÃ¼tzung fÃ¼r PowerVR SGL-Video"
+; EN: AskInstalled="Do you have a PowerVR card installed?"
+AskInstalled="Besitzt Du eine PowerVR-Karte?"
+; EN: AskUse="Do you want Unreal Tournament to use your PowerVR card?"
+AskUse="MÃ¶chtest Du, daÃŸ Unreal Tournament die PowerVR-Karte verwendet?"

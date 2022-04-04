@@ -1,0 +1,25 @@
+﻿[LevelInfo0]
+; EN: Title="Lament"
+Title="Klage"
+IdealPlayerCount="2-4"
+; EN: LevelEnterText="Control it all!"
+LevelEnterText="Kontrolliere alles!"
+
+[ControlPoint0]
+; EN: PointName="Central"
+PointName="Zentral"
+
+[ControlPoint1]
+; EN: PointName="Upper"
+PointName="Oberer, höher"
+
+[ControlPoint2]
+; EN: PointName="Lower"
+PointName="Niedriger"
+
+[LevelSummary]
+; EN: Title="Lament"
+Title="Klage"
+IdealPlayerCount="2-4"
+; EN: LevelEnterText="Control it all!"
+LevelEnterText="Kontrolliere alles!"

@@ -1,14 +1,20 @@
-[Public]
-Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
-Preferences=(Caption="Rendering",Parent="Erweiterte Optionen")
-Preferences=(Caption="OpenGL-Unterst�tzung",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
-
-[OpenGLRenderDevice]
-ClassCaption="Tims OpenGL-Unterst�tzung"
-AskInstalled=Hast Du einen OpenGL-kompatiblen 3D-Beschleuniger installiert?
-AskUse=Soll Unreal Deinen OpenGL-Beschleuniger verwenden?
+﻿[Public]
+Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+; EN: Preferences=(Caption="OpenGL Support",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+Preferences=(Caption="Unterstützung für OpenGL-Video",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
 
 [Errors]
-NoFindGL=OpenGL-Treiber %s nicht gefunden
-MissingFunc=Fehlende OpenGL-Function %s (%i)
-ResFailed=Aufl�sungseinstellung gescheitert
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL="Konnte keinen OpenGL Treiber finden %ls"
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc="Fehlende OpenGL funktion %ls (%i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Fehler beim einstellen der Auflösung"
+
+[OpenGLRenderDevice]
+; EN: ClassCaption="OpenGL Support"
+ClassCaption="Unterstützung für OpenGL-Video"
+; EN: AskInstalled="Do you have a OpenGL compatible 3D accelerator installed?"
+AskInstalled="Hast du eine OpenGL kompatible 3D Grafikkarte installiert?"
+; EN: AskUse="Do you want Unreal Tournament to use your OpenGL accelerator?"
+AskUse="Möchtest du das Unreal Tournament OpenGL benutzt?"

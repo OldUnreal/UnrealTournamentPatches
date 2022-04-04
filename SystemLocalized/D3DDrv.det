@@ -1,9 +1,11 @@
-[Public]
-Object=(Name=D3DDrv.D3DRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=)
-Preferences=(Caption="Rendering",Parent="Erweiterte Optionen")
-Preferences=(Caption="Direct3D-Support",Parent="Rendering",Class=D3DDrv.D3DRenderDevice,Immediate=True)
+﻿[Public]
+Object=(Name=D3DDrv.D3DRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=d3d7.dll)
+; EN: Preferences=(Caption="Direct3D 7 Support",Parent="Rendering",Class=D3DDrv.D3DRenderDevice,Immediate=True)
+Preferences=(Caption="Unterstützung für Direct3D 7-Video",Parent="Rendern",Class=D3DDrv.D3DRenderDevice,Immediate=True)
 
 [D3DRenderDevice]
-ClassCaption="Direct3D-Support"
-AskInstalled=M�chtest Du Direct3D verwenden?
-AskUse=
+; EN: ClassCaption="Direct3D 7 Support"
+ClassCaption="Unterstützung für Direct3D 7-Video"
+; EN: AskInstalled="Do you want to use Direct3D 7?"
+AskInstalled="Möchtest Du Direct3D 7 verwenden?"
+AskUse=""

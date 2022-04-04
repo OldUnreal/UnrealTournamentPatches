@@ -24,6 +24,7 @@ ExitAfterError="Cluster shut down after error."
 No3dSoundSwitch="-No3dSound switch found. Use3dHardware option will be ignored by Cluster."
 ; Cluster will use some heuristics to determine whether it should or should not patch the environment (won't patch if Launch is detected in Deus Ex, never on Unreal 227 or UT, etc.).
 ClusterFuck="Cluster injected binary patches for broken audio functionality into Engine package. You can use -NoClusterFuck to disable it."
+SelectedDriver="Cluster selected output driver: %ls."
 
 [Warnings]
 ; Serialized to output device for each digital music command in case UseDigitalMusic is disabled.
@@ -40,3 +41,6 @@ SystemCreate="Failed to create FMOD system object: %ls."
 Version="Cluster expects a minimum FMOD library version %ls, but version was %ls found."
 ; For some reasons FMOD fails at basic init. First format option is an FMOD supplied english error description.
 SystemInit="Failed to initialize FMOD system object: %ls."
+SystemGetNumDrivers="Failed to get number of FMOD output drivers: %ls."
+SystemGetDriver="Failed to get current FMOD output driver: %ls."
+SystemSetDriver="Failed to set FMOD output driver: %ls."

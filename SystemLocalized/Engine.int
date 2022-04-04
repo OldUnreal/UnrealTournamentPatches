@@ -30,7 +30,7 @@ CantChangeNameMsg="You can't change your name during a global logged game."
 NameArticle=" a "
 
 [Inventory]
-PickupMessage="Snagged an item"
+PickupMessage="Snagged an item."
 ItemArticle="a"
 M_Activated=" activated."
 M_Selected=" selected."
@@ -50,8 +50,7 @@ DeathMessage[2]="%o was killed by %k's %w."
 DeathMessage[3]="%o was killed by %k's %w."
 
 [Ammo]
-PickupMessage="You picked up some ammo"
-ItemName="Ammo"
+PickupMessage="You picked up some ammo."
 
 [Counter]
 CountMessage="Only %i more to go..."
@@ -63,6 +62,8 @@ MenuName="Spectator"
 [DamageType]
 Name="killed"
 AltName="killed"
+NameFem="killed"
+AltNameFem="killed"
 
 [Progress]
 CancelledConnect="Cancelled Connect Attempt"
@@ -79,7 +80,7 @@ Paused="Paused by %ls"
 ReceiveFile="Receiving "%ls" (F10 Cancels)"
 ReceiveOptionalFile="Receiving optional file "%ls" (Press F10 to Skip)"
 ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
-ConnectingText="Connecting (F10 to cancel):"
+ConnectingText="Connecting (F10 Cancels):"
 ConnectingURL="unreal://%ls/%ls"
 
 [WarpZoneInfo]
@@ -120,8 +121,8 @@ RightString="Right"
 CenterString="Center"
 EnabledString="Enabled"
 DisabledString="Disabled"
-YesString="Yes"
-NoString="No"
+YesString="yes"
+NoString="no"
 
 [GameInfo]
 SwitchLevelMessage="Switching Levels"
@@ -136,9 +137,9 @@ GameName="Game"
 MaxedOutMessage="Server is already at capacity."
 WrongPassword="The password you entered is incorrect."
 NeedPassword="You need to enter a password to join this game."
+IPBanned="Your IP address has been banned on this server."
 MaleGender="his"
 FemaleGender="her"
-IPBanned="Your IP address has been banned on this server."
 
 [Errors]
 NetOpen="Error opening file"

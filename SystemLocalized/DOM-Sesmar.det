@@ -1,0 +1,49 @@
+﻿[LevelInfo0]
+; EN: Title="Tomb of Sesmar"
+Title="Grab von Sesmar"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="DOMINATE!!!!"
+LevelEnterText="DOMINIEREN!!!!"
+
+[ZoneInfo3]
+; EN: ZoneName="Outside"
+ZoneName="Draußen"
+
+[ZoneInfo0]
+; EN: ZoneName="Hall of Pillars"
+ZoneName="Säulenhalle"
+
+[ZoneInfo5]
+; EN: ZoneName="Blue Ankh"
+ZoneName="Blaues Ankh-Kreuz"
+
+[ZoneInfo4]
+; EN: ZoneName="Red Ankh"
+ZoneName="Rotes Ankh-Kreuz"
+
+[ZoneInfo2]
+; EN: ZoneName="South Passage"
+ZoneName="Südpassage"
+
+[ZoneInfo1]
+; EN: ZoneName="North Passage"
+ZoneName="Nordpassage"
+
+[ControlPoint0]
+; EN: PointName="Blue Ankh"
+ZoneName="Blaues Ankh-Kreuz"
+
+[ControlPoint3]
+; EN: PointName="Hall of Pillars"
+PointName="Säulenhalle"
+
+[ControlPoint1]
+; EN: ZoneName="Red Ankh"
+ZoneName="Rotes Ankh-Kreuz"
+
+[LevelSummary]
+; EN: Title="Tomb of Sesmar"
+Title="Grab von Sesmar"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="DOMINATE!!!!"
+LevelEnterText="DOMINIEREN!!!!"
