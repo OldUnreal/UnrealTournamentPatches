@@ -174,10 +174,6 @@ MenuName="Soldat Skaarj"
 ; EN: MenuName="Skaarj Trooper"
 MenuName="Soldat Skaarj"
 
-[NaliPlayer]
-; EN: MenuName="Nali"
-MenuName="Nali"
-
 [WarLord]
 ; EN: NameArticle=" the "
 NameArticle=" der "

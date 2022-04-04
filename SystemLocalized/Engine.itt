@@ -9,9 +9,9 @@ Preferences=(Caption="Resa",Parent="Opzioni avanzate")
 ; EN: Preferences=(Caption="Audio",Parent="Advanced Options")
 Preferences=(Caption="Audio",Parent="Opzioni avanzate")
 ; EN: Preferences=(Caption="Networking",Parent="Advanced Options")
-Preferences=(Caption="In rete",Parent="Opzioni avanzate")
+Preferences=(Caption="In Rete",Parent="Opzioni avanzate")
 ; EN: Preferences=(Caption="Game Types",Parent="Advanced Options")
-Preferences=(Caption="Tipi di gioco",Parent="Opzioni avanzate")
+Preferences=(Caption="Tipi di Gioco",Parent="Opzioni avanzate")
 ; EN: Preferences=(Caption="Display",Parent="Advanced Options")
 Preferences=(Caption="Video",Parent="Opzioni avanzate")
 ; EN: Preferences=(Caption="Joystick",Parent="Advanced Options")
@@ -19,41 +19,27 @@ Preferences=(Caption="Joystick",Parent="Opzioni avanzate")
 ; EN: Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
 Preferences=(Caption="Driver",Parent="Opzioni avanzate",Class=Engine.Engine,Immediate=False,Category=Drivers)
 ; EN: Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
-Preferences=(Caption="Impostazioni gioco",Parent="Opzioni avanzate",Class=Engine.GameInfo,Immediate=True)
+Preferences=(Caption="Impostazioni Gioco",Parent="Opzioni avanzate",Class=Engine.GameInfo,Immediate=True)
 ; Advanced
 ; EN: Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
-Preferences=(Caption="Impostazioni motore di gioco",Parent="Avanzate",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Impostazioni Motore di Gioco",Parent="Avanzate",Class=Engine.GameEngine,Category=Settings,Immediate=True)
 ; EN: Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
-Preferences=(Caption="Alias dei tasti",Parent="Avanzate",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Alias dei Tasti",Parent="Avanzate",Class=Engine.Input,Immediate=True,Category=Aliases)
 ; EN: Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
-Preferences=(Caption="Collegamento tasti",Parent="Avanzate",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Collegamento Tasti",Parent="Avanzate",Class=Engine.Input,Immediate=True,Category=RawKeys)
 ; Networking
 ; EN: Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
 Preferences=(Caption="Informazioni sul Server Pubblico",Parent="In rete",Class=Engine.GameReplicationInfo,Immediate=True)
 
-[PlayerPawn]
-; EN: QuickSaveString="Quick Saving"
-QuickSaveString="Salvataggio veloce"
-; EN: NoPauseMessage="Game is not pauseable"
-NoPauseMessage="Partita senza pause"
-; EN: ViewingFrom="Now viewing from "
-ViewingFrom="Visualizzato ora da "
-; EN: OwnCamera="own camera"
-OwnCamera="la propria camera"
-; EN: FailedView="Failed to change view."
-FailedView="Cambio visualizzazione fallito."
-; EN: CantChangeNameMsg="You can't change your name during a global logged game."
-CantChangeNameMsg="Non puoi cambiare il tuo nome mentre partecipi ad una partita su rete globale."
-
 [Pawn]
 ; EN: NameArticle=" a "
-NameArticle=" un/una "
+NameArticle=" un "
 
 [Inventory]
 ; EN: PickupMessage="Snagged an item"
 PickupMessage="Liberato un oggetto"
 ; EN: ItemArticle="a"
-ItemArticle="un/una"
+ItemArticle="un"
 ; EN: M_Activated=" activated."
 M_Activated=" attivato."
 ; EN: M_Selected=" selected."
@@ -61,33 +47,19 @@ M_Selected=" selezionato."
 ; EN: M_Deactivated=" deactivated."
 M_Deactivated=" disattivato."
 
-[LevelInfo]
-; EN: Title="Untitled"
-Title="Senza titolo"
-
-[Weapon]
-; EN: MessageNoAmmo=" has no ammo."
-MessageNoAmmo=" non ha munizioni."
-; EN: DeathMessage="%o was killed by %k's %w."
-DeathMessage="%o è stato ucciso da %w di %k."
-; EN: PickupMessage="You got a weapon"
-PickupMessage="Hai preso un'arma"
-; EN: ItemName="Weapon"
-ItemName="Arma"
-; EN: DeathMessage[0]="%o was killed by %k's %w."
-DeathMessage[0]="%o è stato ucciso da %w di %k."
-; EN: DeathMessage[1]="%o was killed by %k's %w."
-DeathMessage[1]="%o è stato ucciso da %w di %k."
-; EN: DeathMessage[2]="%o was killed by %k's %w."
-DeathMessage[2]="%o è stato ucciso da %w di %k."
-; EN: DeathMessage[3]="%o was killed by %k's %w."
-DeathMessage[3]="%o è stato ucciso da %w di %k."
-
 [Ammo]
 ; EN: PickupMessage="You picked up some ammo"
 PickupMessage="Hai raccolto alcune munizioni"
 ; EN: ItemName="Ammo"
 ItemName="Munizioni"
+
+[LevelInfo]
+; EN: Title="Untitled"
+Title="Senza Titolo"
+
+[Spectator]
+; EN: MenuName="Spectator"
+MenuName="Spettatore"
 
 [Counter]
 ; EN: CountMessage="Only %i more to go..."
@@ -95,29 +67,19 @@ CountMessage="Ne mancano %i..."
 ; EN: CompleteMessage="Completed!"
 CompleteMessage="Completato!"
 
-[Spectator]
-; EN: MenuName="Spectator"
-MenuName="Spettatore"
-
-[DamageType]
-; EN: Name="killed"
-Name="ucciso"
-; EN: AltName="killed"
-AltName="ucciso"
-
 [Progress]
 ; EN: CancelledConnect="Cancelled Connect Attempt"
 CancelledConnect="Annullato tentativo di connessione"
 ; EN: RunningNet="%ls: %ls (%i players)"
 RunningNet="%ls: %ls (%i giocatori)"
-; EN: NetReceiving="Receiving "%ls": %i/%i"
-NetReceiving="Sto ricevendo "%ls": %i/%i"
-; EN: NetReceiveOk="Successfully received "%ls""
-NetReceiveOk=""%ls" ricevuto correttamente"
-; EN: NetSend="Sending "%ls""
-NetSend="Sto inviando "%ls""
-; EN: NetSending="Sending "%ls": %i/%i"
-NetSending="Sto inviando "%ls": %i/%i"
+; EN: NetReceiving="Receiving %ls: %i/%i"
+NetReceiving="Sto ricevendo %ls: %i/%i"
+; EN: NetReceiveOk="Successfully received %ls"
+NetReceiveOk="%ls ricevuto correttamente"
+; EN: NetSend="Sending %ls"
+NetSend="Sto inviando %ls"
+; EN: NetSending="Sending %ls: %i/%i"
+NetSending="Sto inviando %ls: %i/%i"
 ; EN: Connecting="Connecting..."
 Connecting="Connessione..."
 ; EN: Listening="Listening for clients..."
@@ -128,24 +90,15 @@ Loading="Caricamento"
 Saving="Salvataggio"
 ; EN: Paused="Paused by %ls"
 Paused="In pausa da %ls"
-; EN: ReceiveFile="Receiving "%ls" (F10 to cancel)"
-ReceiveFile="Ricezione "%ls" (F10 per annullare)"
-; EN: ReceiveOptionalFile="Receiving optional file "%ls" (Press F10 to Skip)"
-ReceiveOptionalFile="Ricezione del file opzionale "%ls" (Premi F10 per saltare)"
+; EN: ReceiveFile="Receiving %ls (F10 to cancel)"
+ReceiveFile="Ricezione %ls (F10 per annullare)"
+; EN: ReceiveOptionalFile="Receiving optional file %ls (Press F10 to Skip)"
+ReceiveOptionalFile="Ricezione del file opzionale %ls (Premi F10 per saltare)"
 ; EN: ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ReceiveSize="Dimensione %iK, Completo %3.1f%% = %iK, %i Pacchetti rimanenti"
 ; EN: ConnectingText="Connecting (F10 to cancel):"
 ConnectingText="Connessione (F10 per annullare):"
 ConnectingURL="unreal://%ls/%ls"
-
-[WarpZoneInfo]
-OtherSideURL=""
-
-[Pickup]
-ExpireMessage=""
-
-[SpecialEvent]
-DamageString=""
 
 [ServerCommandlet]
 HelpCmd=server
@@ -161,6 +114,18 @@ HelpParm[1]="AllAdmin"
 ; EN: HelpDesc[1]="Give all players admin privileges."
 HelpDesc[1]="Dai a tutti i giocatori i privilegi di amministratore."
 
+[PlayerPawn]
+; EN: QuickSaveString="Quick Saving"
+QuickSaveString="Salvataggio veloce"
+; EN: NoPauseMessage="Game is not pauseable"
+NoPauseMessage="Partita senza pause"
+; EN: ViewingFrom="Now viewing from "
+ViewingFrom="Visualizzato ora da "
+; EN: OwnCamera="own camera"
+OwnCamera="la propria camera"
+; EN: FailedView="Failed to change view."
+FailedView="Cambio visualizzazione fallito."
+
 [Console]
 ; EN: ClassCaption="Standard Unreal Tournament Console"
 ClassCaption="Console standard di Unreal Tournament"
@@ -174,14 +139,24 @@ ConnectingMessage="CONNESSIONE"
 PausedMessage="IN PAUSA"
 ; EN: PrecachingMessage="PRECACHING"
 PrecachingMessage="PRECACHING"
-; EN: ChatChannel="(CHAT) "
-ChatChannel="(CHAT) "
-; EN: TeamChannel="(TEAM) "
-TeamChannel="(SQUADRA) "
+; EN: FrameRateText="Frame Rate"
+FrameRateText="Freq. Fotogram."
+; EN: AvgText="Avg"
+AvgText="Med."
+; EN: LastSecText="Last Sec"
+LastSecText="Ult. Sec."
+; EN: MinText="Min"
+MinText="Min."
+; EN: MaxText="Max"
+MaxText="Mas."
+; EN: fpsText="fps"
+fpsText="fas"
+; EN: SecondsText="seconds."
+SecondsText="secondi."
+; EN: FramesText="frames rendered in"
+FramesText="fotogrammi renderizzati in"
 
 [Menu]
-MenuList=" "
-HelpMessage=" "
 ; EN: HelpMessage[1]="This menu has not yet been implemented."
 HelpMessage[1]="Questo menu non è stato ancora implementato."
 ; EN: LeftString="Left"
@@ -223,12 +198,24 @@ MaxedOutMessage="Capacità del server raggiunta."
 WrongPassword="La password immessa non è corretta."
 ; EN: NeedPassword="You need to enter a password to join this game."
 NeedPassword="È necessario immettere la password per partecipare alla partita."
-; EN: MaleGender="his"
-MaleGender="il suo"
-; EN: FemaleGender="her"
-FemaleGender="sua"
 ; EN: IPBanned="Your IP address has been banned on this server."
 IPBanned="Il tuo indirizzo IP è stato bannato su questo server."
+
+[Weapon]
+; EN: MessageNoAmmo=" has no ammo."
+MessageNoAmmo=" non ha munizioni."
+; EN: DeathMessage="%o was killed by %k's %w."
+DeathMessage="%o è stato ucciso da %w di %k."
+; EN: PickupMessage="You got a weapon"
+PickupMessage="Hai preso un'arma"
+; EN: ItemName="Weapon"
+ItemName="Arma"
+
+[DamageType]
+; EN: Name="killed"
+Name="ucciso"
+; EN: AltName="killed"
+AltName="ucciso"
 
 [Errors]
 ; EN: NetOpen="Error opening file"
@@ -285,8 +272,8 @@ ServerOutdated="Versione del server non aggiornata"
 ClientOutdated="È necessario eseguire l'aggiornamento all'ultima versione della patch"
 ; EN: RejectedByServer="Rejected by server"
 RejectedByServer="Rifiutato dal server"
-; EN: NetDecompressFail="Error decompressing file "%ls""
-NetDecompressFail="Errore durante la decompressione del file "%ls""
+; EN: NetDecompressFail="Error decompressing file %ls"
+NetDecompressFail="Errore durante la decompressione del file %ls"
 ; EN: MD5ChecksumFailed="Package %ls failed an MD5 check."
 MD5ChecksumFailed="Il pacchetto %ls non ha superato un controllo MD5."
 

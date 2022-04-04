@@ -10,5 +10,5 @@ ResFailed="Failed to set resolution"
 
 [XOpenGLRenderDevice]
 ClassCaption="XOpenGL Support"
-AskInstalled="Do you have a OpenGL compatible 3D accelerator installed?"
+AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
 AskUse="Do you want Unreal Tournament to use your OpenGL accelerator?"

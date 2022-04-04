@@ -5,7 +5,7 @@ Object=(Name=UnrealI.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.Rifle,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.Minigun,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.GESBioRifle,Class=Class,MetaClass=Engine.Weapon)
-Object=(Name=UnrealI.Razorjack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.RazorJack,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.QuadShot,Class=Class,MetaClass=Engine.Weapon)
 ; EN: Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Female 2")
 Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Donna 2")
@@ -52,18 +52,6 @@ NameArticle=" una "
 ; EN: MenuName="Bloblet"
 MenuName="Piccola Goccia"
 
-[Chameleon]
-; EN: NameArticle=" a "
-NameArticle=" un "
-; EN: MenuName="Chameleon"
-MenuName="Camaleonte"
-
-[Cow]
-; EN: NameArticle=" a "
-NameArticle=" una "
-; EN: MenuName="Nali Cow"
-MenuName="Mucca Nali"
-
 [Gasbag]
 ; EN: NameArticle=" a "
 NameArticle=" un "
@@ -82,12 +70,6 @@ NameArticle=" la "
 ; EN: MenuName="Giant Manta"
 MenuName="Manta Gigante"
 
-[IceSkaarj]
-; EN: NameArticle=" an "
-NameArticle=" un "
-; EN: MenuName="Ice Skaarj"
-MenuName="Skaarj di Ghiaccio"
-
 [Krall]
 ; EN: NameArticle=" a "
 NameArticle=" un "
@@ -99,6 +81,12 @@ MenuName="Krall"
 NameArticle=" un "
 ; EN: MenuName="Elite Krall"
 MenuName="Krall d'Élite"
+
+[LeglessKrall]
+; EN: NameArticle=" a "
+NameArticle=" un "
+; EN: MenuName="Legless Krall"
+MenuName="Krall Senza Gambe"
 
 [Mercenary]
 ; EN: NameArticle=" a "
@@ -112,23 +100,11 @@ NameArticle=" un "
 ; EN: MenuName="Elite Mercenary"
 MenuName="Mercenario d'Élite"
 
-[Nali]
-; EN: NameArticle=" a "
-NameArticle=" un "
-; EN: MenuName="Nali"
-MenuName="Nali"
-
 [Pupae]
 ; EN: NameArticle=" a "
 NameArticle=" una "
 ; EN: MenuName="Pupae"
 MenuName="Pupe"
-
-[Skaarj]
-; EN: NameArticle=" a "
-NameArticle=" un "
-; EN: MenuName="Skaarj"
-MenuName="Skaarj"
 
 [SkaarjAssassin]
 ; EN: NameArticle=" a "
@@ -140,7 +116,7 @@ MenuName="Assassino Skaarj"
 ; EN: NameArticle=" a "
 NameArticle=" un "
 ; EN: MenuName="Skaarj Berserker"
-MenuName="Skaarj Berserker"
+MenuName="Berserker Skaarj"
 
 [SkaarjGunner]
 ; EN: NameArticle=" a "
@@ -158,7 +134,7 @@ MenuName="Soldato di Fanteria Skaarj"
 ; EN: NameArticle=" the "
 NameArticle=" il "
 ; EN: MenuName="Skaarj Lord"
-MenuName="Signori degli Skaarj"
+MenuName="Capo Skaarj"
 
 [SkaarjOfficer]
 ; EN: NameArticle=" a "
@@ -198,15 +174,11 @@ MenuName="Soldato Skaarj"
 ; EN: MenuName="Skaarj Trooper"
 MenuName="Soldato Skaarj"
 
-[NaliPlayer]
-; EN: MenuName="Nali"
-MenuName="Nali"
-
 [WarLord]
 ; EN: NameArticle=" the "
 NameArticle=" il "
 ; EN: MenuName="WarLord"
-MenuName="Signore della Guerra"
+MenuName="Signore Guerrieri"
 
 [SearchLight]
 ; EN: ExpireMessage="The Search Light batteries have died."
@@ -291,6 +263,7 @@ MenuName="Uomo 2"
 PickupMessage="Hai raccolto 25 Chili di Fanghiglia di Tarydium"
 ; EN: ItemName="Tarydium Biosludge"
 ItemName="Fanghiglia di Tarydium"
+
 
 [Invisibility]
 ; EN: ExpireMessage="Invisibility has worn off."
@@ -441,7 +414,7 @@ ItemName="Razorjack"
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."
 DeathMessage="%o è stato fatto a pezzettini dal %w di %k."
-; EN: PickupMessage="You got the Quad-Barreled ShotGun"
+; EN: PickupMessage="You got the Quad-Barreled Shotgun"
 PickupMessage="Hai preso il Colpo Quadruplo"
 ; EN: ItemName="Quad-Barreled Shotgun"
 ItemName="Colpo Quadruplo"

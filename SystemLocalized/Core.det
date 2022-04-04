@@ -3,7 +3,7 @@
 Preferences=(Caption="Dateisystem",Parent="Fortgeschrittene",Class=Core.System,Immediate=True)
 
 [Language]
-Language="Deutsche"
+Language="Deutsch"
 LangId=7
 SubLangId=0
 

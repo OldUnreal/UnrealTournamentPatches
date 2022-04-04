@@ -10,7 +10,7 @@ CancelText="Annulla"
 
 [UWindowConsoleWindow]
 ; EN: WindowTitle="System Console"
-WindowTitle="Console di sistema"
+WindowTitle="Console di Sistema"
 
 [UWindowSmallCloseButton]
 ; EN: CloseText="Close"

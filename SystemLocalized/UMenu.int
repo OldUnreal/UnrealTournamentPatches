@@ -1,4 +1,4 @@
-﻿[Public]
+[Public]
 Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Gold")
 Object=(Name=UMenu.UMenuBlueLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Ice")
 Object=(Name=UMenu.UMenuMetalLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description="Metal")
@@ -20,8 +20,8 @@ BodyText="Body"
 
 [UMenuServerSetupPage]
 EditAreaWidth=134
-AdminEmailText="Admin E-mail"
-AdminEMailHelp="Enter an e-mail address so users of this server can contact you."
+AdminEmailText="Admin Email"
+AdminEMailHelp="Enter an email address so users of this server can contact you."
 AdminNameText="Admin Name"
 AdminNameHelp="Enter the name of this server's administrator."
 MOTDLine1Text="MOTD Line 1"
@@ -37,33 +37,13 @@ ServerNameHelp="Enter the full description for your server, to appear in query t
 DoUplinkText="Advertise Server"
 DoUplinkHelp="If checked, your server will be advertised to the Master Server, so your server will appear in the global server list."
 ngWorldStatsText="Stats Logging"
-ngWorldStatsHelp="If checked, your server will record and store a log of gameplay stats."
+ngWorldStatsHelp="If checked, your server will generate logs for stat compilation."
 LanPlayText="Optimize for LAN"
 LanPlayHelp="If checked, a dedicated server started will be optimized for play on a LAN."
 
 [UMenuStatusBar]
 DefaultHelp="Press ESC to return to the game"
 DefaultIntroHelp="Use the Game menu to start a new game."
-
-[UMenuMultiplayerMenu]
-StartName="&Start New Multiplayer Game"
-StartHelp="Start your own network game which others can join."
-BrowserName="&Find Internet Games"
-BrowserHelp="Search for games currently in progress on the Internet."
-LANName="Find &LAN Games"
-LANHelp="Search for games of your local LAN."
-OpenLocationName="Open &Location"
-OpenLocationHelp="Connect to a server using its IP address or unreal:// URL."
-PatchName="Download Latest &Update"
-PatchHelp="Find the latest update to the game on the web!"
-DisconnectName="&Disconnect from Server"
-DisconnectHelp="Disconnect from the current server."
-ReconnectName="&Reconnect to Server"
-ReconnectHelp="Attempt to reconnect to the last server you were connected to."
-SuggestPlayerSetupTitle="Check Player Name"
-SuggestPlayerSetupText="Your name is currently set to "Player". It is recommended that you go to Player Setup and give yourself another name before playing a multiplayer game.\n\nWould you like to go to Player Setup instead?"
-SuggestNetspeedTitle="Check Internet Speed"
-SuggestNetspeedText="You haven't yet configured the type of Internet connection you will be playing with. It is recommended that you go to the Network Settings screen to ensure you have the best online gaming experience.\n\nWould you like to go to Network Settings instead?"
 
 [UMenuGameSettingsBase]
 StyleText="Game Style:"
@@ -74,37 +54,21 @@ StyleHelp="Choose your game style. Hardcore is 10% faster with a 50% damage incr
 SpeedText="Game Speed"
 SpeedHelp="Adjust the speed of the game."
 
-[UMenuBotConfigBase]
-BaseText="Base Skill:"
-BaseHelp="This is the base skill level of the bots."
-Skills[0]="Novice"
-Skills[1]="Average"
-Skills[2]="Skilled"
-Skills[3]="Masterful"
-SkillTaunts[0]="They won't hurt you...much."
-SkillTaunts[1]="Don't get cocky."
-SkillTaunts[2]="You think you're tough?"
-SkillTaunts[3]="You're already dead."
-NumBotsText="Number of Bots"
-NumBotsHelp="This is the number of bots that you will play against."
-AutoAdjustText="Auto Adjust Skill"
-AutoAdjustHelp="If checked, bots will increase or decrease their skill to match your skill level."
-RandomText="Random Order"
-RandomHelp="If checked, bots will be chosen at random from the list of bot configurations."
-ConfigBotsText="Configure"
-ConfigBotsHelp="Configure the names, appearance and other attributes of individual bots."
-AtLeastOneBotTitle="Configure Bots"
-AtLeastOneBotText="You must choose at least one bot in order to use the configure bots screen."
-
 [UMenuScreenshotCW]
 PlayersText="Players"
 
 [UMenuWeaponPriorityListBox]
-WeaponPriorityHelp="Click and drag a weapon name in the list on the left to change its priority. Weapons higher in the list have higher priority."
+WeaponPriorityHelp="Click and drag a weapon name in the list on the left to change its priority.  Weapons higher in the list have higher priority."
 
 [UMenuBotConfigClientWindow]
 BIMText="Enable Bots"
 BIMHelp="If checked, bots will be present in your new multiplayer game."
+
+[UMenuHUDConfigCW]
+HUDConfigText="HUD Layout"
+HUDConfigHelp="Use the left and right arrow keys to select a Heads Up Display configuration."
+CrosshairText="Crosshair Style"
+CrosshairHelp="Choose the crosshair appearing at the center of your screen."
 
 [UMenuMutatorCW]
 ExcludeCaption="Mutators not Used"
@@ -118,10 +82,17 @@ KeepHelp="If checked, these Mutators will always be used when starting games."
 FFText="Friendly Fire:"
 FFHelp="Slide to adjust the amount of damage friendly fire imparts to other teammates."
 
+[UMenuSaveGameClientWindow]
+CantSave="Cannot Save: You are dead."
+
 [UMenuStartGameClientWindow]
 DedicatedText="Dedicated"
 DedicatedHelp="Press to launch a dedicated server."
 ServerText="Server"
+
+[UMenuLoadGameClientWindow]
+RestartText="Restart"
+RestartHelp="Press to restart the current level."
 
 [UMenuOptionsWindow]
 WindowTitle="Preferences"
@@ -129,7 +100,7 @@ WindowWidth=300
 
 [UMenuWeaponPriorityListArea]
 AutoSwitchText="Auto-Switch Weapons"
-AutoSwitchHelp="Automatically switch to a higher priority weapon when you pick it up. If unchecked, you must switch to the new weapon manually."
+AutoSwitchHelp="Automatically switch to a higher priority weapon when you pick it up.  If unchecked, you must switch to the new weapon manually."
 
 [UMenuPlayerWindow]
 WindowTitle="Player Setup"
@@ -143,20 +114,6 @@ WindowTitle="Map List"
 [UMenuMutatorWindow]
 WindowTitle="Configure Mutators"
 
-[UMenuGameMenu]
-NewGameName="&New"
-NewGameHelp="Select to setup a new single player game."
-LoadName="&Load"
-LoadHelp="Select to load a previously saved game."
-SaveName="&Save"
-SaveHelp="Select to save your current game."
-BotmatchName="&Botmatch"
-BotmatchHelp="Select to begin a game of Botmatch: Deathmatch with Bots!"
-QuitName="&Quit"
-QuitHelp="Select to save preferences and exit the game."
-QuitTitle="Confirm Quit"
-QuitText="Are you sure you want to Quit?"
-
 [UMenuBotmatchWindow]
 WindowTitle="Botmatch"
 
@@ -166,8 +123,8 @@ WindowTitle="Start Network Game"
 [UMenuLoadGameWindow]
 WindowTitle="Load Game"
 
-[UMenuHelpWindow]
-WindowTitle="Help"
+[UMenuConfigIndivBotsWindow]
+WindowTitle="Configure Individual Bots"
 
 [UMenuNewGameWindow]
 WindowTitle="New Game"
@@ -175,8 +132,8 @@ WindowTitle="New Game"
 [UMenuSaveGameWindow]
 WindowTitle="Save Game"
 
-[UMenuConfigIndivBotsWindow]
-WindowTitle="Configure Individual Bots"
+[UMenuHelpWindow]
+WindowTitle="Help"
 
 [UMenuMenuBar]
 GameName="&Game"
@@ -192,19 +149,12 @@ ToolHelp="Enable various system tools."
 HelpName="&Help"
 HelpHelp="Enable or disable help."
 VersionName="Version"
-ModName="Mo&d"
+ModName="M&od"
 ModHelp="Configure user-created mods you have installed."
-
-[UTCreditsCW]
-ProgrammersText="Programming"
-LevelDesignText="Level Design"
-ArtText="Art & Models"
-MusicSoundText="Music & Sound"
-BizText="Biz"
 
 [UMenuVideoClientWindow]
 DriverText="Video Driver"
-DriverHelp="This is the current video driver. Use the Change button to change video drivers."
+DriverHelp="This is the current video driver.  Use the Change button to change video drivers."
 DriverButtonText="Change"
 DriverButtonHelp="Press this button to change your video driver."
 ResolutionText="Resolution"
@@ -218,7 +168,7 @@ Details[0]="High"
 Details[1]="Medium"
 Details[2]="Low"
 SkinDetailText="Skin Detail"
-SkinDetailHelp="Change the detail of player skins. Use a lower skin detail to improve game performance."
+SkinDetailHelp="Change the detail of player skins.  Use a lower skin detail to improve game performance."
 BrightnessText="Brightness"
 BrightnessHelp="Adjust display brightness."
 MouseText="GUI Mouse Speed"
@@ -233,6 +183,15 @@ ConfirmTextureDetailTitle="Confirm Texture Detail"
 ConfirmTextureDetailText="Increasing texture detail above its default value may degrade performance on some machines.\n\nAre you sure you want to make this change?"
 ConfirmDriverTitle="Change Video Driver"
 ConfirmDriverText="This option will restart Unreal Tournament now, and enable you to change your video driver.  Do you want to do this?"
+ConfirmSettingsRestartTitle="Video Settings Changed"
+ConfirmSettingsRestartText="Your updated video settings will take effect after restarting the game."
+VSyncStates[0]="Disabled"
+VSyncStates[1]="Enabled"
+VSyncStates[2]="Adaptive"
+VSyncStates[3]="Driver-Controlled"
+VSyncStates[4]="Not Supported"
+VSyncText="VSync"
+VSyncHelp="VSync synchronizes the frame rate of the game with the refresh rate of your monitor. This can reduce screen tearing."
 ShowDecalsText="Show Decals"
 ShowDecalsHelp="If checked, impact and gore decals will be used in game."
 MinFramerateText="Min Desired Framerate"
@@ -249,13 +208,6 @@ InGameFontScalingText="Override Font Scaling"
 InGameFontScalingHelp="If checked, you can control the scale of your in-game fonts using the slider below."
 InGameFontScalingSliderText="Font Scaling Factor"
 InGameFontScalingSliderHelp="Adjust the scale of the in-game fonts."
-VSyncText="Vertical Sync."
-VSyncHelp="If enabled, synchronizes the frame rate of the game with the refresh rate of your monitor. This can reduce screen tearing."
-VSyncStates[0]="Disabled"
-VSyncStates[1]="Enabled"
-VSyncStates[2]="Adaptive"
-VSyncStates[3]="Driver-Controlled"
-VSyncStates[4]="Not Supported"
 
 [UMenuPlayerSetupClient]
 NameText="Name:"
@@ -542,7 +494,7 @@ LocalizedKeyName[254]="OEM Clear"
 LabelList[0]="Fire"
 LabelList[1]="Alternate Fire"
 LabelList[2]="Move Forward"
-LabelList[3]="Move Backwards"
+LabelList[3]="Move Backward"
 LabelList[4]="Turn Left"
 LabelList[5]="Turn Right"
 LabelList[6]="Strafe Left"
@@ -630,6 +582,48 @@ NetSpeeds[1]="ISDN"
 NetSpeeds[2]="Cable, xDSL"
 NetSpeeds[3]="LAN"
 
+[UMenuMultiplayerMenu]
+StartName="&Start New Multiplayer Game"
+StartHelp="Start your own network game which others can join."
+BrowserName="&Find Internet Games"
+BrowserHelp="Search for games currently in progress on the Internet."
+LANName="Find &LAN Games"
+LANHelp="Search for games of your local LAN."
+OpenLocationName="Open &Location"
+OpenLocationHelp="Connect to a server using its IP address or unreal:// URL."
+PatchName="Download Latest &Update"
+PatchHelp="Find the latest update to Unreal Tournament on the web!"
+DisconnectName="&Disconnect from Server"
+DisconnectHelp="Disconnect from the current server."
+ReconnectName="&Reconnect to Server"
+ReconnectHelp="Attempt to reconnect to the last server you were connected to."
+SuggestPlayerSetupTitle="Check Player Name"
+SuggestPlayerSetupText="Your name is currently set to Player.  It is recommended that you go to Player Setup and give yourself another name before playing a multiplayer game.\n\nWould you like to go to Player Setup instead?"
+SuggestNetspeedTitle="Check Internet Speed"
+SuggestNetspeedText="You haven't yet configured the type of Internet connection you will be playing with. It is recommended that you go to the Network Settings screen to ensure you have the best online gaming experience.\n\nWould you like to go to Network Settings instead?"
+
+[UMenuBotConfigBase]
+BaseText="Base Skill:"
+BaseHelp="This is the base skill level of the bots."
+Skills[0]="Novice"
+Skills[1]="Average"
+Skills[2]="Skilled"
+Skills[3]="Masterful"
+SkillTaunts[0]="They won't hurt you...much."
+SkillTaunts[1]="Don't get cocky."
+SkillTaunts[2]="You think you're tough?"
+SkillTaunts[3]="You're already dead."
+NumBotsText="Number of Bots"
+NumBotsHelp="This is the number of bots that you will play against."
+AutoAdjustText="Auto Adjust Skill"
+AutoAdjustHelp="If checked, bots will increase or decrease their skill to match your skill level."
+RandomText="Random Order"
+RandomHelp="If checked, bots will chosen at random from the list of bot configurations."
+ConfigBotsText="Configure"
+ConfigBotsHelp="Configure the names, appearance and other attributes of individual bots."
+AtLeastOneBotTitle="Configure Bots"
+AtLeastOneBotText="You must choose at least one bot in order to use the configure bots screen."
+
 [UMenuInputOptionsClientWindow]
 AutoAimText="Auto Aim"
 AutoAimHelp="Enable or disable vertical aiming help."
@@ -660,11 +654,16 @@ MouseInputSettingsChangedTitle="Mouse Input Settings Changed"
 
 [UMenuAudioClientWindow]
 DriverText="Audio Driver"
-DriverHelp="This is the current audio driver. Use the Change button to change audio drivers."
+DriverHelp="This is the current audio driver.  Use the Change button to change audio drivers."
 DriverButtonText="Change"
 DriverButtonHelp="Press this button to change your audio driver."
+OutputDeviceText="Output Device"
+OutputDeviceHelp="This is your current audio output device."
+OutputDeviceDefault="System Default"
 ConfirmDriverTitle="Change Audio Driver"
 ConfirmDriverText="This option will restart Unreal Tournament now, and enable you to change your audio driver.  Do you want to do this?"
+ConfirmSettingsRestartTitle="Audio Settings Changed"
+ConfirmSettingsRestartText="Your updated audio settings will take effect after restarting the game."
 SoundQualityText="Sound Quality"
 SoundQualityHelp="Use low sound quality to improve game performance on machines with less than 32 Mb memory."
 Details[0]="Low"
@@ -681,9 +680,6 @@ VoiceMessagesText="Voice Messages"
 VoiceMessagesHelp="If checked, you will hear voice messages and commands from other players."
 MessageBeepText="Message Beep"
 MessageBeepHelp="If checked, you will hear a beep sound when chat message received."
-OutputDeviceText="Output Device"
-OutputDeviceHelp="This is your current audio output device."
-OutputDeviceDefault="System Default"
 
 [UMenuNewGameClientWindow]
 SkillText="Skill Level:"
@@ -714,12 +710,7 @@ AudioTab="Audio"
 VideoTab="Video"
 NetworkTab="Network"
 HUDTab="HUD"
-
-[UMenuHUDConfigCW]
-HUDConfigText="HUD Layout"
-HUDConfigHelp="Use the left and right arrow keys to select a Heads Up Display configuration."
-CrosshairText="Crosshair Style"
-CrosshairHelp="Choose the crosshair appearing at the center of your screen."
+AdvancedTab="Advanced"
 
 [UMenuToolsMenu]
 ConsoleName="System &Console"
@@ -728,9 +719,6 @@ TimeDemoName="T&imeDemo Statistics"
 TimeDemoHelp="Enable the TimeDemo statistic to measure your frame rate."
 LogName="Show &Log"
 LogHelp="Show the Unreal Tournament log window."
-
-[UMenuSaveGameClientWindow]
-CantSave="Cannot Save: You are dead."
 
 [UMenuSlotClientWindow]
 MonthNames[0]="January"
@@ -757,10 +745,6 @@ SupportURLHelp="Click to open the technical support web page at OldUnreaal."
 AboutName="&Unreal Tournament Credits"
 AboutHelp="Display credits."
 
-[UMenuLoadGameClientWindow]
-RestartText="Restart"
-RestartHelp="Press to restart the current level."
-
 [UMenuOptionsMenu]
 PreferencesName="P&references"
 PreferencesHelp="Change your game options, audio and video setup, HUD configuration, controls and other options."
@@ -770,6 +754,20 @@ DesktopName="Show &Desktop"
 DesktopHelp="Toggle between showing your game behind the menus, or the desktop logo."
 PlayerMenuName="&Player Setup"
 PlayerMenuHelp="Configure your player setup for multiplayer and botmatch gaming."
+
+[UMenuGameMenu]
+NewGameName="&New"
+NewGameHelp="Select to setup a new single player game of Unreal Tournament."
+LoadName="&Load"
+LoadHelp="Select to load a previously saved game."
+SaveName="&Save"
+SaveHelp="Select to save your current game."
+BotmatchName="&Botmatch"
+BotmatchHelp="Select to begin a game of Botmatch: Deathmatch with Bots!"
+QuitName="&Quit"
+QuitHelp="Select to save preferences and exit Unreal Tournament."
+QuitTitle="Confirm Quit"
+QuitText="Are you sure you want to Quit?"
 
 [UMenuStatsMenu]
 ViewLocalName="View Local ngStats"
@@ -781,7 +779,21 @@ AboutHelp="Get information about local stat logging."
 About2Name="Help with &ngWorldStats"
 About2Help="Get information about global stat logging."
 DisabledName="Disabled"
-DisabledHelp="This menu was disabled in Unreal Tournament v469."
+DisabledHelp="This menu was disabled in Unreal Tournament 469."
 
 [UTCreditsWindow]
 WindowTitle="Unreal Tournament Credits"
+
+[UMenuAdvancedClientWindow]
+HelpText[0]="The advanced preferences window is not available on your platform."
+HelpText[1]=" "
+HelpText[2]="If you want to modify advanced game settings, then please close the game and edit the following ini files:"
+HelpText[3]=" "
+
+[UTCreditsCW]
+ProgrammersText="Programming"
+LevelDesignText="Level Design"
+ArtText="Art & Models"
+MusicSoundText="Music & Sound"
+BizText="Biz"
+

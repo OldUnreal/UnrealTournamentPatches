@@ -35,14 +35,6 @@ MenuName="Blob"
 NameArticle=" a "
 MenuName="Bloblet"
 
-[Chameleon]
-NameArticle=" a "
-MenuName="Chameleon"
-
-[Cow]
-NameArticle=" a "
-MenuName="Nali Cow"
-
 [Gasbag]
 NameArticle=" a "
 MenuName="Gasbag"
@@ -55,10 +47,6 @@ MenuName="Giant Gasbag"
 NameArticle=" the "
 MenuName="Giant Manta"
 
-[IceSkaarj]
-NameArticle=" an "
-MenuName="Ice Skaarj"
-
 [Krall]
 NameArticle=" a "
 MenuName="Krall"
@@ -66,6 +54,10 @@ MenuName="Krall"
 [KrallElite]
 NameArticle=" an "
 MenuName="Elite Krall"
+
+[LeglessKrall]
+NameArticle=" a "
+MenuName="Legless Krall"
 
 [Mercenary]
 NameArticle=" a "
@@ -75,17 +67,9 @@ MenuName="Mercenary"
 NameArticle=" an "
 MenuName="Elite Mercenary"
 
-[Nali]
-NameArticle=" a "
-MenuName="Nali"
-
 [Pupae]
 NameArticle=" a "
 MenuName="Pupae"
-
-[Skaarj]
-NameArticle=" a "
-MenuName="Skaarj"
 
 [SkaarjAssassin]
 NameArticle=" a "
@@ -132,9 +116,6 @@ MenuName="Skaarj Trooper"
 
 [SkaarjPlayerBot]
 MenuName="Skaarj Trooper"
-
-[NaliPlayer]
-MenuName="Nali"
 
 [WarLord]
 NameArticle=" the "
@@ -247,10 +228,15 @@ ItemName="Power Shield"
 PickupMessage="You got a Rifle Round"
 ItemName="Rifle Round"
 
+[ParentBlob]
+BlobKillMessage="was corroded by a Blob"
+NameArticle=" a "
+MenuName="Blob"
+
 [EndgameHud]
-Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely.  Yet it's fuel has depleted and you drift aimlessly."
-Message2="From where many have died, you have escaped.  You laugh to yourself; so much has happened, but little has changed."
-Message3="Before the crash landing, you were trapped in a cramped cell.  Now, once again you are confined in a prison."
+Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely. Yet, it's fuel reserve has been depleted, and you drift aimlessly."
+Message2="From where many have died, you have escaped. You laugh to yourself; so much has happened, but so little has changed."
+Message3="Before the crash landing, you were trapped in a cramped cell. Now, once again you are confined in a prison."
 Message4="But, you feel confident that someone will come upon your small vessel... eventually."
 Message5="Until then, you drift and hope."
 Message6="To Be Continued..."
@@ -287,5 +273,5 @@ ItemName="Razorjack"
 
 [QuadShot]
 DeathMessage="%o was blasted to bits by %k's %w."
-PickupMessage="You got the Quad-Barreled ShotGun"
+PickupMessage="You got the Quad-Barreled Shotgun"
 ItemName="Quad-Barreled Shotgun"

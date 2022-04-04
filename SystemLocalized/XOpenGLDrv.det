@@ -1,23 +1,21 @@
 ﻿[Public]
 Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
 ; EN: Preferences=(Caption="XOpenGL Support",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
-Preferences=(Caption="Unterstützung für XOpenGL-Video",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
+Preferences=(Caption="XOpenGL Unterstützung",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
 ; EN: Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
-Preferences=(Caption="Optionen zum Debuggen",Parent="XOpenGL-Unterstützung",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
-; EN: Preferences=(Caption="Render Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
-Preferences=(Caption="Optionen zum Rendern",Parent="XOpenGL-Unterstützung",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Client")
+Preferences=(Caption="Optionen zum Debuggen",Parent="XOpenGL Unterstützung",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
 NoFindGL="Konnte keinen OpenGL Treiber finden %ls"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
-MissingFunc="Fehlende OpenGL funktion %ls (%i)"
+MissingFunc="Fehlende OpenGL Funktion %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
-ResFailed="Fehler beim einstellen der Auflösung"
+ResFailed="Fehler beim Einstellen der Auflösung"
 
 [XOpenGLRenderDevice]
 ; EN: ClassCaption="XOpenGL Support"
-ClassCaption="Unterstützung für XOpenGL-Video"
+ClassCaption="XOpenGL Unterstützung"
 ; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
 AskInstalled="Haben Sie eine Grafikkarte installiert, die mindestens OpenGL Version 3.3 oder höher unterstützt?"
 ; EN: AskUse="Do you want Unreal Tournament to use your XOpenGL accelerator?"

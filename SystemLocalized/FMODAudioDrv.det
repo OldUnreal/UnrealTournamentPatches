@@ -1,8 +1,8 @@
 ﻿[Public]
 Object=(Name=FMODAudioDrv.FMODAudioDevice,Class=Class,MetaClass=Engine.AudioSubsystem,Autodetect=)
 ; EN: Preferences=(Caption="FMOD 3D Audio Support",Parent="Audio",Class=FMODAudioDrv.FMODAudioDevice,Immediate=True)
-Preferences=(Caption="Unterstützung für FMOD 3D-Audio",Parent="Sound",Class=FMODAudioDrv.FMODAudioDevice,Immediate=True)
+Preferences=(Caption="FMOD 3D-Audio Unterstützung",Parent="Sound",Class=FMODAudioDrv.FMODAudioDevice,Immediate=True)
 
 [FMODAudioDevice]
 ; EN: ClassCaption="FMOD 3D Audio Support"
-ClassCaption="Unterstützung für FMOD 3D-Audio"
+ClassCaption="FMOD 3D-Audio Unterstützung"

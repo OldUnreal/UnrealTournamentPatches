@@ -8,5 +8,5 @@ Preferences=(Caption="Soporte para 3dfx Glide",Parent="Reproducción",Class=Glid
 ClassCaption="Soporte para 3dfx Glide"
 ; EN: AskInstalled="Do you have a 3dfx card installed?"
 AskInstalled="¿Tienes una tarjeta 3dfx instalada?"
-; EN: AskUse="Do you want Unreal Tournament to use your 3dfx card?"
-AskUse="¿Quieres utilizar tu tarjeta 3dfx con Unreal Tournament?"
+; EN: AskUse="Unreal Tournament is compatible with 3dfx Voodoo 1 and Voodoo 2, but not with Voodoo Rush-based cards. Do you want Unreal Tournament to use your 3dfx card?"
+AskUse="Unreal Tournament es compatible con las tarjetas gráficas Voodoo 1 y Voodoo 2, pero no con aquellas basadas en Voodoo Rush. ¿Deseas que Unreal Tournament utilice tu tarjeta gráfica 3dfx?"

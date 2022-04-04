@@ -5,7 +5,7 @@ Object=(Name=UnrealI.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.Rifle,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.Minigun,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.GESBioRifle,Class=Class,MetaClass=Engine.Weapon)
-Object=(Name=UnrealI.Razorjack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.RazorJack,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.QuadShot,Class=Class,MetaClass=Engine.Weapon)
 ; EN: Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Female 2")
 Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Mujer 2")
@@ -52,41 +52,23 @@ NameArticle=" una "
 ; EN: MenuName="Bloblet"
 MenuName="Gotita"
 
-[Chameleon]
-; EN: NameArticle=" a "
-NameArticle=" un "
-; EN: MenuName="Chameleon"
-MenuName="Camaleón"
-
-[Cow]
-; EN: NameArticle=" a "
-NameArticle=" una "
-; EN: MenuName="Nali Cow"
-MenuName="Vaca Nali"
-
 [Gasbag]
 ; EN: NameArticle=" a "
 NameArticle=" una "
 ; EN: MenuName="Gasbag"
-MenuName="Bolsa de Aire"
+MenuName="Bolsa Gaseosa"
 
 [GiantGasbag]
 ; EN: NameArticle=" the "
 NameArticle=" la "
 ; EN: MenuName="Giant Gasbag"
-MenuName="Superbolsa de Aire"
+MenuName="Superbolsa Gaseosa"
 
 [GiantManta]
 ; EN: NameArticle=" the "
 NameArticle=" el "
 ; EN: MenuName="Giant Manta"
 MenuName="Manta Gigante"
-
-[IceSkaarj]
-; EN: NameArticle=" an "
-NameArticle=" un "
-; EN: MenuName="Ice Skaarj"
-MenuName="Skaarj de Hielo"
 
 [Krall]
 ; EN: NameArticle=" a "
@@ -100,6 +82,12 @@ NameArticle=" un "
 ; EN: MenuName="Elite Krall"
 MenuName="Krall de Élite"
 
+[LeglessKrall]
+; EN: NameArticle=" a "
+NameArticle=" un "
+; EN: MenuName="Legless Krall"
+MenuName="Krall Cojo"
+
 [Mercenary]
 ; EN: NameArticle=" a "
 NameArticle=" un "
@@ -112,23 +100,11 @@ NameArticle=" un "
 ; EN: MenuName="Elite Mercenary"
 MenuName="Mercenario de Élite"
 
-[Nali]
-; EN: NameArticle=" a "
-NameArticle=" un "
-; EN: MenuName="Nali"
-MenuName="Nali"
-
 [Pupae]
 ; EN: NameArticle=" a "
 NameArticle=" una "
 ; EN: MenuName="Pupae"
 MenuName="Pupa"
-
-[Skaarj]
-; EN: NameArticle=" a "
-NameArticle=" un "
-; EN: MenuName="Skaarj"
-MenuName="Skaarj"
 
 [SkaarjAssassin]
 ; EN: NameArticle=" a "
@@ -158,7 +134,7 @@ MenuName="Soldado de Infantería Skaarj"
 ; EN: NameArticle=" the "
 NameArticle=" el "
 ; EN: MenuName="Skaarj Lord"
-MenuName="Señor de los Skaarj"
+MenuName="Jefe Skaarj"
 
 [SkaarjOfficer]
 ; EN: NameArticle=" a "
@@ -197,10 +173,6 @@ MenuName="Soldado Skaarj"
 [SkaarjPlayerBot]
 ; EN: MenuName="Skaarj Trooper"
 MenuName="Soldado Skaarj"
-
-[NaliPlayer]
-; EN: MenuName="Nali"
-MenuName="Nali"
 
 [WarLord]
 ; EN: NameArticle=" the "

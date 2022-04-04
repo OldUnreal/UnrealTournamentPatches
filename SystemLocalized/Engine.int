@@ -1,4 +1,4 @@
-﻿[Public]
+[Public]
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; Main roots
@@ -18,14 +18,6 @@ Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Imm
 ; Networking
 Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
 
-[PlayerPawn]
-QuickSaveString="Quick Saving"
-NoPauseMessage="Game is not pauseable"
-ViewingFrom="Now viewing from "
-OwnCamera="own camera"
-FailedView="Failed to change view."
-CantChangeNameMsg="You can't change your name during a global logged game."
-
 [Pawn]
 NameArticle=" a "
 
@@ -36,34 +28,19 @@ M_Activated=" activated."
 M_Selected=" selected."
 M_Deactivated=" deactivated."
 
+[Ammo]
+PickupMessage="You picked up some ammo"
+ItemName="Ammo"
+
 [LevelInfo]
 Title="Untitled"
-
-[Weapon]
-MessageNoAmmo=" has no ammo."
-DeathMessage="%o was killed by %k's %w."
-PickupMessage="You got a weapon"
-ItemName="Weapon"
-DeathMessage[0]="%o was killed by %k's %w."
-DeathMessage[1]="%o was killed by %k's %w."
-DeathMessage[2]="%o was killed by %k's %w."
-DeathMessage[3]="%o was killed by %k's %w."
-
-[Ammo]
-PickupMessage="You picked up some ammo."
-
-[Counter]
-CountMessage="Only %i more to go..."
-CompleteMessage="Completed!"
 
 [Spectator]
 MenuName="Spectator"
 
-[DamageType]
-Name="killed"
-AltName="killed"
-NameFem="killed"
-AltNameFem="killed"
+[Counter]
+CountMessage="Only %i more to go..."
+CompleteMessage="Completed!"
 
 [Progress]
 CancelledConnect="Cancelled Connect Attempt"
@@ -83,15 +60,6 @@ ReceiveSize="Size %iK, Complete %3.1f%% = %iK, %i Packages remaining"
 ConnectingText="Connecting (F10 Cancels):"
 ConnectingURL="unreal://%ls/%ls"
 
-[WarpZoneInfo]
-OtherSideURL=""
-
-[Pickup]
-ExpireMessage=""
-
-[SpecialEvent]
-DamageString=""
-
 [ServerCommandlet]
 HelpCmd=server
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
@@ -102,6 +70,13 @@ HelpDesc[0]="Specify the log file to generate."
 HelpParm[1]="AllAdmin"
 HelpDesc[1]="Give all players admin privileges."
 
+[PlayerPawn]
+QuickSaveString="Quick Saving"
+NoPauseMessage="Game is not pauseable"
+ViewingFrom="Now viewing from"
+OwnCamera="own camera"
+FailedView="Failed to change view."
+
 [Console]
 ClassCaption="Standard Unreal Tournament Console"
 LoadingMessage="LOADING"
@@ -109,20 +84,24 @@ SavingMessage="SAVING"
 ConnectingMessage="CONNECTING"
 PausedMessage="PAUSED"
 PrecachingMessage="PRECACHING"
-ChatChannel="(CHAT) "
-TeamChannel="(TEAM) "
+FrameRateText="Frame Rate"
+AvgText="Avg"
+LastSecText="Last Sec"
+MinText="Min"
+MaxText="Max"
+fpsText="fps"
+SecondsText="seconds."
+FramesText="frames rendered in"
 
 [Menu]
-HelpMessage=""
-MenuList=""
 HelpMessage[1]="This menu has not yet been implemented."
 LeftString="Left"
 RightString="Right"
 CenterString="Center"
 EnabledString="Enabled"
 DisabledString="Disabled"
-YesString="yes"
-NoString="no"
+YesString="Yes"
+NoString="No"
 
 [GameInfo]
 SwitchLevelMessage="Switching Levels"
@@ -138,8 +117,15 @@ MaxedOutMessage="Server is already at capacity."
 WrongPassword="The password you entered is incorrect."
 NeedPassword="You need to enter a password to join this game."
 IPBanned="Your IP address has been banned on this server."
-MaleGender="his"
-FemaleGender="her"
+
+[Weapon]
+MessageNoAmmo=" has no ammo."
+DeathMessage="%o was killed by %k's %w."
+PickupMessage="You got a weapon"
+ItemName="Weapon"
+
+[DamageType]
+AltName="killed"
 
 [Errors]
 NetOpen="Error opening file"

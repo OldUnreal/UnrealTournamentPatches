@@ -4,5 +4,5 @@ Preferences=(Caption="Direct3D 9 Support",Parent="Rendering",Class=D3D9Drv.D3D9R
 
 [D3D9RenderDevice]
 ClassCaption="Direct3D 9 Support"
-AskInstalled="Do you want to use Direct3D 9?"
+AskInstalled="Do you want to use Direct3D?"
 AskUse=""

@@ -1,12 +1,12 @@
 ﻿[Public]
 Object=(Name=GlideDrv.GlideRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=Glide2X.dll)
 ; EN: Preferences=(Caption="3dfx Glide Support",Parent="Rendering",Class=GlideDrv.GlideRenderDevice,Immediate=True)
-Preferences=(Caption="Unterstützung für 3dfx Glide-Video",Parent="Rendern",Class=GlideDrv.GlideRenderDevice,Immediate=True)
+Preferences=(Caption="3dfx Glide Unterstützung",Parent="Rendering",Class=GlideDrv.GlideRenderDevice,Immediate=True)
 
 [GlideRenderDevice]
 ; EN: ClassCaption="3dfx Glide Support"
-ClassCaption="Unterstützung für 3dfx Glide-Video"
+ClassCaption="3dfx Glide Unterstützung"
 ; EN: AskInstalled="Do you have a 3dfx card installed?"
 AskInstalled="Besitzt Du eine 3dfx-Karte?"
-; EN: AskUse="Do you want Unreal Tournament to use your 3dfx card?"
-AskUse="Möchtest Du, daß Unreal Tournament die 3dfx-Karte verwendet?"
+; EN: AskUse="Unreal Tournament is compatible with 3dfx Voodoo 1 and Voodoo 2, but not with Voodoo Rush-based cards. Do you want Unreal Tournament to use your 3dfx card?"
+AskUse="Unreal Tournament ist kompatibel mit 3dfx Voodoo 1 und Voodoo 2, aber nicht mit Voodoo Rush-basierten Grafikkarten. Soll Unreal Tournament deine 3dfx-Karte verwenden?"

@@ -1,16 +1,11 @@
-﻿[Public]
-
 [UBrowserServerListWindow]
 InfoName="Info"
 PlayerCountName="Players"
 ServerCountName="Servers"
-QueryServerText="Querying Master Server (hit F5 if nothing happens)"
+QueryServerText="Querying master server (hit F5 if nothing happens)"
 QueryFailedText="Master Server Failed: "
 PingingText="Pinging Servers"
 CompleteText="Complete"
-
-[UBrowserMainWindow]
-WindowTitleString="Server Browser"
 
 [UBrowserGSpyLink]
 ResolveFailedError="The master server could not be resolved: "
@@ -40,7 +35,7 @@ TimeLimitText="Time Limit"
 GameModeText="Game Mode"
 GameTypeText="Game Type"
 GameVersionText="Game Version"
-WorldLogText="ngStats World Stat-Logging"
+WorldLogText="ngWorldStats"
 MutatorsText="Mutators"
 TrueString="Enabled"
 FalseString="Disabled"
@@ -78,14 +73,16 @@ PlayersName="Players"
 RefreshName="&Refresh Info"
 CloseName="&Close"
 
+[UBrowserMainWindow]
+WindowTitleString="Unreal Tournament Server Browser"
+
 [UBrowserRightClickMenu]
+PlayName="&Play on This Server"
 RefreshName="&Refresh All Servers"
+InfoName="&Server and Player Info"
 FavoritesName="Add to &Favorites"
-RemoveFavoritesName="R&emove from Favorites"
 RefreshServerName="P&ing This Server"
 PingAllName="Ping &All Servers"
-InfoName="&Server and Player Info"
-PlayName="&Play on This Server"
 OpenLocationName="Open &Location"
 CopyName="&Copy This Server Location"
 
@@ -96,23 +93,11 @@ PingText="Ping"
 TeamText="Team"
 MeshText="Mesh"
 SkinText="Skin"
-IDText="ID"
 FaceText="Face"
+IDText="ID"
 ngSecretText="Player type"
 BotText="Bot"
 HumanText="Human"
-
-[ServerListTitles]
-UBrowserUT="UT Servers"
-UBrowserLAN="LAN Servers"
-UBrowserPopulated="Populated Servers"
-UBrowserDeathmatch="Deathmatch"
-UBrowserTeamGames="Team Deathmatch"
-UBrowserCTF="Capture the Flag"
-UBrowserDOM="Domination"
-UBrowserAS="Assault"
-UBrowserLMS="Last Man Standing"
-UBrowserAll="All Servers"
 
 [UBrowserIRCSystemPage]
 NotInAChannelText="Not in a channel!"
@@ -147,10 +132,10 @@ ChannelText="Default Channel"
 ServerHelp="Choose an IRC server from the list or type in your own IRC server name or IP address."
 ChannelHelp="Choose a default channel to join once the server has connected, or type in your own channel name."
 ConnectText="Connect"
-DisconnectText="Disconnect"
+DisconnectText="Logoff"
 ConnectHelp="Connect to the IRC chat server."
 DisconnectHelp="Disconnect from the IRC chat server."
-WarningText="The Chat facility will connect you to the Internet Relay Chat (IRC) network.\n\nNeither Epic Games nor OldUnreal are responsible for the content of any channels in IRC. You enter these channels at your own risk.\n\nAre you sure you still want to connect?"
+WarningText="The Chat facility will connect you to the Internet Relay Chat (IRC) network.\n\nNeither Epic Games nor OldUnreal will be held responsible for the content of any channels in IRC. You enter these channels at your own risk.\n\nAre you sure you still want to connect?"
 WarningTitle="Warning"
 
 [UBrowserUpdateServerWindow]
@@ -196,3 +181,15 @@ JoinText="&Join"
 [UBrowserNewFavoriteWindow]
 OKText="New"
 WindowTitle="New Favorite"
+
+[ServerListTitles]
+UBrowserUT="UT Servers"
+UBrowserLAN="LAN Servers"
+UBrowserPopulated="Populated Servers"
+UBrowserDeathmatch="Deathmatch"
+UBrowserTeamGames="Team Deathmatch"
+UBrowserCTF="Capture the Flag"
+UBrowserDOM="Domination"
+UBrowserAS="Assault"
+UBrowserLMS="Last Man Standing"
+UBrowserAll="All Servers"
