@@ -131,6 +131,9 @@ CrosshairSmoothText="Smooth Crosshair"
 CrosshairSmoothHelp="Enable to apply smoothing to your crosshair."
 CrosshairAlwaysCenterText="Always Center Crosshair"
 CrosshairAlwaysCenterHelp="Enable to always center the crosshair, even if you hold your weapon in your left or right hand."
+HUDColorValues[10]="cust"
+CrosshairTranslucentText="Translucent Crosshair"
+CrosshairTranslucentHelp="Enable to apply translucency to your crosshair."
 
 [UTIndivBotSetupClient]
 SkillText="Skill Adjust"
