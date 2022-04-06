@@ -559,7 +559,7 @@ MaxFileDownloadRate=0   Maximum download speed in bytes per second
 #### Localization
 
 * New language: German (requires testing)
-* Italian has been fully updated (requires testing)
+* Italian and French have been fully updated (both require testing)
 * Minor changes to Spanish
 
 #### Miscellaneous
