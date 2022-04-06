@@ -1,0 +1,52 @@
+﻿[LevelInfo0]
+Title="Operation Overlord"
+IdealPlayerCount="8-12"
+LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
+
+[ZoneInfo2]
+ZoneName="Barracks"
+
+[ZoneInfo5]
+ZoneName="Ammo Room"
+
+[ZoneInfo3]
+ZoneName="Boiler Room"
+
+[ZoneInfo6]
+ZoneName="Gun Cavern"
+
+[KillingField0]
+ZoneName="Beach"
+
+[ZoneInfo1]
+ZoneName="Foxholes"
+
+[ZoneInfo0]
+ZoneName="Entrance Ramp"
+
+[ZoneInfo8]
+ZoneName="Last Passage"
+
+[WaterZone0]
+ZoneName="Water"
+
+[FortStandard0]
+FortName="The Beachhead"
+DestroyedMessage="has been breached by the attackers!"
+
+[AssaultInfo0]
+ObjDesc[0]="In order to disable the Long-Range-Cannon you must make your way through the defenders' base to the large Gun Cavern deep inside the cliff wall. In there you will find the 'Main Gun Control' room. Destroy the equipment in that room."
+
+[FortStandard4]
+FortName="The Boiler Room"
+DestroyedMessage="has been breached by the attackers!"
+
+[LevelSummary]
+Title="Operation Overlord"
+IdealPlayerCount="8-12"
+LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
+
+[LevelInfo2]
+Title="Operation Overlord"
+IdealPlayerCount="8-12"
+LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"

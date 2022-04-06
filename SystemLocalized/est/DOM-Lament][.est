@@ -1,0 +1,24 @@
+﻿[LevelInfo0]
+; EN: Title="Lament ]["
+Title="Lamento ]["
+IdealPlayerCount="2-4"
+; EN: LevelEnterText="Break out the rubber, it's DOMINATION time!"
+LevelEnterText="¡A romper el hielo, es hora de la DOMINACIÓN!"
+
+[ControlPoint2]
+; EN: PointName="Lower"
+PointName="Inferior"
+
+[ControlPoint0]
+PointName="Central"
+
+[ControlPoint1]
+; EN: PointName="Upper"
+PointName="Superior"
+
+[LevelSummary]
+; EN: Title="Lament ]["
+Title="Lamento ]["
+IdealPlayerCount="2-4"
+; EN: LevelEnterText="Break out the rubber, it's DOMINATION time!"
+LevelEnterText="¡A romper el hielo, es hora de la DOMINACIÓN!"

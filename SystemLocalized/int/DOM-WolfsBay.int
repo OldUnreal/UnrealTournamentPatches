@@ -1,0 +1,46 @@
+﻿[LevelInfo0]
+Title="Wolf's Bay"
+IdealPlayerCount="6"
+
+[ZoneInfo21]
+ZoneName="Aft"
+
+[ZoneInfo5]
+ZoneName="Cargo Hold"
+
+[ZoneInfo3]
+ZoneName="Engine Room"
+
+[ControlPoint1]
+PointName="Bridge"
+
+[ControlPoint2]
+PointName="Cargo"
+
+[ControlPoint0]
+PointName="Engine"
+
+[ZoneInfo1]
+ZoneName="Bridge"
+
+[ZoneInfo6]
+ZoneName="Starboard Tunnel"
+
+[ZoneInfo10]
+ZoneName="Port Tunnel"
+
+[ZoneInfo2]
+ZoneName="Vent Room"
+
+[ZoneInfo4]
+ZoneName="Port Tunnel"
+
+[WaterZone0]
+ZoneName="Drowning"
+
+[LevelSummary]
+Title="Wolf's Bay"
+IdealPlayerCount="6"
+
+[ZoneInfo22]
+ZoneName="Outside"

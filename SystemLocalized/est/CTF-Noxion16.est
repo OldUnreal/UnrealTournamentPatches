@@ -1,0 +1,57 @@
+﻿[LevelInfo0]
+; EN: Title="Noxion Base"
+Title="Base Noxion"
+IdealPlayerCount="6-16"
+
+[ZoneInfo0]
+; EN: ZoneName="Middle"
+ZoneName="Medio"
+
+[ZoneInfo10]
+; EN: ZoneName="Blue Flag Room"
+ZoneName="Sala de Bandera Azul"
+
+[ZoneInfo9]
+; EN: ZoneName="Red Flag Room"
+ZoneName="Sala de Bandera Roja"
+
+[ZoneInfo3]
+; EN: ZoneName="Red Ramps"
+ZoneName="Rampas Rojas"
+
+[ZoneInfo4]
+; EN: ZoneName="Red Base"
+ZoneName="Base Roja"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Azul"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Ramps"
+ZoneName="Rampas Azules"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Middle"
+ZoneName="Medio Rojo"
+
+[ZoneInfo6]
+; EN: ZoneName="Blue Middle"
+ZoneName="Medio Azul"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Basement"
+ZoneName="Sótano Rojo"
+
+[ZoneInfo7]
+; EN: ZoneName="Blue Basement"
+ZoneName="Sótano Azul"
+
+[KillingField0]
+; EN: ZoneName="Really Dead"
+ZoneName="Realmente Muerto"
+
+[LevelSummary]
+; EN: Title="Noxion Base"
+Title="Base Noxion"
+IdealPlayerCount="6-16"

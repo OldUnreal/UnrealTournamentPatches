@@ -1,0 +1,79 @@
+﻿[LevelInfo0]
+Title="Cybrosis Central ]["
+IdealPlayerCount="4-12"
+
+[ZoneInfo24]
+ZoneName="Outer Base Blue"
+
+[ZoneInfo2]
+ZoneName="Outer Base Red"
+
+[ZoneInfo25]
+ZoneName="Water Room Blue"
+
+[ZoneInfo3]
+ZoneName="Water Room Red"
+
+[ZoneInfo12]
+ZoneName="Flag Base Red"
+
+[ZoneInfo11]
+ZoneName="Flag Base Blue"
+
+[ZoneInfo28]
+ZoneName="Pipe Room Blue"
+
+[ZoneInfo6]
+ZoneName="Pipe Room Red"
+
+[ZoneInfo26]
+ZoneName="Antechamber Blue"
+
+[ZoneInfo23]
+ZoneName="Top Center Blue"
+
+[ZoneInfo4]
+ZoneName="Antechamber Red"
+
+[ZoneInfo1]
+ZoneName="Top Center Red"
+
+[ZoneInfo27]
+ZoneName="Top Passage Blue"
+
+[ZoneInfo30]
+ZoneName="Top Passage Blue"
+
+[ZoneInfo5]
+ZoneName="Top Passage Red"
+
+[ZoneInfo31]
+ZoneName="Top Center Blue"
+
+[ZoneInfo9]
+ZoneName="Top Center Red"
+
+[ZoneInfo8]
+ZoneName="Top Passage Red"
+
+[ZoneInfo10]
+ZoneName="Top Center Red"
+
+[ZoneInfo32]
+ZoneName="Top Center Blue"
+
+[ZoneInfo7]
+ZoneName="Underpassage Red"
+
+[ZoneInfo29]
+ZoneName="Underpassage Blue"
+
+[SpecialEvent1]
+DamageString="%K made a shocking mistake"
+
+[LevelSummary]
+Title="Cybrosis Central ]["
+IdealPlayerCount="4-12"
+
+[SpecialEvent11]
+DamageString="%K made a shocking mistake"

@@ -1,0 +1,20 @@
+﻿[LevelInfo0]
+; EN: Title="Turbine"
+Title="Turbina"
+IdealPlayerCount="4-8"
+
+[ZoneInfo15]
+ZoneName="Campo de Batalla"
+
+[ZoneInfo17]
+; EN: ZoneName="Basement"
+ZoneName="Sótano"
+
+[ZoneInfo16]
+; EN: ZoneName="Nook"
+ZoneName="Rincón"
+
+[LevelSummary]
+; EN: Title="Turbine"
+Title="Turbina"
+IdealPlayerCount="4-8"

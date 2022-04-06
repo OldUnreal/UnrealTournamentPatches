@@ -1,0 +1,64 @@
+﻿[LevelInfo0]
+Title="Ocean Floor "Station 5""
+IdealPlayerCount="8-10"
+LevelEnterText="Control the underwater base!"
+
+[ZoneInfo5]
+ZoneName="Middle Area"
+
+[ZoneInfo3]
+ZoneName="Large Docking Area"
+
+[ZoneInfo4]
+ZoneName="Small Docking Area"
+
+[ZoneInfo1]
+ZoneName="Submarine"
+
+[ZoneInfo2]
+ZoneName="Command Center"
+
+[ZoneInfo7]
+ZoneName="Hallway"
+
+[SpecialEvent0]
+Message="Terminal 1 has been disabled."
+
+[FortStandard0]
+FortName="The Terminal 3"
+DestroyedMessage="has been destroyed!!"
+
+[SpecialEvent10]
+Message="Terminal 4 has been disabled."
+
+[FortStandard1]
+FortName="The Terminal 1"
+DestroyedMessage="has been destroyed!"
+
+[FortStandard2]
+FortName="The Terminal 2"
+DestroyedMessage="has been destroyed!!"
+
+[FortStandard3]
+FortName="The Terminal 4"
+DestroyedMessage="has been destroyed!"
+
+[LevelSummary]
+Title="Ocean Floor "Station 5""
+IdealPlayerCount="8-10"
+LevelEnterText="Control the underwater base!"
+
+[AssaultInfo0]
+ObjDesc[0]="Swim out towards the base below the submarine. Inside the base there are 4 terminals with keyboards attached to them that need to be destroyed in order to render the base useless. Destroy terminal 1. The terminals can be destroyed in any order."
+ObjDesc[1]="Destroy terminal 2. The terminals can be destroyed in any order."
+ObjDesc[2]="Destroy terminal 3. The terminals can be destroyed in any order."
+ObjDesc[3]="Destroy terminal 4. The terminals can be destroyed in any order."
+
+[ZoneInfo6]
+ZoneName="Elevator Shaft"
+
+[SpecialEvent15]
+Message="Terminal 3 has been disabled."
+
+[SpecialEvent5]
+Message="Terminal 2 has been disabled."

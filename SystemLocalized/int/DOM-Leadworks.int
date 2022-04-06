@@ -1,0 +1,39 @@
+﻿[LevelInfo0]
+Title="Southside Leadworks"
+IdealPlayerCount="6-12"
+LevelEnterText="Entering the Southside Leadworks"
+
+[ZoneInfo0]
+ZoneName="Tower"
+
+[ZoneInfo4]
+ZoneName="Rocket Storage"
+
+[ZoneInfo2]
+ZoneName="Lava Bridge"
+
+[ZoneInfo3]
+ZoneName="Processing"
+
+[ZoneInfo6]
+ZoneName="Storage"
+
+[ControlPoint2]
+PointName="Bridge"
+
+[ControlPoint1]
+PointName="Tower"
+
+[ZoneInfo1]
+ZoneName="Corridors"
+
+[ControlPoint0]
+PointName="Storage"
+
+[ZoneInfo5]
+ZoneName="Ripper Storage"
+
+[LevelSummary]
+Title="Southside Leadworks"
+IdealPlayerCount="6-12"
+LevelEnterText="Entering the Southside Leadworks"

@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+; EN: Title="Frigate"
+Title="Fragata"
+IdealPlayerCount="4-8"
+
+[LevelSummary]
+; EN: Title="Frigate"
+Title="Fragata"
+IdealPlayerCount="4-8"
+
+[FortStandard0]
+; EN: FortName="The Missiles"
+FortName="Los Misiles"
+; EN: DestroyedMessage="were launched!"
+DestroyedMessage="¡han sido disparados!"
+
+[FortStandard1]
+; EN: FortName="The Ship"
+FortName="La Fragata"
+; EN: DestroyedMessage="has been entered!"
+DestroyedMessage="¡ha sido ocupada!"
+
+[FortStandard2]
+; EN: FortName="The Hydraulic Compressor"
+FortName="El Compresor Hidráulico"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="¡ha sido destruido!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="The door to the ship's control room is controlled by a hydraulic compressor which is located in the aft cabin of the boat. This compressor must be destroyed before the control room can be accessed."
+ObjDesc[0]="La puerta de la sala de control del barco está controlada por un compresor hidráulico que se encuentra en la cabina de popa del barco. Este compresor debe destruirse antes de poder acceder a la sala de control."
+; EN: ObjDesc[1]="You must hijack the warship via the dock and find your way to the control room on the top floor of the vessel. There, you will find a red button that will activate the boat's cannons and allow the boat to leave the harbor."
+ObjDesc[1]="Deberán secuestrar el buque de guerra atravesando el muelle y escabulliéndose hasta alcanzar la sala de control en el piso superior de la nave. Allí, encontrarán un botón rojo que activará los cañones del barco y les permitirá zarpar del puerto."
+
+[ZoneInfo0]
+; EN: ZoneName="Ship mid corridor"
+ZoneName="Corredor medio de la nave"
+
+[WaterZone0]
+; EN: ZoneName="Swimming at the lake"
+ZoneName="Nadando en el lago"
+
+[WaterZone1]
+; EN: ZoneName="Being a horse"
+ZoneName="En las profundidades"

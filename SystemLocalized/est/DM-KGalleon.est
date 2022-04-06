@@ -1,0 +1,17 @@
+﻿[LevelInfo0]
+; EN: Title="Koos Galleon"
+Title="Galeón Koos"
+IdealPlayerCount="4-12"
+; EN: LevelEnterText="SHIVER ME TIMBERS!!!"
+LevelEnterText="¡TEMBLAD, CUADERNAS!"
+
+[WarpZoneInfo0]
+; EN: ZoneName="Underwater"
+ZoneName="Hundiéndose"
+
+[LevelSummary]
+; EN: Title="Koos Galleon"
+Title="Galeón Koos"
+IdealPlayerCount="4-12"
+; EN: LevelEnterText="SHIVER ME TIMBERS!!!"
+LevelEnterText="¡TEMBLAD, CUADERNAS!"

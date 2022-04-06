@@ -1,0 +1,24 @@
+﻿[LevelInfo0]
+Title="Assault Tutorial"
+IdealPlayerCount="2-4"
+
+[LevelSummary]
+Title="Assault Tutorial"
+IdealPlayerCount="2-4"
+
+[FortStandard1]
+FortName="The Fuse"
+DestroyedMessage="has been ignited!"
+
+[FortStandard2]
+FortName="The Garage Door"
+DestroyedMessage="was breached!"
+
+[FortStandard3]
+FortName="The Tank Turret"
+DestroyedMessage="has been destroyed!"
+
+[AssaultInfo0]
+ObjDesc[0]="Shoot at the fuse to ignite it and blow up the TNT, which will permit access to the underground base."
+ObjDesc[1]="Make your way through the base, dealing with all gun turrets and enemies you find along the way, until you ride a lift up to a platform that has the garage activation switch."
+ObjDesc[2]="Once the door is opened, destroy the prototype tank by shooting at the turret."

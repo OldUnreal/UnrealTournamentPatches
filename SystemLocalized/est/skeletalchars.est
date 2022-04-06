@@ -1,0 +1,23 @@
+﻿[Public]
+; EN: Object=(Name=SkeletalChars.WarBoss,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="War Boss")
+Object=(Name=SkeletalChars.WarBoss,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Jefe de Guerra")
+; EN: Object=(Name=SkeletalChars.XanMk2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Xan Mark II")
+Object=(Name=SkeletalChars.XanMk2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Xan Ver. II")
+; EN: Object=(Name=SkeletalChars.WarBossBot,Class=Class,MetaClass=Botpack.Bot,Description="War Boss")
+Object=(Name=SkeletalChars.WarBossBot,Class=Class,MetaClass=Botpack.Bot,Description="Jefe de Guerra")
+; EN: Object=(Name=SkeletalChars.XanMk2Bot,Class=Class,MetaClass=Botpack.Bot,Description="Xan Mark II")
+Object=(Name=SkeletalChars.XanMk2Bot,Class=Class,MetaClass=Botpack.Bot,Description="Xan Ver. II")
+
+[XanMk2]
+MenuName="Xan Ver. II"
+
+[XanMk2Bot]
+MenuName="Xan Ver. II"
+
+[WarBoss]
+; EN: MenuName="War Boss"
+MenuName="Jefe de Guerra"
+
+[WarBossBot]
+; EN: MenuName="War Boss"
+MenuName="Jefe de Guerra"

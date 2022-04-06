@@ -1,0 +1,48 @@
+﻿[LevelInfo0]
+Title="Condemned"
+IdealPlayerCount="6"
+LevelEnterText="Dominate the competition!"
+
+[ZoneInfo1]
+ZoneName="Alley"
+
+[ControlPoint2]
+PointName="Arturo's"
+
+[ZoneInfo0]
+ZoneName="The Condemned Building"
+
+[ControlPoint1]
+PointName="Rooftop"
+
+[ControlPoint0]
+PointName="Garage"
+
+[locationid3]
+LocationName="Rooftop"
+
+[locationid4]
+LocationName="Rooftop"
+
+[LevelSummary]
+Title="Condemned"
+IdealPlayerCount="6"
+LevelEnterText="Dominate the competition!"
+
+[locationid5]
+LocationName="Rooftop"
+
+[ZoneInfo4]
+ZoneName="Alleyways"
+
+[ScrollingMessageTexture0]
+ScrollingMessage="TONIGHT 10:00PM EST... %p LEADS HIS UNDEFEATED TEAM %h INTO THE CONDEMNED ARENA"
+
+[locationid0]
+LocationName="Garage"
+
+[locationid2]
+LocationName="Rooftop"
+
+[locationid1]
+LocationName="Arturo's Bar"

@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+; EN: Title="Morpheus"
+Title="Morfeo"
+IdealPlayerCount="3-6"
+; EN: LevelEnterText="Nobody ever makes their first jump."
+LevelEnterText="Nadie consigue nunca realizar su primer salto."
+
+[VacuumZone0]
+; EN: DamageString="%k fell a long long way..."
+DamageString="%k cayó al vacío..."
+
+[ScrollingMessageTexture3]
+; EN: ScrollingMessage="%lp leads the match with %lf frags..."
+ScrollingMessage="%lp lidera la partida con %lf bajas..."
+
+[ScrollingMessageTexture0]
+; EN: ScrollingMessage="%lp leads the match with %lf frags..."
+ScrollingMessage="%lp lidera la partida con %lf bajas..."
+
+[ScrollingMessageTexture2]
+; EN: ScrollingMessage="%lp leads the match with %lf frags..."
+ScrollingMessage="%lp lidera la partida con %lf bajas..."
+
+[LevelSummary]
+; EN: Title="Morpheus"
+Title="Morfeo"
+IdealPlayerCount="3-6"
+; EN: LevelEnterText="Nobody ever makes their first jump."
+LevelEnterText="Nadie consigue nunca realizar su primer salto."
