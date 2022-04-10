@@ -1,7 +1,6 @@
 ﻿[Public]
 Object=(Name=SDLGLDrv.SDLGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=libGL.so.1)
-; EN: Preferences=(Caption="SDL OpenGL Support",Parent="Rendering",Class=SDLGLDrv.SDLGLRenderDevice,Immediate=True)
-Preferences=(Caption="Support SDL OpenGL",Parent="Rendering",Class=SDLGLDrv.SDLGLRenderDevice,Immediate=True)
+Preferences=(Caption="SDL OpenGL Support",Parent="Rendering",Class=SDLGLDrv.SDLGLRenderDevice,Immediate=True)
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"

@@ -1,7 +1,6 @@
 ﻿[Public]
 Object=(Name=SGLDrv.SGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=SGL.dll)
-; EN: Preferences=(Caption="PowerVR SGL Support",Parent="Rendering",Class=SGLDrv.SGLRenderDevice,Immediate=True)
-Preferences=(Caption="Support PowerVR SGL",Parent="Rendu",Class=SGLDrv.SGLRenderDevice,Immediate=True)
+Preferences=(Caption="PowerVR SGL Support",Parent="Rendering",Class=SGLDrv.SGLRenderDevice,Immediate=True)
 
 [SglRenderDevice]
 ; EN: ClassCaption="PowerVR SGL for Windows"

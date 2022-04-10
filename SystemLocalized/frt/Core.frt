@@ -1,5 +1,5 @@
 ﻿[Public]
-Preferences=(Caption="Système de fichiers",Parent="Avancé",Class=Core.System,Immediate=True)
+Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
 
 [Language]
 Language="Français"

@@ -1,7 +1,6 @@
 ﻿[Public]
 Object=(Name=MeTaLDrv.MeTaLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=S3_6.dll)
-; EN: Preferences=(Caption="S3 MeTaL Support",Parent="Rendering",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
-Preferences=(Caption="Support S3 MeTaL",Parent="Rendu",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
+Preferences=(Caption="S3 MeTaL Support",Parent="Rendering",Class=MeTaLDrv.MeTaLRenderDevice,Immediate=True)
 
 [MeTaLRenderDevice]
 ; EN: ClassCaption="S3 MeTaL Support"

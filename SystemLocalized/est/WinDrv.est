@@ -1,7 +1,7 @@
 ﻿[Public]
-Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client)
-Preferences=(Caption="Windows",Parent="Imagen",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
-Preferences=(Caption="Windows",Parent="Mando",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client,Compat="Win32,Win64")
+Preferences=(Caption="Windows",Parent="Display",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Windows",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
 
 [Errors]
 Failed3D="Inicialización de hardware 3D fallida"

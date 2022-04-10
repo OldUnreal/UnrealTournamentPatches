@@ -66,14 +66,14 @@ Object=(Name=BotPack.DOMDefaultMapList,Class=Class,MetaClass=Botpack.DOMMapList,
 Object=(Name=BotPack.CTFDefaultMapList,Class=Class,MetaClass=Botpack.CTFMapList,Description="Por Defecto")
 Object=(Name=BotPack.TDKDefaultMapList,Class=Class,MetaClass=Botpack.TDKMapList,Description="Por Defecto")
 ; Preferences
-Preferences=(Caption="Tipos de Juego del Torneo",Parent="Tipos de Juego",Class=Botpack.TournamentGameInfo,Immediate=True)
-Preferences=(Caption="Partida a Muerte del Torneo",Parent="Tipos de Juego del Torneo",Class=Botpack.DeathmatchPlus,Immediate=True)
-Preferences=(Caption="Partida por Equipos del Torneo",Parent="Tipos de Juego del Torneo",Class=Botpack.TeamGamePlus,Immediate=True)
-Preferences=(Caption="Capturar la Bandera",Parent="Tipos de Juego del Torneo",Class=Botpack.CTFGame,Immediate=True)
-Preferences=(Caption="Asalto",Parent="Tipos de Juego del Torneo",Class=Botpack.Assault,Immediate=True)
-Preferences=(Caption="Dominación",Parent="Tipos de Juego del Torneo",Class=Botpack.Domination,Immediate=True)
-Preferences=(Caption="Último Hombre en Pie",Parent="Tipos de Juego del Torneo",Class=Botpack.LastManStanding,Immediate=True)
-Preferences=(Caption="Partida a Oscuras del Torneo",Parent="Tipos de Juego del Torneo",Class=Botpack.TDarkMatch,Immediate=True)
+Preferences=(Caption="Tournament Game Types",Parent="Game Types",Class=Botpack.TournamentGameInfo,Immediate=True)
+Preferences=(Caption="Tournament Deathmatch",Parent="Tournament Game Types",Class=Botpack.DeathmatchPlus,Immediate=True)
+Preferences=(Caption="Tournament Team Game",Parent="Tournament Game Types",Class=Botpack.TeamGamePlus,Immediate=True)
+Preferences=(Caption="Capture the Flag",Parent="Tournament Game Types",Class=Botpack.CTFGame,Immediate=True)
+Preferences=(Caption="Assault",Parent="Tournament Game Types",Class=Botpack.Assault,Immediate=True)
+Preferences=(Caption="Domination",Parent="Tournament Game Types",Class=Botpack.Domination,Immediate=True)
+Preferences=(Caption="Last Man Standing",Parent="Tournament Game Types",Class=Botpack.LastManStanding,Immediate=True)
+Preferences=(Caption="Tournament Darkmatch",Parent="Tournament Game Types",Class=Botpack.TDarkMatch,Immediate=True)
 
 [DeathMatchPlus]
 TourneyMessage="Esperando a otros jugadores."

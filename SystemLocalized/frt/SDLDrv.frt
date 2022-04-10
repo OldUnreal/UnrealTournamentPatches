@@ -1,8 +1,6 @@
 ﻿[Public]
 Class=(Class=SDLDrv.SDLClient,SuperClass=Engine.Client)
-; EN: Preferences=(Caption="SDL",Parent="Display",Class=SDLDrv.SDLClient,Immediate=True,Category=Display)
-Preferences=(Caption="SDL",Parent="Affichage",Class=SDLDrv.SDLClient,Immediate=True,Category=Display)
-; EN: Preferences=(Caption="SDL",Parent="Joystick",Class=SDLDrv.SDLClient,Immediate=True,Category=Joystick)
+Preferences=(Caption="SDL",Parent="Display",Class=SDLDrv.SDLClient,Immediate=True,Category=Display)
 Preferences=(Caption="SDL",Parent="Joystick",Class=SDLDrv.SDLClient,Immediate=True,Category=Joystick)
 
 [Errors]

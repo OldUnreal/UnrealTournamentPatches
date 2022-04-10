@@ -26,16 +26,11 @@ Object=(Name=Editor.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Editor.ResRaysCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ;Object=(Name=Editor.PS2ConvertCommandlet,Class=Class,MetaClass=Core.Commandlet)
 ; "Editor" tree
-; EN: Preferences=(Caption="Editor",Parent="Advanced Options")
-Preferences=(Caption="Editeur",Parent="Options avancées")
-; EN: Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-Preferences=(Caption="Avancées (Editeur)",Parent="Editeur",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
-; EN: Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
-Preferences=(Caption="Couleurs",Parent="Editeur",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
-; EN: Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
-Preferences=(Caption="Grille",Parent="Editeur",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
-; EN: Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
-Preferences=(Caption="Grille de rotation",Parent="Editeur",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
+Preferences=(Caption="Editor",Parent="Advanced Options")
+Preferences=(Caption="Advanced (Editor)",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Advanced)
+Preferences=(Caption="Colors",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Colors)
+Preferences=(Caption="Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=Grid)
+Preferences=(Caption="Rotation Grid",Parent="Editor",Class=Editor.EditorEngine,Immediate=True,Category=RotationGrid)
 
 [MasterCommandlet]
 HelpCmd=master

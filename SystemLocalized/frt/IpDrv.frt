@@ -5,10 +5,8 @@ Object=(Name=IpDrv.CompressCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=IpDrv.DecompressCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=IpDrv.TcpNetDriver,Class=Class,MetaClass=Engine.NetDriver)
 Object=(Name=IpDrv.UdpBeacon,Class=Class,MetaClass=Engine.Actor)
-; EN: Preferences=(Caption="TCP/IP Network Play",Parent="Networking",Class=IpDrv.TcpNetDriver)
-Preferences=(Caption="Partie en réseau TCP/IP",Parent="Réseau",Class=IpDrv.TcpNetDriver)
-; EN: Preferences=(Caption="Server Beacon",Parent="Networking",Class=IpDrv.UdpBeacon,Immediate=True)
-Preferences=(Caption="Balise de serveur",Parent="Réseau",Class=IpDrv.UdpBeacon,Immediate=True)
+Preferences=(Caption="TCP/IP Network Play",Parent="Networking",Class=IpDrv.TcpNetDriver)
+Preferences=(Caption="Server Beacon",Parent="Networking",Class=IpDrv.UdpBeacon,Immediate=True)
 
 [UpdateServerCommandlet]
 HelpCmd=updateserver
