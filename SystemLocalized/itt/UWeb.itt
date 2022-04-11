@@ -1,6 +1,5 @@
 ﻿[Public]
-; EN: Preferences=(Caption="Web Server",Parent="Networking",Class=UWeb.WebServer)
-Preferences=(Caption="Server Web",Parent="In Rete",Class=UWeb.WebServer)
+Preferences=(Caption="Web Server",Parent="Networking",Class=UWeb.WebServer)
 
 [WebServer]
 ; EN: ClassCaption="Web Server"
