@@ -1,0 +1,13 @@
+﻿[LevelInfo0]
+; EN: Title="Viridian Dreams"
+Title="Виридианские мечты"
+IdealPlayerCount="2-6"
+; EN: LevelEnterText="Westside!"
+LevelEnterText="Западная сторона!"
+
+[LevelSummary]
+; EN: Title="Viridian Dreams"
+Title="Виридианские мечты"
+IdealPlayerCount="2-6"
+; EN: LevelEnterText="Westside!"
+LevelEnterText="Западная сторона!"

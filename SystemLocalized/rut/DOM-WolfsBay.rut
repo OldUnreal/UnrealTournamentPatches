@@ -1,0 +1,61 @@
+﻿[LevelInfo0]
+; EN: Title="Wolf's Bay"
+Title="Волчья бухта"
+IdealPlayerCount="6"
+
+[ZoneInfo21]
+; EN: ZoneName="Aft"
+ZoneName="На корме"
+
+[ZoneInfo5]
+; EN: ZoneName="Cargo Hold"
+ZoneName="Грузовой отсек"
+
+[ZoneInfo3]
+; EN: ZoneName="Engine Room"
+ZoneName="Машинное отделение"
+
+[ControlPoint1]
+; EN: PointName="Bridge"
+PointName="Мост"
+
+[ControlPoint2]
+; EN: PointName="Cargo"
+PointName="Груз"
+
+[ControlPoint0]
+; EN: PointName="Engine"
+PointName="Двигатель"
+
+[ZoneInfo1]
+; EN: ZoneName="Bridge"
+ZoneName="Мост"
+
+[ZoneInfo6]
+; EN: ZoneName="Starboard Tunnel"
+ZoneName="Тоннель правого борта"
+
+[ZoneInfo10]
+; EN: ZoneName="Port Tunnel"
+ZoneName="Портовый туннель"
+
+[ZoneInfo2]
+; EN: ZoneName="Vent Room"
+ZoneName="Вентиляционная комната"
+
+[ZoneInfo4]
+; EN: ZoneName="Port Tunnel"
+ZoneName="Портовый туннель"
+
+[WaterZone0]
+; EN: ZoneName="Drowning"
+ZoneName="Утопление"
+
+[LevelSummary]
+; EN: Title="Wolf's Bay"
+Title="Волчья бухта"
+IdealPlayerCount="6"
+
+[ZoneInfo22]
+; EN: ZoneName="Outside"
+ZoneName="за пределами"

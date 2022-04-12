@@ -1,0 +1,105 @@
+﻿[LevelInfo0]
+; EN: Title="Cybrosis Central ]["
+Title="Cybrosis Central ]["
+IdealPlayerCount="4-12"
+
+[ZoneInfo24]
+; EN: ZoneName="Outer Base Blue"
+ZoneName="Внешняя база синяя"
+
+[ZoneInfo2]
+; EN: ZoneName="Outer Base Red"
+ZoneName="Внешняя база красный"
+
+[ZoneInfo25]
+; EN: ZoneName="Water Room Blue"
+ZoneName="Вода Комната Синий"
+
+[ZoneInfo3]
+; EN: ZoneName="Water Room Red"
+ZoneName="Вода Комната Красный"
+
+[ZoneInfo12]
+; EN: ZoneName="Flag Base Red"
+ZoneName="Флаг Base Red"
+
+[ZoneInfo11]
+; EN: ZoneName="Flag Base Blue"
+ZoneName="Флаг Base Blue"
+
+[ZoneInfo28]
+; EN: ZoneName="Pipe Room Blue"
+ZoneName="Трубка Комната Синий"
+
+[ZoneInfo6]
+; EN: ZoneName="Pipe Room Red"
+ZoneName="Красная трубная комната"
+
+[ZoneInfo26]
+; EN: ZoneName="Antechamber Blue"
+ZoneName="Прихожая Синий"
+
+[ZoneInfo23]
+; EN: ZoneName="Top Center Blue"
+ZoneName="Топ Центр Синий"
+
+[ZoneInfo4]
+; EN: ZoneName="Antechamber Red"
+ZoneName="Прихожая Красный"
+
+[ZoneInfo1]
+; EN: ZoneName="Top Center Red"
+ZoneName="Верх Центр Красный"
+
+[ZoneInfo27]
+; EN: ZoneName="Top Passage Blue"
+ZoneName="Верхний проход синий"
+
+[ZoneInfo30]
+; EN: ZoneName="Top Passage Blue"
+ZoneName="Верхний проход синий"
+
+[ZoneInfo5]
+; EN: ZoneName="Top Passage Red"
+ZoneName="Верхний проход красный"
+
+[ZoneInfo31]
+; EN: ZoneName="Top Center Blue"
+ZoneName="Топ Центр Синий"
+
+[ZoneInfo9]
+; EN: ZoneName="Top Center Red"
+ZoneName="Верх Центр Красный"
+
+[ZoneInfo8]
+; EN: ZoneName="Top Passage Red"
+ZoneName="Верхний проход красный"
+
+[ZoneInfo10]
+; EN: ZoneName="Top Center Red"
+ZoneName="Верх Центр Красный"
+
+[ZoneInfo32]
+; EN: ZoneName="Top Center Blue"
+ZoneName="Топ Центр Синий"
+
+[ZoneInfo7]
+; EN: ZoneName="Underpassage Red"
+ZoneName="Подземный переход Красный"
+
+[ZoneInfo29]
+; EN: ZoneName="Underpassage Blue"
+ZoneName="Подземный переход Синий"
+
+[SpecialEvent1]
+; EN: DamageString="%K made a shocking mistake"
+DamageString="%k совершил шокирующую ошибку"
+
+[LevelSummary]
+; EN: Title="Cybrosis Central ]["
+Title="Cybrosis Central ]["
+IdealPlayerCount="4-12"
+
+[SpecialEvent11]
+; EN: DamageString="%K made a shocking mistake"
+DamageString="%k совершил шокирующую ошибку"

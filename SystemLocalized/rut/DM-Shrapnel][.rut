@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+; EN: Title="Shrapnel ]["
+Title="Шрапнель ]["
+IdealPlayerCount="6-16"
+
+[ZoneInfo1]
+; EN: ZoneName="Hub"
+ZoneName="Концентратор"
+
+[ZoneInfo0]
+; EN: ZoneName="Flak Room"
+ZoneName="Зенитная комната"
+
+[ZoneInfo4]
+; EN: ZoneName="West Wing"
+ZoneName="Западное крыло"
+
+[ZoneInfo2]
+; EN: ZoneName="Shield Belt Room"
+ZoneName="Комната Пояса Щита"
+
+[ZoneInfo3]
+; EN: ZoneName="Rocket Launcher Room"
+ZoneName="Ракетная установка"
+
+[LevelSummary]
+; EN: Title="Shrapnel ]["
+Title="Шрапнель ]["
+IdealPlayerCount="6-16"

@@ -1,0 +1,53 @@
+﻿[LevelInfo0]
+; EN: Title="Southside Leadworks"
+Title="Саутсайд Лидворкс"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Entering the Southside Leadworks"
+LevelEnterText="Вход в Southside Leadworks"
+
+[ZoneInfo0]
+; EN: ZoneName="Tower"
+ZoneName="Башня"
+
+[ZoneInfo4]
+; EN: ZoneName="Rocket Storage"
+ZoneName="Ракетное хранилище"
+
+[ZoneInfo2]
+; EN: ZoneName="Lava Bridge"
+ZoneName="Лавовый мост"
+
+[ZoneInfo3]
+; EN: ZoneName="Processing"
+ZoneName="Обработка"
+
+[ZoneInfo6]
+; EN: ZoneName="Storage"
+ZoneName="Место хранения"
+
+[ControlPoint2]
+; EN: PointName="Bridge"
+PointName="Мост"
+
+[ControlPoint1]
+; EN: PointName="Tower"
+PointName="Башня"
+
+[ZoneInfo1]
+; EN: ZoneName="Corridors"
+ZoneName="Коридоры"
+
+[ControlPoint0]
+; EN: PointName="Storage"
+PointName="Место хранения"
+
+[ZoneInfo5]
+; EN: ZoneName="Ripper Storage"
+ZoneName="Хранение рыхлителей"
+
+[LevelSummary]
+; EN: Title="Southside Leadworks"
+Title="Саутсайд Лидворкс"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Entering the Southside Leadworks"
+LevelEnterText="Вход в Southside Leadworks"

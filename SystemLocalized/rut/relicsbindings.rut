@@ -1,0 +1,9 @@
+﻿[public]
+; EN: Object=(Name=RelicsBindings.ExtraRelicsBindings,Class=Class,MetaClass=UTMenu.UTExtraKeyBindings,Description="Реликвии,Бросить реликвию")
+Object=(Name=RelicsBindings.ExtraRelicsBindings,Class=Class,MetaClass=UTMenu.UTExtraKeyBindings,Description="Relics,Toss Relic")
+
+[ExtraRelicsBindings]
+; EN: SectionName="Relics"
+SectionName="Реликвии"
+; EN: LabelList[0]="Toss Relic"
+LabelList[0]="Бросить реликвию"

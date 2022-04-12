@@ -1,0 +1,13 @@
+﻿[LevelInfo0]
+; EN: Title="Liandri Central Core"
+Title="Лиандри Центральное Ядро"
+IdealPlayerCount="2-14"
+; EN: LevelEnterText="Welcome to the Core"
+LevelEnterText="Добро пожаловать в ядро"
+
+[LevelSummary]
+; EN: Title="Liandri Central Core"
+Title="Лиандри Центральное Ядро"
+IdealPlayerCount="2-14"
+; EN: LevelEnterText="Welcome to the Core"
+LevelEnterText="Добро пожаловать в ядро"

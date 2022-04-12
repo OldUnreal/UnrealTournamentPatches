@@ -1,0 +1,77 @@
+﻿[LevelInfo0]
+; EN: Title="Nucleus Power Plant"
+Title="Атомная электростанция"
+IdealPlayerCount="12"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Entrance"
+ZoneName="Красный вход"
+
+[ZoneInfo3]
+; EN: ZoneName="Middle"
+ZoneName="Средний"
+
+[ZoneInfo10]
+; EN: ZoneName="Blue Entrance"
+ZoneName="Синий вход"
+
+[ZoneInfo2]
+; EN: ZoneName="Red Base"
+ZoneName="Красная база"
+
+[ZoneInfo0]
+; EN: ZoneName="Blue Base"
+ZoneName="Синяя база"
+
+[ZoneInfo7]
+; EN: ZoneName="Red Pulse Room"
+ZoneName="Красный пульс"
+
+[ZoneInfo11]
+; EN: ZoneName="Blue Pulse Room"
+ZoneName="Номер Blue Pulse"
+
+[ZoneInfo4]
+; EN: ZoneName="Red Rocket Room"
+ZoneName="Красная Ракетная Комната"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Flak Room"
+ZoneName="Красная зенитная рубка"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Rocket Room"
+ZoneName="Голубая Ракетная Комната"
+
+[ZoneInfo9]
+; EN: ZoneName="Blue Flak Room"
+ZoneName="Синяя зенитная установка"
+
+[ZoneInfo15]
+; EN: ZoneName="Blue Energy Tunnel"
+ZoneName="Туннель Голубой Энергии"
+
+[ZoneInfo12]
+; EN: ZoneName="Red Energy Tunnel"
+ZoneName="Красный энергетический туннель"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Energy Channel"
+ZoneName="Красный энергетический канал"
+
+[ZoneInfo14]
+; EN: ZoneName="Blue Energy Channel"
+ZoneName="Канал Голубой Энергии"
+
+[LevelSummary]
+; EN: Title="Nucleus Power Plant"
+Title="Атомная электростанция"
+IdealPlayerCount="12"
+
+[ZoneInfo13]
+; EN: ZoneName="Red Energy Tunnel"
+ZoneName="Красный энергетический туннель"
+
+[ZoneInfo16]
+; EN: ZoneName="Blue Energy Tunnel"
+ZoneName="Туннель Голубой Энергии"

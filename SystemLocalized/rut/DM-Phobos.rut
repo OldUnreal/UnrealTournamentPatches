@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+; EN: Title="Phobos Moon"
+Title="Фобос Луна"
+IdealPlayerCount="4-8"
+
+[ZoneInfo5]
+; EN: ZoneName="Outer Space"
+ZoneName="Космическое пространство"
+
+[ZoneInfo7]
+; EN: ZoneName="Central"
+ZoneName="Центральная"
+
+[ZoneInfo6]
+; EN: ZoneName="Lift 1"
+ZoneName="Лифт 1"
+
+[ZoneInfo8]
+; EN: ZoneName="Stairs Corridor"
+ZoneName="Лестница Коридор"
+
+[ZoneInfo9]
+; EN: ZoneName="BioRifle Corridor"
+ZoneName="Био-винтовочный коридор"
+
+[LevelSummary]
+; EN: Title="Phobos Moon"
+Title="Фобос Луна"
+IdealPlayerCount="4-8"

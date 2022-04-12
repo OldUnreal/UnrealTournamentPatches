@@ -1,0 +1,91 @@
+﻿[LevelInfo0]
+; EN: Title="Ocean Floor 'Station 5'"
+Title="Дно океана "Станция 5""
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="Захват подводной базы!"
+
+[ZoneInfo5]
+; EN: ZoneName="Middle Area"
+ZoneName="Средняя зона"
+
+[ZoneInfo3]
+; EN: ZoneName="Large Docking Area"
+ZoneName="Большая зона стыковки"
+
+[ZoneInfo4]
+; EN: ZoneName="Small Docking Area"
+ZoneName="Малая зона стыковки"
+
+[ZoneInfo1]
+; EN: ZoneName="Submarine"
+ZoneName="Подводная лодка"
+
+[ZoneInfo2]
+; EN: ZoneName="Command Center"
+ZoneName="Командный центр"
+
+[ZoneInfo7]
+; EN: ZoneName="Hallway"
+ZoneName="Прихожая"
+
+[SpecialEvent0]
+; EN: Message="Terminal 1 has been disabled."
+Message="Терминал 1 отключен."
+
+[FortStandard0]
+; EN: FortName="The Terminal 3"
+FortName="Терминал 3"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="уничтожен!!"
+
+[SpecialEvent10]
+; EN: Message="Terminal 4 has been disabled."
+Message="Терминал 4 отключен."
+
+[FortStandard1]
+; EN: FortName="The Terminal 1"
+FortName="Терминал 1"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="уничтожен!"
+
+[FortStandard2]
+; EN: FortName="The Terminal 2"
+FortName="Терминал 2"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="уничтожен!!"
+
+[FortStandard3]
+; EN: FortName="The Terminal 4"
+FortName="Терминал 4"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="уничтожен!"
+
+[LevelSummary]
+; EN: Title="Ocean Floor 'Station 5'"
+Title="Дно океана "Станция 5""
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="Захват подводной базы!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Swim out towards the base below the submarine. Inside the base there are 4 terminals with keyboards attached to them that need to be destroyed in order to render the base useless. Destroy terminal 1. The terminals can be destroyed in any order."
+ObjDesc[0]="Плывите к базе, расположенной под подводной лодкой. Внутри базы есть 4 терминала с подключенными к ним клавиатурами, которые необходимо уничтожить, чтобы сделать базу бесполезной. Уничтожте терминал 1. Терминалы можно уничтожать в любом порядке."
+; EN: ObjDesc[1]="Destroy terminal 2. The terminals can be destroyed in any order."
+ObjDesc[1]="Уничтожте терминал 2. Терминалы можно уничтожать в любом порядке."
+; EN: ObjDesc[2]="Destroy terminal 3. The terminals can be destroyed in any order."
+ObjDesc[2]="Уничтожте терминал 3. Терминалы можно уничтожать в любом порядке."
+; EN: ObjDesc[3]="Destroy terminal 4. The terminals can be destroyed in any order."
+ObjDesc[3]="Уничтожте терминал 4. Терминалы можно уничтожать в любом порядке."
+
+[ZoneInfo6]
+; EN: ZoneName="Elevator Shaft"
+ZoneName="Шахта лифта"
+
+[SpecialEvent15]
+; EN: Message="Terminal 3 has been disabled."
+Message="Терминал 3 отключен."
+
+[SpecialEvent5]
+; EN: Message="Terminal 2 has been disabled."
+Message="Терминал 2 отключен."
