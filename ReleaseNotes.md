@@ -556,6 +556,12 @@ MaxFileDownloadRate=0   Maximum download speed in bytes per second
 * Galaxy Audio is now considered deprecated. On Windows Vista and later, the game launcher will do an automatic one-time upgrade your audio subsystem to the latest version of the OldUnreal Cluster driver.
 * Revamped the underlying audio code for sounds played using TournamentPlayer.ClientPlaySound. The revamped code should make playback volumes more consistent and should eliminate audio glitches such as crackling and screeching.
 
+#### Localization
+
+* New language: German (requires testing)
+* Italian and French have been fully updated (both require testing)
+* Minor changes to Spanish
+
 #### Miscellaneous
 
 * UnrealEd and the game client are now large address aware on Windows. This means it is far less likely that you'll run out of virtual memory.

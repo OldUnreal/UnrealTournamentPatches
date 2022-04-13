@@ -1,0 +1,16 @@
+﻿[LevelInfo0]
+Title="Bulletproof"
+IdealPlayerCount="8-16"
+
+[ControlPoint2]
+PointName="Omega"
+
+[ControlPoint1]
+PointName="Delta"
+
+[ControlPoint0]
+PointName="Alpha"
+
+[LevelSummary]
+Title="Bulletproof"
+IdealPlayerCount="8-16"

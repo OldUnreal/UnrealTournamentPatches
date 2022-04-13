@@ -1,0 +1,31 @@
+﻿[LevelInfo0]
+Title="Cinder Foundry"
+IdealPlayerCount="6-12"
+
+[ZoneInfo18]
+ZoneName="Nook"
+
+[ZoneInfo21]
+ZoneName="South Side"
+
+[ZoneInfo20]
+ZoneName="Lava"
+
+[ControlPoint2]
+PointName="Nook"
+
+[ControlPoint1]
+PointName="Lava"
+
+[ControlPoint0]
+PointName="Top"
+
+[ZoneInfo22]
+ZoneName="Tall Lift"
+
+[LevelSummary]
+Title="Cinder Foundry"
+IdealPlayerCount="6-12"
+
+[ZoneInfo19]
+ZoneName="Main Area"

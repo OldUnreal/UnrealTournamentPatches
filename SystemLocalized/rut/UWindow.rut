@@ -1,0 +1,25 @@
+﻿[UWindowMessageBoxCW]
+; EN: YesText="Yes"
+YesText="Да"
+; EN: NoText="No"
+NoText="Нет"
+; EN: OKText="OK"
+OKText="ОК"
+; EN: CancelText="Cancel"
+CancelText="Отмена"
+
+[UWindowConsoleWindow]
+; EN: WindowTitle="System Console"
+WindowTitle="Системная консоль"
+
+[UWindowSmallCloseButton]
+; EN: CloseText="Close"
+CloseText="Закрыть"
+
+[UWindowSmallCancelButton]
+; EN: CancelText="Cancel"
+CancelText="Отмена"
+
+[UWindowSmallOKButton]
+; EN: OKText="OK"
+OKText="ОК"

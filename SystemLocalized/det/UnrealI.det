@@ -1,0 +1,419 @@
+﻿[Public]
+Object=(Name=UnrealI.KingOfTheHill,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealI.DarkMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealI.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Rifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Minigun,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.GESBioRifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Razorjack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.QuadShot,Class=Class,MetaClass=Engine.Weapon)
+; EN: Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Female 2")
+Object=(Name=Unreali.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Frau 2")
+; EN: Object=(Name=UnrealI.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 1")
+Object=(Name=Unreali.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Mann 1")
+; EN: Object=(Name=UnrealI.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 2")
+Object=(Name=Unreali.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Mann 2")
+; EN: Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Skaarj Trooper")
+Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Soldat Skaarj")
+; EN: Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Female 2")
+Object=(Name=Unreali.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Frau 2")
+; EN: Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 1")
+Object=(Name=Unreali.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Mann 1")
+; EN: Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 2")
+Object=(Name=Unreali.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Mann 2")
+; EN: Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Skaarj Trooper")
+Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Soldat Skaarj")
+
+[IntroNullHud]
+; EN: ESCMessage="Press ESC to begin"
+ESCMessage="Drücke ESC, um zu starten"
+
+[Queen]
+; EN: NameArticle=" the "
+NameArticle=" die "
+; EN: MenuName="Queen"
+MenuName="Königin"
+
+[Behemoth]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Behemoth"
+MenuName="Behemoth"
+
+[Blob]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Blob"
+MenuName="Klecks"
+
+[Bloblet]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Bloblet"
+MenuName="Kleiner Klecks"
+
+[Gasbag]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Gasbag"
+MenuName="Gassack"
+
+[GiantGasbag]
+; EN: NameArticle=" the "
+NameArticle=" der "
+; EN: MenuName="Giant Gasbag"
+MenuName="Riesiger Gassack"
+
+[GiantManta]
+; EN: NameArticle=" the "
+NameArticle=" der "
+; EN: MenuName="Giant Manta"
+MenuName="Riesiger Manta"
+
+[Krall]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Krall"
+MenuName="Krall"
+
+[KrallElite]
+; EN: NameArticle=" an "
+NameArticle=" ein "
+; EN: MenuName="Elite Krall"
+MenuName="Überlegener Krall"
+
+[LeglessKrall]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Legless Krall"
+MenuName="Beinloser Krall"
+
+[Mercenary]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Mercenary"
+MenuName="Söldner"
+
+[MercenaryElite]
+; EN: NameArticle=" an "
+NameArticle=" ein "
+; EN: MenuName="Elite Mercenary"
+MenuName="Überlegener Söldner"
+
+[Pupae]
+; EN: NameArticle=" a "
+NameArticle=" eine "
+; EN: MenuName="Pupae"
+MenuName="Puppe"
+
+[SkaarjAssassin]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Assassin"
+MenuName="Mörder Skaarj"
+
+[SkaarjBerserker]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Berserker"
+MenuName="Berserker Skaarj"
+
+[SkaarjGunner]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Gunner"
+MenuName="Schütze Skaarj"
+
+[SkaarjInfantry]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Infantry"
+MenuName="Fußsoldat Skaarj"
+
+[SkaarjLord]
+; EN: NameArticle=" the "
+NameArticle=" der "
+; EN: MenuName="Skaarj Lord"
+MenuName="Allgemeiner Skaarj"
+
+[SkaarjOfficer]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Officer"
+MenuName="Offizier Skaarj"
+
+[SkaarjSniper]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Sniper"
+MenuName="Scharfschütze Skaarj"
+
+[SkaarjTrooper]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Skaarj Trooper"
+MenuName="Soldat Skaarj"
+
+[Titan]
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Titan"
+MenuName="Titan"
+
+[StoneTitan]
+; EN: NameArticle=" the "
+NameArticle=" der "
+; EN: MenuName="Stone Titan"
+MenuName="Steinerner Titan"
+
+[SkaarjPlayer]
+; EN: MenuName="Skaarj Trooper"
+MenuName="Soldat Skaarj"
+
+[SkaarjPlayerBot]
+; EN: MenuName="Skaarj Trooper"
+MenuName="Soldat Skaarj"
+
+[WarLord]
+; EN: NameArticle=" the "
+NameArticle=" der "
+; EN: MenuName="WarLord"
+MenuName="Kriegsherrn"
+
+[SearchLight]
+; EN: ExpireMessage="The Search Light batteries have died."
+ExpireMessage="Die Batterie des Suchscheinwerfer sind leer."
+; EN: PickupMessage="You picked up the Search Light"
+PickupMessage="Du hast das Suchscheinwerfer"
+; EN: ItemName="Search Light"
+ItemName="Suchscheinwerfer"
+
+[RazorAmmo]
+; EN: PickupMessage="You picked up Razor Blades"
+PickupMessage="Du hast Razor-Klingen"
+; EN: ItemName="Razor Blades"
+ItemName="Razor-Klingen"
+
+[DarkMatch]
+; EN: ClassCaption="DarkMatch"
+ClassCaption="Dunkelheit Spiel"
+; EN: GameName="DarkMatch"
+GameName="Dunkelheit Spiel"
+
+[FlakBox]
+; EN: PickupMessage="You picked up 10 Flak Shells"
+PickupMessage="Du hast 10 Flak-Geschosse"
+; EN: ItemName="Flak Shells"
+ItemName="Flak-Geschosse"
+
+[MaleOne]
+; EN: MenuName="Male 1"
+MenuName="Mann 1"
+
+[MaleOneBot]
+; EN: MenuName="Male 1"
+MenuName="Mann 1"
+
+[RifleAmmo]
+; EN: PickupMessage="You got 8 Rifle Rounds"
+PickupMessage="Du hast 8 Kampfgewehrpatronen"
+; EN: ItemName="Rifle Rounds"
+ItemName="Kampfgewehrpatronen"
+
+[Seeds]
+; EN: PickupMessage="You got the Nali Fruit Seeds"
+PickupMessage="Du hast die Nali-Fruchtsamen"
+; EN: ItemName="Nali Fruit Seeds"
+ItemName="Nali Fruchtsamen"
+
+[JumpBoots]
+; EN: ExpireMessage="The Jump Boots have drained."
+ExpireMessage="Die Sprungstiefel sind verbraucht."
+; EN: PickupMessage="You picked up the Jump Boots"
+PickupMessage="Du hast die Sprungstiefel"
+; EN: ItemName="Jump Boots"
+ItemName="Sprungstiefel"
+
+[ForceField]
+; EN: M_NoRoom="No room to activate the Force Field."
+M_NoRoom="Kein Platz, um Kraftfeld zu aktivieren."
+; EN: PickupMessage="You picked up the Force Field"
+PickupMessage="Du hast das Kraftfeld"
+; EN: ItemName="Force Field"
+ItemName="Kraftfeld"
+
+[FemaleTwo]
+; EN: MenuName="Female 2"
+MenuName="Frau 2"
+
+[FemaleTwoBot]
+; EN: MenuName="Female 2"
+MenuName="Frau 2"
+
+[MaleTwo]
+; EN: MenuName="Male 2"
+MenuName="Mann 2"
+
+[MaleTwoBot]
+; EN: MenuName="Male 2"
+MenuName="Mann 2"
+
+[Sludge]
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
+PickupMessage="Sie haben 25 Einheiten Tarydium-Schlamm aufgenommen"
+; EN: ItemName="Tarydium Biosludge"
+ItemName="Tarydium-Schlamm"
+
+[Invisibility]
+; EN: ExpireMessage="Invisibility has worn off."
+ExpireMessage="Die Tarnung hat verbraucht."
+; EN: PickupMessage="You have Invisibility"
+PickupMessage="Du hast Tarnung"
+; EN: ItemName="Invisibility"
+ItemName="Tarnung"
+
+[AsbestosSuit]
+; EN: PickupMessage="You picked up the Asbestos Suit"
+PickupMessage="Sie haben den Asbestanzug"
+; EN: ItemName="Asbestos Suit"
+ItemName="Asbestanzug"
+
+[fell]
+; EN: Name="fell"
+Name="gefallen"
+; EN: AltName="fell"
+AltName="gefallen"
+
+[FlakShellAmmo]
+; EN: PickupMessage="You got a Flak Shell"
+PickupMessage="Du hast eine Flak-Geschoß"
+; EN: ItemName="Flak Shell"
+ItemName="Flak-Geschoß"
+
+[drowned]
+; EN: Name="drowned"
+Name="ertrunken"
+; EN: AltName="drowned"
+AltName="ertrunken"
+
+[Decapitated]
+; EN: Name="beheaded"
+Name="geköpft"
+; EN: AltName="decapitated"
+AltName="enthauptet"
+
+[Dampener]
+; EN: ExpireMessage="Acoustic dampener has run out."
+ExpireMessage="Der Schalldämpfer ist ausgegangen."
+; EN: PickupMessage="You got the Acoustic Dampener"
+PickupMessage="Du hast den Schalldämpfer"
+; EN: ItemName="Acoustic Dampener"
+ItemName="Schalldämpfer"
+
+[Corroded]
+; EN: Name="corroded"
+Name="verätzt"
+; EN: AltName="slimed"
+AltName="verschleimt"
+
+[ToxinSuit]
+; EN: PickupMessage="You picked up the Toxin Suit"
+PickupMessage="Du hast den Toxinanzug"
+; EN: ItemName="Toxin Suit"
+ItemName="Toxinanzug"
+
+[Burned]
+; EN: Name="burned"
+Name="geröstet"
+; EN: AltName="flame-broiled"
+AltName="flambiert"
+
+[PowerShield]
+; EN: PickupMessage="You got the Power Shield"
+PickupMessage="Du hast den Energieschild"
+; EN: ItemName="Power Shield"
+ItemName="Energieschild"
+
+[RifleRound]
+; EN: PickupMessage="You got a Rifle Round"
+PickupMessage="Du hast eine Kampfgewehrrunde"
+; EN: ItemName="Rifle Round"
+ItemName="Kampfgewehrrunde"
+
+[ParentBlob]
+; EN: BlobKillMessage="was corroded by a Blob"
+BlobKillMessage="wurde von einem Klecks korrodiert"
+; EN: NameArticle=" a "
+NameArticle=" ein "
+; EN: MenuName="Blob"
+MenuName="Klecks"
+
+[EndgameHud]
+; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely. Yet, it's fuel reserve has been depleted, and you drift aimlessly."
+Message1="Die Rettungskapsel der Skaarj hat die Anziehungskraft des Planeten überwunden... gerade noch. Leider hast Du keinen Sprit mehr und treibst hilflos in den Weltraum hinein."
+; EN: Message2="From where many have died, you have escaped. You laugh to yourself; so much has happened, but so little has changed."
+Message2="Du entkommst einem Ort, an dem viele gestorben sind. Du lachst befreit auf. So viel ist passiert, aber fast nichts hat sich verändert."
+; EN: Message3="Before the crash landing, you were trapped in a cramped cell. Now, once again you are confined in a prison."
+Message3="Vor dem Absturz warst Du in einer engen Zelle gefangen. Und jetzt bist Du wieder in einem Gefängnis."
+; EN: Message4="But, you feel confident that someone will come upon your small vessel... eventually."
+Message4="Aber Du bist zuversichtlich, daß jemand Dein kleines Schiff finden wird... irgendwann."
+; EN: Message5="Until then, you drift and hope."
+Message5="Bis dahin driftest Du und hoffst."
+; EN: Message6="To Be Continued..."
+Message6="Fortsetzung folgt..."
+
+[KingOfTheHill]
+; EN: ClassCaption="King of the Hill"
+ClassCaption="König des Hügels"
+; EN: KingMessage=" is the new king of the hill!"
+KingMessage=" ist der neue König des Hügels!"
+; EN: GameName="King of the Hill"
+GameName="König des Hügels"
+
+[FlakCannon]
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
+DeathMessage="Die %w von %k zerschmetterte %o in Stücke."
+; EN: PickupMessage="You got the Flak Cannon"
+PickupMessage="Du hast die Flak-Kanone"
+; EN: ItemName="Flak Cannon"
+ItemName="Flak-Kanone"
+
+[Rifle]
+; EN: DeathMessage="%k put a bullet through %o's head."
+DeathMessage="%os Kopf wurde von der Kugel aus %ks %w durchbohrt."
+; EN: PickupMessage="You got the Rifle"
+PickupMessage="Du hast das Kampfgewehr"
+; EN: ItemName="Sniper Rifle"
+ItemName="Heckenschützengewehr"
+
+[Minigun]
+; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
+DeathMessage="%k füllte %o mit ihrer %w mit Löchern."
+; EN: PickupMessage="You got the Minigun"
+PickupMessage="Du hast die Minigeschütz"
+; EN: ItemName="Minigun"
+ItemName="Minigeschütz"
+
+[GESBioRifle]
+; EN: DeathMessage="%o drank a glass of %k's dripping green load."
+DeathMessage="%o trank ein Glas von %ks grüner Flüssigkeit."
+; EN: PickupMessage="You got the GES BioRifle"
+PickupMessage="Du hast das GES BioGewehr"
+; EN: ItemName="GES BioRifle"
+ItemName="GES BioGewehr"
+
+[Razorjack]
+; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
+DeathMessage="%k holte mit seinem %w ein Stück Fleisch aus %o heraus."
+; EN: PickupMessage="You got the RazorJack"
+PickupMessage="Du hast den Messerwerfer"
+; EN: ItemName="Razorjack"
+ItemName="Messerwerfer"
+
+[QuadShot]
+; EN: DeathMessage="%o was blasted to bits by %k's %w."
+DeathMessage="%k hat sein Territorium vor der Invasion von %o geschützt."
+; EN: PickupMessage="You got the Quad-Barreled Shotgun"
+PickupMessage="Du hast die Vierfach-Schrotflinte"
+; EN: ItemName="Quad-Barreled Shotgun"
+ItemName="Vierfach-Schrotflinte"

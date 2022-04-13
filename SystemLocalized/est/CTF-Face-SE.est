@@ -1,0 +1,98 @@
+﻿[LevelInfo0]
+; EN: Title="Facing Worlds Special Edition"
+Title="Mundos Enfrentados Edición Especial"
+IdealPlayerCount="4-10"
+
+[ZoneInfo3]
+; EN: ZoneName="Asteroid"
+ZoneName="Asteroide"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Azul"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Base"
+ZoneName="Base Roja"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Sniper"
+ZoneName="Sala de Francotirador Roja"
+
+[ZoneInfo7]
+; EN: ZoneName="Blue Sniper"
+ZoneName="Sala de Francotirador Azul"
+
+[ZoneInfo5]
+; EN: ZoneName="Blue Redeemer"
+ZoneName="Sala de Redentor Azul"
+
+[ZoneInfo4]
+; EN: ZoneName="Red Redeemer"
+ZoneName="Sala de Redentor Roja"
+
+[SpecialEvent0]
+; EN: DamageString="put in orbit"
+DamageString="puesto en órbita"
+FemDamageString="puesta en órbita"
+
+[locationid0]
+; EN: LocationName="Blue Back"
+LocationName="Patio Trasero Azul"
+
+[locationid1]
+; EN: LocationName="Blue Asteroid"
+LocationName="Asteroide Azul"
+
+[locationid2]
+; EN: LocationName="Blue Asteroid"
+LocationName="Asteroide Azul"
+
+[locationid3]
+; EN: LocationName="Blue Asteroid"
+LocationName="Asteroide Azul"
+
+[locationid4]
+; EN: LocationName="Blue Asteroid"
+LocationName="Asteroide Azul"
+
+[locationid5]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide Rojo"
+
+[locationid6]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide Rojo"
+
+[locationid7]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide Rojo"
+
+[locationid8]
+; EN: LocationName="Red Asteroid
+LocationName="Asteroide Rojo"
+
+[locationid9]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide Rojo"
+
+[locationid10]
+; EN: LocationName="Red Back"
+LocationName="Patio Trasero Rojo"
+
+[locationid11]
+; EN: LocationName="Blue Tower"
+LocationName="Torre Azul"
+
+[locationid12]
+; EN: LocationName="Red Tower"
+LocationName="Torre Roja"
+
+[locationid13]
+; EN: LocationName="Red Tower"
+LocationName="Torre Roja"
+
+[LevelSummary]
+; EN: Title="Facing Worlds Special Edition"
+Title="Mundos Enfrentados Edición Especial"
+IdealPlayerCount="4-10"

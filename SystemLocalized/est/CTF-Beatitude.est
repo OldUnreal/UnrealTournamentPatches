@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+; EN: Title="Temple of Beatitude"
+Title="Templo de la Beatitud"
+IdealPlayerCount="8-16"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Base"
+ZoneName="Base Roja"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Azul"
+
+[ZoneInfo0]
+; EN: ZoneName="Center"
+ZoneName="Centro"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Tube Room"
+ZoneName="Sala de Tuberías Roja"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Tube Room"
+ZoneName="Sala de Tuberías Azul"
+
+[LevelSummary]
+; EN: Title="Temple of Beatitude"
+Title="Templo de la Beatitud"
+IdealPlayerCount="8-16"

@@ -1,0 +1,101 @@
+﻿[LevelInfo0]
+; EN: Title="High Speed"
+Title="A Toda Velocidad"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="¡Controla el tren! ¡¡SIN PIEDAD!!"
+
+[ZoneInfo8]
+; EN: ZoneName="3rd. Car"
+ZoneName="Tercer Vagón"
+
+[ZoneInfo10]
+; EN: ZoneName="1st. Car"
+ZoneName="Primer Vagón"
+
+[ZoneInfo9]
+; EN: ZoneName="2nd. Car"
+ZoneName="Segundo Vagón"
+
+[ZoneInfo0]
+; EN: ZoneName="Outside 1st Car"
+ZoneName="Fuera del Primer Vagón"
+
+[SlimeZone0]
+; EN: ZoneName="Acid Tank"
+ZoneName="Tanque de Ácido"
+
+[SpecialEvent0]
+; EN: DamageString="%ls fell in between the cars. That hurts..."
+DamageString="%ls ha caído entre los vagones. Eso debió doler..."
+
+[FortStandard0]
+; EN: FortName="The Control Cabin"
+FortName="La Cabina de Control"
+; EN: DestroyedMessage="has been taken over!!"
+DestroyedMessage="¡ha sido capturada!"
+
+[FortStandard1]
+; EN: FortName="The CAR 3"
+FortName="El Tercer Vagón"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="¡ha sido tomado por los atacantes!"
+
+[FortStandard3]
+; EN: FortName="The CAR 1"
+FortName="El Primer Vagón"
+; EN: DestroyedMessage="is about to breached!!"
+DestroyedMessage="¡ha sido tomado por los atacantes!"
+
+[SpecialEvent1]
+; EN: DamageString="%ls ate an helicopter blade..."
+DamageString="%ls comió una hélice del helicóptero..."
+
+[FortStandard4]
+; EN: FortName="The Control Cabin Access Switch"
+FortName="El Interruptor de la Cabina de Control"
+; EN: DestroyedMessage="has been activated!!"
+DestroyedMessage="¡ha sido activado!"
+
+[SpecialEvent3]
+; EN: Message="The Attackers Are On The Roof!!!"
+Message="¡Los atacantes están en el tejado!"
+
+[locationid5]
+; EN: LocationName="Pillar Flatbed"
+LocationName="Plataforma de Pilares"
+
+[locationid6]
+; EN: LocationName="Tank Flatbed"
+LocationName="Plataforma de Tanque"
+
+[locationid7]
+; EN: LocationName="Empty Flatbed"
+LocationName="Plataforma Vacía"
+
+[locationid4]
+; EN: LocationName="Acid Tank"
+LocationName="Tanque de Ácido"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Work your way to the front of train. In Car One you will find a switch on the upper level that opens up the door to the Control Cabin below. Activate this switch."
+ObjDesc[0]="Alcancen la parte delantera del tren. En el nivel superior del primer vagón encontrarán un interruptor que abre la puerta de la cabina de control que se encuentra debajo. Activen el interruptor."
+; EN: ObjDesc[1]="Jump down to the control room. In there you'll find a lever that will override the train's controls."
+ObjDesc[1]="Bajen a la sala de control. Allí encontrarán una palanca que neutralizará los controles del tren."
+
+[LevelSummary]
+; EN: Title="High Speed"
+Title="A Toda Velocidad"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="¡Controla el tren! ¡¡SIN PIEDAD!!"
+
+[SpecialEvent9]
+; EN: Message="THE TRAIN HAS BEEN CAPTURED!!"
+Message="¡EL TREN HA SIDO CAPTURADO!"
+
+[FortStandard2]
+; EN: FortName="The CAR 2"
+FortName="El Segundo Vagón"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="¡ha sido tomado por los atacantes!"

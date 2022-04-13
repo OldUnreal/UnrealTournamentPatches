@@ -1,0 +1,24 @@
+﻿[LevelInfo0]
+Title="Eternal Caves"
+IdealPlayerCount="4-8"
+LevelEnterText="GET THOSE FLAGS!!"
+
+[ZoneInfo1]
+ZoneName="Red Cave"
+
+[ZoneInfo0]
+ZoneName="Blue Cave"
+
+[ZoneInfo2]
+ZoneName="Lower Hall"
+
+[ZoneInfo3]
+ZoneName="Upper Hall"
+
+[ZoneInfo4]
+ZoneName="Upper Hall"
+
+[LevelSummary]
+Title="Eternal Caves"
+IdealPlayerCount="4-8"
+LevelEnterText="GET THOSE FLAGS!!"

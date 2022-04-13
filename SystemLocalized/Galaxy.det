@@ -1,8 +1,0 @@
-﻿[Public]
-Object=(Name=Galaxy.GalaxyAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem)
-; EN: Preferences=(Caption="Galaxy 3D Audio Support",Parent="Audio",Class=Galaxy.GalaxyAudioSubsystem,Immediate=True)
-Preferences=(Caption="Unterstützung für Galaxy 3D-Audio",Parent="Sound",Class=Galaxy.GalaxyAudioSubsystem,Immediate=True)
-
-[GalaxyAudioSubsystem]
-; EN: ClassCaption="Galaxy 3D Audio Support"
-ClassCaption="Unterstützung für Galaxy 3D-Audio"

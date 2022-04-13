@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+; EN: Title="Hydro Bases"
+Title="Гидро Базы"
+IdealPlayerCount="6-12"
+
+[ZoneInfo9]
+; EN: ZoneName="Red Flag Room"
+ZoneName="Номер Red Flag"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Pillar Passage"
+ZoneName="Проход Красной колонны"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Flag Room"
+ZoneName="Номер с Голубым флагом"
+
+[ZoneInfo10]
+; EN: ZoneName="Blue Boiler Room"
+ZoneName="Голубая котельная"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Pillar Passage"
+ZoneName="Проход синей колонны"
+
+[ZoneInfo13]
+; EN: ZoneName="Red Boiler Room"
+ZoneName="Красная котельная"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Courtyard"
+ZoneName="Красный двор"
+
+[ZoneInfo5]
+; EN: ZoneName="Blue Courtyard"
+ZoneName="Синий двор"
+
+[ZoneInfo4]
+; EN: ZoneName="Bridges"
+ZoneName="Мосты"
+
+[LevelSummary]
+; EN: Title="Hydro Bases"
+Title="Гидро Базы"
+IdealPlayerCount="6-12"

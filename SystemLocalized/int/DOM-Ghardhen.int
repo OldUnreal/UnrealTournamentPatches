@@ -1,0 +1,43 @@
+﻿[LevelInfo0]
+Title="Ghardhen Labs"
+IdealPlayerCount="6-12"
+
+[ZoneInfo13]
+ZoneName="Basement"
+
+[ControlPoint2]
+PointName="Top"
+
+[ZoneInfo12]
+ZoneName="Upward Hall"
+
+[ControlPoint0]
+PointName="Bottom"
+
+[ControlPoint3]
+PointName="Center"
+
+[ZoneInfo8]
+ZoneName="Observation Deck"
+
+[ZoneInfo11]
+ZoneName="Downward Hall"
+
+[ZoneInfo10]
+ZoneName="Blast Chamber 1"
+
+[ZoneInfo9]
+ZoneName="Blast Chamber 2"
+
+[LevelSummary]
+Title="Ghardhen Labs"
+IdealPlayerCount="6-12"
+
+[locationid7]
+LocationName="Central Room - Lower"
+
+[locationid6]
+LocationName="Central Room - Top"
+
+[locationid8]
+LocationName="Central Room - Mid"

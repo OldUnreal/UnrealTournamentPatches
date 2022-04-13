@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+; EN: Title="Kosov Canyon"
+Title="Cañón Kosov"
+IdealPlayerCount="14"
+
+[ZoneInfo2]
+; EN: ZoneName="Kosov Valley"
+ZoneName="Valle Kosov"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Azul"
+
+[ZoneInfo0]
+; EN: ZoneName="Kosov Falls"
+ZoneName="Cataratas Kosov"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Base"
+ZoneName="Base Roja"
+
+[ZoneInfo4]
+; EN: ZoneName="Cave"
+ZoneName="Cueva"
+
+[ZoneInfo6]
+; EN: ZoneName="Blue Armor Room"
+ZoneName="Sala de Armadura Azul"
+
+[WaterZone0]
+; EN: ZoneName="Kosov Lake"
+ZoneName="Lago Kosov"
+
+[WaterZone2]
+; EN: ZoneName="Underwater Cave"
+ZoneName="Cueva Submarina"
+
+[ZoneInfo5]
+; EN: ZoneName="Kosov Falls"
+ZoneName="Cataratas Kosov"
+
+[LevelSummary]
+; EN: Title="Kosov Canyon"
+Title="Cañón Kosov"
+IdealPlayerCount="14"

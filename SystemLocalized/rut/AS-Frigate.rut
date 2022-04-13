@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+; EN: Title="Frigate"
+Title="Фрегат"
+IdealPlayerCount="4-8"
+
+[LevelSummary]
+; EN: Title="Frigate"
+Title="Фрегат"
+IdealPlayerCount="4-8"
+
+[FortStandard0]
+; EN: FortName="The Missiles"
+FortName="Ракеты"
+; EN: DestroyedMessage="were launched!"
+DestroyedMessage="запущены!"
+
+[FortStandard1]
+; EN: FortName="The Ship"
+FortName="В корабль"
+; EN: DestroyedMessage="has been entered!"
+DestroyedMessage="проникли!"
+
+[FortStandard2]
+; EN: FortName="The Hydraulic Compressor"
+FortName="Гидрокомпрессор"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="уничтожен!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="The door to the ship's control room is controlled by a hydraulic compressor which is located in the aft cabin of the boat. This compressor must be destroyed before the control room can be accessed."
+ObjDesc[0]="Дверь в судовую диспетчерскую управляется гидравлическим компрессором, который находится в кормовой каюте лодки. Этот компрессор необходимо уничтожить, прежде чем появится доступ в диспетчерскую."
+; EN: ObjDesc[1]="You must hijack the warship via the dock and find your way to the control room on the top floor of the vessel. There, you will find a red button that will activate the boat's cannons and allow the boat to leave the harbor."
+ObjDesc[1]="Вы должны угнать военный корабль через док и найти путь к диспетчерской на верхнем этаже судна. Там вы найдете красную кнопку, которая активирует пушки лодки и позволит лодке покинуть гавань."
+
+[ZoneInfo0]
+; EN: ZoneName="Ship mid corridor"
+ZoneName="Корабль в середине коридора"
+
+[WaterZone0]
+; EN: ZoneName="Swimming at the lake"
+ZoneName="Купание на озере"
+
+[WaterZone1]
+; EN: ZoneName="Being a horse"
+ZoneName="Быть лошадью"

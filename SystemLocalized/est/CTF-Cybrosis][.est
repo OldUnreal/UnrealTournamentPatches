@@ -1,0 +1,105 @@
+﻿[LevelInfo0]
+; EN: Title="Cybrosis Central ]["
+Title="Central Cybrosis ]["
+IdealPlayerCount="4-12"
+
+[ZoneInfo24]
+; EN: ZoneName="Outer Base Blue"
+ZoneName="Base Exterior Azul"
+
+[ZoneInfo2]
+; EN: ZoneName="Outer Base Red"
+ZoneName="Base Exterior Roja"
+
+[ZoneInfo25]
+; EN: ZoneName="Water Room Blue"
+ZoneName="Sala de Agua Azul"
+
+[ZoneInfo3]
+; EN: ZoneName="Water Room Red"
+ZoneName="Sala de Agua Roja"
+
+[ZoneInfo12]
+; EN: ZoneName="Flag Base Red"
+ZoneName="Base de Bandera Roja"
+
+[ZoneInfo11]
+; EN: ZoneName="Flag Base Blue"
+ZoneName="Base de Bandera Azul"
+
+[ZoneInfo28]
+; EN: ZoneName="Pipe Room Blue"
+ZoneName="Sala de Tuberías Azul"
+
+[ZoneInfo6]
+; EN: ZoneName="Pipe Room Red"
+ZoneName="Sala de Tuberías Roja"
+
+[ZoneInfo26]
+; EN: ZoneName="Antechamber Blue"
+ZoneName="Antecámara Azul"
+
+[ZoneInfo23]
+; EN: ZoneName="Top Center Blue"
+ZoneName="Centro Superior Azul"
+
+[ZoneInfo4]
+; EN: ZoneName="Antechamber Red"
+ZoneName="Antecámara Roja"
+
+[ZoneInfo1]
+; EN: ZoneName="Top Center Red"
+ZoneName="Centro Superior Rojo"
+
+[ZoneInfo27]
+; EN: ZoneName="Top Passage Blue"
+ZoneName="Pasaje Superior Azul"
+
+[ZoneInfo30]
+; EN: ZoneName="Top Passage Blue"
+ZoneName="Pasaje Superior Azul"
+
+[ZoneInfo5]
+; EN: ZoneName="Top Passage Red"
+ZoneName="Pasaje Superior Rojo"
+
+[ZoneInfo31]
+; EN: ZoneName="Top Center Blue"
+ZoneName="Centro Superior Azul"
+
+[ZoneInfo9]
+; EN: ZoneName="Top Center Red"
+ZoneName="Centro Superior Rojo"
+
+[ZoneInfo8]
+; EN: ZoneName="Top Passage Red"
+ZoneName="Pasaje Superior Rojo"
+
+[ZoneInfo10]
+; EN: ZoneName="Top Center Red"
+ZoneName="Centro Superior Rojo"
+
+[ZoneInfo32]
+; EN: ZoneName="Top Center Blue"
+ZoneName="Centro Superior Azul"
+
+[ZoneInfo7]
+; EN: ZoneName="Underpassage Red"
+ZoneName="Pasaje Inferior Rojo"
+
+[ZoneInfo29]
+; EN: ZoneName="Underpassage Blue"
+ZoneName="Pasaje Inferior Azul"
+
+[SpecialEvent1]
+; EN: DamageString="%K made a shocking mistake"
+DamageString="%K cometió un error electrificante."
+
+[LevelSummary]
+; EN: Title="Cybrosis Central ]["
+Title="Central Cybrosis ]["
+IdealPlayerCount="4-12"
+
+[SpecialEvent11]
+; EN: DamageString="%K made a shocking mistake"
+DamageString="%K cometió un error electrificante."

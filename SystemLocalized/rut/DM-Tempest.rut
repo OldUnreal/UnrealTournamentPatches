@@ -1,0 +1,25 @@
+﻿[LevelInfo0]
+; EN: Title="Tempest"
+Title="Буря"
+IdealPlayerCount="4-16"
+
+[ZoneInfo0]
+; EN: ZoneName="West Wing"
+ZoneName="Западное крыло"
+
+[ZoneInfo2]
+; EN: ZoneName="Rocket Room"
+ZoneName="Ракетный зал"
+
+[ZoneInfo1]
+; EN: ZoneName="Damage Amp"
+ZoneName="Усилитель повреждений"
+
+[ZoneInfo3]
+; EN: ZoneName="Shield Belt"
+ZoneName="Пояс щита"
+
+[LevelSummary]
+; EN: Title="Tempest"
+Title="Буря"
+IdealPlayerCount="4-16"

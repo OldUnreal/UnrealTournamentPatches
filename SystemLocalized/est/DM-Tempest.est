@@ -1,0 +1,25 @@
+﻿[LevelInfo0]
+; EN: Title="Tempest"
+Title="Tempestad"
+IdealPlayerCount="4-16"
+
+[ZoneInfo0]
+; EN: ZoneName="West Wing"
+ZoneName="Ala Oeste"
+
+[ZoneInfo2]
+; EN: ZoneName="Rocket Room"]
+ZoneName="Sala de Lanzacohetes"
+
+[ZoneInfo1]
+; EN: ZoneName="Damage Amp"
+ZoneName="Amplificador de Daños"
+
+[ZoneInfo3]
+; EN: ZoneName="Shield Belt
+ZoneName="Cinturón de Protección"
+
+[LevelSummary]
+; EN: Title="Tempest"
+Title="Tempestad"
+IdealPlayerCount="4-16"

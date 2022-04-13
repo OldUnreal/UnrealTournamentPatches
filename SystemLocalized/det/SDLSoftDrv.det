@@ -1,0 +1,13 @@
+﻿[Public]
+Object=(Name=SDLSoftDrv.SDLSoftwareRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=libSDL.so)
+Preferences=(Caption="SDL Software Support",Parent="Rendering",Class=SDLSoftDrv.SDLSoftwareRenderDevice,Immediate=True)
+
+[Errors]
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Fehler beim Einstellen der Auflösung"
+
+[SDLSoftwareRenderDevice]
+; EN: ClassCaption="SDL Software Support"
+ClassCaption="SDL Software Unterstützung"
+; EN: AskUse="Do you want Unreal Tournament to use your SDL Software RenderDevice?"
+AskUse="Möchtest du das Unreal Tournament SDL-Software RenderDevice benutzt?"

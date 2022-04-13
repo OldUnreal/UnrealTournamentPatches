@@ -1,0 +1,21 @@
+﻿[LevelInfo0]
+; EN: Title="The Last Command"
+Title="El Último Comando"
+IdealPlayerCount="6-8"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Azul"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Base"
+ZoneName="Base Roja"
+
+[ZoneInfo0]
+; EN: ZoneName="Center Area"
+ZoneName="Área Central"
+
+[LevelSummary]
+; EN: Title="The Last Command"
+Title="El Último Comando"
+IdealPlayerCount="6-8"

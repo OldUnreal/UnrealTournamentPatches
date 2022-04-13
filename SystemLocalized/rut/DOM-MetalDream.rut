@@ -1,0 +1,53 @@
+﻿[LevelInfo0]
+; EN: Title="Metal Dream"
+Title="Металлическая мечта"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Welcome to Metal Dream"
+LevelEnterText="Добро пожаловать в Metal Dream"
+
+[ZoneInfo5]
+; EN: ZoneName="Outside"
+ZoneName="за пределами"
+
+[ZoneInfo1]
+; EN: ZoneName="Control Station 4"
+ZoneName="Станция управления 4"
+
+[ZoneInfo4]
+; EN: ZoneName="Control Station 1"
+ZoneName="Станция управления 1"
+
+[ZoneInfo2]
+; EN: ZoneName="Engineering Corridor"
+ZoneName="Инженерный коридор"
+
+[ControlPoint0]
+; EN: PointName="Boxes"
+PointName="Коробки"
+
+[ZoneInfo14]
+; EN: ZoneName="Oil Control"
+ZoneName="Контроля уровня масла"
+
+[ControlPoint2]
+; EN: PointName="Crane"
+PointName="Кран"
+
+[ZoneInfo3]
+; EN: ZoneName="Control Station 2"
+ZoneName="Станция управления 2"
+
+[ControlPoint1]
+; EN: PointName="Helipad"
+PointName="Вертолетная площадка"
+
+[LevelSummary]
+; EN: Title="Metal Dream"
+Title="Металлическая мечта"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Welcome to Metal Dream"
+LevelEnterText="Добро пожаловать в Metal Dream"
+
+[SpecialEvent7]
+; EN: DamageString="diced"
+DamageString="нарезанный кубиками"

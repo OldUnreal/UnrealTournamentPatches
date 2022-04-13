@@ -1,0 +1,57 @@
+﻿[LevelInfo0]
+; EN: Title="Ghardhen Labs"
+Title="Гарден Лабс"
+IdealPlayerCount="6-12"
+
+[ZoneInfo13]
+; EN: ZoneName="Basement"
+ZoneName="Подвал"
+
+[ControlPoint2]
+; EN: PointName="Top"
+PointName="верхний"
+
+[ZoneInfo12]
+; EN: ZoneName="Upward Hall"
+ZoneName="Верхний зал"
+
+[ControlPoint0]
+; EN: PointName="Bottom"
+PointName="Дно"
+
+[ControlPoint3]
+; EN: PointName="Center"
+PointName="Центр"
+
+[ZoneInfo8]
+; EN: ZoneName="Observation Deck"
+ZoneName="Смотровая площадка"
+
+[ZoneInfo11]
+; EN: ZoneName="Downward Hall"
+ZoneName="Нижний зал"
+
+[ZoneInfo10]
+; EN: ZoneName="Blast Chamber 1"
+ZoneName="Взрывная камера 1"
+
+[ZoneInfo9]
+; EN: ZoneName="Blast Chamber 2"
+ZoneName="Взрывная камера 2"
+
+[LevelSummary]
+; EN: Title="Ghardhen Labs"
+Title="Гарден Лабс"
+IdealPlayerCount="6-12"
+
+[locationid7]
+; EN: LocationName="Central Room - Lower"
+LocationName="Центральный номер - нижний"
+
+[locationid6]
+; EN: LocationName="Central Room - Top"
+LocationName="Центральная комната - Верх"
+
+[locationid8]
+; EN: LocationName="Central Room - Mid"
+LocationName="Центральный номер - Mid"

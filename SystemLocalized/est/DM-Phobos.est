@@ -1,0 +1,28 @@
+﻿[LevelInfo0]
+; EN: Title="Phobos Moon"
+Title="Luna de Fobos"
+IdealPlayerCount="4-8"
+
+[ZoneInfo5]
+; EN: ZoneName="Outer Space"
+ZoneName="Espacio Exterior"
+
+[ZoneInfo7]
+ZoneName="Central"
+
+[ZoneInfo6]
+; EN: ZoneName="Lift 1"
+ZoneName="Ascensor 1"
+
+[ZoneInfo8]
+; EN: ZoneName="Stairs Corridor"
+ZoneName="Pasillo de las Escaleras"
+
+[ZoneInfo9]
+; EN: ZoneName="BioRifle Corridor"
+ZoneName="Pasillo de Rifle Biológico"
+
+[LevelSummary]
+; EN: Title="Phobos Moon"
+Title="Luna de Fobos"
+IdealPlayerCount="4-8"

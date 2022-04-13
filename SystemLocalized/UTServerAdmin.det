@@ -1,7 +1,0 @@
-﻿[Public]
-; EN: Preferences=(Caption="Web-Based Remote Administration",Parent="Networking",Class=UTServerAdmin.UTServerAdmin)
-Preferences=(Caption="Webbasierte Remoteverwaltung",Parent="Netzwerk",Class=UTServerAdmin.UTServerAdmin)
-
-[WebServer]
-; EN: ClassCaption="Web-based Remote Administration"
-ClassCaption="Webbasierte Remoteverwaltung"

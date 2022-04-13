@@ -1,0 +1,77 @@
+﻿[LevelInfo0]
+; EN: Title="Nucleus Power Plant"
+Title="Planta Energética Nucleus"
+IdealPlayerCount="12"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Entrance"
+ZoneName="Entrada Roja"
+
+[ZoneInfo3]
+; EN: ZoneName="Middle"
+ZoneName="Medio"
+
+[ZoneInfo10]
+; EN: ZoneName="Blue Entrance"
+ZoneName="Entrada Azul"
+
+[ZoneInfo2]
+; EN: ZoneName="Red Base"
+ZoneName="Base Roja"
+
+[ZoneInfo0]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Azul"
+
+[ZoneInfo7]
+; EN: ZoneName="Red Pulse Room"
+ZoneName="Sala de Pulsos Roja"
+
+[ZoneInfo11]
+; EN: ZoneName="Blue Pulse Room"
+ZoneName="Sala de Pulsos Azul"
+
+[ZoneInfo4]
+; EN: ZoneName="Red Rocket Room"
+ZoneName="Sala de Cohetes Azul"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Flak Room"
+ZoneName="Sala de Metralla Roja"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Rocket Room"
+ZoneName="Sala de Cohetes Azul"
+
+[ZoneInfo9]
+; EN: ZoneName="Blue Flak Room"
+ZoneName="Sala de Metralla Azul"
+
+[ZoneInfo15]
+; EN: ZoneName="Blue Energy Tunnel"
+ZoneName="Túnel Energético Azul"
+
+[ZoneInfo12]
+; EN: ZoneName="Red Energy Tunnel"
+ZoneName="Túnel Energetico Rojo"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Energy Channel"
+ZoneName="Canal Energetico Rojo"
+
+[ZoneInfo14]
+; EN: ZoneName="Blue Energy Channel"
+ZoneName="Canal Energetico Azul"
+
+[LevelSummary]
+; EN: Title="Nucleus Power Plant"
+Title="Planta Energética Nucleus"
+IdealPlayerCount="12"
+
+[ZoneInfo13]
+; EN: ZoneName="Red Energy Tunnel"
+ZoneName="Túnel Energetico Rojo"
+
+[ZoneInfo16]
+; EN: ZoneName="Blue Energy Tunnel"
+ZoneName="Túnel Energetico Azul"

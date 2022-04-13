@@ -1,0 +1,22 @@
+﻿[LevelInfo0]
+Title="Arcane Temple"
+IdealPlayerCount="3-8"
+
+[LevelSummary]
+Title="Arcane Temple"
+IdealPlayerCount="3-8"
+
+[WaterZone0]
+ZoneName="Top of the Cascade"
+
+[WaterZone1]
+ZoneName="Cascade Current"
+
+[WaterZone2]
+ZoneName="Redeemer Lake"
+
+[WaterZone3]
+ZoneName="Ramps Area (Swimming)"
+
+[ZoneInfo0]
+ZoneName="Outside"

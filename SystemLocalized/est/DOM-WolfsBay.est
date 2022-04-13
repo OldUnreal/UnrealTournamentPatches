@@ -1,0 +1,61 @@
+﻿[LevelInfo0]
+; EN: Title="Wolf's Bay"
+Title="Bahía del Lobo"
+IdealPlayerCount="6"
+
+[ZoneInfo21]
+; EN: ZoneName="Aft"
+ZoneName="Popa"
+
+[ZoneInfo5]
+; EN: ZoneName="Cargo Hold"
+ZoneName="Bodega de Cargamento"
+
+[ZoneInfo3]
+; EN: ZoneName="Engine Room"
+ZoneName="Sala de Máquinas"
+
+[ControlPoint1]
+; EN: PointName="Bridge"
+PointName="Puente"
+
+[ControlPoint2]
+; EN: PointName="Cargo"
+PointName="Cargamento"
+
+[ControlPoint0]
+; EN: PointName="Engine"
+PointName="Motor"
+
+[ZoneInfo1]
+; EN: ZoneName="Bridge"
+ZoneName="Puente"
+
+[ZoneInfo6]
+; EN: ZoneName="Starboard Tunnel"
+ZoneName="Túnel de Estribor"
+
+[ZoneInfo10]
+; EN: ZoneName="Port Tunnel"
+ZoneName="Túnel de Puerto"
+
+[ZoneInfo2]
+; EN: ZoneName="Vent Room"
+ZoneName="Sala de Ventilación"
+
+[ZoneInfo4]
+; EN: ZoneName="Port Tunnel"
+ZoneName="Túnel de Puerto"
+
+[WaterZone0]
+; EN: ZoneName="Drowning"
+ZoneName="Hundiéndose"
+
+[LevelSummary]
+; EN: Title="Wolf's Bay"
+Title="Bahía del Lobo"
+IdealPlayerCount="6"
+
+[ZoneInfo22]
+; EN: ZoneName="Outside"
+ZoneName="Afueras"

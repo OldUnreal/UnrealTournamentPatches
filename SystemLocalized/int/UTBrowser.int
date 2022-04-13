@@ -1,0 +1,11 @@
+﻿[UTBrowserServerGrid]
+ngStatsName="Stats Logging"
+VersionName="Version"
+EnabledText="Enabled"
+AskNgStatsTitle="Use ngWorldStats?"
+AskNgStatsText="This server has stat accumulation enabled. Your ngWorldStats password has not been set. If you set a new ngWorldStats password, you can record all of your gameplay stats (Kills, Suicides, etc) online! If you do not set a password you will opt out of stat accumulation.\n\nDo you want to set an ngWorldStats password?"
+ActiveText="Active"
+InactiveText="Inactive"
+
+[UTBrowserMainWindow]
+WindowTitleString="Unreal Tournament Server Browser"

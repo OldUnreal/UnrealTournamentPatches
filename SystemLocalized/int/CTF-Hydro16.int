@@ -1,0 +1,34 @@
+﻿[LevelInfo0]
+Title="Hydro Bases"
+IdealPlayerCount="6-12"
+
+[ZoneInfo9]
+ZoneName="Red Flag Room"
+
+[ZoneInfo1]
+ZoneName="Red Pillar Passage"
+
+[ZoneInfo2]
+ZoneName="Blue Flag Room"
+
+[ZoneInfo10]
+ZoneName="Blue Boiler Room"
+
+[ZoneInfo3]
+ZoneName="Blue Pillar Passage"
+
+[ZoneInfo13]
+ZoneName="Red Boiler Room"
+
+[ZoneInfo6]
+ZoneName="Red Courtyard"
+
+[ZoneInfo5]
+ZoneName="Blue Courtyard"
+
+[ZoneInfo4]
+ZoneName="Bridges"
+
+[LevelSummary]
+Title="Hydro Bases"
+IdealPlayerCount="6-12"

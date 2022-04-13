@@ -1,0 +1,16 @@
+﻿[LevelInfo0]
+Title="The Last Command"
+IdealPlayerCount="6-8"
+
+[ZoneInfo2]
+ZoneName="Blue Base"
+
+[ZoneInfo1]
+ZoneName="Red Base"
+
+[ZoneInfo0]
+ZoneName="Center Area"
+
+[LevelSummary]
+Title="The Last Command"
+IdealPlayerCount="6-8"

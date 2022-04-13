@@ -1,0 +1,49 @@
+﻿[LevelInfo0]
+; EN: Title="Mazon Fortress"
+Title="Fortaleza Mazon"
+IdealPlayerCount="8-12"
+
+[FortStandard5]
+; EN: FortName="The Crystal"
+FortName="El Cristal"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="¡ha sido destruido!"
+
+[FortStandard6]
+; EN: FortName="The Reactor Room Doors"
+FortName="Las Puertas de la Sala del Reactor"
+; EN: DestroyedMessage="are opened!"
+DestroyedMessage="¡han sido abiertas!"
+
+[LevelSummary]
+; EN: Title="Mazon Fortress"
+Title="Fortaleza Mazon"
+IdealPlayerCount="8-12"
+
+[FortStandard0]
+; EN: FortName="The Front Doors"
+FortName="Las Puertas Frontales"
+; EN: DestroyedMessage="are opened!"
+DestroyedMessage="¡han sido abiertas!"
+
+[FortStandard1]
+; EN: FortName="The Chain 2"
+FortName="La Cadena 2"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="¡ha sido destruida!"
+
+[FortStandard2]
+; EN: FortName="The Chain 1"
+FortName="La Cadena 1"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="¡ha sido destruida!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Your enemy is using Tarydium, a powerful and volatile element, to power their War Machines. You must infiltrate the base by first destroying the two counterweights outside the west wing of the fort. This will open the doors to the fortress."
+ObjDesc[0]="Su enemigo está utilizando Taridio, un elemento poderoso y volátil, como combustible para sus Máquinas de Guerra. Deberán infiltrarse en la base destruyendo los dos contrapesos que están en la parte exterior del ala oeste del fuerte. Esto abrirá las puertas de la fortaleza."
+; EN: ObjDesc[1]="Optionally, you may locate the main gate access control switch and open the castle's main gate, giving your teammates more direct access."
+ObjDesc[1]="Opcionalmente, pueden buscar el interruptor que controla el acceso por la puerta principal de la fortaleza y tratar de abrirla para que sus compañeros de equipo puedan acceder a ella más fácilmente."
+; EN: ObjDesc[2]="Find and activate the primary access control switch to gain entry to the Tarydium reactor room."
+ObjDesc[2]="Busquen y activen el interruptor que controla el acceso principal para poder acceder a la sala del reactor de Taridio."
+; EN: ObjDesc[3]="Finally, destroy the Tarydium power crystal to shut down the operation."
+ObjDesc[3]="Finalmente, destruyan el cristal de energía de Taridio para finalizar la operación."
