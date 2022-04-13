@@ -160,7 +160,6 @@ We also want to recognize the hard work of the many beta testers and contributor
 * Chamberly, Casey: for the many internal bug reports and mental support
 * Ooper: for catching a lot of the early bugs
 * Feralidragon, Berserker, Che, Sizzl: for extensive testing and feedback on Unreal Editor
-* Neon_Knight: for the updated English and Spanish localizations
 * Lightning: for the new HD UMenu textures
 * Sizzl, batonix, ue, Zim: for extensive testing and feedback on the game server
 * uZi, batonix, zkyp, and the members of the UTCTF.pug community: for helping us debug the invisible weapon/flag problem
@@ -169,6 +168,18 @@ We also want to recognize the hard work of the many beta testers and contributor
 * Eternity: for helping us solve the FCollisionHash problem
 * Dizzy and NuLL: for helping us solve the invisible collision problem
 * Deaod: for feedback on our movement updates and various bug fixes
+
+Localization credits:
+* Epic Games/Digital Extremes/Legend Entertainment: Original English/German/French/Spanish/Italian localizations
+* Neon_Knight: Project coordination, Spanish maintenance.
+* Buggie: Localization templates for all languages.
+* Smirftsch, eGo and Ividyon: German, additional contributions.
+* Hellkeeper: French, fixes and maintenance.
+* Rackover/Louvenarde: French, additional contributions.
+* rarsonic: Spanish, additional contributions.
+* UBerserker and TaglesMalsto: Italian, additional contributions.
+* u.HighPriest: Russian, localization author.
+* Skaarj ZR: Russian, additional contributions.
 
 Finally, we want to express our sincerest gratitude to the following people:
 * Stacey Conley (aka "Flak"): this project would not have happened without her. Thank you Stacey, you are amazing!
