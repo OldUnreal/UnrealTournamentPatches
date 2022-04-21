@@ -68,6 +68,8 @@ The macOS version of our patch comes as an application bundle. You should drag t
 
 After installing the data files, you should be able to launch the UnrealTournament app!
 
+This [YouTube clip](https://youtu.be/wEC1M6EdDnA) shows you what the installation procedure is supposed to look like on macOS.
+
 ## System Requirements
 
 Windows and Linux systems will need a CPU with **SSE2** instruction set support. In practice, this means all 64-bit x86 CPUs, all Intel CPUs since (and including) the Pentium 4, and all AMD CPUs since (and including) the Athlon 64 are supported.
