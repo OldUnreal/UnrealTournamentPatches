@@ -1,4 +1,32 @@
-﻿[UBrowserServerListWindow]
+﻿[UBrowserGSpyLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="Impossible de résoudre le Master Server: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Dépassement de requète sur le Master Server"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="Temps de connexion dépassé sur le Master Server: "
+
+[UBrowserHTTPLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="Impossible de résoudre le Master Server: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Dépassement de requète sur le Master Server"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="Temps de connexion dépassé sur le Master Server: "
+
+[UBrowserSubsetFact]
+; EN: NotFoundError="Could not find the window: "
+NotFoundError="Fenêtre non disponible: "
+; EN: NotReadyError="Window is not ready: "
+NotReadyError="Fenêtre non prète: "
+
+[UBrowserRulesGrid]
+; EN: RuleText="Rule"
+RuleText="Règles"
+; EN: ValueText="Value"
+ValueText="Valeur"
+
+[UBrowserServerListWindow]
 ; EN: InfoName="Info"
 InfoName="Info"
 ; EN: PlayerCountName="Players"
@@ -29,34 +57,6 @@ FullHelp="Afficher les serveurs complets."
 LockedText="Protégés"
 ; EN: LockedHelp="Show password-protected servers."
 LockedHelp="Affiche les serveurs protégés par mot de passe."
-
-[UBrowserGSpyLink]
-; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="Impossible de résoudre le Master Server: "
-; EN: TimeOutError="Timeout talking to the master server"
-TimeOutError="Dépassement de requète sur le Master Server"
-; EN: CouldNotConnectError="Connecting to the master server timed out: "
-CouldNotConnectError="Temps de connexion dépassé sur le Master Server: "
-
-[UBrowserHTTPLink]
-; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="Impossible de résoudre le Master Server: "
-; EN: TimeOutError="Timeout talking to the master server"
-TimeOutError="Dépassement de requète sur le Master Server"
-; EN: CouldNotConnectError="Connecting to the master server timed out: "
-CouldNotConnectError="Temps de connexion dépassé sur le Master Server: "
-
-[UBrowserSubsetFact]
-; EN: NotFoundError="Could not find the window: "
-NotFoundError="Fenêtre non disponible: "
-; EN: NotReadyError="Window is not ready: "
-NotReadyError="Fenêtre non prète: "
-
-[UBrowserRulesGrid]
-; EN: RuleText="Rule"
-RuleText="Règles"
-; EN: ValueText="Value"
-ValueText="Valeur"
 
 [UBrowserServerPing]
 ; EN: AdminEmailText="Admin Email"

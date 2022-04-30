@@ -1,4 +1,32 @@
-﻿[UBrowserServerListWindow]
+﻿[UBrowserGSpyLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="Impossibile raggiungere il server primario: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Connesione col server principale scaduta"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="Tempo massimo per la connessione col server principale scaduto: "
+
+[UBrowserHTTPLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="Impossibile raggiungere il server primario: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Connesione col server principale scaduta"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="Tempo massimo per la connessione col server principale scaduto: "
+
+[UBrowserSubsetFact]
+; EN: NotFoundError="Could not find the window: "
+NotFoundError="Impossibile trovare la finestra: "
+; EN: NotReadyError="Window is not ready: "
+NotReadyError="Finestra non pronta: "
+
+[UBrowserRulesGrid]
+; EN: RuleText="Rule"
+RuleText="Regola"
+; EN: ValueText="Value"
+ValueText="Valore"
+
+[UBrowserServerListWindow]
 ; EN: InfoName="Info"
 InfoName="Info"
 ; EN: PlayerCountName="Players"
@@ -29,34 +57,6 @@ FullHelp="Mostra server completi."
 LockedText="Protetti"
 ; EN: LockedHelp="Show password-protected servers."
 LockedHelp="Mostra server protetti da password."
-
-[UBrowserGSpyLink]
-; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="Impossibile raggiungere il server primario: "
-; EN: TimeOutError="Timeout talking to the master server"
-TimeOutError="Connesione col server principale scaduta"
-; EN: CouldNotConnectError="Connecting to the master server timed out: "
-CouldNotConnectError="Tempo massimo per la connessione col server principale scaduto: "
-
-[UBrowserHTTPLink]
-; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="Impossibile raggiungere il server primario: "
-; EN: TimeOutError="Timeout talking to the master server"
-TimeOutError="Connesione col server principale scaduta"
-; EN: CouldNotConnectError="Connecting to the master server timed out: "
-CouldNotConnectError="Tempo massimo per la connessione col server principale scaduto: "
-
-[UBrowserSubsetFact]
-; EN: NotFoundError="Could not find the window: "
-NotFoundError="Impossibile trovare la finestra: "
-; EN: NotReadyError="Window is not ready: "
-NotReadyError="Finestra non pronta: "
-
-[UBrowserRulesGrid]
-; EN: RuleText="Rule"
-RuleText="Regola"
-; EN: ValueText="Value"
-ValueText="Valore"
 
 [UBrowserServerPing]
 ; EN: AdminEmailText="Admin Email"
