@@ -189,6 +189,7 @@ This patch no longer includes libcurl. Server admins that use the MD5 anti-cheat
 ```
 
 * Disabled anti-aliasing on the smallest UWindow and Ladder fonts
+* New icon for the macOS bundle (External Contribution by Älg!)
 
 #### Audio and 3D Rendering
 
