@@ -24,6 +24,8 @@ Server admins should upgrade ACE to version 1.1e or later to check 469c clients.
 
 This patch no longer includes libcurl. Server admins that use the MD5 anti-cheat protection feature and that have automatic updates enabled for the package list will have to manually download libcurl or use the version that came with the previous patch. This change should substantially reduce the number of false positive malware warnings triggered by our patch.
 
+This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms.
+
 ### Stability Improvements
 
 #### Unreal Editor
@@ -74,6 +76,7 @@ This patch no longer includes libcurl. Server admins that use the MD5 anti-cheat
 * Fixed a bug that made UnrealEd export/import string properties without properly escaping/unescaping special characters
 * Fixed a bug that caused incorrect line breaks in the code editor window (External Contribution by Buggie)
 * Fixed a bug that made UnrealEd attempt to recompile source-stripped classes
+* Fixed a bug that made the bottom elements in the actor properties dialog appear multiple times (External Contribution by Buggie)
 
 #### Game Client
 
@@ -106,6 +109,7 @@ This patch no longer includes libcurl. Server admins that use the MD5 anti-cheat
 * Fixed a bug that caused ObjectPaths to move base actors without moving the actors standing on them (External Contribution by Buggie)
 * Fixed a bug that caused the menu to break when pressing the escape key while the speech menu is open
 * Fixed a bug that made it impossible to call ArrayCount on Engine.Actor.Touching
+* Fixed a bug that made the game balance teams incorrectly when a player had just left (External Contribution by Buggie)
 
 #### Physics and Player Movement
 * Fixed a bug that made kickers move swimming or flying players into PHYS_Falling
@@ -156,6 +160,9 @@ This patch no longer includes libcurl. Server admins that use the MD5 anti-cheat
 * Added compatibility warnings for mods that attempt to call the Locs and Repl functions that were added in UT v451
 * Added a "hidden properties" category to the actor properties window (backport from Unreal 227j)
 * Added new compatibility warnings for mods that attempt to use the native functions UTPG added in patches 440 and 451
+* Added a texture browser menu option to regenerate texture mipmaps
+* Added a single-viewport preset for Unreal Editor (External Contribution by Buggie)
+* Added a "Copy Actor Properties" option to the actor properties window (External Contribution by Buggie)
 
 #### UnrealScript
 
@@ -195,6 +202,7 @@ This patch no longer includes libcurl. Server admins that use the MD5 anti-cheat
 
 * Greatly improved performance of OpenGLDrv and XOpenGLDrv
 * Added a "OldLitColors" option to Render.Render. This option can be set to true if you want unlit actors to be dimly lit as in UT 436
+* ALAudio now uses the correct output device if you select "System Default" as your output device and if you switch audio devices while playing the game (External Contribution by Buggie)
 
 #### Physics and Player Movement
 
