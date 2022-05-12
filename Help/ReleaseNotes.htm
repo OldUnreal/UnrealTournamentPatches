@@ -1,0 +1,874 @@
+<html>
+
+<head>
+	<title>Unreal Tournament Release Notes</title>
+</head>
+
+<body>
+
+<h1>General Information</h1>
+
+<h3>Official Unreal Tournament Web Sites</h3>
+
+<ul>
+  <li><a href="ReadMe.htm">General Troubleshooting, Hints, Tips &amp; Information</a></li>
+  <li><a href="http://www.unrealtournament.com/" target="_parent">Unreal Tournament Home Page</a></li>
+  <li><a href="http://www.epicgames.com/" target="_parent">Epic Games Home Page</a></li>
+  <li><a href="http://unreal.epicgames.com/" target="_parent">Unreal Technology Page</a></li>
+</ul>
+
+<h3>Independent Unreal Tournament News Sites</h3>
+
+<ul>
+  <li><a href="http://www.planetunreal.com">Planet Unreal</a> 
+  <li><a href="http://www.beyondunreal.com">Beyond Unreal</a> 
+  <li><a href="http://www.unrealadmin.org">the Unreal Admin page</a>
+  <li><a href="https://ut99.org">UT99.org - Unreal Tournament Community</a>
+  <li><a href="https://www.oldunreal.com">Old Unreal</a>	
+</ul>
+
+<h1>Unreal Tournament version 469 Release Notes</h1>
+The release notes for Unreal Tournament version 469 are available <a href="https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md">here</a>.
+
+<h1>Unreal Tournament version 451 Release Notes</h1>
+Version 451 is completely network compatible with all previous public releases of UT.<br>
+Server requires clients to be at least version 432.<br>
+
+<ul>
+<li> WebAdmin fixed, linux server should have a working webadmin again<br>
+<li> Package code execution exploit fixed<br>
+<li> LogMaxConnPerIPPerMin defaults to false<br>
+<li> IRC chat client fixes<br>
+<ul>
+	<li> \n bug fixed<br>
+	<li> long lines are wrapped<br>
+	<li> wrapped lines are indented for better readability<br>
+</ul>
+<li> Added protection against brute forcing the admin login:<br>
+<pre>
+    [Engine.GameInfo]
+    LoginDelaySeconds=0.0   Number of seconds after an incorrect login before login is allowed again.
+    MaxLoginAttempts=0      Maximum number of login attempts before an action is taken
+    ActionToTake=           What to do when the maximum number of login attempts has been reached
+
+    Values for ActionToTake:
+    DO_Nothing
+    DO_Log                  Will log the player's name, IP, and number of attempted logins to server's log
+    DO_DisableLogin         Player will be unable to perform adminlogin for remainder of match
+    DO_KickPlayer           Player will be kicked from server
+    DO_KickBanPlayer        Player will be banned from the server
+    
+    ex: ActionToTake=DO_DisableLogin
+</pre>
+<li> Added a caching system to the webadmin to reduce the impact on the running game
+<li> Added -logprefix option to `ucc`. Enabled preflush log prefixes
+<li> Extended IP ban list to allow 256 entires
+<li> Fixed several bugs which allowed malicious clients to lag the server
+<li> Clamped DefaultFow to values between 80 ~ 130
+<li> Added bLogAdminActions to [Engine.GameInfo] - provides information about kick/bans/logins
+<li> Fixed chat messages not appearing when game is paused
+<li> Limit in-game name changes to 10 per map
+<li> Fixed player details server query response
+<li> Fixed mutators not appearing in server browser
+<li> Added additional console commands for admins - kicklist, kickid, and kickbanid
+<li> Added current map name to all pages in "Current" section of webadmin
+<li> Added time remaining to pages in "Current" section of webadmin for timed matches
+<li> Fixed LoginSeconds display in web admin to only show max number of allowed characters in textbox
+<li> Added 'AdminAction' prefix to all log entries written by admin actions
+<li> Improved the console functions 'get' and 'set' to allow editing of array config variables<br>
+		 <b>Usage:</b> to get an value of an array item use the following command:<br>
+		 <pre>&nbsp;&nbsp;&nbsp;&nbsp;get Engine.GameInfo IPPolicies #</pre>
+		 Where # is the number starting from 0, if you omit the number the first element is returned<br>
+		 <pre>&nbsp;&nbsp;&nbsp;&nbsp;set Engine.GameInfo IPPolicies # new value</pre>
+		 Where # is the number starting from 0, you <b>must</b> specify the number
+<li> Items in the open location box are moved up in the list when reused
+<li>Fixed the scroll whell when using Logitec drivers (EM_EXEC)
+<li>The download percentage for compressed redirects is displayed correctly now (the real percentage)
+<li>Fixed spaces in redirected package names (note: you should NOT use spaces in package names)
+<li>Fixed incorrect F6 details
+<li>Added IRC half-ops support
+<li>Netspeed command is limited to once every 15 seconds (as with UT2003)
+<li>Fixed server lag exploit from chatting. Added a config variable "bLogTypingEvents" to the Engine.StatLog class. If the server does not wish to be vulnerable to this exploit, setting this variable to false will cause the resulting ngStats logs (both world and local) to not record player chatting events.
+<li>Fixed lag exploit possible through replication statement error
+<li>Fixed lag exploit with ShowInventory command
+<li>Fixed lag exploit in the ShowPath command, only admins can use this command
+<li>Server lag exploit possible from viewing players fixed
+<li>Added refering game server to HTTP redirect request with the form: Referer: server-IP:port
+<li>Merged Daniel Vogel's OpenGL driver with the source
+<li>Added a new config option to set the minimal client version
+<pre>
+		[Engine.GameEngine]
+		MinClientVersion=432
+</pre>
+</ul>
+
+<h1>Unreal Tournament version 440 Release Notes</h1>
+Version 440 is completely network compatible with all previous public releases of UT (versions 400, 402, 405b, 413, 420, 425, 428, 432 and 436).<br>
+Server requires clients to be at least version 432.<br>
+
+- Implemented fixes provided by Epic to resolve exploit holes in UT Core files.<br>
+&nbsp;&nbsp;	* Resource "lunch" bug fixed<br>
+&nbsp;&nbsp;  * DoS bug fixed<br>
+&nbsp;&nbsp;  * Fake Player bug fixed<br>
+&nbsp;&nbsp;  * GameSpy Query loop<br>
+- Added Team information to query protocol<br>
+- Fixed backslahes in status query replies<br>
+- Fixed mutator listing in status query replies<br>
+- Fixed ucc buffer overflow<br>
+
+
+<h1>Unreal Tournament version 435 Release Notes</h1>
+
+Version 435 is completely network compatible with all previous public releases of UT (versions 400, 402, 405b, 413, 420, 425, 428, and 432).<br>
+
+- fixed joystick button handling code (thanks Chris Carollo).<br>
+- hack fix for bad playerstart in CTF-Coret.<br>
+- fixed crash for servers with more than 255 characters worth of server packages.<br>
+- fixed problems with single player ladder than cropped up in 432.<br>
+- Server now report to clients whether or not they are password protected.<br>
+- Fixed incompatibility in ChallengeHUD that caused problem for some mods.<br>
+- In the editor, the "TextureLock" option should work 100% now.<br>
+- Fixed the editor crash that some people were getting when docking a browser and getting a crash when trying to restart the editor.<br>
+- Rewrote "UEditorEngine::polySelectMatchingBrush" because SHIFT+B was crashing at random times in the editor. Should be stable now.<br>
+- Brush clipping was merging faces on the resulting brush in the editor.<br>
+- May have fixed the random "WinMain/message pump" crash in the editor.<br>
+- Pre-432 spectators not allowed to join 435 servers (because of incompatibility). <br>
+
+<h1>Unreal Tournament version 432 Release Notes</h1>
+
+Version 432 is completely network compatible with all previous public releases of UT (versions 400, 402, 405b, 413, 420, 425, and 428).<br>
+
+- faster server browser initial pinging of servers.  Added a new default property to [UBrowserServerPing], MaxSimBroadbandPing, which defines the max number of servers to simultaneously ping if your netspeed > 6000.<br>
+- team scoreboard holds more players (no more names dropping off the bottom for 32 player games).<br>
+- fixed grenade smoke in OpenGL<br>
+- fixed some D3D compatibility issues<br>
+- faster server ping response for servers with mutators.<br>
+- admins lose cheats and die when they log out as admins.<br>
+- fixed bug causing player team choice to be overriden (also cause maxteamsize not to work when 2)<br>
+- fixed thrown weapons sinking into ground in net play<br>
+- fixed listen server crashing with too many serverpackages<br>
+- fixed server still sending data on disconnect<br>
+- fixed server not allowing custom skins because of skin cheat fix<br>
+- servers are now prioritized by version on the master server<br>
+- improved map decompression time.<br>
+- slight improvement to server CPU utilization.<br>
+- prevent message spamming in net play.<br>
+- centered admin messages - if logged in as an admin, start your message with a # to have it centered.<br>
+- voice autotaunts not printed in net games.<br>
+- fix for CTF AI.<br>
+- limit translocator firing rate (max 2/sec)  to prevent translocator spamming bind cheats.<br>
+- suicides are counted as deaths.<br>
+- admin spectators can use # to center print messages.<br>
+- disallow setting of actor properties using the "set" command on clients.  Prevents a whole class of cheats.<br>
+- faster menu loading with mods.<br>
+modmakers to make a small change to the way they add items to
+the Mod menu.&nbsp; Previously, mod menu items were created with an .int file
+entry something like this:
+<blockquote>
+<p>Object=(Name=ChaosUT.ChaosUTModMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem)</p>
+</blockquote>
+<p>To make your mod load quicker when UT starts up, you need to add a Description field on the end.</p>
+<blockquote>
+<p>Object=(Name=ChaosUT.ChaosUTModMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description=&quot;ChaosUT&nbsp;Config,Configure&nbsp;ChaosUT&quot;)</p>
+</blockquote>
+<p>The stuff after the comma is the text that appears on the help bar at the
+bottom of the screen.&nbsp; If you don't make the change to your int file, your
+mod will still work with the next UT patch, but it won't load any faster -
+so please make the change for the next release of your mod.<br>
+
+<h2>Editor enhancements</h2>
+<p><b><u><font size="4">2D Shaper<br>
+</font></u></b><br>
+The 2D shaper can now handle multiple shapes, like the old one did.&nbsp; But
+the coolest thing is that it can now handle bezier segments (<i>you can have as
+many as you want</i>).&nbsp; You select a side, turn it into a bezier segment
+and you get 2 control points that you can use to control the shape of the
+segment.&nbsp; The segment has multiple detail levels so you can control how
+smooth the curves are.&nbsp; It also allows you to create whatever kind of shape
+you want, and it will triangulate the shape automatically when the time comes to
+create a brush from it.<br>
+<br>
+The file format has changed, so any shapes you've currently saved won't be
+usable in this new one ... so print them out or something.&nbsp; :P<br>
+<br>
+<b><u><font size="4">Movers<br>
+<br>
+</font></u></b>When you right click a mover there is a new menu option called
+&quot;Show Polys&quot;. What this will do is add the movers polygons into the
+current BSP.&nbsp; You can then change the texturing, surface flags, etc of
+those polys and those changes will be reflected on the mover itself.&nbsp; So
+you don't have to recreate movers anymore to change the way they look.&nbsp; The
+only drawback to this is that the polys it stuffs into the BSP -- they're just
+temporary, but you will have to rebuild your map to get rid of them.&nbsp; But I
+think that's a more than reasonable trade off.&nbsp; :)<br>
+<br>
+<b><u><font size="4">Modes<br>
+<br>
+</font></u></b>&quot;Brush Clipping&quot; has been made into it's own mode
+(&quot;<b>MODE BRUSHCLIP</b>&quot;).&nbsp; This allowed several good things to
+happen ..<br>
+<br>
+-&nbsp; You can place clipping markers anywhere you want to now.&nbsp; On top of
+brushes, actors, etc ...<br>
+-&nbsp; Placing clipping markers will no longer deselect the currently selected
+brushes<br>
+-&nbsp; Many bugs have been fixed, including the ever nasty &quot;<i>can't clip
+a brush that you've vertex manipulated</i>&quot;<br>
+&nbsp;&nbsp;&nbsp; - NOTE : <i>this mainly applies to any NEW brushes you create
+after getting this version.&nbsp; Old brushes may work OK if you transform them
+permanently before trying the clip though ...<br>
+</i>-&nbsp; If you attempt to clip a brush and it doesn't work properly, undo
+the clip,&nbsp; transform the brush permanently and try again.&nbsp; This will
+make it work 99% of the time.
+</p>
+
+<p>
+&quot;Vertex Editing&quot; is also it's own mode now (&quot;<b>MODE VERTEXEDIT</b>&quot;).&nbsp;
+Mainly for ease of use reasons.&nbsp; It's also got all of the dragging
+weirdness worked out of it.&nbsp; It will still crash if you drag vertices on
+top of other vertices on the same brush.&nbsp; This is by design.&nbsp; It will
+be handled in a future version through an option to weld vertices.<br>
+<br>
+<b><u><font size="4">Misc<br>
+</font></u></b><br>
+Some of these might be repeats from above, so if you see any that are, just
+pretend you didn't see them ...<br>
+<br>
+* Actor grouping (like vis groups in Worldcraft)<br>
+* made all browsers dockable inside of a master browser window (individually
+configured)<br>
+&nbsp; * you can have a mix using this system ... have some browsers docked,
+others floating<br>
+* added ability in texture browser to rename textures<br>
+* all browser windows will fill in a default filename when saving packages or
+exporting items<br>
+* 2D shape editor<br>
+&nbsp; * you can build shapes however you want - no more worrying about
+triangles<br>
+&nbsp; * shapes will auto-triangulate when you create a brush<br>
+&nbsp; * now supports multiple shapes<br>
+&nbsp; * supports bezier segments<br>
+&nbsp; * had problems with beziers on the left hand side of the shape<br>
+&nbsp; * would have problems with tons of polys in the shape<br>
+&nbsp; * now has the ability to scale shapes up or down<br>
+&nbsp; * brush pivot point should now be in the correct place after creating a
+brush<br>
+* &quot;Radii view&quot; will now work in the 3D window by rendering the
+collision cylinder as an 8-sided wire cylinder<br>
+* &quot;Radii view&quot; will also show the radius of things like lights in the
+3D window<br>
+* made the &quot;snap vertex&quot; graphic on the bottom bar larger<br>
+* various vertex editing fixes/improvements<br>
+* Brush Clipping<br>
+&nbsp; * changed the marker to a little push pin<br>
+&nbsp; * clip markers are now numbered as you add them in - like QER<br>
+&nbsp; * clip markers have a circle drawn around them that doesn't scale with
+zoom distance<br>
+&nbsp;&nbsp;&nbsp; * you can select clip markers by clicking the circle as well
+as the actor itself<br>
+* fixed MeshBrowser not playing individual animations<br>
+* changed vertex editing color to always be white<br>
+* may have fixed the way the tabs would overlap each in the &quot;surface
+properties&quot; and &quot;build options&quot; dialogs<br>
+* turned the mesh viewer into a regular browser window - it can be docked and is
+treated the same as the other browser windows<br>
+* cleaned up the UI on all the browsers - things are much more consistent and
+cleaner now<br>
+* when an image is loaded into the 2D shaper, the lines should be dark gray
+instead of black<br>
+&nbsp; * the image also shifts around when you move the origin.&nbsp; It
+shouldn't - lock it at the origin.<br>
+* box selection mode will no longer occasionally leave the box sitting there
+until you move the camera again<br>
+* fixed the &quot;can't clip brush after using vertex manipulation on it&quot;
+bug. If something goofy DOES happen with the brush clipping it can be fixed 99%
+of the time by transforming the brush permanently, and trying the clip again.<br>
+* CTRL+E hotkey for &quot;Save As&quot;<br>
+* SHIFT+LCLICK on a BSP surface will select the brush that belongs to it.&nbsp;
+This works like QER.&nbsp; The brushes wireframe will render on top of the
+brushes surfaces.&nbsp; You can move the brush around, rotate it, etc without
+ever going into wireframe mode.<br>
+* opening/importing lots of filenames, in any browser, will work now<br>
+* adjusted the label text in the texture browser so that it's much more readable (smaller font, white, always centered properly)<br>
+* Added a button to the toolbar to do a complete build based on whatever the current build settings are<br>
+* made the font in mesh viewer render much brighter<br>
+* Brush Builders<br>
+&nbsp; * added the "add to first step" field back into linear and curved staircases<br>
+&nbsp; * group browser should have the ability to select/deselect the actors in the selected groups<br>
+&nbsp; * texture browser can now be put into "variable size" mode in which it packs the textures in as close together as it can while preventing their labels from wrapping.  The scaling is adjustable.  This works very much like the QER/Worldcraft texture browers.  The old display mode IS still available.<br>
+* new Brush Builder : <b>Volumetric</b>.  Creates sets of intersecting sheets for torches, chains, etc...<br>
+* added an option to the rebuild dialog to only build visible actors - so working on a subsection of a level is much quicker<br>
+* added button to build dialog for &quot;Create New Path Network&quot; option&nbsp;
+This option will delete all current pathnodes and create a new network on it's
+own.&nbsp; This is sometimes good for a first pass which you can then tweak
+later.<br>
+* made the skybox visible when viewport is put into realtime preview mode<br>
+* double clicking a classname in the actor browser will bring up the script editor<br>
+* added MRU (<i>most recently used</i>) lists to all browsers<br>
+* added a dialog to replace one texture with another over the entire level<br>
+* changed master browser to use tabs to show the list of docked browsers instead of a combobox<br>
+* UnrealScript editor<br>
+&nbsp; * fixed find dialog to work 100%<br>
+* added zoom buttons to the 2D shape editor<br>
+* dialogs will now warn you when you are writing over an existing file<br>
+</p>
+
+<h1>Unreal Tournament version 428 Release Notes</h1>
+
+Version 428 is completely network compatible with all previous public releases of UT (versions 400, 402, 405b, 413, 420, and 425).<br>
+
+<h3>Bug fixes</h3>
+- fixed 425's D3D problems<br>
+- improved client prediction of other players on slopes<br>
+- fixed 'killall bot' working on servers even if not admin<br>
+- fixed Unrealed2 problems with DirectInput (by disabling DirectInput when using Unrealed2).<br>
+- fixed picked up weapons occasionally looping firing anim.<br>
+- fixed another case where server would keep sending data to client after disconnect.<br>
+- fixed Unrealed2 mesh viewer problem.<br>
+- fixed Owner being passed to new actor in Mutator.ReplaceWith().<br>
+- fixed creeping ping problem with Win2K. <br>
+- fix for occasional accidental port changes on servers using NGStats:
+
+These ini files are used:
+
+[IpServer.UdpServerQuery]
+OldQueryPortNumber=0
+bRestartServerOnPortSwap=True
+
+
+OldQueryPortNumber will get saved to the current value of the query port
+number.  If the port number changes, the server will quit - and restart automatically if you are using an appropriate batch file ( see http:\\unreal.epicgames.com\utservers.htm ).<br>
+
+Setting OldQueryPortNumber to 0 will cause it to save the current port
+number again, so you should set this value to 0 when you want to change
+the port number deliberately (ie you're running a second server on the
+same machine).<br>
+
+
+<h1>Unreal Tournament version 425 Release Notes</h1>
+
+Version 425 is completely network compatible with all previous public releases of UT (versions 400, 402, 405b, 413, and 420).<br>
+
+Note that with the new version, when you are connecting to a passworded server, you will see a "Connection Failed" message, and then successfully connect. 
+The client first tries to connect without using a password, and then tries again with the password.<br>
+
+<h3>Bug fixes</h3>
+- fixed another mixed skin cheat<br>
+- fixed creeping pings problem - especially prevalent with passworded servers <br>
+- fixed problems with passwords with spaces<br>
+- improved server CPU utilization<br>
+- improved prioritization of network traffic for low bandwidth users<br>
+- fixed ActorLineCheck() crash again - no really this time<br>
+- fixed clearing base on client in netplay - thanks Mongo<br>
+- fixed suicide spamming<br>
+- Last Man Standing now can have time limit<br>
+- fixed spriteballexplosion sounds playing client side<br>
+- faster translocation effect in software mode<br>
+- fixed collision bug which cropped up in 420 (overlord)<br>
+- fixed D3D 32 bit zbuffer allocation<br>
+- lowered NGStats thread priority on dedicated servers, so NGStats doesn't hold up level changes.<br>
+- Added bExternalBatcher configuration option to [Engine.GameInfo].  If true, the game doesn't try to run the NGStats world log batch process.<br>
+- The 'Use32BitZBuffer' switch in the advanced Direct3D options, which is
+disabled by default, will force the
+use of a 32-bit Z buffer even in 16-bit color display modes.
+
+This can be used to fix flickering world surfaces and similar visual
+corruption when running in 16-bit
+mode on several cards, like the Matrox G400<br>
+
+<h3>Editor:</h3>
+
+* Forced code to compile to oldest possible version of COMCTL32.DLL ...
+should eliminate surface properties dialog not showing up, and actor browser
+being empty<br>
+* Editor is now able to handle pathnames with spaces in them<br>
+* fixed "Can't find 'ini:Engine.Engine.EditorEngine' in configuration file"
+error - code now uses unrealtournament.ini instead of unreal.ini<br>
+* added "reset" menu to main brush menu<br>
+* when importing textures, the texture browser would jump back the first
+package/group instead of to the newly created ones<br>
+* GUI updated with changes to get it closer to final design<br>
+* Editor viewports can now be put into "Direct3D" rendering mode (right
+click on viewport toolbar and select from menu options)<br>
+* importing textures/sounds will now allow for empty group names<br>
+* exporting all/changed scripts will now work correctly<br>
+* controls on bottom bar are left justified now, instead of right<br>
+* the surface properties dialog will now show the complete name of the
+texture that appears on the selected poly (package/group/name)<br>
+* when creating a new texture, the browser will now select the correct
+package/group and automatically call up the new texture for editing.<br>
+* 2D shape editor now has the ability to "extrude to bevel" and "extrude to
+point"<br>
+* edit controls can accept formulas again (precede formula with an "=" sign.
+i.e. "=256+128")<br>
+* the "add special" dialog will now remember it's settings if you close it,
+and re-open it.  It will also stay on the screen until you manually close
+it.<br>
+* music browser will now properly import/export files<br>
+* added a new button on left hand bar for changing camera speed<br>
+* the combobox on the bottom bar will now keep an MRU list of recently
+entered commands<br>
+* editor shouldn't crash or give weird messages when shutting down anymore<br>
+* on the alignment tab, the scaling combobox is now able to have values
+typed directly into it<br>
+* on the alignment tab, there are seperate "apply" buttons for each set of
+scaling values (one for the edit controls and one for the combobox)<br>
+* the left hand toolbar now has sections so you can hide/show the commands
+you want<br>
+* the left hand toolbar will now allow scrolling if the screen gets too
+small to hold all the buttons<br>
+* at the bottom of the lefthand toolbar is a section for user defined
+buttons.  These are defined through the unrealed.ini file.<br>
+* texture browser will no longer crash if it is resized to be smaller than
+the width of one texture<br>
+
+
+<h1>Unreal Tournament version 420 Release Notes</h1>
+
+Version 420 is completely network compatible with all previous public releases of UT (versions 400, 402, 405b, and 413).
+
+<h3>Bug fixes</h3>
+- fixed actorlinecheck() crash<br>
+- fixed findrandomdest()<br>
+- fixed D3D driver - combined best performance with widest compatibility of previous iterations, improved Voodoo 4 D3D support<br>
+- fixed installer problem with certain directory structures<br>
+- fixed security holes with ServerRestartGame() SwitchLevel() and SwitchCoopLevel()<br>
+- removed ability to use bad skins<br>
+- fixed ADDINI for editing .ini files for patch and umod installation<br>
+
+<h3>New features (thanks to Legend)</h3>
+- New editor! (see editor notes below) - note that the editor is still called unrealed.exe<br>
+- various other under the covers features and fixes merged in by Mark Poesch of Legend<br>
+<br>
+NEW EDITOR NOTES:<br>
+<br>
+!! NOTE !!<br>
+Something to be aware of is that this version replaces the old UnrealEd.exe ...  It is STRONGLY recommended that you make a backup of your system directory so you can still run the old editor should you need to do something that the new editor doesn't, or that is broken in the new editor.<br>
+!! NOTE !!<br>
+<br>
+The editor included with this patch is the current version of the C++ UnrealEd.  You'll find it as "unrealed.exe".  This is an *EXPERIMENTAL* version ...  If you want to use it, you can, but be aware that certain things are broken or lacking.  If you click on something and it doesn't work, it's probably not implemented yet.<br>
+<br>
+A quick list that I know of ...<br>
+<br>
+- Vertex editing will sometimes do weird things with drag distances and brush clipping<br>
+- Finding/Replacing text in the UnrealScript editor is broken<br>
+- Clicking on tabs in some windows doesn't seem to work right.  The wrong tab will come up or no tab at all.  To fix it, click on the first tab, and then each one in order until you get to the one you wanted.<br>
+<br>
+This version has a mix of the old and new UI ... so if it looks weird, that's why.  :)<br>
+<br>
+If you want to send me feedback on this version ... requests for features you want, things you like, things you don't, etc., send them to unrealed2@epicgames.com ... I may or may not respond depending on the volume of email I get ... so don't get offended if I don't.  ;)<br>
+<br>
+A quick rundown of the new features and how to use them follows.  Thanks to Scott Dalton at Legend for his help in compiling the majority of this!  Bear in mind, the editor is still very heavily under development and these features -should- work ... but you'll run into weird situations and stuff.  Be prepared.<br>
+<br>
+<br>
+<br>
+Configurable Viewports<br>
+======================<br>
+To add new viewports go to the View -> Viewport -> New Viewport menu option.  Up to 8 editing viewports are allowed, and the size and positioning will be saved upon exiting the editor. Floating Browsers are equally resizable and all viewports can be used with dual monitor support.
+
+You can also use the "Config" option to choose from preset configurations.  In this release, this is your best bet.
+
+There are also options for having viewports as "floating" or "fixed".  "Floating" means you have a caption bar and resizing bars.  "Fixed" means ... you don't!
+
+<br>
+<br>
+Drag Box Selection<br>
+==================<br>
+A group of brushes/actors can be selected in any 2d viewport using this dragbox command.  Hold Control and Alt and left-click-drag the mouse to create a red drag box.  Any brush or actor whose pivot point is within this box will be selected.
+
+<br>
+<br>
+Brush Clipping<br>
+==============<br>
+Brush clipping creates a 2d or 3d clipping plane using 2 or 3 definition points to establish the position and angle.  Certain commands will need to be bound to keys to properly use this feature.  This feature can be used both on the active brush and on previously placed brushes.  NOTE : Brushes MUST be transformed permanently in order to be clipped properly.
+
+To place clipping points hold control and right-click within a 2d editing viewport.  This will place one control point.  Click again to place a second point.  With 2 points, you can perform a 2d clip.  A red line will be drawn between the points indicating the plane of the clip, with the normal of the clip (the red perpendicular line to the clip plane) indicating the part of the brush that will be clipped away (destroyed) by the clip.  Focus must be in the desired 2d viewport for the 2d clipping to work correctly.  
+
+3d clipping works in the same way, but an additional point must be added.  These points must then be aligned using either 2d or 3d viewports to create the proper 3d plane.  
+
+Adding a 4th clipping point will reset the clipper and destroy all clip markers.
+
+There are UI controls for brush clipping, but if you are more comfortable using hot keys, you can bind -
+<br><br>
+BRUSHCLIP  - performs the brush clipping operation<br>
+BRUSHCLIP FLIP  - flips the normal of the cutting plane<br>
+BRUSHCLIP SPLIT  - retains the clipped off portion as a second brush (will not work on the builder brush)<br>
+BRUSHCLIP DELETE - removes all current clipping points from the world<br>
+
+<br>
+<br>
+Multiple Vertex Editing<br>
+=======================<br>
+This command allows multiple vertices to be selected and moved.  This allows face/edge manipulation and other vertex editing operations.  Some caution must be exercised with multiple vertex editing (as with single vertex manipulation which is still available) to avoid creating invalid shapes by moving a vertex from a 4+ vertex face off plane with the other vertices on that face.  These situations are easily avoidable if you understand what you are doing, but if you are confused by that concept, you may be better off avoiding this feature.
+
+To use multiple vertex editing, turn on the "Vertex Editing" button under "Modes" on the button bar.  This will highlight the vertices on the selected brush/es.  (Note : you can change the color of the vertices to your preference by changing your editor Advanced Options->Editor->Color->C_BrushVertex Color.  It is best to set it to something bright like pure white.)  Multiple vertices may then be selected, as other actors would be, by using control and clicking or by using Drag Box Selection.  Selected vertices may then be dragged to the desired position in any 2d viewport.
+
+The following commands may be bound to keyboard keys for vertex editing -
+
+MODE SHOWVERTICES -1 : This will toggle "Vertex Editing" button on and off.
+
+<br>
+<br>
+New Brush Factory Options<br>
+=========================<br>
+Several new brush factory options are available.  These can be combined with other new features (Read - Vertex editing) to create new shapes.  
+<br>
+<br>
+Tessellated Cube Builder<br>
+------------------------<br>
+Under Cube options, turning Tessellated to True will create the cube out of triangles instead of quads.  As triangles can be freely vertex edited into a variety of shapes, this is handy for quickly creating simple rock-like structures or the like.
+<br>
+<br>
+Terrain Builder<br>
+---------------<br>
+This is *NOT* in any way related to Epic's new terrain engine under development.  This will create a cube with a single highly tessellated face.  The desired number of width and depth segments can be defined within the builder.  This brush may then be edited via multiple vertex editing to create terrain or other similar brushes.
+
+<br>
+<br>
+UnrealScript Editing Support<br>
+============================<br>
+To quickly switch between open scripts by using a listbox - double click the name to switch to a new script.  Exporting packages works from a multiple selection listbox in the actor browser - select the packages you want, and with one mouse click, they are all saved to disk (easier than saving each on separately using a that old combobox).
+
+<br>
+<br>
+Misc/Convenience Features<br>
+=========================<br>
+There are a variety of small features which have been added for editing convenience.  
+<br>
+<br>
+Actor Search/Align<br>
+------------------<br>
+To search for actors, select "Search for Actors" under the edit menu.  You can search by name, tag, or event.  Double clicking on an actor in the search window will center all viewports on that actor.  Alternatively, you can bind a key using the command "CAMERA ALIGN" ... this will align all viewport cameras on the selected actor.  This is VERY nice for finding an area in one view, clicking something there, and aligning all views on it.  Fast navigation.
+<br>
+<br>
+Texture Relative Scaling<br>
+------------------------<br>
+Textures may be scaled by either absolute or relative values.  To turn on relative scaling, click on the "relative?" checkbox.
+<br>
+<br>
+Texture Browser Filter<br>
+----------------------<br>
+To use a text-string filter on textures in the browser, simply enter the string to filter in the "Filter" dialog at the bottom of the window
+<br>
+<br>
+Light Color Selection<br>
+---------------------<br>
+To select a light color using the standard windows color picker, click on the "color" button the actor’s LightColor preferences.
+<br>
+<br>
+Light Brightness Scaling<br>
+------------------------<br>
+Selected lights can be scaled by absolute or relative values.  To use this option, select "Scale Lights" under the edit window.  Good for lightening or darkening an area that has lights of different brightness values.
+<br>
+<br>
+Make Selected Actor the Current Actor<br>
+-------------------------------------<br>
+This command takes the currently selected in-level actor, and sets the actor browser to the same type of actor.  To use this command, right click on the actor in any viewport and select "Make Current."  So if you want to place more pathnodes in a level, you can right click one of the existing ones, choose "Make Current" and start placing them without using the actor browser window.
+
+<br>
+<br>
+Again, this version is under development and this release is mainly to gather feedback.  To reiterate ...
+
+If you want to send me feedback on this version ... requests for features you want, things you like, things you don't, etc., send them to unrealed2@epicgames.com ... I may or may not respond depending on the volume of email I get ... so don't get offended if I don't.
+<br><br>
+
+Have fun!  =)<br><br>
+<p><b>420 also includes all the fixes and improvements in the 413 patch (listed below)</b>
+</p>
+
+<h1>version 413 Release Notes</h1>
+
+Version 413 is completely network compatible with all previous public releases of UT (versions 400, 402, and 405b).
+
+<h3>Known Issues</h3>
+
+<ul>
+  <li>If you are using D3D and Unreal Tournament did not automatically detect
+    D3D when you first installed (so you had to manually select it), you should
+    change your video driver to D3D again after installing this patch.&nbsp;
+    This will allow Unreal Tournament to optimize its settings for your video
+    card.&nbsp; To reset your D3D driver, go to the Options-&gt;Preferences menu
+    and select the Video tab.&nbsp; Then click on the change driver button to
+    re-select D3D.</li>
+  <li>We have seen an instance of a GeForce 256 displaying many world polygons
+    flashing and flickering.&nbsp; If this happens for you, press TAB type
+    &quot;preferences&quot; to bring up the advanced options menu.&nbsp; Then
+    set UseVideoMemoryVB to True in the Direct3D Render Device options.</li>
+</ul>
+
+<h3>Fixes and Improvements</h3>
+
+<p><b>Bug fixes:<br>
+</b>- Fixed occasional green skins on players.<br>
+- Eliminated most common cause of crashing on startup for GeForces in D3D mode.<br>
+- fixed slow client occasional assertion in UnChan.cpp (last part of the problem that first showed up in 402)<br>
+- fixed clients continuing to get data from servers after disconnecting<br>
+- fixed problem causing !Bunch->IsError() assertion which was causing some server crashes<br>
+- fixed last man standing late entry cheat<br>
+- fixed head gib not replicated on headshot in network play<br>
+- fixed die at start of feign death and can't respawn in network game<br>
+- The detail textures now work correctly in D3D and are reasonably fast (still disabled by default)<br>
+- Eliminated squares showing around decals and other modulated textures in 16-bit mode D3D.<br>
+- fixed death message when killed in pressure chamber<br>
+- fixed keyboard key sticking problem (thanks Chris Norden from Ion Storm/Deus Ex)<br>
+- fixed actors getting beginplay events twice if spawned while level is being brought up<br>
+- Custom crosshairs > 9 now show up.<br>
+- Fixed speech menu bug with mouse staying active.<br>
+- Fixed speech menu text positions.<br>
+- Fixed bug in bot Assault AI for dealing with team cannons
+</p>
+
+<p>
+<br>
+<b>
+New features (Gameplay):</b><br>
+- D3D uses vertex buffers for all drawing operations - gives overall performance boost.<br>
+- Can now use number and arrow keys to navigate voice menu<br>
+- Random bots picks from all 32 (not first 16) - including the specially configured ones<br>
+- Can summon specific bots:  'AddBotNamed Alarik' adds the bot with the name Alarik (if he's in the list of configured bots)<br>
+- Now shows waiting players on team scoreboards before start of game (players who aren't ready are greyed out)<br>
+- Improved bot AI about triggering pressure zone when player is in it<br>
+- Changed xDSL and cable modem clientspeed to 10000 (and added separate category in netspeed selection)<br>
+- No longer need to type 'iamtheone' for cheats in single player<br>
+- Demos can now play looping - demoplay demofile?loop<br>
+- Turbo/hardcore mode is now shown in UBrowser for team games<br>
+</p>
+
+<p>
+<br>
+<b>New features (for Mod Authors):<br>
+</b>- Unreal monsters will now fight UT bots<br>
+- Fixed Mutator RegisterHUDMutator() - only sets bHUDMutator if successful registration<br>
+- Added a call in DeathMatchPlus.RestartGame() to allow mutators to modify the map progression (or change what mutators, etc. are loaded for each map)<br>
+- Added a call in Pawn.Died() to allow mutators to prevent deaths<br>
+- Added a call in GameInfo.EndGame() to allow mutators to modify the game ending conditions<br>
+- Added a call in GameInfo.Login() to allow mutators to modify the spawnclass, and login options<br>
+- Added a call in GameInfo.PickupQuery() to allow mutators to modify whether inventory items get picked up<br>
+- F3 brings up objectives menu for subclasses of Assault.<br>
+- Call voicepack in player setup menu rather than just playing voice to allow effects to be heard in setup menu.<br>
+- AttachDecal() now returns the texture the decal was attached to<br>
+- UTExtraKeyBindings class to allow modmakers to add to Customize Controls menu<br>
+- Mod menu organization - mod menu class is adjustable with [UMenu.UMenuMenuBar] ModMenuClass<br>
+- manifest.ini correctly reports version number so mods can require UT version beyond 400 for installation<br>
+- Mod authors can add UBrowser tabs, see <a href="http://unreal.epicgames.com/files/SampleUBrowserPage.zip"> http://unreal.epicgames.com/files/SampleUBrowserPage.zip</a>
+for an example of how to set this up<br>
+- "stat anim" command displays a list of all visible animating actors with the names of their animations and current frame positions, shows the animation modes - lerping, static, looping back, tweening, and gives individual cpu time and poly count stats. This should be really useful for debugging and tweaking complex
+model animation repertoires.<br>
+</p>
+
+<p>
+<br>
+<b>
+New features (for Servers):<br>
+</b>
+- Support for server only download version<br>
+- Servers can adjust the minimum compatible version number reported to clients using:
+[IpServer.UdpServerQuery] MinNetVer=405.&nbsp; This can be used to prevent older
+clients from seeing your server if you are running a mod which requires a UT
+version newer than 400.<br>
+- ngWorldStats version 1.5.5 is included in the patch.<br>
+- The UT server now queries ngWorldStats log batcher to determine if it is
+correctly processing stats logs.&nbsp;&nbsp; 413 servers report this information
+to UBrowser, and shows both whether ngWorldStats is enabled on the server, and
+whether it is actually working correctly.<br>
+- Server admins can now redirect auto-downloads to a remote HTTP (WWW) server.&nbsp;
+Custom content such as maps, skins and texture packages can be stored on the remote
+website either uncompressed or in a compressed file format (.uz) for
+faster downloads.
+</p>
+
+<blockquote>
+  <p>The settings to control downloads are in the server's UnrealTournament.ini
+  file.&nbsp; These are the settings for downloads sent directly from
+  the UT server:
+</p>
+
+
+  <blockquote>
+
+<p><i>[IpDrv.TcpNetDriver]<br>
+AllowDownloads=True<br>
+MaxDownloadSize=0<br>
+DownloadManagers=IpDrv.HTTPDownload<br>
+DownloadManagers=Engine.ChannelDownload</i>
+</p>
+
+  </blockquote>
+
+<p>Setting <i>AllowDownloads</i> to <i> False</i> disables all autodownloads sent
+directly from the UT server.&nbsp; This setting has no effect on redirected
+downloads.&nbsp; <i>MaxDownloadSize=0</i> means allow autodownload of any sized file directly
+from the UT server.&nbsp; Otherwise the value is in BYTES.&nbsp; We recommend that rather than disabling all
+downloads, you set the <i> MaxDownload</i> size to an appropriate value.&nbsp; For
+example, <i>MaxDownloadSize=100000</i> will allow mutators and other small packages to
+be downloaded, but will not allow large files such as maps to be
+downloaded.&nbsp; Turning off all downloads may make it hard for older clients to get
+on your server if you are using a lot of custom maps, mutators or other custom
+packages.&nbsp; This setting also has no effect on redirected downloads.
+</p>
+
+<p> These are the settings for redirecting downloads to a remote website site:
+</p>
+
+  <blockquote>
+    <p><i>[IpDrv.HTTPDownload]<br>
+    RedirectToURL=http://www.website.com/full/path/to/directory/<br>
+    UseCompression=True</i><br>
+    <i>ProxyServerPort=3128<br>
+    ProxyServerHost=</i>
+</p>
+
+  </blockquote>
+  <p>To enable redirected downloads, you need to set the <i>RedirectToURL</i>
+  variable to point to the website where the files will be autodownloaded from.&nbsp;
+  If a client running 405b or earlier connects to your server, it
+  will ignore the redirection and attempt to download the file directly from the
+  server, so it is important to configure the non-redirected download options
+  even if you intend use redirected downloads.&nbsp; If <i>UseCompression</i> is
+  set to <i>True</i>,&nbsp; the files must be stored on the remote website as
+  compressed .uz files.&nbsp; You can create a compressed .uz file by using the
+  command <i>ucc compress</i> from the DOS prompt in the UnrealTournament\System
+  directory.&nbsp; Typing <i>ucc help compress</i> will give you a list of
+  supported options (currently this is only a list of filenames or wildcards to
+  compress).&nbsp; If <i>UseCompression</i> is set to <i>False</i>, the custom
+  package files should be put on the website as they are.&nbsp; Here are some
+  examples of <i>ucc compress</i>:
+</p>
+
+  <blockquote>
+    <p>C:\UnrealTournament\System&gt; ucc compress ..\maps\dk*.unr<br>
+    C:\UnrealTournament\System&gt; ucc compress ..\textures\customskins1.utx
+    ..\textures\customskins1.utx ..\maps\as-bridge.unr
+</p>
+
+  </blockquote>
+
+</blockquote>
+<hr>
+
+
+<p><b>413 also includes all the fixes and improvements in the 405 patch (listed below)</b>
+</p>
+
+<p>Bug fixes:<br>
+- destroy the "winch", not the "wench" in AS-rook description :)<br>
+- fixed problem with landing bob damping on slow systems with high time dilations<br>
+- fixed problem where client health gets set to zero (health was still correct on the server)<br>
+- fixed spectators drowning in water outside of galleon<br>
+- fixed problem with one of the 402 server optimizations causing pickups to be shown when they should be hidden if high packet loss<br>
+- fixed fog rendering in software<br>
+- fixed assertion line 714 network crash on slow connections<br>
+- fixed PlayerReplicationInfos losing owner on client - symptom was teammate health not correctly shown on team huds<br>
+- fixed bad poly on Ripper weapon model<br>
+- fixed flag not dropped if killed by team cannon in CTF games<br>
+- fixed server browser changing highlighted server bug<br>
+- fixed gold players showing up in CTF<br>
+- added BossSkins.int<br>
+- fixed clients hearing ambient sound on dropped weapons in some cases<br>
+- fixed picking up additional shieldbelt screwed up armor total if also had other armor types<br>
+- fixed teamtriggers<br>
+- fixed deathsounds and hit sounds from other players not being heard in net games<br>
+- fixed demo playback crash
+</p>
+
+<p>
+<br>
+New features:<br>
+- much louder warhead explosion<br>
+- don't allow Turbo mode with assault<br>
+- bigger blood cloud when gibbed<br>
+- Menu and text formatting changes to support Japanese text<br>
+- Added "AddIni" command for umods to add lines to ini files<br>
+- Changed occurances of class'DeathMatchMessage' to DMMessageClass.<br>
+  Allows mod authors to use their own DMMessageClass in all situations.<br>
+- Made ngWorldSecret a private variable.<br>
+  So you can't read it from GetPropertyText anymore.<br>
+- Added CRT's query packet send improvements.<br>
+  Should improve grabbing server lists from master server.<br>
+- Added ProcessKeyEvent to HUD.<br>
+  Allows mod authors to work with key input directly.<br>
+- Moved hardcoded SPRITE_PROJECTION_FORWARD from UnSprite.cpp to Actor<br>
+property SpriteProjForward.<br>
+- Set Actor's default SpriteProjForward to 32.0<br>
+- Checked in RegisterHUDMutator functions in Mutator.<br>
+  Allows mod authors to make mutators that self register as HUD mutators.<br>
+- Integrated Enhanced Actor Rendering Interface.<br>
+  Allows programmers to render actors in just about any way they can think of.<br>
+- Enabled RCI. (Except ClearScreen and RecomputeLighting)<br>
+  Allows programmers more control over what's rendered from a player's point<br>
+of view.  Search for Render Control Interface in headers for information.<br>
+- F4 brings the server browser up.
+</p>
+
+<p>
+<br>
+Performance Improvements:<br>
+- downloads from server are now rate controlled<br>
+- Servers can deny auto-downloading of content by setting AllowDownLoads=false in the [IpDrv.TcpNetDriver] section of the Unrealtournament.ini file.<br>
+- reduced how long carcasses hang around on servers<br>
+- Improved bit packing for network packets (server performance improvement)<br>
+- Ability to turn fractal texture animation off:<br>
+	"Added  the NoFractalAnim switch. When true, fractal textures are never<br>
+	updated and the texture's bRealTime is set to false. This takes effect at a<br>
+	package's loading/init time, so you'll have to restart a level to see it<br>
+	take effect.
+</p>
+
+<p>
+	The NoFractalAnim variable sits at the [WinDrv.WindowsClient] section in the<br>
+.ini files, and under 'display' in the advanced options.<br>
+<br>
+	It's meant for troubleshooting texture generation crashes as well as a<br>
+	speedup tweak for those cards that slow down too much with per-frame texture uploads.<br>
+<br>
+	Try it if you see the "anomalous singularity" error message."<br>
+</p>
+
+<p>405 also includes all the fixes and improvements in the 402 patch
+</p>
+
+<p>402 Bug fixes:<br>
+	- D3D detection works properly.<br>
+	- removed log warnings for players ghosting out of the level<br>
+	- fixed saving last start spot for players<br>
+	- timemessage sounds play correctly if viewing another player<br>
+	- don't allow spaces in names when using console name or setname commands<br>
+	- suicide can now end overtime of tied game<br>
+	- fixed stuck animation if killed while coming out of feign death<br>
+	- no connect time on team scoreboards in single player<br>
+	- attach decals in post begin play when zone is properly set<br>
+	- fixed player sounds appearing to change location when using 3d sound<br>
+	- turn fog off by default for D3D - was causing texture thrashing w/ D3D drivers<br>
+	- fixed CTF-coret alternate path problems<br>
+	- fixed guided warhead blowing up if no client response with 300 msec after spawning<br>
+	- players can no longer switch to illegal team if server is full and force team balance set<br>
+	- fixed bots not always playing take hit sounds<br>
+	- don't kill spectators in the pressure chamber!!!<br>
+<br>
+402 Server performance improvements:<br>
+	- Don't replicate actor properties of GameReplicationInfo<br>
+	- Don't replicate actor properties of ZoneInfo<br>
+	- Less frequent visibility checks for currently relevant actors<br>
+	- don't keep checking visibility of optional effects<br>
+	- less frequent checks for temporary actors after 0.2 seconds<br>
+	- reduced playerreplicationinfo update frequency from 5/sec to 4/sec<br>
+	- inventory class-specific scripted replication only done if bNetOwner<br>
+	- native replication for weapon, pickup, levelinfo, and ammo classes<br>
+	- don't spawn decals on dedicated server<br>
+	- don't spawn non-replicated effects actors on dedicated server<br>
+	- sort static actors so can ignore non-replicated static actors when testing for replication<br>
+<br>
+402 New features:<br>
+	- added flesh hit sound to bullets<br>
+	- automatic path builder (documented in updated UT_AI.htm)<br>
+	- postnetbeginplay() called for actors spawned on network clients<br>
+	- Pawns use PostNetBeginPlay() to make sure they have a valid skin and mesh<br>
+	- improved D3D texture pool allocation when world and actor texture detail is medium<br>
+	- Pawns add momentum to velocity after effects of damage mutator<br>
+	- Optional package downloading implemented. <br>
+</p>
+
+<p>&nbsp;</p>
+
+</body>
+</html>
