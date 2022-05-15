@@ -1,0 +1,21 @@
+﻿[LevelInfo0]
+; EN: Title="Turbine"
+Title="Turbine"
+IdealPlayerCount="4-8"
+
+[ZoneInfo15]
+; EN: ZoneName="Arena"
+ZoneName="Arena"
+
+[ZoneInfo17]
+; EN: ZoneName="Basement"
+ZoneName="Kelder"
+
+[ZoneInfo16]
+; EN: ZoneName="Nook"
+ZoneName="Hoekje"
+
+[LevelSummary]
+; EN: Title="Turbine"
+Title="Turbine"
+IdealPlayerCount="4-8"

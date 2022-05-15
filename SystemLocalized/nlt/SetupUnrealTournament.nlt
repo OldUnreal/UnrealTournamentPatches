@@ -1,0 +1,27 @@
+﻿[Setup]
+LocalProduct="Unreal Tournament"
+DefaultFolder="C:\Program Files\Unreal Tournament"
+ReadMe="Help\469ReleaseNotes.pdf"
+; EN: SetupWindowTitle="Unreal Tournament Setup"
+SetupWindowTitle="Unreal Tournament Setup"
+; EN: AutoplayWindowTitle="Unreal Tournament Options"
+AutoplayWindowTitle="Unreal Tournament Opties"
+ProductURL="http://www.unrealtournament.com/"
+VersionURL="http://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 469 by Oldunreal"
+Developer="Epic Games, Inc. - 469 door Oldunreal"
+DeveloperURL="http://www.oldunreal.com/"
+Logo="Help\Logo.bmp"
+
+[UnrealRequirement]
+LocalProduct="Unreal Tournament"
+ProductURL="http://www.unrealtournament.com/"
+VersionURL="http://www.epicgames.com/"
+Developer="Epic Games, Inc."
+DeveloperURL="http://www.epicgames.com/"
+
+[LinuxGroup]
+; EN: Caption="Linux native files"
+Caption="Native Linux-bestanden"
+; EN: Description="Copies all files required to run and play Unreal Tournament natively in Linux. There is no Advanced Options menu yet, but all settings are noted and can be edited in the UnrealTournamentLinux.ini in the System folder. The level editor UnrealED 2.1 is not available in Linux yet. If you have trouble starting the game, there is more information and a FAQ inside the ReleaseNotes in the Help directory. If your system doesn't provide all libraries, there is a package called lin_convenience_libs.7z in the Help folder which should contain all the necessary files."
+Description="Kopieert alle bestanden die nodig zijn om Unreal Tournament native onder Linux uit te voeren en te spelen. Er is nog geen menu met Geavanceerde Mogelijkheden, maar alle instellingen zijn genoteerd en kunnen worden bewerkt in de UnrealTournamentLinux.ini in de systeemmap. De level-editor UnrealED 2.1 is nog niet beschikbaar onder Linux. Als je problemen hebt met het starten van het spel, vind je meer informatie en een FAQ in de ReleaseNotes in de Help-directory. Als uw systeem niet alle bibliotheken biedt, is er een pakket genaamd lin_convenience_libs.7z in de Help-map dat alle noodzakelijke bestanden zou moeten bevatten."

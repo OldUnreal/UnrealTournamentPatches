@@ -1,0 +1,36 @@
+﻿[Public]
+Object=(Name=udemo.UDmodItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem)
+
+[DemoPlaybackSpec]
+; EN: Seeking="SEEKING"
+Seeking="OP ZOEK NAAR"
+
+[UDClientWindow]
+; EN: Spechelp="If checked, you will be able to fly around the level when playing a demo"
+Spechelp="Indien aangevinkt, kun je rond het level vliegen tijdens het spelen van een demo"
+
+[UDPathsclient]
+; EN: Empty="Empty"
+Empty="Leeg"
+
+[UDNetSettingsClient]
+; EN: Empty="(Empty)"
+Empty="(Leeg)"
+
+[UDmoditem]
+; EN: MenuCaption="&Demo Manager"
+MenuCaption="&Demo Manager"
+; EN: MenuHelp="Play and Record demos!"
+MenuHelp="Speel en neem demo's op!"
+
+[UDnamewindow]
+; EN: WindowTitle="Enter Demo Name"
+WindowTitle="Voer de demo-naam in"
+
+[DownloadFramedWindow]
+; EN: WindowTitle="Downloading..."
+WindowTitle="Downloaden..."
+
+[UDframedwindow]
+; EN: WindowTitle="Unreal Tournament Demo Manager 3.5.1 - By UsAaR33 and AnthraX"
+WindowTitle="Unreal Tournament Demo Manager 3.5.1 - Door UsAaR33 en AnthraX"

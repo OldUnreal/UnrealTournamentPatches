@@ -173,13 +173,14 @@ Localization credits:
 * Epic Games/Digital Extremes/Legend Entertainment: Original English/German/French/Spanish/Italian localizations
 * Neon_Knight: Project coordination, Spanish maintenance.
 * Buggie: Localization templates for all languages.
-* Smirftsch, eGo and Ividyon: German, additional contributions.
+* Smirftsch, eGo, Ividyon and Sly: German, additional contributions.
 * Hellkeeper: French, fixes and maintenance.
 * Rackover/Louvenarde: French, additional contributions.
 * rarsonic: Spanish, additional contributions.
 * UBerserker and TaglesMalsto: Italian, additional contributions.
 * u.HighPriest: Russian, localization author.
 * Skaarj ZR: Russian, additional contributions.
+* bennytrt: Dutch, additional contributions.
 
 Finally, we want to express our sincerest gratitude to the following people:
 * Stacey Conley (aka "Flak"): this project would not have happened without her. Thank you Stacey, you are amazing!

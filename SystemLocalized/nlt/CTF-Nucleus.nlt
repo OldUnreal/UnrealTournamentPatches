@@ -1,0 +1,76 @@
+﻿[LevelInfo0]
+; EN: Title="Nucleus Power Plant"
+Title="Nucleus-energiecentrale"
+IdealPlayerCount="12"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Entrance"
+ZoneName="Rode ingang"
+
+[ZoneInfo3]
+; EN: ZoneName="Middle"
+ZoneName="Midden"
+
+[ZoneInfo10]
+; EN: ZoneName="Blue Entrance"
+ZoneName="Blauwe ingang"
+
+[ZoneInfo2]
+; EN: ZoneName="Red Base"
+ZoneName="Rode basis"
+
+[ZoneInfo0]
+; EN: ZoneName="Blue Base"
+ZoneName="Blauwe basis"
+
+[ZoneInfo7]
+; EN: ZoneName="Red Pulse Room"
+ZoneName="Rode pulskamer"
+
+[ZoneInfo11]
+ZoneName="Blue Pulse Room"
+
+[ZoneInfo4]
+; EN: ZoneName="Red Rocket Room"
+ZoneName="Rode Raketkamer"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Flak Room"
+ZoneName="Red Flak Room"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Rocket Room"
+ZoneName="Blue Rocket Room"
+
+[ZoneInfo9]
+; EN: ZoneName="Blue Flak Room"
+ZoneName="Blue Flak Room"
+
+[ZoneInfo15]
+; EN: ZoneName="Blue Energy Tunnel"
+ZoneName="Blauwe energietunnel"
+
+[ZoneInfo12]
+; EN: ZoneName="Red Energy Tunnel"
+ZoneName="Rode energietunnel"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Energy Channel"
+ZoneName="Rood energiekanaal"
+
+[ZoneInfo14]
+; EN: ZoneName="Blue Energy Channel"
+ZoneName="Blue Energy Channel"
+
+[LevelSummary]
+; EN: Title="Nucleus Power Plant"
+Title="Nucleus-energiecentrale"
+IdealPlayerCount="12"
+
+[ZoneInfo13]
+; EN: ZoneName="Red Energy Tunnel"
+ZoneName="Rode energietunnel"
+
+[ZoneInfo16]
+; EN: ZoneName="Blue Energy Tunnel"
+ZoneName="Blauwe energietunnel"

@@ -1,0 +1,53 @@
+﻿[LevelInfo0]
+; EN: Title="Lava Giant"
+Title="Lava Reus"
+IdealPlayerCount="8-14"
+; EN: LevelEnterText="GET THOSE FLAGS!!"
+LevelEnterText="KRIJG DIE VLAGGEN !!"
+
+[ZoneInfo0]
+; EN: ZoneName="On The Island"
+ZoneName="Op het eiland"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Lower Area"
+ZoneName="Blauw onderste gedeelte"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Lower Area"
+ZoneName="Rood onderste gedeelte"
+
+[ZoneInfo2]
+; EN: ZoneName="Red Lower Area"
+ZoneName="Rood onderste gedeelte"
+
+[ZoneInfo4]
+; EN: ZoneName="Blue Lower Area"
+ZoneName="Blauw onderste gedeelte"
+
+[LevelSummary]
+; EN: Title="Lava Giant"
+Title="Lava Reus"
+IdealPlayerCount="8-14"
+; EN: LevelEnterText="GET THOSE FLAGS!!"
+LevelEnterText="KRIJG DIE VLAGGEN !!"
+
+[locationid1]
+; EN: LocationName="Red Base"
+LocationName="Rode basis"
+
+[locationid5]
+; EN: LocationName="Rocket Launcher Ridge"
+LocationName="Raketwerper Ridge"
+
+[locationid4]
+; EN: LocationName="Shield Belt Ridge"
+LocationName="Shield Belt Ridge"
+
+[locationid2]
+; EN: LocationName="Blue Base"
+LocationName="Blauwe basis"
+
+[locationid3]
+; EN: LocationName="Redeemer Ridge"
+LocationName="Verlosser Ridge"

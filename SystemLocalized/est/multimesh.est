@@ -58,9 +58,12 @@ MenuCaption="&Forzar Modelos por Defecto"
 MenuHelp="Hace que los jugadores aparezcan con el modelo del Soldado Masculino en lugar de otros personajes."
 
 [skaarjvoice]
-TauntString[0]="$#%#!"
-TauntString[1]="%&$##!"
-TauntString[2]="*@#&$!"
+; EN: TauntString[0]="$#%#!"
+TauntString[0]="¡$#%#!"
+; EN: TauntString[1]="%&$##!"
+TauntString[1]="¡%&$##!"
+; EN: TauntString[2]="*@#&$!"
+TauntString[2]="¡*@#&$!"
 
 [CowVoice]
 ; EN: AckString[0]="Moo!"
