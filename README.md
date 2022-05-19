@@ -173,7 +173,7 @@ Localization credits:
 * Epic Games/Digital Extremes/Legend Entertainment: Original English/German/French/Spanish/Italian localizations
 * Neon_Knight: Project coordination, Spanish maintenance.
 * Buggie: Localization templates for all languages.
-* Smirftsch, eGo, Ividyon and Sly: German, additional contributions.
+* Smirftsch, eGo, Ividyon and Sly.: German, additional contributions.
 * Hellkeeper: French, fixes and maintenance.
 * Rackover/Louvenarde: French, additional contributions.
 * rarsonic: Spanish, additional contributions.
