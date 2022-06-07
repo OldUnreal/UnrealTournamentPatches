@@ -213,6 +213,12 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * Fixed a bug that made it impossible to load skins whose names started with the name of a standard skin package (External Contribution by Buggie)
 * Spectators now see inventory and armor changes for their viewtargets
 
+#### Localization
+
+* New supported (text-only) languages: German and Russian
+* Italian and French from the original MULTI5 release fully updated and fixed.
+* Updates and fixes for Spanish and English
+
 ## Unreal Tournament Version 469b Release Notes
 
 Version 469b is completely network compatible with all previous public releases of UT (down to 432).

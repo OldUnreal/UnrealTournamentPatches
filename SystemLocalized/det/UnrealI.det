@@ -286,9 +286,9 @@ AltName="gefallen"
 
 [FlakShellAmmo]
 ; EN: PickupMessage="You got a Flak Shell"
-PickupMessage="Du hast eine Flak-Geschoß"
+PickupMessage="Du hast eine Flak-Geschoss"
 ; EN: ItemName="Flak Shell"
-ItemName="Flak-Geschoß"
+ItemName="Flak-Geschoss"
 
 [drowned]
 ; EN: Name="drowned"
@@ -356,7 +356,7 @@ Message2="Du entkommst einem Ort, an dem viele gestorben sind. Du lachst befreit
 ; EN: Message3="Before the crash landing, you were trapped in a cramped cell. Now, once again you are confined in a prison."
 Message3="Vor dem Absturz warst Du in einer engen Zelle gefangen. Und jetzt bist Du wieder in einem Gefängnis."
 ; EN: Message4="But, you feel confident that someone will come upon your small vessel... eventually."
-Message4="Aber Du bist zuversichtlich, daß jemand Dein kleines Schiff finden wird... irgendwann."
+Message4="Aber Du bist zuversichtlich, dass jemand Dein kleines Schiff finden wird... irgendwann."
 ; EN: Message5="Until then, you drift and hope."
 Message5="Bis dahin driftest Du und hoffst."
 ; EN: Message6="To Be Continued..."

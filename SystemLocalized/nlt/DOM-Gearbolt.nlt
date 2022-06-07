@@ -1,0 +1,37 @@
+﻿[LevelInfo0]
+; EN: Title="Gearbolt Installation"
+Title="Gearbolt installatie"
+IdealPlayerCount="6-12"
+
+[ZoneInfo8]
+; EN: ZoneName="Bridge"
+ZoneName="Brug"
+
+[ZoneInfo7]
+; EN: ZoneName="Ramp"
+ZoneName="Ramp"
+
+[ZoneInfo9]
+; EN: ZoneName="Lift"
+ZoneName="Optillen"
+
+[ZoneInfo10]
+; EN: ZoneName="Basement"
+ZoneName="Kelder"
+
+[ControlPoint2]
+; EN: PointName="Bridge"
+PointName="Brug"
+
+[ControlPoint0]
+; EN: PointName="Lift"
+PointName="Optillen"
+
+[ControlPoint1]
+; EN: PointName="Ramp"
+PointName="Ramp"
+
+[LevelSummary]
+; EN: Title="Gearbolt Installation"
+Title="Gearbolt installatie"
+IdealPlayerCount="6-12"

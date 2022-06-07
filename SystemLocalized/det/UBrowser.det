@@ -1,4 +1,32 @@
-﻿[UBrowserServerListWindow]
+﻿[UBrowserGSpyLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="Der Masterserver wurde nicht gefunden: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Zeitüberschreitung beim Verbindungsversuch zum Masterserver"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="Konnte nicht zum Masterserver verbinden: "
+
+[UBrowserHTTPLink]
+; EN: ResolveFailedError="The master server could not be resolved: "
+ResolveFailedError="Der Masterserver wurde nicht gefunden: "
+; EN: TimeOutError="Timeout talking to the master server"
+TimeOutError="Zeitüberschreitung beim Verbindungsversuch zum Masterserver"
+; EN: CouldNotConnectError="Connecting to the master server timed out: "
+CouldNotConnectError="Konnte nicht zum Masterserver verbinden: "
+
+[UBrowserSubsetFact]
+; EN: NotFoundError="Could not find the window: "
+NotFoundError="Konnte das Fenster nicht finden: "
+; EN: NotReadyError="Window is not ready: "
+NotReadyError="Fenster is nicht bereit: "
+
+[UBrowserRulesGrid]
+; EN: RuleText="Rule"
+RuleText="Regel"
+; EN: ValueText="Value"
+ValueText="Wert"
+
+[UBrowserServerListWindow]
 ; EN: InfoName="Info"
 InfoName="Information"
 ; EN: PlayerCountName="Players"
@@ -29,34 +57,6 @@ FullHelp="Vollständige Server anzeigen."
 LockedText="Geschützte"
 ; EN: LockedHelp="Show password-protected servers."
 LockedHelp="Passwortgeschützte Server anzeigen."
-
-[UBrowserGSpyLink]
-; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="Der Masterserver wurde nicht gefunden: "
-; EN: TimeOutError="Timeout talking to the master server"
-TimeOutError="Zeitüberschreitung beim Verbindungsversuch zum Masterserver"
-; EN: CouldNotConnectError="Connecting to the master server timed out: "
-CouldNotConnectError="Konnte nicht zum Masterserver verbinden: "
-
-[UBrowserHTTPLink]
-; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="Der Masterserver wurde nicht gefunden: "
-; EN: TimeOutError="Timeout talking to the master server"
-TimeOutError="Zeitüberschreitung beim Verbindungsversuch zum Masterserver"
-; EN: CouldNotConnectError="Connecting to the master server timed out: "
-CouldNotConnectError="Konnte nicht zum Masterserver verbinden: "
-
-[UBrowserSubsetFact]
-; EN: NotFoundError="Could not find the window: "
-NotFoundError="Konnte das Fenster nicht finden: "
-; EN: NotReadyError="Window is not ready: "
-NotReadyError="Fenster is nicht bereit: "
-
-[UBrowserRulesGrid]
-; EN: RuleText="Rule"
-RuleText="Regel"
-; EN: ValueText="Value"
-ValueText="Wert"
 
 [UBrowserServerPing]
 ; EN: AdminEmailText="Admin Email"

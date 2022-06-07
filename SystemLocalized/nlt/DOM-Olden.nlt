@@ -1,0 +1,41 @@
+﻿[LevelInfo0]
+; EN: Title="Olden Aquifer"
+Title="Olden Aquifer"
+IdealPlayerCount="4-6"
+
+[ZoneInfo2]
+; EN: ZoneName="Lower Point Room"
+ZoneName="Lagere Point Room"
+
+[ZoneInfo0]
+; EN: ZoneName="Central Room"
+ZoneName="Centrale kamer"
+
+[ZoneInfo1]
+; EN: ZoneName="Upper Point Room"
+ZoneName="Upper Point Room"
+
+[ZoneInfo3]
+; EN: ZoneName="Chain Lift Room"
+ZoneName="Chain Lift Room"
+
+[ControlPoint1]
+; EN: PointName="Lower"
+PointName="Lager"
+
+[ControlPoint2]
+; EN: PointName="Upper"
+PointName="Bovenste"
+
+[ControlPoint0]
+; EN: PointName="Mid"
+PointName="Midden"
+
+[WaterZone0]
+; EN: ZoneName="Aqueduct"
+ZoneName="Aquaduct"
+
+[LevelSummary]
+; EN: Title="Olden Aquifer"
+Title="Olden Aquifer"
+IdealPlayerCount="4-6"
