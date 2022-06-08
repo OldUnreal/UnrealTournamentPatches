@@ -345,7 +345,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 * Made the driver and preference caching system filter out duplicates. This fixes the duplicate entries some Linux and macOS players were seeing in the game menus (e.g., in the list of game types or skins)
 * The top right corner of the in-game menu bar now includes additional version information
 * The renderer no longer gets destroyed when switching between windowed mode and fullscreen mode
-* The Linux client now has an (experimental) wxWidgets-based launcher (wx-ut-bin-<arch>). This launcher adds support for the "preferences" console command. It requires wxWidgets 3.1.4 or later. (External Contribution by Buggie)
+* The Linux client now has an (experimental) wxWidgets-based launcher (wx-ut-bin-<arch>). This launcher adds support for the "preferences" console command. It requires wxWidgets 3.1.4. (External Contribution by Buggie)
 * The client now retains the INI, USERINI, LOG, LANPLAY, and NEWWINDOW command line options when relaunching
 
 #### UnrealScript
