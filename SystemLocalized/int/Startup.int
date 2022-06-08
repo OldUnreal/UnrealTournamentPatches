@@ -37,7 +37,7 @@ IDC_Prompt="Unreal Tournament is starting up for the first time.  If you experie
 
 [IDDIALOG_ConfigPageSound]
 IDC_ConfigPageSound=" "
-IDC_SoundPrompt="Your computer supports the following sound devices. Chose the optimal one for your system."
+IDC_SoundPrompt="Your computer supports the following sound devices. Choose the optimal one for your system."
 IDC_SoundNote=" "
 IDC_Compatible="Show certified, compatible devices"
 IDC_All="Show all devices"

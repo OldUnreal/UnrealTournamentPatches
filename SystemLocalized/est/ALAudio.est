@@ -4,4 +4,4 @@ Preferences=(Caption="OpenAL 3D Audio Support",Parent="Audio",Class=ALAudio.ALAu
 
 [ALAudioSubsystem]
 ; EN: ClassCaption="OpenAL 3D Audio Support"
-ClassCaption="Soporte de Sonido 3D OpenAL"
+ClassCaption="Sonido 3D OpenAL"

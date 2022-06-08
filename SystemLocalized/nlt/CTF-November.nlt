@@ -1,0 +1,41 @@
+﻿[LevelInfo0]
+; EN: Title="November Sub Pen"
+Title="November Sub-pen"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Entering November-Nuclear Submarine Pen."
+LevelEnterText="November-Nuclear Submarine Pen binnengaan."
+
+[ZoneInfo4]
+; EN: ZoneName="Sub Pen"
+ZoneName="Sub-pen"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Blauwe basis"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Foyer"
+ZoneName="Rode Foyer"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Entry"
+ZoneName="Rode vermelding"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Foyer"
+ZoneName="Blauwe Foyer"
+
+[ZoneInfo0]
+; EN: ZoneName="Red Base"
+ZoneName="Rode basis"
+
+[WaterZone5]
+; EN: ZoneName="Water"
+ZoneName="Water"
+
+[LevelSummary]
+; EN: Title="November Sub Pen"
+Title="November Sub-pen"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Entering November-Nuclear Submarine Pen."
+LevelEnterText="November-Nuclear Submarine Pen binnengaan."

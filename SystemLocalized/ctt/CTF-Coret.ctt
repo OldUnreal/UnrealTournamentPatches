@@ -1,0 +1,61 @@
+﻿[LevelInfo0]
+; EN: Title="Coret Facility"
+Title="Instal·lació Coret"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Welcome to Coret Facility. Enjoy your stay."
+LevelEnterText="Benvingut a Coret Facility. Gaudir de la seva estada."
+
+[ZoneInfo1]
+; EN: ZoneName="Central Area"
+ZoneName="Zona Central"
+
+[ZoneInfo3]
+; EN: ZoneName="Red Base"
+ZoneName="Base Vermella"
+
+[ZoneInfo4]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Blava"
+
+[ZoneInfo6]
+; EN: ZoneName="Blue Main Hall"
+ZoneName="Sala Principal Blava"
+
+[ZoneInfo11]
+; EN: ZoneName="Red Main Hall"
+ZoneName="Sala Principal Vermella"
+
+[ZoneInfo7]
+; EN: ZoneName="Blue Side Hall"
+ZoneName="Sala Lateral Blava"
+
+[ZoneInfo5]
+; EN: ZoneName="Blue Foyer"
+ZoneName="Vestíbul Blau"
+
+[ZoneInfo2]
+; EN: ZoneName="Red Side Approach"
+ZoneName="Sala Lateral Vermella"
+
+[ZoneInfo10]
+; EN: ZoneName="Red Foyer"
+ZoneName="Vestíbul Vermell"
+
+[ZoneInfo8]
+; EN: ZoneName="Blue Overhead Hall"
+ZoneName="Sala Blava Superior"
+
+[ZoneInfo9]
+; EN: ZoneName="Red Overhead Hall"
+ZoneName="Sala Vermella Superior"
+
+[ZoneInfo0]
+; EN: ZoneName="Middle Area - Top"
+ZoneName="Zona Mitjana Superior"
+
+[LevelSummary]
+; EN: Title="Coret Facility"
+Title="Instal·lació Coret"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Welcome to Coret Facility. Enjoy your stay."
+LevelEnterText="Benvingut a Coret Facility. Gaudir de la seva estada."

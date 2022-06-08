@@ -72,7 +72,7 @@ IDC_All="Mostra tutti i dispositivi"
 
 [IDDIALOG_ConfigPageSound]
 IDC_ConfigPageSound=" "
-; EN: IDC_SoundPrompt="Your computer supports the following sound devices. Chose the optimal one for your system."
+; EN: IDC_SoundPrompt="Your computer supports the following sound devices. Choose the optimal one for your system."
 IDC_SoundPrompt="Il computer supporta i seguenti dispositivi audio. Scegli quello ottimale per il tuo sistema."
 IDC_SoundNote=" "
 ; EN: IDC_Compatible="Show certified, compatible devices"

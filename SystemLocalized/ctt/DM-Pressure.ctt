@@ -1,0 +1,57 @@
+﻿[LevelInfo0]
+; EN: Title="Pressure"
+Title="Pressió"
+IdealPlayerCount="4-12"
+; EN: LevelEnterText="GET THEM INTO THE PRESSURE CHAMBER!!"
+LevelEnterText="ENTREU-LOS A LA CAMBRA DE PRESSIÓ !!"
+
+[ZoneInfo0]
+; EN: ZoneName="Catwalk Hall"
+ZoneName="Sala de Passarel·les"
+
+[ZoneInfo4]
+; EN: ZoneName="Pillar Hall"
+ZoneName="Sala de Pilars"
+
+[ZoneInfo1]
+; EN: ZoneName="Pressure Hall"
+ZoneName="Sala de Pressió"
+
+[ZoneInfo6]
+; EN: ZoneName="Pillar Hall"
+ZoneName="Sala de Pilars"
+
+[PressureZone0]
+; EN: ZoneName="Pressure Chamber"
+ZoneName="Cambra de Pressió"
+
+[WaterZone0]
+; EN: ZoneName="Water Tank"
+ZoneName="Tanc d'Aigua"
+
+[ZoneInfo7]
+; EN: ZoneName="Escape Tunnel"
+ZoneName="Túnel d’Escapament"
+
+[ZoneInfo2]
+; EN: ZoneName="Pressure Hall"
+ZoneName="Sala de Pressió"
+
+[ZoneInfo5]
+; EN: ZoneName="Pillar Hall"
+ZoneName="Sala de Pilars"
+
+[ZoneInfo3]
+; EN: ZoneName="Catwalk Hall"
+ZoneName="Sala de Passarel·les"
+
+[WaterZone1]
+; EN: ZoneName="Water Tank"
+ZoneName="Tanc d'Aigua"
+
+[LevelSummary]
+; EN: Title="Pressure"
+Title="Pressió"
+IdealPlayerCount="4-12"
+; EN: LevelEnterText="GET THEM INTO THE PRESSURE CHAMBER!!"
+LevelEnterText="ENTREU-LOS A LA CAMBRA DE PRESSIÓ !!"

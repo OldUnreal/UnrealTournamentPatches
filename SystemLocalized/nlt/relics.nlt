@@ -1,0 +1,54 @@
+﻿[Public]
+; EN: Object=(Name=relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Strength,A magical relic that imparts a great increase in damage.")
+Object=(Name=relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="RelikwieKracht,A magical relic that imparts a great increase in damage.")
+; EN: Object=(Name=relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Speed,A magical relic that imparts superhuman speed and reflexes.")
+Object=(Name=relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Relikwie Snelheid,A magical relic that imparts superhuman speed and reflexes.")
+; EN: Object=(Name=relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Regen,A magical relic that imparts the ability to gain 10 health every second.")
+Object=(Name=relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="RelikwieRegeneratie,A magical relic that imparts the ability to gain 10 health every second.")
+; EN: Object=(Name=relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Redemption,This mysterious artifact will bind to your soul, saving you from death.")
+Object=(Name=relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="RelikwieVerlossing,This mysterious artifact will bind to your soul, saving you from death.")
+; EN: Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Defense,A magical relic that prevents 60% of all damage sustained by the user.")
+Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="RelikwieVerdediging,A magical relic that prevents 60% of all damage sustained by the user.")
+; EN: Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Vengeance,This relic will punish those who wish to slay you.")
+Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Relikwie Wraak,This relic will punish those who wish to slay you.")
+
+[RelicInventory]
+; EN: PickupMessage="You picked up a null Relic."
+PickupMessage="Je hebt een null-relikwie opgehaald."
+; EN: ItemName="Relic"
+ItemName="Relikwie"
+
+[RelicRedemptionInventory]
+; EN: PickupMessage="You picked up the Relic of Redemption!"
+PickupMessage="Je hebt het relikwie van verlossing opgehaald!"
+; EN: ItemName="Relic of Redemption"
+ItemName="Overblijfsel van verlossing"
+
+[RelicStrengthInventory]
+; EN: PickupMessage="You picked up the Relic of Strength!"
+PickupMessage="Je hebt de Relic of Strength opgehaald!"
+; EN: ItemName="Relic of Strength"
+ItemName="Overblijfsel van kracht"
+
+[RelicDeathInventory]
+; EN: PickupMessage="You picked up the Relic of Vengeance!"
+PickupMessage="Je hebt de Relic of Vengeance opgehaald!"
+ItemName="Relic of Vengeance"
+
+[RelicDefenseInventory]
+; EN: PickupMessage="You picked up the Relic of Defense!"
+PickupMessage="Je hebt de relikwie van verdediging opgehaald!"
+; EN: ItemName="Relic of Defense"
+ItemName="Overblijfsel van verdediging"
+
+[RelicSpeedInventory]
+; EN: PickupMessage="You picked up the Relic of Speed!"
+PickupMessage="Je hebt de Relic of Speed ​​opgehaald!"
+; EN: ItemName="Relic of Speed"
+ItemName="Overblijfsel van snelheid"
+
+[RelicRegenInventory]
+; EN: PickupMessage="You picked up the Relic of Regeneration!"
+PickupMessage="Je hebt de Relic of Regeneration opgehaald!"
+; EN: ItemName="Relic of Regeneration"
+ItemName="Overblijfsel van regeneratie"

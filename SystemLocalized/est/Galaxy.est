@@ -4,4 +4,4 @@ Preferences=(Caption="Galaxy 3D Audio Support",Parent="Audio",Class=Galaxy.Galax
 
 [GalaxyAudioSubsystem]
 ; EN: ClassCaption="Galaxy 3D Audio Support"
-ClassCaption="Soporte de Sonido 3D Galaxy"
+ClassCaption="Sonido Galaxy 3D"

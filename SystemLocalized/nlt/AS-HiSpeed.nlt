@@ -1,0 +1,100 @@
+﻿[LevelInfo0]
+; EN: Title="High Speed"
+Title="Hoge snelheid"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="Bestuur de trein !! GEEN GENADE!!"
+
+[ZoneInfo8]
+; EN: ZoneName="3rd. Car"
+ZoneName="3e. Auto"
+
+[ZoneInfo10]
+; EN: ZoneName="1st. Car"
+ZoneName="1e. Auto"
+
+[ZoneInfo9]
+; EN: ZoneName="2nd. Car"
+ZoneName="2e. Auto"
+
+[ZoneInfo0]
+; EN: ZoneName="Outside 1st Car"
+ZoneName="Buiten 1e auto"
+
+[SlimeZone0]
+; EN: ZoneName="Acid Tank"
+ZoneName="Zure tank"
+
+[SpecialEvent0]
+; EN: DamageString="%ls fell in between the cars. That hurts..."
+DamageString="%ls viel tussen de auto's. Dat doet pijn..."
+
+[FortStandard0]
+; EN: FortName="The Control Cabin"
+FortName="De controlecabine"
+; EN: DestroyedMessage="has been taken over!!"
+DestroyedMessage="is overgenomen !!"
+
+[FortStandard1]
+; EN: FortName="The CAR 3"
+FortName="De CAR 3"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="staat op het punt te worden geschonden !!"
+
+[FortStandard3]
+; EN: FortName="The CAR 1"
+FortName="De CAR 1"
+; EN: DestroyedMessage="is about to breached!!"
+DestroyedMessage="staat op het punt geschonden !!"
+
+[SpecialEvent1]
+; EN: DamageString="%ls ate an helicopter blade..."
+DamageString="%ls at een helikopterblad..."
+
+[FortStandard4]
+; EN: FortName="The Control Cabin Access Switch"
+FortName="De Controle Cabine Toegangsschakelaar"
+; EN: DestroyedMessage="has been activated!!"
+DestroyedMessage="is geactiveerd!!"
+
+[SpecialEvent3]
+; EN: Message="The Attackers Are On The Roof!!!"
+Message="De aanvallers zijn op het dak !!!"
+
+[locationid5]
+; EN: LocationName="Pillar Flatbed"
+LocationName="Pijler oplegger"
+
+[locationid6]
+LocationName="Tank Flatbed"
+
+[locationid7]
+; EN: LocationName="Empty Flatbed"
+LocationName="Lege Oplegger"
+
+[locationid4]
+; EN: LocationName="Acid Tank"
+LocationName="Zure tank"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Work your way to the front of train. In Car One you will find a switch on the upper level that opens up the door to the Control Cabin below. Activate this switch."
+ObjDesc[0]="Werk je een weg naar de voorkant van de trein. In Car een vind je een schakelaar op de bovenste verdieping die de deur naar de Control Cabin eronder opent. Activeer deze schakelaar."
+; EN: ObjDesc[1]="Jump down to the control room. In there you'll find a lever that will override the train's controls."
+ObjDesc[1]="Spring naar beneden naar de controlekamer. Daarin vind je een hendel die de besturing van de trein overschrijft."
+
+[LevelSummary]
+; EN: Title="High Speed"
+Title="Hoge snelheid"
+IdealPlayerCount="4-10"
+; EN: LevelEnterText="Control the train!! NO MERCY!!"
+LevelEnterText="Bestuur de trein !! GEEN GENADE!!"
+
+[SpecialEvent9]
+; EN: Message="THE TRAIN HAS BEEN CAPTURED!!"
+Message="DE TREIN IS GEVANGEN !!"
+
+[FortStandard2]
+; EN: FortName="The CAR 2"
+FortName="De CAR 2"
+; EN: DestroyedMessage="is about to be breached!!"
+DestroyedMessage="staat op het punt te worden geschonden !!"

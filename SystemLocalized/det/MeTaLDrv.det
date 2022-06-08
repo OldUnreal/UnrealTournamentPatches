@@ -6,6 +6,6 @@ Preferences=(Caption="S3 MeTaL Support",Parent="Rendering",Class=MeTaLDrv.MeTaLR
 ; EN: ClassCaption="S3 MeTaL Support"
 ClassCaption="S3 MeTaL Unterstützung"
 ; EN: AskInstalled="Do you have a Savage 3D card installed?"
-AskInstalled="Hast Du eine Savage 3D-Karte installiert?"
+AskInstalled="Hast du eine Savage 3D-Karte installiert?"
 ; EN: AskUse="Do you want Unreal Tournament to use your Savage 3D card?"
-AskUse="Möchtest Du, daß Unreal Tournament deine Savage 3D-Karte verwendet?"
+AskUse="Möchtest Du, dass Unreal Tournament deine Savage 3D-Karte verwendet?"

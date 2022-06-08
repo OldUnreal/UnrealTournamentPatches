@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+; EN: Title="Frigate"
+Title="Fragata"
+IdealPlayerCount="4-8"
+
+[LevelSummary]
+; EN: Title="Frigate"
+Title="Fragata"
+IdealPlayerCount="4-8"
+
+[FortStandard0]
+; EN: FortName="The Missiles"
+FortName="Els Míssils"
+; EN: DestroyedMessage="were launched!"
+DestroyedMessage="es van llançar!"
+
+[FortStandard1]
+; EN: FortName="The Ship"
+FortName="El Vaixell"
+; EN: DestroyedMessage="has been entered!"
+DestroyedMessage="s'ha introduït!"
+
+[FortStandard2]
+; EN: FortName="The Hydraulic Compressor"
+FortName="El Compressor Hidràulic"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="ha estat destruït!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="The door to the ship's control room is controlled by a hydraulic compressor which is located in the aft cabin of the boat. This compressor must be destroyed before the control room can be accessed."
+ObjDesc[0]="La porta de la sala de control del vaixell està controlada per un compressor hidràulic situat a la cabina de popa del vaixell. Aquest compressor s’ha de destruir abans d’accedir a la sala de control."
+; EN: ObjDesc[1]="You must hijack the warship via the dock and find your way to the control room on the top floor of the vessel. There, you will find a red button that will activate the boat's cannons and allow the boat to leave the harbor."
+ObjDesc[1]="Heu de segrestar el vaixell de guerra a través del moll i trobar el camí cap a la sala de control a la planta superior del vaixell. Allà hi trobareu un botó vermell que activarà els canons del vaixell i permetrà que el vaixell surti del port."
+
+[ZoneInfo0]
+; EN: ZoneName="Ship mid corridor"
+ZoneName="Nau mig passadís"
+
+[WaterZone0]
+; EN: ZoneName="Swimming at the lake"
+ZoneName="Nedant al llac"
+
+[WaterZone1]
+; EN: ZoneName="Being a horse"
+ZoneName="Ser cavall"

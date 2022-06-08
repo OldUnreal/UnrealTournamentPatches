@@ -1,0 +1,8 @@
+﻿[General]
+; EN: Start="Unreal Tournament (Starting)"
+Start="Unreal Tournament (Startend)"
+; EN: Exit="Unreal Tournament (Exiting)"
+Exit="Unreal Tournament (Spannend)"
+; EN: Run="Unreal Tournament (Running)"
+Run="Unreal Tournament (Hardlopen)"
+Product="Unreal Tournament"

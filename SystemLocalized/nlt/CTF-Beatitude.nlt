@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+; EN: Title="Temple of Beatitude"
+Title="Tempel van Zaligheid"
+IdealPlayerCount="8-16"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Base"
+ZoneName="Rode basis"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Blauwe basis"
+
+[ZoneInfo0]
+; EN: ZoneName="Center"
+ZoneName="Centrum"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Tube Room"
+ZoneName="Rode Buis Kamer"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Tube Room"
+ZoneName="Blauwe Buis Kamer"
+
+[LevelSummary]
+; EN: Title="Temple of Beatitude"
+Title="Tempel van Zaligheid"
+IdealPlayerCount="8-16"

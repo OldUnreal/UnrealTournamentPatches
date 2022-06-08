@@ -1,0 +1,33 @@
+﻿[LevelInfo0]
+; EN: Title="The Iron Gauntlet"
+Title="El Guant de Ferro"
+IdealPlayerCount="6-8"
+
+[ZoneInfo2]
+; EN: ZoneName="Red Foyer"
+ZoneName="Vestíbul Vermell"
+
+[ZoneInfo4]
+; EN: ZoneName="Blue Foyer"
+ZoneName="Vestíbul Blau"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Base"
+ZoneName="Base Vermella"
+
+[ZoneInfo0]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Blava"
+
+[ZoneInfo3]
+; EN: ZoneName="Lava Room"
+ZoneName="Sala de Lava"
+
+[LevelSummary]
+; EN: Title="The Iron Gauntlet"
+Title="El Guant de Ferro"
+IdealPlayerCount="6-8"
+
+[ZoneInfo5]
+; EN: ZoneName="Blue Armory"
+ZoneName="Armeria Blava"

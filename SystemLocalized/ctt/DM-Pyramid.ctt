@@ -1,0 +1,13 @@
+﻿[LevelInfo0]
+; EN: Title="Floating Pyramid"
+Title="Piràmide Flotant"
+IdealPlayerCount="8"
+
+[SpecialEvent1]
+; EN: Message="You forgot your wings, lamer!"
+Message="Has oblidat les ales, ocellet!"
+
+[LevelSummary]
+; EN: Title="Floating Pyramid"
+Title="Piràmide Flotant"
+IdealPlayerCount="8"

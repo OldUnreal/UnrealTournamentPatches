@@ -1,0 +1,37 @@
+﻿[LevelInfo0]
+; EN: Title="Gearbolt Installation"
+Title="Instal·lació Gearbolt"
+IdealPlayerCount="6-12"
+
+[ZoneInfo8]
+; EN: ZoneName="Bridge"
+ZoneName="Pont"
+
+[ZoneInfo7]
+; EN: ZoneName="Ramp"
+ZoneName="Rampa"
+
+[ZoneInfo9]
+; EN: ZoneName="Lift"
+ZoneName="Ascensor"
+
+[ZoneInfo10]
+; EN: ZoneName="Basement"
+ZoneName="Soterrani"
+
+[ControlPoint2]
+; EN: PointName="Bridge"
+PointName="Pont"
+
+[ControlPoint0]
+; EN: PointName="Lift"
+PointName="Ascensor"
+
+[ControlPoint1]
+; EN: PointName="Ramp"
+PointName="Rampa"
+
+[LevelSummary]
+; EN: Title="Gearbolt Installation"
+Title="Instal·lació Gearbolt"
+IdealPlayerCount="6-12"

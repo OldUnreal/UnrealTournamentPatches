@@ -1,0 +1,53 @@
+﻿[LevelInfo0]
+; EN: Title="Metal Dream"
+Title="Somni de Metall"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Welcome to Metal Dream"
+LevelEnterText="Benvingut al Somni de Metall"
+
+[ZoneInfo5]
+; EN: ZoneName="Outside"
+ZoneName="Fora"
+
+[ZoneInfo1]
+; EN: ZoneName="Control Station 4"
+ZoneName="Estació de Control 4"
+
+[ZoneInfo4]
+; EN: ZoneName="Control Station 1"
+ZoneName="Estació de Control 1"
+
+[ZoneInfo2]
+; EN: ZoneName="Engineering Corridor"
+ZoneName="Corredor d'Enginyeria"
+
+[ControlPoint0]
+; EN: PointName="Boxes"
+PointName="Caixes"
+
+[ZoneInfo14]
+; EN: ZoneName="Oil Control"
+ZoneName="Control d'oli"
+
+[ControlPoint2]
+; EN: PointName="Crane"
+PointName="Grua"
+
+[ZoneInfo3]
+; EN: ZoneName="Control Station 2"
+ZoneName="Estació de control 2"
+
+[ControlPoint1]
+; EN: PointName="Helipad"
+PointName="Heliport"
+
+[LevelSummary]
+; EN: Title="Metal Dream"
+Title="Somni de Metall"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Welcome to Metal Dream"
+LevelEnterText="Benvingut al Somni de Metall"
+
+[SpecialEvent7]
+; EN: DamageString="diced"
+DamageString="tallat a daus"

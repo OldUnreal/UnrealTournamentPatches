@@ -1,0 +1,25 @@
+﻿[LevelInfo0]
+; EN: Title="Tempest"
+Title="Tempesta"
+IdealPlayerCount="4-16"
+
+[ZoneInfo0]
+; EN: ZoneName="West Wing"
+ZoneName="Ala Oest"
+
+[ZoneInfo2]
+; EN: ZoneName="Rocket Room"
+ZoneName="Sala de Coets"
+
+[ZoneInfo1]
+; EN: ZoneName="Damage Amp"
+ZoneName="Amplificador de Danys"
+
+[ZoneInfo3]
+; EN: ZoneName="Shield Belt"
+ZoneName="Cinturó de l’Escut"
+
+[LevelSummary]
+; EN: Title="Tempest"
+Title="Tempesta"
+IdealPlayerCount="4-16"

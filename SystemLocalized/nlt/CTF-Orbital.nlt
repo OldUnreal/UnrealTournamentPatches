@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+; EN: Title="Orbital Station #12"
+Title="Orbitaal station #12"
+IdealPlayerCount="12-24"
+
+[ZoneInfo4]
+; EN: ZoneName="Central Room"
+ZoneName="Centrale kamer"
+
+[ZoneInfo0]
+; EN: ZoneName="Blue Main Base"
+ZoneName="Blauwe hoofdbasis"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Main Base"
+ZoneName="Rode hoofdbasis"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Damage Amp Room"
+ZoneName="Blue Damage Amp Room"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Damage Amp Room"
+ZoneName="Red Damage Amp Room"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Sniper Halls"
+ZoneName="Blue Sniper Halls"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Flak Cannon Room"
+ZoneName="Blue Flak Cannon Room"
+
+[ZoneInfo7]
+; EN: ZoneName="Red Flak Cannon Room"
+ZoneName="Red Flak Cannon Room"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Sniper Halls"
+ZoneName="Rode Sniper Halls"
+
+[LevelSummary]
+; EN: Title="Orbital Station #12"
+Title="Orbitaal station #12"
+IdealPlayerCount="12-24"

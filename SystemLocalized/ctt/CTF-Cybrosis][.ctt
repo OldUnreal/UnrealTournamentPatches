@@ -1,0 +1,105 @@
+﻿[LevelInfo0]
+; EN: Title="Cybrosis Central ]["
+Title="Cibrosi Central ]["
+IdealPlayerCount="4-12"
+
+[ZoneInfo24]
+; EN: ZoneName="Outer Base Blue"
+ZoneName="Base Exterior Blava"
+
+[ZoneInfo2]
+; EN: ZoneName="Outer Base Red"
+ZoneName="Base Exterior Vermella"
+
+[ZoneInfo25]
+; EN: ZoneName="Water Room Blue"
+ZoneName="Sala d'Aigua Blava"
+
+[ZoneInfo3]
+; EN: ZoneName="Water Room Red"
+ZoneName="Sala d'Aigua Vermella"
+
+[ZoneInfo12]
+; EN: ZoneName="Flag Base Red"
+ZoneName="Base de Bandera Vermella"
+
+[ZoneInfo11]
+; EN: ZoneName="Flag Base Blue"
+ZoneName="Base de Bandera Blava"
+
+[ZoneInfo28]
+; EN: ZoneName="Pipe Room Blue"
+ZoneName="Sala de Tubs Blau"
+
+[ZoneInfo6]
+; EN: ZoneName="Pipe Room Red"
+ZoneName="Sala de Tubs Vermell"
+
+[ZoneInfo26]
+; EN: ZoneName="Antechamber Blue"
+ZoneName="Antecambra Blau"
+
+[ZoneInfo23]
+; EN: ZoneName="Top Center Blue"
+ZoneName="Centre Superior Blau"
+
+[ZoneInfo4]
+; EN: ZoneName="Antechamber Red"
+ZoneName="Antecambra Vermell"
+
+[ZoneInfo1]
+; EN: ZoneName="Top Center Red"
+ZoneName="Centre Superior Vermell"
+
+[ZoneInfo27]
+; EN: ZoneName="Top Passage Blue"
+ZoneName="Passatge Superior Blau"
+
+[ZoneInfo30]
+; EN: ZoneName="Top Passage Blue"
+ZoneName="Passatge Superior Blau"
+
+[ZoneInfo5]
+; EN: ZoneName="Top Passage Red"
+ZoneName="Passatge Superior Vermell"
+
+[ZoneInfo31]
+; EN: ZoneName="Top Center Blue"
+ZoneName="Centre Superior Blau"
+
+[ZoneInfo9]
+; EN: ZoneName="Top Center Red"
+ZoneName="Centre Superior Vermell"
+
+[ZoneInfo8]
+; EN: ZoneName="Top Passage Red"
+ZoneName="Passatge Superior Vermell"
+
+[ZoneInfo10]
+; EN: ZoneName="Top Center Red"
+ZoneName="Centre Superior Vermell"
+
+[ZoneInfo32]
+; EN: ZoneName="Top Center Blue"
+ZoneName="Centre Superior Blau"
+
+[ZoneInfo7]
+; EN: ZoneName="Underpassage Red"
+ZoneName="Pas Inferior Vermell"
+
+[ZoneInfo29]
+; EN: ZoneName="Underpassage Blue"
+ZoneName="Pas Inferior Blau"
+
+[SpecialEvent1]
+; EN: DamageString="%K made a shocking mistake"
+DamageString="%k ha comès un error electritzant"
+
+[LevelSummary]
+; EN: Title="Cybrosis Central ]["
+Title="Cibrosi Central ]["
+IdealPlayerCount="4-12"
+
+[SpecialEvent11]
+; EN: DamageString="%K made a shocking mistake"
+DamageString="%k ha comès un error electritzant"

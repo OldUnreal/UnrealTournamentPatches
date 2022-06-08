@@ -1,0 +1,97 @@
+﻿[LevelInfo0]
+; EN: Title="Facing Worlds Special Edition"
+Title="Móns Enfrontats, Edició Especial"
+IdealPlayerCount="4-10"
+
+[ZoneInfo3]
+; EN: ZoneName="Asteroid"
+ZoneName="Asteroide"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Blava"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Base"
+ZoneName="Base Vermella"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Sniper"
+ZoneName="Franctirador Vermell"
+
+[ZoneInfo7]
+; EN: ZoneName="Blue Sniper"
+ZoneName="Franctirador Blau"
+
+[ZoneInfo5]
+; EN: ZoneName="Blue Redeemer"
+ZoneName="Redemptor Blau"
+
+[ZoneInfo4]
+; EN: ZoneName="Red Redeemer"
+ZoneName="Redemptor Vermell"
+
+[SpecialEvent0]
+; EN: DamageString="put in orbit"
+DamageString="posat en òrbita"
+
+[locationid0]
+; EN: LocationName="Blue Back"
+LocationName="Esquena Blava"
+
+[locationid1]
+; EN: LocationName="Blue Asteroid"
+LocationName="Asteroide Blau"
+
+[locationid2]
+; EN: LocationName="Blue Asteroid"
+LocationName="Asteroide Blau"
+
+[locationid3]
+; EN: LocationName="Blue Asteroid"
+LocationName="Asteroide Blau"
+
+[locationid4]
+; EN: LocationName="Blue Asteroid"
+LocationName="Asteroide Blau"
+
+[locationid5]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide Vermell"
+
+[locationid6]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide Vermell"
+
+[locationid7]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide Vermell"
+
+[locationid8]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide Vermell"
+
+[locationid9]
+; EN: LocationName="Red Asteroid"
+LocationName="Asteroide Vermell"
+
+[locationid10]
+; EN: LocationName="Red Back"
+LocationName="Esquena Vermella"
+
+[locationid11]
+; EN: LocationName="Blue Tower"
+LocationName="Torre Blava"
+
+[locationid12]
+; EN: LocationName="Red Tower"
+LocationName="Torre Vermella"
+
+[locationid13]
+; EN: LocationName="Red Tower"
+LocationName="Torre Vermella"
+
+[LevelSummary]
+; EN: Title="Facing Worlds Special Edition"
+Title="Móns Enfrontats, Edició Especial"
+IdealPlayerCount="4-10"
