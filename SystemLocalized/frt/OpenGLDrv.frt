@@ -1,6 +1,6 @@
 ﻿[Public]
 Object=(Name=OpenGLDrv.OpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
-Preferences=(Caption="OpenGL Support",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
+Preferences=(Caption="OpenGL",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDevice,Immediate=True)
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
@@ -11,8 +11,8 @@ MissingFunc="Fonction OpenGL Manquante: %ls (%i)"
 ResFailed="Impossible de changer la résolution"
 
 [OpenGLRenderDevice]
-; EN: ClassCaption="OpenGL Support"
-ClassCaption="Support OpenGL"
+; EN: ClassCaption="OpenGL"
+ClassCaption="OpenGL"
 ; EN: AskInstalled="Do you have a OpenGL compatible 3D accelerator installed?"
 AskInstalled="Votre carte graphique supporte-t-elle le mode OpenGL?"
 ; EN: AskUse="Do you want Unreal Tournament to use your OpenGL accelerator?"

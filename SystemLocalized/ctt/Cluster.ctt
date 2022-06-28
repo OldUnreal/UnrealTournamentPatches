@@ -5,12 +5,12 @@
 ;
 [Public]
 Object=(Name=Cluster.ClusterAudioSubsystem,Class=Class,MetaClass=Engine.AudioSubsystem)
-Preferences=(Caption="Cluster 3D Audio Support",Parent="Audio",Class=Cluster.ClusterAudioSubsystem,Immediate=True)
+Preferences=(Caption="Cluster 3D",Parent="Audio",Class=Cluster.ClusterAudioSubsystem,Immediate=True)
 
 [ClusterAudioSubsystem]
 ; User facing name (used in startup wizard list, preferences, etc.).
-; EN: ClassCaption="Cluster 3D Audio Support"
-ClassCaption="Suport per al so Cluster 3D"
+; EN: ClassCaption="Cluster 3D"
+ClassCaption="Cluster 3D"
 ; User facing desciption (intended to be used in startup wizard for a detailed description instead of Startup.int:Descriptions.<Package>.<Object>).
 ; EN: ClassDescription="Cluster is designed as a similiar sounding substituate to the aging Galaxy 3D Audio."
 ClassDescription="Cluster està dissenyat com un substitut similar a l’envellit Galaxy 3D Audio."
