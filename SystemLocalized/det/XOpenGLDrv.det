@@ -1,7 +1,7 @@
 ﻿[Public]
 Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
-Preferences=(Caption="XOpenGL Support",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="Options")
-Preferences=(Caption="Debug Options",Parent="XOpenGL Support",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True, Category="DebugOptions")
+Preferences=(Caption="XOpenGL",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True,Category="Options")
+Preferences=(Caption="Debug Options",Parent="XOpenGL",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True,Category="DebugOptions")
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
@@ -12,8 +12,8 @@ MissingFunc="Fehlende OpenGL Funktion %ls (%i)"
 ResFailed="Fehler beim Einstellen der Auflösung"
 
 [XOpenGLRenderDevice]
-; EN: ClassCaption="XOpenGL Support"
-ClassCaption="XOpenGL Unterstützung"
+; EN: ClassCaption="XOpenGL"
+ClassCaption="XOpenGL"
 ; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
 AskInstalled="Haben Sie eine Grafikkarte installiert, die mindestens OpenGL Version 3.3 oder höher unterstützt?"
 ; EN: AskUse="Do you want Unreal Tournament to use your XOpenGL accelerator?"

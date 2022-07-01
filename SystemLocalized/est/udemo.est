@@ -7,7 +7,7 @@ Seeking="BUSCANDO"
 
 [UDClientWindow]
 ; EN: Spechelp="If checked, you will be able to fly around the level when playing a demo"
-Spechelp="Si está activo, podrás volar en el nivel mientras se reproduce la demo."
+Spechelp="Si se activa, podrás volar en el nivel mientras se reproduce la demo."
 
 [UDPathsclient]
 ; EN: Empty="Empty"

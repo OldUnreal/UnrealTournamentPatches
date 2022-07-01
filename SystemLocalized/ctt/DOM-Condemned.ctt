@@ -1,0 +1,65 @@
+﻿[LevelInfo0]
+; EN: Title="Condemned"
+Title="Condemnat"
+IdealPlayerCount="6"
+; EN: LevelEnterText="Dominate the competition!"
+LevelEnterText="Domina la competició!"
+
+[ZoneInfo1]
+; EN: ZoneName="Alley"
+ZoneName="Carreró"
+
+[ControlPoint2]
+; EN: PointName="Arturo's"
+PointName="Arturo"
+
+[ZoneInfo0]
+; EN: ZoneName="The Condemned Building"
+ZoneName="L’Edifici Condemnat"
+
+[ControlPoint1]
+; EN: PointName="Rooftop"
+PointName="Terrat"
+
+[ControlPoint0]
+; EN: PointName="Garage"
+PointName="Garatge"
+
+[locationid3]
+; EN: LocationName="Rooftop"
+LocationName="Terrat"
+
+[locationid4]
+; EN: LocationName="Rooftop"
+LocationName="Terrat"
+
+[LevelSummary]
+; EN: Title="Condemned"
+Title="Condemnat"
+IdealPlayerCount="6"
+; EN: LevelEnterText="Dominate the competition!"
+LevelEnterText="Domina la competició!"
+
+[locationid5]
+; EN: LocationName="Rooftop"
+LocationName="Terrat"
+
+[ZoneInfo4]
+; EN: ZoneName="Alleyways"
+ZoneName="Carrerons"
+
+[ScrollingMessageTexture0]
+; EN: ScrollingMessage="TONIGHT 10:00PM EST... %p LEADS HIS UNDEFEATED TEAM %h INTO THE CONDEMNED ARENA"
+ScrollingMessage="AVUI A LES 22: 00H EST... %p DIRIGEIX EL SEU EQUIP SENSEVOLTAt %h A L’ARENA CONDEMNADA"
+
+[locationid0]
+; EN: LocationName="Garage"
+LocationName="Garatge"
+
+[locationid2]
+; EN: LocationName="Rooftop"
+LocationName="Terrat"
+
+[locationid1]
+; EN: LocationName="Arturo's Bar"
+LocationName="Bar d'Arturo"

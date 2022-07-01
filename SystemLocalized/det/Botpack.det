@@ -518,7 +518,7 @@ WeaponDescription="Klassifizierung: Leichte Pistole\n\nPrimärfeuer: Genauer, ab
 ; EN: DeathMessage="%k riddled %o full of holes with the %w."
 DeathMessage="%k rätselte %o voller Löcher mit %w."
 ; EN: PickupMessage="You picked up another Enforcer!"
-PickupMessage="Du hast einen anderen Vollstrecker abgeholt!"
+PickupMessage="Weiteren Vollstrecker erhalten!"
 ; EN: ItemName="Enforcer"
 ItemName="Vollstrecker"
 
@@ -827,7 +827,7 @@ WeaponDescription="Klassifizierung: Schweres ballistisches\n\nPrimärfeuer: Lang
 ; EN: DeathMessage="%o was smacked down by %k's %w."
 DeathMessage="%o wurde von %k's %w niedergeschlagen."
 ; EN: PickupMessage="You got the Rocket Launcher."
-PickupMessage="Du hast den Raketenwerfer."
+PickupMessage="Raketenwerfer erhalten."
 ; EN: ItemName="Rocket Launcher"
 ItemName="Raketenwerfer"
 
@@ -921,7 +921,7 @@ GameName="Kampftraining: AS"
 
 [UT_ShieldBelt]
 ; EN: PickupMessage="You got the Shield Belt."
-PickupMessage="Du hast den Schildgürtel."
+PickupMessage="Schildgürtel erhalten."
 ; EN: ItemName="Shield Belt"
 ItemName="Schildgürtel"
 
@@ -951,7 +951,7 @@ WeaponDescription="Klassifizierung: Energiegewehr\n\nPrimärfeuer: Sofort getrof
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k fügte %o mit %w tödlichen Schaden zu."
 ; EN: PickupMessage="You got the ASMD Shock Rifle."
-PickupMessage="Du hast das ASMD-Schockgewehr."
+PickupMessage="ASMD-Schockgewehr erhalten."
 ; EN: ItemName="Shock Rifle"
 ItemName="Schockgewehr"
 
@@ -979,9 +979,9 @@ MessageNoAmmo=" hat kein Plasma."
 ; EN: DeathMessage="%o ate %k's burning plasma death."
 DeathMessage="%o aß %ks brennenden Plasma-Tod."
 ; EN: PickupMessage="You got a Pulse Gun"
-PickupMessage="Du hast eine Impulspistole"
+PickupMessage="Pulsgewehr erhalten."
 ; EN: ItemName="Pulse Gun"
-ItemName="Impulspistole"
+ItemName="Pulsgewehr"
 
 [ImpactHammer]
 ; EN: WeaponDescription="Classification: Melee Piston\n\nPrimary Fire: When trigger is held down, touch opponents with this piston to inflict massive damage.\n\nSecondary Fire: Damages opponents at close range and has the ability to deflect projectiles.\n\nTechniques: Shoot at the ground while jumping to jump extra high."
@@ -989,7 +989,7 @@ WeaponDescription="Klassifizierung: Nahkampfkolben\n\nPrimärfeuer: Wenn der Abz
 ; EN: DeathMessage="%o got smeared by %k's piston."
 DeathMessage="%o wurde von %ks Kolben verschmiert."
 ; EN: PickupMessage="You got the Impact Hammer."
-PickupMessage="Du hast den Schlaghammer."
+PickupMessage="Schlaghammer erhalten."
 ; EN: ItemName="Impact Hammer"
 ItemName="Schlaghammer"
 
@@ -1021,7 +1021,7 @@ WeaponDescription="Klassifizierung: Thermonukleares Gerät\n\nPrimärfeuer: Star
 ; EN: DeathMessage="%o was vaporized by %k's %w!!"
 DeathMessage="%o wurde durch %k %w verdampft !!"
 ; EN: PickupMessage="You got the Redeemer."
-PickupMessage="Du hast den Erlöser."
+PickupMessage="Erlöser erhalten."
 ; EN: ItemName="Redeemer"
 ItemName="Erlöser"
 
@@ -1031,13 +1031,13 @@ WeaponDescription="Klassifizierung: Ballistische Langstreckenwaffe\n\nPrimärfeu
 ; EN: DeathMessage="%k put a bullet through %o's head."
 DeathMessage="%k hat %o eine Kugel durch den Kopf geschossen."
 ; EN: PickupMessage="You got a Sniper Rifle."
-PickupMessage="Du hast ein Scharfschützengewehr."
+PickupMessage="Scharfschützengewehr erhalten."
 ; EN: ItemName="Sniper Rifle"
 ItemName="Scharfschützengewehr"
 
 [UDamage]
 ; EN: PickupMessage="You got the Damage Amplifier!"
-PickupMessage="Du hast den Schadensverstärker!"
+PickupMessage="Schadensverstärker erhalten!"
 ; EN: ItemName="Damage Amplifier"
 ItemName="Schadensverstärker"
 
@@ -1047,9 +1047,9 @@ WeaponDescription="Klassifizierung: Schwerer Splitter\n\nPrimärfeuer: Weiße, h
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="%o wurde von %k %w in Stücke gerissen."
 ; EN: PickupMessage="You got the Flak Cannon."
-PickupMessage="Du hast die Flak-Kanone."
+PickupMessage="Flak erhalten."
 ; EN: ItemName="Flak Cannon"
-ItemName="Flak-Kanone"
+ItemName="Flak"
 
 [MultiKillMessage]
 ; EN: DoubleKillString="Double Kill!"
@@ -1077,9 +1077,9 @@ WeaponDescription="Klassifizierung: Giftiges Gewehr\n\nPrimärfeuer: Bündel von
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o trank ein Glas %ks tropfende grüne Ladung."
 ; EN: PickupMessage="You got the GES BioRifle."
-PickupMessage="Du hast das GES BioGewehr."
+PickupMessage="GES-Biogewehr erhalten."
 ; EN: ItemName="GES BioRifle"
-ItemName="GES BioGewehr"
+ItemName="GES-Biogewehr"
 
 [minigun2]
 ; EN: WeaponDescription="Classification: Gatling Gun\n\nPrimary Fire: Bullets are sprayed forth at a medium to fast rate of fire and good accuracy.\n\nSecondary Fire: Minigun fires twice as fast and is half as accurate.\n\nTechniques: Secondary fire is much more useful at close range, but can eat up tons of ammunition."
@@ -1087,9 +1087,9 @@ WeaponDescription="Klassifizierung: Gatling Gun\n\nPrimärfeuer: Kugeln werden m
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
 DeathMessage="%ks %w verwandelte %o in ein undichtes Stück Fleisch."
 ; EN: PickupMessage="You got the Minigun."
-PickupMessage="Du hast die Minigeschütz."
+PickupMessage="Minigun erhalten."
 ; EN: ItemName="Minigun"
-ItemName="Minigeschütz"
+ItemName="Minigun"
 
 [ChainSaw]
 ; EN: WeaponDescription="Classification: Melee Blade\n\nPrimary Fire: When the trigger is held down, the chain covered blade will rev up. Drive this blade into opponents to inflict massive damage.\n\nSecondary Fire: The revved up blade can be swung horizontally and can cause instant decapitation of foes.\n\nTechniques: The chainsaw makes a loud and recognizable roar and can be avoided by listening for audio cues."
@@ -1345,13 +1345,13 @@ MenuName="Mann Kommando"
 
 [Armor2]
 ; EN: PickupMessage="You got the Body Armor."
-PickupMessage="Du hast die Körperschutzausrüstung."
+PickupMessage="Körperrüstung erhalten."
 ; EN: ItemName="Body Armor"
-ItemName="Körperschutz"
+ItemName="Körperrüstung"
 
 [ThighPads]
 ; EN: PickupMessage="You got the Thigh Pads."
-PickupMessage="Du hast die Oberschenkelpolster."
+PickupMessage="Oberschenkelpolster erhalten."
 ; EN: ItemName="Thigh Pads"
 ItemName="Oberschenkelpolster"
 
@@ -2048,9 +2048,9 @@ WeaponDescription="Klassifizierung: Ballistic Blade Launcher\n\nPrimärfeuer: Ra
 ; EN: DeathMessage="%k ripped a chunk of meat out of %o with the %w."
 DeathMessage="%k riss mit %w ein Stück Fleisch aus %o."
 ; EN: PickupMessage="You got the Ripper."
-PickupMessage="Du hast den Ripper."
+PickupMessage="Ripper erhalten."
 ; EN: ItemName="Ripper"
-ItemName="Aufreißer"
+ItemName="Ripper
 
 [KillingSpreeMessage]
 ; EN: EndSpreeNote="'s killing spree was ended by"
@@ -2127,7 +2127,7 @@ BotBio[7]="Gral ist das am besten ausgebildete Mitglied der Legion. Er wartet le
 ; EN: DeathMessage="%k electrified %o with the %w."
 DeathMessage="%k elektrifizierte %o mit %w."
 ; EN: PickupMessage="You got the enhanced Shock Rifle."
-PickupMessage="Du hast das Verbessertes Schockgewehr."
+PickupMessage="Verbessertes Schockgewehr erhalten."
 ; EN: ItemName="Enhanced Shock Rifle"
 ItemName="Verbessertes Schockgewehr"
 
@@ -2157,7 +2157,7 @@ FragGoal="Punktegrenze:"
 
 [BulletBox]
 ; EN: PickupMessage="You got a box of rifle rounds."
-PickupMessage="Du hast eine Schachtel mit Gewehrrunden."
+PickupMessage="Schachtel mit Gewehrrunden erhalten."
 ; EN: ItemName="Box of Rifle Rounds"
 ItemName="Schachtel mit Gewehrrunden"
 
@@ -2352,7 +2352,7 @@ EradicatedMessage="wurde durch die unheilige Macht von ausgerottet"
 
 [ShockCore]
 ; EN: PickupMessage="You picked up a Shock Core."
-PickupMessage="Du hast einen Schockkern aufgenommen."
+PickupMessage="Schockkern erhalten."
 ; EN: ItemName="Shock Core"
 ItemName="Schockkern"
 
@@ -2710,7 +2710,7 @@ GameName="Blitz Todeskampf"
 
 [RocketPack]
 ; EN: PickupMessage="You picked up a rocket pack."
-PickupMessage="Du hast ein Raketenpaket aufgehoben."
+PickupMessage="Raketenpaket erhalten."
 ; EN: ItemName="Rocket Pack"
 ItemName="Raketenpaket"
 
@@ -2767,27 +2767,27 @@ ItemName="Verbesserter Schockkern"
 
 [BioAmmo]
 ; EN: PickupMessage="You picked up the Biosludge Ammo."
-PickupMessage="Du hast die Tarydium-Schlamm aufgehoben."
+PickupMessage="Bioschlamm-Munition erhalten."
 ; EN: ItemName="Biosludge Ammo"
-ItemName="Tarydium-Schlamm"
+ItemName="Bioschlamm-Munition"
 
 [PAmmo]
 ; EN: PickupMessage="You picked up a Pulse Cell."
-PickupMessage="Du hast eine Pulszelle aufgehoben."
+PickupMessage="Pulsbatterie erhalten."
 ; EN: ItemName="Pulse Cell"
-ItemName="Pulszelle"
+ItemName="Pulsbatterie"
 
 [BladeHopper]
 ; EN: PickupMessage="You picked up some Razor Blades."
-PickupMessage="Du hast ein paar Razor-Klingen aufgehoben."
+PickupMessage="Messerklingen erhalten."
 ; EN: ItemName="Blade Hopper"
-ItemName="Razor-Klingen"
+ItemName="Messerklingen"
 
 [FlakAmmo]
 ; EN: PickupMessage="You picked up 10 Flak Shells."
-PickupMessage="Du hast 10 Flak Shells aufgenommen."
+PickupMessage="10 Flakgranaten erhalten."
 ; EN: ItemName="Flak Shells"
-ItemName="Flak-Geschosse"
+ItemName="Flakgranaten"
 
 [DominationScoreboard]
 ; EN: FragGoal="Score Limit:"
@@ -2811,7 +2811,7 @@ MenuName="Frau Soldat"
 
 [RifleShell]
 ; EN: PickupMessage="You got a rifle round."
-PickupMessage="Du hast eine Gewehrrunde."
+PickupMessage="Gewehrrunde erhalten."
 ; EN: ItemName="Rifle Round"
 ItemName="Gewehrrunde"
 
@@ -3350,15 +3350,15 @@ ItemName="Gesundheitsfläschchen"
 
 [HealthPack]
 ; EN: PickupMessage="You picked up the Big Keg O' Health +"
-PickupMessage="Du hast das Super Gesundheitspaket +"
+PickupMessage="Dickes Fass Gesundheit erhalten +"
 ; EN: ItemName="Super Health Pack"
-ItemName="Super Gesundheitspaket"
+ItemName="Super-Gesundheitspaket"
 
 [EClip]
 ; EN: PickupMessage="You picked up a clip."
-PickupMessage="Du hast einen Munition."
+PickupMessage="Kugelmagazin erhalten."
 ; EN: ItemName="Clip"
-ItemName="Munition"
+ItemName="Kugelmagazin"
 
 [doubleenforcer]
 ; EN: ItemName="Double Enforcers"

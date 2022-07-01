@@ -1,11 +1,13 @@
 ﻿[Public]
+;Object=(Name=UnrealI.Intro,Class=Class,MetaClass=Engine.GameInfo)
+;Object=(Name=UnrealI.EndGame,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UnrealI.KingOfTheHill,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UnrealI.DarkMatch,Class=Class,MetaClass=Engine.GameInfo)
 Object=(Name=UnrealI.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.Rifle,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.Minigun,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.GESBioRifle,Class=Class,MetaClass=Engine.Weapon)
-Object=(Name=UnrealI.RazorJack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Razorjack,Class=Class,MetaClass=Engine.Weapon)
 Object=(Name=UnrealI.QuadShot,Class=Class,MetaClass=Engine.Weapon)
 ; EN: Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Female 2")
 Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Donna 2")
@@ -33,6 +35,150 @@ ESCMessage="Premi ESC per iniziare"
 NameArticle=" la "
 ; EN: MenuName="Queen"
 MenuName="Regina"
+
+[SkaarjPlayer]
+; EN: MenuName="Skaarj Trooper"
+MenuName="Soldato Skaarj"
+
+[SkaarjPlayerBot]
+; EN: MenuName="Skaarj Trooper"
+MenuName="Soldato Skaarj"
+
+[WarLord]
+; EN: NameArticle=" the "
+NameArticle=" il "
+; EN: MenuName="WarLord"
+MenuName="Signore Guerrieri"
+
+[SearchLight]
+; EN: ExpireMessage="The Search Light batteries have died."
+ExpireMessage="Le batterie di Riflettore sono esaurite."
+; EN: PickupMessage="You picked up the Search Light"
+PickupMessage="Hai raccolto il Riflettore"
+; EN: ItemName="Search Light"
+ItemName="Riflettore"
+
+[RazorAmmo]
+; EN: PickupMessage="You picked up Razor Blades"
+PickupMessage="Hai raccolto le Lame di Rasoio"
+; EN: ItemName="Razor Blades"
+ItemName="Lame di Rasoio"
+
+[FlakBox]
+; EN: PickupMessage="You picked up 10 Flak Shells"
+PickupMessage="Hai raccolto 10 Cariche per il Flak"
+; EN: ItemName="Flak Shells"
+ItemName="Cariche per il Flak"
+
+[MaleOne]
+; EN: MenuName="Male 1"
+MenuName="Uomo 1"
+
+[MaleOneBot]
+; EN: MenuName="Male 1"
+MenuName="Uomo 1"
+
+[RifleAmmo]
+; EN: PickupMessage="You got 8 Rifle Rounds"
+PickupMessage="Hai raccolto 8 Cartucce del Fucile"
+; EN: ItemName="Rifle Rounds"
+ItemName="Cartucce del Fucile"
+
+[Seeds]
+; EN: PickupMessage="You got the Nali Fruit Seeds"
+PickupMessage="Hai preso i Semi del Frutto dei Nali"
+; EN: ItemName="Nali Fruit Seeds"
+ItemName="Semi del Frutto dei Nali"
+
+[JumpBoots]
+; EN: ExpireMessage="The Jump Boots have drained."
+ExpireMessage="Gli Stivali da Salto si sono esauriti."
+; EN: PickupMessage="You picked up the Jump Boots"
+PickupMessage="Hai raccolto gli Stivali da Salto"
+; EN: ItemName="Jump Boots"
+ItemName="Stivali da Salto"
+
+[ForceField]
+; EN: M_NoRoom="No room to activate the Force Field."
+M_NoRoom="Non c'è spazio per attivare il Campo Magnetico."
+; EN: PickupMessage="You picked up the Force Field"
+PickupMessage="Hai raccolto il Campo Magnetico"
+; EN: ItemName="Force Field"
+ItemName="Campo Magnetico"
+
+[FemaleTwo]
+; EN: MenuName="Female 2"
+MenuName="Donna 2"
+
+[FemaleTwoBot]
+; EN: MenuName="Female 2"
+MenuName="Donna 2"
+
+[MaleTwo]
+; EN: MenuName="Male 2"
+MenuName="Uomo 2"
+
+[MaleTwoBot]
+; EN: MenuName="Male 2"
+MenuName="Uomo 2"
+
+[Sludge]
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
+PickupMessage="Hai raccolto 25 Chili di Fanghiglia di Tarydium"
+; EN: ItemName="Tarydium Biosludge"
+ItemName="Fanghiglia di Tarydium"
+
+[Invisibility]
+; EN: ExpireMessage="Invisibility has worn off."
+ExpireMessage="Invisibilità esaurita."
+; EN: PickupMessage="You have Invisibility"
+PickupMessage="Hai preso l'Invisibilità"
+; EN: ItemName="Invisibility"
+ItemName="Invisibilità"
+
+[DarkMatch]
+; EN: ClassCaption="DarkMatch"
+ClassCaption="Partita Scura"
+; EN: GameName="DarkMatch"
+GameName="Partita Scura"
+
+[FlakShellAmmo]
+; EN: PickupMessage="You got a Flak Shell"
+PickupMessage="Hai preso una Ricarica per il Flak"
+; EN: ItemName="Flak Shell"
+ItemName="Ricarica per il Flak"
+
+[AsbestosSuit]
+; EN: PickupMessage="You picked up the Asbestos Suit"
+PickupMessage="Hai raccolto la Tuta d'Amianto"
+; EN: ItemName="Asbestos Suit"
+ItemName="Tuta d'Amianto"
+
+[Dampener]
+; EN: ExpireMessage="Acoustic dampener has run out."
+ExpireMessage="Silenziatore esaurito."
+; EN: PickupMessage="You got the Acoustic Dampener"
+PickupMessage="Hai raccolto il Silenziatore"
+; EN: ItemName="Acoustic Dampener"
+ItemName="Silenziatore"
+
+[ToxinSuit]
+; EN: PickupMessage="You picked up the Toxin Suit"
+PickupMessage="Hai raccolto la Tuta Antitossica"
+; EN: ItemName="Toxin Suit"
+ItemName="Tuta Antitossica"
+
+[PowerShield]
+; EN: PickupMessage="You got the Power Shield"
+PickupMessage="Hai preso lo Scudo Potenziato"
+; EN: ItemName="Power Shield"
+ItemName="Scudo Potenziato"
+
+[RifleRound]
+; EN: PickupMessage="You got a Rifle Round"
+PickupMessage="Hai preso una Cartuccia di Fucile"
+; EN: ItemName="Rifle Round"
+ItemName="Cartuccia di Fucile"
 
 [Behemoth]
 ; EN: NameArticle=" a "
@@ -69,6 +215,12 @@ MenuName="Sacco di Gas Gigante"
 NameArticle=" la "
 ; EN: MenuName="Giant Manta"
 MenuName="Manta Gigante"
+
+[IceSkaarj]
+; EN: NameArticle=" an "
+NameArticle=" un "
+; EN: MenuName="Ice Skaarj"
+MenuName="Skaarj di Ghiaccio"
 
 [Krall]
 ; EN: NameArticle=" a "
@@ -166,189 +318,6 @@ NameArticle=" il "
 ; EN: MenuName="Stone Titan"
 MenuName="Titano di Pietra"
 
-[SkaarjPlayer]
-; EN: MenuName="Skaarj Trooper"
-MenuName="Soldato Skaarj"
-
-[SkaarjPlayerBot]
-; EN: MenuName="Skaarj Trooper"
-MenuName="Soldato Skaarj"
-
-[WarLord]
-; EN: NameArticle=" the "
-NameArticle=" il "
-; EN: MenuName="WarLord"
-MenuName="Signore Guerrieri"
-
-[SearchLight]
-; EN: ExpireMessage="The Search Light batteries have died."
-ExpireMessage="Le batterie di Riflettore sono esaurite."
-; EN: PickupMessage="You picked up the Search Light"
-PickupMessage="Hai raccolto il Riflettore"
-; EN: ItemName="Search Light"
-ItemName="Riflettore"
-
-[RazorAmmo]
-; EN: PickupMessage="You picked up Razor Blades"
-PickupMessage="Hai raccolto le Lame di Rasoio"
-; EN: ItemName="Razor Blades"
-ItemName="Lame di Rasoio"
-
-[DarkMatch]
-; EN: ClassCaption="DarkMatch"
-ClassCaption="Partita Scura"
-; EN: GameName="DarkMatch"
-GameName="Partita Scura"
-
-[FlakBox]
-; EN: PickupMessage="You picked up 10 Flak Shells"
-PickupMessage="Hai raccolto 10 Cariche per il Flak"
-; EN: ItemName="Flak Shells"
-ItemName="Cariche per il Flak"
-
-[MaleOne]
-; EN: MenuName="Male 1"
-MenuName="Uomo 1"
-
-[MaleOneBot]
-; EN: MenuName="Male 1"
-MenuName="Uomo 1"
-
-[RifleAmmo]
-; EN: PickupMessage="You got 8 Rifle Rounds"
-PickupMessage="Hai raccolto 8 Cartucce del Fucile"
-; EN: ItemName="Rifle Rounds"
-ItemName="Cartucce del Fucile"
-
-[Seeds]
-; EN: PickupMessage="You got the Nali Fruit Seeds"
-PickupMessage="Hai preso i Semi del Frutto dei Nali"
-; EN: ItemName="Nali Fruit Seeds"
-ItemName="Semi del Frutto dei Nali"
-
-[JumpBoots]
-; EN: ExpireMessage="The Jump Boots have drained."
-ExpireMessage="Gli Stivali da Salto si sono esauriti."
-; EN: PickupMessage="You picked up the Jump Boots"
-PickupMessage="Hai raccolto gli Stivali da Salto"
-; EN: ItemName="Jump Boots"
-ItemName="Stivali da Salto"
-
-[ForceField]
-; EN: M_NoRoom="No room to activate the Force Field."
-M_NoRoom="Non c'è spazio per attivare il Campo Magnetico."
-; EN: PickupMessage="You picked up the Force Field"
-PickupMessage="Hai raccolto il Campo Magnetico"
-; EN: ItemName="Force Field"
-ItemName="Campo Magnetico"
-
-[FemaleTwo]
-; EN: MenuName="Female 2"
-MenuName="Donna 2"
-
-[FemaleTwoBot]
-; EN: MenuName="Female 2"
-MenuName="Donna 2"
-
-[MaleTwo]
-; EN: MenuName="Male 2"
-MenuName="Uomo 2"
-
-[MaleTwoBot]
-; EN: MenuName="Male 2"
-MenuName="Uomo 2"
-
-[Sludge]
-; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
-PickupMessage="Hai raccolto 25 Chili di Fanghiglia di Tarydium"
-; EN: ItemName="Tarydium Biosludge"
-ItemName="Fanghiglia di Tarydium"
-
-
-[Invisibility]
-; EN: ExpireMessage="Invisibility has worn off."
-ExpireMessage="Invisibilità esaurita."
-; EN: PickupMessage="You have Invisibility"
-PickupMessage="Hai preso l'Invisibilità"
-; EN: ItemName="Invisibility"
-ItemName="Invisibilità"
-
-[AsbestosSuit]
-; EN: PickupMessage="You picked up the Asbestos Suit"
-PickupMessage="Hai raccolto la Tuta d'Amianto"
-; EN: ItemName="Asbestos Suit"
-ItemName="Tuta d'Amianto"
-
-[fell]
-; EN: Name="fell"
-Name="abbattuto"
-; EN: AltName="fell"
-AltName="atterrato"
-
-[FlakShellAmmo]
-; EN: PickupMessage="You got a Flak Shell"
-PickupMessage="Hai preso una Ricarica per il Flak"
-; EN: ItemName="Flak Shell"
-ItemName="Ricarica per il Flak"
-
-[drowned]
-; EN: Name="drowned"
-Name="affogato"
-; EN: AltName="drowned"
-AltName="affogato"
-
-[Decapitated]
-; EN: Name="beheaded"
-Name="decapitato"
-; EN: AltName="decapitated"
-AltName="decapitato"
-
-[Dampener]
-; EN: ExpireMessage="Acoustic dampener has run out."
-ExpireMessage="Silenziatore esaurito."
-; EN: PickupMessage="You got the Acoustic Dampener"
-PickupMessage="Hai raccolto il Silenziatore"
-; EN: ItemName="Acoustic Dampener"
-ItemName="Silenziatore"
-
-[Corroded]
-; EN: Name="corroded"
-Name="corroso"
-; EN: AltName="slimed"
-AltName="smerdato"
-
-[ToxinSuit]
-; EN: PickupMessage="You picked up the Toxin Suit"
-PickupMessage="Hai raccolto la Tuta Antitossica"
-; EN: ItemName="Toxin Suit"
-ItemName="Tuta Antitossica"
-
-[Burned]
-; EN: Name="burned"
-Name="arrostito"
-; EN: AltName="flame-broiled"
-AltName="bruciato"
-
-[PowerShield]
-; EN: PickupMessage="You got the Power Shield"
-PickupMessage="Hai preso lo Scudo Potenziato"
-; EN: ItemName="Power Shield"
-ItemName="Scudo Potenziato"
-
-[RifleRound]
-; EN: PickupMessage="You got a Rifle Round"
-PickupMessage="Hai preso una Cartuccia di Fucile"
-; EN: ItemName="Rifle Round"
-ItemName="Cartuccia di Fucile"
-
-[ParentBlob]
-; EN: BlobKillMessage="was corroded by a Blob"
-BlobKillMessage="è stato corroso per una Goccia"
-; EN: NameArticle=" a "
-NameArticle=" una "
-; EN: MenuName="Blob"
-MenuName="Goccia"
-
 [EndgameHud]
 ; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely. Yet, it's fuel reserve has been depleted, and you drift aimlessly."
 Message1="La capsula di salvataggio Skaarj è riuscita a sottrarsi alla forza gravitazionale del pianeta... forse. Il carburante è esaurito... vai alla deriva senza possibilità di scampo."
@@ -370,6 +339,14 @@ ClassCaption="Re della Montagna"
 KingMessage=" è il nuovo re della montagna!"
 ; EN: GameName="King of the Hill"
 GameName="Re della Montagna"
+
+[ParentBlob]
+; EN: BlobKillMessage="was corroded by a Blob"
+BlobKillMessage="è stato corroso per una Goccia"
+; EN: NameArticle=" a "
+NameArticle=" una "
+; EN: MenuName="Blob"
+MenuName="Goccia"
 
 [FlakCannon]
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
@@ -409,7 +386,37 @@ DeathMessage="%k ha preso un pezzo sanguinante di %o con %w."
 ; EN: PickupMessage="You got the RazorJack"
 PickupMessage="Hai preso il RazorJack"
 ; EN: ItemName="Razorjack"
-ItemName="Razorjack"
+ItemName="RazorJack"
+
+[Fell]
+; EN: Name="fell"
+Name="abbattuto"
+; EN: AltName="fell"
+AltName="atterrato"
+
+[Drowned]
+; EN: Name="drowned"
+Name="affogato"
+; EN: AltName="drowned"
+AltName="affogato"
+
+[Decapitated]
+; EN: Name="beheaded"
+Name="decapitato"
+; EN: AltName="decapitated"
+AltName="decapitato"
+
+[Corroded]
+; EN: Name="corroded"
+Name="corroso"
+; EN: AltName="slimed"
+AltName="smerdato"
+
+[Burned]
+; EN: Name="burned"
+Name="arrostito"
+; EN: AltName="flame-broiled"
+AltName="bruciato"
 
 [QuadShot]
 ; EN: DeathMessage="%o was blasted to bits by %k's %w."

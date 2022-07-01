@@ -1,0 +1,53 @@
+﻿[LevelInfo0]
+; EN: Title="Southside Leadworks"
+Title="Fundició de Plom del Costat Sud"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Entering the Southside Leadworks"
+LevelEnterText="Entrant a la Fundició de Plom del Costat Sud"
+
+[ZoneInfo0]
+; EN: ZoneName="Tower"
+ZoneName="Torre"
+
+[ZoneInfo4]
+; EN: ZoneName="Rocket Storage"
+ZoneName="Magatzem de Coets"
+
+[ZoneInfo2]
+; EN: ZoneName="Lava Bridge"
+ZoneName="Pont de Lava"
+
+[ZoneInfo3]
+; EN: ZoneName="Processing"
+ZoneName="Processament"
+
+[ZoneInfo6]
+; EN: ZoneName="Storage"
+ZoneName="Magatzem"
+
+[ControlPoint2]
+; EN: PointName="Bridge"
+PointName="Pont"
+
+[ControlPoint1]
+; EN: PointName="Tower"
+PointName="Torre"
+
+[ZoneInfo1]
+; EN: ZoneName="Corridors"
+ZoneName="Passadissos"
+
+[ControlPoint0]
+; EN: PointName="Storage"
+PointName="Magatzem"
+
+[ZoneInfo5]
+; EN: ZoneName="Ripper Storage"
+ZoneName="Magatzem de Fulles"
+
+[LevelSummary]
+; EN: Title="Southside Leadworks"
+Title="Fundició de Plom del Costat Sud"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Entering the Southside Leadworks"
+LevelEnterText="Entrant a la Fundició de Plom del Costat Sud"

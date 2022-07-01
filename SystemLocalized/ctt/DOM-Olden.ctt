@@ -1,0 +1,41 @@
+﻿[LevelInfo0]
+; EN: Title="Olden Aquifer"
+Title="Aquífer Antic"
+IdealPlayerCount="4-6"
+
+[ZoneInfo2]
+; EN: ZoneName="Lower Point Room"
+ZoneName="Habitació del Punt Inferior"
+
+[ZoneInfo0]
+; EN: ZoneName="Central Room"
+ZoneName="Habitació Central"
+
+[ZoneInfo1]
+; EN: ZoneName="Upper Point Room"
+ZoneName="Habitació del Punt Superior"
+
+[ZoneInfo3]
+; EN: ZoneName="Chain Lift Room"
+ZoneName="Sala de l'Elevador a Cadenes"
+
+[ControlPoint1]
+; EN: PointName="Lower"
+PointName="Inferior"
+
+[ControlPoint2]
+; EN: PointName="Upper"
+PointName="Superior"
+
+[ControlPoint0]
+; EN: PointName="Mid"
+PointName="Mig"
+
+[WaterZone0]
+; EN: ZoneName="Aqueduct"
+ZoneName="Aqüeducte"
+
+[LevelSummary]
+; EN: Title="Olden Aquifer"
+Title="Aquífer Antic"
+IdealPlayerCount="4-6"

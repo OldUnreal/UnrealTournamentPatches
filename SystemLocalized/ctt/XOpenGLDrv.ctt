@@ -1,0 +1,20 @@
+﻿[Public]
+Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+Preferences=(Caption="XOpenGL",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True,Category="Options")
+Preferences=(Caption="Debug Options",Parent="XOpenGL",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True,Category="DebugOptions")
+
+[Errors]
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL="No es pot trobar el controlador OpenGL %ls"
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc="Falta la funció OpenGL %ls (%i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="No s'ha pogut definir la resolució"
+
+[XOpenGLRenderDevice]
+; EN: ClassCaption="XOpenGL"
+ClassCaption="XOpenGL"
+; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
+AskInstalled="Teniu instal·lada una targeta gràfica que admeti almenys la versió 3.3 d'OpenGL o superior?"
+; EN: AskUse="Do you want Unreal Tournament to use your OpenGL accelerator?"
+AskUse="Vols que Unreal Tournament empri la teva targeta acceleradora OpenGL?"

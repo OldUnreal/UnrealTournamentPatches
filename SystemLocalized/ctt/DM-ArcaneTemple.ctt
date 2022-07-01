@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+; EN: Title="Arcane Temple"
+Title="Temple Arcà"
+IdealPlayerCount="3-8"
+
+[LevelSummary]
+; EN: Title="Arcane Temple"
+Title="Temple Arcà"
+IdealPlayerCount="3-8"
+
+[WaterZone0]
+; EN: ZoneName="Top of the Cascade"
+ZoneName="Cim de la Cascada"
+
+[WaterZone1]
+; EN: ZoneName="Cascade Current"
+ZoneName="Corrent en Cascada"
+
+[WaterZone2]
+; EN: ZoneName="Redeemer Lake"
+ZoneName="Llac Redemptor"
+
+[WaterZone3]
+; EN: ZoneName="Ramps Area (Swimming)"
+ZoneName="Zona de Rampes (Nedant)"
+
+[ZoneInfo0]
+; EN: ZoneName="Outside"
+ZoneName="Fora"

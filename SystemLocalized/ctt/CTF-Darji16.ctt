@@ -1,0 +1,61 @@
+﻿[LevelInfo0]
+; EN: Title="Darji Outpost #16-A"
+Title="Darji Outpost #16-A"
+IdealPlayerCount="12-16"
+; EN: LevelEnterText="In the desert, there is pain."
+LevelEnterText="Al desert, hi ha dolor."
+
+[ZoneInfo1]
+; EN: ZoneName="Outside"
+ZoneName="Fora"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Crossway"
+ZoneName="Cruïlla Vermella"
+
+[ZoneInfo4]
+; EN: ZoneName="Blue Crossway"
+ZoneName="Cruïlla Blava"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Basement"
+ZoneName="Soterrani Blau"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Basement"
+ZoneName="Soterrani Vermell"
+
+[ZoneInfo7]
+; EN: ZoneName="Red Base"
+ZoneName="Base Vermella"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Blava"
+
+[ZoneInfo12]
+; EN: ZoneName="Blue Sniper Towers"
+ZoneName="Torres de Franctirador Blau"
+
+[ZoneInfo10]
+; EN: ZoneName="Red Sniper Towers"
+ZoneName="Torres de Franctirador Vermell"
+
+[LevelSummary]
+; EN: Title="Darji Outpost #16-A"
+Title="Darji Outpost #16-A"
+IdealPlayerCount="12-16"
+; EN: LevelEnterText="In the desert, there is pain."
+LevelEnterText="Al desert, hi ha dolor."
+
+[ZoneInfo11]
+; EN: ZoneName="Red Sniper Towers"
+ZoneName="Torres de Franctirador Vermell"
+
+[ZoneInfo13]
+; EN: ZoneName="Blue Sniper Towers"
+ZoneName="Torres de Franctirador Blau"
+
+[locationid0]
+; EN: LocationName="Blue Flagyard"
+LocationName="Pati de Bandera Blava"

@@ -1,0 +1,91 @@
+﻿[LevelInfo0]
+; EN: Title="Ocean Floor 'Station 5'"
+Title="Sòl Oceànic "Estació 5""
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="Controla la base submarina!"
+
+[ZoneInfo5]
+; EN: ZoneName="Middle Area"
+ZoneName="Zona Mitja"
+
+[ZoneInfo3]
+; EN: ZoneName="Large Docking Area"
+ZoneName="Zona de Desembarcat Gran"
+
+[ZoneInfo4]
+; EN: ZoneName="Small Docking Area"
+ZoneName="Zona de Desembarcat Petita"
+
+[ZoneInfo1]
+; EN: ZoneName="Submarine"
+ZoneName="Submarí"
+
+[ZoneInfo2]
+; EN: ZoneName="Command Center"
+ZoneName="Centre de Comandament"
+
+[ZoneInfo7]
+; EN: ZoneName="Hallway"
+ZoneName="Passadís"
+
+[SpecialEvent0]
+; EN: Message="Terminal 1 has been disabled."
+Message="La Terminal 1 s'ha desactivat."
+
+[FortStandard0]
+; EN: FortName="The Terminal 3"
+FortName="La Terminal 3"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="ha estat destruïda!!"
+
+[SpecialEvent10]
+; EN: Message="Terminal 4 has been disabled."
+Message="La Terminal 4 s'ha desactivat."
+
+[FortStandard1]
+; EN: FortName="The Terminal 1"
+FortName="La Terminal 1"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="ha estat destruïda!"
+
+[FortStandard2]
+; EN: FortName="The Terminal 2"
+FortName="La Terminal 2"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="ha estat destruïda!!"
+
+[FortStandard3]
+; EN: FortName="The Terminal 4"
+FortName="La Terminal 4"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="ha estat destruïda!"
+
+[LevelSummary]
+; EN: Title="Ocean Floor 'Station 5'"
+Title="Sòl Oceànic "Estació 5""
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="Controla la base submarina!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Swim out towards the base below the submarine. Inside the base there are 4 terminals with keyboards attached to them that need to be destroyed in order to render the base useless. Destroy terminal 1. The terminals can be destroyed in any order."
+ObjDesc[0]="Nadeu cap a la base per sota del submarí. A l'interior de la base hi ha 4 terminals amb teclats units que cal destruir per fer inútil la base. Destrueix el terminal 1. Els terminals es poden destruir en qualsevol ordre."
+; EN: ObjDesc[1]="Destroy terminal 2. The terminals can be destroyed in any order."
+ObjDesc[1]="Destrueix el terminal 2. Els terminals es poden destruir en qualsevol ordre."
+; EN: ObjDesc[2]="Destroy terminal 3. The terminals can be destroyed in any order."
+ObjDesc[2]="Destrueix el terminal 3. Els terminals es poden destruir en qualsevol ordre."
+; EN: ObjDesc[3]="Destroy terminal 4. The terminals can be destroyed in any order."
+ObjDesc[3]="Destrueix el terminal 4. Els terminals es poden destruir en qualsevol ordre."
+
+[ZoneInfo6]
+; EN: ZoneName="Elevator Shaft"
+ZoneName="Zona d'Elevador"
+
+[SpecialEvent15]
+; EN: Message="Terminal 3 has been disabled."
+Message="La Terminal 3 s'ha desactivat."
+
+[SpecialEvent5]
+; EN: Message="Terminal 2 has been disabled."
+Message="La Terminal 2 s'ha desactivat."

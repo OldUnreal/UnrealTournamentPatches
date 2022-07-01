@@ -1,0 +1,41 @@
+﻿[LevelInfo0]
+; EN: Title="Cinder Foundry"
+Title="Foneria de Carbó"
+IdealPlayerCount="6-12"
+
+[ZoneInfo18]
+; EN: ZoneName="Nook"
+ZoneName="Racó"
+
+[ZoneInfo21]
+; EN: ZoneName="South Side"
+ZoneName="Costat Sud"
+
+[ZoneInfo20]
+; EN: ZoneName="Lava"
+ZoneName="Lava"
+
+[ControlPoint2]
+; EN: PointName="Nook"
+PointName="Racó"
+
+[ControlPoint1]
+; EN: PointName="Lava"
+PointName="Lava"
+
+[ControlPoint0]
+; EN: PointName="Top"
+PointName="Superior"
+
+[ZoneInfo22]
+; EN: ZoneName="Tall Lift"
+ZoneName="Elevador Alt"
+
+[LevelSummary]
+; EN: Title="Cinder Foundry"
+Title="Foneria de Carbó"
+IdealPlayerCount="6-12"
+
+[ZoneInfo19]
+; EN: ZoneName="Main Area"
+ZoneName="Àrea Principal"
