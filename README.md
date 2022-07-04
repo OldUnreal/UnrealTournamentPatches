@@ -179,6 +179,7 @@ Localization credits:
 * Hellkeeper: French, fixes and maintenance.
 * Rackover/Louvenarde: French, additional contributions.
 * rarsonic: Spanish, additional contributions.
+* Alby1987: Italian, review and contributions.
 * UBerserker and TaglesMalsto: Italian, additional contributions.
 * u.HighPriest: Russian, localization author.
 * Skaarj ZR: Russian, additional contributions.

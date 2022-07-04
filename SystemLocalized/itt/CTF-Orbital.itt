@@ -9,35 +9,35 @@ ZoneName="Sala centrale"
 
 [ZoneInfo0]
 ; EN: ZoneName="Blue Main Base"
-ZoneName="Base principale blu"
+ZoneName="Base principale Blu"
 
 [ZoneInfo5]
 ; EN: ZoneName="Red Main Base"
-ZoneName="Base principale rossa"
+ZoneName="Base principale Rossa"
 
 [ZoneInfo1]
 ; EN: ZoneName="Blue Damage Amp Room"
-ZoneName="Blue Damage Amp Room"
+ZoneName="Stanza amplificatore danno Blu"
 
 [ZoneInfo6]
 ; EN: ZoneName="Red Damage Amp Room"
-ZoneName="Red Damage Amp Room"
+ZoneName="Stanza amplificatore danno Rossa"
 
 [ZoneInfo3]
 ; EN: ZoneName="Blue Sniper Halls"
-ZoneName="Sale dei cecchini blu"
+ZoneName="Sale cecchini Blu"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Flak Cannon Room"
-ZoneName="Blue Flak Cannon Room"
+ZoneName="Stanza cannone contraereo Blu"
 
 [ZoneInfo7]
 ; EN: ZoneName="Red Flak Cannon Room"
-ZoneName="Red Flak Cannon Room"
+ZoneName="Stanza cannone contraereo Rossa"
 
 [ZoneInfo8]
 ; EN: ZoneName="Red Sniper Halls"
-ZoneName="Sale dei cecchini rossi"
+ZoneName="Sale cecchini Rossa"
 
 [LevelSummary]
 ; EN: Title="Orbital Station #12"

@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Ocean Floor "Station 5""
-Title="Livello Oceano "Stazione 5""
+Title="Fondale Marino "Stazione 5""
 IdealPlayerCount="8-10"
 ; EN: LevelEnterText="Control the underwater base!"
 LevelEnterText="Controlla la base sottomarina!"
@@ -53,7 +53,7 @@ DestroyedMessage="è stato distrutto!"
 ; EN: FortName="The Terminal 2"
 FortName="Il Terminal 2"
 ; EN: DestroyedMessage="has been destroyed!!"
-DestroyedMessage="è stato distrutto !!"
+DestroyedMessage="è stato distrutto!!"
 
 [FortStandard3]
 ; EN: FortName="The Terminal 4"
@@ -63,7 +63,7 @@ DestroyedMessage="è stato distrutto!"
 
 [LevelSummary]
 ; EN: Title="Ocean Floor "Station 5""
-Title="Livello Oceano "Stazione 5""
+Title="Fondale Marino "Stazione 5""
 IdealPlayerCount="8-10"
 ; EN: LevelEnterText="Control the underwater base!"
 LevelEnterText="Controlla la base sottomarina!"

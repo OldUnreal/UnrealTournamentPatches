@@ -1,6 +1,7 @@
 [Public]
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.GameInfo,Class=Class,MetaClass=Engine.GameInfo)
 ; Main roots
 Preferences=(Caption="Advanced",Parent="Advanced Options")
 Preferences=(Caption="Rendering",Parent="Advanced Options")
@@ -78,7 +79,6 @@ OwnCamera="own camera"
 FailedView="Failed to change view."
 
 [Console]
-ClassCaption="Standard Unreal Tournament Console"
 LoadingMessage="LOADING"
 SavingMessage="SAVING"
 ConnectingMessage="CONNECTING"

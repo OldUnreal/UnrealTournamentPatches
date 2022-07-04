@@ -5,47 +5,47 @@ IdealPlayerCount="6-16"
 
 [ZoneInfo0]
 ; EN: ZoneName="Middle"
-ZoneName="Medio"
+ZoneName="Zona centrale"
 
 [ZoneInfo10]
 ; EN: ZoneName="Blue Flag Room"
-ZoneName="Camera Bandiera Blu"
+ZoneName="Camera bandiera Blu"
 
 [ZoneInfo9]
 ; EN: ZoneName="Red Flag Room"
-ZoneName="Camera Bandiera Rossa"
+ZoneName="Camera bandiera Rossa"
 
 [ZoneInfo3]
 ; EN: ZoneName="Red Ramps"
-ZoneName="Rampe rosse"
+ZoneName="Rampe Rosse"
 
 [ZoneInfo4]
 ; EN: ZoneName="Red Base"
-ZoneName="Base rossa"
+ZoneName="Base Rossa"
 
 [ZoneInfo1]
 ; EN: ZoneName="Blue Base"
-ZoneName="Base blu"
+ZoneName="Base Blu"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Ramps"
-ZoneName="Rampe blu"
+ZoneName="Rampe Blu"
 
 [ZoneInfo5]
 ; EN: ZoneName="Red Middle"
-ZoneName="Rosso medio"
+ZoneName="Zona centrale Rossa"
 
 [ZoneInfo6]
 ; EN: ZoneName="Blue Middle"
-ZoneName="Blu medio"
+ZoneName="Zona centrale Blu"
 
 [ZoneInfo8]
 ; EN: ZoneName="Red Basement"
-ZoneName="Seminterrato rosso"
+ZoneName="Seminterrato Rosso"
 
 [ZoneInfo7]
 ; EN: ZoneName="Blue Basement"
-ZoneName="Seminterrato blu"
+ZoneName="Seminterrato Blu"
 
 [KillingField0]
 ; EN: ZoneName="Really Dead"

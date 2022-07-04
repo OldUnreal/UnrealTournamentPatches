@@ -25,17 +25,17 @@ Object=(Name=BotPack.TFemale2Bot,Class=Class,MetaClass=BotPack.Bot,Description="
 ; EN: Object=(Name=BotPack.TFemale2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Female Soldier")
 Object=(Name=BotPack.TFemale2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Soldato Donna")
 ; EN: Object=(Name=BotPack.TBoss,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Boss")
-Object=(Name=BotPack.TBoss,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Capo")
+Object=(Name=BotPack.TBoss,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Boss")
 ; EN: Object=(Name=BotPack.TBossBot,Class=Class,MetaClass=BotPack.Bot,Description="Boss")
-Object=(Name=BotPack.TBossBot,Class=Class,MetaClass=BotPack.Bot,Description="Capo")
+Object=(Name=BotPack.TBossBot,Class=Class,MetaClass=BotPack.Bot,Description="Boss")
 ; EN: Object=(Name=BotPack.VoiceMaleOne,Class=Class,MetaClass=BotPack.VoiceMale,Description="Male One")
-Object=(Name=BotPack.VoiceMaleOne,Class=Class,MetaClass=BotPack.VoiceMale,Description="Maschio Uno")
+Object=(Name=BotPack.VoiceMaleOne,Class=Class,MetaClass=BotPack.VoiceMale,Description="Maschio 1")
 ; EN: Object=(Name=BotPack.VoiceFemaleOne,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Female One")
-Object=(Name=BotPack.VoiceFemaleOne,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Femmina Uno")
+Object=(Name=BotPack.VoiceFemaleOne,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Femmina 1")
 ; EN: Object=(Name=BotPack.VoiceMaleTwo,Class=Class,MetaClass=BotPack.VoiceMale,Description="Male Two")
-Object=(Name=BotPack.VoiceMaleTwo,Class=Class,MetaClass=BotPack.VoiceMale,Description="Maschio Due")
+Object=(Name=BotPack.VoiceMaleTwo,Class=Class,MetaClass=BotPack.VoiceMale,Description="Maschio 2")
 ; EN: Object=(Name=BotPack.VoiceFemaleTwo,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Female Two")
-Object=(Name=BotPack.VoiceFemaleTwo,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Femmina Due")
+Object=(Name=BotPack.VoiceFemaleTwo,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Femmina 2")
 ; EN: Object=(Name=BotPack.VoiceBoss,Class=Class,MetaClass=BotPack.VoiceBoss,Description="Robot")
 Object=(Name=BotPack.VoiceBoss,Class=Class,MetaClass=BotPack.VoiceBoss,Description="Robot")
 ; Weapons
@@ -71,9 +71,9 @@ Object=(Name=Botpack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,
 Object=(Name=Botpack.WarheadLauncher,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Redentore")
 ; Mutators
 ; EN: Object=(Name=Botpack.FatBoy,Class=Class,MetaClass=Engine.Mutator,Description="FatBoy,Everyone fattens when they frag a lot and become thinner when they get fragged.")
-Object=(Name=Botpack.FatBoy,Class=Class,MetaClass=Engine.Mutator,Description="Ragazzo Grasso,Tutti ingrassano quando si frantumano molto e diventano più sottili quando vengono frantumati.")
+Object=(Name=Botpack.FatBoy,Class=Class,MetaClass=Engine.Mutator,Description="Grasso,I giocatori ingrassano con le uccisioni, e dimagriscono se vengono uccisi.")
 ; EN: Object=(Name=Botpack.Stealth,Class=Class,MetaClass=Engine.Mutator,Description="Stealth,Everyone is invisible.")
-Object=(Name=Botpack.Stealth,Class=Class,MetaClass=Engine.Mutator,Description="Massiccia Invisibilità,Tutti sono invisibili.")
+Object=(Name=Botpack.Stealth,Class=Class,MetaClass=Engine.Mutator,Description="Invisibilità Totale,Tutti i giocatori sono invisibili.")
 ; EN: Object=(Name=Botpack.InstaGibDM,Class=Class,MetaClass=Engine.Mutator,Description="InstaGib,All weapons and items are removed from the map, and players have only an Enhanced Shock Rifle with infinite ammo.")
 Object=(Name=Botpack.InstaGibDM,Class=Class,MetaClass=Engine.Mutator,Description="InstaGib,Tutte le armi e gli oggetti vengono rimossi dalla mappa e i giocatori hanno solo un Fucile Shock potenziato con munizioni infinite.")
 ; EN: Object=(Name=Botpack.NoPowerups,Class=Class,MetaClass=Engine.Mutator,Description="No Powerups,Shield Belts, Damage Amplifiers, Big Kegs O' Health, and Invisibility powerups are removed from the match.")
@@ -83,25 +83,25 @@ Object=(Name=Botpack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Descrip
 ; EN: Object=(Name=Botpack.LowGrav,Class=Class,MetaClass=Engine.Mutator,Description="Low Gravity,Reduces overall gravity of the match.")
 Object=(Name=Botpack.LowGrav,Class=Class,MetaClass=Engine.Mutator,Description="Bassa Gravità,Riduce la gravità complessiva della partita.")
 ; EN: Object=(Name=Botpack.JumpMatch,Class=Class,MetaClass=Engine.Mutator,Description="Jump Match,Players will be able to jump extremely high.")
-Object=(Name=Botpack.JumpMatch,Class=Class,MetaClass=Engine.Mutator,Description="Partita di Salti,Consente ai giocatori di saltare estremamente in alto.")
+Object=(Name=Botpack.JumpMatch,Class=Class,MetaClass=Engine.Mutator,Description="Super Salti,Consente ai giocatori di saltare estremamente in alto.")
 ; EN: Object=(Name=Botpack.NoRedeemer,Class=Class,MetaClass=Engine.Mutator,Description="No Redeemer,The Redeemer is removed from the game.")
 Object=(Name=Botpack.NoRedeemer,Class=Class,MetaClass=Engine.Mutator,Description="Nessun Redentore,I Redentori vengono rimossi dalla partita.")
 ; EN: Object=(Name=Botpack.FlakArena,Class=Class,MetaClass=Engine.Mutator,Description="Flak Cannon Arena,All weapon and ammo pickups are replaced with Flak Cannons and Flak Ammo.")
-Object=(Name=Botpack.FlakArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Cannoni Contraereo,Tutti i pickup di armi e munizioni vengono sostituiti con munizioni Cannone Contraereo e Cannoni Contraereo.")
+Object=(Name=Botpack.FlakArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Cannoni Contraereo,Tutti i pickup di armi e munizioni vengono sostituiti con Cannoni Contraereo e relative munizioni.")
 ; EN: Object=(Name=Botpack.impactarena,Class=Class,MetaClass=Engine.Mutator,Description="Impact Hammer Arena,Weapons and items are removed from the match, and players only carry an Impact Hammer.")
-Object=(Name=Botpack.impactarena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Magli a Impatto,Le armi e gli oggetti vengono rimossi dalla partita ei giocatori portano solo un Maglio a Impatto.")
+Object=(Name=Botpack.impactarena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Magli a Impatto,Le armi e gli oggetti vengono rimossi dalla partita e i giocatori portano solo un Maglio a Impatto.")
 ; EN: Object=(Name=Botpack.ChainsawMelee,Class=Class,MetaClass=Engine.Mutator,Description="Chainsaw Melee,The Chainsaw replaces the Impact Hammer as the starting melee weapon.")
-Object=(Name=Botpack.ChainsawMelee,Class=Class,MetaClass=Engine.Mutator,Description="Motosega da Mischia,La Motosega sostituisce il Maglio a Impatto come arma da mischia iniziale.")
+Object=(Name=Botpack.ChainsawMelee,Class=Class,MetaClass=Engine.Mutator,Description="Motosega,La Motosega sostituisce il Maglio a Impatto come arma da mischia iniziale.")
 ; EN: Object=(Name=Botpack.SniperArena,Class=Class,MetaClass=Engine.Mutator,Description="Sniper Rifle Arena,All weapon and ammo pickups are replaced with Sniper Rifles and Sniper Ammo.")
-Object=(Name=Botpack.SniperArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Fucili di Precisione,Tutti i pickup di armi e munizioni vengono sostituiti con munizioni Fucile di Precisione e Fucili di Precisione.")
+Object=(Name=Botpack.SniperArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Fucili di Precisione,Tutti i pickup di armi e munizioni vengono sostituiti con Fucili di Precisione e relative munizioni.")
 ; EN: Object=(Name=Botpack.ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="Shock Rifle Arena,All weapon and ammo pickups are replaced with Shock Rifles and Shock Ammo.")
-Object=(Name=Botpack.ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Fucili Shock,Tutti i pickup di armi e munizioni vengono sostituiti con munizioni Fucile Shock e Fucili Shock.")
+Object=(Name=Botpack.ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Fucili Shock,Tutti i pickup di armi e munizioni vengono sostituiti con Fucili Shock e relative munizioni.")
 ; EN: Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Rocket Launcher Arena,All weapon and ammo pickups are replaced with Rocket Launchers and Rocket Ammo.")
-Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Lanciarazzi,Tutti i pickup di armi e munizioni vengono sostituiti con munizioni Lanciarazzi e Lanciarazzi.")
+Object=(Name=Botpack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Lanciarazzi,Tutti i pickup di armi e munizioni vengono sostituiti con Lanciarazzi e relative munizioni.")
 ; EN: Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Pulse Arena,All weapon and ammo pickups are replaced with Pulse Guns and Pulse Ammo.")
-Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Pistole a Impulsi,Tutti i pickup di armi e munizioni vengono sostituiti con munizioni Pistola a Impulsi e Pistole a Impulsi.")
+Object=(Name=Botpack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Pistole a Impulsi,Tutti i pickup di armi e munizioni vengono sostituiti con Pistole a Impulsi e relative munizioni.")
 ; EN: Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Minigun Arena,All weapon and ammo pickups are replaced with Miniguns and Minigun Ammo.")
-Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Mini-Cannoni,Tutti i pickup di armi e munizioni vengono sostituiti con munizioni Mini-Cannone e Mini-Cannoni.")
+Object=(Name=Botpack.MinigunArena,Class=Class,MetaClass=Engine.Mutator,Description="Solo Mini-Cannoni,Tutti i pickup di armi e munizioni vengono sostituiti con Mini-Cannoni e relative munizioni.")
 ; Map Lists
 ; EN: Object=(Name=BotPack.TDMDefaultMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Default Maps")
 Object=(Name=BotPack.TDMDefaultMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Mappe predefinite")
@@ -149,13 +149,13 @@ GameEndedMessage="vince la partita!"
 ; EN: SingleWaitingMessage="Press Fire to start."
 SingleWaitingMessage="Premi Fuoco per iniziare."
 ; EN: gamegoal="frags wins the match."
-gamegoal="uccisioni vince la partita."
+gamegoal="uccisioni per vincere la partita."
 ; EN: NoNameChange=" is already in use."
 NoNameChange=" è già in uso."
 ; EN: OvertimeMessage="Score tied at the end of regulation. Sudden Death Overtime!!!"
-OvertimeMessage="Punteggio in parità al termine della partita. Morte improvvisa straordinario !!!"
+OvertimeMessage="Parità al termine della partita. Tempo Supplementare con Morte Improvvisa!!!"
 ; EN: GameName="Tournament DeathMatch"
-GameName="Deathmatch nel Torneo"
+GameName="Deathmatch"
 
 [TournamentGameInfo]
 ; EN: DeathMessage[0]="killed"
@@ -332,7 +332,7 @@ FreelanceString="indipendente"
 [CTFGame]
 StartUpMessage=""
 ; EN: gamegoal="captures wins the match!"
-gamegoal="catture vince la partita!"
+gamegoal="catture per vincere la partita!"
 ; EN: GameName="Capture the Flag"
 GameName="Cattura la Bandiera"
 
@@ -351,9 +351,9 @@ TeamColor[2]="Verde"
 TeamColor[3]="Oro"
 StartupTeamTralier="."
 ; EN: StartUpMessage="Work with your teammates against the other teams."
-StartUpMessage="Opera con i tuoi compagni contro le altre squadre."
+StartUpMessage="Collabora con i tuoi compagni contro le altre squadre."
 ; EN: GameName="Tournament Team Game"
-GameName="Partita di Squadra nel Torneo"
+GameName="Deathmatch a squadre"
 
 [Assault]
 ; EN: AttackMessage="Take the enemy base!"
@@ -388,7 +388,7 @@ DestroyedMessage="è stato distrutto!"
 ; EN: StartUpMessage="Capture and hold control points to win."
 StartUpMessage="Per vincere, conquista e mantieni i punti di controllo."
 ; EN: gamegoal="points wins the match!"
-gamegoal="punti vince la partita!"
+gamegoal="punti per vincere la partita!"
 ; EN: GameName="Domination"
 GameName="Dominio"
 
@@ -439,7 +439,7 @@ SoundLengths[23]=8
 ; EN: 
 TutMessage[0]="Benvenuto all'addestramento per il Deathmatch. Si tratta di uno sport nel quale devi affrontare altri giocatori armati in un concitato scontro tutti contro tutti. L'obiettivo è annientare tutti i tuoi nemici con qualsiasi mezzo."
 ; EN: 
-TutMessage[1]="Ogni volta che elimini un nemico ottieni un punto, che nel linguaggio dei giochi viene detto 'uccisione'. Puoi vedere il totale delle tue uccisioni sul lato sinistro dello schermo. Al termine della partita, risulterà vincitore il giocatore col maggior numero di uccisioni."
+TutMessage[1]="Ogni volta che elimini un nemico ottieni un punto, cioè un 'uccisione'. Puoi vedere il totale delle tue uccisioni sul lato sinistro dello schermo. Al termine della partita, risulterà vincitore il giocatore col maggior numero di uccisioni."
 ; EN: 
 TutMessage[2]="Ricorda, se accidentalmente ti fai saltare in aria o cadi nella lava, perderai un'uccisione!"
 ; EN: 
@@ -454,10 +454,10 @@ TutMessage[6]="Un altro elemento importante negli spostamenti è il salto. Quest
 TutMessage[7]="Perfetto."
 ; N_K: Check this one!
 ; EN: 
-TutMessage[8]="Adesso parleremo dello sguardo col mouse. Muovi il mouse e nota come, così facendo, tu possa modificare la tua visuale. È così che puoi guardarti intorno e girarti."
+TutMessage[8]="Modifichiamo ora la visuale tramite mouse. Muovi il mouse e nota come, così facendo, puoi modificare la tua visuale. È così che puoi guardarti intorno e girarti."
 ; N_K: Check this one!
 ; EN: 
-TutMessage[9]="Prova a girarti intorno più volte muovendo il mouse da sinistra a destra, per dare uno sguardo all'arena da combattimento."
+TutMessage[9]="Prova a girarti intorno più volte muovendo il mouse da sinistra a destra, in modo da dare uno sguardo all'arena da combattimento."
 ; EN: 
 TutMessage[10]="Eccellente. Puoi anche spostare lo sguardo verticalmente, al fine di vedere cosa stia succedendo sopra e sotto di te. In un Deathmatch i tuoi nemici potranno attaccarti anche dall'alto e dal basso: ricordati quindi di tenere sempre gli occhi ben aperti."
 ; EN: 
@@ -475,7 +475,7 @@ TutMessage[16]="Grandioso! Il fuoco alternativo del Fucile Shock è più lento d
 ; EN: 
 TutMessage[17]="Bene, adesso sai come cambiare arma durante la battaglia. Tutte le armi presenti in Unreal Tournament sono efficaci sulla lunga distanza, tranne il Maglio a Impatto. Adesso premi 1 per passare al Maglio a Impatto."
 ; EN: 
-TutMessage[18]="Il Maglio a Impatto è un'arma utile negli scontri corpo a corpo. Richiede che tu sia molto vicino al bersaglio ma, se il colpo va a segno, il tuo nemico morirà quasi sempre sul colpo. Adesso premi e tieni premuto il tasto del fuoco primario per caricare il Maglio a Impatto."
+TutMessage[18]="Il Maglio a Impatto è un'arma utile negli scontri corpo a corpo. Richiede che tu sia molto vicino al bersaglio ma, se il colpo va a segno, il tuo nemico morirà quasi sempre all'istante. Adesso premi e tieni premuto il tasto del fuoco primario per caricare il Maglio a Impatto."
 ; EN: 
 TutMessage[19]="Ora avventati contro il Nali che ho appena generato. Quando sarai abbastanza vicino, il Maglio a Impatto verrà rilasciato, facendolo saltare in mille pezzi."
 ; EN: 
@@ -487,19 +487,19 @@ TutMessage[22]="Ottima mira, Tex. È ora di fare sul serio. Libererò un avversa
 ; EN: 
 TutMessage[23]="Congratulazioni! Ti sei dimostrato all'altezza di un Deathmatch. Adesso è giunto il momento di far sul serio col torneo Deathmatch."
 ; EN: 
-TutMessage4Parts[0]="Con i tasti cursore"
+TutMessage4Parts[0]="Con i tasti cursore potrai muoverti avanti"
 ; EN: 
-TutMessage4Parts[1]="potrai muoverti avanti"
+TutMessage4Parts[1]="e indietro"
 ; EN: 
-TutMessage4Parts[2]="e indietro"
+TutMessage4Parts[2]="ed effettuare gli spostamenti laterali"
 ; EN: 
-TutMessage4Parts[3]="ed effettuare gli"
+TutMessage4Parts[3]=" "
 ; EN: 
-TutMessage4Parts[4]="spostamenti laterali."
+TutMessage4Parts[4]="."
 ; EN: 
-TutMessage6Parts[0]="Un altro elemento importante negli spostamenti è il salto. Questo ti consente di raggiungere le aree rialzate della mappa e di superare fosse insidiose. Prova a saltare"
+TutMessage6Parts[0]="Un altro elemento importante negli spostamenti è il salto. Questo ti consente di raggiungere le aree rialzate della mappa e di superare fosse insidiose. Prova a saltare premendo il relativo tasto"
 ; EN: 
-TutMessage6Parts[1]="premendo il relativo tasto."
+TutMessage6Parts[1]="."
 ; EN: 
 TutMessage14Parts[0]="Perfetto, adesso siamo armati. Il gingillo che hai con te è comunemente chiamato Fucile Shock. Come tutte le armi del Torneo, ha due modalità di fuoco. Adesso proviamo a sparare. Premi il tasto del fuoco,"
 ; EN: 
@@ -516,7 +516,7 @@ GameName="Addestramento: DM"
 ; EN: DoubleName="Double Enforcers"
 DoubleName="Enforcer Doppi"
 ; EN: WeaponDescription="Classification: Light Pistol\n\nPrimary Fire: Accurate but slow firing instant hit.\n\nSecondary Fire: Sideways, or 'Gangsta' firing mode, shoots twice as fast and half as accurate as the primary fire.\n\nTechniques: Collect two for twice the damage."
-WeaponDescription="Classificazione: pistola leggera\n\nFuoco primario: preciso ma lento.\n\nFuoco secondario: spara lateralmente, alla 'gangster', con velocità doppia rispetto al fuoco primario ma precisione dimezzata.\n\nTecniche: raccogline due per raddoppiare i danni."
+WeaponDescription="Classificazione: Pistola Leggera\n\nFuoco primario: Preciso ma lento.\n\nFuoco secondario: Spara lateralmente, alla 'gangster', con velocità doppia rispetto al fuoco primario ma precisione dimezzata.\n\nTecniche: Raccogline due per raddoppiare i danni."
 ; EN: DeathMessage="%k riddled %o full of holes with the %w."
 DeathMessage="%k ha crivellato di colpi %o con il suo %w."
 ; EN: PickupMessage="You picked up another Enforcer!"
@@ -556,7 +556,7 @@ SoundLengths[26]=9
 ; EN: 
 TutMessage[0]="Benvenuto all'addestramento per il combattimento Cattura la bandiera. Questo tutorial ti insegnerà le regole di base di questo tipo di partita. Sono disponibili anche i tutorial per Deathmatch, Dominio e Assalto."
 ; EN: 
-TutMessage[1]="Iniziamo parlando dell'HUD. Controlla la bandiera aggiunge all'HUD dei nuovi elementi di cui è bene che tu sia al corrente."
+TutMessage[1]="Iniziamo parlando dell'HUD. Cattura la bandiera aggiunge all'HUD dei nuovi elementi di cui è bene che tu sia al corrente."
 ; EN: 
 TutMessage[2]="Il colore dell'HUD rappresenta la squadra alla quale appartieni. Il tuo HUD è rosso, a indicare che fai parte della squadra rossa."
 ; EN: 
@@ -576,12 +576,12 @@ TutMessage[9]="La colonna di sinistra riporta i giocatori e i punteggi della squ
 ; EN: 
 TutMessage[10]="Sulla sinistra puoi notare il tuo nome e l'attuale punteggio, pari a 0. Sopra al tuo nome si trova quello della squadra di cui fai parte. L'attuale punteggio della tua squadra è visualizzato a destra del suo nome."
 ; EN: 
-TutMessage[11]="Quando un giocatore, in una partita Cattura la bandiera, sta portando il vessillo, sul tabellone, accanto al suo nome, apparirà un piccolo puntino."
+TutMessage[11]="Quando un giocatore, in una partita Cattura la bandiera, sta portando il vessillo, sul tabellone, accanto al suo nome, apparirà un puntino."
 ; EN: 
 TutMessage[12]="Questo ti consente di stabilire rapidamente quale compagno proteggere o quale nemico abbattere."
 TutMessage[13]="Adesso è ora di imparare le regole di una partita Cattura la Bandiera."
 ; EN: 
-TutMessage[14]="In Cattura la bandiera puoi utilizzare il Traslocatore. Funziona come nel Dominio, con una leggera differenza. Non puoi teletrasportarti e portare con te la bandiera allo stesso tempo. Se ti teletrasporti mentre sei in possesso del vessillo nemico, tu riuscirai nell'intento, ma la bandiera sarà abbandonata a terra. Questo serve a impedire che tu possa usare il Traslocatore per tornare alla tua base dopo aver catturato la bandiera avversaria."
+TutMessage[14]="In Cattura la bandiera puoi utilizzare il Traslocatore. Funziona come nel Dominio, ma con una leggera differenza. Non puoi teletrasportarti e portare con te la bandiera allo stesso tempo. Se ti teletrasporti mentre sei in possesso del vessillo nemico, tu riuscirai nell'intento, ma la bandiera verrà abbandonata a terra. Questo serve a impedire che tu possa usare il Traslocatore per tornare alla tua base dopo aver catturato la bandiera avversaria."
 ; EN: 
 TutMessage[15]="Ogni mappa ha una base rossa e una blu. Questa è la base rossa. Quella blu si trova in fondo al corridoio. Ogni base contiene una bandiera."
 ; EN: 
@@ -599,11 +599,11 @@ TutMessage[21]="Ottimo lavoro! Hai catturato la bandiera nemica e segnato un pun
 ; EN: 
 TutMessage[22]="Il difficile arriva adesso. Fra qualche istante, genererò due bot per la squadra blu e un compagno rosso con i quali potrai fare pratica."
 ; EN: 
-TutMessage[23]="C'è un'ultima icona di stato che devi conoscere. Se un giocatore abbandona la bandiera mentre la sta portando con sé, all'interno dell'icona di stato della bandiera della sua squadra comparirà una freccia rivolta verso il basso."
+TutMessage[23]="C'è un'ultima icona di stato della quale devi sapere. Se un giocatore abbandona la bandiera mentre la sta portando con sé, all'interno dell'icona di stato della bandiera della sua squadra comparirà una freccia rivolta verso il basso."
 ; EN: 
 TutMessage[24]="Se trovi la tua bandiera per terra dopo avere ucciso un nemico che se n'era impadronito, ti basta toccarla affinché essa torni automaticamente alla tua base."
 ; EN: 
-TutMessage[25]="Così si conclude il tutorial per le partite Cattura la bandiera. Adesso genererò per te quei bot da addestramento. Buona caccia!"
+TutMessage[25]="Così si conclude il tutorial per le partite Cattura la bandiera. Ecco ora i bot da addestramento. Buona caccia!"
 ; EN: 
 TutMessage[26]="Congratulazioni! Ti sei dimostrato all'altezza delle partite Cattura la bandiera. Adesso è giunto il momento di far sul serio col torneo "Cattura la bandiera"."
 SingleWaitingMessage=""
@@ -666,7 +666,7 @@ TutMessage[14]="Riassumendo, ogni squadra deve individuare e conquistare determi
 ; EN: 
 TutMessage[15]="Questo congegno è chiamato 'traslocatore': puoi utilizzarlo per farti trasportare istantaneamente da una posizione all'altra. Premi il tasto del fuoco per lanciare il modulo di destinazione del traslocatore."
 ; EN: 
-TutMessage[16]="Adesso il modulo si trova per terra. Se premi il tasto del fuoco alternativo, verrai teletrasportato fino a esso. Allontanati dal modulo e prova a premere il tasto del fuoco alternativo."
+TutMessage[16]="Adesso il modulo si trova per terra. Se premi il tasto del fuoco alternativo, verrai teletrasportato fino a esso. Allontanati dal modulo e prova a farlo."
 ; EN: 
 TutMessage[17]="Bene, adesso sei tornato al modulo. Se lo disattivi, puoi passare a un'arma e, in seguito, tornare al traslocatore e attivarlo in qualsiasi momento."
 ; EN: 
@@ -674,7 +674,7 @@ TutMessage[18]="Se vedi il modulo di un traslocatore nemico per terra, puoi spar
 ; EN: 
 TutMessage[19]="È ora di fare una prova. Genererò due bot per la squadra avversaria e uno da mettere al tuo fianco. Vincerà la prima squadra che raggiungerà i 20 punti. Buona fortuna!"
 ; EN: 
-TutMessage[20]="Congratulazioni! Hai dato prova di essere all'altezza del Dominio. Adesso è giunto il momento di far sul serio col torneo "Dominio"."
+TutMessage[20]="Congratulazioni! Hai dato prova di essere all'altezza del Dominio. Adesso è giunto il momento di fare sul serio col torneo "Dominio"."
 StartUpMessage=""
 SingleWaitingMessage=""
 ; EN: GameName="Combat Training: DOM"
@@ -730,13 +730,13 @@ TeamName[1]="Squadra blu"
 ; EN: TeamName[2]="Green Team"
 TeamName[2]="Squadra verde"
 ; EN: TeamName[3]="Gold Team"
-TeamName[3]="Squadra dorada"
+TeamName[3]="Squadra oro"
 ; EN: OrdersString="Orders:"
 OrdersString="Ordini:"
 ; EN: InString="Location:"
 InString="Posizione:"
 ; EN: PlayersNotShown="Player[s] not shown."
-PlayersNotShown="Giocatore [i] non mostrato."
+PlayersNotShown="Giocatore/i non mostrato/i."
 
 [TournamentScoreBoard]
 ; EN: MapTitle="in"
@@ -754,7 +754,7 @@ ElapsedTime="Tempo trascorso: "
 ; EN: RemainingTime="Remaining Time: "
 RemainingTime="Tempo rimanente: "
 ; EN: FragGoal="Frag Limit:"
-FragGoal="Limite uccisioni:"
+FragGoal="Uccisioni per la vittoria:"
 ; EN: TimeLimit="Time Limit:"
 TimeLimit="Limite di tempo:"
 ; EN: PlayerString="Player"
@@ -770,7 +770,7 @@ TimeString="Tempo"
 ; EN: LossString="Loss"
 LossString="Perdita"
 ; EN: FPHString="FPH"
-FPHString="FPH"
+FPHString="U/O"
 
 [TournamentPickup]
 M_Activated=""
@@ -820,15 +820,15 @@ DamageString="%o è stato depressurizzato"
 
 [TBoss]
 ; EN: MenuName="Boss"
-MenuName="Capo"
+MenuName="Boss"
 
 [UT_Eightball]
 ; EN: WeaponDescription="Classification: Heavy Ballistic\n\nPrimary Fire: Slow moving but deadly rockets are fired at opponents. Trigger can be held down to load up to six rockets at a time, which can be fired at once.\n\nSecondary Fire: Grenades are lobbed from the barrel. Secondary trigger can be held as well to load up to six grenades.\n\nTechniques: Keeping this weapon pointed at an opponent will cause it to lock on, and while the gun is locked the next rocket fired will be a homing rocket.  Because the Rocket Launcher can load up multiple rockets, it fires when you release the fire button.  If you prefer, it can be configured to fire a rocket as soon as you press fire button down, at the expense of the multiple rocket load-up feature.  This is set in the Input Options menu."
-WeaponDescription="Classificazione: balistica pesante\n\nFuoco primario: spara dei razzi lenti ma letali contro gli avversari. Tenendo premuto il grilletto, puoi caricare fino a sei missili alla volta, che verranno lanciati contemporaneamente.\n\nFuoco secondario: dalla canna vengono lanciate delle granate. Tenendo premuto il grilletto secondario puoi caricare fino a sei granate.\n\nTecniche: tenendo quest'arma puntata contro un avversario, essa bloccherà il bersaglio e il successivo razzo sparato sarà a ricerca. Poiché il Lanciarazzi può caricare più razzi, esso sparerà quando rilascerai il tasto del fuoco. Se preferisci, può essere configurato per lanciare un missile quando il tasto viene premuto, rinunciando però alla possibilità di caricare più razzi. Questa funzione si trova nel menu Opzioni Input."
+WeaponDescription="Classificazione: Balistica Pesante\n\nFuoco primario: Spara dei razzi lenti ma letali contro gli avversari. Tenendo premuto il grilletto, puoi caricare fino a sei missili alla volta, che verranno lanciati contemporaneamente.\n\nFuoco secondario: Dalla canna vengono lanciate delle granate. Tenendo premuto il grilletto secondario puoi caricare fino a sei granate.\n\nTecniche: Tenendo quest'arma puntata contro un avversario, essa aggancerà il bersaglio e il successivo razzo sparato sarà a ricerca. Poiché il Lanciarazzi può caricare più razzi, esso sparerà quando rilascerai il tasto del fuoco. Se preferisci, può essere configurato per lanciare un missile quando il tasto viene premuto, rinunciando però alla possibilità di caricare più razzi. Questa funzione si trova nel menu Opzioni Input."
 ; EN: DeathMessage="%o was smacked down by %k's %w."
 DeathMessage="%o è stato abbattuto da %k col %w."
 ; EN: PickupMessage="You got the Rocket Launcher"
-PickupMessage="Hai il Lanciarazzi"
+PickupMessage="Hai raccolto un Lanciarazzi"
 ; EN: ItemName="Rocket Launcher"
 ItemName="Lanciarazzi"
 
@@ -899,15 +899,15 @@ TutMessage[2]="La partita si gioca fra due squadre, ognuna con un obiettivo dive
 ; EN: 
 TutMessage[3]="L'altra squadra dovrà difendersi. Il suo compito sarà proteggere la propria base e i suoi punti chiave dal gruppo d'assalto."
 ; EN: 
-TutMessage[4]="Se riesci, nel ruolo di chi attacca, a conquistare la base nemica, dovrai poi giocare nel ruolo di chi si difende per lo stesso ammontare di tempo."
+TutMessage[4]="Se riesci, nel ruolo di chi attacca, a conquistare la base nemica, dovrai poi giocare nel ruolo di chi si difende per lo stesso tempo."
 ; EN: 
 TutMessage[5]="Per esempio, se hai a disposizione 20 minuti per occupare la base avversaria e riesci a portare a termine l'operazione in 10, dovrai a tua volta difendere la tua postazione per 10 minuti. Più tempo impiegherai a conquistare la base nemica, più tempo dovrai passare a difendere la tua."
 ; EN: 
 TutMessage[6]="Ogni mappa d'Assalto presenta un disegno unico. L'apprendimento delle sue caratteristiche e lo sviluppo di strategie difensive e offensive potrebbe richiedere un po' di tempo."
 ; EN: 
-TutMessage[7]="All'inizio di ogni partita, ti trovi in modalità spettatore. Prima che lo scontro abbia inizio, puoi quindi andare in giro ed esplorare la mappa, in modo da familiarizzare con l'ambiente."
+TutMessage[7]="All'inizio di ogni partita ti trovi in modalità spettatore. Prima che lo scontro abbia inizio, puoi quindi andare in giro ed esplorare la mappa in modo da familiarizzare con l'ambiente."
 ; EN: 
-TutMessage[8]="Quando affronti una partita di Assalto con i bot, puoi utilizzare il menu Ordini per stabilire il comportamento di questi ultimi. Premendo il tasto "V" potrai accedere direttamente al menu Ordini e disporre i bot a tuo piacimento."
+TutMessage[8]="Quando affronti una partita di Assalto con i bot, puoi utilizzare il menu Ordini per stabilire il comportamento di questi ultimi. Premendo il tasto "V" accedi al menu Ordini e disponi i bot a tuo piacimento."
 ; EN: 
 TutMessage[9]="Lo scopo di questa mappa tutorial è penetrare nella base e distruggere il prototipo di un carro armato al plasma. Io genererò due bot nemici per cercare di fermarti, ma tu potrai contare sull'aiuto di un compagno."
 ; EN: 
@@ -922,7 +922,7 @@ GameName="Addestramento: AS"
 
 [UT_ShieldBelt]
 ; EN: PickupMessage="You got the Shield Belt"
-PickupMessage="Hai la Cintura Scudo"
+PickupMessage="Hai raccolto una Cintura Scudo"
 ; EN: ItemName="Shield Belt"
 ItemName="Cintura Scudo"
 
@@ -932,7 +932,7 @@ KilledString="è stato ucciso da"
 
 [TBossBot]
 ; EN: MenuName="Boss"
-MenuName="Capo"
+MenuName="Boss"
 
 [AssaultHUD]
 ; EN: IdentifyAssault=" !! Assault Target !! "
@@ -948,7 +948,7 @@ NameArticle="un "
 
 [ShockRifle]
 ; EN: WeaponDescription="Classification: Energy Rifle\n\nPrimary Fire: Instant hit laser beam.\n\nSecondary Fire: Large, slow moving plasma balls.\n\nTechniques: Hitting the secondary fire plasma balls with the regular fire's laser beam will cause an immensely powerful explosion."
-WeaponDescription="Classificazione: fucile a energia\n\nFuoco primario: raggio laser a effetto immediato.\n\nFuoco secondario: grosse ma lente sfere di plasma.\n\nTecniche: colpendo le sfere di plasma, sparate col fuoco secondario, con il raggio laser, causerai un'esplosione incredibilmente potente."
+WeaponDescription="Classificazione: Fucile a Energia\n\nFuoco primario: Raggio laser a effetto immediato.\n\nFuoco secondario: Grosse ma lente sfere di plasma.\n\nTecniche: Colpendo le sfere di plasma, sparate col fuoco secondario, con il raggio laser, causerai un'esplosione incredibilmente potente."
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k ha inflitto danno mortali a %o con il %w."
 ; EN: PickupMessage="You got the ASMD Shock Rifle."
@@ -960,7 +960,7 @@ ItemName="Fucile Shock"
 ; EN: HisMessage="his"
 HisMessage="il suo"
 ; EN: HerMessage="her"
-HerMessage="sua"
+HerMessage="la sua"
 
 [LMSScoreboard]
 ; EN: VictoryGoal="Be the last one alive!"
@@ -974,23 +974,23 @@ DamageString="%o è stato depressurizzato da %k."
 
 [PulseGun]
 ; EN: WeaponDescription="Classification: Plasma Rifle\n\nPrimary Fire: Medium sized, fast moving plasma balls are fired at a fast rate of fire.\n\nSecondary Fire: A bolt of green lightning is expelled for 100 meters, which will shock all opponents.\n\nTechniques: Firing and keeping the secondary fire's lightning on an opponent will melt them in seconds."
-WeaponDescription="Classificazione: fucile al plasma\n\nFuoco primario: vengono sparate in rapida successione delle veloci sfere di plasma di dimensioni medie.\n\nFuoco secondario: viene scagliata una saetta di energia verde che elettrifica tutti gli avversari in un raggio di 100 metri.\n\nTecniche: Sparando e tenendo premuto il tasto del fuoco secondario su un avversario, lo farai sciogliere nel giro di pochi secondi."
+WeaponDescription="Classificazione: Fucile al Plasma\n\nFuoco primario: Vengono sparate in rapida successione delle veloci sfere di plasma di dimensioni medie.\n\nFuoco secondario: Viene scagliata una saetta di energia verde che elettrifica tutti gli avversari in un raggio di 100 metri.\n\nTecniche: Sparando e tenendo premuto il tasto del fuoco secondario su un avversario, lo farai sciogliere nel giro di pochi secondi."
 ; EN: MessageNoAmmo=" has no Plasma."
 MessageNoAmmo=" non ha Plasma."
 ; EN: DeathMessage="%o ate %k's burning plasma death."
 DeathMessage="%o ha assaggiato il plasma letale di %k."
 ; EN: PickupMessage="You got a Pulse Gun"
-PickupMessage="Hai una Pistola a Impulsi"
+PickupMessage="Hai raccolto una Pistola a Impulsi"
 ; EN: ItemName="Pulse Gun"
 ItemName="Pistola a Impulsi"
 
 [ImpactHammer]
 ; EN: WeaponDescription="Classification: Melee Piston\n\nPrimary Fire: When trigger is held down, touch opponents with this piston to inflict massive damage.\n\nSecondary Fire: Damages opponents at close range and has the ability to deflect projectiles.\n\nTechniques: Shoot at the ground while jumping to jump extra high."
-WeaponDescription="Classificazione: mazza da mischia\n\nFuoco primario: tenendo premuto il grilletto, colpisci gli avversari con questo maglio per infliggere danni massicci.\n\nFuoco secondario: danneggia gli avversari vicini e ha la capacità di deviare i proiettili.\n\nTecniche: colpisci il suolo mentre salti per effettuare balzi molto più alti."
+WeaponDescription="Classificazione: Mazza da Mischia\n\nFuoco primario: Tenendo premuto il grilletto, colpisci gli avversari con questo maglio per infliggere danni massicci.\n\nFuoco secondario: Danneggia gli avversari vicini e ha la capacità di deviare i proiettili.\n\nTecniche: Colpisci il suolo mentre salti per effettuare balzi molto più alti."
 ; EN: DeathMessage="%o got smeared by %k's piston."
 DeathMessage="%o è stato smaciullato dal maglio di %k."
 ; EN: PickupMessage="You got the Impact Hammer"
-PickupMessage="Hai il Maglio a Impatto"
+PickupMessage="Hai raccolto un Maglio a Impatto"
 ; EN: ItemName="Impact Hammer"
 ItemName="Maglio a Impatto"
 
@@ -1008,9 +1008,9 @@ CaptureBlue="ha catturato la bandiera blu! La squadra rossa segna!"
 ; EN: CaptureRed="captured the red flag!  The blue team scores!"
 CaptureRed="ha catturato la bandiera! La squadra blu segna!"
 ; EN: DroppedBlue="dropped the blue flag!"
-DroppedBlue="ha abbandonato la bandiera blu!"
+DroppedBlue="ha fatto cadere la bandiera blu!"
 ; EN: DroppedRed="dropped the red flag!"
-DroppedRed="ha abbandonato la bandiera rossa!"
+DroppedRed="ha fatto cadere la bandiera rossa!"
 ; EN: HasBlue="has the blue flag!"
 HasBlue="ha la bandiera blu!"
 ; EN: HasRed="has the red flag!"
@@ -1018,37 +1018,37 @@ HasRed="ha la bandiera rossa!"
 
 [WarheadLauncher]
 ; EN: WeaponDescription="Classification: Thermonuclear Device\n\nPrimary Fire: Launches a huge yet slow moving missile that, upon striking a solid surface, will explode and send out a gigantic shock wave, instantly pulverizing anyone or anything within its colossal radius, including yourself.\n\nSecondary Fire: Take control of the missile and fly it anywhere.  You can press the primary fire button to explode the missile early.\n\nTechniques: Remember that while this rocket is being piloted you are a sitting duck.  If an opponent manages to hit your incoming Redeemer missile while it's in the air, the missile will explode harmlessly."
-WeaponDescription="Classificazione: congegno termonucleare\n\nFuoco primario: lancia un missile di grandi dimensioni ma lento che, a contatto con una superficie solida, esploderà scatenando una gigantesca onda d'urto, polverizzando all'istante tutto quello che si trova all'interno del suo raggio d'azione, te compreso.\n\nFuoco secondario: prendi controllo del missile e guidalo dove vuoi. Puoi premere il tasto del fuoco primario per fare esplodere il razzo in anticipo.\n\nTecniche: ricorda che, mentre stai pilotando il razzo, sei un facile bersaglio. Se un avversario riesce a colpire il tuo missile mentre questo si trova in aria, esso esploderà innocuamente."
+WeaponDescription="Classificazione: Congegno Termonucleare\n\nFuoco primario: Lancia un missile di grandi dimensioni ma lento che, a contatto con una superficie solida, esploderà scatenando una gigantesca onda d'urto, polverizzando all'istante tutto quello che si trova all'interno del suo raggio d'azione, te compreso.\n\nFuoco secondario: Prendi controllo del missile e guidalo dove vuoi. Puoi premere il tasto del fuoco primario per fare esplodere il razzo in anticipo.\n\nTecniche: Ricorda che, mentre stai pilotando il razzo, sei un facile bersaglio. Se un avversario riesce a colpire il tuo missile mentre questo si trova in aria, esso esploderà innocuamente."
 ; EN: DeathMessage="%o was vaporized by %k's %w!!"
 DeathMessage="%o è stato vaporizzato da %k con il %w!!"
 ; EN: PickupMessage="You got the Redeemer"
-PickupMessage="Hai il Redentore"
+PickupMessage="Hai raccolto un Redentore"
 ; EN: ItemName="Redeemer"
 ItemName="Redentore"
 
 [SniperRifle]
 ; EN: WeaponDescription="Classification: Long Range Ballistic\n\nRegular Fire: Fires a high powered bullet. Can kill instantly when applied to the cranium of opposing forces. \n\nSecondary Fire: Zooms the rifle in, up to eight times normal vision. Allows for extreme precision from hundreds of yards away.\n\nTechniques: Great for long distance headshots!"
-WeaponDescription="Classifizione: arma a lunga gittata\n\nFuoco primario: spara dei potenti proiettili che, se colpiscono il cranio di un avversario, sono in grado di uccidere all'istante. \n\nFuoco secondario: attiva lo zoom, fino a otto volte la normale visuale. Consente la massima precisione anche da centinaia di metri di distanza.\n\nTecniche: ottimo per piazzare un colpo in testa al nemico dalla lunga distanza!"
+WeaponDescription="Classifizione: Arma a Lunga Gittata\n\nFuoco primario: Spara dei potenti proiettili che, se colpiscono il cranio di un avversario, sono in grado di uccidere all'istante. \n\nFuoco secondario: Attiva lo zoom, fino a otto volte la normale visuale. Consente la massima precisione anche da centinaia di metri di distanza.\n\nTecniche: Ottimo per piazzare un colpo in testa al nemico dalla lunga distanza!"
 ; EN: DeathMessage="%k put a bullet through %o's head."
-DeathMessage="%k ha messo una palla in testa a %o."
+DeathMessage="%k ha messo un proiettile in testa a %o."
 ; EN: PickupMessage="You got a Sniper Rifle"
-PickupMessage="Hai un fucile di precisione"
+PickupMessage="Hai raccolto un fucile di precisione"
 ; EN: ItemName="Sniper Rifle"
 ItemName="Fucile di Precisione"
 
 [UDamage]
 ; EN: PickupMessage="You got the Damage Amplifier!"
-PickupMessage="Hai l'Amplificatore di Danni!"
+PickupMessage="Hai raccolto un Amplificatore di Danni!"
 ; EN: ItemName="Damage Amplifier"
 ItemName="Amplificatore di Danni"
 
 [UT_FlakCannon]
 ; EN: WeaponDescription="Classification: Heavy Shrapnel\n\nPrimary Fire: White hot chunks of scrap metal are sprayed forth, shotgun style.\n\nSecondary Fire: A grenade full of shrapnel is lobbed at the enemy. The grenade can hurt you if you're in its splash range.\n\nTechniques: The Flak Cannon is far more useful in close range combat situations."
-WeaponDescription="Classificazione: granate pesanti\n\nFuoco primario: vengono sparate delle schegge di metallo frammentato.\n\nFuoco secondario: viene lanciata contro il nemico una granata infarcita di schegge.\n\nTecniche: il cannone contraereo è molto più utile nelle situazioni di combattimento ravvicinato."
+WeaponDescription="Classificazione: Granate Pesanti\n\nFuoco primario: Vengono sparate delle schegge di metallo frammentato.\n\nFuoco secondario: Viene lanciata contro il nemico una granata infarcita di schegge.\n\nTecniche: Il cannone contraereo è molto più utile nelle situazioni di combattimento ravvicinato."
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="%o è stato ridotto a brandelli da %k col %w."
 ; EN: PickupMessage="You got the Flak Cannon"
-PickupMessage="Hai il cannone contraereo"
+PickupMessage="Hai raccolto un Cannone Contraereo"
 ; EN: ItemName="Flak Cannon"
 ItemName="Cannone Contraereo"
 
@@ -1074,26 +1074,26 @@ ESCMessage="Premi ESC per continuare..."
 
 [ut_biorifle]
 ; EN: WeaponDescription="Classification: Toxic Rifle\n\nPrimary Fire: Wads of Tarydium byproduct are lobbed at a medium rate of fire.\n\nSecondary Fire: When trigger is held down, the BioRifle will create a much larger wad of byproduct. When this wad is launched, it will burst into smaller wads which will adhere to any surfaces. If the projectile hits another player, or the user is hit instead, it can kill them instantly.\n\nTechniques: Byproducts will adhere to walls, floors, or ceilings. Chain reactions can be caused by covering entryways with this lethal green waste."
-WeaponDescription="Classificazione: fucile tossico\n\nFuoco primario: vengono lanciati, a velocità di fuoco media, dei grumi di sottoprodotti del tarydium .\n\nFuoco secondario: tenendo premuto il grilletto, il biofucile creerà un grumo di maggiori dimensioni. Quando questo viene lanciato, esploderà in diversi grumi più piccoli, in grado di aderire a qualsiasi superficie.\n\nTecniche: i sottoprodotti si attaccheranno alle pareti, al pavimento o al soffitto. E' possibile causare delle reazioni a catena coprendo le vie d'accesso con questi letali scarti verdi."
+WeaponDescription="Classificazione: Fucile Tossico\n\nFuoco primario: Vengono lanciati, a velocità di fuoco media, dei grumi di sottoprodotti del tarydium .\n\nFuoco secondario: Tenendo premuto il grilletto, il biofucile creerà un grumo di maggiori dimensioni. Quando questo viene lanciato, esploderà in diversi grumi più piccoli, in grado di aderire a qualsiasi superficie.\n\nTecniche: I sottoprodotti si attaccheranno alle pareti, al pavimento o al soffitto. E' possibile causare delle reazioni a catena coprendo le vie d'accesso con questi letali scarti verdi."
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o si è bevuto un bicchiere dell'unto liquido di %k."
 ; EN: PickupMessage="You got the GES BioRifle."
-PickupMessage="Hai il BioFucile GES"
+PickupMessage="Hai raccolto un BioFucile GES"
 ; EN: ItemName="GES BioRifle"
 ItemName="Bio Fucile GES"
 
 [minigun2]
 ; EN: WeaponDescription="Classification: Gatling Gun\n\nPrimary Fire: Bullets are sprayed forth at a medium to fast rate of fire and good accuracy.\n\nSecondary Fire: Minigun fires twice as fast and is half as accurate.\n\nTechniques: Secondary fire is much more useful at close range, but can eat up tons of ammunition."
-WeaponDescription="Classificazione: cannoncino\n\nFuoco primario: vengono sparati proiettili con velocità di fuoco media e buona precisione.\n\nFuoco secondario: il Mini-Cannone spara a velocità doppia ma con la metà della precisione.\n\nTecniche: il fuoco secondario è molto più efficace a breve distanza, ma consuma tonnellate di munizioni."
+WeaponDescription="Classificazione: Mitragliatrice\n\nFuoco primario: Vengono sparati proiettili con velocità di fuoco media e buona precisione.\n\nFuoco secondario: Il Mini-Cannone spara a velocità doppia ma con la metà della precisione.\n\nTecniche: Il fuoco secondario è molto più efficace a breve distanza, ma consuma tonnellate di munizioni."
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
 DeathMessage="%k, con il %w, ha crivellato di colpi %o."
 ; EN: PickupMessage="You got the Minigun"
-PickupMessage="Hai il Mini-Cannone"
+PickupMessage="Hai raccolto un Mini-Cannone"
 ItemName="Mini-Cannone"
 
 [ChainSaw]
 ; EN: WeaponDescription="Classification: Melee Blade\n\nPrimary Fire: When the trigger is held down, the chain covered blade will rev up. Drive this blade into opponents to inflict massive damage.\n\nSecondary Fire: The revved up blade can be swung horizontally and can cause instant decapitation of foes.\n\nTechniques: The chainsaw makes a loud and recognizable roar and can be avoided by listening for audio cues."
-WeaponDescription="Classificazione: lama da mischia\n\nFuoco primario: tenendo premuto il grilletto, la sega si metterà in moto. Portatela contro i nemici per infliggere danni massicci.\n\nFuoco secondario: una volta azionata, la lama può essere utilizzata orizzontalmente per decapitare i nemici.\n\nTecniche: la motosega produce un rumore forte e facilmente riconoscibile e può quindi essere evitata tenendo le orecchie aperte."
+WeaponDescription="Classificazione: Lama da Mischia\n\nFuoco primario: Tenendo premuto il grilletto, la sega si metterà in moto. Portatela contro i nemici per infliggere danni massicci.\n\nFuoco secondario: Una volta azionata, la lama può essere utilizzata orizzontalmente per decapitare i nemici.\n\nTecniche: La motosega produce un rumore forte e facilmente riconoscibile e può quindi essere evitata tenendo le orecchie aperte."
 ; EN: DeathMessage="%k ripped into %o with a blood soaked %w."
 DeathMessage="%k ha squarciato %o con la sua sanguinaria %w."
 ; EN: PickupMessage="It's been five years since I've seen one of these"
@@ -1119,7 +1119,7 @@ AckTime[2]=0.980000
 FFireString[0]="Ehi! Stessa squadra!"
 FFireString[1]="Sono della tua squadra, idiota!"
 FFireAbbrev[0]=""
-FFireAbbrev[1]=""
+FFireAbbrev[1]="Sono della tua squadra."
 TauntString[0]="Beccati questo!"
 TauntString[1]="Ti piace?"
 TauntString[2]="Buffone!"
@@ -1167,7 +1167,7 @@ TauntAbbrev[18]=""
 TauntAbbrev[19]=""
 TauntAbbrev[20]=""
 TauntAbbrev[21]=""
-TauntAbbrev[22]=""
+TauntAbbrev[22]="Qualcun altro?"
 TauntAbbrev[23]=""
 TauntAbbrev[24]=""
 OrderString[0]="Difendi la base."
@@ -1177,11 +1177,11 @@ OrderString[3]="Coprimi."
 OrderString[4]="Agisci secondo i parametri operativi."
 OrderString[10]="Prendi la loro bandiera."
 OrderString[11]="Snidali e falli fuori."
-OrderAbbrev[0]=""
+OrderAbbrev[0]="Difendi."
 OrderAbbrev[1]=""
-OrderAbbrev[2]=""
+OrderAbbrev[2]="Attacca."
 OrderAbbrev[3]=""
-OrderAbbrev[4]=""
+OrderAbbrev[4]="Libero."
 OrderAbbrev[10]=""
 OrderAbbrev[11]=""
 otherstring[0]="La base è indifesa!"
@@ -1203,21 +1203,21 @@ otherstring[15]="Ti sono alle spalle."
 otherstring[16]="Obiettivo distrutto."
 otherstring[17]="Un dottore!"
 OtherAbbrev[0]=""
-OtherAbbrev[1]=""
-OtherAbbrev[2]=""
-OtherAbbrev[3]=""
+OtherAbbrev[1]="Prendete la bandiera!"
+OtherAbbrev[2]="Ho la bandiera."
+OtherAbbrev[3]="Ti sono alle spalle."
 OtherAbbrev[4]=""
 OtherAbbrev[5]=""
-OtherAbbrev[6]=""
+OtherAbbrev[6]="Sotto attacco!"
 OtherAbbrev[7]=""
-OtherAbbrev[8]=""
-OtherAbbrev[9]=""
+OtherAbbrev[8]="Ho la nostra bandiera."
+OtherAbbrev[9]="Sono in posizione."
 OtherAbbrev[10]=""
-OtherAbbrev[11]=""
-OtherAbbrev[12]=""
+OtherAbbrev[11]="Il punto è al sicuro."
+OtherAbbrev[12]="La bandiera nemica è qui."
 OtherAbbrev[13]=""
 OtherAbbrev[14]=""
-OtherAbbrev[15]=""
+OtherAbbrev[15]="Ti sono alle spalle."
 OtherAbbrev[16]=""
 OtherAbbrev[17]=""
 
@@ -1266,13 +1266,13 @@ BotBio[7]="La vita di Sara è dedicata alla protezione del prossimo. Il suo serv
 
 [TournamentHealth]
 ; EN: PickupMessage="You picked up a Health Pack +"
-PickupMessage="Hai raccolto un pacchetto salute +"
+PickupMessage="Hai raccolto un Medikit +"
 ; EN: ItemName="Health Pack"
-ItemName="Pacchetto Salute"
+ItemName="Medikit"
 
 [DeathMatchMessage]
 ; EN: OvertimeMessage="Score tied at the end of regulation. Sudden Death Overtime!!!"
-OvertimeMessage="Punteggio in parità al termine della partita. Morte improvvisa straordinario !!!"
+OvertimeMessage="Parità al termine della partita. Tempo Supplementare con Morte Improvvisa!!!"
 ; EN: GlobalNameChange="changed name to"
 GlobalNameChange="ha cambiato nome in"
 ; EN: NewTeamMessage="is now on"
@@ -1288,13 +1288,13 @@ MenuName="Commando Uomo"
 
 [Armor2]
 ; EN: PickupMessage="You got the Body Armor"
-PickupMessage="Hai la Corazza"
+PickupMessage="Hai raccolto una Corazza"
 ; EN: ItemName="Body Armor"
 ItemName="Corazza"
 
 [ThighPads]
 ; EN: PickupMessage="You got the Thigh Pads."
-PickupMessage="Hai i Paracosce"
+PickupMessage="Hai raccolto dei Paracosce"
 ; EN: ItemName="Thigh Pads"
 ItemName="Paracosce"
 
@@ -1306,8 +1306,8 @@ NameTime[2]=1.020000
 NameTime[3]=0.990000
 AckString[0]="OK"
 AckString[1]="Ricevuto"
-AckString[2]="Subito"
-AckString[3]="Ci sono."
+AckString[2]="Sto arrivando"
+AckString[3]="Ci sono"
 AckAbbrev[0]=""
 AckAbbrev[1]=""
 AckAbbrev[2]=""
@@ -1324,7 +1324,7 @@ TauntString[0]="Beccati questo!"
 TauntString[1]="Ti piace?"
 TauntString[2]="Sì, verme!"
 TauntString[3]="Boom!"
-TauntString[4]="Brucia, baby"
+TauntString[4]="Brucia, baby!"
 TauntString[5]="Divertiamoci un po'!"
 TauntString[6]="Muori."
 TauntString[7]="Fallito."
@@ -1348,7 +1348,7 @@ TauntAbbrev[8]=""
 TauntAbbrev[9]=""
 TauntAbbrev[10]=""
 TauntAbbrev[11]=""
-TauntAbbrev[12]=""
+TauntAbbrev[12]="Massacrato."
 TauntAbbrev[13]=""
 TauntAbbrev[14]=""
 TauntAbbrev[15]=""
@@ -1359,11 +1359,11 @@ OrderString[3]="Coprimi."
 OrderString[4]="Agisci secondo i parametri operativi."
 OrderString[10]="Prendi la loro bandiera."
 OrderString[11]="Snidali e falli fuori."
-OrderAbbrev[0]=""
+OrderAbbrev[0]="Difendi."
 OrderAbbrev[1]=""
-OrderAbbrev[2]=""
+OrderAbbrev[2]="Attacca."
 OrderAbbrev[3]=""
-OrderAbbrev[4]=""
+OrderAbbrev[4]="Libero."
 OrderAbbrev[10]=""
 OrderAbbrev[11]=""
 otherstring[0]="La base è indifesa!"
@@ -1384,22 +1384,23 @@ otherstring[14]="Tirali giù."
 otherstring[15]="Ti sto coprendo."
 otherstring[16]="Obiettivo distrutto."
 OtherAbbrev[0]=""
-OtherAbbrev[1]=""
-OtherAbbrev[2]=""
-OtherAbbrev[3]=""
+OtherAbbrev[1]="Prendete la bandiera!"
+OtherAbbrev[2]="Ho la bandiera."
+OtherAbbrev[3]="Ti sono alle spalle."
 OtherAbbrev[4]=""
 OtherAbbrev[5]=""
-OtherAbbrev[6]=""
+OtherAbbrev[6]="Sotto attacco!"
 OtherAbbrev[7]=""
-OtherAbbrev[8]=""
-OtherAbbrev[9]=""
+OtherAbbrev[8]="Ho la nostra bandiera."
+OtherAbbrev[9]="Sono in posizione."
 OtherAbbrev[10]=""
-OtherAbbrev[11]=""
-OtherAbbrev[12]=""
+OtherAbbrev[11]="Il punto è al sicuro."
+OtherAbbrev[12]="La bandiera nemica è qui."
 OtherAbbrev[13]=""
 OtherAbbrev[14]=""
-OtherAbbrev[15]=""
+OtherAbbrev[15]="Ti sto coprendo."
 OtherAbbrev[16]=""
+OtherAbbrev[17]=""
 
 [VoiceBoss]
 ; Note: Translated lines and their lengths MUST be synced with their respective lines from BossVoice.uax_itt! Also use the Abbrev fields if the respective item String doesn't fit in the Voice Orders menu. For example, if TauntString="Anyone else want some?", then TauntAbbrev could be TauntAbbrev="Anyone else?". I'll leave that criteria to you. - N_K
@@ -1410,7 +1411,7 @@ NameTime[3]=0.990000
 AckString[0]="OK"
 AckString[1]="Ricevuto"
 AckString[2]="Subito"
-AckString[3]="Ci sono"
+AckString[3]=""
 AckAbbrev[0]=""
 AckAbbrev[1]=""
 AckAbbrev[2]=""
@@ -1421,11 +1422,11 @@ AckTime[2]=0.980000
 AckTime[3]=0.980000
 FFireString[0]="Sono della tua squadra!"
 FFireString[1]="Stessa squadra!"
-FFireAbbrev[0]=""
+FFireAbbrev[0]="Nella tua squadra!"
 FFireAbbrev[1]=""
 TauntString[0]="Inchinati!"
 TauntString[1]="Muori, umano."
-TauntString[2]="Forma di vita obiettivo eliminata."
+TauntString[2]="Obiettivo 'Forma di vita' eliminato."
 TauntString[3]="È troppo facile ucciderti."
 TauntString[4]="Inutile."
 TauntString[5]="Inizia a tremare."
@@ -1439,19 +1440,19 @@ TauntString[12]="Ammira la mia perfezione."
 TauntString[13]="Boom!"
 TauntString[14]="È casa mia."
 TauntString[15]="Sotto il prossimo."
-TauntString[16]="Brucia, baby"
+TauntString[16]="Brucia, baby!"
 TauntString[17]="Qualcun altro ne vuole un po'?"
 TauntString[18]="Ti ho fatto male."
 TauntString[19]="Sento il fuoco nelle vene."
 TauntAbbrev[0]=""
 TauntAbbrev[1]=""
-TauntAbbrev[2]=""
+TauntAbbrev[2]="'Forma di vita' eliminato."
 TauntAbbrev[3]=""
 TauntAbbrev[4]=""
 TauntAbbrev[5]=""
 TauntAbbrev[6]=""
 TauntAbbrev[7]=""
-TauntAbbrev[8]=""
+TauntAbbrev[8]="Alfa/Omega."
 TauntAbbrev[9]=""
 TauntAbbrev[10]=""
 TauntAbbrev[11]=""
@@ -1460,7 +1461,7 @@ TauntAbbrev[13]=""
 TauntAbbrev[14]=""
 TauntAbbrev[15]=""
 TauntAbbrev[16]=""
-TauntAbbrev[17]=""
+TauntAbbrev[17]="Qualcun altro?"
 TauntAbbrev[18]=""
 TauntAbbrev[19]=""
 OrderString[0]="Difendi la base."
@@ -1470,11 +1471,11 @@ OrderString[3]="Coprimi."
 OrderString[4]="Agisci secondo i parametri operativi."
 OrderString[10]="Prendi la loro bandiera."
 OrderString[11]="Snidali e falli fuori."
-OrderAbbrev[0]=""
+OrderAbbrev[0]="Difendi."
 OrderAbbrev[1]=""
-OrderAbbrev[2]=""
+OrderAbbrev[2]="Attacca."
 OrderAbbrev[3]=""
-OrderAbbrev[4]=""
+OrderAbbrev[4]="Libero."
 OrderAbbrev[10]=""
 OrderAbbrev[11]=""
 otherstring[0]="La base è indifesa!"
@@ -1495,21 +1496,21 @@ otherstring[14]="Arrivo!"
 otherstring[15]="Ti sono alle spalle."
 otherstring[16]="Obiettivo distrutto."
 OtherAbbrev[0]=""
-OtherAbbrev[1]=""
-OtherAbbrev[2]=""
-OtherAbbrev[3]=""
+OtherAbbrev[1]="Prendete la bandiera!"
+OtherAbbrev[2]="Ho la bandiera."
+OtherAbbrev[3]="Ti sono alle spalle."
 OtherAbbrev[4]=""
 OtherAbbrev[5]=""
-OtherAbbrev[6]=""
+OtherAbbrev[6]="Sotto attacco!"
 OtherAbbrev[7]=""
-OtherAbbrev[8]=""
-OtherAbbrev[9]=""
+OtherAbbrev[8]="Ho la nostra bandiera."
+OtherAbbrev[9]="Sono in posizione."
 OtherAbbrev[10]=""
-OtherAbbrev[11]=""
-OtherAbbrev[12]=""
+OtherAbbrev[11]="Il punto è al sicuro."
+OtherAbbrev[12]="La bandiera nemica è qui."
 OtherAbbrev[13]=""
 OtherAbbrev[14]=""
-OtherAbbrev[15]=""
+OtherAbbrev[15]="Ti sono alle spalle."
 OtherAbbrev[16]=""
 
 [RatedTeamInfo3]
@@ -1568,7 +1569,7 @@ AckTime[2]=0.930000
 FFireString[0]="Stessa squadra!"
 FFireString[1]="Sono della tua squadra, idiota!"
 FFireAbbrev[0]=""
-FFireAbbrev[1]=""
+FFireAbbrev[1]="Sono della tua squadra!"
 TauntString[0]="Beccati questo!"
 TauntString[1]="Buffone!"
 TauntString[2]="Beccato!"
@@ -1594,8 +1595,8 @@ TauntString[21]="Divertiamoci un po'!"
 TauntAbbrev[0]=""
 TauntAbbrev[1]=""
 TauntAbbrev[2]=""
-TauntAbbrev[3]=""
-TauntAbbrev[4]=""
+TauntAbbrev[3]="Brutto colpo!"
+TauntAbbrev[4]="Qualcun altro?"
 TauntAbbrev[5]=""
 TauntAbbrev[6]=""
 TauntAbbrev[7]=""
@@ -1606,8 +1607,8 @@ TauntAbbrev[11]=""
 TauntAbbrev[12]=""
 TauntAbbrev[13]=""
 TauntAbbrev[14]=""
-TauntAbbrev[15]=""
-TauntAbbrev[16]=""
+TauntAbbrev[15]="Massacrato!"
+TauntAbbrev[16]="Saltare la testa?"
 TauntAbbrev[17]=""
 TauntAbbrev[18]=""
 TauntAbbrev[19]=""
@@ -1620,11 +1621,11 @@ OrderString[3]="Coprimi."
 OrderString[4]="Agisci secondo i parametri operativi."
 OrderString[10]="Prendi la loro bandiera."
 OrderString[11]="Snidali e falli fuori."
-OrderAbbrev[0]=""
+OrderAbbrev[0]="Difendi."
 OrderAbbrev[1]=""
-OrderAbbrev[2]=""
+OrderAbbrev[2]="Attacca."
 OrderAbbrev[3]=""
-OrderAbbrev[4]=""
+OrderAbbrev[4]="Libero."
 OrderAbbrev[10]=""
 OrderAbbrev[11]=""
 otherstring[0]="La base è indifesa!"
@@ -1645,21 +1646,21 @@ otherstring[14]="Arrivo!"
 otherstring[15]="Ti sono alle spalle."
 otherstring[16]="Obiettivo distrutto."
 OtherAbbrev[0]=""
-OtherAbbrev[1]=""
-OtherAbbrev[2]=""
-OtherAbbrev[3]=""
-OtherAbbrev[4]=""
+OtherAbbrev[1]="Prendete la bandiera!"
+OtherAbbrev[2]="Ho la bandiera."
+OtherAbbrev[3]="Ti sono alle spalle."
+OtherAbbrev[4]="Mi hanno colpito!"
 OtherAbbrev[5]=""
-OtherAbbrev[6]=""
+OtherAbbrev[6]="Sotto attacco!"
 OtherAbbrev[7]=""
-OtherAbbrev[8]=""
-OtherAbbrev[9]=""
+OtherAbbrev[8]="Ho la nostra bandiera."
+OtherAbbrev[9]="Sono in posizione."
 OtherAbbrev[10]=""
-OtherAbbrev[11]=""
-OtherAbbrev[12]=""
+OtherAbbrev[11]="Il punto è al sicuro."
+OtherAbbrev[12]="La bandiera nemica è qui."
 OtherAbbrev[13]=""
 OtherAbbrev[14]=""
-OtherAbbrev[15]=""
+OtherAbbrev[15]="Ti sono alle spalle."
 OtherAbbrev[16]=""
 
 [UT_Jumpboots]
@@ -1688,7 +1689,7 @@ AckTime[2]=0.930000
 FFireString[0]="Stessa squadra!"
 FFireString[1]="Sono della tua squadra!"
 FFireAbbrev[0]=""
-FFireAbbrev[1]=""
+FFireAbbrev[1]="Nella tua squadra!"
 TauntString[0]="Beccati questo!"
 TauntString[1]="Buffone!"
 TauntString[2]="Beccato!"
@@ -1720,7 +1721,7 @@ TauntAbbrev[0]=""
 TauntAbbrev[1]=""
 TauntAbbrev[2]=""
 TauntAbbrev[3]=""
-TauntAbbrev[4]=""
+TauntAbbrev[4]="Arma più potente."
 TauntAbbrev[5]=""
 TauntAbbrev[6]=""
 TauntAbbrev[7]=""
@@ -1729,10 +1730,10 @@ TauntAbbrev[9]=""
 TauntAbbrev[10]=""
 TauntAbbrev[11]=""
 TauntAbbrev[12]=""
-TauntAbbrev[13]=""
+TauntAbbrev[13]="Prova a togliere la sicura."
 TauntAbbrev[14]=""
 TauntAbbrev[15]=""
-TauntAbbrev[16]=""
+TauntAbbrev[16]="Qualcun altro?"
 TauntAbbrev[17]=""
 TauntAbbrev[18]=""
 TauntAbbrev[19]=""
@@ -1750,11 +1751,11 @@ OrderString[3]="Coprimi."
 OrderString[4]="Agisci secondo i parametri operativi."
 OrderString[10]="Prendi la loro bandiera."
 OrderString[11]="Snidali e falli fuori."
-OrderAbbrev[0]=""
+OrderAbbrev[0]="Difendi."
 OrderAbbrev[1]=""
-OrderAbbrev[2]=""
+OrderAbbrev[2]="Attacca."
 OrderAbbrev[3]=""
-OrderAbbrev[4]=""
+OrderAbbrev[4]="Libero."
 OrderAbbrev[10]=""
 OrderAbbrev[11]=""
 otherstring[0]="La base è indifesa!"
@@ -1775,30 +1776,30 @@ otherstring[14]="Arrivo!"
 otherstring[15]="Ti sono alle spalle."
 otherstring[16]="Obiettivo distrutto."
 OtherAbbrev[0]=""
-OtherAbbrev[1]=""
-OtherAbbrev[2]=""
-OtherAbbrev[3]=""
-OtherAbbrev[4]=""
+OtherAbbrev[1]="Prendete la bandiera!"
+OtherAbbrev[2]="Ho la bandiera."
+OtherAbbrev[3]="Ti sono alle spalle."
+OtherAbbrev[4]="Mi hanno colpito!"
 OtherAbbrev[5]=""
-OtherAbbrev[6]=""
+OtherAbbrev[6]="Sotto attacco!"
 OtherAbbrev[7]=""
-OtherAbbrev[8]=""
-OtherAbbrev[9]=""
+OtherAbbrev[8]="Ho la nostra bandiera."
+OtherAbbrev[9]="Sono in posizione."
 OtherAbbrev[10]=""
-OtherAbbrev[11]=""
-OtherAbbrev[12]=""
+OtherAbbrev[11]="Il punto è al sicuro."
+OtherAbbrev[12]="La bandiera nemica è qui."
 OtherAbbrev[13]=""
 OtherAbbrev[14]=""
-OtherAbbrev[15]=""
+OtherAbbrev[15]="Ti sono alle spalle."
 OtherAbbrev[16]=""
 
 [ripper]
 ; EN: WeaponDescription="Classification: Ballistic Blade Launcher\n\nPrimary Fire: Razor sharp titanium disks are launched at a medium rate of speed. Shots will ricochet off of any surfaces.\n\nSecondary Fire: Explosive disks are launched at a slow rate of fire.\n\nTechniques: Aim for the necks of your opponents. Secondary fire can launch opponents in the air."
-WeaponDescription="Classificazione: arma lancia-lame\n\nFuoco primario: vengono lanciati a velocità media dei dischi di titanio affilati come rasoi, che rimbalzeranno contro qualsiasi superficie.\n\nFuoco secondario: vengono lanciati, a bassa velocità di fuoco, dei dischi esplosivi.\n\nTecniche: mira al collo dei tuoi nemici."
+WeaponDescription="Classificazione: Arma Lancia-lame\n\nFuoco primario: Vengono lanciati a velocità media dei dischi di titanio affilati come rasoi, che rimbalzeranno contro qualsiasi superficie.\n\nFuoco secondario: Vengono lanciati, a bassa velocità di fuoco, dei dischi esplosivi.\n\nTecniche: Mira al collo dei tuoi nemici."
 ; EN: DeathMessage="%k ripped a chunk of meat out of %o with the %w."
 DeathMessage="%k ha mozzato un pezzo di carne da %o con lo %w."
 ; EN: PickupMessage="You got the Ripper"
-PickupMessage="Hai lo Squartatore"
+PickupMessage="Hai raccolto lo Squartatore"
 ; EN: ItemName="Ripper"
 ItemName="Squartatore"
 
@@ -1822,7 +1823,7 @@ spreenote[4]="è un DIO!"
 
 [TDarkMatch]
 ; EN: GameName="Tournament DarkMatch"
-GameName="Partita Scura nel Torneo"
+GameName="Darkmatch"
 
 [TFemale1]
 ; EN: MenuName="Female Commando"
@@ -1869,7 +1870,7 @@ BotBio[7]="Grail è il membro più colto della Legione. Attende con pazienza il 
 ; EN: DeathMessage="%k electrified %o with the %w."
 DeathMessage="%k ha elettrificato %o con il %w."
 ; EN: PickupMessage="You got the enhanced Shock Rifle."
-PickupMessage="Hai il Fucile Shock Potenziato"
+PickupMessage="Hai raccolto un Fucile Shock Potenziato"
 ; EN: ItemName="Enhanced Shock Rifle"
 ItemName="Fucile Shock Potenziato"
 
@@ -1881,11 +1882,11 @@ ItemName="Proiettili Grossi"
 
 [FirstBloodMessage]
 ; EN: FirstBloodString="drew first blood!"
-FirstBloodString="ha versato il sangue per primo!"
+FirstBloodString="ha versato il primo sangue!"
 
 [UnrealCTFScoreboard]
 ; EN: FragGoal="Capture Limit:"
-FragGoal="Limite di cattura:"
+FragGoal="Punti necessari per la vittoria:"
 
 [TFemale2]
 ; EN: MenuName="Female Soldier"
@@ -1895,19 +1896,19 @@ MenuName="Soldato Donna"
 ; EN: AssaultCondition="Assault the Base!"
 AssaultCondition="Assalta la base!"
 ; EN: FragGoal="Score Limit:"
-FragGoal="Punteggio limite:"
+FragGoal="Punti necessari per la vittoria:"
 
 [BulletBox]
 ; EN: PickupMessage="You got a box of rifle rounds."
-PickupMessage="Hai una Scatola di Caricatori per Fucili"
+PickupMessage="Hai raccolto una Scatola di Caricatori per Fucili"
 ; EN: ItemName="Box of Rifle Rounds"
 ItemName="Scatola di Caricatori per Fucile"
 
 [UT_invisibility]
 ; EN: ExpireMessage="Invisibility has worn off."
-ExpireMessage="L'invisibilità si è esaurita."
+ExpireMessage="L'Invisibilità si è esaurita."
 ; EN: PickupMessage="You have Invisibility"
-PickupMessage="Hai l'Invisibilità"
+PickupMessage="Hai raccolto l'Invisibilità"
 ; EN: ItemName="Invisibility"
 ItemName="Invisibilità"
 
@@ -1954,7 +1955,7 @@ BotBio[5]="Rolph è l'elemento più debole della squadra, ma è comunque di gran
 ; EN: BotBio[6]="Arnold is an ex-movie stunt man turned Tournament combatant. He is always in search of the biggest and toughest thrill and the Tournament fulfills his needs completely."
 BotBio[6]="Arnold è un ex stuntman del cinema, diventato in seguito un guerriero del Torneo. È sempre alla ricerca delle sensazioni più forti e il suo nuovo impiego soddisfa in pieno questo suo bisogno."
 ; EN: BotBio[7]="No known description."
-BotBio[7]="Nessuna descrizione."
+BotBio[7]="Nessuna descrizione disponibile."
 
 [RatedTeamInfo5]
 TeamName="Venom"
@@ -1999,7 +2000,7 @@ BotBio[5]="Lovelace si è lasciata alle spalle il mondo normale per inseguire un
 ; EN: BotBio[6]="Xyra sees herself as a sort of superhero. Fighting in the Tournament as a symbol against the NEG's oppressive policies."
 BotBio[6]="Xyra si considera una sorta di supereroina. Combatte nel Torneo come simbolo di ribellione contro le politiche oppressive del GNT."
 ; EN: BotBio[7]="No known description."
-BotBio[7]="Nessuna descrizione."
+BotBio[7]="Nessuna descrizione disponibile."
 
 [RatedTeamInfo6]
 TeamName="Dark Phalanx"
@@ -2037,7 +2038,7 @@ BotBio[5]="Whitman è un ex Neo-Cop dell'Avamposto Glosk che ha deciso di rinunc
 ; EN: BotBio[6]="Iyrash left the Glosk Neo-Cop forces with Whitman. She has served by his side for five years and will continue to fight wherever he takes his personal battles."
 BotBio[6]="Iyrash ha lasciato le forze Neo-Cop di Glosk insieme a Whitman. Era stata in servizio al suo fianco per cinque anni e continuerà a seguirlo ovunque le sue battaglie personali lo porteranno."
 ; EN: BotBio[7]="No known description."
-BotBio[7]="Nessuna descrizione."
+BotBio[7]="Nessuna descrizione disponibile."
 
 [DecapitationMessage]
 ; EN: DecapitationString="Head Shot!!"
@@ -2453,9 +2454,9 @@ GameName="Sfida Deathmatch"
 
 [RocketPack]
 ; EN: PickupMessage="You picked up a rocket pack."
-PickupMessage="Hai raccolto un Pacchetto Razzo"
+PickupMessage="Hai raccolto dei Razzi"
 ; EN: ItemName="Rocket Pack"
-ItemName="Pacchetto Razzo"
+ItemName="Razzi"
 
 [RatedTeamInfoDemo1]
 TeamName="Raw Steel"
@@ -2500,7 +2501,7 @@ BotBio[5]="Rolph è l'elemento più debole della squadra, ma è comunque di gran
 ; EN: BotBio[6]="Arnold is an ex-movie stunt man turned Tournament combatant. He is always in search of the biggest and toughest thrill and the Tournament fulfills his needs completely."
 BotBio[6]="Arnold è un ex stuntman del cinema, diventato in seguito un guerriero del Torneo. È sempre alla ricerca delle sensazioni più forti e il suo nuovo impiego soddisfa in pieno questo suo bisogno."
 ; EN: BotBio[7]="No known description."
-BotBio[7]="Nessuna descrizione."
+BotBio[7]="Nessuna descrizione disponibile."
 
 [SuperShockCore]
 ; EN: PickupMessage="You picked up an enhanced Shock Core."
@@ -2534,7 +2535,7 @@ ItemName="Pallottole Contraeree"
 
 [DominationScoreboard]
 ; EN: FragGoal="Score Limit:"
-FragGoal="Punteggio Limite:"
+FragGoal="Punti necessari per la vittoria:"
 
 [TFemale1Bot]
 ; EN: MenuName="Female Commando"
@@ -3080,7 +3081,7 @@ MapDescription[4]="La Tempest Facility è stata costruita appositamente per il T
 MapTitle[0]="Tutorial CTF"
 MapTitle[1]="Coret Center"
 ; EN: MapDescription[0]="Learn the basic rules and systems of Capture the Flag in this special training environment. Test your skills against an untrained enemy team before entering the tournament proper."
-MapDescription[0]="Impara le regole ei sistemi di base di Capture the Flag in questo ambiente di addestramento speciale. Metti alla prova le tue abilità contro una squadra nemica non addestrata prima di entrare nel torneo vero e proprio."
+MapDescription[0]="Impara le regole dei sistemi di base di Capture the Flag in questo ambiente di addestramento speciale. Metti alla prova le tue abilità contro una squadra nemica non addestrata prima di entrare nel torneo vero e proprio."
 ; EN: MapDescription[1]="Built into a mountaintop on the Coret moon, this facility was once the waypoint between the Interstellar zonegate in orbit over the moon and the Zeto Research Station located half the moon away in the frozen wastes."
 MapDescription[1]="Costruita sulla cima di una montagna sulla luna Coret, questa struttura un tempo era il punto di passaggio tra lo zonegate interstellare in orbita al di sopra della luna e la stazione di ricerca Zeto situata a metà luna di distanza nelle lande gelate."
 
@@ -3107,11 +3108,14 @@ ItemName="Caricatore"
 ItemName="Enforcer Doppi"
 
 [Translocator]
-; EN: WeaponDescription="Classification: Personal Teleportation Device\n\nPrimary Fire: Launches the destination module.  Throw the module to the location you would like to teleport to.\n\nSecondary Fire: Activates the translocator and teleports the user to the destination module.\n\nTechniques: Throw your destination module at another player and then activate the secondary fire, and you will telefrag your opponent!  If you press your primary fire button when activating your translocator with the secondary fire, the last weapon you had selected will automatically return once you have translocated."
-WeaponDescription="Classificazione: congegno di teletrasporto personale\n\nFuoco primario: lancia il modulo di destinazione. Lancia il modulo verso la posizione in cui vuoi essere teletrasportato.\n\nFuoco secondario: attiva il Traslocatore e teletrasporta l'utente al modulo di destinazione.\n\nTecniche: lancia il modulo di destinazione contro un altro giocatore e attiva il fuoco secondario: potrai così telefraggare il tuo avversario! Se premi il tasto del fuoco primario quando attivi il Traslocatore con il fuoco secondario, una volta traslocato, tornerà l'ultima arma selezionata."
+; EN: ItemName="Translocator"
+ItemName="Traslocatore"
 ; EN: DeathMessage="%k telefragged %o!"
 DeathMessage="%k ha telefraggato %o!"
 ; EN: PickupMessage="You got the Translocator Source Module"
-PickupMessage="Hai il modulo del Traslocatore"
-; EN: ItemName="Translocator"
-ItemName="Traslocatore"
+PickupMessage="Hai il raccolto il modulo del Traslocatore"
+; EN: WeaponDescription="Classification: Personal Teleportation Device\n\nPrimary Fire: Launches the destination module.  Throw the module to the location you would like to teleport to.\n\nSecondary Fire: Activates the translocator and teleports the user to the destination module.\n\nTechniques: Throw your destination module at another player and then activate the secondary fire, and you will telefrag your opponent!  If you press your primary fire button when activating your translocator with the secondary fire, the last weapon you had selected will automatically return once you have translocated."
+WeaponDescription="Classificazione: Congegno di teletrasporto personale\n\nFuoco primario: Lancia il modulo di destinazione. Lancia il modulo verso la posizione in cui vuoi essere teletrasportato.\n\nFuoco secondario: Attiva il Traslocatore e teletrasporta l'utente al modulo di destinazione.\n\nTecniche: Lancia il modulo di destinazione contro un altro giocatore e attiva il fuoco secondario: potrai così telefraggare il tuo avversario! Se premi il tasto del fuoco primario quando attivi il Traslocatore con il fuoco secondario, una volta traslocato, tornerà l'ultima arma selezionata."
+; EN: WeaponDescription="Classification: Personal Teleportation Device\n\nPrimary Fire: Launches the destination module.  Throw the module to the location you would like to teleport to.\n\nSecondary Fire: Activates the translocator and teleports the user to the destination module.\n\nTechniques: Throw your destination module at another player and then activate the secondary fire, and you will telefrag your opponent!  If you press your primary fire button when activating your translocator with the secondary fire, the last weapon you had selected will automatically return once you have translocated."
+; EN: WeaponDescription="Classification: Personal Teleportation Device\n\nPrimary Fire: Launches the destination module.  Throw the module to the location you would like to teleport to.\n\nSecondary Fire: Activates the translocator and teleports the user to the destination module.\n\nTechniques: Throw your destination module at another player and then activate the secondary fire, and you will telefrag your opponent!  If you press your primary fire button when activating your translocator with the secondary fire, the last weapon you had selected will automatically return once you have translocated."
+

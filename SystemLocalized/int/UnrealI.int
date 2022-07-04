@@ -275,3 +275,6 @@ ItemName="Razorjack"
 DeathMessage="%o was blasted to bits by %k's %w."
 PickupMessage="You got the Quad-Barreled Shotgun"
 ItemName="Quad-Barreled Shotgun"
+
+[naliplayer]
+MenuName="Nali"

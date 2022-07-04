@@ -16,15 +16,15 @@ DestroyedMessage="è stata accesa!"
 
 [FortStandard2]
 ; EN: FortName="The Garage Door"
-FortName="La porta del garage"
+FortName="La Porta del Garage"
 ; EN: DestroyedMessage="was breached!"
 DestroyedMessage="è stata abbattuta!"
 
 [FortStandard3]
 ; EN: FortName="The Tank Turret"
-FortName="Torretta Carro Armato"
+FortName="La Torretta del Carro Armato"
 ; EN: DestroyedMessage="has been destroyed!"
-DestroyedMessage="è stato distrutto!"
+DestroyedMessage="è stata distrutta!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="Shoot at the fuse to ignite it and blow up the TNT, which will permit access to the underground base."

@@ -425,3 +425,7 @@ DeathMessage="%k hat sein Territorium vor der Invasion von %o geschützt."
 PickupMessage="Vierfach-Schrotflinte erhalten"
 ; EN: ItemName="Quad-Barreled Shotgun"
 ItemName="Vierfach-Schrotflinte"
+
+[naliplayer]
+; EN: MenuName="Nali"
+MenuName="Nali"

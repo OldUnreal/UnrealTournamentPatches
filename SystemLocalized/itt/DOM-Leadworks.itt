@@ -1,9 +1,9 @@
 ﻿[LevelInfo0]
 ; EN: Title="Southside Leadworks"
-Title="Fonderia di Piomo Meridionale"
+Title="Lavorazioni Piombo Meridionale"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Entering the Southside Leadworks"
-LevelEnterText="Ingresso alla Fonderia Meridionale"
+LevelEnterText="Ingresso alla Lavorazioni Piombo Meridionale"
 
 [ZoneInfo0]
 ; EN: ZoneName="Tower"
@@ -11,11 +11,11 @@ ZoneName="Torre"
 
 [ZoneInfo4]
 ; EN: ZoneName="Rocket Storage"
-ZoneName="Deposito di Razzi"
+ZoneName="Deposito dei razzi"
 
 [ZoneInfo2]
 ; EN: ZoneName="Lava Bridge"
-ZoneName="Ponte di Lava"
+ZoneName="Ponte sulla lava"
 
 [ZoneInfo3]
 ; EN: ZoneName="Processing"
@@ -43,11 +43,11 @@ PointName="Deposito"
 
 [ZoneInfo5]
 ; EN: ZoneName="Ripper Storage"
-ZoneName="Deposito di Squartatore"
+ZoneName="Deposito di squartatori"
 
 [LevelSummary]
 ; EN: Title="Southside Leadworks"
-Title="Fonderia di Piomo Meridionale"
+Title="Lavorazioni Piombo Meridionale"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Entering the Southside Leadworks"
-LevelEnterText="Ingresso alla Fonderia Meridionale"
+LevelEnterText="Ingresso alla Lavorazioni Piombo Meridionale"

@@ -425,3 +425,7 @@ DeathMessage="%o был разорван на кусочки %k из %wа."
 PickupMessage="Вы получили четырёхствольный дробовик"
 ; EN: ItemName="Quad-Barreled Shotgun"
 ItemName="Квадшот"
+
+[naliplayer]
+; EN: MenuName="Nali"
+MenuName="Nali"

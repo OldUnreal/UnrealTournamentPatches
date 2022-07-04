@@ -152,3 +152,17 @@ None="Aucun"
 Yes="Oui"
 ; EN: No="No"
 No="Non"
+
+[HelloWorldCommandlet]
+HelpCmd="HelloWorld"
+HelpOneLiner="Sample"
+HelpUsage="HelloWorld"
+HelpParm[0]="IntParm"
+HelpParm[1]="StrParm"
+HelpDesc[0]="An integer parameter"
+HelpDesc[1]="A string parameter"
+
+[SimpleCommandlet]
+HelpCmd="Simple"
+HelpOneLiner="Simple"
+HelpUsage="Simple"

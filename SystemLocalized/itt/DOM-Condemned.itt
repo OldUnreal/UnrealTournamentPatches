@@ -15,7 +15,7 @@ PointName="Arturo"
 
 [ZoneInfo0]
 ; EN: ZoneName="The Condemned Building"
-ZoneName="L'Edificio Condannato"
+ZoneName="L'Edificio condannato"
 
 [ControlPoint1]
 ; EN: PointName="Rooftop"
@@ -50,11 +50,11 @@ ZoneName="Vicoli"
 
 [ScrollingMessageTexture0]
 ; EN: ScrollingMessage="TONIGHT 10:00PM EST... %p LEADS HIS UNDEFEATED TEAM %h INTO THE CONDEMNED ARENA"
-ScrollingMessage="QUESTA NOTTE 10:00PM... %p GUIDA LA %h INDOMITA SQUADRA NELL'ARENA CONDANNATA"
+ScrollingMessage="QUESTA NOTTE 10:00PM... %p GUIDA LA SUA INDOMITA SQUADRA NELL'ARENA CONDANNATA"
 
 [locationid0]
 ; EN: LocationName="Garage"
-LocationName="Il Garage"
+LocationName="Il garage"
 
 [locationid2]
 ; EN: LocationName="Rooftop"

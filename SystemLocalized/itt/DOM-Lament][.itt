@@ -3,7 +3,7 @@
 Title="Lamento ]["
 IdealPlayerCount="2-4"
 ; EN: LevelEnterText="Break out the rubber, it's DOMINATION time!"
-LevelEnterText="Tira fuori la gomma, è tempo di DOMINIO!"
+LevelEnterText="Assicurati di essere ben protetto, è tempo di DOMINIO!"
 
 [ControlPoint2]
 ; EN: PointName="Lower"
@@ -22,4 +22,4 @@ PointName="Superiore"
 Title="Lamento ]["
 IdealPlayerCount="2-4"
 ; EN: LevelEnterText="Break out the rubber, it's DOMINATION time!"
-LevelEnterText="Tira fuori la gomma, è tempo di DOMINIO!"
+LevelEnterText="Assicurati di essere ben protetto, è tempo di DOMINIO!"

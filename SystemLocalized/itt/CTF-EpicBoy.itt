@@ -14,36 +14,36 @@ ZoneName="Cortile"
 
 [ZoneInfo1]
 ; EN: ZoneName="Blue Side Entrance"
-ZoneName="Ingresso laterale blu"
+ZoneName="Ingresso laterale Blu"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Redeemer Hall"
-ZoneName="Sala del Redentore Blu"
+ZoneName="Sala del redentore Blu"
 
 [ZoneInfo3]
 ; EN: ZoneName="Blue Lower Hallway"
-ZoneName="Corridoio inferiore blu"
+ZoneName="Corridoio inferiore Blu"
 
 [ZoneInfo4]
 ; EN: ZoneName="Blue Flag Base"
-ZoneName="Base Bandiera Blu"
+ZoneName="Base bandiera Blu"
 
 [ZoneInfo5]
 ; EN: ZoneName="Blue Upper Hallway"
-ZoneName="Corridoio superiore blu"
+ZoneName="Corridoio superiore Blu"
 
 [ZoneInfo6]
 ; EN: ZoneName="Red Side Entrance"
-ZoneName="Ingresso laterale rosso"
+ZoneName="Ingresso laterale Rosso"
 
 [ZoneInfo8]
 ; EN: ZoneName="Red Upper Hallway"
-ZoneName="Corridoio superiore rosso"
+ZoneName="Corridoio superiore Rosso"
 
 [ZoneInfo9]
 ; EN: ZoneName="Red Flag Base"
-ZoneName="Base bandiera rossa"
+ZoneName="Base bandiera Rossa"
 
 [ZoneInfo10]
 ; EN: ZoneName="Red Lower Hallway"
-ZoneName="Corridoio inferiore rosso"
+ZoneName="Corridoio inferiore Rosso"

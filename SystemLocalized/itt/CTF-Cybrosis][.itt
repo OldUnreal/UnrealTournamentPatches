@@ -1,27 +1,27 @@
 ﻿[LevelInfo0]
 ; EN: Title="Cybrosis Central ]["
-Title="Central Cybrosis ]["
+Title="Centrale Cybrosis ]["
 IdealPlayerCount="4-12"
 
 [ZoneInfo24]
 ; EN: ZoneName="Outer Base Blue"
-ZoneName="Base esterna blu"
+ZoneName="Perimetro Base Blu"
 
 [ZoneInfo2]
 ; EN: ZoneName="Outer Base Red"
-ZoneName="Base esterna rossa"
+ZoneName="Perimetro Base Rossa"
 
 [ZoneInfo25]
 ; EN: ZoneName="Water Room Blue"
-ZoneName="Camera Acqua Blu"
+ZoneName="Zona con acqua Blu"
 
 [ZoneInfo3]
 ; EN: ZoneName="Water Room Red"
-ZoneName="Camera d'acqua rossa"
+ZoneName="Zona con acqua Rossa"
 
 [ZoneInfo12]
 ; EN: ZoneName="Flag Base Red"
-ZoneName="Base bandiera rossa"
+ZoneName="Bandiera Base Rossa"
 
 [ZoneInfo11]
 ; EN: ZoneName="Flag Base Blue"
@@ -29,11 +29,11 @@ ZoneName="Bandiera Base Blu"
 
 [ZoneInfo28]
 ; EN: ZoneName="Pipe Room Blue"
-ZoneName="Pipe Room Blue"
+ZoneName="Stanza con tubo Blu"
 
 [ZoneInfo6]
 ; EN: ZoneName="Pipe Room Red"
-ZoneName="Pipe Room Red"
+ZoneName="Stanza con tubo Rossa"
 
 [ZoneInfo26]
 ; EN: ZoneName="Antechamber Blue"
@@ -41,47 +41,47 @@ ZoneName="Anticamera Blu"
 
 [ZoneInfo23]
 ; EN: ZoneName="Top Center Blue"
-ZoneName="Blu al centro in alto"
+ZoneName="Zona centrale in alto Blu"
 
 [ZoneInfo4]
 ; EN: ZoneName="Antechamber Red"
-ZoneName="Anticamera Rosso"
+ZoneName="Anticamera Rossa"
 
 [ZoneInfo1]
 ; EN: ZoneName="Top Center Red"
-ZoneName="Rosso al centro in alto"
+ZoneName="Zona centrale in alto Rossa"
 
 [ZoneInfo27]
 ; EN: ZoneName="Top Passage Blue"
-ZoneName="Passaggio superiore blu"
+ZoneName="Passaggio superiore Blu"
 
 [ZoneInfo30]
 ; EN: ZoneName="Top Passage Blue"
-ZoneName="Passaggio superiore blu"
+ZoneName="Passaggio superiore Blu"
 
 [ZoneInfo5]
 ; EN: ZoneName="Top Passage Red"
-ZoneName="Passaggio superiore rosso"
+ZoneName="Passaggio superiore Rosso"
 
 [ZoneInfo31]
 ; EN: ZoneName="Top Center Blue"
-ZoneName="Blu al centro in alto"
+ZoneName="Zona centrale in alto Blu"
 
 [ZoneInfo9]
 ; EN: ZoneName="Top Center Red"
-ZoneName="Rosso al centro in alto"
+ZoneName="Zona centrale in alto Rossa"
 
 [ZoneInfo8]
 ; EN: ZoneName="Top Passage Red"
-ZoneName="Passaggio superiore rosso"
+ZoneName="Passaggio superiore Rosso"
 
 [ZoneInfo10]
 ; EN: ZoneName="Top Center Red"
-ZoneName="Rosso al centro in alto"
+ZoneName="Zona centrale in alto Rossa"
 
 [ZoneInfo32]
 ; EN: ZoneName="Top Center Blue"
-ZoneName="Blu al centro in alto"
+ZoneName="Zona centrale in alto Blu"
 
 [ZoneInfo7]
 ; EN: ZoneName="Underpassage Red"
@@ -97,7 +97,7 @@ DamageString="%k ha commesso un errore scioccante."
 
 [LevelSummary]
 ; EN: Title="Cybrosis Central ]["
-Title="Central Cybrosis ]["
+Title="Centrale Cybrosis ]["
 IdealPlayerCount="4-12"
 
 [SpecialEvent11]

@@ -130,3 +130,7 @@ IDC_Web="Bezoek onze webpagina voor links naar de nieuwste stuurprogramma's:"
 IDC_WebButton="Direct3D Informatie &&Drivers Pagina"
 ; EN: IDC_Card="Unknown"
 IDC_Card="Onbekend"
+
+[IDDIALOG_ConfigPageMouseInput]
+; EN: IDC_MouseInputPrompt="Select the input method for your mouse. \n\nCursor - Low-Definition mouse input. This mode limits the mouse to 400DPI and applies Windows pointer acceleration to the input. \n\nDirectInput - [Deprecated] High-Definition mouse input. This mode allows the mouse to report movement at higher DPI and is not subject to Windows pointer acceleration. This mode does not work well on modern versions of Windows. \n\nRaw Input - High-Definition mouse input. This mode allows the mouse to report movement at higher DPI and is not subject to Windows pointer acceleration. This is the recommended mode for modern hardware and modern versions of Windows."
+IDC_MouseInputPrompt="Selecteer de invoermethode voor uw muis.\n\nCursor - Low-Definition muisinvoer. Deze modus beperkt de muis tot 400 DPI en past Windows-aanwijzerversnelling toe op de invoer.\n\nDirectInput - [Verouderd] High-Definition muisinvoer. In deze modus kan de muis beweging rapporteren op een hogere DPI en is niet onderhevig aan Windows-aanwijzerversnelling. Deze modus werkt niet goed op moderne versies van Windows.\n\nRaw Input - High-Definition muisinvoer. In deze modus kan de muis beweging rapporteren met een hogere DPI en is niet onderhevig aan Windows-aanwijzerversnelling. Dit is de aanbevolen modus voor moderne hardware en moderne versies van Windows."

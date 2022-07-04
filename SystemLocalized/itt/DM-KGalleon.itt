@@ -3,7 +3,7 @@
 Title="Galeone Koos"
 IdealPlayerCount="4-12"
 ; EN: LevelEnterText="SHIVER ME TIMBERS!!!"
-LevelEnterText="DANNAZIONE!!!"
+LevelEnterText="PER LA BARBA DI NETTUNO!!!"
 
 [WarpZoneInfo0]
 ; EN: ZoneName="Underwater"
@@ -14,4 +14,4 @@ ZoneName="Sott'acqua"
 Title="Galeone Koos"
 IdealPlayerCount="4-12"
 ; EN: LevelEnterText="SHIVER ME TIMBERS!!!"
-LevelEnterText="DANNAZIONE!!!"
+LevelEnterText="PER LA BARBA DI NETTUNO!!!"

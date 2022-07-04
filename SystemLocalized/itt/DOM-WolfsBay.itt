@@ -5,7 +5,7 @@ IdealPlayerCount="6"
 
 [ZoneInfo21]
 ; EN: ZoneName="Aft"
-ZoneName="A Poppa"
+ZoneName="A poppa"
 
 [ZoneInfo5]
 ; EN: ZoneName="Cargo Hold"
@@ -13,7 +13,7 @@ ZoneName="Stiva"
 
 [ZoneInfo3]
 ; EN: ZoneName="Engine Room"
-ZoneName="Sala Macchine"
+ZoneName="Sala macchine"
 
 [ControlPoint1]
 ; EN: PointName="Bridge"
@@ -33,19 +33,19 @@ ZoneName="Ponte"
 
 [ZoneInfo6]
 ; EN: ZoneName="Starboard Tunnel"
-ZoneName="Tunnel di Dritta"
+ZoneName="Tunnel di dritta"
 
 [ZoneInfo10]
 ; EN: ZoneName="Port Tunnel"
-ZoneName="Tunnel Portuale"
+ZoneName="Tunnel portuale"
 
 [ZoneInfo2]
 ; EN: ZoneName="Vent Room"
-ZoneName="Camera di Ventilazione"
+ZoneName="Camera di ventilazione"
 
 [ZoneInfo4]
 ; EN: ZoneName="Port Tunnel"
-ZoneName="Tunnel Portuale"
+ZoneName="Tunnel portuale"
 
 [WaterZone0]
 ; EN: ZoneName="Drowning"
@@ -58,4 +58,4 @@ IdealPlayerCount="6"
 
 [ZoneInfo22]
 ; EN: ZoneName="Outside"
-ZoneName="Al di fuori"
+ZoneName="Esterno"

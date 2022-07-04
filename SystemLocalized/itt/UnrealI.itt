@@ -425,3 +425,7 @@ DeathMessage="%o è stato fatto a pezzettini dal %w di %k."
 PickupMessage="Hai preso il Colpo Quadruplo"
 ; EN: ItemName="Quad-Barreled Shotgun"
 ItemName="Colpo Quadruplo"
+
+[naliplayer]
+; EN: MenuName="Nali"
+MenuName="Nali"

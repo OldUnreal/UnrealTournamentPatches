@@ -425,3 +425,7 @@ DeathMessage="%o s'ha convertit en peces per %w de %k."
 PickupMessage="Tens l’Escopeta Quàdruple"
 ; EN: ItemName="Quad-Barreled Shotgun"
 ItemName="Escopeta Quàdruple"
+
+[naliplayer]
+; EN: MenuName="Nali"
+MenuName="Nali"

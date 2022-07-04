@@ -6,7 +6,7 @@ LevelEnterText="Abbrustoliscili..."
 
 [ZoneInfo0]
 ; EN: ZoneName="Battle Arena"
-ZoneName="Arena di Battaglia"
+ZoneName="Arena di battaglia"
 
 [LevelSummary]
 Title="ITV Oblivion"

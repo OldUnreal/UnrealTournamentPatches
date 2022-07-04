@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Cybrosis Central ]["
-Title="Central Cybrosis ]["
+Title="Centrale Cybrosis ]["
 IdealPlayerCount="3-8"
 
 [ControlPoint0]
@@ -21,7 +21,7 @@ DamageString="%k ha commesso un errore scioccante."
 
 [LevelSummary]
 ; EN: Title="Cybrosis Central ]["
-Title="Central Cybrosis ]["
+Title="Centrale Cybrosis ]["
 IdealPlayerCount="3-8"
 
 [SpecialEvent3]

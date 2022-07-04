@@ -10,19 +10,19 @@ IdealPlayerCount="4-8"
 
 [FortStandard0]
 ; EN: FortName="The Missiles"
-FortName="I missili"
+FortName="I Missili"
 ; EN: DestroyedMessage="were launched!"
 DestroyedMessage="sono stati lanciati!"
 
 [FortStandard1]
 ; EN: FortName="The Ship"
-FortName="La nave"
+FortName="La Nave"
 ; EN: DestroyedMessage="has been entered!"
 DestroyedMessage="è stata abbordata!"
 
 [FortStandard2]
 ; EN: FortName="The Hydraulic Compressor"
-FortName="Il compressore idraulico"
+FortName="Il Compressore Idraulico"
 ; EN: DestroyedMessage="has been destroyed!"
 DestroyedMessage="è stato distrutto!"
 
@@ -34,12 +34,12 @@ ObjDesc[1]="Devi impadronirti della nave da guerra attraverso il molo e raggiung
 
 [ZoneInfo0]
 ; EN: ZoneName="Ship mid corridor"
-ZoneName="Nave a metà corridoio"
+ZoneName="Corridoio centrale della nave"
 
 [WaterZone0]
 ; EN: ZoneName="Swimming at the lake"
-ZoneName="Nuotare al lago"
+ZoneName="Nuotando nel lago"
 
 [WaterZone1]
 ; EN: ZoneName="Being a horse"
-ZoneName="Essere un cavallo"
+ZoneName="E' un cavallo"

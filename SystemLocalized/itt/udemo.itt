@@ -19,9 +19,9 @@ Empty="(Vuoto)"
 
 [UDmoditem]
 ; EN: MenuCaption="&Demo Manager"
-MenuCaption="&Demo Manager"
+MenuCaption="Gestore &Demo"
 ; EN: MenuHelp="Play and Record demos!"
-MenuHelp="Riproduci e registra demo!"
+MenuHelp="Riproduci e Registra demo!"
 
 [UDnamewindow]
 ; EN: WindowTitle="Enter Demo Name"

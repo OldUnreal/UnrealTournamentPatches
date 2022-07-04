@@ -1,6 +1,7 @@
 ﻿[Public]
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.GameInfo,Class=Class,MetaClass=Engine.GameInfo)
 ; Main roots
 Preferences=(Caption="Advanced",Parent="Advanced Options")
 Preferences=(Caption="Rendering",Parent="Advanced Options")
@@ -114,8 +115,6 @@ OwnCamera="vista propia"
 FailedView="No se ha podido cambiar la vista."
 
 [Console]
-; EN: ClassCaption="Standard Unreal Tournament Console"
-ClassCaption="Consola estándar de Unreal Tournament"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="CARGANDO"
 ; EN: SavingMessage="SAVING"

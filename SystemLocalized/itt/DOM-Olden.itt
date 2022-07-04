@@ -1,23 +1,23 @@
 ﻿[LevelInfo0]
 ; EN: Title="Olden Aquifer"
-Title="Antica Acquifera"
+Title="Antica Falda Acquifera"
 IdealPlayerCount="4-6"
 
 [ZoneInfo2]
 ; EN: ZoneName="Lower Point Room"
-ZoneName="Camera Inferiore"
+ZoneName="Stanza inferiore"
 
 [ZoneInfo0]
 ; EN: ZoneName="Central Room"
-ZoneName="Sala Centrale"
+ZoneName="Stanza centrale"
 
 [ZoneInfo1]
 ; EN: ZoneName="Upper Point Room"
-ZoneName="Camera Superiore"
+ZoneName="Stanza superiore"
 
 [ZoneInfo3]
 ; EN: ZoneName="Chain Lift Room"
-ZoneName="Sala dell'Ascensore a Catena"
+ZoneName="Sala dell'ascensore a catena"
 
 [ControlPoint1]
 ; EN: PointName="Lower"
@@ -37,5 +37,5 @@ ZoneName="Acquedotto"
 
 [LevelSummary]
 ; EN: Title="Olden Aquifer"
-Title="Antica Acquifera"
+Title="Antica Falda Acquifera"
 IdealPlayerCount="4-6"

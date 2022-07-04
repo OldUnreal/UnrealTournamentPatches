@@ -7,15 +7,15 @@ LevelEnterText="Nel deserto c'è dolore."
 
 [ZoneInfo1]
 ; EN: ZoneName="Outside"
-ZoneName="Al di fuori"
+ZoneName="Esterno"
 
 [ZoneInfo5]
 ; EN: ZoneName="Red Crossway"
-ZoneName="Red Crossway"
+ZoneName="Ponte Rosso"
 
 [ZoneInfo4]
 ; EN: ZoneName="Blue Crossway"
-ZoneName="Blue Crossway"
+ZoneName="Ponte Blu"
 
 [ZoneInfo3]
 ; EN: ZoneName="Blue Basement"
@@ -27,19 +27,19 @@ ZoneName="Seminterrato rosso"
 
 [ZoneInfo7]
 ; EN: ZoneName="Red Base"
-ZoneName="Base rossa"
+ZoneName="Base Rossa"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Base"
-ZoneName="Base blu"
+ZoneName="Base Blu"
 
 [ZoneInfo12]
 ; EN: ZoneName="Blue Sniper Towers"
-ZoneName="Blue Sniper Towers"
+ZoneName="Torri cecchino Blu"
 
 [ZoneInfo10]
 ; EN: ZoneName="Red Sniper Towers"
-ZoneName="Torri rosse del cecchino"
+ZoneName="Torri cecchino Rosse"
 
 [LevelSummary]
 ; EN: Title="Darji Outpost #16-A"
@@ -50,12 +50,12 @@ LevelEnterText="Nel deserto c'è dolore."
 
 [ZoneInfo11]
 ; EN: ZoneName="Red Sniper Towers"
-ZoneName="Torri rosse del cecchino"
+ZoneName="Torri cecchino Rosse"
 
 [ZoneInfo13]
 ; EN: ZoneName="Blue Sniper Towers"
-ZoneName="Blue Sniper Towers"
+ZoneName="Torri cecchino Blu"
 
 [locationid0]
 ; EN: LocationName="Blue Flagyard"
-LocationName="Flagyard blu"
+LocationName="Cortile bandiera Blu"

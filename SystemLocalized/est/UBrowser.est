@@ -189,6 +189,8 @@ ngSecretText="Tipo Jug."
 BotText="Bot"
 ; EN: HumanText="Human"
 HumanText="Humano"
+; EN: FaceText="Face"
+FaceText="Cara"
 
 [UBrowserIRCSystemPage]
 ; EN: NotInAChannelText="Not in a channel!"
