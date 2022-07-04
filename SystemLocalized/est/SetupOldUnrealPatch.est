@@ -1,0 +1,21 @@
+﻿[Setup]
+LocalProduct=Unreal Tournament
+DefaultFolder=C:\UnrealTournament
+ReadMe=Help\ReleaseNotes.htm
+; EN: SetupWindowTitle="Unreal Tournament Setup"
+SetupWindowTitle="Instalación de Unreal Tournament"
+; EN: AutoplayWindowTitle="Unreal Tournament Options"
+AutoplayWindowTitle="Opciones de Unreal Tournament"
+ProductURL=https://www.unrealtournament.com/
+VersionURL=https://www.oldunreal.com
+; EN: Developer=Epic Games, Inc. && OldUnreal
+Developer="Epic Games, Inc. && OldUnreal"
+DeveloperURL=https://www.oldunreal.com
+Logo=Help\UnrealTournamentSetupLogo.bmp
+
+[UTRequirement]
+LocalProduct=Unreal Tournament
+ProductURL=https://www.unrealtournament.com/
+VersionURL=https://www.unrealtournament.com/
+Developer=Epic Games, Inc.
+DeveloperURL=https://www.epicgames.com/

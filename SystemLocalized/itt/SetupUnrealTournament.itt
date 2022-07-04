@@ -70,8 +70,8 @@ Caption="Editor di Unreal"
 Caption="Documentazione"
 
 [WebShortcut]
-; EN: Caption="Unreal Tournament Web Page"
-Caption="Pagina web di Unreal Tournament"
+; EN: Caption="OldUnreal Web Page"
+Caption="Pagina web di OldUnreal"
 
 [NetGamesShortcut]
 ; EN: Caption="NetGames USA"
