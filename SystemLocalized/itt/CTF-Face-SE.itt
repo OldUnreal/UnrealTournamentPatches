@@ -9,27 +9,27 @@ ZoneName="Asteroide"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Base"
-ZoneName="Base blu"
+ZoneName="Base Blu"
 
 [ZoneInfo1]
 ; EN: ZoneName="Red Base"
-ZoneName="Base rossa"
+ZoneName="Base Rossa"
 
 [ZoneInfo6]
 ; EN: ZoneName="Red Sniper"
-ZoneName="Red Sniper"
+ZoneName="Cecchino Rosso"
 
 [ZoneInfo7]
 ; EN: ZoneName="Blue Sniper"
-ZoneName="Blue Sniper"
+ZoneName="Cecchino Blu"
 
 [ZoneInfo5]
 ; EN: ZoneName="Blue Redeemer"
-ZoneName="Redentore blu"
+ZoneName="Redentore Blu"
 
 [ZoneInfo4]
 ; EN: ZoneName="Red Redeemer"
-ZoneName="Red Redentore"
+ZoneName="Redentore Rosso"
 
 [SpecialEvent0]
 ; EN: DamageString="put in orbit"
@@ -37,51 +37,51 @@ DamageString="messo in orbita"
 
 [locationid0]
 ; EN: LocationName="Blue Back"
-LocationName="Blue Back"
+LocationName="Retro Blu"
 
 [locationid1]
 ; EN: LocationName="Blue Asteroid"
-LocationName="Asteroide blu"
+LocationName="Asteroide Blu"
 
 [locationid2]
 ; EN: LocationName="Blue Asteroid"
-LocationName="Asteroide blu"
+LocationName="Asteroide Blu"
 
 [locationid3]
 ; EN: LocationName="Blue Asteroid"
-LocationName="Asteroide blu"
+LocationName="Asteroide Blu"
 
 [locationid4]
 ; EN: LocationName="Blue Asteroid"
-LocationName="Asteroide blu"
+LocationName="Asteroide Blu"
 
 [locationid5]
 ; EN: LocationName="Red Asteroid"
-LocationName="Asteroide rosso"
+LocationName="Asteroide Rosso"
 
 [locationid6]
 ; EN: LocationName="Red Asteroid"
-LocationName="Asteroide rosso"
+LocationName="Asteroide Rosso"
 
 [locationid7]
 ; EN: LocationName="Red Asteroid"
-LocationName="Asteroide rosso"
+LocationName="Asteroide Rosso"
 
 [locationid8]
 ; EN: LocationName="Red Asteroid"
-LocationName="Asteroide rosso"
+LocationName="Asteroide Rosso"
 
 [locationid9]
 ; EN: LocationName="Red Asteroid"
-LocationName="Asteroide rosso"
+LocationName="Asteroide Rosso"
 
 [locationid10]
 ; EN: LocationName="Red Back"
-LocationName="Red Back"
+LocationName="Retro Rosso"
 
 [locationid11]
 ; EN: LocationName="Blue Tower"
-LocationName="Torre blu"
+LocationName="Torre Blu"
 
 [locationid12]
 ; EN: LocationName="Red Tower"

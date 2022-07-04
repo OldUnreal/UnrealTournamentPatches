@@ -3,14 +3,14 @@
 Title="Torre"
 IdealPlayerCount="6-10"
 ; EN: LevelEnterText="Don thy Armor, Prepare for Battle"
-LevelEnterText="Indossa l'Armatura, Preparati alla Battaglia"
+LevelEnterText="Indossa l'Armatura, Preparati alla Pugna"
 
 [LevelSummary]
 ; EN: Title="Rook"
 Title="Torre"
 IdealPlayerCount="6-10"
 ; EN: LevelEnterText="Don thy Armor, Prepare for Battle"
-LevelEnterText="Indossa l'Armatura, Preparati alla Battaglia"
+LevelEnterText="Indossa l'Armatura, Preparati alla Pugna"
 
 [FortStandard1]
 FortName=" "

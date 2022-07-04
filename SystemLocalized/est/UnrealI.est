@@ -425,3 +425,7 @@ DeathMessage="%o ha sido reventado por la %w de %k."
 PickupMessage="Has recogido la Escopeta de Cuádruple Barril"
 ; EN: ItemName="Quad-Barreled Shotgun"
 ItemName="Escopeta de Cuádruple Barril"
+
+[naliplayer]
+; EN: MenuName="Nali"
+MenuName="Nali"

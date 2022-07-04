@@ -5,11 +5,11 @@ IdealPlayerCount="8-16"
 
 [ZoneInfo6]
 ; EN: ZoneName="Red Base"
-ZoneName="Base rossa"
+ZoneName="Base Rossa"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Base"
-ZoneName="Base blu"
+ZoneName="Base Blu"
 
 [ZoneInfo0]
 ; EN: ZoneName="Center"
@@ -17,11 +17,11 @@ ZoneName="Centro"
 
 [ZoneInfo5]
 ; EN: ZoneName="Red Tube Room"
-ZoneName="Camera rossa della metropolitana"
+ZoneName="Camera Tubulare Rossa"
 
 [ZoneInfo1]
 ; EN: ZoneName="Blue Tube Room"
-ZoneName="Camera Blue Tube"
+ZoneName="Camera Tubulare Blu"
 
 [LevelSummary]
 ; EN: Title="Temple of Beatitude"

@@ -425,3 +425,7 @@ DeathMessage="%o a été transformé en purée par le %w de %k."
 PickupMessage="Vous avez trouvé le Fusil à Quadruple Pompe"
 ; EN: ItemName="Quad-Barreled Shotgun"
 ItemName="Fusil à Quadruple Pompe"
+
+[naliplayer]
+; EN: MenuName="Nali"
+MenuName="Nali"

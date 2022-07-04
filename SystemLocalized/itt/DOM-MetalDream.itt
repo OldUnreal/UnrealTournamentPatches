@@ -19,7 +19,7 @@ ZoneName="Stazione di Controllo 1"
 
 [ZoneInfo2]
 ; EN: ZoneName="Engineering Corridor"
-ZoneName="Corridoio di Ingegneria"
+ZoneName="Corridoio dell'ingegneria"
 
 [ControlPoint0]
 ; EN: PointName="Boxes"
@@ -27,7 +27,7 @@ PointName="Casse"
 
 [ZoneInfo14]
 ; EN: ZoneName="Oil Control"
-ZoneName="Controllo dell'Olio"
+ZoneName="Controllo del petrolio"
 
 [ControlPoint2]
 ; EN: PointName="Crane"

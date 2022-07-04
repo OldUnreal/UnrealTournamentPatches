@@ -264,7 +264,7 @@ NameArticle=" een "
 ; EN: MenuName="Elite Krall"
 MenuName="Elite Krall"
 
-[LeglessElite]
+[LeglessKrall]
 ; EN: NameArticle=" a "
 NameArticle=" een "
 ; EN: MenuName="Legless Krall"
@@ -425,3 +425,7 @@ DeathMessage="%o werd in stukken geschoten met %k's %w."
 PickupMessage="Je hebt de Vierloops Jachtgeweer"
 ; EN: ItemName="Quad-Barreled Shotgun"
 ItemName="Vierloops Jachtgeweer"
+
+[naliplayer]
+; EN: MenuName="Nali"
+MenuName="Nali"

@@ -60,4 +60,4 @@ ClassCaption="Gioco in rete TCP/IP"
 
 [UdpBeacon]
 ; EN: ClassCaption="Server LAN Beacon"
-ClassCaption="Server Beacon LAN"
+ClassCaption="Server LAN Beacon"

@@ -5,7 +5,7 @@ IdealPlayerCount="4-8"
 
 [ZoneInfo5]
 ; EN: ZoneName="Outer Space"
-ZoneName="Spazio Esterno"
+ZoneName="Spazio esterno"
 
 [ZoneInfo7]
 ; EN: ZoneName="Central"
@@ -17,11 +17,11 @@ ZoneName="Ascensore 1"
 
 [ZoneInfo8]
 ; EN: ZoneName="Stairs Corridor"
-ZoneName="Corridoio delle Scale"
+ZoneName="Corridoio delle scale"
 
 [ZoneInfo9]
 ; EN: ZoneName="BioRifle Corridor"
-ZoneName="Corridoio Bio Fucile"
+ZoneName="Corridoio bio fucile"
 
 [LevelSummary]
 ; EN: Title="Phobos Moon"

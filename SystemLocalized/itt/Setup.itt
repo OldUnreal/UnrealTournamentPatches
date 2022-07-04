@@ -218,4 +218,4 @@ IDC_CompleteReboot="Installazione completata!\Prima di giocare, è necessario ri
 
 [IDDIALOG_WizardDialog]
 ; EN: IDC_WizardDialog="Unreal Tournament Setup"
-IDC_WizardDialog="Archivio Unreal Tournament"
+IDC_WizardDialog="Installazione di Unreal Tournament"

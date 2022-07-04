@@ -3,11 +3,11 @@
 Title="Reattore Frattale"
 IdealPlayerCount="2-4"
 ; EN: LevelEnterText="Don't get caught in the floor portal!"
-LevelEnterText="Non rimanere intrappolato nel portale!"
+LevelEnterText="Non rimanere intrappolato nel portale del pavimento!"
 
 [LevelSummary]
 ; EN: Title="Fractal Reactor"
 Title="Reattore Frattale"
 IdealPlayerCount="2-4"
 ; EN: LevelEnterText="Don't get caught in the floor portal!"
-LevelEnterText="Non rimanere intrappolato nel portale!"
+LevelEnterText="Non rimanere intrappolato nel portale del pavimento!"

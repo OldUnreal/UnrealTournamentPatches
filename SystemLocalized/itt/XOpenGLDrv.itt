@@ -9,7 +9,7 @@ NoFindGL="Non riesco a trovare il driver OpenGL %ls"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
 MissingFunc="Manca la funzione OpenGL %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
-ResFailed="Errore nel settare la risoluzione"
+ResFailed="Errore nell'impostare la risoluzione"
 
 [XOpenGLRenderDevice]
 ; EN: ClassCaption="XOpenGL"

@@ -13,15 +13,81 @@ Developer="Epic Games, Inc. - 469 von Oldunreal"
 DeveloperURL="http://www.oldunreal.com/"
 Logo="Help\Logo.bmp"
 
-[UnrealRequirement]
-LocalProduct="Unreal Tournament"
-ProductURL="http://www.unrealtournament.com/"
-VersionURL="http://www.epicgames.com/"
-Developer="Epic Games, Inc."
-DeveloperURL="http://www.epicgames.com/"
+[General]
+; EN: PlayLevelCommand="&Play this Unreal Tournament level"
+PlayLevelCommand="S&piele dieses Unreal Tournament-Level"
+; EN: OpenLinkCommand="&Open this Unreal Tournament link"
+OpenLinkCommand="&Diesen Unreal Tournament-Link öffnen"
+; EN: InstallModuleCommand="&Install this Unreal Tournament module"
+InstallModuleCommand="D&ieses Unreal Tournament-Modul installieren"
+; EN: EditLevelCommand="&Edit this Unreal Tournament level"
+EditLevelCommand="Di&esen Unreal Tournament-Level bearbeiten"
 
-[LinuxGroup]
-; EN: Caption="Linux native files"
-Caption="Native Linux-Dateien"
-; EN: Description="Copies all files required to run and play Unreal Tournament natively in Linux. There is no Advanced Options menu yet, but all settings are noted and can be edited in the UnrealTournamentLinux.ini in the System folder. The level editor UnrealED 2.1 is not available in Linux yet. If you have trouble starting the game, there is more information and a FAQ inside the ReleaseNotes in the Help directory. If your system doesn't provide all libraries, there is a package called lin_convenience_libs.7z in the Help folder which should contain all the necessary files."
-Description="Kopiert alle Dateien, die zum Ausführen und Spielen von Unreal Tournament nativ unter Linux erforderlich sind. Es gibt noch kein Menü für erweiterte Optionen, aber alle Einstellungen werden notiert und können in der Datei UnrealTournamentLinux.ini im Ordner System bearbeitet werden. Der Level-Editor UnrealED 2.1 ist unter Linux noch nicht verfügbar. Wenn Sie Probleme beim Starten des Spiels haben, finden Sie weitere Informationen und häufig gestellte Fragen in den ReleaseNotes im Hilfeverzeichnis. Wenn Ihr System nicht alle Bibliotheken bereitstellt, befindet sich im Hilfeordner ein Paket mit dem Namen lin_convenience_libs.7z, das alle erforderlichen Dateien enthalten sollte."
+[UnrealTournamentContentGroup]
+; EN: Caption="Game Content"
+Caption="Spielinhalt"
+; EN: Description="Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+Description="Installieren Sie dies für beste Leistung. Wenn Sie es deaktivieren, wird der Spielinhalt während des Spiels von der CD geladen, was die Leistung verringert, aber weniger Festplattenspeicher belegt."
+
+[GameGroup]
+; EN: Caption="Unreal Tournament Game"
+Caption="Unreal Tournament-Spiel"
+; EN: Description="Installation is required."
+Description="Installation ist erforderlich."
+
+[NetGamesGroup]
+; EN: Caption="NetGames USA Stat Utils"
+Caption="NetGames USA-Statistik-Utilities"
+; EN: Description="These tools can be used to generate HTML statistics about your Unreal Tournament games. You can also view your global ranking online!"
+Description="Diese Tools können verwendet werden, um HTML-Statistiken über Ihre Unreal Tournament-Spiele zu generieren. Sie können auch Ihre globale Rangliste online einsehen!"
+
+[DirectXGroup]
+Caption="DirectX"
+; EN: Description="Optional Microsoft DirectX 7 drivers for enhanced graphics, sound, and joystick support."
+Description="Optionale Microsoft DirectX 7-Treiber für verbesserte Grafik-, Sound- und Joystick-Unterstützung."
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption="Unreal Editor"
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="Unreal-Welteditor, um Ihre eigenen 3D-Unreal-Umgebungen zu erstellen. Für fortgeschrittene Benutzer; die Installation ist optional."
+
+[PlayShortcut]
+; EN: Caption="Play Unreal Tournament"
+Caption="Spiele Unreal Tournament"
+
+[SafeModeShortcut]
+; EN: Caption="Unreal Tournament Safe Mode"
+Caption="Unreal Tournament Safe Mode"
+
+[EditorShortcut]
+; EN: Caption="Unreal Editor"
+Caption="Unreal Editor"
+
+[DocumentationShortcut]
+; EN: Caption="Documentation"
+Caption="Dokumentation"
+
+[WebShortcut]
+; EN: Caption="OldUnreal Web Page"
+Caption="OldUnreal-Webseite"
+
+[NetGamesShortcut]
+Caption="NetGames USA"
+
+[LocalStatsShortcut]
+; EN: Caption="View my local UT stats. [ngStats]"
+Caption="Meine lokalen UT-Statistiken anzeigen. [ngStats]"
+
+[GlobalStatsShortcut]
+; EN: Caption="View my global UT stats. [ngWorldStats]"
+Caption="Sehen Sie sich meine globalen UT-Statistiken an. [ngWorldStats]"
+
+[MPlayerShortcut]
+Caption="-"
+
+[HeatShortcut]
+Caption="-"
+
+[UninstallShortcut]
+Caption="-"

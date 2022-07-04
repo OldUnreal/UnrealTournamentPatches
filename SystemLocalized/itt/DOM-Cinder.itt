@@ -9,7 +9,7 @@ ZoneName="Angolino"
 
 [ZoneInfo21]
 ; EN: ZoneName="South Side"
-ZoneName="Lato Sud"
+ZoneName="Lato sud"
 
 [ZoneInfo20]
 ; EN: ZoneName="Lava"
@@ -29,7 +29,7 @@ PointName="Superiore"
 
 [ZoneInfo22]
 ; EN: ZoneName="Tall Lift"
-ZoneName="Ascensore Elevato"
+ZoneName="Ascensore alto"
 
 [LevelSummary]
 ; EN: Title="Cinder Foundry"
@@ -38,4 +38,4 @@ IdealPlayerCount="6-12"
 
 [ZoneInfo19]
 ; EN: ZoneName="Main Area"
-ZoneName="Area Principale"
+ZoneName="Area principale"

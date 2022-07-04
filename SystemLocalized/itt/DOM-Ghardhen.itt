@@ -13,7 +13,7 @@ PointName="Alto"
 
 [ZoneInfo12]
 ; EN: ZoneName="Upward Hall"
-ZoneName="Sala Superiore"
+ZoneName="Sala superiore"
 
 [ControlPoint0]
 ; EN: PointName="Bottom"
@@ -25,11 +25,11 @@ PointName="Centro"
 
 [ZoneInfo8]
 ; EN: ZoneName="Observation Deck"
-ZoneName="Ponte di Osservazione"
+ZoneName="Ponte di osservazione"
 
 [ZoneInfo11]
 ; EN: ZoneName="Downward Hall"
-ZoneName="Sala Inferiore"
+ZoneName="Sala inferiore"
 
 [ZoneInfo10]
 ; EN: ZoneName="Blast Chamber 1"
@@ -46,12 +46,12 @@ IdealPlayerCount="6-12"
 
 [locationid7]
 ; EN: LocationName="Central Room - Lower"
-LocationName="Stanza Centrale - Basso"
+LocationName="Stanza centrale - basso"
 
 [locationid6]
 ; EN: LocationName="Central Room - Top"
-LocationName="Stanza Centrale - Alto"
+LocationName="Stanza centrale - alto"
 
 [locationid8]
 ; EN: LocationName="Central Room - Mid"
-LocationName="Stanza Centrale - Centro"
+LocationName="Stanza centrale - centro"

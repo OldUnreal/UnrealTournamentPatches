@@ -13,13 +13,13 @@ ObjDesc[2]="Una volta aperta la porta, distruggi il prototipo del carro armato s
 
 [FortStandard0]
 ; EN: FortName="The Lava Bridge"
-FortName="Il ponte di lava"
+FortName="Il Ponte di Lava"
 ; EN: DestroyedMessage="has been crossed!"
 DestroyedMessage="è stato attraversato!"
 
 [FortStandard4]
 ; EN: FortName="The Cavern"
-FortName="La caverna"
+FortName="La Caverna"
 ; EN: DestroyedMessage="has been breached!"
 DestroyedMessage="è stata violata!"
 
@@ -30,33 +30,33 @@ IdealPlayerCount="6-12"
 
 [FortStandard1]
 ; EN: FortName="The Fuse"
-FortName="La miccia"
+FortName="La Miccia"
 ; EN: DestroyedMessage="has been ignited!"
 DestroyedMessage="è stata accesa!"
 
 [FortStandard2]
 ; EN: FortName="The Garage Door"
-FortName="La porta del garage"
+FortName="La Porta del Garage"
 ; EN: DestroyedMessage="was breached!"
 DestroyedMessage="è stata abbattuta!"
 
 [FortStandard3]
 ; EN: FortName="The Tank Turret"
-FortName="La torretta del carro armato"
+FortName="La Torretta del Carro Armato"
 ; EN: DestroyedMessage="has been destroyed!"
 DestroyedMessage="è stata distrutta!"
 
 [ZoneInfo0]
 ; EN: ZoneName="Attackers' Cave"
-ZoneName="Grotta degli aggressori"
+ZoneName="Grotta degli Aggressori"
 
 [ZoneInfo1]
 ; EN: ZoneName="Near the Fuse"
-ZoneName="Vicino alla miccia"
+ZoneName="Vicino alla Miccia"
 
 [ZoneInfo2]
 ; EN: ZoneName="Base Corridors"
-ZoneName="Corridoi di base"
+ZoneName="Corridoi della Base"
 
 [WaterZone0]
 ; EN: ZoneName="Underwater"

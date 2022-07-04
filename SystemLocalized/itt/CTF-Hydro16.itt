@@ -1,15 +1,15 @@
 ﻿[LevelInfo0]
 ; EN: Title="Hydro Bases"
-Title="Basi d'Acqua"
+Title="Basi Hydro"
 IdealPlayerCount="6-12"
 
 [ZoneInfo9]
 ; EN: ZoneName="Red Flag Room"
-ZoneName="Camera Bandiera Rossa"
+ZoneName="Stanza bandiera Rossa"
 
 [ZoneInfo1]
 ; EN: ZoneName="Red Pillar Passage"
-ZoneName="Passaggio del pilastro rosso"
+ZoneName="Passaggio del pilastro Rosso"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Flag Room"
@@ -17,15 +17,15 @@ ZoneName="Camera Bandiera Blu"
 
 [ZoneInfo10]
 ; EN: ZoneName="Blue Boiler Room"
-ZoneName="Sala caldaie blu"
+ZoneName="Sala caldaie Blu"
 
 [ZoneInfo3]
 ; EN: ZoneName="Blue Pillar Passage"
-ZoneName="Passaggio del pilastro blu"
+ZoneName="Passaggio del pilastro Blu"
 
 [ZoneInfo13]
 ; EN: ZoneName="Red Boiler Room"
-ZoneName="Sala caldaie rossa"
+ZoneName="Sala caldaie Rossa"
 
 [ZoneInfo6]
 ; EN: ZoneName="Red Courtyard"
@@ -33,7 +33,7 @@ ZoneName="Cortile Rosso"
 
 [ZoneInfo5]
 ; EN: ZoneName="Blue Courtyard"
-ZoneName="Cortile blu"
+ZoneName="Cortile Blu"
 
 [ZoneInfo4]
 ; EN: ZoneName="Bridges"

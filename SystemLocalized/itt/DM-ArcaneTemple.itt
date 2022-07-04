@@ -10,20 +10,20 @@ IdealPlayerCount="3-8"
 
 [WaterZone0]
 ; EN: ZoneName="Top of the Cascade"
-ZoneName="Top of the Cascade"
+ZoneName="Cima della cascata"
 
 [WaterZone1]
 ; EN: ZoneName="Cascade Current"
-ZoneName="Corrente in cascata"
+ZoneName="Corrente della cascata"
 
 [WaterZone2]
 ; EN: ZoneName="Redeemer Lake"
-ZoneName="Redentore Lake"
+ZoneName="Lago del Redentore"
 
 [WaterZone3]
 ; EN: ZoneName="Ramps Area (Swimming)"
-ZoneName="Area Rampe (Nuoto)"
+ZoneName="Area Rampe (in acqua)"
 
 [ZoneInfo0]
 ; EN: ZoneName="Outside"
-ZoneName="Al di fuori"
+ZoneName="Esterno"

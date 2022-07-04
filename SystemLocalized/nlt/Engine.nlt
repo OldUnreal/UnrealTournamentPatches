@@ -1,6 +1,7 @@
 ﻿[Public]
 Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
 Object=(Name=Engine.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.GameInfo,Class=Class,MetaClass=Engine.GameInfo)
 ; Main roots
 Preferences=(Caption="Advanced",Parent="Advanced Options")
 Preferences=(Caption="Rendering",Parent="Advanced Options")
@@ -150,8 +151,6 @@ HelpParm[1]="AllAdmin"
 HelpDesc[1]="Geef alle spelers beheerdersrechten."
 
 [Console]
-; EN: ClassCaption="Standard Unreal Tournament Console"
-ClassCaption="Standaard Unreal Tournament-console"
 ; EN: LoadingMessage="LOADING"
 LoadingMessage="BEZIG MET LADEN"
 ; EN: SavingMessage="SAVING"
@@ -166,6 +165,22 @@ PrecachingMessage="VOORBEREIDING"
 ChatChannel="(CHAT) "
 ; EN: TeamChannel="(TEAM) "
 TeamChannel="(TEAM) "
+; EN: FrameRateText="Frame Rate"
+FrameRateText="Frame Rate"
+; EN: AvgText="Avg"
+AvgText="Gem"
+; EN: LastSecText="Last Sec"
+LastSecText="Laat. Sec."
+; EN: MinText="Min"
+MinText="Min"
+; EN: MaxText="Max"
+MaxText="Max"
+; EN: fpsText="fps"
+fpsText="bps"
+; EN: SecondsText="seconds."
+SecondsText="seconde."
+; EN: FramesText="frames rendered in"
+FramesText="frames gerenderd in"
 
 [Menu]
 MenuList=" "

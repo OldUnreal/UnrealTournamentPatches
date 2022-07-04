@@ -3,11 +3,11 @@
 Title="Iperscoppio"
 IdealPlayerCount="2-8"
 ; EN: LevelEnterText="IT'S HYPERTIME!!"
-LevelEnterText="E' L'IPERTEMPO!!!"
+LevelEnterText="E' TEMPO DI ESSERE IPER!!!"
 
 [ZoneInfo1]
 ; EN: ZoneName="Middle Decks"
-ZoneName="Mazzi centrali"
+ZoneName="Ponti centrali"
 
 [ZoneInfo0]
 ; EN: ZoneName="Outside The Ship"
@@ -19,7 +19,7 @@ ZoneName="Ponti inferiori"
 
 [ZoneInfo2]
 ; EN: ZoneName="Upper Deck"
-ZoneName="Piano superiore"
+ZoneName="Ponte superiore"
 
 [VacuumZone0]
 ; EN: DamageString="%k was shot into space!!!"
@@ -30,4 +30,4 @@ DamageString="%k è stato sparato nello spazio!!!"
 Title="Iperscoppio"
 IdealPlayerCount="2-8"
 ; EN: LevelEnterText="IT'S HYPERTIME!!"
-LevelEnterText="E' L'IPERTEMPO!!!"
+LevelEnterText="E' TEMPO DI ESSERE IPER!!!"

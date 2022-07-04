@@ -3,7 +3,7 @@
 Title="Operazione Overlord"
 IdealPlayerCount="8-12"
 ; EN: LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
-LevelEnterText="Neutralizza il Cannone a Lungo Raggio distruggendo il congegno nei Comandi Principali"
+LevelEnterText="Neutralizza il Cannone a Lungo Raggio distruggendo il congegno nella 'Sala dei Comandi Principali'"
 
 [ZoneInfo2]
 ; EN: ZoneName="Barracks"
@@ -45,28 +45,28 @@ ZoneName="Acqua"
 ; EN: FortName="The Beachhead"
 FortName="La Testa di Ponte"
 ; EN: DestroyedMessage="has been breached by the attackers!"
-DestroyedMessage="è stato violato dagli aggressori!"
+DestroyedMessage="è stata violata dagli aggressori!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="In order to disable the Long-Range-Cannon you must make your way through the defenders' base to the large Gun Cavern deep inside the cliff wall. In there you will find the 'Main Gun Control' room. Destroy the equipment in that room."
-ObjDesc[0]="Per disattivare il cannone a lungo raggio, devi attraversare la base nemica fino a raggiungere la grossa caverna del cannone all'interno delle pareti della scogliera. Lì troverai la sala dei comandi principali. Distruggi il congegno che vi si trova dentro."
+ObjDesc[0]="Per disattivare il Cannone a Lungo Raggio, devi attraversare la base nemica fino a raggiungere la grossa Caverna del Cannone all'interno delle pareti della scogliera. Lì troverai la 'Sala dei Comandi Principali'. Distruggi il congegno che vi si trova dentro."
 
 [FortStandard4]
 ; EN: FortName="The Boiler Room"
-FortName="La Caldaia"
+FortName="La Stanza della Caldaia"
 ; EN: DestroyedMessage="has been breached by the attackers!"
-DestroyedMessage="è stato violato dagli aggressori!"
+DestroyedMessage="è stata violata dagli aggressori!"
 
 [LevelSummary]
 ; EN: Title="Operation Overlord"
 Title="Operazione Overlord"
 IdealPlayerCount="8-12"
 ; EN: LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
-LevelEnterText="Neutralizza il Cannone a Lungo Raggio distruggendo il congegno nei Comandi Principali"
+LevelEnterText="Neutralizza il Cannone a Lungo Raggio distruggendo il congegno nella Sala dei Comandi Principali"
 
 [LevelInfo2]
 ; EN: Title="Operation Overlord"
 Title="Operazione Overlord"
 IdealPlayerCount="8-12"
 ; EN: LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
-LevelEnterText="Neutralizza il Cannone a Lungo Raggio distruggendo il congegno nei Comandi Principali"
+LevelEnterText="Neutralizza il Cannone a Lungo Raggio distruggendo il congegno nella Sala dei Comandi Principali"
