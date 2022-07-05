@@ -248,6 +248,7 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * Startup.\*:
 ** "Chose" -> "Choose"
 ** Added new section "[IDDIALOG_ConfigPageMouseInput]" for the new "First Time" window where the user chooses between Cursor, DirectInput and Raw mouse inputs.
+** First-time configuration window title is now "Unreal Tournament Multimedia Configuration", since it now covers more than just Video.
 * Udemo.\*: New localized strings
 * UMenu.\*: Fixed description of "Invert Mouse" (it talked about the X axis being inverted, it's actually the Y axis)
 * UnrealI.\*: Added [NaliPlayer] section
