@@ -226,7 +226,7 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 #### Localization
 
 * New supported (text-only) languages: German (Thanks Smirftsch, eGo, Ividyon and Sly.!), Russian, Catalan and Dutch (Thanks bennytrt and Rubie!)
-* French (Thanks Hellkeeper!) and Italian from the original MULTI5 release fully updated and fixed
+* French (Thanks Hellkeeper!) and Italian (Thanks Alby1987!) from the original MULTI5 release fully updated and fixed
 * Moved all localization files into the SystemLocalized folder
 * All localization files updated to the latest strings
 * All duplicates have been removed
@@ -236,18 +236,26 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * All instances of "Unreal" not named "Unreal Engine" fixed into "Unreal Tournament" (because, well, we're playing Unreal Tournament, not Unreal, lol!)
 * All Advanced Options menu settings homogenized into English (sigh) in order to prevent them from breaking third-party files
 * All device names shortened in order to fit in the menus (i.e. "Support for OpenAL 3D" -> "OpenAL 3D")
+* Added SetupOldUnrealPatch.*
 * Botpack.\*: All gametypes moved into new category "Tournament Game Types" in order to separate them from the regular gametypes. "Tournament Game Types" also contains the settings exclusively to the UT-related gametypes
+* Core.\*: Added dummy "example" commandlets. The localization of these lines is optional
 * Editor.\*:
 ** All commandlet weblinks now point to the right page in the OldU Wiki
 ** By consensus, all commandlets will be left in English
 ** Fixed wrong line reference in PackageFlagCommandlet
 * Engine.\*: Added Game Types as a general root
-* Startup.\*: Chose -> Choose
+* SetupUnrealTournamentPatch.\*: All files synchronized with the right content.
+* Startup.\*:
+** "Chose" -> "Choose"
+** Added new section "[IDDIALOG_ConfigPageMouseInput]" for the new "First Time" window where the user chooses between Cursor, DirectInput and Raw mouse inputs.
 * Udemo.\*: New localized strings
 * UMenu.\*: Fixed description of "Invert Mouse" (it talked about the X axis being inverted, it's actually the Y axis)
+* UnrealI.\*: Added [NaliPlayer] section
+* UTMenu.\*: Added dummy lines. The localization of these lines is optional
 * Spanish:
 ** All strings adapted to Buggie's templates. This also allowed catching several bugs, untranslated strings and inconsistencies that wouldn't have been caught otherwise
 ** Minor fixes and inconsistencies fixed
+** Added missing line in UBrowser.est and fixed key name in UMenu.est and controls tags in UTMenu.est
 
 ### Installer
 
