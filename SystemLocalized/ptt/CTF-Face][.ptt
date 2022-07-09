@@ -1,0 +1,13 @@
+﻿[LevelInfo0]
+; EN: Title="Facing Worlds ]["
+Title="Enfrentando mundos] ["
+IdealPlayerCount="4-10"
+
+[LevelSummary]
+; EN: Title="Facing Worlds ]["
+Title="Enfrentando mundos] ["
+IdealPlayerCount="4-10"
+
+[SpecialEvent0]
+; EN: DamageString="is lost in Space!"
+DamageString="está perdido no espaço!"

@@ -1,0 +1,11 @@
+﻿[LevelInfo0]
+Title="Liandri Central Core"
+IdealPlayerCount="2-14"
+; EN: LevelEnterText="Welcome to the Core"
+LevelEnterText="Bem-vindo ao Core"
+
+[LevelSummary]
+Title="Liandri Central Core"
+IdealPlayerCount="2-14"
+; EN: LevelEnterText="Welcome to the Core"
+LevelEnterText="Bem-vindo ao Core"

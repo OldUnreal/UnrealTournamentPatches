@@ -225,7 +225,7 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 
 #### Localization
 
-* New supported (text-only) languages: German (Thanks Smirftsch, eGo, Ividyon and Sly.!), Russian, Catalan and Dutch (Thanks bennytrt and Rubie!)
+* New supported (text-only) languages: German (Thanks Smirftsch, eGo, Ividyon and Sly.!), Russian, Portuguese, Catalan and Dutch (Thanks bennytrt and Rubie!)
 * French (Thanks Hellkeeper!) and Italian (Thanks Alby1987!) from the original MULTI5 release fully updated and fixed
 * Moved all localization files into the SystemLocalized folder
 * All localization files updated to the latest strings
@@ -257,6 +257,8 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 ** All strings adapted to Buggie's templates. This also allowed catching several bugs, untranslated strings and inconsistencies that wouldn't have been caught otherwise
 ** Minor fixes and inconsistencies fixed
 ** Added missing line in UBrowser.est and fixed key name in UMenu.est and controls tags in UTMenu.est
+** All instances of "You got/picked up..." streamlined into "Has recogido..."
+* Catalan: Minor fix to AS-Overlord.ptt and localized a whole unlocalized section in UnrealShare.ptt.
 
 ### Installer
 

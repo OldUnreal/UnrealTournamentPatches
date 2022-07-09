@@ -1,0 +1,100 @@
+﻿[Setup]
+LocalProduct="Unreal Tournament"
+DefaultFolder="C:\Program Files\Unreal Tournament"
+ReadMe="Help\469ReleaseNotes.pdf"
+; EN: SetupWindowTitle="Unreal Tournament Setup"
+SetupWindowTitle="Instalação de Unreal Tournament"
+; EN: AutoplayWindowTitle="Unreal Tournament Options"
+AutoplayWindowTitle="Opções de Unreal Tournament"
+ProductURL="http://www.unrealtournament.com/"
+VersionURL="http://www.oldunreal.com"
+; EN: Developer="Epic Games, Inc. - 469 by Oldunreal"
+Developer="Epic Games, Inc. - 469 por Oldunreal"
+DeveloperURL="http://www.oldunreal.com/"
+Logo="Help\Logo.bmp"
+
+[UnrealRequirement]
+LocalProduct="Unreal Tournament"
+ProductURL="http://www.unrealtournament.com/"
+VersionURL="http://www.epicgames.com/"
+Developer="Epic Games, Inc."
+DeveloperURL="http://www.epicgames.com/"
+
+[General]
+; EN: PlayLevelCommand="&Play this Unreal Tournament level"
+PlayLevelCommand="&Jogue este nível Unreal Tournament"
+; EN: OpenLinkCommand="&Open this Unreal Tournament link"
+OpenLinkCommand="&Abra este link Unreal Tournament"
+; EN: InstallModuleCommand="&Install this Unreal Tournament module"
+InstallModuleCommand="&Instale este módulo Unreal Tournament"
+; EN: EditLevelCommand="&Edit this Unreal Tournament level"
+EditLevelCommand="&Edite este nível Unreal Tournament"
+
+[UnrealTournamentContentGroup]
+; EN: Caption="Game Content"
+Caption="Conteúdo do Jogo"
+; EN: Description="Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
+Description="Instale para melhor desempenho. Se você desmarcar, o conteúdo do jogo será carregado do CD durante o jogo, degradando o desempenho, mas usando menos espaço no disco rígido."
+
+[GameGroup]
+; EN: Caption="Unreal Tournament Game"
+Caption="Jogo Unreal Tournament"
+; EN: Description="Installation is required."
+Description="A instalação é necessária."
+
+[NetGamesGroup]
+; EN: Caption="NetGames USA Stat Utils"
+Caption="Utilitários de Estatísticas da NetGames USA"
+; EN: Description="These tools can be used to generate HTML statistics about your Unreal Tournament games. You can also view your global ranking online!"
+Description="Estas ferramentas podem ser usadas para gerar estatísticas HTML sobre seus jogos Unreal Tournament. Você também pode ver sua classificação global online!"
+
+[DirectXGroup]
+Caption="DirectX"
+; EN: Description="Optional Microsoft DirectX 7 drivers for enhanced graphics, sound, and joystick support."
+Description="Drivers Microsoft DirectX 7 opcionais para suporte a gráficos, som e joystick aprimorados."
+
+[EditorGroup]
+; EN: Caption="Unreal Editor"
+Caption="Editor Unreal"
+; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
+Description="Editor de mundo Unreal, para criar seus próprios ambientes 3D Unreal. Para usuários avançados, a instalação é opcional."
+
+[PlayShortcut]
+; EN: Caption="Play Unreal Tournament"
+Caption="Jogue Unreal Tournament"
+
+[SafeModeShortcut]
+; EN: Caption="Unreal Tournament Safe Mode"
+Caption="Modo de Segurança Unreal Tournament"
+
+[EditorShortcut]
+; EN: Caption="Unreal Editor"
+Caption="Editor Unreal"
+
+[DocumentationShortcut]
+; EN: Caption="Documentation"
+Caption="Documentação"
+
+[WebShortcut]
+; EN: Caption="OldUnreal Web Page"
+Caption="Página da Web OldUnreal"
+
+[NetGamesShortcut]
+Caption="NetGames USA"
+
+[LocalStatsShortcut]
+; EN: Caption="View my local UT stats. [ngStats]"
+Caption="Ver minhas estatísticas locais de UT. [ngStats]"
+
+[GlobalStatsShortcut]
+; EN: Caption="View my global UT stats. [ngWorldStats]"
+Caption="Ver minhas estatísticas globais de UT. [ngWorldStats]"
+
+[MPlayerShortcut]
+Caption="-"
+
+[HeatShortcut]
+Caption="-"
+
+[UninstallShortcut]
+Caption="-"

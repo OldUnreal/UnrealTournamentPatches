@@ -1,0 +1,55 @@
+﻿[Public]
+; EN: Object=(Name=relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Strength,A magical relic that imparts a great increase in damage.")
+Object=(Name=relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="Relíquia: Força,Uma relíquia mágica que confere um grande aumento no dano.")
+; EN: Object=(Name=relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Speed,A magical relic that imparts superhuman speed and reflexes.")
+Object=(Name=relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Relíquia: Velocidade,Uma relíquia mágica que confere velocidade e reflexos sobre-humanos.")
+; EN: Object=(Name=relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Regen,A magical relic that imparts the ability to gain 10 health every second.")
+Object=(Name=relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="Relíquia: Regeneração,Uma relíquia mágica que concede a capacidade de ganhar 10 de saúde a cada segundo.")
+; EN: Object=(Name=relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Redemption,This mysterious artifact will bind to your soul, saving you from death.")
+Object=(Name=relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="Relíquia: Redenção,Este misterioso artefato se ligará à sua alma, salvando você da morte.")
+; EN: Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Defense,A magical relic that prevents 60% of all damage sustained by the user.")
+Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="Relíquia: Defesa,Uma relíquia mágica que previne 60% de todos os danos sofridos pelo usuário.")
+; EN: Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Vengeance,This relic will punish those who wish to slay you.")
+Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Relíquia: Vingança,Esta relíquia punirá aqueles que desejam matá-lo.")
+
+[RelicInventory]
+; EN: PickupMessage="You picked up a null Relic."
+PickupMessage="Você pegou uma relíquia nula."
+; EN: ItemName="Relic"
+ItemName="Relíquia"
+
+[RelicRedemptionInventory]
+; EN: PickupMessage="You picked up the Relic of Redemption!"
+PickupMessage="Você pegou a Relíquia da Redenção!"
+; EN: ItemName="Relic of Redemption"
+ItemName="Relíquia da Redenção"
+
+[RelicStrengthInventory]
+; EN: PickupMessage="You picked up the Relic of Strength!"
+PickupMessage="Você pegou a Relíquia da Força!"
+; EN: ItemName="Relic of Strength"
+ItemName="Relíquia da Força"
+
+[RelicDeathInventory]
+; EN: PickupMessage="You picked up the Relic of Vengeance!"
+PickupMessage="Você pegou a Relíquia da Vingança!"
+; EN: ItemName="Relic of Vengeance"
+ItemName="Relíquia da Vingança"
+
+[RelicDefenseInventory]
+; EN: PickupMessage="You picked up the Relic of Defense!"
+PickupMessage="Você pegou a Relíquia da Defesa!"
+; EN: ItemName="Relic of Defense"
+ItemName="Relíquia da Defesa"
+
+[RelicSpeedInventory]
+; EN: PickupMessage="You picked up the Relic of Speed!"
+PickupMessage="Você pegou a Relíquia da Velocidade!"
+; EN: ItemName="Relic of Speed"
+ItemName="Relíquia da Velocidade"
+
+[RelicRegenInventory]
+; EN: PickupMessage="You picked up the Relic of Regeneration!"
+PickupMessage="Você pegou a Relíquia da Regeneração!"
+; EN: ItemName="Relic of Regeneration"
+ItemName="Relíquia da Regeneração"

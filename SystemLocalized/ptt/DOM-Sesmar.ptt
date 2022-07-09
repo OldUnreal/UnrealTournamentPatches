@@ -1,0 +1,42 @@
+﻿[LevelInfo0]
+; EN: Title="Tomb of Sesmar"
+Title="Tumba de Sesmar"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="DOMINATE!!!!"
+LevelEnterText="DOMINAR!!!!"
+
+[ZoneInfo3]
+; EN: ZoneName="Outside"
+ZoneName="Lado de fora"
+
+[ZoneInfo0]
+ZoneName="Hall of Pillars"
+
+[ZoneInfo5]
+ZoneName="Blue Ankh"
+
+[ZoneInfo4]
+ZoneName="Red Ankh"
+
+[ZoneInfo2]
+ZoneName="South Passage"
+
+[ZoneInfo1]
+; EN: ZoneName="North Passage"
+ZoneName="Passagem Norte"
+
+[ControlPoint0]
+PointName="Blue Ankh"
+
+[ControlPoint3]
+PointName="Hall of Pillars"
+
+[ControlPoint1]
+PointName="Red Ankh"
+
+[LevelSummary]
+; EN: Title="Tomb of Sesmar"
+Title="Tumba de Sesmar"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="DOMINATE!!!!"
+LevelEnterText="DOMINAR!!!!"

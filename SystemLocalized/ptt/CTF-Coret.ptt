@@ -1,0 +1,57 @@
+﻿[LevelInfo0]
+; EN: Title="Coret Facility"
+Title="Facilidade Coret"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Welcome to Coret Facility. Enjoy your stay."
+LevelEnterText="Bem-vindo ao Coret Facility. Aproveite sua estadia."
+
+[ZoneInfo1]
+; EN: ZoneName="Central Area"
+ZoneName="Área central"
+
+[ZoneInfo3]
+; EN: ZoneName="Red Base"
+ZoneName="Base Vermelha"
+
+[ZoneInfo4]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Azul"
+
+[ZoneInfo6]
+ZoneName="Blue Main Hall"
+
+[ZoneInfo11]
+ZoneName="Red Main Hall"
+
+[ZoneInfo7]
+ZoneName="Blue Side Hall"
+
+[ZoneInfo5]
+ZoneName="Blue Foyer"
+
+[ZoneInfo2]
+; EN: ZoneName="Red Side Approach"
+ZoneName="Abordagem do lado vermelho"
+
+[ZoneInfo10]
+; EN: ZoneName="Red Foyer"
+ZoneName="Foyer Vermelho"
+
+[ZoneInfo8]
+; EN: ZoneName="Blue Overhead Hall"
+ZoneName="Salão Superior Azul"
+
+[ZoneInfo9]
+; EN: ZoneName="Red Overhead Hall"
+ZoneName="Salão Superior Vermelho"
+
+[ZoneInfo0]
+; EN: ZoneName="Middle Area - Top"
+ZoneName="Área do Meio - Topo"
+
+[LevelSummary]
+; EN: Title="Coret Facility"
+Title="Facilidade Coret"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Welcome to Coret Facility. Enjoy your stay."
+LevelEnterText="Bem-vindo ao Coret Facility. Aproveite sua estadia."

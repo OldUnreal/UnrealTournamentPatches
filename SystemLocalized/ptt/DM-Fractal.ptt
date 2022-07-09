@@ -1,0 +1,13 @@
+﻿[LevelInfo0]
+; EN: Title="Fractal Reactor"
+Title="Reator Fractal"
+IdealPlayerCount="2-4"
+; EN: LevelEnterText="Don't get caught in the floor portal!"
+LevelEnterText="Não seja pego no portal do chão!"
+
+[LevelSummary]
+; EN: Title="Fractal Reactor"
+Title="Reator Fractal"
+IdealPlayerCount="2-4"
+; EN: LevelEnterText="Don't get caught in the floor portal!"
+LevelEnterText="Não seja pego no portal do chão!"
