@@ -78,7 +78,7 @@ Windows systems will need to run Windows XP or later. Some features (e.g., Clust
 
 Linux systems will need GNU libc 2.19 or later. 
 
-macOS systems will need a 64-bit x86 CPU and Mac OS X Mavericks (10.9) or later. Some rendering features may be unavaiable on macOS. Apple M1 support is planned for the next patch.
+macOS systems will need a 64-bit x86 or Apple Silicon CPU and Mac OS X Mavericks (10.9) or later. Some rendering features may be unavailable on macOS.
 
 ## Features
 
