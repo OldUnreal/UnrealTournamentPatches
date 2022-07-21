@@ -1,6 +1,0 @@
-﻿[public]
-Object=(Name=RelicsBindings.ExtraRelicsBindings,Class=Class,MetaClass=UTMenu.UTExtraKeyBindings,Description="Relics,Toss Relic")
-
-[ExtraRelicsBindings]
-SectionName="Relics"
-LabelList[0]="Toss Relic"
