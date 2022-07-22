@@ -14,7 +14,7 @@ This repository contains development snapshots as well as official releases.
 
 ### Development Snapshots
 
-If you are a modder or beta tester and you would like to test our latest changes, then simply use git to check out this repository. Note, however, that our development snapshots are generally not suitable for online play, as they might not be recognized by various anti-cheat solutions. Development snapshots may also be less stable than the official releases.
+If you are a modder or beta tester and you would like to test our latest changes, then simply use git to check out this repository. Note, however, that development snapshots may be less stable than the official releases.
 
 ### Official Releases
 
@@ -74,7 +74,7 @@ This [YouTube clip](https://youtu.be/wEC1M6EdDnA) shows you what the installatio
 
 Windows and Linux systems will need a CPU with **SSE2** instruction set support. In practice, this means all 64-bit x86 CPUs, all Intel CPUs since (and including) the Pentium 4, and all AMD CPUs since (and including) the Athlon 64 are supported.
 
-Windows systems will need to run Windows XP or later. Some features (e.g., Cluster and ALAudio) are only available on systems running Windows Vista or later.
+Windows systems will need to run Windows Vista or later. 
 
 Linux systems will need GNU libc 2.19 or later. 
 
@@ -84,12 +84,12 @@ macOS systems will need a 64-bit x86 or Apple Silicon CPU and Mac OS X Mavericks
 
 Besides fixing hundreds of bugs, the OldUnreal UT patches also add features such as:
 * Raw input support and full mouse smoothing control
-* OldUnreal's latest OpenGL 4-based 3d renderer (XOpenGLDrv)
+* OldUnreal's latest OpenGL 4-based 3D renderer (XOpenGLDrv)
 * OldUnreal's latest OpenAL-based audio driver (ALAudio)
 * Han's latest FMOD-based audio driver (Cluster)
 * SDL2-based window management for the Linux and macOS clients
 * The latest Demo Manager
-* Unreal 227's Unreal Editor 2.2 (with some UT-specific enhancements)
+* Unreal 227's Unreal Editor 2.2 (with many UT-specific enhancements)
 * PNG support for screenshots
 * Scaling control for in-game fonts and the game menu
 * UTF-8 support for game ini, int, and log files
@@ -97,6 +97,7 @@ Besides fixing hundreds of bugs, the OldUnreal UT patches also add features such
 * Mouse wheel scrolling support for the game menu
 * High-DPI awareness for the game and Unreal Editor
 * Updated versions of Chris Dohnal's UTGLR OpenGLDrv and D3D9Drv renderers
+* An updated in-game server browser with lots of quality-of-life improvements
 
 A full list of patch features and changes is available in the [Release Notes](https://github.com/OldUnreal/UnrealTournamentPatches/blob/master/ReleaseNotes.md). 
 
@@ -142,9 +143,8 @@ We are all volunteers who work on Unreal and Unreal Tournament in our spare time
 We are more than happy to accept other contributions too. Some of the things we could use help with are:
 
 * Installers: The Linux and Mac versions of the patch currently lack an installer script/program. We would gladly accept 3rd party installers contributed by community members.
-* Documentation: Likewise, the Linux and Mac patches have little to no documentation. We assume that the installation process is self-explanatory. If you disagree, then please help us write some documentation.
 * Missing localizations: the new patches include several new in-game menu options as well as new 3D renderers and audio drivers. The text displayed by these new components is currently available in eight out of 15 planned languages: English, German (new for UT), French, Spanish, Italian, Russian (new for UT), Catalan (new for UT) and Dutch (new for UT). While we tried to do the best job as possible with these localizations, the new languages as well as the new lines in the existing languages must be reviewed by native speakers. If you want to contribute to these localizations as well as working on the other WIP localizations, you can lend us a hand in our Localization Project, located [here](https://github.com/NeonKnightOA/unreal-localization).
-* Hardware: If you have any decent hardware that you want to donate, then please send a direct message to Smirftsch or anth through the OldUnreal forum. We are especially looking for more macOS development systems (we currently only have one 2012 MacBook Pro for 5 developers).
+* Hardware: If you have any decent hardware that you want to donate, then please send a direct message to Smirftsch or anth through the OldUnreal forum. We are especially looking for more macOS development systems.
 
 ## Bug Reports
 
@@ -166,7 +166,7 @@ We also want to recognize the hard work of the many beta testers and contributor
 * Sizzl, batonix, ue, Zim: for extensive testing and feedback on the game server
 * uZi, batonix, zkyp, and the members of the UTCTF.pug community: for helping us debug the invisible weapon/flag problem
 * Sp0ngeb0b, proasm, Deepu: for extensive testing and feedback on UnrealScript-related issues
-* Buggie: for extremely thorough testing, for the record number of bug reports, and for contributing the wxWidgets launcher and various bug fixes
+* Buggie: for extremely thorough testing, for the record number of bug reports, and for contributing the wxWidgets launcher and hundreds of bug fixes and improvements
 * Eternity: for helping us solve the FCollisionHash problem
 * Dizzy and NuLL: for helping us solve the invisible collision problem
 * Deaod: for feedback on our movement updates and various bug fixes
