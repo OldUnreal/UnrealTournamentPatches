@@ -1,18 +1,10 @@
 <!-- #include file="inc/header.inc" -->
 <!-- #include file="inc/content_header_tables.inc" -->
 <form method="post" action="%PostAction%" name="">
-  <table width="300" border="0">
-    <tr><td nowrap>Switch Game Type:</td>
-      <td nowrap>%GameTypeSelect%</td>
-      <td width="1%%">%GameTypeButton%</td>
-    </tr>
-    <tr><td nowrap>Switch Map:</td>
-      <td><select name="MapSelect">
-%MapSelect%
-      </select></td>
-      <td width="1%%">%MapButton%</td>
-    </tr>
-  </table>
+	<label>Switch Game Type:</label><br />
+	%GameTypeSelect% %GameTypeButton%<br />
+	<label>Switch Map:</label><br />
+	<select name="MapSelect">%MapSelect%</select> %MapButton%<br />
 </form>
 <!-- #include file="inc/content_footer_tables.inc" -->
 <!-- #include file="inc/footer.inc" -->

@@ -1,35 +1,128 @@
-<table width="100%%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3" bgcolor="#226474"><img src="/images/1-1.gif" width=26 height=6 hspace=0 vspace=0 border=0 align="left"><img src="/images/1-2.gif" width=114 height=6 hspace=0 vspace=0 border=0 align="right"></td>
-  </tr>
-  <tr>
-    <td width="21" bgcolor="Black"><img src="/images/2-1.gif" width=21 height=19 hspace=0 vspace=0 border=0 align="left"></td>
-    <td width="100%%" align="LEFT" bgcolor="Black"><font face="Verdana,Arial" color="White" size="-1"><b>%Section%</b></font><br></td>
-    <td width="114" align="RIGHT" bgcolor="Black"><img src="/images/2-2.gif" width=114 height=19 hspace=0 vspace=0 border=0 align="right"></td>
-  </tr>
-  <tr>
-    <td bgcolor="#226474" colspan="3"><img src="/images/3-1.gif" width=26 height=7 hspace=0 vspace=0 border=0 align="left"><img src="/images/3-2.gif" width=114 height=7 hspace=0 vspace=0 border=0 align="right"></td>
-  </tr>
-</table>
-<table width="100%%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="26" align="RIGHT" bgcolor="Black"><img vspace="0" hspace="0" src="/images/4-2.gif" width=26 height=26 align="right"></td>
-    <td align="LEFT" bgcolor="Black" width="100%%"><font face="Verdana,Arial" color="33cc66"><b>%Area%</b></font></td>
-	<td width="67" align="LEFT"><img vspace="0" hspace="0" src="/images/4-1.gif" width=67 height=26 align="left"></td>
-	<td width="1" align="RIGHT" valign=middle><font face="Verdana,Arial" size="-1" color=white><b>«</b><a href="https://www.oldunreal.com">Bugs?</a><b>»</b></font></td>
-	<td width="26" align="RIGHT"><img vspace="0" hspace="0" src="/images/4-2.gif" width=26 height=26 align="right"></td>
-  </tr>
-</table>
-<table width="100%%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td rowspan="2" colspan="2"><img vspace="0" hspace="0" src="/images/5-1.gif" width=24 height=21 align="left"></td>
-	<td width="100%%" height="9" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/1.gif" width=1 height=1></td>
-	<td rowspan="2" colspan="2"><img vspace="0" hspace="0" src="/images/5-2.gif" width=25 height=21 align="right"></td>
-  </tr>
-  <tr>
-    <td width="100%%" height="12" bgcolor="#135565"><img vspace="0" hspace="0" src="/images/1.gif" width=1 height=1></td>
-  </tr>
-  <tr>
-    <td width="9" bgcolor="#226474"><img vspace="0" hspace="0" src="/images/1.gif" width=1 height=1></td>
-	<td width="15" bgcolor="#135565"><img vspace="0" hspace="0" src="/images/1.gif" width=1 height=1></td>
-	<td width="100%%" bgcolor="#135565"><font face="Verdana,Arial" color="White">
+<style>
+header,
+#top,
+article {
+	width: 100%%;
+	box-sizing: border-box;
+	position: relative;
+	font-family: Verdana, Arial, Helvetica;
+	overflow: hidden;
+	border-radius: 18px;
+	background: #226474;
+}
+header {
+	font-size: small;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 18px;
+	padding: 6px 9px;
+	background: #226474;
+}
+#header-inner {
+	border-radius: 12px;
+	padding: 2px 12px;
+	background: #000;
+	background: linear-gradient(to left, #226474 30px, #000 90px, #000 100%%);
+}
+#top {
+	position: relative;
+	border-radius: 0;
+	background: #226474;
+	line-height: 20px;
+}
+#top:before,
+#top:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 26px;
+	height: 100%%;
+	right: 106px;
+	top: 0;
+	border-radius: 26px;
+	background: #000;
+}
+#top:before {
+	width: 98px;
+	border-radius: 12px 0 0 12px;
+	right: 0;
+}
+#area {
+	font-weight: bold;
+	color: #33cc66;
+	background: #000;
+	border-radius: 0 12px 12px 0;
+	margin-right: 140px;
+	padding: 3px 0 3px 25px;
+}
+#bugs {
+	position: absolute;
+	top: 50%%;
+	right: 0;
+	margin-top: -10px;
+	padding-right: 25px;
+	color: #fff;
+	font-weight: bold;
+	font-size: small;
+}
+#area:before,
+#bugs:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 12px;
+	height: 12px;
+	left: 4px;
+	top: 50%%;
+	margin-top: -6px;
+	border-radius: 12px;
+	background: #226474;
+}
+#bugs:after {
+	left: auto;
+	right: 4px;
+}
+#bugs a {
+	font-weight: normal;
+}
+article {
+	color: silver;
+	padding: 9px 9px 28px;
+}
+#inner {
+	border-radius: 12px;
+	padding: 12px;
+	background: #135565;
+}
+select {
+	max-width: 100%%;
+}
+table, textarea {
+	max-width: 82vw;
+}
+.inl-mid {
+	display: inline-block;
+	vertical-align: middle;
+}
+#credits {
+	position: absolute;
+	right: 46px;
+	padding: 0 6px;
+	bottom: 0;
+	height: 18px;
+	line-height: 18px;
+	font-size: small;
+	border-radius: 6px;
+	background: #000;
+}
+</style>
+
+<header><div id="header-inner">%Section%</div></header>
+
+<div id="top">
+	<div id="area">%Area%</div>
+	<div id="bugs">Â«<a href="https://github.com/OldUnreal/UnrealTournamentPatches/issues" target="_blank">Bugs?</a>Â»</div>
+</div>
+
+<article>
+	<div id="inner">

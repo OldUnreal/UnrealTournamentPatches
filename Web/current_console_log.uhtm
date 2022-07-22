@@ -1,6 +1,13 @@
 <!-- #include file="inc/header.inc" -->
-<!-- #include file="inc/content_header_tables.inc" -->
+<span id="area" style="display: none;">%Area%</span>
+<script>
+	window.parent.document.getElementById('area').textContent = document.getElementById('area').textContent;
+	window.onload = function () {
+		setTimeout(function(){
+			window.scrollTo(0, document.body.scrollHeight);
+		}, 0);
+	};
+</script>
 %LogText%
 <a name="END"></a>
-<!-- #include file="inc/content_footer_tables.inc" -->
 <!-- #include file="inc/footer.inc" -->

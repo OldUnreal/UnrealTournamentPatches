@@ -1,14 +1,21 @@
-<html>
-<head>
-<title>Untitled Document</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-</head>
-
-<frameset rows="*,40" cols="*" border="0" scrolling="No" frameborder="no" noresize framespacing="0" marginheight="0"> 
-  <frame src="%LogURI%#END" border="0" frameborder="no" noresize framespacing="0" marginheight="0">
-  <frame src="%SayURI%" marginheight="0" border="0" scrolling="No" frameborder="no" noresize framespacing="0" marginheight="0">
-</frameset>
-<noframes><body bgcolor="#FFFFFF">
-
-</body></noframes>
-</html>
+<!-- #include file="inc/header.inc" -->
+<!-- #include file="inc/content_header_tables.inc" -->
+<style>
+iframe {
+	width: 100%%;
+}
+#log {
+	height: calc(100vh - 200px);
+	min-height: 200px;
+	max-height: 500px;
+}
+#say {
+	height: 37px;
+	border: 0; 
+}
+</style>
+	<iframe id="log" src="%LogURI%#END"></iframe>
+	<iframe id="say" src="%SayURI%"></iframe>
+	<input type="button" name="refresh" value="Refresh" onclick="document.getElementById('log').contentDocument.location.reload();">
+<!-- #include file="inc/content_footer_tables.inc" -->
+<!-- #include file="inc/footer.inc" -->
