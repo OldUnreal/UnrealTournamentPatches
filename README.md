@@ -24,9 +24,9 @@ If you want to test out our patches, but maintain the possibility to uninstall t
 
 #### Windows Installation
 
-We distribute our **Windows** patches in multiple formats. The zip packages can be installed by unpacking them **on top of an existing installation** of Unreal Tournament. No other actions are needed to install the patch.
+We distribute our **Windows** patches in multiple formats. We recommend that you run the exe installer to patch your game.
 
-We also have an exe installer with a wizard. This wizard should automatically find your existing installation.
+However, you can also simply unpack the zip package **on top of an existing installation** of Unreal Tournament. No other actions are needed to install the patch.
 
 #### Linux Installation
 
