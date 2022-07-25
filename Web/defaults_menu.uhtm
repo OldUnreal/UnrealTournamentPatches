@@ -1,23 +1,21 @@
 <!-- #include file="inc/header.inc" -->
 <!-- #include file="inc/menu_header.inc" -->
-<TD bgColor=#226474 width=149>
-<FONT color=white face="Verdana, Arial, Helvetica" size=-1>
-<form method="post" action="%PostAction%" target="_parent">
-  <input type="hidden" name="GameType" value="%GameType%">
-  <input type="hidden" name="Page" value="%Page%">Game Type:&nbsp;<input type="submit" name="GameTypeSet" value="Select"><br>
-  <select name="GameType">%GameTypeOptions%</select>
-  <p>
-  <B><FONT color="%MapsBG%">»</FONT></B>&nbsp;<b><a href="%MapsURI%" target="_parent"><b>Map List</b></a><br>
-  <B><FONT color="%RulesBG%">»</FONT></B>&nbsp;<b><a href="%RulesURI%" target="_parent"><b>Rules</b></a><br>
-  <B><FONT color="%SettingsBG%">»</FONT></B>&nbsp;<b><a href="%SettingsURI%" target="_parent"><b>Settings</b></a><br>
-  <B><FONT color="%BotsBG%">»</FONT></B>&nbsp;<b><a href="%BotsURI%" target="_parent"><b>Bots</b></a><br>
-  <br>
-  <B><FONT color="%ServerBG%">»</FONT></B>&nbsp;<b><a href="%ServerURI%" target="_parent"><b>Server</b></a><br>
-  <B><FONT color="%IPPolicyBG%">»</FONT></B>&nbsp;<b><a href="%IPPolicyURI%" target="_parent"><b>IP Bans/Accepts</b></a><br>
-  <B><FONT color="%MD5IgnoreBG%">»</FONT></B>&nbsp;<b><a href="%MD5IgnoreURI%" target="_parent"><b>MD5 Ignore</b></a><br>
-  <br>
-  <B><FONT color="%RestartBG%">»</FONT></B>&nbsp;<b><a href="%RestartURI%" target="_parent"><b>Restart Level</b></a><br>
-</FORM>
-</FONT></TD>
+
+	<form method="post" action="%PostAction%" target="_parent">
+		<input type="hidden" name="GameType" value="%GameType%">
+		<input type="hidden" name="Page" value="%Page%">
+		Game Type:&nbsp;<input type="submit" name="GameTypeSet" value="Select"><br />
+		<select name="GameType">%GameTypeOptions%</select>
+	</form>
+	<br />
+	<span style="color: %MapsBG%">Â»&nbsp;<a href="%MapsURI%" target="_parent">Map List</a></span><br />
+	<span style="color: %RulesBG%">Â»&nbsp;<a href="%RulesURI%" target="_parent">Rules</a></span><br />
+	<span style="color: %SettingsBG%">Â»&nbsp;<a href="%SettingsURI%" target="_parent">Settings</a></span><br />
+	<span style="color: %BotsBG%">Â»&nbsp;<a href="%BotsURI%" target="_parent">Bots</a></span><br />
+	<br />
+	<span style="color: %ServerBG%">Â»&nbsp;<a href="%ServerURI%" target="_parent">Server</a></span><br />
+	<span style="color: %IPPolicyBG%">Â»&nbsp;<a href="%IPPolicyURI%" target="_parent">IP Bans/Accepts</a></span><br />
+	<span style="color: %MD5IgnoreBG%">Â»&nbsp;<a href="%MD5IgnoreURI%" target="_parent">MD5 Ignore</a></span><br />
+
 <!-- #include file="inc/menu_footer.inc" -->
 <!-- #include file="inc/footer.inc" -->

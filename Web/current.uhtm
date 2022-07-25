@@ -1,14 +1,59 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>%Title%</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title></title>
+<style>
+body {
+	background: #000;
+}
+iframe {	
+	border: 0;
+	width: 100%%;
+	height: 100%%;
+}
+#dmain, #dindex {
+	position: absolute;
+	top: 0;
+	left: 205px;
+	right: 0;
+	bottom: 0;
+}
+#dindex {
+	left: 0;
+	right: auto;
+	width: 205px;
+}
+@media screen and (max-width: 800px) {
+	#dmain {
+		left: 0;
+		top: 29px;
+	}
+	#dindex {
+		bottom: auto;
+		height: 37px;
+		border-radius: 0 0 0 18px;
+		overflow: hidden;
+	}
+	#dindex:hover,
+	#dindex:focus,
+	#dindex:active {
+		height: auto;
+		bottom: 0;
+	}
+}
+</style>
+<script>
+setInterval(function () {
+	document.getElementsByTagName('title')[0].textContent = 
+		document.getElementById('main').contentDocument.getElementsByTagName('title')[0].textContent + ' - ' +
+		document.getElementById('index').contentDocument.getElementsByTagName('title')[0].textContent;
+}, 1000);
+</script>
 </head>
-
-<frameset cols="205,*" rows="*" border="0" scrolling="No" frameborder="no" noresize framespacing="0" marginheight="0"> 
-  <frame src="%IndexURI%" name="index" border="0" scrolling="No" frameborder="no" noresize framespacing="0" marginheight="0">
-  <frame src="%MainURI%" name="main" border="0" frameborder="no" noresize framespacing="0" marginheight="0">
-</frameset>
-
-<noframes><body bgcolor="#FFFFFF">
-</body></noframes>
+<body>
+<div id="dmain"><iframe src="%MainURI%" name="main" id="main"></iframe></div>
+<div id="dindex"><iframe src="%IndexURI%" name="index" id="index"></iframe></div>
+</body>
 </html>
