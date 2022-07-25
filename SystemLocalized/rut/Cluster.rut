@@ -30,7 +30,7 @@ ExitAfterError="Cluster отключился после ошибки."
 No3dSoundSwitch="-No3dSound-переключатель найден. Параметр Use3dHardware будет проигнорирован Cluster."
 ; Cluster will use some heuristics to determine whether it should or should not patch the environment (won't patch if Launch is detected in Deus Ex, never on Unreal 227 or UT, etc.).
 ; EN: ClusterFuck="Cluster injected binary patches for broken audio functionality into Engine package. You can use -NoClusterFuck to disable it."
-ClusterFuck="Cluster внедрил бинарные патчи для нарушения функциональности звука в пакет Engine. Вы можете использовать -NoClusterFuck, чтобы отключить его."
+ClusterFuck="Cluster внедрил бинарные патчи для исправления звука в пакет Engine. Вы можете использовать -NoClusterFuck, чтобы отключить его."
 ; EN: SelectedDriver="Cluster selected output driver: %ls."
 SelectedDriver="Выбранный драйвер вывода Cluster: %ls."
 

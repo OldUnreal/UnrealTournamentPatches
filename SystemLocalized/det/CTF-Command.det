@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="The Last Command"
-Title="Der Letzte Befehl"
+Title="Das letzte Kommando"
 IdealPlayerCount="6-8"
 
 [ZoneInfo2]
@@ -13,9 +13,9 @@ ZoneName="Rote Basis"
 
 [ZoneInfo0]
 ; EN: ZoneName="Center Area"
-ZoneName="Mittelbereich"
+ZoneName="Zentralbereich"
 
 [LevelSummary]
 ; EN: Title="The Last Command"
-Title="Der Letzte Befehl"
+Title="Das letzte Kommando"
 IdealPlayerCount="6-8"

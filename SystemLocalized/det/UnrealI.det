@@ -376,9 +376,9 @@ ItemName="Minigun"
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o hat eine triefende grüne Ladung von %k geschluckt."
 ; EN: PickupMessage="You got the GES BioRifle"
-PickupMessage="GES-Biogewehr erhalten"
+PickupMessage="GES BioGewehr erhalten."
 ; EN: ItemName="GES BioRifle"
-ItemName="GES-Biogewehr"
+ItemName="GES BioGewehr"
 
 [RazorJack]
 ; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."

@@ -13,7 +13,7 @@ ZoneName="Zentral"
 
 [ZoneInfo6]
 ; EN: ZoneName="Lift 1"
-ZoneName="Heben Sie 1"
+ZoneName="Aufzug 1"
 
 [ZoneInfo8]
 ; EN: ZoneName="Stairs Corridor"
@@ -21,7 +21,7 @@ ZoneName="Treppenhaus"
 
 [ZoneInfo9]
 ; EN: ZoneName="BioRifle Corridor"
-ZoneName="Bio-Gewehrkorridor"
+ZoneName="BioGewehr-Korridor"
 
 [LevelSummary]
 ; EN: Title="Phobos Moon"

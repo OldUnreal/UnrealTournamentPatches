@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="DOM Tutorial"
-Title="Учебник по DOM"
+Title="Обучение DOM"
 
 [ControlPoint0]
 ; EN: PointName="Alpha"
@@ -12,4 +12,4 @@ PointName="Гамма"
 
 [LevelSummary]
 ; EN: Title="DOM Tutorial"
-Title="Учебник по DOM"
+Title="Обучение DOM"

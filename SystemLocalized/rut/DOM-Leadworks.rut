@@ -1,9 +1,9 @@
 ﻿[LevelInfo0]
 ; EN: Title="Southside Leadworks"
-Title="Саутсайд Лидворкс"
+Title="Производство свинца"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Entering the Southside Leadworks"
-LevelEnterText="Вход в Southside Leadworks"
+LevelEnterText="Добро пожаловать на фабрику по производству свинца"
 
 [ZoneInfo0]
 ; EN: ZoneName="Tower"
@@ -11,19 +11,19 @@ ZoneName="Башня"
 
 [ZoneInfo4]
 ; EN: ZoneName="Rocket Storage"
-ZoneName="Ракетное хранилище"
+ZoneName="Зал с рокетом"
 
 [ZoneInfo2]
 ; EN: ZoneName="Lava Bridge"
-ZoneName="Лавовый мост"
+ZoneName="Мост над лавой"
 
 [ZoneInfo3]
 ; EN: ZoneName="Processing"
-ZoneName="Обработка"
+ZoneName="Переработка"
 
 [ZoneInfo6]
 ; EN: ZoneName="Storage"
-ZoneName="Место хранения"
+ZoneName="Склад"
 
 [ControlPoint2]
 ; EN: PointName="Bridge"
@@ -39,15 +39,15 @@ ZoneName="Коридоры"
 
 [ControlPoint0]
 ; EN: PointName="Storage"
-PointName="Место хранения"
+PointName="Склад"
 
 [ZoneInfo5]
 ; EN: ZoneName="Ripper Storage"
-ZoneName="Хранение рыхлителей"
+ZoneName="Зал с риппером"
 
 [LevelSummary]
 ; EN: Title="Southside Leadworks"
-Title="Саутсайд Лидворкс"
+Title="Производство свинца"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Entering the Southside Leadworks"
-LevelEnterText="Вход в Southside Leadworks"
+LevelEnterText="Добро пожаловать на фабрику по производству свинца"

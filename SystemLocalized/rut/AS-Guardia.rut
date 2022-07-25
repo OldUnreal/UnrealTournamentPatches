@@ -1,11 +1,11 @@
 ﻿[LevelInfo0]
 ; EN: Title="Guardia Fortress"
-Title="Крепость Guardia"
+Title="Крепость Гвардии"
 IdealPlayerCount="6-12"
 
 [AssaultInfo2]
 ; EN: ObjDesc[0]="Shoot at the fuse to ignite it and blow up the TNT, which will permit access to the underground base."
-ObjDesc[0]="Выстрелите по фитилю, чтобы поджечь его и взорвать взрывчатку, которая откроет доступ к подземной базе."
+ObjDesc[0]="Выстрелите по запалу, чтобы поджечь его и взорвать стену пещеры. Это откроет доступ к подземной базе."
 ; EN: ObjDesc[1]="Make your way through the base, dealing with all gun turrets and enemies you find along the way, until you ride a lift up to a platform that has the garage activation switch."
 ObjDesc[1]="Пройдите через базу, разбираясь со всеми пушками и врагами, которых встретите на пути, доберитесь до лифта и поднимитесь на платформу, на которой используя пульт управления откройте ворота ангара."
 ; EN: ObjDesc[2]="Once the door is opened, destroy the prototype tank by shooting at the turret."
@@ -30,7 +30,7 @@ IdealPlayerCount="6-12"
 
 [FortStandard1]
 ; EN: FortName="The Fuse"
-FortName="Фитиль"
+FortName="Запал"
 ; EN: DestroyedMessage="has been ignited!"
 DestroyedMessage="подожжён!"
 
@@ -52,7 +52,7 @@ ZoneName="Пещера атакующих"
 
 [ZoneInfo1]
 ; EN: ZoneName="Near the Fuse"
-ZoneName="Возле фитиля"
+ZoneName="Возле запала"
 
 [ZoneInfo2]
 ; EN: ZoneName="Base Corridors"

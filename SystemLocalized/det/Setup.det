@@ -196,7 +196,7 @@ IDC_DeveloperText="Entwickler:"
 ; EN: IDC_UninstallPrompt="This will uninstall the following components:"
 IDC_UninstallPrompt="Dadurch werden die folgenden Komponenten deinstalliert:"
 ; EN: IDC_UninstallQuestion="Are you sure you want to remove these components?"
-IDC_UninstallQuestion="Möchten Sie diese Komponenten wirklich entfernen?"
+IDC_UninstallQuestion="Möchtest du diese Komponenten wirklich entfernen?"
 
 [IDDIALOG_FilerPageAutoPlay]
 ; EN: IDC_Options="Unreal Tournament Options"

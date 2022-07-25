@@ -5,11 +5,11 @@ IdealPlayerCount="6-16"
 
 [ZoneInfo1]
 ; EN: ZoneName="Hub"
-ZoneName="Концентратор"
+ZoneName="Центр"
 
 [ZoneInfo0]
 ; EN: ZoneName="Flak Room"
-ZoneName="Зенитная комната"
+ZoneName="Зал с флэком"
 
 [ZoneInfo4]
 ; EN: ZoneName="West Wing"
@@ -17,11 +17,11 @@ ZoneName="Западное крыло"
 
 [ZoneInfo2]
 ; EN: ZoneName="Shield Belt Room"
-ZoneName="Комната Пояса Щита"
+ZoneName="Зал со щитом"
 
 [ZoneInfo3]
 ; EN: ZoneName="Rocket Launcher Room"
-ZoneName="Ракетная установка"
+ZoneName="Зал с рокетом"
 
 [LevelSummary]
 ; EN: Title="Shrapnel ]["

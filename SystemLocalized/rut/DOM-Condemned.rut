@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Condemned"
-Title="Осужден"
+Title="Трущоба"
 IdealPlayerCount="6"
 ; EN: LevelEnterText="Dominate the competition!"
 LevelEnterText="Доминируйте в соревнованиях!"
@@ -15,7 +15,7 @@ PointName="Артуро"
 
 [ZoneInfo0]
 ; EN: ZoneName="The Condemned Building"
-ZoneName="Обреченное здание"
+ZoneName="Старое здание"
 
 [ControlPoint1]
 ; EN: PointName="Rooftop"
@@ -35,7 +35,7 @@ LocationName="На крыше"
 
 [LevelSummary]
 ; EN: Title="Condemned"
-Title="Осужден"
+Title="Трущоба"
 IdealPlayerCount="6"
 ; EN: LevelEnterText="Dominate the competition!"
 LevelEnterText="Доминируйте в соревнованиях!"
@@ -49,8 +49,10 @@ LocationName="На крыше"
 ZoneName="Переулки"
 
 [ScrollingMessageTexture0]
+; Note: этот шрифт не имеет русских букв. Можете попробовать за свой страх и риск.
 ; EN: ScrollingMessage="TONIGHT 10:00PM EST... %p LEADS HIS UNDEFEATED TEAM %h INTO THE CONDEMNED ARENA"
-ScrollingMessage="СЕГОДНЯ 22:00 EST... %p ВЕДЕТ СВОЮ НЕПРЕРЫВНУЮ КОМАНДУ %h НА ОСУЖЕННУЮ АРЕНУ"
+; RU: ScrollingMessage="СЕГОДНЯ В 22:00... НА АРЕНЕ %p СО СВОЕЙ НЕПОБЕДИМОЙ КОМАНДОЙ"
+ScrollingMessage="TONIGHT 10:00PM EST... %p LEADS HIS UNDEFEATED TEAM %h INTO THE CONDEMNED ARENA"
 
 [locationid0]
 ; EN: LocationName="Garage"

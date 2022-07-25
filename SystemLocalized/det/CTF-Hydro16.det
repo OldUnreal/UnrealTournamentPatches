@@ -5,7 +5,7 @@ IdealPlayerCount="6-12"
 
 [ZoneInfo9]
 ; EN: ZoneName="Red Flag Room"
-ZoneName="Zimmer mit Roter Flagge"
+ZoneName="Roter Flaggenraum"
 
 [ZoneInfo1]
 ; EN: ZoneName="Red Pillar Passage"
@@ -13,7 +13,7 @@ ZoneName="Rotes Säulenzimmer"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Flag Room"
-ZoneName="Zimmer mit Blauer Flagge"
+ZoneName="Blauer Flaggenraum"
 
 [ZoneInfo10]
 ; EN: ZoneName="Blue Boiler Room"

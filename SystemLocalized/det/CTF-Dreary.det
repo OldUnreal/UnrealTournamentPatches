@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Dreary Outpost"
-Title="Tristes Außenposten"
+Title="Trostloser Außenposten"
 IdealPlayerCount="8-12"
 
 [ZoneInfo17]
@@ -9,7 +9,7 @@ ZoneName="Roter Hauptraum"
 
 [ZoneInfo18]
 ; EN: ZoneName="Center loft"
-ZoneName="Center Loft"
+ZoneName="Zentrales Loft"
 
 [ZoneInfo16]
 ; EN: ZoneName="Blue Main Room"
@@ -45,7 +45,7 @@ ZoneName="Blaue untere Halle"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Left Lift Entrance"
-ZoneName="Blauer Eingang zum linken Aufzug"
+ZoneName="Blauer linker Aufzugseingang"
 
 [ZoneInfo15]
 ; EN: ZoneName="Blue Loft"
@@ -69,7 +69,7 @@ ZoneName="Roter rechter Aufzug"
 
 [ZoneInfo10]
 ; EN: ZoneName="Blue Right Lift"
-ZoneName="Blauer Rechtslift"
+ZoneName="Blauer rechter Aufzug"
 
 [SlimeZone0]
 ZoneName="Red Slime Pool"
@@ -80,7 +80,7 @@ ZoneName="Blauer Schleimpool"
 
 [LevelSummary]
 ; EN: Title="Dreary Outpost"
-Title="Tristes Außenposten"
+Title="Trostloser Außenposten"
 IdealPlayerCount="8-12"
 
 [ZoneInfo13]

@@ -1,6 +1,6 @@
 ﻿[UBrowserGSpyLink]
 ; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="Мастер сервер не может быть найден в ДНС: "
+ResolveFailedError="Не могу найти Мастер сервер: "
 ; EN: TimeOutError="Timeout talking to the master server"
 TimeOutError="Таймаут к мастер серверу"
 ; EN: CouldNotConnectError="Connecting to the master server timed out: "
@@ -8,7 +8,7 @@ CouldNotConnectError="Таймаут соединения с мастер сер
 
 [UBrowserHTTPLink]
 ; EN: ResolveFailedError="The master server could not be resolved: "
-ResolveFailedError="Мастер сервер не может быть найден в ДНС: "
+ResolveFailedError="Не могу найти Мастер сервер: "
 ; EN: TimeOutError="Timeout talking to the master server"
 TimeOutError="Таймаут к мастер серверу"
 ; EN: CouldNotConnectError="Connecting to the master server timed out: "
@@ -212,7 +212,7 @@ WasKickedByText="был выгнан"
 ; EN: NowKnownAsText="is now known as"
 NowKnownAsText="теперь известен как"
 ; EN: QuitText="Quit"
-QuitText="Уволиться"
+QuitText="Вышел из игры"
 ; EN: SetsModeText="sets mode"
 SetsModeText="устанавливает режим"
 

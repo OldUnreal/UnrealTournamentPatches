@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="DOM Tutorial"
-Title="Dominanz-Komplettlösung"
+Title="Dominanz Tutorial"
 
 [ControlPoint0]
 ; EN: PointName="Alpha"
@@ -12,4 +12,4 @@ PointName="Gamma"
 
 [LevelSummary]
 ; EN: Title="DOM Tutorial"
-Title="Dominanz-Komplettlösung"
+Title="Dominanz Tutorial"

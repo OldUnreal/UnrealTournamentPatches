@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Facing Worlds"
-Title="Welten Gegenüberstehen"
+Title="Gegenüberstehende Welten"
 IdealPlayerCount="4-10"
 
 [ZoneInfo3]
@@ -16,7 +16,7 @@ ZoneName="Rote Basis"
 
 [LevelSummary]
 ; EN: Title="Facing Worlds"
-Title="Welten Gegenüberstehen"
+Title="Gegenüberstehende Welten"
 IdealPlayerCount="4-10"
 
 [SpecialEvent0]

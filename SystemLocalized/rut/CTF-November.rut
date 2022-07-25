@@ -1,13 +1,13 @@
 ﻿[LevelInfo0]
 ; EN: Title="November Sub Pen"
-Title="Ноябрьская подпись"
+Title="Подлодка «Ноябрь»"
 IdealPlayerCount="8-12"
 ; EN: LevelEnterText="Entering November-Nuclear Submarine Pen."
-LevelEnterText="Вход в ноябрь - Атомная подводная лодка."
+LevelEnterText="Вас ждет атомная подводная лодка класса «Ноябрь»."
 
 [ZoneInfo4]
 ; EN: ZoneName="Sub Pen"
-ZoneName="Дополнительная ручка"
+ZoneName="Подлодка"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Base"
@@ -15,15 +15,15 @@ ZoneName="Синяя база"
 
 [ZoneInfo6]
 ; EN: ZoneName="Red Foyer"
-ZoneName="Красное фойе"
+ZoneName="Вход на красную базу"
 
 [ZoneInfo5]
 ; EN: ZoneName="Red Entry"
-ZoneName="Красный вход"
+ZoneName="Вход на красную базу"
 
 [ZoneInfo3]
 ; EN: ZoneName="Blue Foyer"
-ZoneName="Голубое фойе"
+ZoneName="Вход на синюю базу"
 
 [ZoneInfo0]
 ; EN: ZoneName="Red Base"
@@ -31,11 +31,11 @@ ZoneName="Красная база"
 
 [WaterZone5]
 ; EN: ZoneName="Water"
-ZoneName="вода"
+ZoneName="В воде"
 
 [LevelSummary]
 ; EN: Title="November Sub Pen"
-Title="Ноябрьская подпись"
+Title="Подлодка «Ноябрь»"
 IdealPlayerCount="8-12"
 ; EN: LevelEnterText="Entering November-Nuclear Submarine Pen."
-LevelEnterText="Вход в ноябрь - Атомная подводная лодка."
+LevelEnterText="Вас ждет атомная подводная лодка класса «Ноябрь»."

@@ -5,7 +5,7 @@ IdealPlayerCount="6-12"
 
 [ZoneInfo18]
 ; EN: ZoneName="Nook"
-ZoneName="Уголок"
+ZoneName="Закуток"
 
 [ZoneInfo21]
 ; EN: ZoneName="South Side"
@@ -17,7 +17,7 @@ ZoneName="Лава"
 
 [ControlPoint2]
 ; EN: ZoneName="Nook"
-ZoneName="Уголок"
+ZoneName="Закуток"
 
 [ControlPoint1]
 ; EN: PointName="Lava"
@@ -25,11 +25,11 @@ PointName="Лава"
 
 [ControlPoint0]
 ; EN: PointName="Top"
-PointName="верхний"
+PointName="Вверху"
 
 [ZoneInfo22]
 ; EN: ZoneName="Tall Lift"
-ZoneName="Высокий лифт"
+ZoneName="У лифта"
 
 [LevelSummary]
 ; EN: Title="Cinder Foundry"
@@ -38,4 +38,4 @@ IdealPlayerCount="6-12"
 
 [ZoneInfo19]
 ; EN: ZoneName="Main Area"
-ZoneName="Основная область"
+ZoneName="Главный зал"

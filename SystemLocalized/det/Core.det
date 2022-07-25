@@ -13,11 +13,11 @@ Name="Name:"
 ; EN: Password="Password:"
 Password="Passwort:"
 ; EN: PassPrompt="Enter your name and password:"
-PassPrompt="Geben Sie Ihren Namen und Ihr Passwort ein:"
+PassPrompt="Gib deinen Namen und dein Passwort ein:"
 ; EN: PassDlg="Identity Check"
 PassDlg="Identitätsprüfung"
 ; EN: Overwrite="The file %ls needs to be updated.  Do you want to overwrite the existing version?"
-Overwrite="Die Datei %ls muss aktualisiert werden. Möchten Sie die vorhandene Version überschreiben?"
+Overwrite="Die Datei %ls muss aktualisiert werden. Möchtest du die vorhandene Version überschreiben?"
 
 [Progress]
 ; EN: Saving="Saving file %ls..."

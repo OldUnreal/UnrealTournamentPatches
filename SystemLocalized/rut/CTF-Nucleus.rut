@@ -9,7 +9,7 @@ ZoneName="Красный вход"
 
 [ZoneInfo3]
 ; EN: ZoneName="Middle"
-ZoneName="Средний"
+ZoneName="Центр"
 
 [ZoneInfo10]
 ; EN: ZoneName="Blue Entrance"
@@ -25,43 +25,43 @@ ZoneName="Синяя база"
 
 [ZoneInfo7]
 ; EN: ZoneName="Red Pulse Room"
-ZoneName="Красный пульс"
+ZoneName="Красный зал с пульсой"
 
 [ZoneInfo11]
 ; EN: ZoneName="Blue Pulse Room"
-ZoneName="Номер Blue Pulse"
+ZoneName="Синий зал с пульсой"
 
 [ZoneInfo4]
 ; EN: ZoneName="Red Rocket Room"
-ZoneName="Красная Ракетная Комната"
+ZoneName="Красный зал с рокетом"
 
 [ZoneInfo5]
 ; EN: ZoneName="Red Flak Room"
-ZoneName="Красная зенитная рубка"
+ZoneName="Красный зал с флэком"
 
 [ZoneInfo1]
 ; EN: ZoneName="Blue Rocket Room"
-ZoneName="Голубая Ракетная Комната"
+ZoneName="Синий зал с рокетом"
 
 [ZoneInfo9]
 ; EN: ZoneName="Blue Flak Room"
-ZoneName="Синяя зенитная установка"
+ZoneName="Синий зал с флэком"
 
 [ZoneInfo15]
 ; EN: ZoneName="Blue Energy Tunnel"
-ZoneName="Туннель Голубой Энергии"
+ZoneName="Синий коридор"
 
 [ZoneInfo12]
 ; EN: ZoneName="Red Energy Tunnel"
-ZoneName="Красный энергетический туннель"
+ZoneName="Красный коридор"
 
 [ZoneInfo8]
 ; EN: ZoneName="Red Energy Channel"
-ZoneName="Красный энергетический канал"
+ZoneName="Красный энергоканал"
 
 [ZoneInfo14]
 ; EN: ZoneName="Blue Energy Channel"
-ZoneName="Канал Голубой Энергии"
+ZoneName="Синий энергоканал"
 
 [LevelSummary]
 ; EN: Title="Nucleus Power Plant"
@@ -70,8 +70,8 @@ IdealPlayerCount="12"
 
 [ZoneInfo13]
 ; EN: ZoneName="Red Energy Tunnel"
-ZoneName="Красный энергетический туннель"
+ZoneName="Красный коридор"
 
 [ZoneInfo16]
 ; EN: ZoneName="Blue Energy Tunnel"
-ZoneName="Туннель Голубой Энергии"
+ZoneName="Синий коридор"

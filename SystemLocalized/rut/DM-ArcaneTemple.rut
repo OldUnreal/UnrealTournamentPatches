@@ -1,28 +1,28 @@
 ﻿[LevelInfo0]
 ; EN: Title="Arcane Temple"
-Title="Чародейский храм"
+Title="Тайный Храм"
 IdealPlayerCount="3-8"
 
 [LevelSummary]
 ; EN: Title="Arcane Temple"
-Title="Чародейский храм"
+Title="Тайный Храм"
 IdealPlayerCount="3-8"
 
 [WaterZone0]
 ; EN: ZoneName="Top of the Cascade"
-ZoneName="Вершина каскада"
+ZoneName="Над водопадом"
 
 [WaterZone1]
 ; EN: ZoneName="Cascade Current"
-ZoneName="Каскадный ток"
+ZoneName="Водопад"
 
 [WaterZone2]
 ; EN: ZoneName="Redeemer Lake"
-ZoneName="Озеро Искупителя"
+ZoneName="Озеро Искупления"
 
 [WaterZone3]
 ; EN: ZoneName="Ramps Area (Swimming)"
-ZoneName="Площадь пандусов (плавание)"
+ZoneName="В бассейне"
 
 [ZoneInfo0]
 ; EN: ZoneName="Outside"

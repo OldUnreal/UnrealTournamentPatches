@@ -11,7 +11,7 @@ ZoneName="Turm"
 
 [ZoneInfo4]
 ; EN: ZoneName="Rocket Storage"
-ZoneName="Raketenlagerung"
+ZoneName="Raketenlager"
 
 [ZoneInfo2]
 ; EN: ZoneName="Lava Bridge"
@@ -19,7 +19,7 @@ ZoneName="Lavabrücke"
 
 [ZoneInfo3]
 ; EN: ZoneName="Processing"
-ZoneName="wird bearbeitet"
+ZoneName="Fertigung"
 
 [ZoneInfo6]
 ; EN: ZoneName="Storage"
@@ -43,11 +43,11 @@ PointName="Lager"
 
 [ZoneInfo5]
 ; EN: ZoneName="Ripper Storage"
-ZoneName="Ripper Lagerung"
+ZoneName="Ripper-Lager"
 
 [LevelSummary]
 ; EN: Title="Southside Leadworks"
 Title="Bleischmelze Südseite"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Entering the Southside Leadworks"
-LevelEnterText="Betreten der Southside Leadworks"
+LevelEnterText="Betreten der Bleischmelze Südseite"

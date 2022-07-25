@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Facing Worlds"
-Title="Лицом к мирам"
+Title="Лицом к миру"
 IdealPlayerCount="4-10"
 
 [ZoneInfo3]
@@ -17,9 +17,9 @@ ZoneName="Красная база"
 
 [LevelSummary]
 ; EN: Title="Facing Worlds"
-Title="Лицом к мирам"
+Title="Лицом к миру"
 IdealPlayerCount="4-10"
 
 [SpecialEvent0]
 ; EN: DamageString="put in orbit"
-DamageString="вывести на орбиту"
+DamageString="выведен на орбиту"

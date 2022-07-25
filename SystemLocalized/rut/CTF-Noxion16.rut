@@ -5,19 +5,19 @@ IdealPlayerCount="6-16"
 
 [ZoneInfo0]
 ; EN: ZoneName="Middle"
-ZoneName="Средний"
+ZoneName="Центр"
 
 [ZoneInfo10]
 ; EN: ZoneName="Blue Flag Room"
-ZoneName="Номер с Голубым флагом"
+ZoneName="У синего флага"
 
 [ZoneInfo9]
 ; EN: ZoneName="Red Flag Room"
-ZoneName="Номер Red Flag"
+ZoneName="У красного флага"
 
 [ZoneInfo3]
 ; EN: ZoneName="Red Ramps"
-ZoneName="Красные рампы"
+ZoneName="Красные коридоры"
 
 [ZoneInfo4]
 ; EN: ZoneName="Red Base"
@@ -29,15 +29,15 @@ ZoneName="Синяя база"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Ramps"
-ZoneName="Синие рампы"
+ZoneName="Синие коридоры"
 
 [ZoneInfo5]
 ; EN: ZoneName="Red Middle"
-ZoneName="Красный Средний"
+ZoneName="Красный центр"
 
 [ZoneInfo6]
 ; EN: ZoneName="Blue Middle"
-ZoneName="Синий Средний"
+ZoneName="Синий центр"
 
 [ZoneInfo8]
 ; EN: ZoneName="Red Basement"
@@ -49,7 +49,7 @@ ZoneName="Синий подвал"
 
 [KillingField0]
 ; EN: ZoneName="Really Dead"
-ZoneName="Действительно мертв"
+ZoneName="действительно мертв"
 
 [LevelSummary]
 ; EN: Title="Noxion Base"

@@ -3,11 +3,11 @@
 Title="ГиперБласт"
 IdealPlayerCount="2-8"
 ; EN: LevelEnterText="IT'S HYPERTIME!!"
-LevelEnterText="ЭТО ГИПЕРЕРЬЕ !!"
+LevelEnterText="ЭТО ГИПЕРВРЕМЯ !!"
 
 [ZoneInfo1]
 ; EN: ZoneName="Middle Decks"
-ZoneName="Средние колоды"
+ZoneName="Средняя палуба"
 
 [ZoneInfo0]
 ; EN: ZoneName="Outside The Ship"
@@ -15,7 +15,7 @@ ZoneName="За пределами корабля"
 
 [ZoneInfo3]
 ; EN: ZoneName="Lower Decks"
-ZoneName="Нижние палубы"
+ZoneName="Нижняя палуба"
 
 [ZoneInfo2]
 ; EN: ZoneName="Upper Deck"
@@ -23,11 +23,11 @@ ZoneName="Верхняя палуба"
 
 [VacuumZone0]
 ; EN: DamageString="%k was shot into space!!!"
-DamageString="%k был запущен в космос !!!"
+DamageString="%k улетел в космос !!!"
 
 [LevelSummary]
 ; EN: Title="HyperBlast"
 Title="ГиперБласт"
 IdealPlayerCount="2-8"
 ; EN: LevelEnterText="IT'S HYPERTIME!!"
-LevelEnterText="ЭТО ГИПЕРЕРЬЕ !!"
+LevelEnterText="ЭТО ГИПЕРВРЕМЯ !!"

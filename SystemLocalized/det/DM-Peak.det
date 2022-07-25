@@ -3,7 +3,7 @@
 Title="Das Gipfelkloster"
 IdealPlayerCount="6-8"
 ; EN: LevelEnterText="Watch your step!! It's a long way down!!"
-LevelEnterText="Pass auf wo du hintrittst!! Es ist ein langer Weg nach unten !!"
+LevelEnterText="Pass auf wo du hintrittst!! Es ist ein langer Weg nach unten!!"
 
 [ZoneInfo0]
 ; EN: ZoneName="Outside"
@@ -15,7 +15,7 @@ ZoneName="Hauptraum"
 
 [ZoneInfo5]
 ; EN: ZoneName="The Pit Room"
-ZoneName="Der Pit Room"
+ZoneName="Der Grubenraum"
 
 [ZoneInfo7]
 ; EN: ZoneName="Window Hall"
@@ -38,4 +38,4 @@ ZoneName="Untere Halle"
 Title="Das Gipfelkloster"
 IdealPlayerCount="6-8"
 ; EN: LevelEnterText="Watch your step!! It's a long way down!!"
-LevelEnterText="Pass auf wo du hintrittst!! Es ist ein langer Weg nach unten !!"
+LevelEnterText="Pass auf wo du hintrittst!! Es ist ein langer Weg nach unten!!"

@@ -7,7 +7,7 @@ LevelEnterText="Экспериментальная лаборатория Niven"
 
 [ZoneInfo1]
 ; EN: ZoneName="Central Area"
-ZoneName="Центральная зона"
+ZoneName="Центр"
 
 [ZoneInfo3]
 ; EN: ZoneName="Red Reactor"

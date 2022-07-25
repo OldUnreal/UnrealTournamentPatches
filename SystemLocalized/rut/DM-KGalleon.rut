@@ -1,9 +1,9 @@
 ﻿[LevelInfo0]
 ; EN: Title="Koos Galleon"
-Title="Коос Галеон"
+Title="Галеон Кооса"
 IdealPlayerCount="4-12"
 ; EN: LevelEnterText="SHIVER ME TIMBERS!!!"
-LevelEnterText="ДРОБНИ МЕНЯ ТЕРМО !!!"
+LevelEnterText="ТРЯСИ МЕНЯ ДРЕВЕСИНА !!!"
 
 [WarpZoneInfo0]
 ; EN: ZoneName="Underwater"
@@ -11,7 +11,7 @@ ZoneName="Под водой"
 
 [LevelSummary]
 ; EN: Title="Koos Galleon"
-Title="Коос Галеон"
+Title="Галеон Кооса"
 IdealPlayerCount="4-12"
 ; EN: LevelEnterText="SHIVER ME TIMBERS!!!"
-LevelEnterText="ДРОБНИ МЕНЯ ТЕРМО !!!"
+LevelEnterText="ТРЯСИ МЕНЯ ДРЕВЕСИНА !!!"

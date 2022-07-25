@@ -57,7 +57,7 @@ Description="Дополнительные драйверы Microsoft DirectX 7 �
 ; EN: Caption="Unreal Editor"
 Caption="Нереальный редактор"
 ; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
-Description="Редактор мира Unreal для создания собственных трехмерных окружений Unreal. Для опытных пользователей; установка необязательна."
+Description="Редактор мира Unreal для создания собственных трехмерных уровней Unreal. Для опытных пользователей; установка необязательна."
 
 [PlayShortcut]
 ; EN: Caption="Play Unreal Tournament"

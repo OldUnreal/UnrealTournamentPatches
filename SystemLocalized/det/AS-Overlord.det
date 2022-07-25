@@ -3,7 +3,7 @@
 Title="Operation Oberherr"
 IdealPlayerCount="8-12"
 ; EN: LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
-LevelEnterText="Deaktivieren Sie die Langstrecken-Kanone, indem Sie die Ausrüstung in der Hauptwaffenkontrolle zerstören"
+LevelEnterText="Deaktiviere die Langstrecken-Kanone, indem du die Ausrüstung in der Hauptwaffenkontrolle zerstörst"
 
 [ZoneInfo2]
 ; EN: ZoneName="Barracks"
@@ -26,7 +26,8 @@ ZoneName="Waffenhöhle"
 ZoneName="Strand"
 
 [ZoneInfo1]
-ZoneName="Foxholes"
+; EN: ZoneName="Foxholes"
+ZoneName="Schützenlöcher"
 
 [ZoneInfo0]
 ; EN: ZoneName="Entrance Ramp"
@@ -44,11 +45,11 @@ ZoneName="Wasser"
 ; EN: FortName="The Beachhead"
 FortName="Der Brückenkopf"
 ; EN: DestroyedMessage="has been breached by the attackers!"
-DestroyedMessage="wurde von den Angreifern verletzt!"
+DestroyedMessage="wurde von den Angreifern durchbrochen!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="In order to disable the Long-Range-Cannon you must make your way through the defenders' base to the large Gun Cavern deep inside the cliff wall. In there you will find the 'Main Gun Control' room. Destroy the equipment in that room."
-ObjDesc[0]="Um die Langstrecken-Kanone zu deaktivieren, müssen Sie durch die Basis der Verteidiger zur großen Kanonenhöhle tief in der Klippenwand gehen. Dort finden Sie den Raum "Hauptwaffenkontrolle". Zerstöre die Ausrüstung in diesem Raum."
+ObjDesc[0]="Um die Langstrecken-Kanone zu deaktivieren, musst du durch die Basis der Verteidiger zur großen Kanonenhöhle tief in der Klippenwand gehen. Dort findest du den Raum "Hauptwaffenkontrolle". Zerstöre die Ausrüstung in diesem Raum."
 
 [FortStandard4]
 ; EN: FortName="The Boiler Room"
@@ -61,11 +62,11 @@ DestroyedMessage="wurde von den Angreifern verletzt!"
 Title="Operation Oberherr"
 IdealPlayerCount="8-12"
 ; EN: LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
-LevelEnterText="Deaktivieren Sie die Langstrecken-Kanone, indem Sie die Ausrüstung in der Hauptwaffenkontrolle zerstören"
+LevelEnterText="Deaktiviere die Langstrecken-Kanone, indem du die Ausrüstung in der Hauptwaffenkontrolle zerstören"
 
 [LevelInfo2]
 ; EN: Title="Operation Overlord"
 Title="Operation Oberherr"
 IdealPlayerCount="8-12"
 ; EN: LevelEnterText="Disable the Long-Range-Cannon by destroying the equipment in Main Gun Control"
-LevelEnterText="Deaktivieren Sie die Langstrecken-Kanone, indem Sie die Ausrüstung in der Hauptwaffenkontrolle zerstören"
+LevelEnterText="Deaktiviere die Langstrecken-Kanone, indem du die Ausrüstung in der Hauptwaffenkontrolle zerstörst"
