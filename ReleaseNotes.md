@@ -226,12 +226,15 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * New icon for the macOS bundle (External Contribution by Älg!)
 * Made the game window remember its position across launches (backport from 227)
 * Made the game disable the compatibility fixes applied by the GoG game installer. These compatibility fixes caused choppy audio playback and reduced frame rates
+* Disabled mouse smoothing by default
+* Made mouse input more precise on macOS and Linux
 
 #### Audio and 3D Rendering
 
 * Greatly improved performance of OpenGLDrv and XOpenGLDrv
 * Added a "OldLitColors" option to Render.Render. This option can be set to true if you want unlit actors to be dimly lit as in UT 436
 * ALAudio now uses the correct output device if you select "System Default" as your output device and if you switch audio devices while playing the game (External Contribution by Buggie)
+* Improved support for Apple Retina displays
 
 #### Physics and Player Movement
 
