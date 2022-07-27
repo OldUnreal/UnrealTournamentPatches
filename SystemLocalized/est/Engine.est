@@ -193,7 +193,7 @@ MessageNoAmmo=" no tiene munición."
 ; EN: DeathMessage="%o was killed by %k's %w."
 DeathMessage="%o ha sido asesinado por el %w de %k."
 ; EN: PickupMessage="You got a weapon"
-PickupMessage="Tienes un arma"
+PickupMessage="Has recogido un arma"
 ; EN: ItemName="Weapon"
 ItemName="Arma"
 

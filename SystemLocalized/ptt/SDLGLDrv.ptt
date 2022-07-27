@@ -1,0 +1,17 @@
+﻿[Public]
+Object=(Name=SDLGLDrv.SDLGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=libGL.so.1)
+Preferences=(Caption="SDL OpenGL",Parent="Rendering",Class=SDLGLDrv.SDLGLRenderDevice,Immediate=True)
+
+[Errors]
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL="Não é possível encontrar o driver do OpenGL %ls"
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc="Faltando função do OpenGL %ls (%i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Falhou ao setar a resolução"
+
+[SDLGLRenderDevice]
+; EN: ClassCaption="SDL OpenGL"
+ClassCaption="SDL OpenGL"
+; EN: AskUse="Do you want Unreal Tournament to use your SDL OpenGL rendering device?"
+AskUse="Você quer que o Unreal Tournament use seu dispositivo de renderização SDL OpenGL?"

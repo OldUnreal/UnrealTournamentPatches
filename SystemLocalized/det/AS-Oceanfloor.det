@@ -70,13 +70,13 @@ LevelEnterText="Kontrolliere die Unterwasserbasis!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="Swim out towards the base below the submarine. Inside the base there are 4 terminals with keyboards attached to them that need to be destroyed in order to render the base useless. Destroy terminal 1. The terminals can be destroyed in any order."
-ObjDesc[0]="Schwimmen Sie in Richtung der Basis unter dem U-Boot. In der Basis befinden sich 4 Terminals mit Tastaturen, die zerstört werden müssen, um die Basis unbrauchbar zu machen. Terminal 1 zerstören. Die Terminals können in beliebiger Reihenfolge zerstört werden."
+ObjDesc[0]="Schwimm in Richtung der Basis unter dem U-Boot. In der Basis befinden sich 4 Terminals mit Tastaturen, die zerstört werden müssen, um die Basis unbrauchbar zu machen. Zerstöre Terminal 1. Die Terminals können in beliebiger Reihenfolge zerstört werden."
 ; EN: ObjDesc[1]="Destroy terminal 2. The terminals can be destroyed in any order."
-ObjDesc[1]="Terminal 2 zerstören. Die Terminals können in beliebiger Reihenfolge zerstört werden."
+ObjDesc[1]="Zerstöre Terminal 2. Die Terminals können in beliebiger Reihenfolge zerstört werden."
 ; EN: ObjDesc[2]="Destroy terminal 3. The terminals can be destroyed in any order."
-ObjDesc[2]="Terminal 3 zerstören. Die Terminals können in beliebiger Reihenfolge zerstört werden."
+ObjDesc[2]="Zerstöre Terminal 3. Die Terminals können in beliebiger Reihenfolge zerstört werden."
 ; EN: ObjDesc[3]="Destroy terminal 4. The terminals can be destroyed in any order."
-ObjDesc[3]="Terminal 4 zerstören. Die Terminals können in beliebiger Reihenfolge zerstört werden."
+ObjDesc[3]="Zerstöre Terminal 4. Die Terminals können in beliebiger Reihenfolge zerstört werden."
 
 [ZoneInfo6]
 ; EN: ZoneName="Elevator Shaft"

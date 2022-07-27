@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Ghardhen Labs"
-Title="Labors Ghardhen"
+Title="Ghardhen Labore"
 IdealPlayerCount="6-12"
 
 [ZoneInfo13]
@@ -41,7 +41,7 @@ ZoneName="Strahlkammer 2"
 
 [LevelSummary]
 ; EN: Title="Ghardhen Labs"
-Title="Labors Ghardhen"
+Title="Ghardhen Labore"
 IdealPlayerCount="6-12"
 
 [locationid7]

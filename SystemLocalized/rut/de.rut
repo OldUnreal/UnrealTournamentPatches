@@ -1,7 +1,7 @@
 ﻿[Public]
 ; EN: Object=(Name=de.VolatileAmmo,Class=Class,MetaClass=Engine.Mutator,Description="Volatile Ammo, Ammo explodes when shot.")
-Object=(Name=de.VolatileAmmo,Class=Class,MetaClass=Engine.Mutator,Description="Летучие боеприпасы,Боеприпасы взрываются при выстреле.")
+Object=(Name=de.VolatileAmmo,Class=Class,MetaClass=Engine.Mutator,Description="Взрывные боеприпасы,Боеприпасы взрываются при выстреле.")
 ; EN: Object=(Name=de.VolatileWeapon,Class=Class,MetaClass=Engine.Mutator,Description="Volatile Weapon,Killed players will discharge their weapon!")
-Object=(Name=de.VolatileWeapon,Class=Class,MetaClass=Engine.Mutator,Description="Неустойчивое оружие,Убитые игроки разрядят свое оружие!")
+Object=(Name=de.VolatileWeapon,Class=Class,MetaClass=Engine.Mutator,Description="Разрядка оружие,Убитые игроки разрядят свое оружие!")
 ; EN: Object=(Name=de.TeamBeacon,Class=Class,MetaClass=Engine.Mutator,Description="Team Beacon,Identifies team members.")
-Object=(Name=de.TeamBeacon,Class=Class,MetaClass=Engine.Mutator,Description="Маяк товарища по команде,Идентифицирует членов команды.")
+Object=(Name=de.TeamBeacon,Class=Class,MetaClass=Engine.Mutator,Description="Командные метки,Показывает значки над членами вашей команды.")

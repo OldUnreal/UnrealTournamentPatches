@@ -1,0 +1,11 @@
+﻿[LevelInfo0]
+Title="Codex of Wisdom"
+IdealPlayerCount="2-8"
+
+[ZoneInfo14]
+; EN: ZoneName="Codex"
+ZoneName="Códice"
+
+[LevelSummary]
+Title="Codex of Wisdom"
+IdealPlayerCount="2-8"

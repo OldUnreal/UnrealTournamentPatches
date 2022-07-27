@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Condemned"
-Title="Verurteilt"
+Title="Abbruchreif"
 IdealPlayerCount="6"
 ; EN: LevelEnterText="Dominate the competition!"
 LevelEnterText="Beherrsche die Konkurrenz!"
@@ -15,7 +15,7 @@ PointName="Arturo's"
 
 [ZoneInfo0]
 ; EN: ZoneName="The Condemned Building"
-ZoneName="Das verurteilte Gebäude"
+ZoneName="Das abbruchreifes Gebäude"
 
 [ControlPoint1]
 ; EN: PointName="Rooftop"
@@ -35,7 +35,7 @@ LocationName="Dach"
 
 [LevelSummary]
 ; EN: Title="Condemned"
-Title="Verurteilt"
+Title="Abbruchreif"
 IdealPlayerCount="6"
 ; EN: LevelEnterText="Dominate the competition!"
 LevelEnterText="Beherrsche die Konkurrenz!"
@@ -50,7 +50,7 @@ ZoneName="Gassen"
 
 [ScrollingMessageTexture0]
 ; EN: ScrollingMessage="TONIGHT 10:00PM EST... %p LEADS HIS UNDEFEATED TEAM %h INTO THE CONDEMNED ARENA"
-ScrollingMessage="HEUTE 22:00 EST... %p FÜHRT SEIN UNDEFEATED TEAM %h IN DIE VERURTEILTE ARENA"
+ScrollingMessage="HEUTE 22:00 EST... %p FÜHRT SEIN UNBESIEGTES TEAM %h IN DIE ABBRUCHREIFE ARENA"
 
 [locationid0]
 ; EN: LocationName="Garage"
@@ -62,4 +62,4 @@ LocationName="Dach"
 
 [locationid1]
 ; EN: LocationName="Arturo's Bar"
-LocationName="Arturo's Kneipe"
+LocationName="Arturo's Bar"

@@ -1,0 +1,114 @@
+﻿[Public]
+; EN: Object=(Name=MultiMesh.TSkaarj,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Skaarj Hybrid")
+Object=(Name=MultiMesh.TSkaarj,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Skaarj Hybrid")
+; EN: Object=(Name=MultiMesh.TNali,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Nali")
+Object=(Name=MultiMesh.TNali,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Nali")
+; EN: Object=(Name=MultiMesh.TCow,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Nali WarCow")
+Object=(Name=MultiMesh.TCow,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Nali WarCow")
+; EN: Object=(Name=MultiMesh.SkaarjVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Skaarj Hybrid")
+Object=(Name=MultiMesh.SkaarjVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Skaarj Hybrid")
+; EN: Object=(Name=MultiMesh.NaliVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Nali")
+Object=(Name=MultiMesh.NaliVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Nali")
+; EN: Object=(Name=MultiMesh.CowVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Nali WarCow")
+Object=(Name=MultiMesh.CowVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Nali WarCow")
+; EN: Object=(Name=MultiMesh.TSkaarjBot,Class=Class,MetaClass=BotPack.Bot,Description="Skaarj Hybrid")
+Object=(Name=MultiMesh.TSkaarjBot,Class=Class,MetaClass=BotPack.Bot,Description="Skaarj Hybrid")
+; EN: Object=(Name=MultiMesh.TNaliBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali")
+Object=(Name=MultiMesh.TNaliBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali")
+; EN: Object=(Name=MultiMesh.TCowBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali WarCow")
+Object=(Name=MultiMesh.TCowBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali WarCow")
+; EN: Object=(Name=MultiMesh.MultiMeshMenu,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Force Default Models,Use the default (Male Soldier) model instead of any custom models.")
+Object=(Name=MultiMesh.MultiMeshMenu,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Force Default Models,Use the default (Male Soldier) model instead of any custom models.")
+; EN: Object=(Name=MultiMesh.TDMBonusPackMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Bonus Pack Maps")
+Object=(Name=MultiMesh.TDMBonusPackMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Mapas de pacote de bônus")
+; EN: Object=(Name=MultiMesh.CTFBonusPackMapList,Class=Class,MetaClass=Botpack.CTFmaplist,Description="Bonus Pack Maps")
+Object=(Name=MultiMesh.CTFBonusPackMapList,Class=Class,MetaClass=Botpack.CTFmaplist,Description="Mapas de pacote de bônus")
+
+[CustomBot]
+; EN: MenuName="Custom Player"
+MenuName="Player Personalizado"
+
+[customplayer]
+; EN: MenuName="Custom Player"
+MenuName="Player Personalizado"
+
+[tcow]
+; EN: MenuName="Nali Cow"
+MenuName="Vaca Nali"
+
+[tcowbot]
+; EN: MenuName="Nali Cow"
+MenuName="Vaca Nali"
+
+[TSkaarj]
+; EN: MenuName="Skaarj Hybrid"
+MenuName="Skaarj Hybrid"
+
+[tnali]
+; EN: MenuName="Nali"
+MenuName="Nali"
+
+[tnalibot]
+; EN: MenuName="Nali"
+MenuName="Nali"
+
+[TSkaarjbot]
+; EN: MenuName="Skaarj Hybrid"
+MenuName="Skaarj Hybrid"
+
+[multimeshmenu]
+; EN: MenuCaption="&Force Default Models"
+MenuCaption="&Forçar modelos padrão"
+; EN: MenuHelp="Use the default (Male Soldier) model instead of any custom models"
+MenuHelp="Use o modelo padrão (soldado masculino) em vez de quaisquer modelos personalizados"
+
+[skaarjvoice]
+; EN: TauntString[0]="$#%#!"
+TauntString[0]="$#%#!"
+; EN: TauntString[1]="%&$##!"
+TauntString[1]="%&$##!"
+; EN: TauntString[2]="*@#&$!"
+TauntString[2]="*@#&$!"
+
+[CowVoice]
+; EN: AckString[0]="Moo!"
+AckString[0]="Moo!"
+; EN: AckString[1]="Moo!"
+AckString[1]="Moo!"
+; EN: FFireString[0]="Moo!"
+FFireString[0]="Moo!"
+; EN: FFireString[1]="Moo!"
+FFireString[1]="Moo!"
+; EN: FFireAbbrev[1]="Moo!"
+FFireAbbrev[1]="Moo!"
+; EN: TauntString[0]="Moo!"
+TauntString[0]="Moo!"
+; EN: TauntString[1]="Moo!"
+TauntString[1]="Moo!"
+
+[nalivoice]
+; EN: AckString[0]="Habouji!"
+AckString[0]="Habouji!"
+; EN: AckString[1]="Nouwandi!"
+AckString[1]="Nouwandi!"
+; EN: AckString[2]="Qupada!"
+AckString[2]="Qupada!"
+AckTime[2]=0.850000
+; EN: FFireString[0]="Mouhaga!"
+FFireString[0]="Mouhaga!"
+; EN: FFireString[1]="Batai d'va!"
+FFireString[1]="Batai d'va!"
+; EN: FFireAbbrev[1]="Batai d'va!"
+FFireAbbrev[1]="Batai d'va!"
+; EN: TauntString[0]="Bywonda!"
+TauntString[0]="Bywonda!"
+; EN: TauntString[1]="Habouji!"
+TauntString[1]="Habouji!"
+; EN: TauntString[2]="Nouwandi!"
+TauntString[2]="Nouwandi!"
+; EN: TauntString[3]="Qupada!"
+TauntString[3]="Qupada!"
+; EN: TauntString[4]="Mouhaga!"
+TauntString[4]="Mouhaga!"
+; EN: TauntString[5]="Batai d'va!"
+TauntString[5]="Batai d'va!"

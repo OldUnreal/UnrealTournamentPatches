@@ -7,7 +7,7 @@ LevelEnterText="В пустыне есть боль."
 
 [ZoneInfo1]
 ; EN: ZoneName="Outside"
-ZoneName="за пределами"
+ZoneName="Снаружи"
 
 [ZoneInfo5]
 ; EN: ZoneName="Red Crossway"
@@ -58,4 +58,4 @@ ZoneName="Синие снайперские башни"
 
 [locationid0]
 ; EN: LocationName="Blue Flagyard"
-LocationName="Двор Голубого флага"
+LocationName="Синий двор"

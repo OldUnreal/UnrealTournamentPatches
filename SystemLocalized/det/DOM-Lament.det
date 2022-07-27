@@ -11,11 +11,11 @@ PointName="Zentral"
 
 [ControlPoint1]
 ; EN: PointName="Upper"
-PointName="Oberer, höher"
+PointName="Oben"
 
 [ControlPoint2]
 ; EN: PointName="Lower"
-PointName="Niedriger"
+PointName="Unten"
 
 [LevelSummary]
 ; EN: Title="Lament"

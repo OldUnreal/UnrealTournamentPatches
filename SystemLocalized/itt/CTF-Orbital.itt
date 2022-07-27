@@ -25,7 +25,7 @@ ZoneName="Stanza amplificatore danno Rossa"
 
 [ZoneInfo3]
 ; EN: ZoneName="Blue Sniper Halls"
-ZoneName="Sale cecchini Blu"
+ZoneName="Postazione cecchini Blu"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Flak Cannon Room"
@@ -37,7 +37,7 @@ ZoneName="Stanza cannone contraereo Rossa"
 
 [ZoneInfo8]
 ; EN: ZoneName="Red Sniper Halls"
-ZoneName="Sale cecchini Rossa"
+ZoneName="Postazione cecchini Rossa"
 
 [LevelSummary]
 ; EN: Title="Orbital Station #12"

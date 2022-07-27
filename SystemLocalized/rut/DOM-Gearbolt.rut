@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Gearbolt Installation"
-Title="Установка зубчатого болта"
+Title="Зубчатое колесо"
 IdealPlayerCount="6-12"
 
 [ZoneInfo8]
@@ -33,5 +33,5 @@ PointName="Рампа"
 
 [LevelSummary]
 ; EN: Title="Gearbolt Installation"
-Title="Установка зубчатого болта"
+Title="Зубчатое колесо"
 IdealPlayerCount="6-12"

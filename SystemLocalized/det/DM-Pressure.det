@@ -3,7 +3,7 @@
 Title="Druck"
 IdealPlayerCount="4-12"
 ; EN: LevelEnterText="GET THEM INTO THE PRESSURE CHAMBER!!"
-LevelEnterText="Holen Sie sie in die Druckkammer!"
+LevelEnterText="HOLEN SIE SIE IN DIE DRUCKKAMMER!!"
 
 [ZoneInfo0]
 ; EN: ZoneName="Catwalk Hall"
@@ -54,4 +54,4 @@ ZoneName="Wassertank"
 Title="Druck"
 IdealPlayerCount="4-12"
 ; EN: LevelEnterText="GET THEM INTO THE PRESSURE CHAMBER!!"
-LevelEnterText="Holen Sie sie in die Druckkammer!"
+LevelEnterText="HOLEN SIE SIE IN DIE DRUCKKAMMER!!"

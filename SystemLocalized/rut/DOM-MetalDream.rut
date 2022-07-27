@@ -3,11 +3,11 @@
 Title="Металлическая мечта"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Welcome to Metal Dream"
-LevelEnterText="Добро пожаловать в Metal Dream"
+LevelEnterText="Добро пожаловать в металлическую мечту"
 
 [ZoneInfo5]
 ; EN: ZoneName="Outside"
-ZoneName="за пределами"
+ZoneName="Снаружи"
 
 [ZoneInfo1]
 ; EN: ZoneName="Control Station 4"
@@ -23,11 +23,11 @@ ZoneName="Инженерный коридор"
 
 [ControlPoint0]
 ; EN: PointName="Boxes"
-PointName="Коробки"
+PointName="Ящики"
 
 [ZoneInfo14]
 ; EN: ZoneName="Oil Control"
-ZoneName="Контроля уровня масла"
+ZoneName="Контрольная комната"
 
 [ControlPoint2]
 ; EN: PointName="Crane"
@@ -46,8 +46,8 @@ PointName="Вертолетная площадка"
 Title="Металлическая мечта"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Welcome to Metal Dream"
-LevelEnterText="Добро пожаловать в Metal Dream"
+LevelEnterText="Добро пожаловать в металлическую мечту"
 
 [SpecialEvent7]
 ; EN: DamageString="diced"
-DamageString="нарезанный кубиками"
+DamageString="нарезан кубиками"

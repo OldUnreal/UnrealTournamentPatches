@@ -22,7 +22,7 @@ IdealPlayerCount="8-12"
 
 [FortStandard0]
 ; EN: FortName="The Front Doors"
-FortName="Основные ворота"
+FortName="Главные ворота"
 ; EN: DestroyedMessage="are opened!"
 DestroyedMessage="открыты!"
 
@@ -40,10 +40,10 @@ DestroyedMessage="уничтожена!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="Your enemy is using Tarydium, a powerful and volatile element, to power their War Machines. You must infiltrate the base by first destroying the two counterweights outside the west wing of the fort. This will open the doors to the fortress."
-ObjDesc[0]="Ваш враг использует Таридий, мощный и неустойчивый элемент, в качестве источника энергии для своих боевых машин. Вы должны проникнуть в базу, предварительно уничтожив цепи двух противовесов в западном крыле форта. Тем самым откроете вход в крепость."
+ObjDesc[0]="Ваш враг использует Таридий, мощный и неустойчивый элемент, в качестве источника энергии для своих боевых машин. Вы должны проникнуть в базу, предварительно уничтожив цепи двух противовесов в западном крыле форта, и открыв тем самым вход в крепость."
 ; EN: ObjDesc[1]="Optionally, you may locate the main gate access control switch and open the castle's main gate, giving your teammates more direct access."
-ObjDesc[1]="На Ваше усмотрение Вы можете найти пульт управления основными воротами и открыть их, что даст вашим товарищам по команде более короткий путь."
+ObjDesc[1]="Дополнительно, вы можете найти панель управления основными воротами и открыть их, что сократит вашим товарищам по команде путь в крепость."
 ; EN: ObjDesc[2]="Find and activate the primary access control switch to gain entry to the Tarydium reactor room."
-ObjDesc[2]="Найдите и используйте основной пульт управления доступом, чтобы проникнуть в помещение Таридиевого реактора."
+ObjDesc[2]="Найдите и используйте панель управления доступом, чтобы проникнуть в помещение Таридиевого реактора."
 ; EN: ObjDesc[3]="Finally, destroy the Tarydium power crystal to shut down the operation."
 ObjDesc[3]="Наконец, уничтожьте энергетический кристалл Таридия, чтобы завершить операцию."

@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Floating Pyramid"
-Title="Плавающая пирамида"
+Title="Парящая пирамида"
 IdealPlayerCount="8"
 
 [SpecialEvent1]
@@ -9,5 +9,5 @@ Message="Ты забыл свои крылья, ламер!"
 
 [LevelSummary]
 ; EN: Title="Floating Pyramid"
-Title="Плавающая пирамида"
+Title="Парящая пирамида"
 IdealPlayerCount="8"

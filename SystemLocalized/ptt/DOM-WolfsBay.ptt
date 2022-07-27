@@ -1,0 +1,58 @@
+﻿[LevelInfo0]
+Title="Wolf's Bay"
+IdealPlayerCount="6"
+
+[ZoneInfo21]
+; EN: ZoneName="Aft"
+ZoneName="Popa"
+
+[ZoneInfo5]
+ZoneName="Cargo Hold"
+
+[ZoneInfo3]
+; EN: ZoneName="Engine Room"
+ZoneName="Sala de maquinas"
+
+[ControlPoint1]
+; EN: PointName="Bridge"
+PointName="Ponte"
+
+[ControlPoint2]
+; EN: PointName="Cargo"
+PointName="Carga"
+
+[ControlPoint0]
+; EN: PointName="Engine"
+PointName="Motor"
+
+[ZoneInfo1]
+; EN: ZoneName="Bridge"
+ZoneName="Ponte"
+
+[ZoneInfo6]
+; EN: ZoneName="Starboard Tunnel"
+ZoneName="Túnel de Estibordo"
+
+[ZoneInfo10]
+; EN: ZoneName="Port Tunnel"
+ZoneName="Túnel Portuário"
+
+[ZoneInfo2]
+; EN: ZoneName="Vent Room"
+ZoneName="Sala de ventilação"
+
+[ZoneInfo4]
+; EN: ZoneName="Port Tunnel"
+ZoneName="Túnel Portuário"
+
+[WaterZone0]
+; EN: ZoneName="Drowning"
+ZoneName="Afogamento"
+
+[LevelSummary]
+Title="Wolf's Bay"
+IdealPlayerCount="6"
+
+[ZoneInfo22]
+; EN: ZoneName="Outside"
+ZoneName="Lado de fora"

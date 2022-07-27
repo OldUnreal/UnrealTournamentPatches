@@ -21,7 +21,7 @@ PointName="Brücke"
 
 [ControlPoint2]
 ; EN: PointName="Cargo"
-PointName="Ladung"
+PointName="Fracht"
 
 [ControlPoint0]
 ; EN: PointName="Engine"

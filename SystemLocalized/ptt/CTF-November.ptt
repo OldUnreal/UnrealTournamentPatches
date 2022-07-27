@@ -1,0 +1,40 @@
+﻿[LevelInfo0]
+; EN: Title="November Sub Pen"
+Title="Novembro Sub Caneta"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Entering November-Nuclear Submarine Pen."
+LevelEnterText="Entrando em novembro-Nuclear Submarine Pen."
+
+[ZoneInfo4]
+; EN: ZoneName="Sub Pen"
+ZoneName="Sub Caneta"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Azul"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Foyer"
+ZoneName="Foyer Vermelho"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Entry"
+ZoneName="Entrada Vermelha"
+
+[ZoneInfo3]
+ZoneName="Blue Foyer"
+
+[ZoneInfo0]
+; EN: ZoneName="Red Base"
+ZoneName="Base Vermelha"
+
+[WaterZone5]
+; EN: ZoneName="Water"
+ZoneName="Água"
+
+[LevelSummary]
+; EN: Title="November Sub Pen"
+Title="Novembro Sub Caneta"
+IdealPlayerCount="8-12"
+; EN: LevelEnterText="Entering November-Nuclear Submarine Pen."
+LevelEnterText="Entrando em novembro-Nuclear Submarine Pen."

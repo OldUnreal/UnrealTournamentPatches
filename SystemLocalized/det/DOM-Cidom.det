@@ -9,7 +9,7 @@ ZoneName="U-Bahn"
 
 [ZoneInfo3]
 ; EN: ZoneName="Club"
-ZoneName="Verein"
+ZoneName="Club"
 
 [ZoneInfo1]
 ; EN: ZoneName="Outside"
@@ -25,7 +25,7 @@ ZoneName="Dach"
 
 [ControlPoint0]
 ; EN: PointName="Club"
-PointName="Verein"
+PointName="Club"
 
 [ControlPoint2]
 ; EN: PointName="Subway"

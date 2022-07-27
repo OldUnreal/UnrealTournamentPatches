@@ -1,17 +1,17 @@
 ﻿[LevelInfo0]
 ; EN: Title="Cryptic"
-Title="Загадочный"
+Title="Склеп"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Control Thyself"
-LevelEnterText="Контролировать себя"
+LevelEnterText="Контролируйте себя"
 
 [ZoneInfo4]
 ; EN: ZoneName="Half-Circle Room"
-ZoneName="Полукруглый номер"
+ZoneName="Полукруглый зал"
 
 [ZoneInfo7]
 ; EN: ZoneName="Quarter-Circle Room"
-ZoneName="Четвертькруглый номер"
+ZoneName="Четвертной зал"
 
 [ZoneInfo5]
 ; EN: ZoneName="Long Hallway"
@@ -38,4 +38,4 @@ ZoneName="Короткий коридор"
 Title="Загадочный"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Control Thyself"
-LevelEnterText="Контролировать себя"
+LevelEnterText="Контролируйте себя"

@@ -17,43 +17,43 @@ ZoneName="Красная база"
 
 [ZoneInfo6]
 ; EN: ZoneName="Red Sniper"
-ZoneName="Красный Снайпер"
+ZoneName="На красной башне"
 
 [ZoneInfo7]
 ; EN: ZoneName="Blue Sniper"
-ZoneName="Синий снайпер"
+ZoneName="На синей башне"
 
 [ZoneInfo5]
 ; EN: ZoneName="Blue Redeemer"
-ZoneName="Синий Искупитель"
+ZoneName="Синий Редимер"
 
 [ZoneInfo4]
 ; EN: ZoneName="Red Redeemer"
-ZoneName="Красный Искупитель"
+ZoneName="Красный Редимер"
 
 [SpecialEvent0]
 ; EN: DamageString="put in orbit"
-DamageString="вывести на орбиту"
+DamageString="вышел на орбиту"
 
 [locationid0]
 ; EN: LocationName="Blue Back"
-LocationName="Синяя спина"
+LocationName="За синей башней"
 
 [locationid1]
 ; EN: LocationName="Blue Asteroid"
-LocationName="Голубой астероид"
+LocationName="Синий астероид"
 
 [locationid2]
 ; EN: LocationName="Blue Asteroid"
-LocationName="Голубой астероид"
+LocationName="Синий астероид"
 
 [locationid3]
 ; EN: LocationName="Blue Asteroid"
-LocationName="Голубой астероид"
+LocationName="Синий астероид"
 
 [locationid4]
 ; EN: LocationName="Blue Asteroid"
-LocationName="Голубой астероид"
+LocationName="Синий астероид"
 
 [locationid5]
 ; EN: LocationName="Red Asteroid"
@@ -77,19 +77,19 @@ LocationName="Красный астероид"
 
 [locationid10]
 ; EN: LocationName="Red Back"
-LocationName="Красная спина"
+LocationName="За красной башней"
 
 [locationid11]
 ; EN: LocationName="Blue Tower"
-LocationName="Голубая Башня"
+LocationName="В синей башне"
 
 [locationid12]
 ; EN: LocationName="Red Tower"
-LocationName="Красная Башня"
+LocationName="В красной башне"
 
 [locationid13]
 ; EN: LocationName="Red Tower"
-LocationName="Красная Башня"
+LocationName="В красной башне"
 
 [LevelSummary]
 ; EN: Title="Facing Worlds Special Edition"

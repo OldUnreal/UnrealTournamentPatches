@@ -5,9 +5,9 @@ Preferences=(Caption="Debug Options",Parent="XOpenGL",Class=XOpenGLDrv.XOpenGLRe
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
-NoFindGL="Konnte keinen OpenGL Treiber finden %ls"
+NoFindGL="Konnte keinen OpenGL-Treiber finden %ls"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
-MissingFunc="Fehlende OpenGL Funktion %ls (%i)"
+MissingFunc="Fehlende OpenGL-Funktion %ls (%i)"
 ; EN: ResFailed="Failed to set resolution"
 ResFailed="Fehler beim Einstellen der Auflösung"
 
@@ -15,6 +15,6 @@ ResFailed="Fehler beim Einstellen der Auflösung"
 ; EN: ClassCaption="XOpenGL"
 ClassCaption="XOpenGL"
 ; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
-AskInstalled="Haben Sie eine Grafikkarte installiert, die mindestens OpenGL Version 3.3 oder höher unterstützt?"
+AskInstalled="Hast du eine Grafikkarte installiert, die mindestens OpenGL Version 3.3 oder höher unterstützt?"
 ; EN: AskUse="Do you want Unreal Tournament to use your XOpenGL accelerator?"
-AskUse="Möchtest du das Unreal Tournament XOpenGL benutzt?"
+AskUse="Soll Unreal Tournament deinen XOpenGL-Beschleuniger verwenden?"

@@ -5,7 +5,7 @@ IdealPlayerCount="3-8"
 
 [ControlPoint0]
 ; EN: PointName="Low Point"
-PointName="Низкая точка"
+PointName="Нижняя точка"
 
 [ControlPoint1]
 ; EN: PointName="Center Point"

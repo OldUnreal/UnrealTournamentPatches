@@ -3,15 +3,15 @@
 Title="Давление"
 IdealPlayerCount="4-12"
 ; EN: LevelEnterText="GET THEM INTO THE PRESSURE CHAMBER!!"
-LevelEnterText="ПОЛУЧИТЕ ИХ В КАМЕРЕ ДАВЛЕНИЯ !!"
+LevelEnterText="ПРЕССУЙТЕ ИХ В КАМЕРЕ ДАВЛЕНИЯ !!"
 
 [ZoneInfo0]
 ; EN: ZoneName="Catwalk Hall"
-ZoneName="Подиум"
+ZoneName="Подмостки"
 
 [ZoneInfo4]
 ; EN: ZoneName="Pillar Hall"
-ZoneName="Колонный зал"
+ZoneName="Зал c колоннами"
 
 [ZoneInfo1]
 ; EN: ZoneName="Pressure Hall"
@@ -19,7 +19,7 @@ ZoneName="Зал давления"
 
 [ZoneInfo6]
 ; EN: ZoneName="Pillar Hall"
-ZoneName="Колонный зал"
+ZoneName="Зал c колоннами"
 
 [PressureZone0]
 ; EN: ZoneName="Pressure Chamber"
@@ -27,11 +27,11 @@ ZoneName="Камера давления"
 
 [WaterZone0]
 ; EN: ZoneName="Water Tank"
-ZoneName="Водный танк"
+ZoneName="В воде"
 
 [ZoneInfo7]
 ; EN: ZoneName="Escape Tunnel"
-ZoneName="Туннель для побега"
+ZoneName="Узкий коридор"
 
 [ZoneInfo2]
 ; EN: ZoneName="Pressure Hall"
@@ -39,19 +39,19 @@ ZoneName="Зал давления"
 
 [ZoneInfo5]
 ; EN: ZoneName="Pillar Hall"
-ZoneName="Колонный зал"
+ZoneName="Зал c колоннами"
 
 [ZoneInfo3]
 ; EN: ZoneName="Catwalk Hall"
-ZoneName="Подиум"
+ZoneName="Подмостки"
 
 [WaterZone1]
 ; EN: ZoneName="Water Tank"
-ZoneName="Водный танк"
+ZoneName="В воде"
 
 [LevelSummary]
 ; EN: Title="Pressure"
 Title="Давление"
 IdealPlayerCount="4-12"
 ; EN: LevelEnterText="GET THEM INTO THE PRESSURE CHAMBER!!"
-LevelEnterText="ПОЛУЧИТЕ ИХ В КАМЕРЕ ДАВЛЕНИЯ !!"
+LevelEnterText="ПРЕССУЙТЕ ИХ В КАМЕРЕ ДАВЛЕНИЯ !!"

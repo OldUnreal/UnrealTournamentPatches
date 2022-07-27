@@ -1,25 +1,25 @@
 ﻿[LevelInfo0]
 ; EN: Title="Lament"
-Title="Плач"
+Title="Жалость"
 IdealPlayerCount="2-4"
 ; EN: LevelEnterText="Control it all!"
-LevelEnterText="Управляйте всем!"
+LevelEnterText="Держите всё под контролем!"
 
 [ControlPoint0]
 ; EN: PointName="Central"
-PointName="Центральная"
+PointName="Центр"
 
 [ControlPoint1]
 ; EN: PointName="Upper"
-PointName="Верхний"
+PointName="Вверху"
 
 [ControlPoint2]
 ; EN: PointName="Lower"
-PointName="Нижняя"
+PointName="Внизу"
 
 [LevelSummary]
 ; EN: Title="Lament"
-Title="Плач"
+Title="Жалость"
 IdealPlayerCount="2-4"
 ; EN: LevelEnterText="Control it all!"
-LevelEnterText="Управляйте всем!"
+LevelEnterText="Держите всё под контролем!"

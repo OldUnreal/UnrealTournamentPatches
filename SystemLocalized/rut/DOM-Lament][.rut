@@ -1,25 +1,25 @@
 ﻿[LevelInfo0]
 ; EN: Title="Lament ]["
-Title="Плач ]["
+Title="Жалость ]["
 IdealPlayerCount="2-4"
 ; EN: LevelEnterText="Break out the rubber, it's DOMINATION time!"
-LevelEnterText="Вырвите резину, пришло время ДОМИНИРОВАНИЯ!"
+LevelEnterText="Хватит тянуть резину, пришло время для ДОМИНИРОВАНИЯ!"
 
 [ControlPoint2]
 ; EN: PointName="Lower"
-PointName="Нижняя"
+PointName="Внизу"
 
 [ControlPoint0]
 ; EN: PointName="Central"
-PointName="Центральная"
+PointName="В центре"
 
 [ControlPoint1]
 ; EN: PointName="Upper"
-PointName="Верхний"
+PointName="Вверху"
 
 [LevelSummary]
 ; EN: Title="Lament ]["
-Title="Плач ]["
+Title="Жалость ]["
 IdealPlayerCount="2-4"
 ; EN: LevelEnterText="Break out the rubber, it's DOMINATION time!"
-LevelEnterText="Вырвите резину, пришло время ДОМИНИРОВАНИЯ!"
+LevelEnterText="Хватит тянуть резину, пришло время для ДОМИНИРОВАНИЯ!"

@@ -1,19 +1,19 @@
 ﻿[LevelInfo0]
 ; EN: Title="Olden Aquifer"
-Title="Старый водоносный горизонт"
+Title="Древний храм"
 IdealPlayerCount="4-6"
 
 [ZoneInfo2]
 ; EN: ZoneName="Lower Point Room"
-ZoneName="Нижняя точка комнаты"
+ZoneName="Нижняя точка"
 
 [ZoneInfo0]
 ; EN: ZoneName="Central Room"
-ZoneName="Центральная комната"
+ZoneName="Центральная точка"
 
 [ZoneInfo1]
 ; EN: ZoneName="Upper Point Room"
-ZoneName="Номер «Верхняя точка»"
+ZoneName="Верхняя точка"
 
 [ZoneInfo3]
 ; EN: ZoneName="Chain Lift Room"
@@ -21,21 +21,21 @@ ZoneName="Цепной лифт"
 
 [ControlPoint1]
 ; EN: PointName="Lower"
-PointName="Нижняя"
+PointName="Внизу"
 
 [ControlPoint2]
 ; EN: PointName="Upper"
-PointName="Верхний"
+PointName="Вверху"
 
 [ControlPoint0]
 ; EN: PointName="Mid"
-PointName="Середина"
+PointName="В середине"
 
 [WaterZone0]
 ; EN: ZoneName="Aqueduct"
-ZoneName="Акведук"
+ZoneName="В воде"
 
 [LevelSummary]
 ; EN: Title="Olden Aquifer"
-Title="Старый водоносный горизонт"
+Title="Древний храм"
 IdealPlayerCount="4-6"

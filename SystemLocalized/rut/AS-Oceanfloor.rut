@@ -1,21 +1,21 @@
 ﻿[LevelInfo0]
 ; EN: Title="Ocean Floor 'Station 5'"
-Title="Дно океана "Станция 5""
+Title="«Станция 5» на дне океана"
 IdealPlayerCount="8-10"
 ; EN: LevelEnterText="Control the underwater base!"
-LevelEnterText="Захват подводной базы!"
+LevelEnterText="Захватите подводную базу!"
 
 [ZoneInfo5]
 ; EN: ZoneName="Middle Area"
-ZoneName="Средняя зона"
+ZoneName="Центральная зона"
 
 [ZoneInfo3]
 ; EN: ZoneName="Large Docking Area"
-ZoneName="Большая зона стыковки"
+ZoneName="Большой шлюз"
 
 [ZoneInfo4]
 ; EN: ZoneName="Small Docking Area"
-ZoneName="Малая зона стыковки"
+ZoneName="Малый шлюз"
 
 [ZoneInfo1]
 ; EN: ZoneName="Submarine"
@@ -27,7 +27,7 @@ ZoneName="Командный центр"
 
 [ZoneInfo7]
 ; EN: ZoneName="Hallway"
-ZoneName="Прихожая"
+ZoneName="Зал"
 
 [SpecialEvent0]
 ; EN: Message="Terminal 1 has been disabled."
@@ -63,20 +63,20 @@ DestroyedMessage="уничтожен!"
 
 [LevelSummary]
 ; EN: Title="Ocean Floor 'Station 5'"
-Title="Дно океана "Станция 5""
+Title="«Станция 5» на дне океана"
 IdealPlayerCount="8-10"
 ; EN: LevelEnterText="Control the underwater base!"
-LevelEnterText="Захват подводной базы!"
+LevelEnterText="Захватите подводную базу!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="Swim out towards the base below the submarine. Inside the base there are 4 terminals with keyboards attached to them that need to be destroyed in order to render the base useless. Destroy terminal 1. The terminals can be destroyed in any order."
-ObjDesc[0]="Плывите к базе, расположенной под подводной лодкой. Внутри базы есть 4 терминала с подключенными к ним клавиатурами, которые необходимо уничтожить, чтобы сделать базу бесполезной. Уничтожте терминал 1. Терминалы можно уничтожать в любом порядке."
+ObjDesc[0]="Плывите к базе, расположенной под подводной лодкой. Внутри базы есть 4 терминала с подключенными к ним клавиатурами, которые необходимо уничтожить, чтобы сделать базу бесполезной. Уничтожьте терминал 1. Терминалы могут быть уничтожены в любом порядке.
 ; EN: ObjDesc[1]="Destroy terminal 2. The terminals can be destroyed in any order."
-ObjDesc[1]="Уничтожте терминал 2. Терминалы можно уничтожать в любом порядке."
+ObjDesc[1]="Уничтожте терминал 2. Терминалы могут быть уничтожены в любом порядке."
 ; EN: ObjDesc[2]="Destroy terminal 3. The terminals can be destroyed in any order."
-ObjDesc[2]="Уничтожте терминал 3. Терминалы можно уничтожать в любом порядке."
+ObjDesc[2]="Уничтожте терминал 3. Терминалы могут быть уничтожены в любом порядке."
 ; EN: ObjDesc[3]="Destroy terminal 4. The terminals can be destroyed in any order."
-ObjDesc[3]="Уничтожте терминал 4. Терминалы можно уничтожать в любом порядке."
+ObjDesc[3]="Уничтожте терминал 4. Терминалы могут быть уничтожены в любом порядке."
 
 [ZoneInfo6]
 ; EN: ZoneName="Elevator Shaft"

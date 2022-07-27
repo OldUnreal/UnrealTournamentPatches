@@ -1,0 +1,50 @@
+﻿[LevelInfo0]
+; EN: Title="Lava Giant"
+Title="Gigante de lava"
+IdealPlayerCount="8-14"
+; EN: LevelEnterText="GET THOSE FLAGS!!"
+LevelEnterText="PEGUE AQUELAS BANDEIRAS !!"
+
+[ZoneInfo0]
+; EN: ZoneName="On The Island"
+ZoneName="Na ilha"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Lower Area"
+ZoneName="Área Azul Inferior"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Lower Area"
+ZoneName="Área Inferior Vermelha"
+
+[ZoneInfo2]
+; EN: ZoneName="Red Lower Area"
+ZoneName="Área Inferior Vermelha"
+
+[ZoneInfo4]
+; EN: ZoneName="Blue Lower Area"
+ZoneName="Área Azul Inferior"
+
+[LevelSummary]
+; EN: Title="Lava Giant"
+Title="Gigante de lava"
+IdealPlayerCount="8-14"
+; EN: LevelEnterText="GET THOSE FLAGS!!"
+LevelEnterText="PEGUE AQUELAS BANDEIRAS !!"
+
+[locationid1]
+; EN: LocationName="Red Base"
+LocationName="Base Vermelha"
+
+[locationid5]
+LocationName="Rocket Launcher Ridge"
+
+[locationid4]
+LocationName="Shield Belt Ridge"
+
+[locationid2]
+; EN: LocationName="Blue Base"
+LocationName="Base Azul"
+
+[locationid3]
+LocationName="Redeemer Ridge"

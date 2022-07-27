@@ -4,7 +4,7 @@ Preferences=(Caption="OpenGL",Parent="Rendering",Class=OpenGLDrv.OpenGLRenderDev
 
 [Errors]
 ; EN: NoFindGL="Can't find OpenGL driver %ls"
-NoFindGL="Не возможно найти драйвера OpenGL %ls"
+NoFindGL="Невозможно найти драйвера OpenGL %ls"
 ; EN: MissingFunc="Missing OpenGL function %ls (%i)"
 MissingFunc="Функция OpenGL %ls (%i) не найдена"
 ; EN: ResFailed="Failed to set resolution"
@@ -16,4 +16,4 @@ ClassCaption="OpenGL"
 ; EN: AskInstalled="Do you have a OpenGL compatible 3D accelerator installed?"
 AskInstalled="Есть ли у вас OpenGL совместимая видеокарта?"
 ; EN: AskUse="Do you want Unreal Tournament to use your OpenGL accelerator?"
-AskUse="Хотите ли вы, что бы Unreal Tournament использовал вашу OpenGL видеокарту?"
+AskUse="Хотите ли вы, чтобы Unreal Tournament использовал вашу OpenGL видеокарту?"

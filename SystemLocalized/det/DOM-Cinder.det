@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Cinder Foundry"
-Title="Aschengießerei"
+Title="Schlackengießerei"
 IdealPlayerCount="6-12"
 
 [ZoneInfo18]
@@ -33,7 +33,7 @@ ZoneName="Hoher Aufzug"
 
 [LevelSummary]
 ; EN: Title="Cinder Foundry"
-Title="Aschengießerei"
+Title="Schlackengießerei"
 IdealPlayerCount="6-12"
 
 [ZoneInfo19]
