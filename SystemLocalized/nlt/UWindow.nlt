@@ -14,7 +14,7 @@ WindowTitle="Systeemconsole"
 
 [UWindowSmallCloseButton]
 ; EN: CloseText="Close"
-CloseText="Dichtbij"
+CloseText="Sluit"
 
 [UWindowSmallCancelButton]
 ; EN: CancelText="Cancel"

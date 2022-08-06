@@ -13,11 +13,11 @@ ZoneName="Raketkamer"
 
 [ZoneInfo1]
 ; EN: ZoneName="Damage Amp"
-ZoneName="Schade Amp"
+ZoneName="Schade Versterker"
 
 [ZoneInfo3]
 ; EN: ZoneName="Shield Belt"
-ZoneName="Shield riem"
+ZoneName="Schild-Riem"
 
 [LevelSummary]
 ; EN: Title="Tempest"

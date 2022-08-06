@@ -13,7 +13,7 @@ ZoneName="Ramp"
 
 [ZoneInfo9]
 ; EN: ZoneName="Lift"
-ZoneName="Optillen"
+ZoneName="Lift"
 
 [ZoneInfo10]
 ; EN: ZoneName="Basement"
@@ -25,11 +25,11 @@ PointName="Brug"
 
 [ControlPoint0]
 ; EN: PointName="Lift"
-PointName="Optillen"
+PointName="Lift"
 
 [ControlPoint1]
 ; EN: PointName="Ramp"
-PointName="Ramp"
+PointName="Helling"
 
 [LevelSummary]
 ; EN: Title="Gearbolt Installation"

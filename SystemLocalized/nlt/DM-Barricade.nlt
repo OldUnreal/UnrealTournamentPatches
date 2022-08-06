@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Orion's Barricade"
-Title="Orion's Barricade"
+Title="Orion's Versperring"
 IdealPlayerCount="6-12"
 
 [ZoneInfo11]
@@ -17,5 +17,5 @@ ZoneName="Kelder"
 
 [LevelSummary]
 ; EN: Title="Orion's Barricade"
-Title="Orion's Barricade"
+Title="Orion's Versperring"
 IdealPlayerCount="6-12"

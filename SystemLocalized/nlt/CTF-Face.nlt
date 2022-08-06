@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Facing Worlds"
-Title="Werelden onder ogen zien"
+Title="Geconfronteerde Werelddelen"
 IdealPlayerCount="4-10"
 
 [ZoneInfo3]
@@ -17,7 +17,7 @@ ZoneName="Rode basis"
 
 [LevelSummary]
 ; EN: Title="Facing Worlds"
-Title="Werelden onder ogen zien"
+Title="Geconfronteerde Werelddelen"
 IdealPlayerCount="4-10"
 
 [SpecialEvent0]

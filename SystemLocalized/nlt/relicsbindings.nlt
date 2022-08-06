@@ -6,4 +6,4 @@ Object=(Name=RelicsBindings.ExtraRelicsBindings,Class=Class,MetaClass=UTMenu.UTE
 ; EN: SectionName="Relics"
 SectionName="Relikwieën"
 ; EN: LabelList[0]="Toss Relic"
-LabelList[0]="Gooi relikwie"
+LabelList[0]="Gooi Relikwie weg"

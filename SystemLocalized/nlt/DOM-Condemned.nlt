@@ -15,7 +15,7 @@ PointName="Arturo's"
 
 [ZoneInfo0]
 ; EN: ZoneName="The Condemned Building"
-ZoneName="Het veroordeelde gebouw"
+ZoneName="Het Veroordeelde Gebouw"
 
 [ControlPoint1]
 ; EN: PointName="Rooftop"
@@ -50,7 +50,7 @@ ZoneName="Steegjes"
 
 [ScrollingMessageTexture0]
 ; EN: ScrollingMessage="TONIGHT 10:00PM EST... %p LEADS HIS UNDEFEATED TEAM %h INTO THE CONDEMNED ARENA"
-ScrollingMessage="VANAVOND 22:00 uur EST... %p LEIDT ZIJN ONVERDROVEN TEAm %h DE VEROORDEELDE ARENA"
+ScrollingMessage="VANAVOND 22:00 uur... %p LEIDT ZIJN ONGESLAGEN TEAM %h DE VEROORDEELDE ARENA"
 
 [locationid0]
 ; EN: LocationName="Garage"

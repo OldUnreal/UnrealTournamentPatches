@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="The Last Command"
-Title="De laatste commando"
+Title="Het laatste Commando"
 IdealPlayerCount="6-8"
 
 [ZoneInfo2]
@@ -17,5 +17,5 @@ ZoneName="Middengebied"
 
 [LevelSummary]
 ; EN: Title="The Last Command"
-Title="De laatste commando"
+Title="Het laatste Commando"
 IdealPlayerCount="6-8"

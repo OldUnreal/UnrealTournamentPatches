@@ -29,11 +29,11 @@ ZoneName="Vlaggenbasis Blauw"
 
 [ZoneInfo28]
 ; EN: ZoneName="Pipe Room Blue"
-ZoneName="Pijpenkamer Blauw"
+ZoneName="Buizenkamer Blauw"
 
 [ZoneInfo6]
 ; EN: ZoneName="Pipe Room Red"
-ZoneName="Pijpenkamer rood"
+ZoneName="Buizenkamer rood"
 
 [ZoneInfo26]
 ; EN: ZoneName="Antechamber Blue"
@@ -41,7 +41,7 @@ ZoneName="voorkamer Blauw"
 
 [ZoneInfo23]
 ; EN: ZoneName="Top Center Blue"
-ZoneName="Top Center Blauw"
+ZoneName="Top Midden Blauw"
 
 [ZoneInfo4]
 ; EN: ZoneName="Antechamber Red"
@@ -49,39 +49,39 @@ ZoneName="voorkamer Rood"
 
 [ZoneInfo1]
 ; EN: ZoneName="Top Center Red"
-ZoneName="Top Center Rood"
+ZoneName="Top Midden Rood"
 
 [ZoneInfo27]
 ; EN: ZoneName="Top Passage Blue"
-ZoneName="Top Passage Blauw"
+ZoneName="Top doorgang Blauw"
 
 [ZoneInfo30]
 ; EN: ZoneName="Top Passage Blue"
-ZoneName="Top Passage Blauw"
+ZoneName="Top doorgang Blauw"
 
 [ZoneInfo5]
 ; EN: ZoneName="Top Passage Red"
-ZoneName="Top Passage Rood"
+ZoneName="Top doorgang Rood"
 
 [ZoneInfo31]
 ; EN: ZoneName="Top Center Blue"
-ZoneName="Top Center Blauw"
+ZoneName="Top Midden Blauw"
 
 [ZoneInfo9]
 ; EN: ZoneName="Top Center Red"
-ZoneName="Top Center Rood"
+ZoneName="Top Midden Rood"
 
 [ZoneInfo8]
 ; EN: ZoneName="Top Passage Red"
-ZoneName="Top Passage Rood"
+ZoneName="Top Doorgang Rood"
 
 [ZoneInfo10]
 ; EN: ZoneName="Top Center Red"
-ZoneName="Top Center Rood"
+ZoneName="Top Midden Rood"
 
 [ZoneInfo32]
 ; EN: ZoneName="Top Center Blue"
-ZoneName="Top Center Blauw"
+ZoneName="Top Midden Blauw"
 
 [ZoneInfo7]
 ; EN: ZoneName="Underpassage Red"

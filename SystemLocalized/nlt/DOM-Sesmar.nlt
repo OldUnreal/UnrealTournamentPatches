@@ -11,7 +11,7 @@ ZoneName="Buiten"
 
 [ZoneInfo0]
 ; EN: ZoneName="Hall of Pillars"
-ZoneName="Hal van pilaren"
+ZoneName="Hal van Pijlers"
 
 [ZoneInfo5]
 ; EN: ZoneName="Blue Ankh"
@@ -35,7 +35,7 @@ PointName="Blauwe Ankh"
 
 [ControlPoint3]
 ; EN: PointName="Hall of Pillars"
-PointName="Hal van pilaren"
+PointName="Hal van Pijlers"
 
 [ControlPoint1]
 ; EN: PointName="Red Ankh"

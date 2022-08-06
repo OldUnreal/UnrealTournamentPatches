@@ -10,4 +10,4 @@ IdealPlayerCount="2-6"
 
 [SpecialEvent0]
 ; EN: DamageString="was fried."
-DamageString="was gebakken."
+DamageString="Werd Gebakken."

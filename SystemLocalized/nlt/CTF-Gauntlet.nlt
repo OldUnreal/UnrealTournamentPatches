@@ -1,15 +1,15 @@
 ﻿[LevelInfo0]
 ; EN: Title="The Iron Gauntlet"
-Title="De ijzeren handschoen"
+Title="De Ijzeren Handschoen"
 IdealPlayerCount="6-8"
 
 [ZoneInfo2]
 ; EN: ZoneName="Red Foyer"
-ZoneName="Rode Foyer"
+ZoneName="Rode Haard"
 
 [ZoneInfo4]
 ; EN: ZoneName="Blue Foyer"
-ZoneName="Blauwe Foyer"
+ZoneName="Blauwe Haard"
 
 [ZoneInfo1]
 ; EN: ZoneName="Red Base"
@@ -25,9 +25,9 @@ ZoneName="Lava kamer"
 
 [LevelSummary]
 ; EN: Title="The Iron Gauntlet"
-Title="De ijzeren handschoen"
+Title="De Ijzeren Handschoen"
 IdealPlayerCount="6-8"
 
 [ZoneInfo5]
 ; EN: ZoneName="Blue Armory"
-ZoneName="Blauwe arsenaal"
+ZoneName="Blauwe Wapenkamer"

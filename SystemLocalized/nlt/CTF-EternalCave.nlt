@@ -3,7 +3,7 @@
 Title="Eeuwige grotten"
 IdealPlayerCount="4-8"
 ; EN: LevelEnterText="GET THOSE FLAGS!!"
-LevelEnterText="KRIJG DIE VLAGGEN !!"
+LevelEnterText="NEEM DIE VLAGGEN !!"
 
 [ZoneInfo1]
 ; EN: ZoneName="Red Cave"
@@ -30,4 +30,4 @@ ZoneName="Bovenste hal"
 Title="Eeuwige grotten"
 IdealPlayerCount="4-8"
 ; EN: LevelEnterText="GET THOSE FLAGS!!"
-LevelEnterText="KRIJG DIE VLAGGEN !!"
+LevelEnterText="NEEM DIE VLAGGEN !!"
