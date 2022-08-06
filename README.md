@@ -173,17 +173,20 @@ We also want to recognize the hard work of the many beta testers and contributor
 
 Localization credits:
 * Epic Games/Digital Extremes/Legend Entertainment: Original English/German/French/Spanish/Italian localizations
-* Neon_Knight: Project coordination, Spanish maintenance.
-* Buggie: Localization templates for all languages.
-* Smirftsch, eGo, Ividyon and Sly.: German, additional contributions.
-* Hellkeeper: French, fixes and maintenance.
-* Rackover/Louvenarde: French, additional contributions.
-* rarsonic: Spanish, additional contributions.
-* Alby1987: Italian, review and contributions.
-* UBerserker and TaglesMalsto: Italian, additional contributions.
-* u.HighPriest: Russian, localization author.
-* Skaarj ZR: Russian, additional contributions.
-* bennytrt: Dutch, additional contributions.
+* Smirftsch: Initial project coordination.
+* Victor Delacroix: Early project coordination.
+* Hellkeeper: Early project coordination.
+* Neon_Knight: Current project coordination.
+* Buggie: Localization templates for all 15 languages.
+* **_German:_** **Smirftsch, Jan "eGo" Urbansky, ividyon** and **Sly.** (review and contributions), **hosterholz** (additional contributions)
+* **_French:_** **Hellkeeper** (review), **Rackover/Louvenarde** (additional contributions)
+* **_Spanish:_** **Neon_Knight** (review), **rarsonic** (additional contributions)
+* **_Italian:_** **Alby1987** (review), **UBerserker, BBG-(DOG)-, Lowenz** and **TaglesMalsto** (additional contributions)
+* **_Russian:_** **u.HighPriest** (original Unreal localization), **Reborn** (reviews) **Skaarj ZR, FLAK, ArchGrey** and **Sergei** (additional contributions)
+* **_Polish:_** **Victor Delacroix** (original Unreal localization), **yrex.** (additional contributions)
+* **_Portuguese:_** **Nahand** (original Unreal localization), **BIr4** (review), **Naruto_9** (additional contributions)
+* **_Catalan:_** **rarsonic** (additional contributions)
+* **_Dutch:_** **Rubie** (review), **bennytrt and Hyper** (additional contributions)
 
 Finally, we want to express our sincerest gratitude to the following people:
 * Stacey Conley (aka "Flak"): this project would not have happened without her. Thank you Stacey, you are amazing!
