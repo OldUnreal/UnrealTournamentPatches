@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Coret Facility"
-Title="Coret-faciliteit"
+Title="Coret-Faciliteit"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Welcome to Coret Facility. Enjoy your stay."
 LevelEnterText="Welkom bij Coret Faciliteit. Geniet van je verblijf."
@@ -19,11 +19,11 @@ ZoneName="Blauwe basis"
 
 [ZoneInfo6]
 ; EN: ZoneName="Blue Main Hall"
-ZoneName="Blauwe grote zaal"
+ZoneName="Blauwe Hoofd zaal"
 
 [ZoneInfo11]
 ; EN: ZoneName="Red Main Hall"
-ZoneName="Rode grote zaal"
+ZoneName="Rode Hoofd zaal"
 
 [ZoneInfo7]
 ; EN: ZoneName="Blue Side Hall"
@@ -31,23 +31,23 @@ ZoneName="Blauwe zijhal"
 
 [ZoneInfo5]
 ; EN: ZoneName="Blue Foyer"
-ZoneName="Blauwe Foyer"
+ZoneName="Blauwe Haard"
 
 [ZoneInfo2]
 ; EN: ZoneName="Red Side Approach"
-ZoneName="Rode zijde aanpak"
+ZoneName="Rode zijde Benadering"
 
 [ZoneInfo10]
 ; EN: ZoneName="Red Foyer"
-ZoneName="Rode Foyer"
+ZoneName="Rode Haard"
 
 [ZoneInfo8]
 ; EN: ZoneName="Blue Overhead Hall"
-ZoneName="Blauwe overhead hal"
+ZoneName="Blauwe Bovengrondse hal"
 
 [ZoneInfo9]
 ; EN: ZoneName="Red Overhead Hall"
-ZoneName="Rode Overheadzaal"
+ZoneName="Rode Bovengrondse hal"
 
 [ZoneInfo0]
 ; EN: ZoneName="Middle Area - Top"

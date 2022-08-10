@@ -1,6 +1,6 @@
 ﻿[public]
 ; EN: Object=(Name=SoldierSkins.blkt1,Class=Texture,Description="Marine")
-Object=(Name=SoldierSkins.blkt1,Class=Texture,Description="Marine")
+Object=(Name=SoldierSkins.blkt1,Class=Texture,Description="Marinier")
 Object=(Name=SoldierSkins.blkt2,Class=Texture)
 Object=(Name=SoldierSkins.blkt3,Class=Texture)
 Object=(Name=SoldierSkins.blkt4,Class=Texture)
@@ -20,7 +20,7 @@ Object=(Name=SoldierSkins.blkt2T_2,Class=Texture)
 Object=(Name=SoldierSkins.blkt2T_3,Class=Texture)
 
 ; EN: Object=(Name=SoldierSkins.Gard1,Class=Texture,Description="Metal Guard")
-Object=(Name=SoldierSkins.Gard1,Class=Texture,Description="Metalen beschermer")
+Object=(Name=SoldierSkins.Gard1,Class=Texture,Description="Metalen Bewaker")
 Object=(Name=SoldierSkins.Gard2,Class=Texture)
 Object=(Name=SoldierSkins.Gard3,Class=Texture)
 Object=(Name=SoldierSkins.Gard4,Class=Texture)

@@ -19,7 +19,7 @@ ZoneName="Stookruimte"
 
 [ZoneInfo6]
 ; EN: ZoneName="Gun Cavern"
-ZoneName="Gun Cavern"
+ZoneName="Geweer Grot"
 
 [KillingField0]
 ; EN: ZoneName="Beach"
@@ -31,7 +31,7 @@ ZoneName="Schuttersputjes"
 
 [ZoneInfo0]
 ; EN: ZoneName="Entrance Ramp"
-ZoneName="Oprit"
+ZoneName="Toegangshelling"
 
 [ZoneInfo8]
 ; EN: ZoneName="Last Passage"
@@ -43,19 +43,19 @@ ZoneName="Water"
 
 [FortStandard0]
 ; EN: FortName="The Beachhead"
-FortName="Het strandhoofd"
+FortName="Het Bruggenhoofd"
 ; EN: DestroyedMessage="has been breached by the attackers!"
-DestroyedMessage="is geschonden door de aanvallers!"
+DestroyedMessage="er is ingebroken door de aanvallers!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="In order to disable the Long-Range-Cannon you must make your way through the defenders' base to the large Gun Cavern deep inside the cliff wall. In there you will find the 'Main Gun Control' room. Destroy the equipment in that room."
-ObjDesc[0]="Om het langeafstandskanon uit te schakelen, moet je je een weg banen door de verdedigersbasis naar de grote kanongrot diep in de klifwand. Daarin vind je de 'Main Gun Control'-kamer. Vernietig de apparatuur in die kamer."
+ObjDesc[0]="Om het Lange-afstands-kannon uit te schakelen, moet je je een weg banen door de basis van de verdedigers naar de grote Geweer Grot diep in de klifwand. Daarin vind je de 'Main Gun Control' kamer. Vernietig de apparatuur in die kamer."
 
 [FortStandard4]
 ; EN: FortName="The Boiler Room"
 FortName="De stookruimte"
 ; EN: DestroyedMessage="has been breached by the attackers!"
-DestroyedMessage="is geschonden door de aanvallers!"
+DestroyedMessage="er is ingebroken door de aanvallers!"
 
 [LevelSummary]
 ; EN: Title="Operation Overlord"

@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Noxion Base"
-Title="Noxion Base"
+Title="Noxion Basis"
 IdealPlayerCount="6-16"
 
 [ZoneInfo0]
@@ -13,7 +13,7 @@ ZoneName="Blauwe Vlag Kamer"
 
 [ZoneInfo9]
 ; EN: ZoneName="Red Flag Room"
-ZoneName="Red Flag Room"
+ZoneName="Rode Flag Room"
 
 [ZoneInfo3]
 ; EN: ZoneName="Red Ramps"
@@ -53,5 +53,5 @@ ZoneName="Echt dood"
 
 [LevelSummary]
 ; EN: Title="Noxion Base"
-Title="Noxion Base"
+Title="Noxion Basis"
 IdealPlayerCount="6-16"

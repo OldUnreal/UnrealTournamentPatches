@@ -8,6 +8,6 @@ ResFailed="Kan resolutie niet instellen"
 
 [SDLSoftwareRenderDevice]
 ; EN: ClassCaption="SDL Software Support"
-ClassCaption="SDL-software Renderen"
+ClassCaption="SDL-software Weergave"
 ; EN: AskUse="Do you want Unreal Tournament to use your SDL Software RenderDevice?"
-AskUse="Wilt u dat Unreal Tournament uw SDL Software RenderDevice gebruikt?"
+AskUse="Wilt u dat Unreal Tournament uw SDL Software Weergave Apparaat gebruikt?"

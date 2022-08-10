@@ -3,14 +3,14 @@
 Title="Rook"
 IdealPlayerCount="6-10"
 ; EN: LevelEnterText="Don thy Armor, Prepare for Battle"
-LevelEnterText="Trek je wapenrusting aan, bereid je voor op de strijd"
+LevelEnterText="Trek uw harnas aan, bereid u voor op de strijd"
 
 [LevelSummary]
 ; EN: Title="Rook"
 Title="Rook"
 IdealPlayerCount="6-10"
 ; EN: LevelEnterText="Don thy Armor, Prepare for Battle"
-LevelEnterText="Trek je wapenrusting aan, bereid je voor op de strijd"
+LevelEnterText="Trek uw harnas aan, bereid u voor op de strijd"
 
 [FortStandard1]
 FortName=" "
@@ -48,4 +48,4 @@ ObjDesc[1]="Ga door de bibliotheek waar je een lier zult vinden die op zijn plaa
 ; EN: ObjDesc[2]="Return to the courtyard and flip the switch in the gatehouse to open the front doors of the castle."
 ObjDesc[2]="Keer terug naar de binnenplaats en draai de schakelaar in het poortgebouw om om de voordeuren van het kasteel te openen."
 ; EN: ObjDesc[3]="Escape the castle alive through the front doors!"
-ObjDesc[3]="Ontsnap levend aan het kasteel door de voordeuren!"
+ObjDesc[3]="Ontsnap levend uit het kasteel door de voordeuren!"

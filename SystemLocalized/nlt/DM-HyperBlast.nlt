@@ -1,9 +1,9 @@
 ﻿[LevelInfo0]
 ; EN: Title="HyperBlast"
-Title="HyperBlast"
+Title="Hyper-Ontploffing"
 IdealPlayerCount="2-8"
 ; EN: LevelEnterText="IT'S HYPERTIME!!"
-LevelEnterText="HET IS HYPERTIME !!"
+LevelEnterText="HET IS HYPER-Tijd !!"
 
 [ZoneInfo1]
 ; EN: ZoneName="Middle Decks"
@@ -27,7 +27,7 @@ DamageString="%k werd de ruimte in geschoten !!!"
 
 [LevelSummary]
 ; EN: Title="HyperBlast"
-Title="HyperBlast"
+Title="Hyper-Ontploffing"
 IdealPlayerCount="2-8"
 ; EN: LevelEnterText="IT'S HYPERTIME!!"
-LevelEnterText="HET IS HYPERTIME !!"
+LevelEnterText="HET IS HYPER-Tijd !!"

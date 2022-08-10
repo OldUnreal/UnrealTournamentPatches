@@ -18,7 +18,7 @@ Object=(Name=MultiMesh.TNaliBot,Class=Class,MetaClass=BotPack.Bot,Description="N
 ; EN: Object=(Name=MultiMesh.TCowBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali WarCow")
 Object=(Name=MultiMesh.TCowBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali WarCow")
 ; EN: Object=(Name=MultiMesh.MultiMeshMenu,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Force Default Models,Use the default (Male Soldier) model instead of any custom models.")
-Object=(Name=MultiMesh.MultiMeshMenu,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Forceer standaardmodellen,Gebruik het standaardmodel (Male Soldier) in plaats van aangepaste modellen.")
+Object=(Name=MultiMesh.MultiMeshMenu,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Forceer standaardmodellen,Gebruik het standaardmodel (Mannelijke Soldaat) in plaats van aangepaste modellen.")
 ; EN: Object=(Name=MultiMesh.TDMBonusPackMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Bonus Pack Maps")
 Object=(Name=MultiMesh.TDMBonusPackMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Bonuspakket-kaarten")
 ; EN: Object=(Name=MultiMesh.CTFBonusPackMapList,Class=Class,MetaClass=Botpack.CTFmaplist,Description="Bonus Pack Maps")
@@ -60,7 +60,7 @@ MenuName="Skaarj Hybride"
 ; EN: MenuCaption="&Force Default Models"
 MenuCaption="&Forceer standaardmodellen"
 ; EN: MenuHelp="Use the default (Male Soldier) model instead of any custom models"
-MenuHelp="Gebruik het standaardmodel (Male Soldier) in plaats van aangepaste modellen"
+MenuHelp="Gebruik het standaardmodel (Mannelijke Soldaat) in plaats van aangepaste modellen"
 
 [skaarjvoice]
 ; EN: TauntString[0]="$#%#!"

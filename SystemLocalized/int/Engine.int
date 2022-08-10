@@ -160,7 +160,7 @@ MD5ChecksumFailed="Package %ls failed an MD5 check."
 
 [General]
 Upgrade="To enter this server, you need the latest free update to Unreal Tournament available from OldUnreal's Web site:"
-UpgradeURL="http://www.oldunreal.com/oldunrealpatches.html"
+UpgradeURL="https://www.oldunreal.com/downloads/unrealtournament/oldunreal-patches-for-unrealtournament-version-469/"
 UpgradeQuestion="Do you want to launch your web browser and go to the upgrade page now?"
 Version="Version %i"
 

@@ -3,7 +3,7 @@
 Title="Oceaanbodem 'Station 5'"
 IdealPlayerCount="8-10"
 ; EN: LevelEnterText="Control the underwater base!"
-LevelEnterText="Bestuur de onderwaterbasis!"
+LevelEnterText="Bedien de onderwaterbasis!"
 
 [ZoneInfo5]
 ; EN: ZoneName="Middle Area"
@@ -11,11 +11,11 @@ ZoneName="Middengebied"
 
 [ZoneInfo3]
 ; EN: ZoneName="Large Docking Area"
-ZoneName="Groot dockinggebied"
+ZoneName="Groot aanmeer gebied"
 
 [ZoneInfo4]
 ; EN: ZoneName="Small Docking Area"
-ZoneName="Klein dockinggebied"
+ZoneName="Klein aanmeer gebied"
 
 [ZoneInfo1]
 ; EN: ZoneName="Submarine"
@@ -23,7 +23,7 @@ ZoneName="Onderzeeër"
 
 [ZoneInfo2]
 ; EN: ZoneName="Command Center"
-ZoneName="Commando centrum"
+ZoneName="Commandocentrum"
 
 [ZoneInfo7]
 ; EN: ZoneName="Hallway"
@@ -37,7 +37,7 @@ Message="Terminal 1 is uitgeschakeld."
 ; EN: FortName="The Terminal 3"
 FortName="De Terminal 3"
 ; EN: DestroyedMessage="has been destroyed!!"
-DestroyedMessage="is vernietigd !!"
+DestroyedMessage="werd vernietigd !!"
 
 [SpecialEvent10]
 ; EN: Message="Terminal 4 has been disabled."
@@ -47,30 +47,30 @@ Message="Terminal 4 is uitgeschakeld."
 ; EN: FortName="The Terminal 1"
 FortName="De Terminal 1"
 ; EN: DestroyedMessage="has been destroyed!"
-DestroyedMessage="is vernietigd!"
+DestroyedMessage="werd vernietigd!"
 
 [FortStandard2]
 ; EN: FortName="The Terminal 2"
 FortName="De Terminal 2"
 ; EN: DestroyedMessage="has been destroyed!!"
-DestroyedMessage="is vernietigd !!"
+DestroyedMessage="werd vernietigd !!"
 
 [FortStandard3]
 ; EN: FortName="The Terminal 4"
 FortName="De Terminal 4"
 ; EN: DestroyedMessage="has been destroyed!"
-DestroyedMessage="is vernietigd!"
+DestroyedMessage="werd vernietigd!"
 
 [LevelSummary]
 ; EN: Title="Ocean Floor 'Station 5'"
 Title="Oceaanbodem 'Station 5'"
 IdealPlayerCount="8-10"
 ; EN: LevelEnterText="Control the underwater base!"
-LevelEnterText="Bestuur de onderwaterbasis!"
+LevelEnterText="Bedien de onderwaterbasis!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="Swim out towards the base below the submarine. Inside the base there are 4 terminals with keyboards attached to them that need to be destroyed in order to render the base useless. Destroy terminal 1. The terminals can be destroyed in any order."
-ObjDesc[0]="Zwem naar de basis onder de onderzeeër. In de basis zijn er 4 terminals met toetsenborden eraan die moeten worden vernietigd om de basis onbruikbaar te maken. Terminal vernietigen 1. De terminals kunnen in willekeurige volgorde worden vernietigd."
+ObjDesc[0]="Zwem naar de basis onder de onderzeeër. In de basis zijn er 4 terminals met toetsenborden eraan bevestigd die moeten worden vernietigd om de basis onbruikbaar te maken. Vernietig terminal 1. De terminals kunnen in elke volgorde worden vernietigd."
 ; EN: ObjDesc[1]="Destroy terminal 2. The terminals can be destroyed in any order."
 ObjDesc[1]="Vernietig terminal 2. De terminals kunnen in willekeurige volgorde worden vernietigd."
 ; EN: ObjDesc[2]="Destroy terminal 3. The terminals can be destroyed in any order."

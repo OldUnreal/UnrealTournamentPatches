@@ -15,7 +15,7 @@ PointName="Bovenste"
 
 [ControlPoint2]
 ; EN: PointName="Lower"
-PointName="Lager"
+PointName="Lagere"
 
 [LevelSummary]
 ; EN: Title="Lament"

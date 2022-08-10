@@ -4,4 +4,4 @@ Preferences=(Caption="Software Rendering",Parent="Rendering",Class=SoftDrv.Softw
 
 [SoftwareRenderDevice]
 ; EN: ClassCaption="Software Rendering"
-ClassCaption="Software Renderen"
+ClassCaption="Softwarematig weergeven"

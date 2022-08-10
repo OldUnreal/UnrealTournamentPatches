@@ -38,11 +38,11 @@ MenuName="Koningin"
 
 [SkaarjPlayer]
 ; EN: MenuName="Skaarj Trooper"
-MenuName="Skaarj Soldaat"
+MenuName="Skaarj Trooper"
 
 [SkaarjPlayerBot]
 ; EN: MenuName="Skaarj Trooper"
-MenuName="Skaarj Soldaat"
+MenuName="Skaarj Trooper"
 
 [WarLord]
 ; EN: NameArticle=" the "
@@ -54,15 +54,15 @@ MenuName="Krijgsheer"
 ; EN: ExpireMessage="The Search Light batteries have died."
 ExpireMessage="De batterijen van het Zoeklicht zijn leeg."
 ; EN: PickupMessage="You picked up the Search Light"
-PickupMessage="Je pakte het Zoeklicht op"
+PickupMessage="Je pikte het Zoeklicht op"
 ; EN: ItemName="Search Light"
 ItemName="Zoeklicht"
 
 [RazorAmmo]
 ; EN: PickupMessage="You picked up some Razor Blades"
-PickupMessage="Je hebt wat Scheermesjes"
+PickupMessage="Je hebt wat Scheermessen"
 ; EN: ItemName="Razor Blades"
-ItemName="Scheermesjes"
+ItemName="Scheermessen"
 
 [FlakBox]
 ; EN: PickupMessage="You picked up 10 Flak Shells"
@@ -268,7 +268,7 @@ MenuName="Elite Krall"
 ; EN: NameArticle=" a "
 NameArticle=" een "
 ; EN: MenuName="Legless Krall"
-MenuName="Pootloze Krall"
+MenuName="Beenloze Krall"
 
 [Mercenary]
 ; EN: NameArticle=" a "
@@ -298,13 +298,13 @@ MenuName="Skaarj-moordenaar"
 ; EN: NameArticle=" a "
 NameArticle=" een "
 ; EN: MenuName="Skaarj Berserker"
-MenuName="Skaarj-berserker"
+MenuName="Skaarj-Berserker"
 
 [SkaarjGunner]
 ; EN: NameArticle=" a "
 NameArticle=" een "
 ; EN: MenuName="Skaarj Gunner"
-MenuName="Skaarj-schutter"
+MenuName="Skaarj-Schutter"
 
 [SkaarjInfantry]
 ; EN: NameArticle=" a "
@@ -322,13 +322,13 @@ MenuName="Skaarj Heer"
 ; EN: NameArticle=" a "
 NameArticle=" een "
 ; EN: MenuName="Skaarj Officer"
-MenuName="Skaarj-officier"
+MenuName="Skaarj-Officier"
 
 [SkaarjSniper]
 ; EN: NameArticle=" a "
 NameArticle=" een "
 ; EN: MenuName="Skaarj Sniper"
-MenuName="Skaarj-sluipschutter"
+MenuName="Skaarj-Sluipschutter"
 
 [SkaarjTrooper]
 ; EN: NameArticle=" a "
@@ -346,7 +346,7 @@ MenuName="Titaan"
 ; EN: NameArticle=" the "
 NameArticle=" de "
 ; EN: MenuName="Stone Titan"
-MenuName="Stenen Titaan"
+MenuName="Steen Titaan"
 
 [EndgameHud]
 ; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely.  Yet it's fuel has depleted and you drift aimlessly."
@@ -354,7 +354,7 @@ Message1="De ontsnappingscapsule van Skaarj is losgebroken van de zwaartekracht 
 ; EN: Message2="From where many have died, you have escaped.  You laugh to yourself; so much has happened, but little has changed."
 Message2="Van waar velen zijn gestorven, bent u ontsnapt. Je lacht in jezelf; er is zoveel gebeurd, maar er is weinig veranderd."
 ; EN: Message3="Before the crash landing, you were trapped in a cramped cell.  Now, once again you are confined in a prison."
-Message3="Voor de noodlanding zat je vast in een krappe cel. Nu ben je weer opgesloten in een gevangenis."
+Message3="Voor de noodlanding zat je vast in een krappe cel. Nu ben je weer opnieuw opgesloten in een gevangenis."
 ; EN: Message4="But, you feel confident that someone will come upon your small vessel... eventually."
 Message4="Maar je hebt er vertrouwen in dat iemand uiteindelijk op je kleine vaartuig zal komen."
 ; EN: Message5="Until then, you drift and hope."
@@ -366,7 +366,7 @@ Message6="Wordt vervolgd..."
 ; EN: ClassCaption="King Of The Hill"
 ClassCaption="Koning van de Heuvel"
 ; EN: KingMessage=" is the new king of the hill!"
-KingMessage=" is de nieuwe koning van de heuvel!"
+KingMessage=" is de nieuwe Koning van de heuvel!"
 ; EN: GameName="King of the Hill"
 GameName="Koning van de Heuvel"
 
@@ -398,9 +398,9 @@ ItemName="Scherpschuttersgeweer"
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
 DeathMessage="De %w van %k veranderde %o in een lek stuk vlees."
 ; EN: PickupMessage="You got the Minigun"
-PickupMessage="Je hebt de Minigun"
+PickupMessage="Je hebt de Minigeweer"
 ; EN: ItemName="Minigun"
-ItemName="Minigun"
+ItemName="Minigeweer"
 
 [GESBioRifle]
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."

@@ -247,7 +247,7 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 
 #### Localization
 
-* New supported (text-only) languages: German (Thanks Smirftsch, eGo, Ividyon and Sly.!), Russian, Portuguese, Catalan and Dutch (Thanks bennytrt and Rubie!)
+* New supported (text-only) languages: German (Thanks Smirftsch, eGo, Ividyon and Sly.!), Russian, Portuguese (Thanks Ubir4!), Catalan and Dutch (Thanks bennytrt and Rubie!)
 * French (Thanks Hellkeeper!) and Italian (Thanks Alby1987!) from the original MULTI5 release fully updated and fixed
 * Moved all localization files into the SystemLocalized folder
 * All localization files updated to the latest strings
@@ -262,25 +262,26 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * Botpack.\*: All gametypes moved into new category "Tournament Game Types" in order to separate them from the regular gametypes. "Tournament Game Types" also contains the settings exclusively to the UT-related gametypes
 * Core.\*: Added dummy "example" commandlets. The localization of these lines is optional
 * Editor.\*:
-** All commandlet weblinks now point to the right page in the OldU Wiki
-** By consensus, all commandlets will be left in English
-** Fixed wrong line reference in PackageFlagCommandlet
-* Engine.\*: Added Game Types as a general root
+    * All commandlet weblinks now point to the right page in the OldU Wiki
+    * By consensus, all commandlets will be left in English
+    * Fixed wrong line reference in PackageFlagCommandlet
+* Engine.\*:
+    * Added Game Types as a general root
+    * Updated the Upgrade URL in [General].
 * SetupUnrealTournamentPatch.\*: All files synchronized with the right content.
 * Startup.\*:
-** "Chose" -> "Choose"
-** Added new section "[IDDIALOG_ConfigPageMouseInput]" for the new "First Time" window where the user chooses between Cursor, DirectInput and Raw mouse inputs.
-** First-time configuration window title is now "Unreal Tournament Multimedia Configuration", since it now covers more than just Video.
+    * "Chose" -> "Choose"
+    * Added new section "[IDDIALOG_ConfigPageMouseInput]" for the new "First Time" window where the user chooses between Cursor, DirectInput and Raw mouse inputs.
+    * First-time configuration window title is now "Unreal Tournament Multimedia Configuration", since it now covers more than just Video.
 * Udemo.\*: New localized strings
 * UMenu.\*: Fixed description of "Invert Mouse" (it talked about the X axis being inverted, it's actually the Y axis)
 * UnrealI.\*: Added [NaliPlayer] section
 * UTMenu.\*: Added dummy lines. The localization of these lines is optional
 * Spanish:
-** All strings adapted to Buggie's templates. This also allowed catching several bugs, untranslated strings and inconsistencies that wouldn't have been caught otherwise
-** Minor fixes and inconsistencies fixed
-** Added missing line in UBrowser.est and fixed key name in UMenu.est and controls tags in UTMenu.est
-** All instances of "You got/picked up..." streamlined into "Has recogido..."
-* Catalan: Minor fix to AS-Overlord.ptt and localized a whole unlocalized section in UnrealShare.ptt.
+    * All strings adapted to Buggie's templates. This also allowed catching several bugs, untranslated strings and inconsistencies that wouldn't have been caught otherwise
+    * Minor fixes and inconsistencies fixed
+    * Added missing line in UBrowser.est and fixed key name in UMenu.est and controls tags in UTMenu.est
+    * All instances of "You got/picked up..." streamlined into "Has recogido..."
 
 ### Installer
 

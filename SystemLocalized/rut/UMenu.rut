@@ -332,7 +332,7 @@ VSyncStates[1]="Включена"
 ; EN: VSyncStates[2]="Adaptive"
 VSyncStates[2]="Адаптивная"
 ; EN: VSyncStates[3]="Driver-Controlled"
-VSyncStates[3]="Управляется драйвером"
+VSyncStates[3]="Управ. драйвером"
 ; EN: VSyncStates[4]="Not Supported"
 VSyncStates[4]="Не поддерживается"
 ; EN: MaxFramerateText="Framerate Limit"
@@ -1335,7 +1335,7 @@ AboutHelp="Посмотреть список тех, кто создал Unreal 
 
 [UMenuOptionsMenu]
 ; EN: PreferencesName="P&references"
-PreferencesName="&Настройки игры"
+PreferencesName="&Установки"
 ; EN: PreferencesHelp="Change your game options, audio and video setup, HUD configuration, controls and other options."
 PreferencesHelp="Измените настройки игры, аудио и видео настройки, настройки HUD, клавиш и другие опции."
 ; EN: PrioritizeName="&Weapons"

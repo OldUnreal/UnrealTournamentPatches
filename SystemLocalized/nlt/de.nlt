@@ -4,4 +4,4 @@ Object=(Name=de.VolatileAmmo,Class=Class,MetaClass=Engine.Mutator,Description="V
 ; EN: Object=(Name=de.VolatileWeapon,Class=Class,MetaClass=Engine.Mutator,Description="Volatile Weapon,Killed players will discharge their weapon!")
 Object=(Name=de.VolatileWeapon,Class=Class,MetaClass=Engine.Mutator,Description="Vluchtig Wapen,Gedode spelers zullen hun wapen ontladen!")
 ; EN: Object=(Name=de.TeamBeacon,Class=Class,MetaClass=Engine.Mutator,Description="Team Beacon,Identifies team members.")
-Object=(Name=de.TeamBeacon,Class=Class,MetaClass=Engine.Mutator,Description="Teambaken,Identificeert teamleden.")
+Object=(Name=de.TeamBeacon,Class=Class,MetaClass=Engine.Mutator,Description="Team-baken,Identificeert teamleden.")
