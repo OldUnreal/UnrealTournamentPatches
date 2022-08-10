@@ -13,7 +13,7 @@
 * [UT99.org - Unreal Tournament Community](https://ut99.org)
 * [OldUnreal](https://www.oldunreal.com)
 
-## Unreal Tournament Version 469c Release Notes (Coming Soon!)
+## Unreal Tournament Version 469c Release Notes (Release Candidate Now Available!)
 
 Version 469c is completely network compatible with all previous public releases of UT (down to 432).
 The UTPG and OldUnreal teams worked hard to maintain binary compatibility with older native mods.
@@ -24,7 +24,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469c clients.
 
 This patch no longer includes libcurl. Server admins that use the MD5 anti-cheat protection feature and that have automatic updates enabled for the package list will have to manually download libcurl or use the version that came with the previous patch. This change should substantially reduce the number of false positive malware warnings triggered by our patch.
 
-This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms.
+This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms, but no longer supports Windows XP.
 
 ### Stability Improvements
 
@@ -81,6 +81,8 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * Fixed bugs that made UnrealEd incorrectly import certain images with alpha channels
 * Fixed a bug that made it impossible to import or use sounds/music tracks with special characters in their file/package/group names
 * Fixed a bug that made it impossible to edit certain array properties through the preferences menu
+* Fixed a bug that made UnrealEd discard the alpha channel while importing BC7-compressed textures
+* Fixed a bug that made UnrealEd duplicate actors when undoing an actor copy/paste operation
 
 #### Game Client
 
@@ -120,7 +122,7 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * Fixed rounding errors in Core.Object.Normal and Core.Object.MirrorVectorByNormal
 * Fixed a bug that could cause make stationary pawns such as TeamCannons freeze the game if their target died while they were following it
 * Fixed a bug that could cause CTFFlags to vanish if they were last held by a Bot that recently died (External Contribution by Buggie)
-* Fixed a bug that made unacquired trophies appear in the tropy room (External Contribution by Buggie)
+* Fixed a bug that made unacquired trophies appear in the trophy room (External Contribution by Buggie)
 * Fixed a bug that made it impossible to start games with categories other than "Unreal Tournament" (External Contribution by Buggie)
 
 #### Physics and Player Movement
@@ -140,6 +142,7 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * Fixed a bug that caused Cluster to start tracker song playback from the wrong section/order in certain songs
 * Fixed a bug that caused ALAudio to stop playing looping sounds played through ClientPlaySound if you moved too far away from the origin of the map
 * Fixed a bug that made Galaxy play a whistling sound when a player or bot died while holding a pulse gun
+* Fixed an XOpenGLDrv problem that made certain weapons render on top of the HUD
 
 #### Miscellaneous
 
@@ -204,6 +207,7 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * UTPG's team info enhancement for UdpServerQuery is now enabled by default
 * Made the game detect infinite loops in state code
 * Made the weapon list resize after dragging the slider in the weapon options menu (External Contribution by Buggie)
+* The IpDrv.InternetLink class now has a TextEncoding variable. This variable controls the behavior of text transmitting and receiving functions in InternetLink subclasses. Please refer to the comments in the IpDrv.InternetLink source code for further documentation.
 
 #### Game Client
 
@@ -228,6 +232,7 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * Made the game disable the compatibility fixes applied by the GoG game installer. These compatibility fixes caused choppy audio playback and reduced frame rates
 * Disabled mouse smoothing by default
 * Made mouse input more precise on macOS and Linux
+* Windows raw mouse input now also works in windowed mode
 
 #### Audio and 3D Rendering
 
@@ -235,6 +240,7 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * Added a "OldLitColors" option to Render.Render. This option can be set to true if you want unlit actors to be dimly lit as in UT 436
 * ALAudio now uses the correct output device if you select "System Default" as your output device and if you switch audio devices while playing the game (External Contribution by Buggie)
 * Improved support for Apple Retina displays
+* XOpenGLDrv now supports detail textures (if the DetailMax setting is set to a value higher than 0)
 
 #### Physics and Player Movement
 
@@ -244,6 +250,7 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 
 * Fixed a bug that made it impossible to load skins whose names started with the name of a standard skin package (External Contribution by Buggie)
 * Spectators now see inventory and armor changes for their viewtargets
+* The web admin and udp server query protocol can now transmit information in UTF-8 format. As a result, Unicode playernames, chat messages, etc. should now appear correctly
 
 #### Localization
 
