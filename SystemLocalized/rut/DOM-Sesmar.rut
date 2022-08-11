@@ -1,13 +1,13 @@
 ﻿[LevelInfo0]
 ; EN: Title="Tomb of Sesmar"
-Title="Могила Сесмара"
+Title="Гробница Сесмара"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="DOMINATE!!!!"
 LevelEnterText="ДОМИНИРУЙТЕ !!!!"
 
 [ZoneInfo3]
 ; EN: ZoneName="Outside"
-ZoneName="за пределами"
+ZoneName="Снаружи"
 
 [ZoneInfo0]
 ; EN: ZoneName="Hall of Pillars"
@@ -15,7 +15,7 @@ ZoneName="Зал столбов"
 
 [ZoneInfo5]
 ; EN: ZoneName="Blue Ankh"
-ZoneName="Синий Анкх"
+ZoneName="Синий Анх"
 
 [ZoneInfo4]
 ; EN: ZoneName="Red Ankh"
@@ -31,7 +31,7 @@ ZoneName="Северный проход"
 
 [ControlPoint0]
 ; EN: PointName="Blue Ankh"
-PointName="Синий Анкх"
+PointName="Синий Анх"
 
 [ControlPoint3]
 ; EN: PointName="Hall of Pillars"
@@ -43,7 +43,7 @@ PointName="Красный Анх"
 
 [LevelSummary]
 ; EN: Title="Tomb of Sesmar"
-Title="Могила Сесмара"
+Title="Гробница Сесмара"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="DOMINATE!!!!"
 LevelEnterText="ДОМИНИРУЙТЕ !!!!"

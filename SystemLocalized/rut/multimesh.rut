@@ -1,24 +1,24 @@
 ﻿[Public]
 ; EN: Object=(Name=MultiMesh.TSkaarj,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Skaarj Hybrid")
-Object=(Name=MultiMesh.TSkaarj,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Скаардж гибрид")
+Object=(Name=MultiMesh.TSkaarj,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Скаардж-гибрид")
 ; EN: Object=(Name=MultiMesh.TNali,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Nali")
 Object=(Name=MultiMesh.TNali,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Нали")
 ; EN: Object=(Name=MultiMesh.TCow,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Nali WarCow")
-Object=(Name=MultiMesh.TCow,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Нали боевая корова")
+Object=(Name=MultiMesh.TCow,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Боевая корова Нали")
 ; EN: Object=(Name=MultiMesh.SkaarjVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Skaarj Hybrid")
-Object=(Name=MultiMesh.SkaarjVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Скаардж гибрид")
+Object=(Name=MultiMesh.SkaarjVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Скаардж-гибрид")
 ; EN: Object=(Name=MultiMesh.NaliVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Nali")
 Object=(Name=MultiMesh.NaliVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Нали")
 ; EN: Object=(Name=MultiMesh.CowVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Nali WarCow")
-Object=(Name=MultiMesh.CowVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Нали боевая корова")
+Object=(Name=MultiMesh.CowVoice,Class=Class,MetaClass=BotPack.VoiceMale,Description="Боевая корова Нали")
 ; EN: Object=(Name=MultiMesh.TSkaarjBot,Class=Class,MetaClass=BotPack.Bot,Description="Skaarj Hybrid")
-Object=(Name=MultiMesh.TSkaarjBot,Class=Class,MetaClass=BotPack.Bot,Description="Скаардж гибрид")
+Object=(Name=MultiMesh.TSkaarjBot,Class=Class,MetaClass=BotPack.Bot,Description="Скаардж-гибрид")
 ; EN: Object=(Name=MultiMesh.TNaliBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali")
 Object=(Name=MultiMesh.TNaliBot,Class=Class,MetaClass=BotPack.Bot,Description="Нали")
 ; EN: Object=(Name=MultiMesh.TCowBot,Class=Class,MetaClass=BotPack.Bot,Description="Nali WarCow")
-Object=(Name=MultiMesh.TCowBot,Class=Class,MetaClass=BotPack.Bot,Description="Нали боевая корова")
+Object=(Name=MultiMesh.TCowBot,Class=Class,MetaClass=BotPack.Bot,Description="Боевая корова Нал")
 ; EN: Object=(Name=MultiMesh.MultiMeshMenu,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Force Default Models,Use the default (Male Soldier) model instead of any custom models.")
-Object=(Name=MultiMesh.MultiMeshMenu,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Принудительная модель по умолчанию,Используйте модель по умолчанию (мужчина-солдат) вместо пользовательских моделей.")
+Object=(Name=MultiMesh.MultiMeshMenu,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&Одна модель для всех игроков,Используйте модель по умолчанию (мужчина-солдат) вместо пользовательских моделей.")
 ; EN: Object=(Name=MultiMesh.TDMBonusPackMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Bonus Pack Maps")
 Object=(Name=MultiMesh.TDMBonusPackMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Бонусные карты")
 ; EN: Object=(Name=MultiMesh.CTFBonusPackMapList,Class=Class,MetaClass=Botpack.CTFmaplist,Description="Bonus Pack Maps")
@@ -34,15 +34,15 @@ MenuName="Пользовательский плеер"
 
 [tcow]
 ; EN: MenuName="Nali Cow"
-MenuName="Нали боевая корова"
+MenuName="Боевая корова Нали"
 
 [tcowbot]
 ; EN: MenuName="Nali Cow"
-MenuName="Нали боевая корова"
+MenuName="Боевая корова Нали"
 
 [TSkaarj]
 ; EN: MenuName="Skaarj Hybrid"
-MenuName="Скаардж гибрид"
+MenuName="Скаардж-гибрид"
 
 [tnali]
 ; EN: MenuName="Nali"
@@ -54,11 +54,11 @@ MenuName="Нали"
 
 [TSkaarjbot]
 ; EN: MenuName="Skaarj Hybrid"
-MenuName="Скаардж гибрид"
+MenuName="Скаардж-гибрид"
 
 [multimeshmenu]
 ; EN: MenuCaption="&Force Default Models"
-MenuCaption="&Принудительная модель по умолчанию"
+MenuCaption="&Одна модель для всех игроков"
 ; EN: MenuHelp="Use the default (Male Soldier) model instead of any custom models."
 MenuHelp="Используйте модель по умолчанию (мужчина-солдат) вместо пользовательских моделей."
 

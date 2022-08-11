@@ -13,11 +13,11 @@ ZoneName="Клуб"
 
 [ZoneInfo1]
 ; EN: ZoneName="Outside"
-ZoneName="за пределами"
+ZoneName="Снаружи"
 
 [ZoneInfo4]
 ; EN: ZoneName="Outside"
-ZoneName="за пределами"
+ZoneName="Снаружи"
 
 [ZoneInfo0]
 ; EN: ZoneName="Roof"

@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Ghardhen Labs"
-Title="Ghardhen Labs"
+Title="Ghardhen Labo's"
 IdealPlayerCount="6-12"
 
 [ZoneInfo13]
@@ -13,7 +13,7 @@ PointName="Top"
 
 [ZoneInfo12]
 ; EN: ZoneName="Upward Hall"
-ZoneName="Opwaartse hal"
+ZoneName="Bovenste hal"
 
 [ControlPoint0]
 ; EN: PointName="Bottom"
@@ -29,7 +29,7 @@ ZoneName="Observatie platform"
 
 [ZoneInfo11]
 ; EN: ZoneName="Downward Hall"
-ZoneName="Neerwaartse hal"
+ZoneName="Onderste hal"
 
 [ZoneInfo10]
 ; EN: ZoneName="Blast Chamber 1"
@@ -37,11 +37,11 @@ ZoneName="Straalkamer 1"
 
 [ZoneInfo9]
 ; EN: ZoneName="Blast Chamber 2"
-ZoneName="Blastkamer 2"
+ZoneName="Straalkamer 2"
 
 [LevelSummary]
 ; EN: Title="Ghardhen Labs"
-Title="Ghardhen Labs"
+Title="Ghardhen Labo's"
 IdealPlayerCount="6-12"
 
 [locationid7]

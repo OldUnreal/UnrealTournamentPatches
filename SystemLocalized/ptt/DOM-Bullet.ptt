@@ -1,0 +1,20 @@
+﻿[LevelInfo0]
+; EN: Title="Bulletproof"
+Title="A prova de balas"
+IdealPlayerCount="8-16"
+
+[ControlPoint2]
+; EN: PointName="Omega"
+PointName="Ómega"
+
+[ControlPoint1]
+PointName="Delta"
+
+[ControlPoint0]
+; EN: PointName="Alpha"
+PointName="Alfa"
+
+[LevelSummary]
+; EN: Title="Bulletproof"
+Title="A prova de balas"
+IdealPlayerCount="8-16"

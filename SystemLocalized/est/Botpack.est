@@ -482,7 +482,7 @@ WeaponDescription="Clasificación: Pistola Ligera\n\n Disparo primario: Disparo 
 ; EN: DeathMessage="%k riddled %o full of holes with the %w."
 DeathMessage="%k llenó de agujeros a %o con su %w."
 ; EN: PickupMessage="You picked up another Enforcer!"
-PickupMessage="¡Conseguiste otro Reforzador!"
+PickupMessage="¡Has recogido otro Reforzador!"
 ; EN: ItemName="Enforcer"
 ItemName="Reforzador"
 
@@ -741,7 +741,7 @@ WeaponDescription="Clasificación: Balística pesada\n\nFuego primario: Se dispa
 ; EN: DeathMessage="%o was smacked down by %k's %w."
 DeathMessage="%o fue apaleado por el %w de %k."
 ; EN: PickupMessage="You got the Rocket Launcher."
-PickupMessage="Has conseguido el Lanzacohetes."
+PickupMessage="Has recogido el Lanzacohetes."
 ; EN: ItemName="Rocket Launcher"
 ItemName="Lanzacohetes"
 
@@ -821,7 +821,7 @@ GameName="Entrenamiento de combate: Asalto"
 
 [UT_ShieldBelt]
 ; EN: PickupMessage="You got the Shield Belt."
-PickupMessage="Has conseguido el Cinturón de Protección."
+PickupMessage="Has recogido el Cinturón de Protección."
 ; EN: ItemName="Shield Belt"
 ItemName="Cinturón de Protección"
 
@@ -851,7 +851,7 @@ WeaponDescription="Clasificación: Rifle Energético\n\nDisparo Principal: Rayo 
 ; EN: DeathMessage="%k inflicted mortal damage upon %o with the %w."
 DeathMessage="%k hirió mortalmente a %o con su %w."
 ; EN: PickupMessage="You got the ASMD Shock Rifle."
-PickupMessage="Has conseguido el Rifle de Choque ASMD."
+PickupMessage="Has recogido el Rifle de Choque ASMD."
 ; EN: ItemName="Shock Rifle"
 ItemName="Rifle de Choque"
 
@@ -879,7 +879,7 @@ MessageNoAmmo=" no tiene plasma."
 ; EN: DeathMessage="%o ate %k's burning plasma death."
 DeathMessage="%o se ha tragado el plasma mortal caliente de %k."
 ; EN: PickupMessage="You got a Pulse Gun"
-PickupMessage="Has conseguido una Pistola de Pulsos"
+PickupMessage="Has recogido una Pistola de Pulsos"
 ; EN: ItemName="Pulse Gun"
 ItemName="Pistola de Pulsos"
 
@@ -889,7 +889,7 @@ WeaponDescription="Clasificación: Pistón de Combate Cuerpo a Cuerpo\n\nDisparo
 ; EN: DeathMessage="%o got smeared by %k's piston."
 DeathMessage="%o ha sido alcanzado por el martillo de %k."
 ; EN: PickupMessage="You got the Impact Hammer."
-PickupMessage="Has conseguido el Martillo de Impacto."
+PickupMessage="Has recogido el Martillo de Impacto."
 ; EN: ItemName="Impact Hammer"
 ItemName="Martillo de Impacto"
 
@@ -921,7 +921,7 @@ WeaponDescription="Clasificación: Dispositivo Termonuclear\n\nDisparo Principal
 ; EN: DeathMessage="%o was vaporized by %k's %w!!"
 DeathMessage="¡%o ha sido vaporizado por el %w de %k!"
 ; EN: PickupMessage="You got the Redeemer."
-PickupMessage="Has conseguido el Redentor."
+PickupMessage="Has recogido el Redentor."
 ; EN: ItemName="Redeemer"
 ItemName="Redentor"
 
@@ -931,13 +931,13 @@ WeaponDescription="Clasificación: Armamento de Largo Alcance\n\nDisparo Normal:
 ; EN: DeathMessage="%k put a bullet through %o's head."
 DeathMessage="%k colocó una bala en la cabeza de %o."
 ; EN: PickupMessage="You got a Sniper Rifle."
-PickupMessage="Has conseguido un Rifle de Francotirador."
+PickupMessage="Has recogido un Rifle de Francotirador."
 ; EN: ItemName="Sniper Rifle"
 ItemName="Rifle de Francotirador"
 
 [UDamage]
 ; EN: PickupMessage="You got the Damage Amplifier!"
-PickupMessage="¡Has conseguido el Amplificador de Daños!"
+PickupMessage="¡Has recogido el Amplificador de Daños!"
 ; EN: ItemName="Damage Amplifier"
 ItemName="Amplificador de Daños"
 
@@ -947,7 +947,7 @@ WeaponDescription="Clasificación: Metralla Pesada\n\nDisparo Principal: Dispara
 ; EN: DeathMessage="%o was ripped to shreds by %k's %w."
 DeathMessage="%o ha sido convertido en jirones por el %w de %k."
 ; EN: PickupMessage="You got the Flak Cannon."
-PickupMessage="Has conseguido el Cañón de Metralla."
+PickupMessage="Has recogido el Cañón de Metralla."
 ; EN: ItemName="Flak Cannon"
 ItemName="Cañón de Metralla"
 
@@ -977,7 +977,7 @@ WeaponDescription="Clasificación: Rifle Tóxico\n\nDisparo Principal: Dispara p
 ; EN: DeathMessage="%o drank a glass of %k's dripping green load."
 DeathMessage="%o bebió un vaso de la sustancia verde y espesa de %k."
 ; EN: PickupMessage="You got the GES BioRifle."
-PickupMessage="Has conseguido el Rifle Biológico GES."
+PickupMessage="Has recogido el Rifle Biológico GES."
 ; EN: ItemName="GES BioRifle"
 ItemName="Rifle Biológico GES"
 
@@ -987,7 +987,7 @@ WeaponDescription="Clasificación: Metralleta\n\nDisparo Principal: Dispara bala
 ; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
 DeathMessage="La %w de %k ha convertido a %o en un trozo de carne sangrando."
 ; EN: PickupMessage="You got the Minigun."
-PickupMessage="Has conseguido la Ametralladora."
+PickupMessage="Has recogido la Ametralladora."
 ; EN: ItemName="Minigun"
 ItemName="Ametralladora"
 
@@ -1168,7 +1168,7 @@ BotBio[7]="Sara ha dedicado su vida a la protección del prójimo. Prestaba sus 
 
 [TournamentHealth]
 ; EN: PickupMessage="You picked up a Health Pack +"
-PickupMessage="Has conseguido un Botiquín de Salud +"
+PickupMessage="Has recogido un Botiquín de Salud +"
 ; EN: ItemName="Health Pack"
 ItemName="Botiquín de Salud"
 
@@ -1190,13 +1190,13 @@ MenuName="Comando (varón)"
 
 [Armor2]
 ; EN: PickupMessage="You got the Body Armor."
-PickupMessage="Has conseguido un Blindaje de Cuerpo Entero."
+PickupMessage="Has recogido un Blindaje de Cuerpo Entero."
 ; EN: ItemName="Body Armor"
 ItemName="Blindaje de Cuerpo Entero"
 
 [ThighPads]
 ; EN: PickupMessage="You got the Thigh Pads."
-PickupMessage="Has conseguido las Musleras."
+PickupMessage="Has recogido las Musleras."
 ; EN: ItemName="Thigh Pads"
 ItemName="Musleras"
 
@@ -1694,7 +1694,7 @@ WeaponDescription="Clasificación: Lanzador de Cuchillas\n\nDisparo Principal: L
 ; EN: DeathMessage="%k ripped a chunk of meat out of %o with the %w."
 DeathMessage="%k extirpó un trozo de carne fuera de %o con su %w."
 ; EN: PickupMessage="You got the Ripper."
-PickupMessage="Has conseguido el Destripador."
+PickupMessage="Has recogido el Destripador."
 ; EN: ItemName="Ripper"
 ItemName="Destripador"
 
@@ -1773,7 +1773,7 @@ BotBio[7]="Grail es el miembro más inteligente de la Legión. Aguarda el moment
 ; EN: DeathMessage="%k electrified %o with the %w."
 DeathMessage="%k electrificó a %o con su %w."
 ; EN: PickupMessage="You got the enhanced Shock Rifle."
-PickupMessage="Has conseguido el Rifle de Choque Mejorado."
+PickupMessage="Has recogido el Rifle de Choque Mejorado."
 ; EN: ItemName="Enhanced Shock Rifle"
 ItemName="Rifle de Choque Mejorado"
 
@@ -1803,7 +1803,7 @@ FragGoal="Límite de Puntuación:"
 
 [BulletBox]
 ; EN: PickupMessage="You got a box of rifle rounds."
-PickupMessage="Has conseguido una caja de Cartuchos para Rifle de Francotirador."
+PickupMessage="Has recogido una caja de Cartuchos para Rifle de Francotirador."
 ; EN: ItemName="Box of Rifle Rounds"
 ItemName="Cartuchos para Rifle de Francotirador"
 
@@ -2466,7 +2466,7 @@ MenuName="Soldado (mujer)"
 
 [RifleShell]
 ; EN: PickupMessage="You got a rifle round."
-PickupMessage="Has conseguido un Cartucho para Rifle de Francotirador."
+PickupMessage="Has recogido un Cartucho para Rifle de Francotirador."
 ; EN: ItemName="Rifle Round"
 ItemName="Cartucho para Rifle de Francotirador"
 
@@ -2999,7 +2999,7 @@ MapDescription[1]="Construida en el pico de una montaña de la Luna Coret, esta 
 
 [HealthVial]
 ; EN: PickupMessage="You picked up a Health Vial +"
-PickupMessage="Has conseguido un Frasco de Salud +"
+PickupMessage="Has recogido un Frasco de Salud +"
 ; EN: ItemName="Health Vial"
 ItemName="Frasco de Salud"
 
@@ -3025,6 +3025,6 @@ WeaponDescription="Clasificación: Dispositivo de Teletransporte de Personal\n\n
 ; EN: DeathMessage="%k telefragged %o!"
 DeathMessage="¡%k teleaniquiló a %o!"
 ; EN: PickupMessage="You got the Translocator Source Module."
-PickupMessage="Conseguiste el módulo fuente del Translocalizador."
+PickupMessage="Has recogido el módulo fuente del Translocalizador."
 ; EN: ItemName="Translocator"
 ItemName="Translocalizador"

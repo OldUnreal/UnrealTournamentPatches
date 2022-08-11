@@ -1,13 +1,13 @@
 ﻿[LevelInfo0]
 ; EN: Title="Heavy Metal Grinder"
-Title="Шлифовальный станок для тяжелых металлов"
+Title="Литейный завод"
 IdealPlayerCount="2-6"
 ; EN: LevelEnterText="Welcome to the Heavy Metal Grinder"
-LevelEnterText="Добро пожаловать в Heavy Metal Grinder"
+LevelEnterText="Добро пожаловать на Литейный завод"
 
 [LevelSummary]
 ; EN: Title="Heavy Metal Grinder"
-Title="Шлифовальный станок для тяжелых металлов"
+Title="Литейный завод"
 IdealPlayerCount="2-6"
 ; EN: LevelEnterText="Welcome to the Heavy Metal Grinder"
-LevelEnterText="Добро пожаловать в Heavy Metal Grinder"
+LevelEnterText="Добро пожаловать на Литейный завод"

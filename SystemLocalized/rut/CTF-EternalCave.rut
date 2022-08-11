@@ -3,7 +3,7 @@
 Title="Вечные пещеры"
 IdealPlayerCount="4-8"
 ; EN: LevelEnterText="GET THOSE FLAGS!!"
-LevelEnterText="ПОЛУЧИТЕ ЭТИ ФЛАГИ !!"
+LevelEnterText="ЗАХВАТИТЕ ЭТИ ФЛАГИ !!"
 
 [ZoneInfo1]
 ; EN: ZoneName="Red Cave"
@@ -11,7 +11,7 @@ ZoneName="Красная пещера"
 
 [ZoneInfo0]
 ; EN: ZoneName="Blue Cave"
-ZoneName="Голубая пещера"
+ZoneName="Синяя пещера"
 
 [ZoneInfo2]
 ; EN: ZoneName="Lower Hall"
@@ -30,4 +30,4 @@ ZoneName="Верхний зал"
 Title="Вечные пещеры"
 IdealPlayerCount="4-8"
 ; EN: LevelEnterText="GET THOSE FLAGS!!"
-LevelEnterText="ПОЛУЧИТЕ ЭТИ ФЛАГИ !!"
+LevelEnterText="ЗАХВАТИТЕ ЭТИ ФЛАГИ !!"

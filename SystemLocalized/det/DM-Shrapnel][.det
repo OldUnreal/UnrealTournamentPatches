@@ -5,7 +5,7 @@ IdealPlayerCount="6-16"
 
 [ZoneInfo1]
 ; EN: ZoneName="Hub"
-ZoneName="Nabe"
+ZoneName="Knotenpunkt"
 
 [ZoneInfo0]
 ; EN: ZoneName="Flak Room"

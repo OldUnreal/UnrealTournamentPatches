@@ -22,7 +22,7 @@ DestroyedMessage=" "
 
 [FortStandard2]
 ; EN: FortName="The Main Doors"
-FortName="Основные ворота"
+FortName="Главные ворота"
 ; EN: DestroyedMessage="are now open!"
 DestroyedMessage="открыты!"
 
@@ -42,7 +42,7 @@ Message="Сторожка открыта!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="Exit the castle and make a hard right where you will locate the switch which will allow access to the library."
-ObjDesc[0]="Выйдите из замка и сверните направо, где найдете переключатель, который откроет доступ к библиотеке."
+ObjDesc[0]="Выйдите из замка, сверните направо, и найдите рычаг, который откроет доступ к библиотеке."
 ; EN: ObjDesc[1]="Proceed through the library where you will locate a winch that is held in place with two chains. Destroy the chains; this will allow access to the gatehouse in the courtyard."
 ObjDesc[1]="Пройдите через библиотеку и вы найдете лебедку, которая удерживается на месте двумя цепями. Разрушьте цепи, это позволит получить доступ к сторожке во внутреннем дворе."
 ; EN: ObjDesc[2]="Return to the courtyard and flip the switch in the gatehouse to open the front doors of the castle."

@@ -3,7 +3,7 @@
 Title="Lavariese"
 IdealPlayerCount="8-14"
 ; EN: LevelEnterText="GET THOSE FLAGS!!"
-LevelEnterText="ERHALTEN SIE DIESE FLAGGEN !!"
+LevelEnterText="HOLEN SIE DIESE FLAGGEN!!"
 
 [ZoneInfo0]
 ; EN: ZoneName="On The Island"
@@ -30,7 +30,7 @@ ZoneName="Blauer unterer Bereich"
 Title="Lavariese"
 IdealPlayerCount="8-14"
 ; EN: LevelEnterText="GET THOSE FLAGS!!"
-LevelEnterText="ERHALTEN SIE DIESE FLAGGEN !!"
+LevelEnterText="HOLEN SIE DIESE FLAGGEN!!"
 
 [locationid1]
 ; EN: LocationName="Red Base"
@@ -50,4 +50,4 @@ LocationName="Blaue Basis"
 
 [locationid3]
 ; EN: LocationName="Redeemer Ridge"
-LocationName="Erlöserkamm"
+LocationName="Erlösergrat"

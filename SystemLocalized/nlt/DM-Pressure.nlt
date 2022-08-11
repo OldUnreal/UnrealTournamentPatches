@@ -7,19 +7,19 @@ LevelEnterText="KRIJG ZE IN DE DRUKKAMER !!"
 
 [ZoneInfo0]
 ; EN: ZoneName="Catwalk Hall"
-ZoneName="Catwalk Hall"
+ZoneName="Loopbrug Hal"
 
 [ZoneInfo4]
 ; EN: ZoneName="Pillar Hall"
-ZoneName="Pijler Hall"
+ZoneName="Pilaar Hal"
 
 [ZoneInfo1]
 ; EN: ZoneName="Pressure Hall"
-ZoneName="Druk Hall"
+ZoneName="Druk Hal"
 
 [ZoneInfo6]
 ; EN: ZoneName="Pillar Hall"
-ZoneName="Pijler Hall"
+ZoneName="Pilaar Hal"
 
 [PressureZone0]
 ; EN: ZoneName="Pressure Chamber"
@@ -35,15 +35,15 @@ ZoneName="Ontsnappingstunnel"
 
 [ZoneInfo2]
 ; EN: ZoneName="Pressure Hall"
-ZoneName="Druk Hall"
+ZoneName="Druk Hal"
 
 [ZoneInfo5]
 ; EN: ZoneName="Pillar Hall"
-ZoneName="Pijler Hall"
+ZoneName="Pijler Hal"
 
 [ZoneInfo3]
 ; EN: ZoneName="Catwalk Hall"
-ZoneName="Catwalk Hall"
+ZoneName="Loopbrug Hal"
 
 [WaterZone1]
 ; EN: ZoneName="Water Tank"

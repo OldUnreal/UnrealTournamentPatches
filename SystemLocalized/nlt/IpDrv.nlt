@@ -55,8 +55,8 @@ HelpDesc[0]="Het.uz-bestand om te decomprimeren."
 
 [TcpNetDriver]
 ; EN: ClassCaption="TCP/IP Network Play"
-ClassCaption="TCP/IP-Netwerk Afspelen"
+ClassCaption="TCP/IP-Netwerk Spelen"
 
 [UdpBeacon]
 ; EN: ClassCaption="Server LAN Beacon"
-ClassCaption="Serverbaken-LAN"
+ClassCaption="Server-Baken-LAN"

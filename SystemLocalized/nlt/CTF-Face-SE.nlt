@@ -29,7 +29,7 @@ ZoneName="Blauwe Verlosser"
 
 [ZoneInfo4]
 ; EN: ZoneName="Red Redeemer"
-ZoneName="Verlosser"
+ZoneName="Rode Verlosser"
 
 [SpecialEvent0]
 ; EN: DamageString="put in orbit"
@@ -37,7 +37,7 @@ DamageString="in een baan om de aarde brengen"
 
 [locationid0]
 ; EN: LocationName="Blue Back"
-LocationName="Blauwe rug"
+LocationName="Blauw terug"
 
 [locationid1]
 ; EN: LocationName="Blue Asteroid"
@@ -77,11 +77,11 @@ LocationName="Rode asteroïde"
 
 [locationid10]
 ; EN: LocationName="Red Back"
-LocationName="Rode rug"
+LocationName="Rood terug"
 
 [locationid11]
 ; EN: LocationName="Blue Tower"
-LocationName="Blauwe toren"
+LocationName="Blauwe Toren"
 
 [locationid12]
 ; EN: LocationName="Red Tower"

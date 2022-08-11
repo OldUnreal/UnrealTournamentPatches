@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Hydro Bases"
-Title="Hydrobases"
+Title="Water Basis"
 IdealPlayerCount="6-12"
 
 [ZoneInfo9]
@@ -9,7 +9,7 @@ ZoneName="Rode Vlag Kamer"
 
 [ZoneInfo1]
 ; EN: ZoneName="Red Pillar Passage"
-ZoneName="Rode Pijler Passage"
+ZoneName="Rode Pijler Doorgang"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Flag Room"
@@ -21,7 +21,7 @@ ZoneName="Blauwe stookruimte"
 
 [ZoneInfo3]
 ; EN: ZoneName="Blue Pillar Passage"
-ZoneName="Blauwe Pijler Passage"
+ZoneName="Blauwe Pijler Doorgang"
 
 [ZoneInfo13]
 ; EN: ZoneName="Red Boiler Room"
@@ -29,11 +29,11 @@ ZoneName="Rode stookruimte
 
 [ZoneInfo6]
 ; EN: ZoneName="Red Courtyard"
-ZoneName="Rode binnenplaats"
+ZoneName="Rode Binnenplaats"
 
 [ZoneInfo5]
 ; EN: ZoneName="Blue Courtyard"
-ZoneName="Blauwe binnenplaats"
+ZoneName="Blauwe Binnenplaats"
 
 [ZoneInfo4]
 ; EN: ZoneName="Bridges"
@@ -41,5 +41,5 @@ ZoneName="Bruggen"
 
 [LevelSummary]
 ; EN: Title="Hydro Bases"
-Title="Hydrobases"
+Title="Water Basis"
 IdealPlayerCount="6-12"

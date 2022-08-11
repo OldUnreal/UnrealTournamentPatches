@@ -27,7 +27,7 @@ PointName="Boxen"
 
 [ZoneInfo14]
 ; EN: ZoneName="Oil Control"
-ZoneName="Öl kontrolle"
+ZoneName="Ölkontrolle"
 
 [ControlPoint2]
 ; EN: PointName="Crane"

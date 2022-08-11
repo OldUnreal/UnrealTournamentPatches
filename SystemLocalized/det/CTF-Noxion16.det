@@ -9,11 +9,11 @@ ZoneName="Mitte"
 
 [ZoneInfo10]
 ; EN: ZoneName="Blue Flag Room"
-ZoneName="Zimmer mit Blauer Flagge"
+ZoneName="Blauer Flaggenraum"
 
 [ZoneInfo9]
 ; EN: ZoneName="Red Flag Room"
-ZoneName="Zimmer mit Roter Flagge"
+ZoneName="Roter Flaggenraum"
 
 [ZoneInfo3]
 ; EN: ZoneName="Red Ramps"

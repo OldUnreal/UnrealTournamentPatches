@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Phobos Moon"
-Title="Phobos Moon"
+Title="Phobos Maan"
 IdealPlayerCount="4-8"
 
 [ZoneInfo5]
@@ -9,11 +9,11 @@ ZoneName="Ruimte"
 
 [ZoneInfo7]
 ; EN: ZoneName="Central"
-ZoneName="Centraal"
+ZoneName="Midden"
 
 [ZoneInfo6]
 ; EN: ZoneName="Lift 1"
-ZoneName="Hef 1"
+ZoneName="Lift 1"
 
 [ZoneInfo8]
 ; EN: ZoneName="Stairs Corridor"
@@ -25,5 +25,5 @@ ZoneName="BioRifle Gang"
 
 [LevelSummary]
 ; EN: Title="Phobos Moon"
-Title="Phobos Moon"
+Title="Phobos Maan"
 IdealPlayerCount="4-8"

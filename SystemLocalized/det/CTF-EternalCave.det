@@ -3,7 +3,7 @@
 Title="Ewige Höhlen"
 IdealPlayerCount="4-8"
 ; EN: LevelEnterText="GET THOSE FLAGS!!"
-LevelEnterText="ERHALTEN SIE DIESE FLAGGEN !!"
+LevelEnterText="HOLEN SIE DIESE FLAGGEN!!"
 
 [ZoneInfo1]
 ; EN: ZoneName="Red Cave"
@@ -30,4 +30,4 @@ ZoneName="Obere Halle"
 Title="Ewige Höhlen"
 IdealPlayerCount="4-8"
 ; EN: LevelEnterText="GET THOSE FLAGS!!"
-LevelEnterText="ERHALTEN SIE DIESE FLAGGEN !!"
+LevelEnterText="HOLEN SIE DIESE FLAGGEN!!"

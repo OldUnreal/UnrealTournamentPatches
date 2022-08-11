@@ -1,9 +1,9 @@
 ﻿[LevelInfo0]
 ; EN: Title="ITV Oblivion"
-Title="ИТВ Обливион"
+Title="ЗАБВЕНИЕ"
 IdealPlayerCount="2-3"
 ; EN: LevelEnterText="Smoke 'em..."
-LevelEnterText="Курите их..."
+LevelEnterText="Выкури их..."
 
 [ZoneInfo0]
 ; EN: ZoneName="Battle Arena"
@@ -11,7 +11,7 @@ ZoneName="Боевая арена"
 
 [LevelSummary]
 ; EN: Title="ITV Oblivion"
-Title="ИТВ Обливион"
+Title="ЗАБВЕНИЕ"
 IdealPlayerCount="2-3"
 ; EN: LevelEnterText="Smoke 'em..."
-LevelEnterText="Курите их..."
+LevelEnterText="Выкури их..."

@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+; EN: Title="Shrapnel ]["
+Title="Estilhaços] ["
+IdealPlayerCount="6-16"
+
+[ZoneInfo1]
+; EN: ZoneName="Hub"
+ZoneName="Cubo"
+
+[ZoneInfo0]
+; EN: ZoneName="Flak Room"
+ZoneName="Quarto Flak"
+
+[ZoneInfo4]
+; EN: ZoneName="West Wing"
+ZoneName="ala oeste"
+
+[ZoneInfo2]
+; EN: ZoneName="Shield Belt Room"
+ZoneName="Sala do cinto de proteção"
+
+[ZoneInfo3]
+; EN: ZoneName="Rocket Launcher Room"
+ZoneName="Sala do lançador de foguetes"
+
+[LevelSummary]
+; EN: Title="Shrapnel ]["
+Title="Estilhaços] ["
+IdealPlayerCount="6-16"

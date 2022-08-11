@@ -8,7 +8,7 @@ SubLangId=0
 
 [Query]
 ; EN: OldVersion="The file %ls was saved by a previous version which is not backwards compatible with this one. Reading it will likely fail, and may cause a crash. Do you want to try anyway?"
-OldVersion="Файл %ls был сохранён прежней версии, которая обратно не совместима с этой версией. Чтение скорее всего не удастся, и это может привести к вылету. Вы всё же желаете попробовать?"
+OldVersion="Файл %ls был сохранён прежней версии, которая не совместима с этой версией. Чтение скорее всего не удастся, и это может привести к вылету. Вы всё же желаете попробовать?"
 ; EN: Name="Name:"
 Name="Имя:"
 ; EN: Password="Password:"
@@ -147,9 +147,9 @@ True="Правда"
 ; EN: False="False"
 False="Ложь"
 ; EN: None="None"
-None="Никто"
+None="Нет"
 ; EN: Yes="Yes"
-Yes="да"
+Yes="Да"
 ; EN: No="No"
 No="Нет"
 

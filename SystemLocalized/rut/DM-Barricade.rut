@@ -5,7 +5,7 @@ IdealPlayerCount="6-12"
 
 [ZoneInfo11]
 ; EN: ZoneName="Outside"
-ZoneName="за пределами"
+ZoneName="Снаружи"
 
 [ZoneInfo12]
 ; EN: ZoneName="Castle"

@@ -7,7 +7,7 @@ Seeking="SUCHEN"
 
 [UDClientWindow]
 ; EN: Spechelp="If checked, you will be able to fly around the level when playing a demo"
-Spechelp="Wenn diese Option aktiviert ist, können Sie beim Spielen einer Demo durch das Level fliegen"
+Spechelp="Wenn diese Option aktiviert ist, kannst du beim Spielen einer Demo durch das Level fliegen"
 
 [UDPathsclient]
 ; EN: Empty="Empty"
@@ -25,7 +25,7 @@ MenuHelp="Demos abspielen und aufnehmen!"
 
 [UDnamewindow]
 ; EN: WindowTitle="Enter Demo Name"
-WindowTitle="Geben Sie den Demo-Namen ein"
+WindowTitle="Gib den Demo-Namen ein"
 
 [DownloadFramedWindow]
 ; EN: WindowTitle="Downloading..."

@@ -13,7 +13,7 @@ Preferences=(Caption="Cluster 3D",Parent="Audio",Class=Cluster.ClusterAudioSubsy
 ClassCaption="Cluster 3D"
 ; User facing desciption (intended to be used in startup wizard for a detailed description instead of Startup.int:Descriptions.<Package>.<Object>).
 ; EN: ClassDescription="Cluster is designed as a similiar sounding substituate to the aging Galaxy 3D Audio."
-ClassDescription="Cluster is ontworpen als een vergelijkbaar klinkende substituaat voor de verouderende Galaxy 3D Audio."
+ClassDescription="Cluster is ontworpen als een vergelijkbaar klinkende vervanging voor de verouderende Galaxy 3D Audio."
 
 [General]
 ; Serialized to log on init.
@@ -21,7 +21,7 @@ ClassDescription="Cluster is ontworpen als een vergelijkbaar klinkende substitua
 Init="Cluster geïnitialiseerd."
 ; Serialized to log on exit.
 ; EN: Exit="Cluster shut down."
-Exit="Cluster uitgeschakeld."
+Exit="Cluster uitschakelen."
 ; Serialized to log on exit after error.
 ; EN: ExitAfterError="Cluster shut down after error."
 ExitAfterError="Cluster uitgeschakeld na fout."
@@ -30,7 +30,7 @@ ExitAfterError="Cluster uitgeschakeld na fout."
 No3dSoundSwitch="-No3dSound-schakelaar gevonden. Use3dHardware-optie wordt genegeerd door Cluster."
 ; Cluster will use some heuristics to determine whether it should or should not patch the environment (won't patch if Launch is detected in Deus Ex, never on Unreal 227 or UT, etc.).
 ; EN: ClusterFuck="Cluster injected binary patches for broken audio functionality into Engine package. You can use -NoClusterFuck to disable it."
-ClusterFuck="Cluster geïnjecteerde binaire patches voor defecte audiofunctionaliteit in Engine-pakket. U kunt -NoClusterFuck gebruiken om het uit te schakelen."
+ClusterFuck="Cluster geïnjecteerde binaire patches voor defecte audiofunctionaliteit in het Engine-pakket. U kunt -NoClusterFuck gebruiken om het uit te schakelen."
 ; EN: SelectedDriver="Cluster selected output driver: %ls."
 SelectedDriver="Uitvoerstuurprogramma geselecteerd door Cluster: %ls."
 

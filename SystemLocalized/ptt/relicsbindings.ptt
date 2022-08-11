@@ -1,0 +1,8 @@
+﻿[public]
+Object=(Name=RelicsBindings.ExtraRelicsBindings,Class=Class,MetaClass=UTMenu.UTExtraKeyBindings,Description="Relíquias,Atirar Relíquia")
+
+[ExtraRelicsBindings]
+; EN: SectionName="Relics"
+SectionName="Relíquias"
+; EN: LabelList[0]="Toss Relic"
+LabelList[0]="Atirar Relíquia"

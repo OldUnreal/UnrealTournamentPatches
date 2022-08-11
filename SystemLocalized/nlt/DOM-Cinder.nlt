@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Cinder Foundry"
-Title="Cinder Foundry"
+Title="Cinder Smelterij"
 IdealPlayerCount="6-12"
 
 [ZoneInfo18]
@@ -33,7 +33,7 @@ ZoneName="Hoge lift"
 
 [LevelSummary]
 ; EN: Title="Cinder Foundry"
-Title="Cinder Foundry"
+Title="Cinder Smelterij"
 IdealPlayerCount="6-12"
 
 [ZoneInfo19]

@@ -1,21 +1,21 @@
 ﻿[LevelInfo0]
 ; EN: Title="Coret Facility"
-Title="Центропромышленный комплекс Корет"
+Title="Промышленный комплекс Корет"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Welcome to Coret Facility. Enjoy your stay."
-LevelEnterText="Добро пожаловать в Coret Facility. Приятного пребывания."
+LevelEnterText="Добро пожаловать в промышленный комплекс Корет. Приятного пребывания."
 
 [ZoneInfo1]
 ; EN: ZoneName="Central Area"
-ZoneName="Центральная зона"
+ZoneName="Центр"
 
 [ZoneInfo3]
 ; EN: ZoneName="Red Base"
-ZoneName="База красных"
+ZoneName="Красная база"
 
 [ZoneInfo4]
 ; EN: ZoneName="Blue Base"
-ZoneName="База синих"
+ZoneName="Синяя база"
 
 [ZoneInfo6]
 ; EN: ZoneName="Blue Main Hall"
@@ -51,11 +51,11 @@ ZoneName="Верхний зал красных"
 
 [ZoneInfo0]
 ; EN: ZoneName="Middle Area - Top"
-ZoneName="Средняя зона - верх"
+ZoneName="В центре вверху"
 
 [LevelSummary]
 ; EN: Title="Coret Facility"
-Title="Центропромышленный комплекс Корет"
+Title="Промышленный комплекс Корет"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Welcome to Coret Facility. Enjoy your stay."
-LevelEnterText="Добро пожаловать в Coret Facility. Приятного пребывания."
+LevelEnterText="Добро пожаловать в промышленный комплекс Корет. Приятного пребывания."

@@ -3,7 +3,7 @@
 Title="Hyperexplosion"
 IdealPlayerCount="2-8"
 ; EN: LevelEnterText="IT'S HYPERTIME!!"
-LevelEnterText="ES IST HYPERTIME !!"
+LevelEnterText="ES IST HYPERZEIT!!"
 
 [ZoneInfo1]
 ; EN: ZoneName="Middle Decks"
@@ -23,11 +23,11 @@ ZoneName="Oberdeck"
 
 [VacuumZone0]
 ; EN: DamageString="%k was shot into space!!!"
-DamageString="%k wurde ins All geschossen !!!"
+DamageString="%k wurde ins All geschossen!!!"
 
 [LevelSummary]
 ; EN: Title="HyperBlast"
 Title="Hyperexplosion"
 IdealPlayerCount="2-8"
 ; EN: LevelEnterText="IT'S HYPERTIME!!"
-LevelEnterText="ES IST HYPERTIME !!"
+LevelEnterText="ES IST HYPERZEIT!!"

@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Floating Pyramid"
-Title="Schwimmende Pyramide"
+Title="Schwebende Pyramide"
 IdealPlayerCount="8"
 
 [SpecialEvent1]
@@ -9,5 +9,5 @@ Message="Du hast deine Flügel vergessen, Lamer!"
 
 [LevelSummary]
 ; EN: Title="Floating Pyramid"
-Title="Schwimmende Pyramide"
+Title="Schwebende Pyramide"
 IdealPlayerCount="8"

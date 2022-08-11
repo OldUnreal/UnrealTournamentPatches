@@ -7,17 +7,17 @@ IdealPlayerCount="6-16"
 ZoneName="Hub"
 
 [ZoneInfo0]
-ZoneName="Flak Room"
+ZoneName="Flak Kamer"
 
 [ZoneInfo4]
 ; EN: ZoneName="West Wing"
 ZoneName="Westelijke vleugel"
 
 [ZoneInfo2]
-ZoneName="Shield Belt Room"
+ZoneName="Schild-riem Kamer"
 
 [ZoneInfo3]
-ZoneName="Rocket Launcher Room"
+ZoneName="RaketWerper Kamer"
 
 [LevelSummary]
 ; EN: Title="Shrapnel ]["

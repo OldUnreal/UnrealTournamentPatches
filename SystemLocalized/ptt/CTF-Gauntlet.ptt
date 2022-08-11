@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+Title="The Iron Gauntlet"
+IdealPlayerCount="6-8"
+
+[ZoneInfo2]
+; EN: ZoneName="Red Foyer"
+ZoneName="Foyer Vermelho"
+
+[ZoneInfo4]
+ZoneName="Blue Foyer"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Base"
+ZoneName="Base Vermelha"
+
+[ZoneInfo0]
+; EN: ZoneName="Blue Base"
+ZoneName="Base Azul"
+
+[ZoneInfo3]
+; EN: ZoneName="Lava Room"
+ZoneName="Sala de lava"
+
+[LevelSummary]
+Title="The Iron Gauntlet"
+IdealPlayerCount="6-8"
+
+[ZoneInfo5]
+ZoneName="Blue Armory"

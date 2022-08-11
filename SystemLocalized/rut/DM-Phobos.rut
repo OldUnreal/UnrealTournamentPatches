@@ -9,21 +9,21 @@ ZoneName="Космическое пространство"
 
 [ZoneInfo7]
 ; EN: ZoneName="Central"
-ZoneName="Центральная"
+ZoneName="Центр"
 
 [ZoneInfo6]
 ; EN: ZoneName="Lift 1"
-ZoneName="Лифт 1"
+ZoneName="Лифт"
 
 [ZoneInfo8]
 ; EN: ZoneName="Stairs Corridor"
-ZoneName="Лестница Коридор"
+ZoneName="Лестница"
 
 [ZoneInfo9]
 ; EN: ZoneName="BioRifle Corridor"
-ZoneName="Био-винтовочный коридор"
+ZoneName="У Био-ружья"
 
 [LevelSummary]
 ; EN: Title="Phobos Moon"
-Title="Фобос Луна"
+Title="Фобос"
 IdealPlayerCount="4-8"

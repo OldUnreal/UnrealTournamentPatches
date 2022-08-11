@@ -60,4 +60,4 @@ ClassCaption="Сетевая игра (TCP/IP)"
 
 [UdpBeacon]
 ; EN: ClassCaption="Server LAN Beacon"
-ClassCaption="Маяк сервера для LAN"
+ClassCaption="Локальный сервер"

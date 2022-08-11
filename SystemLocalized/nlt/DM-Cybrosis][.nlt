@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Cybrosis Central ]["
-Title="Cybrosis Central ]["
+Title="Cybrosis Centraal ]["
 IdealPlayerCount="3-8"
 
 [ControlPoint0]
@@ -21,9 +21,9 @@ DamageString="%k heeft een schokkende fout gemaakt"
 
 [LevelSummary]
 ; EN: Title="Cybrosis Central ]["
-Title="Cybrosis Central ]["
+Title="Cybrosis Centraal ]["
 IdealPlayerCount="3-8"
 
 [SpecialEvent3]
 ; EN: DamageString="%K didn't manage to keep the Damage Amplifier"
-DamageString="%k is er niet in geslaagd om de Damage Amplifier te behouden"
+DamageString="%k is er niet in geslaagd om de Schade Versterker te behouden"

@@ -9,7 +9,7 @@ ZoneName="Подвал"
 
 [ControlPoint2]
 ; EN: PointName="Top"
-PointName="верхний"
+PointName="Вверху"
 
 [ZoneInfo12]
 ; EN: ZoneName="Upward Hall"
@@ -17,7 +17,7 @@ ZoneName="Верхний зал"
 
 [ControlPoint0]
 ; EN: PointName="Bottom"
-PointName="Дно"
+PointName="Внизу"
 
 [ControlPoint3]
 ; EN: PointName="Center"
@@ -46,12 +46,12 @@ IdealPlayerCount="6-12"
 
 [locationid7]
 ; EN: LocationName="Central Room - Lower"
-LocationName="Центральный номер - нижний"
+LocationName="В центре - внизу"
 
 [locationid6]
 ; EN: LocationName="Central Room - Top"
-LocationName="Центральная комната - Верх"
+LocationName="В центре - вверху"
 
 [locationid8]
 ; EN: LocationName="Central Room - Mid"
-LocationName="Центральный номер - Mid"
+LocationName="В главном зале"

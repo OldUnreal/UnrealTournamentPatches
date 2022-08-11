@@ -1,11 +1,11 @@
 ﻿[LevelInfo0]
 ; EN: Title="Kosov Canyon"
-Title="Kosov-kloof"
+Title="Kosov-Kloof"
 IdealPlayerCount="14"
 
 [ZoneInfo2]
 ; EN: ZoneName="Kosov Valley"
-ZoneName="Kosov-vallei"
+ZoneName="Kosov-Vallei"
 
 [ZoneInfo3]
 ; EN: ZoneName="Blue Base"
@@ -13,7 +13,7 @@ ZoneName="Blauwe basis"
 
 [ZoneInfo0]
 ; EN: ZoneName="Kosov Falls"
-ZoneName="Kosov valt"
+ZoneName="Kosov Waterval"
 
 [ZoneInfo1]
 ; EN: ZoneName="Red Base"
@@ -25,11 +25,11 @@ ZoneName="Grot"
 
 [ZoneInfo6]
 ; EN: ZoneName="Blue Armor Room"
-ZoneName="Blauwe pantserkamer"
+ZoneName="Blauwe Wapen-kamer"
 
 [WaterZone0]
 ; EN: ZoneName="Kosov Lake"
-ZoneName="Kosov-meer"
+ZoneName="Kosov-Meer"
 
 [WaterZone2]
 ; EN: ZoneName="Underwater Cave"
@@ -37,7 +37,7 @@ ZoneName="Onderwatergrot"
 
 [ZoneInfo5]
 ; EN: ZoneName="Kosov Falls"
-ZoneName="Kosov valt"
+ZoneName="Kosov Waterval"
 
 [LevelSummary]
 ; EN: Title="Kosov Canyon"

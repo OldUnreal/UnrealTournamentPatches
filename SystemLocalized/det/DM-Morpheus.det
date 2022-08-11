@@ -3,7 +3,7 @@
 Title="Morpheus"
 IdealPlayerCount="3-6"
 ; EN: LevelEnterText="Nobody ever makes their first jump."
-LevelEnterText="Niemand macht jemals seinen ersten Sprung."
+LevelEnterText="Niemand schafft seinen ersten Sprung."
 
 [VacuumZone0]
 ; EN: DamageString="%k fell a long long way..."
@@ -26,4 +26,4 @@ ScrollingMessage="%lp führt das Match mit %lf Frags an..."
 Title="Morpheus"
 IdealPlayerCount="3-6"
 ; EN: LevelEnterText="Nobody ever makes their first jump."
-LevelEnterText="Niemand macht jemals seinen ersten Sprung."
+LevelEnterText="Niemand schafft seinen ersten Sprung."

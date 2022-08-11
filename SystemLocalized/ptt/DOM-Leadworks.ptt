@@ -1,0 +1,50 @@
+﻿[LevelInfo0]
+Title="Southside Leadworks"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Entering the Southside Leadworks"
+LevelEnterText="Entrando no Southside Leadworks"
+
+[ZoneInfo0]
+; EN: ZoneName="Tower"
+ZoneName="Torre"
+
+[ZoneInfo4]
+; EN: ZoneName="Rocket Storage"
+ZoneName="Armazenamento de foguetes"
+
+[ZoneInfo2]
+; EN: ZoneName="Lava Bridge"
+ZoneName="Ponte de lava"
+
+[ZoneInfo3]
+; EN: ZoneName="Processing"
+ZoneName="Em processamento"
+
+[ZoneInfo6]
+; EN: ZoneName="Storage"
+ZoneName="Armazenamento"
+
+[ControlPoint2]
+; EN: PointName="Bridge"
+PointName="Ponte"
+
+[ControlPoint1]
+; EN: PointName="Tower"
+PointName="Torre"
+
+[ZoneInfo1]
+; EN: ZoneName="Corridors"
+ZoneName="Corredores"
+
+[ControlPoint0]
+; EN: PointName="Storage"
+PointName="Armazenamento"
+
+[ZoneInfo5]
+ZoneName="Ripper Storage"
+
+[LevelSummary]
+Title="Southside Leadworks"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Entering the Southside Leadworks"
+LevelEnterText="Entrando no Southside Leadworks"

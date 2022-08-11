@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Wolf's Bay"
-Title="Wolf's Bay"
+Title="Wolf's Baai"
 IdealPlayerCount="6"
 
 [ZoneInfo21]
@@ -41,7 +41,7 @@ ZoneName="Haventunnel"
 
 [ZoneInfo2]
 ; EN: ZoneName="Vent Room"
-ZoneName="Vent kamer"
+ZoneName="Verlucht kamer"
 
 [ZoneInfo4]
 ; EN: ZoneName="Port Tunnel"
@@ -53,7 +53,7 @@ ZoneName="Verdrinking"
 
 [LevelSummary]
 ; EN: Title="Wolf's Bay"
-Title="Wolf's Bay"
+Title="Wolf's Baai"
 IdealPlayerCount="6"
 
 [ZoneInfo22]

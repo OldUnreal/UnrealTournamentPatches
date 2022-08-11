@@ -1,11 +1,11 @@
 ﻿[LevelInfo0]
 ; EN: Title="Epic Boy"
-Title="Эпический мальчик"
+Title="Эпик Бой"
 IdealPlayerCount="6-10"
 
 [LevelSummary]
 ; EN: Title="Epic Boy"
-Title="Эпический мальчик"
+Title="Эпик Бой"
 IdealPlayerCount="6-10"
 
 [ZoneInfo0]
@@ -14,11 +14,11 @@ ZoneName="Двор"
 
 [ZoneInfo1]
 ; EN: ZoneName="Blue Side Entrance"
-ZoneName="Вход с синей стороны"
+ZoneName="Вход на синюю базу"
 
 [ZoneInfo2]
 ; EN: ZoneName="Blue Redeemer Hall"
-ZoneName="Синий Зал Искупителя"
+ZoneName="Синий зал с Редимером"
 
 [ZoneInfo3]
 ; EN: ZoneName="Blue Lower Hallway"
@@ -26,7 +26,7 @@ ZoneName="Синий нижний коридор"
 
 [ZoneInfo4]
 ; EN: ZoneName="Blue Flag Base"
-ZoneName="База Голубого флага"
+ZoneName="Синяя база"
 
 [ZoneInfo5]
 ; EN: ZoneName="Blue Upper Hallway"
@@ -34,7 +34,7 @@ ZoneName="Синий верхний коридор"
 
 [ZoneInfo6]
 ; EN: ZoneName="Red Side Entrance"
-ZoneName="Вход с красной стороны"
+ZoneName="Вход на красную базу"
 
 [ZoneInfo8]
 ; EN: ZoneName="Red Upper Hallway"
@@ -42,7 +42,7 @@ ZoneName="Красный верхний коридор"
 
 [ZoneInfo9]
 ; EN: ZoneName="Red Flag Base"
-ZoneName="База Красного Флага"
+ZoneName="Красная База"
 
 [ZoneInfo10]
 ; EN: ZoneName="Red Lower Hallway"

@@ -11,7 +11,7 @@ Spechelp="Если этот флажок установлен, вы сможет
 
 [UDPathsclient]
 ; EN: Empty="Empty"
-Empty="Пустой"
+Empty="Пусто"
 
 [UDNetSettingsClient]
 ; EN: Empty="(Empty)"

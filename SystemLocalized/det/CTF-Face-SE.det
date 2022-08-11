@@ -1,6 +1,6 @@
 ﻿[LevelInfo0]
 ; EN: Title="Facing Worlds Special Edition"
-Title="Welten Gegenüberstehen Sonderedition"
+Title="Gegenüberstehende Welten Sonderedition"
 IdealPlayerCount="4-10"
 
 [ZoneInfo3]
@@ -93,5 +93,5 @@ LocationName="Roter Turm"
 
 [LevelSummary]
 ; EN: Title="Facing Worlds Special Edition"
-Title="Welten Gegenüberstehen Sonderedition"
+Title="Gegenüberstehende Welten Sonderedition"
 IdealPlayerCount="4-10"

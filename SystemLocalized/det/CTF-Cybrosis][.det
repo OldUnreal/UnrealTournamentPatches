@@ -53,15 +53,15 @@ ZoneName="Oben Mitte Rot"
 
 [ZoneInfo27]
 ; EN: ZoneName="Top Passage Blue"
-ZoneName="Blauer oberer Durchgang"
+ZoneName="Oberer Durchgang Blau"
 
 [ZoneInfo30]
 ; EN: ZoneName="Top Passage Blue"
-ZoneName="Blauer oberer Durchgang"
+ZoneName="Oberer Durchgang Blau"
 
 [ZoneInfo5]
 ; EN: ZoneName="Top Passage Red"
-ZoneName="Roter oberer Durchgang"
+ZoneName="Oberer Durchgang Rot"
 
 [ZoneInfo31]
 ; EN: ZoneName="Top Center Blue"
@@ -73,7 +73,7 @@ ZoneName="Oben Mitte Rot"
 
 [ZoneInfo8]
 ; EN: ZoneName="Top Passage Red"
-ZoneName="Roter oberer Durchgang"
+ZoneName="Oberer Durchgang Rot"
 
 [ZoneInfo10]
 ; EN: ZoneName="Top Center Red"

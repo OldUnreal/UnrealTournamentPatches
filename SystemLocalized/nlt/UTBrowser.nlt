@@ -16,4 +16,4 @@ InactiveText="Inactief"
 
 [UTBrowserMainWindow]
 ; EN: WindowTitleString="Unreal Tournament Server Browser"
-WindowTitleString="Unreal Tournament serverbrowser"
+WindowTitleString="Unreal Tournament Server Browser"

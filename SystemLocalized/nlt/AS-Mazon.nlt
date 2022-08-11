@@ -5,7 +5,7 @@ IdealPlayerCount="8-12"
 
 [FortStandard5]
 ; EN: FortName="The Crystal"
-FortName="Het kristal"
+FortName="Het Kristal"
 ; EN: DestroyedMessage="has been destroyed!"
 DestroyedMessage="is vernietigd!"
 
@@ -28,15 +28,15 @@ DestroyedMessage="zijn geopend!"
 
 [FortStandard1]
 ; EN: FortName="The Chain 2"
-FortName="De ketting 2"
+FortName="De Ketting 2"
 ; EN: DestroyedMessage="has been destroyed!"
-DestroyedMessage="is vernietigd!"
+DestroyedMessage="werd vernietigd!"
 
 [FortStandard2]
 ; EN: FortName="The Chain 1"
-FortName="De ketting 1"
+FortName="De Ketting 1"
 ; EN: DestroyedMessage="has been destroyed!"
-DestroyedMessage="is vernietigd!"
+DestroyedMessage="werd vernietigd!"
 
 [AssaultInfo0]
 ; EN: ObjDesc[0]="Your enemy is using Tarydium, a powerful and volatile element, to power their War Machines. You must infiltrate the base by first destroying the two counterweights outside the west wing of the fort. This will open the doors to the fortress."

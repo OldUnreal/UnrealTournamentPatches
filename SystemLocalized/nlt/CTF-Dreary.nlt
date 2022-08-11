@@ -9,7 +9,7 @@ ZoneName="Rode hoofdkamer"
 
 [ZoneInfo18]
 ; EN: ZoneName="Center loft"
-ZoneName="Middelste loft"
+ZoneName="Middelste zolder"
 
 [ZoneInfo16]
 ; EN: ZoneName="Blue Main Room"
@@ -73,11 +73,11 @@ ZoneName="Blauwe rechter lift"
 
 [SlimeZone0]
 ; EN: ZoneName="Red Slime Pool"
-ZoneName="Red Slime Pool"
+ZoneName="Rode Modder Bad"
 
 [SlimeZone1]
 ; EN: ZoneName="Blue Slime Pool"
-ZoneName="Blue Slime Pool"
+ZoneName="Blauwe Modder Bad"
 
 [LevelSummary]
 ; EN: Title="Dreary Outpost"

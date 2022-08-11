@@ -169,7 +169,7 @@ HelpDesc[0]="The name of the package to strip sources."
 [DumpIntCommandlet]
 HelpCmd=DumpInt
 HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-HelpOneLiner="Dump the language text contents out of a file."
+HelpOneLiner="Dump the language text contents out of a file and synchronizes the missing lines across all available languages."
 HelpUsage="dumpint packagename"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to dump language text of."
@@ -181,16 +181,6 @@ HelpOneLiner="Simply export a package contents to .uc files in prior directory."
 HelpUsage="exportpackage packagename"
 HelpParm[0]="packagename"
 HelpDesc[0]="The name of the package to export UC files of."
-
-[CompareIntCommandlet]
-HelpCmd=CompareInt
-HelpWebLink="https://www.oldunreal.com/wiki/index.php?title=Commandlet"
-HelpOneLiner="Compare 2 language files and delete/remove language entries that you compare with."
-HelpUsage="compareint packageint miscint"
-HelpParm[0]="packageint"
-HelpDesc[0]="Main language file."
-HelpParm[1]="miscint"
-HelpDesc[1]="Secondary language file (to edit)."
 
 [ListObjectsCommandlet]
 HelpCmd=listobjects

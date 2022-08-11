@@ -1,9 +1,9 @@
 ﻿[LevelInfo0]
 ; EN: Title="Metal Dream"
-Title="Metal Dream"
+Title="Metaal Droom"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Welcome to Metal Dream"
-LevelEnterText="Welkom bij Metal Dream"
+LevelEnterText="Welkom bij Metaal Droom"
 
 [ZoneInfo5]
 ; EN: ZoneName="Outside"
@@ -43,11 +43,11 @@ PointName="Helikopterplatform"
 
 [LevelSummary]
 ; EN: Title="Metal Dream"
-Title="Metal Dream"
+Title="Metaal Droom"
 IdealPlayerCount="6-12"
 ; EN: LevelEnterText="Welcome to Metal Dream"
-LevelEnterText="Welkom bij Metal Dream"
+LevelEnterText="Welkom bij Metaal Droom"
 
 [SpecialEvent7]
 ; EN: DamageString="diced"
-DamageString="in blokjes gesneden"
+DamageString="verknipt"

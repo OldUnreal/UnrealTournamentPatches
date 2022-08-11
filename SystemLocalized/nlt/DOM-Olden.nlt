@@ -5,7 +5,7 @@ IdealPlayerCount="4-6"
 
 [ZoneInfo2]
 ; EN: ZoneName="Lower Point Room"
-ZoneName="Lagere Point Room"
+ZoneName="Lagere Punt kamer"
 
 [ZoneInfo0]
 ; EN: ZoneName="Central Room"
@@ -13,15 +13,15 @@ ZoneName="Centrale kamer"
 
 [ZoneInfo1]
 ; EN: ZoneName="Upper Point Room"
-ZoneName="Upper Point Room"
+ZoneName="Hogere Punt Kamer"
 
 [ZoneInfo3]
 ; EN: ZoneName="Chain Lift Room"
-ZoneName="Chain Lift Room"
+ZoneName="KettingLift Kamer"
 
 [ControlPoint1]
 ; EN: PointName="Lower"
-PointName="Lager"
+PointName="Lagere"
 
 [ControlPoint2]
 ; EN: PointName="Upper"

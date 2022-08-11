@@ -1,15 +1,15 @@
 ﻿[LevelInfo0]
 ; EN: Title="The Iron Gauntlet"
-Title="Железная рукавица"
+Title="Железная перчатка"
 IdealPlayerCount="6-8"
 
 [ZoneInfo2]
 ; EN: ZoneName="Red Foyer"
-ZoneName="Красное фойе"
+ZoneName="Вход на красную базу"
 
 [ZoneInfo4]
 ; EN: ZoneName="Blue Foyer"
-ZoneName="Голубое фойе"
+ZoneName="Вход на синюю базу"
 
 [ZoneInfo1]
 ; EN: ZoneName="Red Base"
@@ -21,11 +21,11 @@ ZoneName="Синяя база"
 
 [ZoneInfo3]
 ; EN: ZoneName="Lava Room"
-ZoneName="Комната лавы"
+ZoneName="Комната с лавой"
 
 [LevelSummary]
 ; EN: Title="The Iron Gauntlet"
-Title="Железная рукавица"
+Title="Железная перчатка"
 IdealPlayerCount="6-8"
 
 [ZoneInfo5]

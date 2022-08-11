@@ -7,7 +7,7 @@ LevelEnterText="Breek het rubber uit, het is tijd voor DOMINATIE!"
 
 [ControlPoint2]
 ; EN: PointName="Lower"
-PointName="Lager"
+PointName="Lagere"
 
 [ControlPoint0]
 ; EN: PointName="Central"

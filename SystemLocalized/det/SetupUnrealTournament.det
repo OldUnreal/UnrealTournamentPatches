@@ -27,7 +27,7 @@ EditLevelCommand="Di&esen Unreal Tournament-Level bearbeiten"
 ; EN: Caption="Game Content"
 Caption="Spielinhalt"
 ; EN: Description="Install this for best performance. If you deselect it, the game content will be loaded from CD during play, degrading performance, but using less hard disk space."
-Description="Installieren Sie dies für beste Leistung. Wenn Sie es deaktivieren, wird der Spielinhalt während des Spiels von der CD geladen, was die Leistung verringert, aber weniger Festplattenspeicher belegt."
+Description="Installiere dies für beste Leistung. Wenn du es deaktivierst, wird der Spielinhalt während des Spiels von der CD geladen, was die Leistung verringert, aber weniger Festplattenspeicher belegt."
 
 [GameGroup]
 ; EN: Caption="Unreal Tournament Game"
@@ -39,7 +39,7 @@ Description="Installation ist erforderlich."
 ; EN: Caption="NetGames USA Stat Utils"
 Caption="NetGames USA-Statistik-Utilities"
 ; EN: Description="These tools can be used to generate HTML statistics about your Unreal Tournament games. You can also view your global ranking online!"
-Description="Diese Tools können verwendet werden, um HTML-Statistiken über Ihre Unreal Tournament-Spiele zu generieren. Sie können auch Ihre globale Rangliste online einsehen!"
+Description="Diese Tools können verwendet werden, um HTML-Statistiken über deine Unreal Tournament-Spiele zu generieren. Du kannst auch deine globale Rangliste online einsehen!"
 
 [DirectXGroup]
 Caption="DirectX"
@@ -50,7 +50,7 @@ Description="Optionale Microsoft DirectX 7-Treiber für verbesserte Grafik-, Sou
 ; EN: Caption="Unreal Editor"
 Caption="Unreal Editor"
 ; EN: Description="Unreal world editor, for creating your own 3D Unreal environments. For advanced users; installation is optional."
-Description="Unreal-Welteditor, um Ihre eigenen 3D-Unreal-Umgebungen zu erstellen. Für fortgeschrittene Benutzer; die Installation ist optional."
+Description="Unreal-Welteditor, um deine eigenen 3D-Unreal-Umgebungen zu erstellen. Für fortgeschrittene Benutzer; die Installation ist optional."
 
 [PlayShortcut]
 ; EN: Caption="Play Unreal Tournament"
@@ -81,7 +81,7 @@ Caption="Meine lokalen UT-Statistiken anzeigen. [ngStats]"
 
 [GlobalStatsShortcut]
 ; EN: Caption="View my global UT stats. [ngWorldStats]"
-Caption="Sehen Sie sich meine globalen UT-Statistiken an. [ngWorldStats]"
+Caption="Meine globalen UT-Statistiken anzeigen. [ngWorldStats]"
 
 [MPlayerShortcut]
 Caption="-"

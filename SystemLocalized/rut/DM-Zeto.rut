@@ -1,13 +1,13 @@
 ﻿[LevelInfo0]
 ; EN: Title="Ice Station Zeto"
-Title="Ледовая станция Зето"
+Title="Полярная станция Зето"
 IdealPlayerCount="4-12"
 ; EN: LevelEnterText="Stay Cool."
 LevelEnterText="Не горячись."
 
 [LevelSummary]
 ; EN: Title="Ice Station Zeto"
-Title="Ледовая станция Зето"
+Title="Полярная станция Зето"
 IdealPlayerCount="4-12"
 ; EN: LevelEnterText="Stay Cool."
 LevelEnterText="Не горячись."

@@ -3,7 +3,7 @@
 Title="ITV Vergessenheit"
 IdealPlayerCount="2-3"
 ; EN: LevelEnterText="Smoke 'em..."
-LevelEnterText="Smoke 'em..."
+LevelEnterText="Räucher sie aus..."
 
 [ZoneInfo0]
 ; EN: ZoneName="Battle Arena"
@@ -14,4 +14,4 @@ ZoneName="Kampfarena"
 Title="ITV Vergessenheit"
 IdealPlayerCount="2-3"
 ; EN: LevelEnterText="Smoke 'em..."
-LevelEnterText="Smoke 'em..."
+LevelEnterText="Räucher sie aus..."
