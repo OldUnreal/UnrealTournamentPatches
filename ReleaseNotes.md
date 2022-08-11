@@ -82,7 +82,7 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * Fixed a bug that made it impossible to import or use sounds/music tracks with special characters in their file/package/group names
 * Fixed a bug that made it impossible to edit certain array properties through the preferences menu
 * Fixed a bug that made UnrealEd discard the alpha channel while importing BC7-compressed textures
-* Fixed a bug that made UnrealEd duplicate actors when undoing an actor copy/paste operation
+* Fixed a bug that made UnrealEd duplicate actors when undoing an actor paste operation
 
 #### Game Client
 
