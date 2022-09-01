@@ -33,6 +33,7 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * Fixed a bug that caused Unreal Editor to crash when using the texture exporter without having a texture selected (External Contribution by Buggie)
 * Fixed a bug that caused Unreal Editor to crash when clicking the "Add Class Here" option without having a class selected (External Contribution by Buggie)
 * Fixed a bug that caused Unreal Editor to crash when attempting to export source-stripped classes
+* Fixed a bug that could make our map compatibility checks crash Unreal Editor while saving maps
 
 #### Game Client
 
@@ -143,6 +144,7 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * Fixed a bug that caused ALAudio to stop playing looping sounds played through ClientPlaySound if you moved too far away from the origin of the map
 * Fixed a bug that made Galaxy play a whistling sound when a player or bot died while holding a pulse gun
 * Fixed an XOpenGLDrv problem that made certain weapons render on top of the HUD
+* Fixed a bug that made the chat beep sound mute other sounds
 
 #### Miscellaneous
 
