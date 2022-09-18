@@ -146,6 +146,10 @@ This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms
 * Fixed an XOpenGLDrv problem that made certain weapons render on top of the HUD
 * Fixed a bug that made the chat beep sound mute other sounds
 
+#### Networking and Netcode
+
+* Fixed a bug that made the properties of Botpack.Kicker objects replicate incorrectly to older clients
+
 #### Miscellaneous
 
 * Fixed a bug that made the Linux/macOS clients not read UTF-16LE encoded files correctly
