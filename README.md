@@ -24,13 +24,13 @@ If you want to test out our patches, but maintain the possibility to uninstall t
 
 #### Windows Installation
 
-# Windows 7 or later
+##### Windows 7 or later
 
 We distribute our patches for modern **Windows** systems in multiple formats. We recommend that you run the exe installer to patch your game.
 
 However, you can also simply unpack the zip package **on top of an existing installation** of Unreal Tournament. No other actions are needed to install the patch.
 
-# Windows XP and Vista
+##### Windows XP and Vista
 
 The **legacy Windows** version of our patch is only available as a zip package. You can install this patch by unpacking the zip file **on top of an existing installation** of Unreal Tournament. No other actions are needed to install the patch.
 
