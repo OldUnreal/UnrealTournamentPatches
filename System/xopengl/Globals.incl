@@ -257,6 +257,7 @@ const uint	TEXF_NODATA            	=	0xfeu;
 const uint	TEXF_MAX			    =   0xffu;
 
 // DrawFlags
+const uint  DF_None             = 0x00000000u;
 const uint	DF_DiffuseTexture	= 0x00000001u;
 const uint	DF_LightMap         = 0x00000002u;
 const uint	DF_FogMap          	= 0x00000004u;
@@ -265,6 +266,12 @@ const uint	DF_MacroTexture	 	= 0x00000010u;
 const uint	DF_BumpMap			= 0x00000020u;
 const uint	DF_EnvironmentMap  	= 0x00000040u;
 const uint	DF_HeightMap      	= 0x00000080u;
+const uint  DF_NoNearZ          = 0x00000100u;
+
+// LineFlags
+const uint LINE_None			= 0x00u;
+const uint LINE_Transparent		= 0x01u;
+const uint LINE_DepthCued	 	= 0x02u;
 
 layout(std140) uniform GlobalMatrices
 {
@@ -292,17 +299,46 @@ layout(std140) uniform StaticLightInfo
 	vec4 LightData5[MAX_LIGHTS]; // NormalLightRadius, bZoneNormalLight, unused, unused
 };
 
-layout(std140) uniform DistanceFogParams
-{
-	vec4  DistanceFogColor;		// Fog color
-	vec4  DistanceFogValues;
-};
-
 layout(std140) uniform GlobalCoords
 {
 	mat4 FrameCoords;
 	mat4 FrameUncoords;
 };
+
+#if BINDLESS_STORAGE_UBO
+layout(std140) uniform TextureHandles
+{
+	layout(bindless_sampler) sampler2D Textures[NUMTEXTURES];
+};
+
+vec4 GetTexel(uint BindlessTexNum, sampler2D BoundSampler, vec2 TexCoords)
+{
+	if (BindlessTexNum > 0u)
+		return texture(Textures[BindlessTexNum], TexCoords);
+	return texture(BoundSampler, TexCoords);
+}
+
+#elif BINDLESS_STORAGE_SSBO
+
+layout(std430, binding = 1) buffer TextureHandles
+{
+	uvec2 Textures[];
+};
+vec4 GetTexel(uint BindlessTexNum, sampler2D BoundSampler, vec2 TexCoords)
+{
+	if (BindlessTexNum > 0u)
+		return texture(sampler2D(Textures[BindlessTexNum]), TexCoords);
+	return texture(BoundSampler, TexCoords);
+}
+
+#else
+
+vec4 GetTexel(uint BindlessTexNum, sampler2D BoundSampler, vec2 TexCoords)
+{
+	return texture(BoundSampler, TexCoords);
+}
+
+#endif
 
 //DistanceFog
 struct FogParameters

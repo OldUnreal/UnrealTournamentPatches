@@ -12,7 +12,8 @@ setInterval(function () {
 		msg = i;
 	} else if (i == 0) {
 		msg = '0';
-		(window.top || window).location.reload();
+		var w = (window.top || window);
+		w.location = w.location.href;
 	}
 	if (msg) {
 		document.getElementById('timer').textContent = msg;

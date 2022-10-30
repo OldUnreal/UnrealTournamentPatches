@@ -22,13 +22,9 @@ If you are a native mod author, and you are having trouble updating your mod for
 **Note:** This patch disables older versions of ACE.
 Server admins should upgrade ACE to version 1.1e or later to check 469c clients.
 
-### Patch Distribution
-* Updated the included FMOD Engine binaries for all clients to version 2.02.10
-* The Windows installer is now digitally signed
-* Removed libcurl from the patch. Server admins that use the MD5 anti-cheat protection feature and that have automatic updates enabled for the package list will have to manually download libcurl or use the version that came with the previous patch. This change should substantially reduce the number of false positive malware warnings triggered by our patch
-* Added native support for Linux/AMD64 and macOS/Apple Silicon platforms
-* Dropped support for Windows XP
-* Included an updated version of the UT PubSrc SDK
+This patch no longer includes libcurl. Server admins that use the MD5 anti-cheat protection feature and that have automatic updates enabled for the package list will have to manually download libcurl or use the version that came with the previous patch. This change should substantially reduce the number of false positive malware warnings triggered by our patch.
+
+This patch adds native support for Linux/AMD64 and macOS/Apple Silicon platforms, but no longer supports Windows XP.
 
 ### Stability Improvements
 
@@ -37,7 +33,6 @@ Server admins should upgrade ACE to version 1.1e or later to check 469c clients.
 * Fixed a bug that caused Unreal Editor to crash when using the texture exporter without having a texture selected (External Contribution by Buggie)
 * Fixed a bug that caused Unreal Editor to crash when clicking the "Add Class Here" option without having a class selected (External Contribution by Buggie)
 * Fixed a bug that caused Unreal Editor to crash when attempting to export source-stripped classes
-* Fixed a bug that could make our map compatibility checks crash Unreal Editor while saving maps
 
 #### Game Client
 
@@ -52,7 +47,6 @@ Server admins should upgrade ACE to version 1.1e or later to check 469c clients.
 * Made the UnrealScript VM clean up and restore the mutator chains after destroying a mutator with broken cleanup code
 * Fixed a bug that could cause a crash in the CHSpectator class when cycling through players as a spectator (External Contribution by Buggie)
 * Fixed a bug that could cause the game to freeze when a Bot gets stuck in state 'FallingState' (External Contribution by Buggie)
-* Fixed a bug that could make the web admin freeze the server when processing an invalid uhtm file
 
 #### Audio and 3D Rendering
 
@@ -130,7 +124,6 @@ Server admins should upgrade ACE to version 1.1e or later to check 469c clients.
 * Fixed a bug that could cause CTFFlags to vanish if they were last held by a Bot that recently died (External Contribution by Buggie)
 * Fixed a bug that made unacquired trophies appear in the trophy room (External Contribution by Buggie)
 * Fixed a bug that made it impossible to start games with categories other than "Unreal Tournament" (External Contribution by Buggie)
-* Fixed a bug that made holes appear in the strength and regeneration relics
 
 #### Physics and Player Movement
 
@@ -150,12 +143,6 @@ Server admins should upgrade ACE to version 1.1e or later to check 469c clients.
 * Fixed a bug that caused ALAudio to stop playing looping sounds played through ClientPlaySound if you moved too far away from the origin of the map
 * Fixed a bug that made Galaxy play a whistling sound when a player or bot died while holding a pulse gun
 * Fixed an XOpenGLDrv problem that made certain weapons render on top of the HUD
-* Fixed a bug that made the chat beep sound mute other sounds
-* Fixed XOpenGLDrv bindless texture support for Intel GPUs
-
-#### Networking and Netcode
-
-* Fixed a bug that made the properties of Botpack.Kicker objects replicate incorrectly to older clients
 
 #### Miscellaneous
 
@@ -303,9 +290,9 @@ Server admins should upgrade ACE to version 1.1e or later to check 469c clients.
     * Added missing line in UBrowser.est and fixed key name in UMenu.est and controls tags in UTMenu.est
     * All instances of "You got/picked up..." streamlined into "Has recogido..."
 
-#### Miscellaneous
-* The game now prints the game revision to the log file
-* UCC now uses UTF-8 string encoding in the Windows terminal
+### Installer
+
+* The Windows installer is now digitally signed
 
 ## Unreal Tournament Version 469b Release Notes
 

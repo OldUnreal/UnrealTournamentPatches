@@ -5,13 +5,6 @@
 		* Created by Smirftsch
 =============================================================================*/
 
-#if BINDLESSTEXTURES
-layout(std140) uniform TextureHandles
-{
-	sampler2D Textures[NUMTEXTURES];
-};
-#endif
-
 uniform sampler2D Texture0;	// Base Texture
 uniform sampler2D Texture1;	// DetailTexture
 uniform sampler2D Texture2;	// BumpMap
@@ -82,27 +75,11 @@ void main(void)
     mat3 InFrameCoords = mat3(FrameCoords[1].xyz, FrameCoords[2].xyz, FrameCoords[3].xyz); // TransformPointBy...
     mat3 InFrameUncoords = mat3(FrameUncoords[1].xyz, FrameUncoords[2].xyz, FrameUncoords[3].xyz);
 
-	vec4 TotalColor = vec4(0.0,0.0,0.0,0.0);
-	vec4 Color;
+	vec4 TotalColor = vec4(0.0,0.0,0.0,0.0);	
 
 	int NumLights = int(LightData4[0].y);
 
-#if BINDLESSTEXTURES
-	if (uint(gTexNum) > 0u)
-       Color = texture(Textures[uint(gTexNum)], gTexCoords);
-    else Color = texture(Texture0, gTexCoords);
-#else
-    Color = texture(Texture0, gTexCoords);
-#endif
-
-    #if SRGB
-	if((gPolyFlags & PF_Modulated)!=PF_Modulated)
-	{
-		Color.r=max(1.055 * pow(Color.r, 0.416666667) - 0.055, 0.0);
-		Color.g=max(1.055 * pow(Color.g, 0.416666667) - 0.055, 0.0);
-        Color.b=max(1.055 * pow(Color.b, 0.416666667) - 0.055, 0.0);
-    }
-    #endif
+	vec4 Color = GetTexel(uint(gTexNum), Texture0, gTexCoords);
 
     if (gTextureInfo.x > 0.0)
         Color *= gTextureInfo.x; // Diffuse factor.
@@ -214,13 +191,7 @@ void main(void)
 
             if (bNear > 0.0)
             {
-            # if BINDLESSTEXTURES
-                if (gDetailTexNum > 0u)
-                  DetailTexColor = texture(Textures[gDetailTexNum], gDetailTexCoords * DetailScale);
-                else DetailTexColor = texture(Texture1, gDetailTexCoords * DetailScale);
-            # else
-                DetailTexColor = texture(Texture1, gDetailTexCoords * DetailScale);
-            # endif
+				DetailTexColor = GetTexel(gDetailTexNum, Texture1, gDetailTexCoords * DetailScale);
 
                 vec3 hsvDetailTex = rgb2hsv(DetailTexColor.rgb); // cool idea Han :)
                 hsvDetailTex.b += (DetailTexColor.r - 0.1);
@@ -238,15 +209,7 @@ void main(void)
 #if MACROTEXTURES
 	if ((gDrawFlags & DF_MacroTexture) == DF_MacroTexture && (gDrawFlags & DF_BumpMap) != DF_BumpMap)
 	{
-		vec4 MacroTexColor;
-		#if BINDLESSTEXTURES
-		if (gMacroTexNum > 0u)
-			MacroTexColor = texture(Textures[gMacroTexNum], gMacroTexCoords);
-		else
-			MacroTexColor = texture(Texture3, gMacroTexCoords); // MacroTexture
-		#else
-		MacroTexColor = texture(Texture3, gMacroTexCoords); // MacroTexture
-		#endif
+		vec4 MacroTexColor = GetTexel(gMacroTexNum, Texture3, gMacroTexCoords);
 		vec3 hsvMacroTex = rgb2hsv(MacroTexColor.rgb);
 		hsvMacroTex.b += (MacroTexColor.r - 0.1);
 		hsvMacroTex = hsv2rgb(hsvMacroTex);
@@ -262,16 +225,7 @@ void main(void)
 	    vec3 TangentViewDir  = normalize( gTangentViewPos - gTangentFragPos );
 
 		//normal from normal map
-		vec3 TextureNormal;
-#if BINDLESSTEXTURES
-        if (gBumpTexNum > uint(0))
-            TextureNormal = texture(Textures[gBumpTexNum], gTexCoords).rgb * 2.0 - 1.0;
-        else
-            TextureNormal = texture(Texture2, gTexCoords).rgb * 2.0 - 1.0;
-#else
-            TextureNormal = texture(Texture2, gTexCoords).rgb * 2.0 - 1.0;
-#endif
-
+		vec3 TextureNormal = GetTexel(gBumpTexNum, Texture2, gTexCoords).rgb * 2.0 - 1.0;
 		vec3 BumpColor;
 		vec3 TotalBumpColor=vec3(0.0,0.0,0.0);
 
@@ -323,8 +277,24 @@ void main(void)
 	}
 #endif
 
+	if((gPolyFlags & PF_Modulated)!=PF_Modulated)
+	{
+#if EDITOR
+        // Gamma
+        float InGamma = gGamma*GammaMultiplierUED;
+        TotalColor.r=pow(TotalColor.r,1.0/InGamma);
+        TotalColor.g=pow(TotalColor.g,1.0/InGamma);
+        TotalColor.b=pow(TotalColor.b,1.0/InGamma);
+#else
+		// Gamma
+        float InGamma = gGamma*GammaMultiplier; // gGamma is a value from 0.1 to 1.0
+        TotalColor.r=pow(TotalColor.r,1.0/InGamma);
+        TotalColor.g=pow(TotalColor.g,1.0/InGamma);
+        TotalColor.b=pow(TotalColor.b,1.0/InGamma);
+#endif
+	}
 
-	// Add DistanceFog
+    // Add DistanceFog
 #if ENGINE_VERSION==227
 	if (gDistanceFogInfo.w >= 0.0)
 	{
@@ -345,38 +315,12 @@ void main(void)
 	}
 #endif
 
-	if((gPolyFlags & PF_Modulated)!=PF_Modulated)
-	{
-#if EDITOR
-        // Gamma
-        float InGamma = gGamma*GammaMultiplierUED;
-        TotalColor.r=pow(TotalColor.r,1.0/InGamma);
-        TotalColor.g=pow(TotalColor.g,1.0/InGamma);
-        TotalColor.b=pow(TotalColor.b,1.0/InGamma);
-#else
-		// Gamma
-		float InGamma = gGamma*GammaMultiplier; // gGamma is a value from 0.1 to 1.0
-        TotalColor.r=pow(TotalColor.r,1.0/InGamma);
-        TotalColor.g=pow(TotalColor.g,1.0/InGamma);
-        TotalColor.b=pow(TotalColor.b,1.0/InGamma);
-#endif
-	}
-
 #if EDITOR
 	// Editor support.
-	if (gRendMap == REN_Zones || gRendMap == REN_PolyCuts || gRendMap == REN_Polys || gRendMap==REN_PlainTex)
+	if (gRendMap == REN_Zones || gRendMap == REN_PolyCuts || gRendMap == REN_Polys)
 	{
-		TotalColor = Color;
-
-		if ( (gPolyFlags&PF_Selected) == PF_Selected )
-        {
-            TotalColor.r = (TotalColor.r*0.75);
-            TotalColor.g = (TotalColor.g*0.75);
-            TotalColor.b = (TotalColor.b*0.75) + 0.1;
-            TotalColor = clamp(TotalColor,0.0,1.0);
-            if(TotalColor.a < 0.5)
-                TotalColor.a = 0.51;
-        }
+		TotalColor +=0.5;
+		TotalColor *= gDrawColor;
 	}
 	else if ( gRendMap==REN_Normals )
 	{
@@ -394,6 +338,20 @@ void main(void)
 			TotalColor = vec4(max(0.0,T),max(0.0,-T),0.0,1.0);
 		}
 	}
+	else if ( gRendMap==REN_PlainTex )
+	{
+		TotalColor = Color;
+	}
+
+	if ( (gRendMap!=REN_Normals)  && ((gPolyFlags&PF_Selected) == PF_Selected) )
+	{
+		TotalColor.r = (TotalColor.r*0.75);
+        TotalColor.g = (TotalColor.g*0.75);
+        TotalColor.b = (TotalColor.b*0.75) + 0.1;
+		TotalColor = clamp(TotalColor,0.0,1.0);
+		if(TotalColor.a < 0.5)
+			TotalColor.a = 0.51;
+	}
 
     // HitSelection, Zoneview etc.
 	if (bool(gHitTesting))
@@ -405,16 +363,8 @@ void main(void)
 #endif
 
 # if SIMULATEMULTIPASS
-    if((gPolyFlags & PF_Modulated) == PF_Modulated)
-    {
-        FragColor	= TotalColor;
-        FragColor1	= (vec4(1.0,1.0,1.0,1.0)-TotalColor);
-	}
-	else
-    {
-        FragColor	= TotalColor;
-        FragColor1	= (vec4(1.0,1.0,1.0,1.0)-TotalColor)*LightColor;
-	}
+    FragColor	= TotalColor;
+    FragColor1  = ((vec4(1.0)-TotalColor*LightColor)); //no, this is not entirely right, TotalColor has already LightColor applied. But will blow any fog/transparency otherwise. However should not make any (visual) difference here for this equation. Any better idea?
 #else
     FragColor	= TotalColor;
 #endif

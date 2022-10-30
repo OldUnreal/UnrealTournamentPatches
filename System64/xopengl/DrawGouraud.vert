@@ -183,7 +183,7 @@ void main(void)
 	vMacroTexNum      = DrawGouraudParams[gl_DrawID].TexNum[3];
 
 	vDrawFlags        = DrawGouraudParams[gl_DrawID].DrawFlags[0];
-	vTextureFormat    = uint(DrawGouraudParams[gl_DrawID].MiscInfo.w);
+	vTextureFormat    = uint(DrawGouraudParams[gl_DrawID].MiscInfo.z);
 	vPolyFlags        = DrawGouraudParams[gl_DrawID].DrawFlags[2];
 	vGamma            = DrawGouraudParams[gl_DrawID].MiscInfo.y;
 
@@ -211,7 +211,7 @@ void main(void)
 	vMacroTexNum      = TexNum[3];
 
 	vDrawFlags        = DrawFlags[0];
-	vTextureFormat    = uint(DrawData[IDX_MISC_INFO].w);
+	vTextureFormat    = uint(DrawData[IDX_MISC_INFO].z);
 	vPolyFlags        = DrawFlags[2];
 	vGamma            = DrawData[IDX_MISC_INFO].y;
 
@@ -227,7 +227,6 @@ void main(void)
 # endif
 
 	gl_Position = vec4(Coords, 1.0);
-
 #endif
 
 }

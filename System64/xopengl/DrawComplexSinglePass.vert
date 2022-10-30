@@ -111,7 +111,7 @@ uniform uint TexNum[16];
 uniform uint DrawFlags[4];
 #endif
 
-#ifndef GL_ES
+#if SUPPORTSCLIPDISTANCE
 out float gl_ClipDistance[MAX_CLIPPINGPLANES];
 #endif
 

@@ -24,9 +24,20 @@ If you want to test out our patches, but maintain the possibility to uninstall t
 
 #### Windows Installation
 
-We distribute our **Windows** patches in multiple formats. We recommend that you run the exe installer to patch your game.
+# Windows 7 or later
+
+We distribute our patches for modern **Windows** systems in multiple formats. We recommend that you run the exe installer to patch your game.
 
 However, you can also simply unpack the zip package **on top of an existing installation** of Unreal Tournament. No other actions are needed to install the patch.
+
+# Windows XP and Vista
+
+The **legacy Windows** version of our patch is only available as a zip package. You can install this patch by unpacking the zip file **on top of an existing installation** of Unreal Tournament. No other actions are needed to install the patch.
+
+**Note:**
+* Some features may be unavailable for Windows XP and Vista systems.
+* The patch for Windows XP and Vista is experimental and (mostly) untested.
+* Windows XP and Vista support will be removed from future patches.
 
 #### Linux Installation
 
@@ -74,7 +85,7 @@ This [YouTube clip](https://youtu.be/wEC1M6EdDnA) shows you what the installatio
 
 Windows and Linux systems will need a CPU with **SSE2** instruction set support. In practice, this means all 64-bit x86 CPUs, all Intel CPUs since (and including) the Pentium 4, and all AMD CPUs since (and including) the Athlon 64 are supported.
 
-Windows systems will need to run Windows Vista or later. 
+Windows systems will need to run Windows 7 or later, although a custom stripped-down patch is available for Windows XP and Vista.
 
 Linux systems will need GNU libc 2.19 or later. 
 
