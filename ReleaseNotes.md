@@ -13,7 +13,7 @@
 * [UT99.org - Unreal Tournament Community](https://ut99.org)
 * [OldUnreal](https://www.oldunreal.com)
 
-## Unreal Tournament Version 469c Release Notes (Release Candidate Now Available!)
+## Unreal Tournament Version 469c Release Notes
 
 Version 469c is completely network compatible with all previous public releases of UT (down to 432).
 The UTPG and OldUnreal teams worked hard to maintain binary compatibility with older native mods.
