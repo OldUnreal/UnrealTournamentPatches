@@ -1,0 +1,53 @@
+﻿[LevelInfo0]
+; EN: Title="Southside Leadworks"
+Title="Νότιο Μολυβδουργείο"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Entering the Southside Leadworks"
+LevelEnterText="Είσοδος στο Νότιο Μολυβδουργείο"
+
+[ZoneInfo0]
+; EN: ZoneName="Tower"
+ZoneName="Πύργος"
+
+[ZoneInfo4]
+; EN: ZoneName="Rocket Storage"
+ZoneName="Αποθήκη πυραύλων"
+
+[ZoneInfo2]
+; EN: ZoneName="Lava Bridge"
+ZoneName="Γέφυρα Λάβας"
+
+[ZoneInfo3]
+; EN: ZoneName="Processing"
+ZoneName="Επεξεργασία"
+
+[ZoneInfo6]
+; EN: ZoneName="Storage"
+ZoneName="Αποθήκη"
+
+[ControlPoint2]
+; EN: PointName="Bridge"
+PointName="Γέφυρα"
+
+[ControlPoint1]
+; EN: PointName="Tower"
+PointName="Πύργος"
+
+[ZoneInfo1]
+; EN: ZoneName="Corridors"
+ZoneName="Διάδρομοι"
+
+[ControlPoint0]
+; EN: PointName="Storage"
+PointName="Αποθήκη"
+
+[ZoneInfo5]
+; EN: ZoneName="Ripper Storage"
+ZoneName="Αποθήκη Μαχαιριών"
+
+[LevelSummary]
+; EN: Title="Southside Leadworks"
+Title="Νότιο Μολυβδουργείο"
+IdealPlayerCount="6-12"
+; EN: LevelEnterText="Entering the Southside Leadworks"
+LevelEnterText="Είσοδος στο Νότιο Μολυβδουργείο"

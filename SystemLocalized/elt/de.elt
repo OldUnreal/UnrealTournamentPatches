@@ -1,0 +1,7 @@
+﻿[Public]
+; EN: Object=(Name=de.VolatileAmmo,Class=Class,MetaClass=Engine.Mutator,Description="Volatile Ammo, Ammo explodes when shot.")
+Object=(Name=de.VolatileAmmo,Class=Class,MetaClass=Engine.Mutator,Description="Πτητικά πυρομαχικά, Τα πυρομαχικά εκρήγνονται όταν πυροβολιούνται")
+; EN: Object=(Name=de.VolatileWeapon,Class=Class,MetaClass=Engine.Mutator,Description="Volatile Weapon,Killed players will discharge their weapon!")
+Object=(Name=de.VolatileWeapon,Class=Class,MetaClass=Engine.Mutator,Description="Πτητικό όπλο,Οι σκοτωμένοι παίκτες θα εκφορτίσουν το όπλο τους!")
+; EN: Object=(Name=de.TeamBeacon,Class=Class,MetaClass=Engine.Mutator,Description="Team Beacon,Identifies team members.")
+Object=(Name=de.TeamBeacon,Class=Class,MetaClass=Engine.Mutator,Description="Φάρος της ομάδας,Προσδιορίζει τα μέλη της ομάδας.")

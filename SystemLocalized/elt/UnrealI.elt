@@ -1,0 +1,495 @@
+﻿[Public]
+;Object=(Name=UnrealI.Intro,Class=Class,MetaClass=Engine.GameInfo)
+;Object=(Name=UnrealI.EndGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealI.KingOfTheHill,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealI.DarkMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealI.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Rifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Minigun,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.GESBioRifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.Razorjack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealI.QuadShot,Class=Class,MetaClass=Engine.Weapon)
+; EN: Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Female 2")
+Object=(Name=UnrealI.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Γυναίκα 2")
+; EN: Object=(Name=UnrealI.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 1")
+Object=(Name=UnrealI.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Άντρας 1")
+; EN: Object=(Name=UnrealI.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 2")
+Object=(Name=UnrealI.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Άντρας 2")
+; EN: Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Skaarj Trooper")
+Object=(Name=UnrealI.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Στρατιώτης Skaarj")
+; EN: Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Female 2")
+Object=(Name=UnrealI.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Γυναίκα 2")
+; EN: Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 1")
+Object=(Name=UnrealI.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Άντρας 1")
+; EN: Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 2")
+Object=(Name=UnrealI.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Άντρας 2")
+; EN: Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Skaarj Trooper")
+Object=(Name=UnrealI.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Στρατιώτης Skaarj")
+
+[IntroNullHud]
+; EN: ESCMessage="Press ESC to begin"
+ESCMessage="Πατήστε ESC για εκκίνηση"
+
+[SkaarjPlayer]
+; EN: MenuName="Skaarj Trooper"
+MenuName="Στρατιώτης Skaarj"
+
+[SkaarjPlayerBot]
+; EN: MenuName="Skaarj Trooper"
+MenuName="Στρατιώτης Skaarj"
+
+[SearchLight]
+; EN: ExpireMessage="The Search Light batteries have died."
+ExpireMessage="Οι μπαταρίες του φακού έχουν τελειώσει."
+; EN: PickupMessage="You picked up the Search Light"
+PickupMessage="Πήρατε τον φακό"
+; EN: ItemName="Search Light"
+ItemName="Φακός"
+; EN: ItemArticle="a"
+ItemArticle="έναν"
+; EN: M_Activated=" activated."
+M_Activated=" ενεργοποίηθηκε."
+; EN: M_Selected=" selected."
+M_Selected=" επιλέχτηκε."
+; EN: M_Deactivated=" deactivated."
+M_Deactivated=" απενεργοποιήθηκε"
+
+[RazorAmmo]
+; EN: PickupMessage="You picked up some Razor blades"
+PickupMessage="Πήρατε λεπίδες"
+; EN: ItemName="Razor Blades"
+ItemName="Λεπίδες"
+; EN: ItemArticle="a bunch of"
+ItemArticle="λίγες"
+
+[FlakBox]
+; EN: PickupMessage="You picked up 10 Flak Shells"
+PickupMessage="Πήρατε 10 μεταλικές νυφάδες"
+; EN: ItemName="Flak Shells"
+ItemName="Μεταλικές νυφάδες"
+; EN: ItemArticle="a"
+ItemArticle="ένα"
+
+[MaleOne]
+; EN: MenuName="Male 1"
+MenuName="Άντρας 1"
+
+[MaleOneBot]
+; EN: MenuName="Male 1"
+MenuName="Άντρας 1"
+
+[RifleAmmo]
+; EN: PickupMessage="You got 8 Rifle rounds"
+PickupMessage="Πήρατε 8 φυσίγγια τουφεκιού"
+; EN: ItemName="Rifle Rounds"
+ItemName="φυσίγγια τουφεκιού"
+; EN: ItemArticle="a bunch of"
+ItemArticle="ένα πακέτο"
+
+[Seeds]
+; EN: PickupMessage="You got the Nali Fruit Seeds"
+PickupMessage="Πήρατε σπόρους φρούτων Nali"
+; EN: ItemName="Nali Fruit Seeds"
+ItemName="Σπόρους φρούτων Nali"
+; EN: ItemArticle="a bunch of"
+ItemArticle="ένα πακέτο"
+; EN: M_Activated=" planted."
+M_Activated=" φυτεύθηκαν."
+; EN: M_Selected=" selected."
+M_Selected=" επιλέχθηκαν."
+
+[JumpBoots]
+; EN: ExpireMessage="The Jump Boots have drained"
+ExpireMessage="Οι Μπότες εξαντλήθηκαν"
+; EN: PickupMessage="You picked up the Jump Boots"
+PickupMessage="Πήρατε τις Μπότες"
+; EN: ItemName="Jump Boots"
+ItemName="Μπότες"
+; EN: ItemArticle="a pair of"
+ItemArticle="ένα ζευγάρι"
+; EN: M_Activated=" activated."
+M_Activated=" ενεργοποίηθηκε."
+; EN: M_Selected=" selected."
+M_Selected=" επιλέχθηκε."
+; EN: M_Deactivated=" deactivated."
+M_Deactivated=" απενεργοποιήθηκε."
+
+[ForceField]
+; EN: M_NoRoom="No room to activate Force Field."
+M_NoRoom="Δεν υπάρχει χώρος για να ενεργοποιήσετε το Πεδίο Δύναμης."
+; EN: PickupMessage="You picked up the Force Field"
+PickupMessage="Πήρατε το Πεδίο Δύναμης"
+; EN: ItemName="Force Field"
+ItemName="Πεδίο Δύναμης"
+; EN: ItemArticle="a"
+ItemArticle="ένα"
+; EN: M_Activated=" activated."
+M_Activated=" ενεργοποίηθηκε."
+; EN: M_Selected=" selected."
+M_Selected=" επιλέχθηκε."
+; EN: M_Deactivated=" deactivated."
+M_Deactivated=" απενεργοποιήθηκε."
+
+[FemaleTwo]
+; EN: MenuName="Female 2"
+MenuName="Γυναίκα 2"
+
+[FemaleTwoBot]
+; EN: MenuName="Female 2"
+MenuName="Γυναίκα 2"
+
+[MaleTwo]
+; EN: MenuName="Male 2"
+MenuName="Άντρας 2"
+
+[MaleTwoBot]
+; EN: MenuName="Male 2"
+MenuName="Άντρα 1"
+
+[Sludge]
+; EN: PickupMessage="You picked up 25 Kilos of Tarydium Biosludge"
+PickupMessage="Πήρατε 25 κιλά βιολάσπης"
+; EN: ItemName="Tarydium Biosludge"
+ItemName="Βιολάσπη"
+; EN: ItemArticle="a bunch of"
+ItemArticle="μερική"
+
+[Invisibility]
+; EN: ExpireMessage="Invisibility has worn off."
+ExpireMessage="Η Αορατότητα εξαντλήθηκε"
+; EN: PickupMessage="You have Invisibility"
+PickupMessage="Έχετε Αορατότητα"
+; EN: ItemName="Invisibility"
+ItemName="Αορατότητα"
+; EN: ItemArticle="a module of"
+ItemArticle="μια ενότητα"
+; EN: M_Activated=" activated."
+M_Activated=" ενεργοποίηθηκε."
+; EN: M_Selected=" selected."
+M_Selected=" επιλέχθηκε."
+; EN: M_Deactivated=" deactivated."
+M_Deactivated=" απενεργοποιήθηκε."
+
+[DarkMatch]
+; EN: ClassCaption="DarkMatch"
+ClassCaption="DarkMatch"
+; EN: GameName="DarkMatch"
+GameName="DarkMatch"
+
+[FlakShellAmmo]
+; EN: PickupMessage="You got a Flak Shell"
+PickupMessage="Πήρατε μεταλική νυφάδα"
+; EN: ItemName="Flak Shell"
+ItemName="Μεταλική νυφάδα"
+; EN: ItemArticle="a"
+ItemArticle="μία"
+
+[AsbestosSuit]
+; EN: PickupMessage="You picked up the Asbestos Suit"
+PickupMessage="Πήρατε Στολή από Αμίαντο"
+; EN: ItemName="Asbestos Suit"
+ItemName="Στολή Αμίαντου"
+; EN: ItemArticle="an"
+ItemArticle="μία"
+
+[Dampener]
+; EN: ExpireMessage="Acoustic dampener has run out."
+ExpireMessage="Ο ακουστικός αποσβεστήρας έχει τελειώσει."
+; EN: PickupMessage="You got the Acoustic Dampener"
+PickupMessage="Πήρατε τον Ακουστικό αποσβεστήρα"
+; EN: ItemName="Acoustic Dampener"
+ItemName="Ακουστικός Αποσβεστήρα"
+; EN: ItemArticle="an"
+ItemArticle="έναν"
+; EN: M_Activated=" activated."
+M_Activated=" ενεργοποίηθηκε."
+; EN: M_Selected=" selected."
+M_Selected=" επιλέχθηκε."
+; EN: M_Deactivated=" deactivated."
+M_Deactivated=" απενεργοποιήθηκε."
+
+[ToxinSuit]
+; EN: PickupMessage="You picked up the Toxin Suit"
+PickupMessage="Πήρατε Στολή για τοξίνες"
+; EN: ItemName="Toxin Suit"
+ItemName="Στολή για τοξίνες"
+; EN: ItemArticle="a"
+ItemArticle="μία"
+
+[PowerShield]
+; EN: PickupMessage="You got the Power Shield"
+PickupMessage="Πήρατε την Ασπίδα Ισχύος"
+; EN: ItemName="Power Shield"
+ItemName="Ασπίδα Ισχύος"
+; EN: ItemArticle="a"
+ItemArticle="μία"
+
+[RifleRound]
+; EN: PickupMessage="You got a Rifle Round"
+PickupMessage="Πήρατε ένα φυσίγγι τουφεκιού"
+; EN: ItemName="Rifle Round"
+ItemName="Φυσίγγι Τουφεκιού"
+; EN: ItemArticle="a"
+ItemArticle="ένα"
+
+[EndgameHud]
+; EN: Message1="The Skaarj escape pod has broken free from the planet's gravitational pull... barely. Yet, it's fuel reserve has been depleted, and you drift aimlessly."
+Message1="Ο λοβός διαφυγής Skaarj απελευθερώθηκε από τη βαρυτική έλξη του πλανήτη... μετά βίας. Ωστόσο, το απόθεμα καυσίμου έχει εξαντληθεί και παρασύρεστε άσκοπα."
+; EN: Message2="From where many have died, you have escaped. You laugh to yourself; so much has happened, but so little has changed."
+Message2="Από εκεί που έχουν πεθάνει πολλοί, έχεις ξεφύγει. Γελάς μόνος σου. τόσα πολλά έχουν συμβεί, αλλά τόσα λίγα έχουν αλλάξει."
+; EN: Message3="Before the crash landing, you were trapped in a cramped cell. Now, once again you are confined in a prison."
+Message3="Πριν από την προσγείωση, ήσασταν παγιδευμένοι σε ένα στενό κελί. Τώρα, για άλλη μια φορά είσαι έγκλειστος σε μια φυλακή."
+; EN: Message4="But, you feel confident that someone will come upon your small vessel... eventually."
+Message4="Όμως, νιώθεις σίγουρος ότι κάποιος θα έρθει στο μικρό σου σκάφος... κάποτε."
+; EN: Message5="Until then, you drift and hope."
+Message5="Μέχρι τότε, παρασύρεσαι και ελπίζεις."
+; EN: Message6="To Be Continued..."
+Message6="Συνεχίζεται..."
+
+[KingOfTheHill]
+; EN: ClassCaption="King of the Hill"
+ClassCaption="Βασιλιάς του λόφου"
+; EN: KingMessage=" is the new king of the hill!"
+KingMessage="είναι ο νέος βασιλιάς του λόφου!"
+; EN: GameName="King of the Hill"
+GameName="Βασιλιάς του λόφου"
+
+[Behemoth]
+; EN: NameArticle=" a "
+NameArticle=" ένα "
+; EN: MenuName="Behemoth"
+MenuName="Τέρας"
+
+[Blob]
+; EN: NameArticle=" a "
+NameArticle=" μία "
+; EN: MenuName="Blob"
+MenuName="Σταγόνα"
+
+[Bloblet]
+; EN: NameArticle=" a "
+NameArticle=" μία "
+; EN: MenuName="Bloblet"
+MenuName="Σταγονίτσα"
+
+[ParentBlob]
+; EN: BlobKillMessage="was corroded by a Blob"
+BlobKillMessage="διαβρώθηκε από μια Σταγόνα"
+; EN: NameArticle=" a "
+NameArticle=" μία "
+; EN: MenuName="Blob"
+MenuName="Σταγόνα"
+
+[Gasbag]
+; EN: NameArticle=" a "
+NameArticle="μία"
+; EN: MenuName="Gasbag"
+MenuName="Τσάντα υγραερίου"
+
+[GiantGasbag]
+; EN: NameArticle=" the "
+NameArticle=" την "
+; EN: MenuName="Giant Gasbag"
+MenuName="Γιγάντια Τσάντα υγραερίου"
+
+[GiantManta]
+; EN: NameArticle=" the "
+NameArticle=" την "
+; EN: MenuName="Giant Manta"
+MenuName="Γιγάντια Manta"
+
+[IceSkaarj]
+; EN: NameArticle=" an "
+NameArticle=" ένα "
+; EN: MenuName="Ice Skaarj"
+MenuName="Skaarj πάγου"
+
+[Krall]
+; EN: NameArticle=" a "
+NameArticle=" ένα "
+; EN: MenuName="Krall"
+MenuName="Krall"
+
+[KrallElite]
+; EN: NameArticle=" an "
+NameArticle=" ένας "
+; EN: MenuName="Elite Krall"
+MenuName="Εκλεκτός Krall"
+
+[LeglessKrall]
+; EN: NameArticle=" a "
+NameArticle=" ένα "
+; EN: MenuName="Legless Krall"
+MenuName="Krall χωρίς πόδια"
+
+[Mercenary]
+; EN: NameArticle=" a "
+NameArticle=" έναν "
+; EN: MenuName="Mercenary"
+MenuName="Μισθοφόρος"
+
+[MercenaryElite]
+; EN: NameArticle=" an "
+NameArticle=" έναν "
+; EN: MenuName="Elite Mercenary"
+MenuName="Εκλεκτός Μισθοφόρος"
+
+[Pupae]
+; EN: NameArticle=" a "
+NameArticle=" μία "
+; EN: MenuName="Pupae"
+MenuName="Νύμφη"
+
+[Queen]
+; EN: NameArticle=" the "
+NameArticle=" την "
+; EN: MenuName="Queen"
+MenuName="Βασίλισσα"
+
+[SkaarjAssassin]
+; EN: NameArticle=" a "
+NameArticle=" έναν "
+; EN: MenuName="Skaarj Assassin"
+MenuName="Δολοφόνο Skaarj"
+
+[SkaarjBerserker]
+; EN: NameArticle=" a "
+NameArticle=" ένα "
+; EN: MenuName="Skaarj Berserker"
+MenuName="Παράφρονο Skaarj"
+
+[SkaarjGunner]
+; EN: NameArticle=" a "
+NameArticle=" έναν "
+; EN: MenuName="Skaarj Gunner"
+MenuName="Πυροβολητής Skaarj"
+
+[SkaarjInfantry]
+; EN: NameArticle=" a "
+NameArticle=" έναν "
+; EN: MenuName="Skaarj Infantry"
+MenuName="Πεζικό Skaarj"
+
+[SkaarjLord]
+; EN: NameArticle=" the "
+NameArticle=" έναν "
+; EN: MenuName="Skaarj Lord"
+MenuName="Άρχοντας Skaarj"
+
+[SkaarjOfficer]
+; EN: NameArticle=" a "
+NameArticle="έναν"
+; EN: MenuName="Skaarj Officer"
+MenuName="Αξιωματικός Skaarj"
+
+[SkaarjSniper]
+; EN: NameArticle=" a "
+NameArticle="έναν"
+; EN: MenuName="Skaarj Sniper"
+MenuName="Σκοπευτή Skaarj"
+
+[SkaarjTrooper]
+; EN: NameArticle=" a "
+NameArticle=" έναν "
+; EN: MenuName="Skaarj Trooper"
+MenuName="Στρατιώτης Skaarj"
+
+[Titan]
+; EN: NameArticle=" a "
+NameArticle=" έναν "
+; EN: MenuName="Titan"
+MenuName="Τιτάνας"
+
+[StoneTitan]
+; EN: NameArticle=" the "
+NameArticle=" τον "
+; EN: MenuName="Stone Titan"
+MenuName="Πέτρινο τιτάνα"
+
+[WarLord]
+; EN: NameArticle=" the "
+NameArticle=" τον "
+; EN: MenuName="WarLord"
+MenuName="Πολέμαρχος"
+
+[FlakCannon]
+; EN: DeathMessage="%o was ripped to shreds by %k's %w."
+DeathMessage="%o έγινε κομμάτια από %k με %w"
+; EN: PickupMessage="You got the Flak Cannon"
+PickupMessage="Πήρατε το Κανόνι νυφάδων"
+; EN: ItemName="Flak Cannon"
+ItemName="Κανόνι Νυφάδων"
+
+[Rifle]
+; EN: DeathMessage="%k put a bullet through %o's head."
+DeathMessage="%k έριξε σφαίρα στο κεφάλι του/της %o."
+; EN: PickupMessage="You got the Rifle"
+PickupMessage="Πήρατε το Τουφέκι"
+; EN: ItemName="Sniper Rifle"
+ItemName="Σκοπευτικό Τουφέκι"
+
+[Minigun]
+; EN: DeathMessage="%k's %w turned %o into a leaky piece of meat."
+DeathMessage="%o έγινε κομματάκια από τον/την %k με %w"
+; EN: PickupMessage="You got the Minigun"
+PickupMessage="Πήρατε το Πολυβόλο"
+; EN: ItemName="Minigun"
+ItemName="Πολυβόλο"
+
+[GESBioRifle]
+; EN: DeathMessage="%o drank a glass of %k's dripping green load."
+DeathMessage="%o ήπιε ένα ποτήρι πράσινης χλαπάτσας από %k"
+; EN: PickupMessage="You got the GES BioRifle"
+PickupMessage="Πήρατε το ΒιοΌπλο GES"
+; EN: ItemName="GES BioRifle"
+ItemName="ΒιοΌπλο GES"
+
+[Razorjack]
+; EN: DeathMessage="%k took a bloody chunk out of %o with the %w."
+DeathMessage="%k έβγαλε ένα ματωμένο κομμάτι από τον/την %o με %w."
+; EN: PickupMessage="You got the RazorJack"
+PickupMessage="Πήρατε τον Αντεροβγάλτης"
+; EN: ItemName="Razorjack"
+ItemName="Αντεροβγάλτης"
+
+[Fell]
+; EN: Name="fell"
+Name="έπεσε"
+; EN: AltName="fell"
+AltName="έπεσε"
+
+[Drowned]
+; EN: Name="drowned"
+Name="πνίγηκε"
+; EN: AltName="drowned"
+AltName="πνίγηκε"
+
+[Decapitated]
+; EN: Name="beheaded"
+Name="αποκεφαλίστηκε"
+; EN: AltName="decapitated"
+AltName="αποκεφαλίστηκε"
+
+[Corroded]
+; EN: Name="corroded"
+Name="διάβρωσε"
+; EN: AltName="slimed"
+AltName="διάβρωσε"
+
+[Burned]
+; EN: Name="burned"
+Name="κάηκε"
+; EN: AltName="flame-broiled"
+AltName="κάηκε"
+
+[QuadShot]
+; EN: DeathMessage="%o was blasted to bits by %k's %w."
+DeathMessage="%o ανατινάχτηκε σε κομμάτια από τον/την %k με %w."
+; EN: PickupMessage="You got the Quad-Barreled Shotgun"
+PickupMessage="Έχετε το τετράκαννο κυνηγετικό όπλο"
+; EN: ItemName="Quad-Barreled Shotgun"
+ItemName="Τετράκαννο κυνηγετικό όπλο"
+
+[naliplayer]
+; EN: MenuName="Nali"
+MenuName="Nali"

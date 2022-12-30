@@ -1,0 +1,15 @@
+﻿[LevelInfo0]
+; EN: Title="DOM Tutorial"
+Title="Εκμάθηση DOM"
+
+[ControlPoint0]
+; EN: PointName="Alpha"
+PointName="Άλφα"
+
+[ControlPoint1]
+; EN: PointName="Gamma"
+PointName="Γάμμα"
+
+[LevelSummary]
+; EN: Title="DOM Tutorial"
+Title="Εκμάθηση DOM"

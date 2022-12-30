@@ -1,0 +1,93 @@
+﻿[LevelInfo0]
+; EN: Title="Dreary Outpost"
+Title="Ψυχρό Φυλάκιο"
+IdealPlayerCount="8-12"
+
+[ZoneInfo17]
+; EN: ZoneName="Red Main Room"
+ZoneName="Κόκκινο Κεντρικό Δωμάτιο"
+
+[ZoneInfo18]
+; EN: ZoneName="Center loft"
+ZoneName="Κεντρικό Πατάρι"
+
+[ZoneInfo16]
+; EN: ZoneName="Blue Main Room"
+ZoneName="Μπλε Κεντρικό Δωμάτιο"
+
+[ZoneInfo19]
+; EN: ZoneName="Red Upper Hall"
+ZoneName="Κόκκινη Πάνω αίθουσα"
+
+[ZoneInfo20]
+; EN: ZoneName="Red Lower Hall"
+ZoneName="Κόκκινη κάτω αίθουσα"
+
+[ZoneInfo22]
+; EN: ZoneName="Blue Upper Hall"
+ZoneName="Μπλε πάνω αίθουσα"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Right Lift Entrance"
+ZoneName="Μπλε δεξιά είσοδος ανελκυστήρα"
+
+[ZoneInfo3]
+; EN: ZoneName="Red Right Lift Entrance"
+ZoneName="Κόκκινη δεξιά είσοδος ανελκυστήρα"
+
+[ZoneInfo0]
+; EN: ZoneName="Red Left Lift Entrance"
+ZoneName="Κόκκινη αριστερή είσοδος ανελκυστήρα"
+
+[ZoneInfo21]
+; EN: ZoneName="Blue Lower Hall"
+ZoneName="Μπλε κάτω αίθουσα"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Left Lift Entrance"
+ZoneName="Μπλε αριστερή είσοδος ανελκυστήρα"
+
+[ZoneInfo15]
+; EN: ZoneName="Blue Loft"
+ZoneName="Μπλε Πατάρι"
+
+[ZoneInfo14]
+; EN: ZoneName="Red Loft"
+ZoneName=""
+
+[ZoneInfo11]
+; EN: ZoneName="Blue Left Lift"
+ZoneName="Μπλε αριστερός ανελκυστήρας"
+
+[ZoneInfo9]
+; EN: ZoneName="Red Left Lift"
+ZoneName="Κόκκινη αριστερός ανελκυστήρας"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Right Lift"
+ZoneName="Κόκκινη δεξιός ανελκυστήρας"
+
+[ZoneInfo10]
+; EN: ZoneName="Blue Right Lift"
+ZoneName="Μπλε δεξιός ανελκυστήρας"
+
+[SlimeZone0]
+; EN: ZoneName="Red Slime Pool"
+ZoneName="Κόκκινη γλίτσα"
+
+[SlimeZone1]
+; EN: ZoneName="Blue Slime Pool"
+ZoneName="Μπλε γλίτσα"
+
+[LevelSummary]
+; EN: Title="Dreary Outpost"
+Title="Ψυχρό Φυλάκιο"
+IdealPlayerCount="8-12"
+
+[ZoneInfo13]
+; EN: ZoneName="Red Base"
+ZoneName="Κόκκινη βάση"
+
+[ZoneInfo12]
+; EN: ZoneName="Blue Base"
+ZoneName="Μπλε βάση"

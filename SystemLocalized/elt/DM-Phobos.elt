@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+; EN: Title="Phobos Moon"
+Title="Φεγγάρι Φόβος"
+IdealPlayerCount="4-8"
+
+[ZoneInfo5]
+; EN: ZoneName="Outer Space"
+ZoneName="Απώτερο διάστημα"
+
+[ZoneInfo7]
+; EN: ZoneName="Central"
+ZoneName="Κέντρο"
+
+[ZoneInfo6]
+; EN: ZoneName="Lift 1"
+ZoneName="Ανελκυστήρας 1"
+
+[ZoneInfo8]
+; EN: ZoneName="Stairs Corridor"
+ZoneName="Διάδρομος σκαλοπατιών"
+
+[ZoneInfo9]
+; EN: ZoneName="BioRifle Corridor"
+ZoneName="Διάδρομος ΒιοΌπλου"
+
+[LevelSummary]
+; EN: Title="Phobos Moon"
+Title="Φεγγάρι Φόβος"
+IdealPlayerCount="4-8"

@@ -241,7 +241,7 @@ CrosshairSmoothHelp="Indien ingeschakeld, wordt vloeiend maken toegepast op uw D
 CrosshairAlwaysCenterText="Draadkruis Altijd Centreren"
 ; EN: CrosshairAlwaysCenterHelp="Enable to always center the crosshair, even if you hold your weapon in your left or right hand."
 CrosshairAlwaysCenterHelp="Schakel in om U Draadkruis altijd in het centrum te zien, zelfs als u uw wapen in de linker- of rechterhand houdt."
-; EN: HUDColorValues[10]="cust"
+; Do NOT translate HUDColorValues[10]
 HUDColorValues[10]="cust"
 ; EN: CrosshairTranslucentText="Translucent Crosshair"
 CrosshairTranslucentText="Doorschijnend Draadkruis"

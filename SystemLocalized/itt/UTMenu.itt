@@ -241,7 +241,7 @@ CrosshairSmoothHelp="Se abilitato, applica la levigatura al mirino."
 CrosshairAlwaysCenterText="Mirino Sempre Centrato"
 ; EN: CrosshairAlwaysCenterHelp="Enable to always center the crosshair, even if you hold your weapon in your left or right hand."
 CrosshairAlwaysCenterHelp="Se abilitato, il mirino sarà sempre centrato, anche se tieni l'arma nella mano sinistra o destra."
-; EN: HUDColorValues[10]="cust"
+; Do NOT translate HUDColorValues[10]
 HUDColorValues[10]="cust"
 ; EN: CrosshairTranslucentText="Translucent Crosshair"
 CrosshairTranslucentText="Mirino Traslucido"

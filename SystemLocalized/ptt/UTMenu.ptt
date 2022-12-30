@@ -239,7 +239,7 @@ CrosshairSmoothHelp="Aplica o alisamento à sua mira."
 CrosshairAlwaysCenterText="Sempre Centrar a Mira"
 ; EN: CrosshairAlwaysCenterHelp="Enable to always center the crosshair, even if you hold your weapon in your left or right hand."
 CrosshairAlwaysCenterHelp="Centraliza sua mira, independentemente de você segurar sua arma na mão esquerda ou direita."
-; EN: HUDColorValues[10]="cust"
+; Do NOT translate HUDColorValues[10]
 HUDColorValues[10]="cust"
 ; EN: CrosshairTranslucentText="Translucent Crosshair"
 CrosshairTranslucentText="Mira Translúcida"

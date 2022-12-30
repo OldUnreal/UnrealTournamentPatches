@@ -1,0 +1,49 @@
+﻿[LevelInfo0]
+; EN: Title="Epic Boy"
+Title="Epic Boy"
+IdealPlayerCount="6-10"
+
+[LevelSummary]
+; EN: Title="Epic Boy"
+Title="Epic Boy"
+IdealPlayerCount="6-10"
+
+[ZoneInfo0]
+; EN: ZoneName="Courtyard"
+ZoneName="Αυλή"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Side Entrance"
+ZoneName="Μπλε Πλαϊνή Είσοδος"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Redeemer Hall"
+ZoneName="Μπλε Αίθουσα Λυτρωτή"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Lower Hallway"
+ZoneName="Μπλε κάτω διάδρομος"
+
+[ZoneInfo4]
+; EN: ZoneName="Blue Flag Base"
+ZoneName="Μπλε Σημαία"
+
+[ZoneInfo5]
+; EN: ZoneName="Blue Upper Hallway"
+ZoneName="Μπλε πάνω διάδρομος"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Side Entrance"
+ZoneName="Κόκκινη Πλαϊνή Είσοδος"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Upper Hallway"
+ZoneName="Κόκκινη πάνω διάδρομος"
+
+[ZoneInfo9]
+; EN: ZoneName="Red Flag Base"
+ZoneName="Κόκκινη Σημαία"
+
+[ZoneInfo10]
+; EN: ZoneName="Red Lower Hallway"
+ZoneName="Κόκκινη κάτω διάδρομος"

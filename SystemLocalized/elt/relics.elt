@@ -1,0 +1,55 @@
+﻿[Public]
+; EN: Object=(Name=relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Strength,A magical relic that imparts a great increase in damage.")
+Object=(Name=relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="Λείψανο: Δύναμη,Ένα μαγικό λείψανο που προσδίδει μεγάλη αύξηση στις ζημιές.")
+; EN: Object=(Name=relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Speed,A magical relic that imparts superhuman speed and reflexes.")
+Object=(Name=relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Λείψανο: Ταχύτητα,Ένα μαγικό λείψανο που προσδίδει υπεράνθρωπη ταχύτητα και αντανακλαστικά.")
+; EN: Object=(Name=relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Regen,A magical relic that imparts the ability to gain 10 health every second.")
+Object=(Name=relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="Λείψανο: Ανάπλαση,Ένα μαγικό λείψανο που δίνει την ικανότητα απόκτησης 10 υγείας κάθε δευτερόλεπτο.")
+; EN: Object=(Name=relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Redemption,This mysterious artifact will bind to your soul, saving you from death.")
+Object=(Name=relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="Λείψανο: Λύτρωση,Αυτό το μυστηριώδες τεχνούργημα θα δέσει στην ψυχή σας, σώζοντάς σας από το θάνατο.")
+; EN: Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Defense,A magical relic that prevents 60% of all damage sustained by the user.")
+Object=(Name=relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="Λείψανο: Άμυνα,Ένα μαγικό λείψανο που αποτρέπει το 60% όλων των ζημιών που υφίσταται ο χρήστης.")
+; EN: Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Vengeance,This relic will punish those who wish to slay you.")
+Object=(Name=relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Λείψανο: Εκδίκηση,Αυτό το λείψανο θα τιμωρήσει όσους θέλουν να σας σκοτώσουν.")
+
+[RelicInventory]
+; EN: PickupMessage="You picked up a null Relic."
+PickupMessage="Σηκώσατε ένα μηδενικό λείψανο."
+; EN: ItemName="Relic"
+ItemName="Λείψανο"
+
+[RelicRedemptionInventory]
+; EN: PickupMessage="You picked up the Relic of Redemption!"
+PickupMessage="Πήρατε το Λείψανο Λύτρωσης!"
+; EN: ItemName="Relic of Redemption"
+ItemName="Λείψανο Λύτρωσης"
+
+[RelicStrengthInventory]
+; EN: PickupMessage="You picked up the Relic of Strength!"
+PickupMessage="Πήρατε το Λείψανο Δύναμης!"
+; EN: ItemName="Relic of Strength"
+ItemName="Λείψανο Δύναμης"
+
+[RelicDeathInventory]
+; EN: PickupMessage="You picked up the Relic of Vengeance!"
+PickupMessage="Πήρατε το Λείψανο Εκδίκησης!"
+; EN: ItemName="Relic of Vengeance"
+ItemName="Λείψανο Εκδίκησης"
+
+[RelicDefenseInventory]
+; EN: PickupMessage="You picked up the Relic of Defense!"
+PickupMessage="Πήρατε το Λείψανο Άμυνας!"
+; EN: ItemName="Relic of Defense"
+ItemName="Λείψανο Άμυνας"
+
+[RelicSpeedInventory]
+; EN: PickupMessage="You picked up the Relic of Speed!"
+PickupMessage="Πήρατε το Λείψανο Ταχύτητας!"
+; EN: ItemName="Relic of Speed"
+ItemName="Λείψανο Ταχύτητας"
+
+[RelicRegenInventory]
+; EN: PickupMessage="You picked up the Relic of Regeneration!"
+PickupMessage="Πήρατε το Λείψανο Ανάπλασης!"
+; EN: ItemName="Relic of Regeneration"
+ItemName="Λείψανο Ανάπλασης"

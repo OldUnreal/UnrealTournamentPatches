@@ -1,0 +1,105 @@
+﻿[LevelInfo0]
+; EN: Title="Cybrosis Central ]["
+Title="Κέντρο Cybrosis ]["
+IdealPlayerCount="4-12"
+
+[ZoneInfo24]
+; EN: ZoneName="Outer Base Blue"
+ZoneName="Εξωτερική Βάση Μπλε"
+
+[ZoneInfo2]
+; EN: ZoneName="Outer Base Red"
+ZoneName="Εξωτερική βάση Κόκκινη"
+
+[ZoneInfo25]
+; EN: ZoneName="Water Room Blue"
+ZoneName="Δωμάτιο νερού Μπλε"
+
+[ZoneInfo3]
+; EN: ZoneName="Water Room Red"
+ZoneName="Δωμάτιο νερού Κόκκινο"
+
+[ZoneInfo12]
+; EN: ZoneName="Flag Base Red"
+ZoneName="Βάση σημαίας Κόκκινη"
+
+[ZoneInfo11]
+; EN: ZoneName="Flag Base Blue"
+ZoneName="Βάση σημαίας Μπλε"
+
+[ZoneInfo28]
+; EN: ZoneName="Pipe Room Blue"
+ZoneName="Δωμάτιο σωληνών Μπλε"
+
+[ZoneInfo6]
+; EN: ZoneName="Pipe Room Red"
+ZoneName="Δωμάτιο σωληνών Κόκκινο"
+
+[ZoneInfo26]
+; EN: ZoneName="Antechamber Blue"
+ZoneName="Προθάλαμος Μπλε"
+
+[ZoneInfo23]
+; EN: ZoneName="Top Center Blue"
+ZoneName="Κορυφή Κέντρο Μπλε"
+
+[ZoneInfo4]
+; EN: ZoneName="Antechamber Red"
+ZoneName="Προθάλαμος Κόκκινος"
+
+[ZoneInfo1]
+; EN: ZoneName="Top Center Red"
+ZoneName="Κορυφή Κέντρο Κόκκινο"
+
+[ZoneInfo27]
+; EN: ZoneName="Top Passage Blue"
+ZoneName="Πάνω πέρασμα Μπλε"
+
+[ZoneInfo30]
+; EN: ZoneName="Top Passage Blue"
+ZoneName="Πάνω πέρασμα Μπλε"
+
+[ZoneInfo5]
+; EN: ZoneName="Top Passage Red"
+ZoneName="Πάνω πέρασμα Κόκκινο"
+
+[ZoneInfo31]
+; EN: ZoneName="Top Center Blue"
+ZoneName="Κορυφή Κέντρο Μπλε"
+
+[ZoneInfo9]
+; EN: ZoneName="Top Center Red"
+ZoneName="Κορυφή Κέντρο Κόκκινο"
+
+[ZoneInfo8]
+; EN: ZoneName="Top Passage Red"
+ZoneName="Πάνω πέρασμα Κόκκινο"
+
+[ZoneInfo10]
+; EN: ZoneName="Top Center Red"
+ZoneName="Κορυφή Κέντρο Κόκκινο"
+
+[ZoneInfo32]
+; EN: ZoneName="Top Center Blue"
+ZoneName="Κορυφή Κέντρο Μπλε"
+
+[ZoneInfo7]
+; EN: ZoneName="Underpassage Red"
+ZoneName="Υπόγεια διάβαση Κόκκινο"
+
+[ZoneInfo29]
+; EN: ZoneName="Underpassage Blue"
+ZoneName="Υπόγεια διάβαση Μπλε"
+
+[SpecialEvent1]
+; EN: DamageString="%K made a shocking mistake"
+DamageString="%K έκανε ένα σοκαριστικό λάθος"
+
+[LevelSummary]
+; EN: Title="Cybrosis Central ]["
+Title="Κέντρο Cybrosis ]["
+IdealPlayerCount="4-12"
+
+[SpecialEvent11]
+; EN: DamageString="%K made a shocking mistake"
+DamageString="%K έκανε ένα σοκαριστικό λάθος"

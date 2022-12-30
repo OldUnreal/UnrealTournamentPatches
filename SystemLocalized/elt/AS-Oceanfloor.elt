@@ -1,0 +1,91 @@
+﻿[LevelInfo0]
+; EN: Title="Ocean Floor 'Station 5'"
+Title="Πυθμένας 'Σταθμός 5'"
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="Πάρτε τον έλεγχο της υποβρύχιας βάσης!"
+
+[ZoneInfo5]
+; EN: ZoneName="Middle Area"
+ZoneName="Μεσαία περιοχή"
+
+[ZoneInfo3]
+; EN: ZoneName="Large Docking Area"
+ZoneName="Μεγάλη περιοχή ελλιμενισμού"
+
+[ZoneInfo4]
+; EN: ZoneName="Small Docking Area"
+ZoneName="Μικρή περιοχή ελλιμενισμού"
+
+[ZoneInfo1]
+; EN: ZoneName="Submarine"
+ZoneName="Υποβρύχιο"
+
+[ZoneInfo2]
+; EN: ZoneName="Command Center"
+ZoneName="Κέντρο διοίκησης"
+
+[ZoneInfo7]
+; EN: ZoneName="Hallway"
+ZoneName="Διάδρομος"
+
+[SpecialEvent0]
+; EN: Message="Terminal 1 has been disabled."
+Message="Το τερματικό 1 έχει απενεργοποιηθεί."
+
+[FortStandard0]
+; EN: FortName="The Terminal 3"
+FortName="Το τερματικό 3"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="καταστράφηκε!!"
+
+[SpecialEvent10]
+; EN: Message="Terminal 4 has been disabled."
+Message="Το τερματικό 4 έχει απενεργοποιηθεί."
+
+[FortStandard1]
+; EN: FortName="The Terminal 1"
+FortName="Το τερματικό 1"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="καταστράφηκε!"
+
+[FortStandard2]
+; EN: FortName="The Terminal 2"
+FortName="Το τερματικό 2"
+; EN: DestroyedMessage="has been destroyed!!"
+DestroyedMessage="καταστράφηκε!!"
+
+[FortStandard3]
+; EN: FortName="The Terminal 4"
+FortName="Το τερματικό 4"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="καταστράφηκε!"
+
+[LevelSummary]
+; EN: Title="Ocean Floor 'Station 5'"
+Title="Πυθμένας 'Σταθμός 5'"
+IdealPlayerCount="8-10"
+; EN: LevelEnterText="Control the underwater base!"
+LevelEnterText="Πάρτε τον έλεγχο της υποβρύχιας βάσης!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="Swim out towards the base below the submarine. Inside the base there are 4 terminals with keyboards attached to them that need to be destroyed in order to render the base useless. Destroy terminal 1. The terminals can be destroyed in any order."
+ObjDesc[0]="Κολυμπήστε προς τη βάση κάτω από το υποβρύχιο. Μέσα στη βάση υπάρχουν 4 ακροδέκτες με προσαρτημένα πληκτρολόγια που πρέπει να καταστραφούν για να αχρηστευτεί η βάση. Καταστρέψτε το τερματικό 1. Τα τερματικά μπορούν να καταστραφούν με οποιαδήποτε σειρά."
+; EN: ObjDesc[1]="Destroy terminal 2. The terminals can be destroyed in any order."
+ObjDesc[1]="Καταστρέψτε το τερματικό 2. Τα τερματικά μπορούν να καταστραφούν με οποιαδήποτε σειρά."
+; EN: ObjDesc[2]="Destroy terminal 3. The terminals can be destroyed in any order."
+ObjDesc[2]="Καταστρέψτε το τερματικό 3. Τα τερματικά μπορούν να καταστραφούν με οποιαδήποτε σειρά."
+; EN: ObjDesc[3]="Destroy terminal 4. The terminals can be destroyed in any order."
+ObjDesc[3]="Καταστρέψτε το τερματικό 4. Τα τερματικά μπορούν να καταστραφούν με οποιαδήποτε σειρά."
+
+[ZoneInfo6]
+; EN: ZoneName="Elevator Shaft"
+ZoneName="Φρεάτιο Ανελκυστήρων"
+
+[SpecialEvent15]
+; EN: Message="Terminal 3 has been disabled."
+Message="Το τερματικό 3 καταστράφηκε."
+
+[SpecialEvent5]
+; EN: Message="Terminal 2 has been disabled."
+Message="Το τερματικό 2 καταστράφηκε."

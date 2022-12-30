@@ -1,0 +1,61 @@
+﻿[LevelInfo0]
+; EN: Title="Wolf's Bay"
+Title="Όρμος του λύκου"
+IdealPlayerCount="6"
+
+[ZoneInfo21]
+; EN: ZoneName="Aft"
+ZoneName="Πρύμνη"
+
+[ZoneInfo5]
+; EN: ZoneName="Cargo Hold"
+ZoneName="Φορτία"
+
+[ZoneInfo3]
+; EN: ZoneName="Engine Room"
+ZoneName="Μηχανοστάσιο"
+
+[ControlPoint1]
+; EN: PointName="Bridge"
+PointName="Γέφυρα"
+
+[ControlPoint2]
+; EN: PointName="Cargo"
+PointName="Φορτίο"
+
+[ControlPoint0]
+; EN: PointName="Engine"
+PointName="Κινητήρας"
+
+[ZoneInfo1]
+; EN: ZoneName="Bridge"
+ZoneName="Γέφυρα"
+
+[ZoneInfo6]
+; EN: ZoneName="Starboard Tunnel"
+ZoneName="Σήραγγα Starboard"
+
+[ZoneInfo10]
+; EN: ZoneName="Port Tunnel"
+ZoneName="Σήραγγα λιμανιού"
+
+[ZoneInfo2]
+; EN: ZoneName="Vent Room"
+ZoneName="Δωμάτιο εξαερισμού"
+
+[ZoneInfo4]
+; EN: ZoneName="Port Tunnel"
+ZoneName="Σήραγγα λιμανιού"
+
+[WaterZone0]
+; EN: ZoneName="Drowning"
+ZoneName="Πνίγεται"
+
+[LevelSummary]
+; EN: Title="Wolf's Bay"
+Title="Όρμος του λύκου"
+IdealPlayerCount="6"
+
+[ZoneInfo22]
+; EN: ZoneName="Outside"
+ZoneName="Έξω"

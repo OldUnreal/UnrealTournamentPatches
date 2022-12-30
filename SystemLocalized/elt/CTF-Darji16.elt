@@ -1,0 +1,61 @@
+﻿[LevelInfo0]
+; EN: Title="Darji Outpost #16-A"
+Title="Προφυλακή Darji #16-A"
+IdealPlayerCount="12-16"
+; EN: LevelEnterText="In the desert, there is pain."
+LevelEnterText="Στην έρημο υπάρχει πόνος."
+
+[ZoneInfo1]
+; EN: ZoneName="Outside"
+ZoneName="Έξω"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Crossway"
+ZoneName="Κόκκινο σταυροδρόμι"
+
+[ZoneInfo4]
+; EN: ZoneName="Blue Crossway"
+ZoneName="Μπλε σταυροδρόμι"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Basement"
+ZoneName="Μπλε Υπόγειο"
+
+[ZoneInfo8]
+; EN: ZoneName="Red Basement"
+ZoneName="Κόκκινη Υπόγειος"
+
+[ZoneInfo7]
+; EN: ZoneName="Red Base"
+ZoneName="Κόκκινη Βάση"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Μπλε Βάση"
+
+[ZoneInfo12]
+; EN: ZoneName="Blue Sniper Towers"
+ZoneName="Μπλε Πύργοι Σκοπευτών"
+
+[ZoneInfo10]
+; EN: ZoneName="Red Sniper Towers"
+ZoneName="Κόκκινοι Πύργοι Σκοπευτών"
+
+[LevelSummary]
+; EN: Title="Darji Outpost #16-A"
+Title="Προφυλακή Darji #16-A"
+IdealPlayerCount="12-16"
+; EN: LevelEnterText="In the desert, there is pain."
+LevelEnterText="Στην έρημο υπάρχει πόνος."
+
+[ZoneInfo11]
+; EN: ZoneName="Red Sniper Towers"
+ZoneName="Κόκκινοι Πύργοι Σκοπευτών"
+
+[ZoneInfo13]
+; EN: ZoneName="Blue Sniper Towers"
+ZoneName="Μπλε Πύργοι Σκοπευτών"
+
+[locationid0]
+; EN: LocationName="Blue Flagyard"
+LocationName="Μπλε Ναυαρχίδα"

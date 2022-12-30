@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+; EN: Title="Temple of Beatitude"
+Title="Ναός της Μακαριότητας"
+IdealPlayerCount="8-16"
+
+[ZoneInfo6]
+; EN: ZoneName="Red Base"
+ZoneName="Κόκκινη βάση"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Μπλε βάση"
+
+[ZoneInfo0]
+; EN: ZoneName="Center"
+ZoneName="Κέντρο"
+
+[ZoneInfo5]
+; EN: ZoneName="Red Tube Room"
+ZoneName="Κόκκινο δωμάτιο σωλήνων"
+
+[ZoneInfo1]
+; EN: ZoneName="Blue Tube Room"
+ZoneName="Μπλε δωμάτιο σωλήνων"
+
+[LevelSummary]
+; EN: Title="Temple of Beatitude"
+Title="Ναός της Μακαριότητας"
+IdealPlayerCount="8-16"

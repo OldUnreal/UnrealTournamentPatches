@@ -1,0 +1,37 @@
+﻿[LevelInfo0]
+; EN: Title="Gearbolt Installation"
+Title="Εγκατάσταση Gearbolt"
+IdealPlayerCount="6-12"
+
+[ZoneInfo8]
+; EN: ZoneName="Bridge"
+ZoneName="Γέφυρα"
+
+[ZoneInfo7]
+; EN: ZoneName="Ramp"
+ZoneName="Ράμπα"
+
+[ZoneInfo9]
+; EN: ZoneName="Lift"
+ZoneName="Ανελκυστήρας"
+
+[ZoneInfo10]
+; EN: ZoneName="Basement"
+ZoneName="Υπόγειο"
+
+[ControlPoint2]
+; EN: PointName="Bridge"
+PointName="Γέφυρα"
+
+[ControlPoint0]
+; EN: PointName="Lift"
+PointName="Ανελκυστήρας"
+
+[ControlPoint1]
+; EN: PointName="Ramp"
+PointName="Ράμπα"
+
+[LevelSummary]
+; EN: Title="Gearbolt Installation"
+Title="Εγκατάσταση Gearbolt"
+IdealPlayerCount="6-12"

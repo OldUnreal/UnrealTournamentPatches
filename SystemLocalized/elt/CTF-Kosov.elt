@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+; EN: Title="Kosov Canyon"
+Title="Φαράγγι Kosov"
+IdealPlayerCount="14"
+
+[ZoneInfo2]
+; EN: ZoneName="Kosov Valley"
+ZoneName="Κοιλάδα Kosov"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Base"
+ZoneName="Μπλε Βάση"
+
+[ZoneInfo0]
+; EN: ZoneName="Kosov Falls"
+ZoneName="Καταράχτες Kosov"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Base"
+ZoneName="Κόκκινη Βάση"
+
+[ZoneInfo4]
+; EN: ZoneName="Cave"
+ZoneName="Σπηλιά"
+
+[ZoneInfo6]
+; EN: ZoneName="Blue Armor Room"
+ZoneName="Μπλε δωμάτιο ασπίδας"
+
+[WaterZone0]
+; EN: ZoneName="Kosov Lake"
+ZoneName="Λίμνη Kosov"
+
+[WaterZone2]
+; EN: ZoneName="Underwater Cave"
+ZoneName="Υποβρύχια σπηλιά"
+
+[ZoneInfo5]
+; EN: ZoneName="Kosov Falls"
+ZoneName="Καταράχτες Kosov"
+
+[LevelSummary]
+; EN: Title="Kosov Canyon"
+Title="Φαράγγι Kosov"
+IdealPlayerCount="14"

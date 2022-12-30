@@ -241,7 +241,7 @@ CrosshairSmoothHelp="Если включено, размывает тексту�
 CrosshairAlwaysCenterText="Центрировать прицел"
 ; EN: CrosshairAlwaysCenterHelp="Enable to always center the crosshair, even if you hold your weapon in your left or right hand."
 CrosshairAlwaysCenterHelp="Если включено, прицел всегда будет в центре экрана, даже если оружие в левой или правой руке."
-; EN: HUDColorValues[10]="cust"
+; Do NOT translate HUDColorValues[10]
 HUDColorValues[10]="cust"
 ; EN: CrosshairTranslucentText="Translucent Crosshair"
 CrosshairTranslucentText="Прозрачный прицел"

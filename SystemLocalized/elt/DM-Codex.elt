@@ -1,0 +1,13 @@
+﻿[LevelInfo0]
+; EN: Title="Codex of Wisdom"
+Title="Κώδικας Σοφίας"
+IdealPlayerCount="2-8"
+
+[ZoneInfo14]
+; EN: ZoneName="Codex"
+ZoneName="Κώδικας"
+
+[LevelSummary]
+; EN: Title="Codex of Wisdom"
+Title="Κώδικας Σοφίας"
+IdealPlayerCount="2-8"
