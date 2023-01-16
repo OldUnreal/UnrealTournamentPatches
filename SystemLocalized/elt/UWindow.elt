@@ -1,0 +1,26 @@
+﻿[UWindowMessageBoxCW]
+; EN: YesText="Yes"
+YesText="Ναι"
+; EN: NoText="No"
+NoText="Όχι"
+; EN: OKText="OK"
+OKText="ΟΚ"
+; EN: CancelText="Cancel"
+CancelText="Άκυρο"
+
+[UWindowConsoleWindow]
+; EN: WindowTitle="System Console"
+WindowTitle="Κονσόλα συστήματος"
+
+[UWindowSmallCloseButton]
+; EN: CloseText="Close"
+CloseText="Κλείσιμο"
+
+[UWindowSmallCancelButton]
+; EN: CancelText="Cancel"
+CancelText="Ακύρο"
+
+[UWindowSmallOKButton]
+; EN: OKText="OK"
+OKText="ΟΚ"
+

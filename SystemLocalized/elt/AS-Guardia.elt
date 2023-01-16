@@ -1,0 +1,63 @@
+﻿[LevelInfo0]
+; EN: Title="Guardia Fortress"
+Title="Φρούριο Guardia"
+IdealPlayerCount="6-12"
+
+[AssaultInfo2]
+; EN: ObjDesc[0]="Shoot at the fuse to ignite it and blow up the TNT, which will permit access to the underground base."
+ObjDesc[0]="Πυροβολήστε την ασφάλεια για να την ανάψετε και να ανατινάξετε το TNT, το οποίο θα επιτρέψει την πρόσβαση στην υπόγεια βάση."
+; EN: ObjDesc[1]="Make your way through the base, dealing with all gun turrets and enemies you find along the way, until you ride a lift up to a platform that has the garage activation switch."
+ObjDesc[1]="Διασχίστε τη βάση, αντιμετωπίζοντας όλους τους πυργίσκους όπλων και τους εχθρούς που βρίσκετε στη διαδρομή, μέχρι να ανεβείτε σε μια πλατφόρμα που διαθέτει τον διακόπτη ενεργοποίησης γκαράζ."
+; EN: ObjDesc[2]="Once the door is opened, destroy the prototype tank by shooting at the turret."
+ObjDesc[2]="Μόλις ανοίξει η πόρτα, καταστρέψτε το πρωτότυπο τανκ πυροβολώντας τον πυργίσκο."
+
+[FortStandard0]
+; EN: FortName="The Lava Bridge"
+FortName="Η Γέφυρα πάνω από λάβα"
+; EN: DestroyedMessage="has been crossed!"
+DestroyedMessage="διασχίθηκε!"
+
+[FortStandard4]
+; EN: FortName="The Cavern"
+FortName="Το Σπήλαιο"
+; EN: DestroyedMessage="has been breached!"
+DestroyedMessage="παραβιάστηκε!"
+
+[LevelSummary]
+; EN: Title="Guardia Fortress"
+Title="Φρούριο Guiardia"
+IdealPlayerCount="6-12"
+
+[FortStandard1]
+; EN: FortName="The Fuse"
+FortName="Το φιτίλι"
+; EN: DestroyedMessage="has been ignited!"
+DestroyedMessage="άναψε!"
+
+[FortStandard2]
+; EN: FortName="The Garage Door"
+FortName="Η γκαραζόπορτα"
+; EN: DestroyedMessage="was breached!"
+DestroyedMessage="παραβιάστηκε!"
+
+[FortStandard3]
+; EN: FortName="The Tank Turret"
+FortName="Ο πυργίσκος του τανκ"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="καταστράφηκε!"
+
+[ZoneInfo0]
+; EN: ZoneName="Attackers' Cave"
+ZoneName="Σπηλιά επιτιθέμενων"
+
+[ZoneInfo1]
+; EN: ZoneName="Near the Fuse"
+ZoneName="Κοντά στο φιτίλι"
+
+[ZoneInfo2]
+; EN: ZoneName="Base Corridors"
+ZoneName="Διάδρομοι βάσης"
+
+[WaterZone0]
+; EN: ZoneName="Underwater"
+ZoneName="Υποβρύχια"

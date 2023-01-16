@@ -241,7 +241,7 @@ CrosshairSmoothHelp="Applique un effet de lissage sur le réticule de visée."
 CrosshairAlwaysCenterText="Toujours Centrer le Réticule"
 ; EN: CrosshairAlwaysCenterHelp="Enable to always center the crosshair, even if you hold your weapon in your left or right hand."
 CrosshairAlwaysCenterHelp="Recentre le réticule en permanence, que l'arme selectionnée soit dans la main gauche ou droite."
-; EN: HUDColorValues[10]="cust"
+; Do NOT translate HUDColorValues[10]
 HUDColorValues[10]="cust"
 ; EN: CrosshairTranslucentText="Translucent Crosshair"
 CrosshairTranslucentText="Réticule Translucide"

@@ -1,0 +1,41 @@
+﻿[LevelInfo0]
+; EN: Title="Olden Aquifer"
+Title="Υδροφόρος Olden"
+IdealPlayerCount="4-6"
+
+[ZoneInfo2]
+; EN: ZoneName="Lower Point Room"
+ZoneName="Δωμάτιο κάτω σημείου"
+
+[ZoneInfo0]
+; EN: ZoneName="Central Room"
+ZoneName="Κεντρικό δωμάτιο"
+
+[ZoneInfo1]
+; EN: ZoneName="Upper Point Room"
+ZoneName="Δωμάτιο άνω σημείου"
+
+[ZoneInfo3]
+; EN: ZoneName="Chain Lift Room"
+ZoneName="Δωμάτιο ανελκυστήρων αλυσίδας"
+
+[ControlPoint1]
+; EN: PointName="Lower"
+PointName="Χαμηλότερα"
+
+[ControlPoint2]
+; EN: PointName="Upper"
+PointName="Ανώτερα"
+
+[ControlPoint0]
+; EN: PointName="Mid"
+PointName="Μέση"
+
+[WaterZone0]
+; EN: ZoneName="Aqueduct"
+ZoneName="Υδραγωγείο"
+
+[LevelSummary]
+; EN: Title="Olden Aquifer"
+Title="Υδροφόρος Olden"
+IdealPlayerCount="4-6"

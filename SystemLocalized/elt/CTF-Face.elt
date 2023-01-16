@@ -1,0 +1,25 @@
+﻿[LevelInfo0]
+; EN: Title="Facing Worlds"
+Title="Αντιμέτωποι Κόσμοι"
+IdealPlayerCount="4-10"
+
+[ZoneInfo3]
+; EN: ZoneName="Asteroid"
+ZoneName="Αστεροϊδής"
+
+[ZoneInfo2]
+; EN: ZoneName="Blue Base"
+ZoneName="Μπλε Βάση"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Base"
+ZoneName="Κόκκινη Βάση"
+
+[LevelSummary]
+; EN: Title="Facing Worlds"
+Title="Αντιμέτωποι Κόσμοι"
+IdealPlayerCount="4-10"
+
+[SpecialEvent0]
+; EN: DamageString="put in orbit"
+DamageString="είναι στο διάστημα"

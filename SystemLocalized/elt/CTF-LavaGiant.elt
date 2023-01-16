@@ -1,0 +1,53 @@
+﻿[LevelInfo0]
+; EN: Title="Lava Giant"
+Title="Λάβα γιγάντων"
+IdealPlayerCount="8-14"
+; EN: LevelEnterText="GET THOSE FLAGS!!"
+LevelEnterText="ΠΑΡΤΕ ΤΙΣ ΣΗΜΑΙΕΣ!!"
+
+[ZoneInfo0]
+; EN: ZoneName="On The Island"
+ZoneName="Στο νησί"
+
+[ZoneInfo3]
+; EN: ZoneName="Blue Lower Area"
+ZoneName="Μπλε κάτω περιοχή"
+
+[ZoneInfo1]
+; EN: ZoneName="Red Lower Area"
+ZoneName="Κόκκινη κάτω περιοχή"
+
+[ZoneInfo2]
+; EN: ZoneName="Red Lower Area"
+ZoneName="Κόκκινη κάτω περιοχή"
+
+[ZoneInfo4]
+; EN: ZoneName="Blue Lower Area"
+ZoneName="Μπλε κάτω περιοχή"
+
+[LevelSummary]
+; EN: Title="Lava Giant"
+Title="Λάβα γιγάντων"
+IdealPlayerCount="8-14"
+; EN: LevelEnterText="GET THOSE FLAGS!!"
+LevelEnterText="ΠΑΡΤΕ ΤΙΣ ΣΗΜΑΙΕΣ!!"
+
+[locationid1]
+; EN: LocationName="Red Base"
+LocationName="Κόκκινη Βάση"
+
+[locationid5]
+; EN: LocationName="Rocket Launcher Ridge"
+LocationName="Κορυφογραμμή ρουκετών"
+
+[locationid4]
+; EN: LocationName="Shield Belt Ridge"
+LocationName="Κορυφογραμμή Ζώνης ασπίδας"
+
+[locationid2]
+; EN: LocationName="Blue Base"
+LocationName="Μπλε Βάση"
+
+[locationid3]
+; EN: LocationName="Redeemer Ridge"
+LocationName="Κορυφογραμμή Λυτρωτή"

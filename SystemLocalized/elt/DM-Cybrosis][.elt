@@ -1,0 +1,29 @@
+﻿[LevelInfo0]
+; EN: Title="Cybrosis Central ]["
+Title="Κέντρο Cybrosis ]["
+IdealPlayerCount="3-8"
+
+[ControlPoint0]
+; EN: PointName="Low Point"
+PointName="Κάτω σημείο"
+
+[ControlPoint1]
+; EN: PointName="Center Point"
+PointName="Κεντρικό σημείο"
+
+[ControlPoint2]
+; EN: PointName="Far Point"
+PointName="Μακρινό σημείο"
+
+[SpecialEvent1]
+; EN: DamageString="%K made a shocking mistake"
+DamageString="%K έκανε ένα σοκαριστικό λάθος"
+
+[LevelSummary]
+; EN: Title="Cybrosis Central ]["
+Title="Κέντρο Cybrosis ]["
+IdealPlayerCount="3-8"
+
+[SpecialEvent3]
+; EN: DamageString="%K didn't manage to keep the Damage Amplifier"
+DamageString="%K δεν κατάφερε να κρατήσει τον ενισχυτή ζημιάς"

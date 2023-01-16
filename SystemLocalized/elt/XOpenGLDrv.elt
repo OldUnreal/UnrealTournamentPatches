@@ -1,0 +1,20 @@
+﻿[Public]
+Object=(Name=XOpenGLDrv.XOpenGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=opengl32.dll)
+Preferences=(Caption="XOpenGL",Parent="Rendering",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True,Category="Options")
+Preferences=(Caption="Debug Options",Parent="XOpenGL",Class=XOpenGLDrv.XOpenGLRenderDevice,Immediate=True,Category="DebugOptions")
+
+[Errors]
+; EN: NoFindGL="Can't find OpenGL driver %ls"
+NoFindGL="Δεν είναι δυνατή η εύρεση του προγράμματος οδήγησης OpenGL %ls"
+; EN: MissingFunc="Missing OpenGL function %ls (%i)"
+MissingFunc="Λείπει η συνάρτηση OpenGL %ls (%i)"
+; EN: ResFailed="Failed to set resolution"
+ResFailed="Αποτυχία ρύθμισης ανάλυσης"
+
+[XOpenGLRenderDevice]
+; EN: ClassCaption="XOpenGL"
+ClassCaption="XOpenGL"
+; EN: AskInstalled="Do you have a graphics card supporting at least OpenGL version 3.3 or greater installed?"
+AskInstalled="Έχετε εγκατεστημένη κάρτα γραφικών που υποστηρίζει τουλάχιστον OpenGL έκδοση 3.3 ή μεταγενέστερη;"
+; EN: AskUse="Do you want Unreal Tournament to use your OpenGL accelerator?"
+AskUse="Θέλετε το Unreal Tournament να χρησιμοποιεί τον επιταχυντή OpenGL;"

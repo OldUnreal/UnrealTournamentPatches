@@ -1,0 +1,45 @@
+﻿[LevelInfo0]
+; EN: Title="Frigate"
+Title="Φρεγάτα"
+IdealPlayerCount="4-8"
+
+[LevelSummary]
+; EN: Title="Frigate"
+Title="Φρεγάτα"
+IdealPlayerCount="4-8"
+
+[FortStandard0]
+; EN: FortName="The Missiles"
+FortName="Οι πύραυλοι"
+; EN: DestroyedMessage="were launched!"
+DestroyedMessage="εκτοξεύθηκαν!"
+
+[FortStandard1]
+; EN: FortName="The Ship"
+FortName="Το πλοίο"
+; EN: DestroyedMessage="has been entered!"
+DestroyedMessage="παραβιάστηκε!"
+
+[FortStandard2]
+; EN: FortName="The Hydraulic Compressor"
+FortName="Ο υδραυλικός συμπιεστής"
+; EN: DestroyedMessage="has been destroyed!"
+DestroyedMessage="έχει καταστραφεί!"
+
+[AssaultInfo0]
+; EN: ObjDesc[0]="The door to the ship's control room is controlled by a hydraulic compressor which is located in the aft cabin of the boat. This compressor must be destroyed before the control room can be accessed."
+ObjDesc[0]="Η πόρτα του θαλάμου ελέγχου του πλοίου ελέγχεται από έναν υδραυλικό συμπιεστή που βρίσκεται στην πίσω καμπίνα του σκάφους. Αυτός ο συμπιεστής πρέπει να καταστραφεί για να είναι δυνατή η πρόσβαση στο δωμάτιο ελέγχου."
+; EN: ObjDesc[1]="You must hijack the warship via the dock and find your way to the control room on the top floor of the vessel. There, you will find a red button that will activate the boat's cannons and allow the boat to leave the harbor."
+ObjDesc[1]="Πρέπει να παραβιάσετε το πολεμικό πλοίο μέσω της αποβάθρας και να βρείτε το δρόμο σας προς το δωμάτιο ελέγχου στον τελευταίο όροφο του σκάφους. Εκεί, θα βρείτε ένα κόκκινο κουμπί που θα ενεργοποιήσει τα κανόνια του σκάφους και θα επιτρέψει στο σκάφος να φύγει από το λιμάνι."
+
+[ZoneInfo0]
+; EN: ZoneName="Ship mid corridor"
+ZoneName="Μεσαίος διάδρομος πλοίου"
+
+[WaterZone0]
+; EN: ZoneName="Swimming at the lake"
+ZoneName="Κολύμπηση στην λίμνη"
+
+[WaterZone1]
+; EN: ZoneName="Being a horse"
+ZoneName="Αλογιάζει"

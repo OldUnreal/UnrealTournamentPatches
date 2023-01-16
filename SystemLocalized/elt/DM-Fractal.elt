@@ -1,0 +1,13 @@
+﻿[LevelInfo0]
+; EN: Title="Fractal Reactor"
+Title="Φράκταλ Αντιδραστήρας"
+IdealPlayerCount="2-4"
+; EN: LevelEnterText="Don't get caught in the floor portal!"
+LevelEnterText="Μην πιαστείτε στην πύλη του πατώματος!"
+
+[LevelSummary]
+; EN: Title="Fractal Reactor"
+Title="Φράκταλ Αντιδραστήρας"
+IdealPlayerCount="2-4"
+; EN: LevelEnterText="Don't get caught in the floor portal!"
+LevelEnterText="Μην πιαστείτε στην πύλη του πατώματος!"

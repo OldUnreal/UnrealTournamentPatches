@@ -1,0 +1,32 @@
+﻿[Public]
+Class=(Class=WinDrv.WindowsClient,SuperClass=Engine.Client,Compat="Win32,Win64")
+Preferences=(Caption="Windows",Parent="Display",Class=WinDrv.WindowsClient,Immediate=True,Category=Display)
+Preferences=(Caption="Windows",Parent="Joystick",Class=WinDrv.WindowsClient,Immediate=True,Category=Joystick)
+
+[Errors]
+; EN: Failed3D="3D hardware initialization failed"
+Failed3D="Η προετοιμασία υλικού 3D απέτυχε"
+; EN: DDrawMode="DirectDraw was unable to set the requested video mode."
+DDrawMode="Το DirectDraw δεν μπόρεσε να ορίσει τη λειτουργία βίντεο που ζητήθηκε."
+
+[General]
+; EN: ViewPersp="Perspective map"
+ViewPersp="Χάρτης προοπτικής"
+; EN: ViewXY="Overhead map"
+ViewXY="Εναέριος χάρτης"
+; EN: ViewXZ="XZ map"
+ViewXZ="Χάρτης ΧΖ"
+; EN: ViewYZ="YZ map"
+ViewYZ="Χάρτης YZ"
+; EN: ViewOther="Viewport"
+ViewOther="Παράθυρο προβολής"
+; EN: Color16="&16-bit color"
+Color16="&16-bit χρώμα"
+; EN: Color32="&32-bit color"
+Color32="&32-bit χρώμα"
+; EN: AdvancedOptions="Advanced Options"
+AdvancedOptions="Προχωρημένες επιλογές"
+
+[WindowsClient]
+; EN: ClassCaption="Standard Windows Manager"
+ClassCaption="Τυπικός διαχειριστής των Windows"

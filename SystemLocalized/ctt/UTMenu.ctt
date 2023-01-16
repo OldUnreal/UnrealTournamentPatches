@@ -241,7 +241,7 @@ CrosshairSmoothHelp="Si està activat, s'aplica suavització al punter de mira."
 CrosshairAlwaysCenterText="Sempre Centrar Mirall"
 ; EN: CrosshairAlwaysCenterHelp="Enable to always center the crosshair, even if you hold your weapon in your left or right hand."
 CrosshairAlwaysCenterHelp="Si està activat, la mira sempre estarà centrada, fins i tot si sosteniu l'arma amb la mà esquerra o dreta."
-; EN: HUDColorValues[10]="cust"
+; Do NOT translate HUDColorValues[10]
 HUDColorValues[10]="cust"
 ; EN: CrosshairTranslucentText="Translucent Crosshair"
 CrosshairTranslucentText="Mirall Translúcid"
