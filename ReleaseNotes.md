@@ -13,6 +13,158 @@
 * [UT99.org - Unreal Tournament Community](https://ut99.org)
 * [OldUnreal](https://www.oldunreal.com)
 
+## Unreal Tournament Version 469c Release Notes [ WORK IN PROGRESS - No ETA for the release date yet ]
+
+Version 469d is completely network compatible with all previous public releases of UT (down to 432).
+The UTPG and OldUnreal teams worked hard to maintain binary compatibility with older native mods.
+Most of these mods will continue to work in version 469d. However, some mods may need some trivial updates.
+If you are a native mod author, and you are having trouble updating your mod for version 469d, then please reach out to us at [the OldUnreal forums](https://www.oldunreal.com/phpBB3/viewforum.php?f=37).
+**Note:** This patch disables older versions of ACE.
+Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
+
+### Patch Distribution
+
+* Updated OpenAL-Soft to version 1.22.2
+* Updated flac to version 1.4.2
+
+### Stability Improvements
+
+#### Game Client
+
+* Fixed a bug that could crash the macOS game client upon startup
+* Fixed a bug that could crash the macOS game client when a mod tried to access the Engine.Actor.Touching array. This bug made it impossible to play Nali Weapons III on macOS
+
+#### UnrealScript
+
+* Fixed a bug that could cause the game to crash if an actor set a latent action and performed a state change within the same expression
+* Fixed a bug that could cause the game to freeze after pressing the jump key while spectating on maps such as AS-HiSpeed (External Contribution by Buggie)
+* Fixed a bug that could make the game crash if a SkaarjBerserker tried to attack a friendly player (External Contribution by Buggie)
+
+#### Audio and 3D Rendering
+
+* Fixed bugs that could crash D3D9Drv when importing non-power-of-two textures (External Contribution by Buggie)
+* Fixed a minor rendering glitch that triggered when using D3D9Drv in a window whose height or width had an uneven number of pixels (External Contribution by Buggie)
+
+### Bug Fixes
+
+#### Input and Windowing
+
+* Fixed a bug that made Windows ignore certain mouse clicks when the game was running in the background and raw mouse input was enabled
+* Fixed a bug that made it impossible to clear property values through the properties browser (External Contribution by Buggie)
+
+#### Unreal Editor
+
+* The "None" group should now be visible in the sound browser (External Contribution by Buggie)
+* Fixed a bug that made the 2D editor produce invalid cylinders (External Contribution by Buggie)
+* Fixed a bug that made the 2D editor incorrectly render the grid after zooming (External Contribution by Buggie)
+* Fixed a bug that made the code editor scroll to the wrong line after the compiler reported an error (External Contribution by Buggie)
+
+#### UnrealScript
+
+* Fixed a bug that made it impossible to import static array members in defaultproperties
+* Fixed a bug that made certain dynamic array expressions access the wrong array element
+* Fixed a bug that could make the secondary enforcer produce sounds from the wrong location
+* Fixed a bug that allowed TeamCannons to shoot through thin walls (External Contribution by Buggie)
+* Fixed various accessed none errors (External Contribution by Buggie)
+* UTFadeTextArea controls now correctly calculate their scroll limits (External Contribution by Buggie)
+* Fixed a bug that could prevent Mercenary pawns from dying even when their health dropped below 0 (External Contribution by Buggie)
+* Fixed a bug that made certain fonts on the team scoreboard not scale with the game resolution (External Contribution by Buggie)
+* Fixed a bug that made "timedemo 1" report an incorrect frame rate if the entry level had a non-standard time dilation set (External Contribution by Buggie)
+
+#### Audio and 3D Rendering
+
+* Fixed a bug that could give the game window incorrect dimensions after changing the game resolution on a macOS system
+* Fixed a bug that made it impossible for certain renderers (such as OpenGLDrv) to acquire an exclusive fullscreen window. As a side effect of this bug fix, (mouse) input latency should now be noticeably when using these renderers
+
+#### Miscellaneous
+
+* Fixed a bug that broke logging of certain fatal errors in the game/server log file on Linux and macOS
+
+### Enhancements
+
+#### Input and Windowing
+
+* Rewrote the mouse input handling code and made raw mouse input work in Unreal Editor
+* Made the window manager remember and restore the maximized state of all game and editor windows (External Contribution by Buggie)
+* Added support for keyboard navigation in wizard windows such as those used in the Setup utility (External Contribution by Buggie)
+* Made text entered in terminal windows (such as the Unreal Editor log window) editable (External Contribution by Buggie)
+* Made it possible to toggle individual polyflags in the actor properties window (External Contribution by Buggie)
+
+#### Unreal Editor
+
+* Made Unreal Editor always render the builder brush even if it has bHiddenEd set to true
+* Made Unreal Editor update the properties windows after performing a MAP SELECT operations
+* Made Unreal Editor ignore hidden brushes in MAP SELECT operations
+* Added a new actor browser tool that allows you to save MyLevel content as a separate package (External Contribution by Buggie)
+* Added a new actor browser tool that allows you to merge a package's contents into another package (External Contribution by Buggie)
+* Added a new actor browser tool that allows you to load all of a package's classes (External Contribution by Buggie)
+* Added a new viewport context menu option that allows you to move the builder brush to the location of the last mouse click (External Contribution by Buggie)
+* Added a new viewport context menu option that allows you to paste an instance of the selected actor at the location of the last mouse click (External Contribution by Buggie)
+* Made it possible to enter texture panning and skew values on the alignment tab of the surface properties window. The window supports literal values or simple mathematical formulas (External Contribution by Buggie)
+* Unreal Editor viewports can now be maximized and minimized by double clicking on their toolbar (External Contribution by Buggie)
+* Added button tooltips in the group browser (External Contribution by Buggie)
+* Added support for common hotkeys in various Unreal Editor windows and dialogs (External Contribution by Buggie)
+* Added a bottom bar button to enable/disable in-editor sound (External Contribution by Buggie)
+* The actor browser now automatically expands relevant superclasses after you create a new subclass (External Contribution by Buggie)
+* Added a new "match whole word" search option to the search actors dialog (External Contribution by Buggie)
+* Added a new editor tool that allows you to scale your entire map (External Contribution by Buggie)
+* Added a new editor tool ("Array") that allows you to create duplicates of the selected actor with configurable location, rotation, or scaling offsets added to each subsequent duplicate (External Contribution by Buggie)
+* Added a new editor tool that allows you to rotate all selected actors (External Contribution by Buggie)
+* Added several new options to the 2D cylinder shape editor (External Contribution by Buggie)
+* Made it possible to export the code of selected actors in the actor browser (External Contribution by Buggie)
+* Added dropdown lists that allow you to select the package you want to import a new actor/music/sound/texture into (External Contribution by Buggie)
+* Added a new actor browser tool that allows you to save the configuration file for the selected actor (External Contribution by Buggie)
+* Added a new actor browser tool that allows you to dump a .int file for the selected actor (External Contribution by Buggie)
+* Made Unreal Editor save the state of the buttons in the bottom bar (External Contribution by Buggie)
+* If the code editor reports an error, you can now click the bottom bar to scroll directly to the error location (External Contribution by Buggie)
+* Added a new viewport configuration preset with two side-by-side viewports (External Contribution by Buggie)
+* The titles of minimized editor windows should now be readable for mappers using modern versions of Windows (External Contribution by Buggie)
+* Minimized editor windows will now be positioned on the right-hand side of the screen (External Contribution by Buggie)
+* You can now declare up to 30 user-defined button groups in Unreal Editor (External Contribution by Buggie)
+* Various editor windows and tools now display errors using error balloons rather than modal dialogs (External Contribution by Buggie)
+* Implemented several new texture alignment options for Unreal Editor:
+```
+- Wall for Cylinder: wraps a texture around the vertical surfaces of a cylinder brush. Respects the scale of already used on the selected surfaces
+- One Tile: Fills a surface with a single tile, scaling the texture's width and height independently
+- One Tile U: Fills a surface with a single tile, but only scales the width of the tile's texture to match the width of the surface. Will apply the same scale to the height of the texture
+- One Tile V: Fills a surface with a single tile, but only scales the height of the tile's texture to match the height of the surface. Will apply the same scale to the width of the texture
+```
+(External Contribution by Buggie)
+
+#### UnrealScript
+
+* UnrealScript classes can now import other classes using a new "imports" directive. For example:
+```
+class MyClass extends Object imports(SomeOtherClass);
+```
+This new directive makes static functions, struct definitions, and enums declared in the imported class available in the importing class.
+* The UnrealScript compiler now creates the Inc folder when exporting native class definitions
+* UnrealScript structs can now be marked as native. This allows the compiler to export the definitions of these structs to C++ headers
+* Made the in-game server browser maintain its sorting options after refreshing or selecting a new server (External Contribution by Buggie)
+* Increased the number of ListFactories in UBrowserServerListWindow to 20 (External Contribution by Buggie)
+* Added text editing support for the in-game quick console (External Contribution by Buggie)
+* Increased the number of stored server passwords from 10 to 50 (External Contribution by Buggie)
+* Made the mutator list in the in-game server browser easier to read (External Contribution by Buggie)
+* You can now press the F4 button in the in-game server browser to re-ping all servers (External Contribution by Buggie)
+* Made UTFadeTextAreas speed up their rendering animation if the mouse cursor hovers above them (External Contribution by Buggie)
+* Implemented a "ReloadConfig <x>" console command that allows you to reload the configuration file of the specified object or class. If you do not specify any object or class, reloadconfig will reload the configuration of all known objects and classes
+
+#### Audio and 3D Rendering
+
+* Added support for various new audio formats (many of which were already supported by Galaxy and Cluster) in ALAudio
+
+#### Networking and Netcode
+
+* The UZ compression and decompression code is now multithreaded. This should substantially increase (de)compression speed on clients and in UCC (External Contribution by Buggie)
+
+#### Localization
+
+* Added Greek localization (External Contribution by LDinos)
+
+#### Miscellaneous
+
+* The macOS application bundle now contains a fully-featured version of UCC
+
 ## Unreal Tournament Version 469c Release Notes
 
 Version 469c is completely network compatible with all previous public releases of UT (down to 432).
@@ -200,6 +352,11 @@ Server admins should upgrade ACE to version 1.1e or later to check 469c clients.
 - WarnForActorRecompilation (Bool - Default Value: True): Warns mappers when they are about to recompile the code for MyLevel actors. The warning explains why recompiling MyLevel actors is dangerous and informs them about the new actor recompilation ini options
 - DynamicActorRecompilation (Bool - Default Value: False): Enables dynamic actor recompilation support. When the feature is disabled, Unreal Editor still allows you to recompile MyLevel actors, but the script compiler will not resize Actors after recompilation, nor update their properties to match the new class layout
 ```
+* Unreal Editor now allows you to configure the width of the toolbar on the left-hand side of the screen. You can do this by setting the ToolbarWidth option in the [Options] section of UnrealEd.ini:
+```
+- ToolbarWidth (Integer - Default Value: 3): The number of buttons on every row of the toolbar
+```
+(External Contribution by Buggie)
 
 #### UnrealScript
 
