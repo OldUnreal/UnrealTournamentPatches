@@ -24,8 +24,11 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 
 ### Patch Distribution
 
-* Updated OpenAL-Soft to version 1.22.2
-* Updated flac to version 1.4.2
+* Updated 3rd party dependencies:
+- OpenAL-Soft version 1.22.2
+- flac version 1.4.2
+- SDL version 2.26.2
+- mpg123 version 1.31.2
 
 ### Stability Improvements
 
@@ -43,7 +46,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 #### Audio and 3D Rendering
 
 * Fixed bugs that could crash D3D9Drv when importing non-power-of-two textures (External Contribution by Buggie)
-* Fixed a minor rendering glitch that triggered when using D3D9Drv in a window whose height or width had an uneven number of pixels (External Contribution by Buggie)
+* Fixed a minor rendering glitch that triggered when using D3D9Drv in a window whose width had an uneven number of pixels (External Contribution by Buggie)
 
 ### Bug Fixes
 
@@ -74,7 +77,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 #### Audio and 3D Rendering
 
 * Fixed a bug that could give the game window incorrect dimensions after changing the game resolution on a macOS system
-* Fixed a bug that made it impossible for certain renderers (such as OpenGLDrv) to acquire an exclusive fullscreen window. As a side effect of this bug fix, (mouse) input latency should now be noticeably when using these renderers
+* Fixed a bug that made it impossible for certain renderers (such as OpenGLDrv) to acquire an exclusive fullscreen window. As a side effect of this bug fix, (mouse) input latency should now be noticeably lower when using these renderers
 
 #### Miscellaneous
 
@@ -107,16 +110,16 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * Added a bottom bar button to enable/disable in-editor sound (External Contribution by Buggie)
 * The actor browser now automatically expands relevant superclasses after you create a new subclass (External Contribution by Buggie)
 * Added a new "match whole word" search option to the search actors dialog (External Contribution by Buggie)
-* Added a new editor tool that allows you to scale your entire map (External Contribution by Buggie)
+* Added a new editor tool that allows you to scale selected actors (External Contribution by Buggie)
 * Added a new editor tool ("Array") that allows you to create duplicates of the selected actor with configurable location, rotation, or scaling offsets added to each subsequent duplicate (External Contribution by Buggie)
-* Added a new editor tool that allows you to rotate all selected actors (External Contribution by Buggie)
+* Added a new editor tool that allows you to randomly rotate all selected actors (External Contribution by Buggie)
 * Added several new options to the 2D cylinder shape editor (External Contribution by Buggie)
 * Made it possible to export the code of selected actors in the actor browser (External Contribution by Buggie)
 * Added dropdown lists that allow you to select the package you want to import a new actor/music/sound/texture into (External Contribution by Buggie)
-* Added a new actor browser tool that allows you to save the configuration file for the selected actor (External Contribution by Buggie)
-* Added a new actor browser tool that allows you to dump a .int file for the selected actor (External Contribution by Buggie)
+* Added a new actor browser tool that allows you to save the configuration file for the selected class (External Contribution by Buggie)
+* Added a new actor browser tool that allows you to dump a .int file for the selected package (External Contribution by Buggie)
 * Made Unreal Editor save the state of the buttons in the bottom bar (External Contribution by Buggie)
-* If the code editor reports an error, you can now click the bottom bar to scroll directly to the error location (External Contribution by Buggie)
+* If the code editor reports an error, you can now double-click the bottom bar to scroll directly to the error location (External Contribution by Buggie)
 * Added a new viewport configuration preset with two side-by-side viewports (External Contribution by Buggie)
 * The titles of minimized editor windows should now be readable for mappers using modern versions of Windows (External Contribution by Buggie)
 * Minimized editor windows will now be positioned on the right-hand side of the screen (External Contribution by Buggie)
