@@ -134,7 +134,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 - One Tile V: Fills a surface with a single tile, but only scales the height of the tile's texture to match the height of the surface. Will apply the same scale to the width of the texture
 ```
 (External Contribution by Buggie)
-* Added "In Use" and "Most Recently Used" tabs to the texture browser (External Contribution by Buggie)
+* Added "In Use", "All Textures", and "Most Recently Used" tabs to the texture browser (External Contribution by Buggie)
 * Added the Actor.PrePivot property to the Display category in the actor properties window (External Contribution by Buggie)
 * Made the code editor export default object and class properties with their shortest possible unambiguous name
 
