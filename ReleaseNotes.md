@@ -42,6 +42,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * Fixed a bug that could cause the game to crash if an actor set a latent action and performed a state change within the same expression
 * Fixed a bug that could cause the game to freeze after pressing the jump key while spectating on maps such as AS-HiSpeed (External Contribution by Buggie)
 * Fixed a bug that could make the game crash if a SkaarjBerserker tried to attack a friendly player (External Contribution by Buggie)
+* Fixed a bug that could cause a game the game to crash when calling UPlayer::Destroy during garbage collection
 
 #### Audio and 3D Rendering
 
@@ -74,6 +75,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * Fixed a bug that made certain fonts on the team scoreboard not scale with the game resolution (External Contribution by Buggie)
 * Fixed a bug that made "timedemo 1" report an incorrect frame rate if the entry level had a non-standard time dilation set (External Contribution by Buggie)
 * Fixed a bug that made (nearly) all default game types ignore the ?timelimit URL parameter (External Contribution by Deaod)
+* Fixed a bug that made the dodge timer reset duration dependent on player ping (External Contribution by Deaod)
 
 #### Audio and 3D Rendering
 
@@ -137,6 +139,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * Added "In Use", "All Textures", and "Most Recently Used" tabs to the texture browser (External Contribution by Buggie)
 * Added the Actor.PrePivot property to the Display category in the actor properties window (External Contribution by Buggie)
 * Made the code editor export default object and class properties with their shortest possible unambiguous name
+* Added support for importing PNG grayscale images
 
 #### UnrealScript
 
@@ -156,6 +159,9 @@ This new directive makes static functions, struct definitions, and enums declare
 * Made UTFadeTextAreas speed up their rendering animation if the mouse cursor hovers above them (External Contribution by Buggie)
 * Implemented a "ReloadConfig <x>" console command that allows you to reload the configuration file of the specified object or class. If you do not specify any object or class, reloadconfig will reload the configuration of all known objects and classes
 * Added a new advanced renderer properties window to the in-game menu. OpenGLDrv is currently the only renderer that uses this new window, but we'll add support for other renderers soon!
+* Changed the default value of Botpack.CTFGame.bAutoRespawnFlags to false because the true setting broke BunnyTrack
+* Made the in-game browser connect to OldUnreal's new UpdateServer. This server hosts a message of the day page and a masterserver list. Your client will automatically download this list and update its masterserver settings if you have bKeepMasterserver set to false in the [UBrowser.UBrowserMainClientWindow] of your game ini.
+* The in-game browser now supports clicking on https links.
 
 #### Audio and 3D Rendering
 
