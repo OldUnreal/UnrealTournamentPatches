@@ -51,6 +51,10 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 
 ### Bug Fixes
 
+#### Networking and Netcode
+
+* Fixed a bug that broke decompression of certain compressed files downloaded from redirect servers
+
 #### Input and Windowing
 
 * Fixed a bug that made Windows ignore certain mouse clicks when the game was running in the background and raw mouse input was enabled
@@ -76,6 +80,8 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * Fixed a bug that made "timedemo 1" report an incorrect frame rate if the entry level had a non-standard time dilation set (External Contribution by Buggie)
 * Fixed a bug that made (nearly) all default game types ignore the ?timelimit URL parameter (External Contribution by Deaod)
 * Fixed a bug that made the dodge timer reset duration dependent on player ping (External Contribution by Deaod)
+* The UnrealShare.ScriptedPawn.AttitudeTo bug fix for TeamGamePlus games is now disabled by default because some mods relied on 436's (incorrect) behavior. You can manually re-enable this fix by setting the bTeamGamePlusFix config variable to true for each pawn type that handles TeamGamePlus games correctly
+* We partially reverted UTPG's illegal skin check. Bots should now, once again, be able to use skins from all ServerPackages
 
 #### Audio and 3D Rendering
 
@@ -85,6 +91,8 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 #### Miscellaneous
 
 * Fixed a bug that broke logging of certain fatal errors in the game/server log file on Linux and macOS
+* Fixed a bug that broke game relaunching from the video options menu if your game executable was not called UnrealTournament.exe
+* Fixed a bug that could make CTRL+V paste garbled text from the Windows clipboard
 
 ### Enhancements
 
@@ -140,6 +148,8 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * Added the Actor.PrePivot property to the Display category in the actor properties window (External Contribution by Buggie)
 * Made the code editor export default object and class properties with their shortest possible unambiguous name
 * Added support for importing PNG grayscale images
+* Unreal Editor no longer attempts to test editor support for certain outdated renderers (such as GlideDrv)
+* The UCC make commandlet now allows you to specify which extra packages you want to build by adding the -packages=package1:...:packageN command line parameter. Make parses this parameter and builds the entire list of extra packages after building the EditPackages
 
 #### UnrealScript
 
