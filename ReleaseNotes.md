@@ -51,6 +51,10 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 
 ### Bug Fixes
 
+#### Physics and Player Movement
+
+* Fixed a bug that could cause the camera to rotate rapidly when jumping on a kicker
+
 #### Networking and Netcode
 
 * Fixed a bug that broke decompression of certain compressed files downloaded from redirect servers
@@ -82,6 +86,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * Fixed a bug that made the dodge timer reset duration dependent on player ping (External Contribution by Deaod)
 * The UnrealShare.ScriptedPawn.AttitudeTo bug fix for TeamGamePlus games is now disabled by default because some mods relied on 436's (incorrect) behavior. You can manually re-enable this fix by setting the bTeamGamePlusFix config variable to true for each pawn type that handles TeamGamePlus games correctly
 * We partially reverted UTPG's illegal skin check. Bots should now, once again, be able to use skins from all ServerPackages
+* Fixed a bug that could cause lag spikes on servers when a client requested the server's mutator list
 
 #### Audio and 3D Rendering
 
@@ -170,8 +175,9 @@ This new directive makes static functions, struct definitions, and enums declare
 * Implemented a "ReloadConfig <x>" console command that allows you to reload the configuration file of the specified object or class. If you do not specify any object or class, reloadconfig will reload the configuration of all known objects and classes
 * Added a new advanced renderer properties window to the in-game menu. OpenGLDrv is currently the only renderer that uses this new window, but we'll add support for other renderers soon!
 * Changed the default value of Botpack.CTFGame.bAutoRespawnFlags to false because the true setting broke BunnyTrack
-* Made the in-game browser connect to OldUnreal's new UpdateServer. This server hosts a message of the day page and a masterserver list. Your client will automatically download this list and update its masterserver settings if you have bKeepMasterserver set to false in the [UBrowser.UBrowserMainClientWindow] of your game ini.
-* The in-game browser now supports clicking on https links.
+* Made the in-game browser connect to OldUnreal's new UpdateServer. This server hosts a message of the day page and a masterserver list. Your client will automatically download this list and update its masterserver settings if you have bKeepMasterserver set to false in the [UBrowser.UBrowserMainClientWindow] of your game ini
+* The in-game browser now supports clicking on https links
+* If a function call gets absorbed, the UnrealScript VM will now return a default-initialized return value for the called function
 
 #### Audio and 3D Rendering
 
