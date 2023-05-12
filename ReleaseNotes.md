@@ -58,6 +58,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 #### Networking and Netcode
 
 * Fixed a bug that broke decompression of certain compressed files downloaded from redirect servers
+* Fixed a bug that broke client-side physics simulation of certain projectiles and items
 
 #### Input and Windowing
 
@@ -182,6 +183,7 @@ This new directive makes static functions, struct definitions, and enums declare
 #### Audio and 3D Rendering
 
 * Added support for various new audio formats (many of which were already supported by Galaxy and Cluster) in ALAudio
+* The game should now be able to enforce high frame rate caps on Windows
 
 #### Networking and Netcode
 
