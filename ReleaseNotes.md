@@ -34,7 +34,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 
 #### Game Client
 
-* Fixed a bug that could crash the macOS game client upon startup
+* Fixed a bug that could crash the macOS game client upon startup (#945)
 * Fixed a bug that could crash the macOS game client when a mod tried to access the Engine.Actor.Touching array. This bug made it impossible to play Nali Weapons III on macOS
 
 #### UnrealScript
