@@ -13,7 +13,7 @@
 * [UT99.org - Unreal Tournament Community](https://ut99.org)
 * [OldUnreal](https://www.oldunreal.com)
 
-## Unreal Tournament Version 469d Release Notes [ WORK IN PROGRESS - No ETA for the release date yet ]
+## Unreal Tournament Version 469d Release Notes [ Release Candidate Coming Soon! ]
 
 Version 469d is completely network compatible with all previous public releases of UT (down to 432).
 The UTPG and OldUnreal teams worked hard to maintain binary compatibility with older native mods.
@@ -21,6 +21,13 @@ Most of these mods will continue to work in version 469d. However, some mods may
 If you are a native mod author, and you are having trouble updating your mod for version 469d, then please reach out to us at [the OldUnreal forums](https://www.oldunreal.com/phpBB3/viewforum.php?f=37).
 **Note:** This patch disables older versions of ACE.
 Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
+
+### Patch Highlights
+
+* This patch includes several performance fixes and improvements for clients and servers
+* This patch adds support for Linux-aarch64/ARMv8 platforms. This means you can now host servers (or even play the game) on your Raspberry Pi 3/4! ([#1013](../../issues/1013), [Patreon Post](https://www.patreon.com/posts/83522201))
+* Good news for movement-centric game types such as BunnyTrack: This patch fixes several long-standing movement and networking issues! (e.g., [#782](../../issues/782), [#805](../../issues/805))
+* We've dealt a real blow to the Editor goblin. 469d has tons of editor bug fixes, improvements, and new tools
 
 ### Patch Distribution
 
@@ -34,31 +41,31 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 
 #### Game Client
 
-* Fixed a bug that could crash the macOS game client upon startup (#945)
-* Fixed a bug that could crash the macOS game client when a mod tried to access the Engine.Actor.Touching array. This bug made it impossible to play Nali Weapons III on macOS
+* Fixed a bug that could crash the macOS game client upon startup ([#945](../../issues/945))
+* Fixed a bug that could crash the macOS game client when a mod tried to access the Engine.Actor.Touching array. This bug made it impossible to play Nali Weapons III on macOS ([#1154](../../issues/1154))
 
 #### UnrealScript
 
-* Fixed a bug that could cause the game to crash if an actor set a latent action and performed a state change within the same expression
-* Fixed a bug that could cause the game to freeze after pressing the jump key while spectating on maps such as AS-HiSpeed (External Contribution by Buggie)
-* Fixed a bug that could make the game crash if a SkaarjBerserker tried to attack a friendly player (External Contribution by Buggie)
+* Fixed a bug that could cause the game to crash if an actor set a latent action and performed a state change within the same expression 
+* Fixed a bug that could cause the game to freeze after pressing the jump key while spectating on maps such as AS-HiSpeed ([#732](../../issues/732), External Contribution by Buggie)
+* Fixed a bug that could make the game crash if a SkaarjBerserker tried to attack a friendly player ([#1066](../../issues/1066], External Contribution by Buggie)
 * Fixed a bug that could cause a game the game to crash when calling UPlayer::Destroy during garbage collection
 
 #### Audio and 3D Rendering
 
-* Fixed bugs that could crash D3D9Drv when importing non-power-of-two textures (External Contribution by Buggie)
-* Fixed a minor rendering glitch that triggered when using D3D9Drv in a window whose width had an uneven number of pixels (External Contribution by Buggie)
+* Fixed bugs that could crash D3D9Drv when importing non-power-of-two textures ([#1003](../../issues/1003), External Contribution by Buggie)
+* Fixed a minor rendering glitch that triggered when using D3D9Drv in a window whose width had an uneven number of pixels ([#1019](../../issues/1019), External Contribution by Buggie)
 
 ### Bug Fixes
 
 #### Physics and Player Movement
 
-* Fixed a bug that could cause the camera to rotate rapidly when jumping on a kicker
+* Fixed a bug that could cause the camera to rotate rapidly when jumping on a kicker ([#782](../../issues/782))
 
 #### Networking and Netcode
 
-* Fixed a bug that broke decompression of certain compressed files downloaded from redirect servers
-* Fixed a bug that broke client-side physics simulation of certain projectiles and items
+* Fixed a bug that broke decompression of certain compressed files downloaded from redirect servers ([#656](../../issues/656))
+* Fixed a bug that broke client-side physics simulation of certain projectiles and items ([#1196](../../issues/1196))
 
 #### Input and Windowing
 
@@ -67,32 +74,33 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 
 #### Unreal Editor
 
-* The "None" group should now be visible in the sound browser (External Contribution by Buggie)
-* Fixed a bug that made the 2D editor produce invalid cylinders (External Contribution by Buggie)
-* Fixed a bug that made the 2D editor incorrectly render the grid after zooming (External Contribution by Buggie)
+* The "None" group should now be visible in the sound browser ([#908](../../issues/908), External Contribution by Buggie)
+* Fixed a bug that made the 2D editor produce invalid cylinders ([#991](../../issues/991), External Contribution by Buggie)
+* Fixed a bug that made the 2D editor incorrectly render the grid after zooming ([#994](../../issues/994), External Contribution by Buggie)
 * Fixed a bug that made the code editor scroll to the wrong line after the compiler reported an error (External Contribution by Buggie)
+* Fixed several bugs that made it impossible to use classes/objects with spaces, brackets, or parentheses in their names ([#1124](../../issues/1124), [#1072](../../issues/1072), [#930](../../issues/930))
 
 #### UnrealScript
 
 * Fixed a bug that made it impossible to import static array members in defaultproperties
 * Fixed a bug that made certain dynamic array expressions access the wrong array element
-* Fixed a bug that could make the secondary enforcer produce sounds from the wrong location
-* Fixed a bug that allowed TeamCannons to shoot through thin walls (External Contribution by Buggie)
-* Fixed various accessed none errors (External Contribution by Buggie)
-* UTFadeTextArea controls now correctly calculate their scroll limits (External Contribution by Buggie)
-* Fixed a bug that could prevent Mercenary pawns from dying even when their health dropped below 0 (External Contribution by Buggie)
-* Fixed a bug that made certain fonts on the team scoreboard not scale with the game resolution (External Contribution by Buggie)
-* Fixed a bug that made "timedemo 1" report an incorrect frame rate if the entry level had a non-standard time dilation set (External Contribution by Buggie)
+* Fixed a bug that could make the secondary enforcer produce sounds from the wrong location ([#277](../../issues/277))
+* Fixed a bug that allowed TeamCannons to shoot through thin walls ([#614](../../issues/614), External Contribution by Buggie)
+* Fixed various accessed none errors ([#314](../../issues/314), [#1153](../../issues/1153), [#1053](../../issues/1053), [#1050](../../issues/1050), [#892](../../issues/893), External Contribution by Buggie)
+* UTFadeTextArea controls now correctly calculate their scroll limits ([#901](../../issues/901), External Contribution by Buggie)
+* Fixed a bug that could prevent Mercenary pawns from dying even when their health dropped below 0 ([#551](../../issues/551), External Contribution by Buggie)
+* Fixed a bug that made certain fonts on the team scoreboard not scale with the game resolution ([#960](../../issues/960), External Contribution by Buggie)
+* Fixed a bug that made "timedemo 1" report an incorrect frame rate if the entry level had a non-standard time dilation set ([#1033](../../issues/1033), External Contribution by Buggie)
 * Fixed a bug that made (nearly) all default game types ignore the ?timelimit URL parameter (External Contribution by Deaod)
-* Fixed a bug that made the dodge timer reset duration dependent on player ping (External Contribution by Deaod)
-* The UnrealShare.ScriptedPawn.AttitudeTo bug fix for TeamGamePlus games is now disabled by default because some mods relied on 436's (incorrect) behavior. You can manually re-enable this fix by setting the bTeamGamePlusFix config variable to true for each pawn type that handles TeamGamePlus games correctly
-* We partially reverted UTPG's illegal skin check. Bots should now, once again, be able to use skins from all ServerPackages
-* Fixed a bug that could cause lag spikes on servers when a client requested the server's mutator list
+* Fixed a bug that made the dodge timer reset duration dependent on player ping ([#805](../../issues/805), External Contribution by Deaod)
+* The UnrealShare.ScriptedPawn.AttitudeTo bug fix for TeamGamePlus games is now disabled by default because some mods relied on 436's (incorrect) behavior. You can manually re-enable this fix by setting the bTeamGamePlusFix config variable to true for each pawn type that handles TeamGamePlus games correctly ([#1183](../../issues/1183))
+* We partially reverted UTPG's illegal skin check. Bots should now, once again, be able to use skins from all ServerPackages ([#1179](../../issues/1179), [#56](../../issues/56))
+* Fixed a bug that could cause lag spikes on servers when a client requested the server's mutator list ([#1218](../../issues/1218))
 
 #### Audio and 3D Rendering
 
 * Fixed a bug that could give the game window incorrect dimensions after changing the game resolution on a macOS system
-* Fixed a bug that made it impossible for certain renderers (such as OpenGLDrv) to acquire an exclusive fullscreen window. As a side effect of this bug fix, (mouse) input latency should now be noticeably lower when using these renderers
+* Fixed a bug that made it impossible for certain renderers (such as OpenGLDrv) to acquire an exclusive fullscreen window. As a side effect of this bug fix, (mouse) input latency should now be noticeably lower when using these renderers ([#795](../../issues/795))
 
 #### Miscellaneous
 
@@ -104,43 +112,43 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 
 #### Input and Windowing
 
-* Rewrote the mouse input handling code and made raw mouse input work in Unreal Editor
-* Made the window manager remember and restore the maximized state of all game and editor windows (External Contribution by Buggie)
-* Added support for keyboard navigation in wizard windows such as those used in the Setup utility (External Contribution by Buggie)
-* Made text entered in terminal windows (such as the Unreal Editor log window) editable (External Contribution by Buggie)
-* Made it possible to toggle individual polyflags in the actor properties window (External Contribution by Buggie)
+* Rewrote the mouse input handling code and made raw mouse input work in Unreal Editor. Enabling raw input in Unreal Editor should drastically improve the mapping experience for users with high-DPI mice ([#1026](../../issues/1026))
+* Made the window manager remember and restore the maximized state of all game and editor windows ([#571](../../issues/571), External Contribution by Buggie)
+* Added support for keyboard navigation in wizard windows such as those used in the Setup utility ([#870](../../issues/870), External Contribution by Buggie)
+* Made text entered in terminal windows (such as the Unreal Editor log window) editable ([#873](../../issues/873), External Contribution by Buggie)
+* Made it possible to toggle individual polyflags in the actor properties window ([#691](../../issues/691), External Contribution by Buggie)
 
 #### Unreal Editor
 
-* Made Unreal Editor always render the builder brush even if it has bHiddenEd set to true
+* Made Unreal Editor always render the builder brush even if it has bHiddenEd set to true ([#102](../../issues/102))
 * Made Unreal Editor update the properties windows after performing a MAP SELECT operations
 * Made Unreal Editor ignore hidden brushes in MAP SELECT operations
 * Added a new actor browser tool that allows you to save MyLevel content as a separate package (External Contribution by Buggie)
 * Added a new actor browser tool that allows you to merge a package's contents into another package (External Contribution by Buggie)
-* Added a new actor browser tool that allows you to load all of a package's classes (External Contribution by Buggie)
+* Added a new actor browser tool that allows you to load all of a package's classes ([#878](../../issues/878), External Contribution by Buggie)
 * Added a new viewport context menu option that allows you to move the builder brush to the location of the last mouse click (External Contribution by Buggie)
 * Added a new viewport context menu option that allows you to paste an instance of the selected actor at the location of the last mouse click (External Contribution by Buggie)
 * Made it possible to enter texture panning and skew values on the alignment tab of the surface properties window. The window supports literal values or simple mathematical formulas (External Contribution by Buggie)
-* Unreal Editor viewports can now be maximized and minimized by double clicking on their toolbar (External Contribution by Buggie)
+* Unreal Editor viewports can now be maximized and minimized by double clicking on their toolbar ([#562](../../issues/562), External Contribution by Buggie)
 * Added button tooltips in the group browser (External Contribution by Buggie)
-* Added support for common hotkeys in various Unreal Editor windows and dialogs (External Contribution by Buggie)
-* Added a bottom bar button to enable/disable in-editor sound (External Contribution by Buggie)
+* Added support for common hotkeys in various Unreal Editor windows and dialogs ([#877](../../issues/877), External Contribution by Buggie)
+* Added a bottom bar button to enable/disable in-editor sound ([#504](../../issues/504), External Contribution by Buggie)
 * The actor browser now automatically expands relevant superclasses after you create a new subclass (External Contribution by Buggie)
-* Added a new "match whole word" search option to the search actors dialog (External Contribution by Buggie)
-* Added a new editor tool that allows you to scale selected actors (External Contribution by Buggie)
-* Added a new editor tool ("Array") that allows you to create duplicates of the selected actor with configurable location, rotation, or scaling offsets added to each subsequent duplicate (External Contribution by Buggie)
-* Added a new editor tool that allows you to randomly rotate all selected actors (External Contribution by Buggie)
-* Added several new options to the 2D cylinder shape editor (External Contribution by Buggie)
-* Made it possible to export the code of selected actors in the actor browser (External Contribution by Buggie)
+* Added a new "match whole word" search option to the search actors dialog ([#905](../../issues/905), External Contribution by Buggie)
+* Added a new editor tool that allows you to scale selected actors ([#806](../../issues/806), External Contribution by Buggie)
+* Added a new editor tool ("Array") that allows you to create duplicates of the selected actor with configurable location, rotation, or scaling offsets added to each subsequent duplicate ([#809](../../issues/809), External Contribution by Buggie)
+* Added a new editor tool that allows you to randomly rotate all selected actors ([#810](../../issues/810), External Contribution by Buggie)
+* Added several new options to the 2D cylinder shape editor ([#992](../../issues/992), [#1047](../../issues/1047), [#1136](../../issues/1136), [#1137](../../issues/1137) External Contribution by Buggie)
+* Made it possible to export the code of selected actors in the actor browser ([#707](../../issues/707), External Contribution by Buggie)
 * Added dropdown lists that allow you to select the package you want to import a new actor/music/sound/texture into (External Contribution by Buggie)
-* Added a new actor browser tool that allows you to save the configuration file for the selected class (External Contribution by Buggie)
+* Added a new actor browser tool that allows you to save the configuration file for the selected class ([#1017](../../issues/1017), External Contribution by Buggie)
 * Added a new actor browser tool that allows you to dump a .int file for the selected package (External Contribution by Buggie)
 * Made Unreal Editor save the state of the buttons in the bottom bar (External Contribution by Buggie)
 * If the code editor reports an error, you can now double-click the bottom bar to scroll directly to the error location (External Contribution by Buggie)
 * Added a new viewport configuration preset with two side-by-side viewports (External Contribution by Buggie)
 * The titles of minimized editor windows should now be readable for mappers using modern versions of Windows (External Contribution by Buggie)
 * Minimized editor windows will now be positioned on the right-hand side of the screen (External Contribution by Buggie)
-* You can now declare up to 30 user-defined button groups in Unreal Editor (External Contribution by Buggie)
+* You can now declare up to 30 user-defined button groups in Unreal Editor ([#1147](../../issues/1147), External Contribution by Buggie)
 * Various editor windows and tools now display errors using error balloons rather than modal dialogs (External Contribution by Buggie)
 * Implemented several new texture alignment options for Unreal Editor:
 ```
@@ -150,9 +158,9 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 - One Tile V: Fills a surface with a single tile, but only scales the height of the tile's texture to match the height of the surface. Will apply the same scale to the width of the texture
 ```
 (External Contribution by Buggie)
-* Added "In Use", "All Textures", and "Most Recently Used" tabs to the texture browser (External Contribution by Buggie)
-* Added the Actor.PrePivot property to the Display category in the actor properties window (External Contribution by Buggie)
-* Made the code editor export default object and class properties with their shortest possible unambiguous name
+* Added "In Use", "All Textures", and "Most Recently Used" tabs to the texture browser ([#966](../../issues/966), External Contribution by Buggie)
+* Added the Actor.PrePivot property to the Display category in the actor properties window ([#1182](../../issues/1182), External Contribution by Buggie)
+* Made the code editor export default object and class properties with their shortest possible unambiguous name ([#778](../../issues/778))
 * Added support for importing PNG grayscale images
 * Unreal Editor no longer attempts to test editor support for certain outdated renderers (such as GlideDrv)
 * The UCC make commandlet now allows you to specify which extra packages you want to build by adding the -packages=package1:...:packageN command line parameter. Make parses this parameter and builds the entire list of extra packages after building the EditPackages
@@ -169,29 +177,31 @@ This new directive makes static functions, struct definitions, and enums declare
 * Made the in-game server browser maintain its sorting options after refreshing or selecting a new server (External Contribution by Buggie)
 * Increased the number of ListFactories in UBrowserServerListWindow to 20 (External Contribution by Buggie)
 * Added text editing support for the in-game quick console (External Contribution by Buggie)
-* Increased the number of stored server passwords from 10 to 50 (External Contribution by Buggie)
-* Made the mutator list in the in-game server browser easier to read (External Contribution by Buggie)
-* You can now press the F4 button in the in-game server browser to re-ping all servers (External Contribution by Buggie)
+* Increased the number of stored server passwords from 10 to 50 ([#893](../../issues/893), External Contribution by Buggie)
+* Made the mutator list in the in-game server browser easier to read ([#894](../../issues/894), External Contribution by Buggie)
+* You can now press the F4 button in the in-game server browser to re-ping all servers ([#896](../../issues/896), External Contribution by Buggie)
 * Made UTFadeTextAreas speed up their rendering animation if the mouse cursor hovers above them (External Contribution by Buggie)
-* Implemented a "ReloadConfig <x>" console command that allows you to reload the configuration file of the specified object or class. If you do not specify any object or class, reloadconfig will reload the configuration of all known objects and classes
+* Implemented a "ReloadConfig <x>" console command that allows you to reload the configuration file of the specified object or class. If you do not specify any object or class, reloadconfig will reload the configuration of all known objects and classes ([#480](../../issues/480))
 * Added a new advanced renderer properties window to the in-game menu. OpenGLDrv is currently the only renderer that uses this new window, but we'll add support for other renderers soon!
-* Changed the default value of Botpack.CTFGame.bAutoRespawnFlags to false because the true setting broke BunnyTrack
+* Changed the default value of Botpack.CTFGame.bAutoRespawnFlags to false because the true setting broke BunnyTrack ([#279](../../issues/279))
 * Made the in-game browser connect to OldUnreal's new UpdateServer. This server hosts a message of the day page and a masterserver list. Your client will automatically download this list and update its masterserver settings if you have bKeepMasterserver set to false in the [UBrowser.UBrowserMainClientWindow] of your game ini
 * The in-game browser now supports clicking on https links
-* If a function call gets absorbed, the UnrealScript VM will now return a default-initialized return value for the called function
+* If a function call gets absorbed, the UnrealScript VM will now return a default-initialized return value for the called function ([#1226](../../issues/1226))
 
 #### Audio and 3D Rendering
 
-* Added support for various new audio formats (many of which were already supported by Galaxy and Cluster) in ALAudio
-* The game should now be able to enforce high frame rate caps on Windows
+* Added support for various new audio formats (many of which were already supported by Galaxy and Cluster) in ALAudio ([#324](../../issues/324))
+* The game should now be able to enforce high frame rate caps on Windows ([#176](../../issues/176))
 
 #### Networking and Netcode
 
-* The UZ compression and decompression code is now multithreaded. This should substantially increase (de)compression speed on clients and in UCC (External Contribution by Buggie)
+* The UZ compression and decompression code is now multithreaded. This should substantially increase (de)compression speed on clients and in UCC ([#935](../../issues/935), External Contribution by Buggie)
+* The game will now try to reload packages when you're connecting to a server that runs a different version of a package that is already loaded. This should result in far fewer failed connections due to "Package Version Mismatches" ([#1251](../../issues/1251))
+* The game will now display the total download progress when downloading packages from a game server ([#443](../../issues/443))
 
 #### Localization
 
-* Added Greek localization (External Contribution by LDinos)
+* Added Greek localization (External [Contribution](https://github.com/OldUnreal/unreal-localization/commit/92d9160399944fd79c736a4eac33efdd0cc3bbff) by LDinos)
 
 #### Miscellaneous
 
