@@ -182,11 +182,12 @@ This new directive makes static functions, struct definitions, and enums declare
 * You can now press the F4 button in the in-game server browser to re-ping all servers ([#896](../../issues/896), External Contribution by Buggie)
 * Made UTFadeTextAreas speed up their rendering animation if the mouse cursor hovers above them (External Contribution by Buggie)
 * Implemented a "ReloadConfig <x>" console command that allows you to reload the configuration file of the specified object or class. If you do not specify any object or class, reloadconfig will reload the configuration of all known objects and classes ([#480](../../issues/480))
-* Added a new advanced renderer properties window to the in-game menu. OpenGLDrv is currently the only renderer that uses this new window, but we'll add support for other renderers soon!
+* Added a new advanced renderer properties window to the in-game menu
 * Changed the default value of Botpack.CTFGame.bAutoRespawnFlags to false because the true setting broke BunnyTrack ([#279](../../issues/279))
 * Made the in-game browser connect to OldUnreal's new UpdateServer. This server hosts a message of the day page and a masterserver list. Your client will automatically download this list and update its masterserver settings if you have bKeepMasterserver set to false in the [UBrowser.UBrowserMainClientWindow] of your game ini
 * The in-game browser now supports clicking on https links
 * If a function call gets absorbed, the UnrealScript VM will now return a default-initialized return value for the called function ([#1226](../../issues/1226))
+* Added a "Fix/Update Network Settings" button to the in-game menu. This button will update your client's outdated masterserver settings and restore the server browser's functionality (External Contribution by Buggie)
 
 #### Audio and 3D Rendering
 
