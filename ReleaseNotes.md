@@ -26,7 +26,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 
 * This patch includes several performance fixes and improvements for clients and servers
 * This patch adds support for Linux-aarch64/ARMv8 platforms. This means you can now host servers (or even play the game) on your Raspberry Pi 3/4! ([#1013](../../issues/1013), [Patreon Post](https://www.patreon.com/posts/83522201))
-* Good news for movement-centric game types such as BunnyTrack: This patch fixes several long-standing movement and networking issues! (e.g., [#782](../../issues/782), [#805](../../issues/805))
+* Good news for movement-centric game types such as BunnyTrack: This patch fixes several long-standing movement and networking issues! (e.g., [#782](../../issues/782), [#805](../../issues/805), [#228](../../issues/228))
 * We've dealt a real blow to the Editor goblin. 469d has tons of editor bug fixes, improvements, and new tools
 
 ### Patch Distribution
@@ -48,7 +48,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 
 * Fixed a bug that could cause the game to crash if an actor set a latent action and performed a state change within the same expression 
 * Fixed a bug that could cause the game to freeze after pressing the jump key while spectating on maps such as AS-HiSpeed ([#732](../../issues/732), External Contribution by Buggie)
-* Fixed a bug that could make the game crash if a SkaarjBerserker tried to attack a friendly player ([#1066](../../issues/1066], External Contribution by Buggie)
+* Fixed a bug that could make the game crash if a SkaarjBerserker tried to attack a friendly player ([#1066](../../issues/1066), External Contribution by Buggie)
 * Fixed a bug that could cause a game the game to crash when calling UPlayer::Destroy during garbage collection
 
 #### Audio and 3D Rendering
@@ -61,6 +61,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 #### Physics and Player Movement
 
 * Fixed a bug that could cause the camera to rotate rapidly when jumping on a kicker ([#782](../../issues/782))
+* Fixed a bug that could make actors trigger spurious Touch/UnTouch events just before colliding with each other. As a side effect of this bug, some kickers applied too momentum to the players they kicked ([#228](../../issues/228))
 
 #### Networking and Netcode
 
@@ -96,6 +97,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * The UnrealShare.ScriptedPawn.AttitudeTo bug fix for TeamGamePlus games is now disabled by default because some mods relied on 436's (incorrect) behavior. You can manually re-enable this fix by setting the bTeamGamePlusFix config variable to true for each pawn type that handles TeamGamePlus games correctly ([#1183](../../issues/1183))
 * We partially reverted UTPG's illegal skin check. Bots should now, once again, be able to use skins from all ServerPackages ([#1179](../../issues/1179), [#56](../../issues/56))
 * Fixed a bug that could cause lag spikes on servers when a client requested the server's mutator list ([#1218](../../issues/1218))
+* Fixed a bug that made the exec console command incorrectly parse its arguments ([#1279](../../issues/1279))
 
 #### Audio and 3D Rendering
 
@@ -107,6 +109,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * Fixed a bug that broke logging of certain fatal errors in the game/server log file on Linux and macOS
 * Fixed a bug that broke game relaunching from the video options menu if your game executable was not called UnrealTournament.exe
 * Fixed a bug that could make CTRL+V paste garbled text from the Windows clipboard
+* Fixed a bug that made it impossible to load savegames if the saved map had lazy-loaded sounds, music, or meshes 
 
 ### Enhancements
 
