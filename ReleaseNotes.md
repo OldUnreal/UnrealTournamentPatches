@@ -109,7 +109,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * Fixed a bug that broke logging of certain fatal errors in the game/server log file on Linux and macOS
 * Fixed a bug that broke game relaunching from the video options menu if your game executable was not called UnrealTournament.exe
 * Fixed a bug that could make CTRL+V paste garbled text from the Windows clipboard
-* Fixed a bug that made it impossible to load savegames if the saved map had lazy-loaded sounds, music, or meshes 
+* Fixed a bug that made it impossible to load savegames if the saved map had lazy-loaded sounds, music, or meshes ([#1275](../../issues/1275))
 
 ### Enhancements
 
