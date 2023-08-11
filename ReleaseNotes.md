@@ -80,6 +80,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * Fixed a bug that made the 2D editor incorrectly render the grid after zooming ([#994](../../issues/994), External Contribution by Buggie)
 * Fixed a bug that made the code editor scroll to the wrong line after the compiler reported an error (External Contribution by Buggie)
 * Fixed several bugs that made it impossible to use classes/objects with spaces, brackets, or parentheses in their names ([#1124](../../issues/1124), [#1072](../../issues/1072), [#930](../../issues/930))
+* Fixed a bug that could break the "Play Map" button under certain circumstances (External Contribution by Buggie)
 
 #### UnrealScript
 
@@ -103,6 +104,10 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 
 * Fixed a bug that could give the game window incorrect dimensions after changing the game resolution on a macOS system
 * Fixed a bug that made it impossible for certain renderers (such as OpenGLDrv) to acquire an exclusive fullscreen window. As a side effect of this bug fix, (mouse) input latency should now be noticeably lower when using these renderers ([#795](../../issues/795))
+* Fixed a bug that made ALAudio restart the currently playing music track after pasting or duplicating an actor (External Contribution by Buggie) ([#1325](../../issues/1325))
+* Fixed a bug that caused choppy music playback in ALAudio after CPU load spikes (External Contribution by Buggie) ([#1330](../../issues/1330))
+* Fixed a bug that made ALAudio loop OGG music tracks too early (External Contribution by Buggie) ([#1332](../../issues/1332))
+* Fixed a bug that made ALAudio corrupt OGG sounds and music tracks in packages saved using UnrealEd (External Contribution by Buggie) ([#1344](../../issues/1344))
 
 #### Miscellaneous
 
@@ -191,6 +196,7 @@ This new directive makes static functions, struct definitions, and enums declare
 * The in-game browser now supports clicking on https links
 * If a function call gets absorbed, the UnrealScript VM will now return a default-initialized return value for the called function ([#1226](../../issues/1226))
 * Added a "Fix/Update Network Settings" button to the in-game menu. This button will update your client's outdated masterserver settings and restore the server browser's functionality (External Contribution by Buggie)
+* UWindowList now uses merge sort to sort lists. This speeds up sorting of large lists and fixes runaway loop crashes (External Contribution by Buggie)
 
 #### Audio and 3D Rendering
 
