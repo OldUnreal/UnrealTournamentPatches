@@ -28,6 +28,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * This patch adds support for Linux-aarch64/ARMv8 platforms. This means you can now host servers (or even play the game) on your Raspberry Pi 3/4! ([#1013](../../issues/1013), [Patreon Post](https://www.patreon.com/posts/83522201))
 * Good news for movement-centric game types such as BunnyTrack: This patch fixes several long-standing movement and networking issues! (e.g., [#782](../../issues/782), [#805](../../issues/805), [#228](../../issues/228))
 * We've dealt a real blow to the Editor goblin. 469d has tons of editor bug fixes, improvements, and new tools
+* The 469d client should now automatically connect to the community master servers, regardless of how you installed it. If your server browser is still empty after installing the patch, then simply go to Options>Preferences>Network in the game menu and click the "Update/Fix Network Settings" button to restore your game's online functionality
 
 ### Patch Distribution
 
