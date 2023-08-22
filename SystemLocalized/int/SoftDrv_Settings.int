@@ -1,0 +1,10 @@
+﻿[Public]
+Property=(Config,Class=SoftDrv.SoftwareRenderDevice,Name=DetailBias,Title="DetailBias",Description="Set this to higher values to reduce rendering detail for faraway surfaces.")
+Property=(Config,Class=SoftDrv.SoftwareRenderDevice,Name=FastTranslucency,Title="FastTranslucency",Description="Improves rendering performance and reduces rendering quality for translucent surfaces.")
+Property=(Config,Class=SoftDrv.SoftwareRenderDevice,Name=LowResTextureSmooth,Title="LowResTextureSmooth",Description="Enables texture smoothing. Has no effect if your game window is more than 400px wide.")
+Property=(Config,Class=SoftDrv.SoftwareRenderDevice,Name=HighResTextureSmooth,Title="HighResTextureSmooth",Description="Enables texture smoothing. Has no effect if your game window is less than 400px wide.")
+Property=(Config,Class=SoftDrv.SoftwareRenderDevice,Name=DetailTextures,Title="Detail Texturing",Description="If checked, enables Detail Texturing.")
+Property=(Config,Class=SoftDrv.SoftwareRenderDevice,Name=HighDetailActors,Title="HighDetailActors",Description="Enables high-detail actor rendering. Disabling this might marginally improve rendering performance, but will dramatically reduce image quality.")
+Property=(Config,Class=SoftDrv.SoftwareRenderDevice,Name=Coronas,Title="Coronas",Description="Enables rendering of light coronas.")
+Property=(Config,Class=SoftDrv.SoftwareRenderDevice,Name=ShinySurfaces,Title="ShinySurfaces",Description="Enables rendering of shiny surfaces such as mirrors.")
+Property=(Config,Class=SoftDrv.SoftwareRenderDevice,Name=VolumetricLighting,Title="VolumetricLighting",Description="Enables rendering of volumetric lights such as light boxes.")
