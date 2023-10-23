@@ -47,10 +47,16 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 
 #### UnrealScript
 
-* Fixed a bug that could cause the game to crash if an actor set a latent action and performed a state change within the same expression 
-* Fixed a bug that could cause the game to freeze after pressing the jump key while spectating on maps such as AS-HiSpeed ([#732](../../issues/732), External Contribution by Buggie)
+* Fixed a bug that could make the game crash if an actor set a latent action and performed a state change within the same expression 
+* Fixed a bug that could make the game freeze after pressing the jump key while spectating on maps such as AS-HiSpeed ([#732](../../issues/732), External Contribution by Buggie)
 * Fixed a bug that could make the game crash if a SkaarjBerserker tried to attack a friendly player ([#1066](../../issues/1066), External Contribution by Buggie)
-* Fixed a bug that could cause a game the game to crash when calling UPlayer::Destroy during garbage collection
+* Fixed a bug that could make the game crash when calling UPlayer::Destroy during garbage collection ([#1398](../../issues/1398))
+
+#### Unreal Editor
+
+* Fixed a bug that could make the editor crash while creating fonts with the TrueTypeFontFactory ([#1368](../../issues/1368))
+* Fixed a bug that made the editor crash when attempting to export a compressed texture without P8 data ([#1396](../../issues/1396))
+* Fixed a bug that made the editor crash when unaligning a surface after deleting its brush ([#1254](../../issues/1254))
 
 #### Audio and 3D Rendering
 
@@ -82,6 +88,13 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * Fixed a bug that made the code editor scroll to the wrong line after the compiler reported an error (External Contribution by Buggie)
 * Fixed several bugs that made it impossible to use classes/objects with spaces, brackets, or parentheses in their names ([#1124](../../issues/1124), [#1072](../../issues/1072), [#930](../../issues/930))
 * Fixed a bug that could break the "Play Map" button under certain circumstances (External Contribution by Buggie)
+* Fixed a bug that made it impossible to select certain movers
+* Fixed a bug that sometimes made the pivot silently snap to the grid ([#458](../../issues/458))
+* Fixed bugs that caused erratic in-game input behavior after launching the game through the editor "Play Map" button ([#1204](../../issues/1204), [#1203](../../issues/1203), [#1202](../../issues/1202))
+* Fixed a bug that forced the game log window to the background after launching the game through the editor "Play Map" button ([#447](../../issues/447))
+* Fixed a misleading error message that appeared when compiling a class with a struct declared in a local function scope ([#1403](../../issues/1403))
+* Fixed a bug that sometimes made it impossible to import sounds and music into the "None" group ([#1345](../../issues/1345))
+* Fixed a bug that made the editor calculate incorrect iWarpZone values for portals with unexpected iZonePortalSurf values ([#521](../../issues/521))
 
 #### UnrealScript
 
@@ -100,6 +113,8 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * We partially reverted UTPG's illegal skin check. Bots should now, once again, be able to use skins from all ServerPackages ([#1179](../../issues/1179), [#56](../../issues/56))
 * Fixed a bug that could cause lag spikes on servers when a client requested the server's mutator list ([#1218](../../issues/1218))
 * Fixed a bug that made the exec console command incorrectly parse its arguments ([#1279](../../issues/1279))
+* The AddToPackageMap and IsInPackageMap should now work as expected
+* Fixed a bug that made certain crosshairs render incorrectly when disabling 469's crosshair translucency setting ([#1405](../../issues/1405))
 
 #### Audio and 3D Rendering
 
@@ -109,6 +124,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * Fixed a bug that caused choppy music playback in ALAudio after CPU load spikes (External Contribution by Buggie) ([#1330](../../issues/1330))
 * Fixed a bug that made ALAudio loop OGG music tracks too early (External Contribution by Buggie) ([#1332](../../issues/1332))
 * Fixed a bug that made ALAudio corrupt OGG sounds and music tracks in packages saved using UnrealEd (External Contribution by Buggie) ([#1344](../../issues/1344))
+* Fixed a bug that caused inaccurate playback of ambient sounds when playing with ALAudio and HRTF enabled (External Contribution by Buggie) ([#1338](../../issues/1338))
 
 #### Miscellaneous
 
@@ -173,6 +189,10 @@ Server admins should upgrade ACE to version 1.1e or later to check 469d clients.
 * Added support for importing PNG grayscale images
 * Unreal Editor no longer attempts to test editor support for certain outdated renderers (such as GlideDrv)
 * The UCC make commandlet now allows you to specify which extra packages you want to build by adding the -packages=package1:...:packageN command line parameter. Make parses this parameter and builds the entire list of extra packages after building the EditPackages
+* Most UCC commandlets will now recognize the "--" command line delimiter. This delimiter allows you to separate commandlet-specific parameters from global UCC parameters
+* D3D9Drv and OpenGLDrv now allow you to configure the color for selected surfaces in Unreal Editor ([#823](../../issues/823))
+* Unreal Editor no longer adds a leading space to the command line parameters it passes to the game if said parameters start with a '?' character. This means you should now be able to set Editor.EditorEngine.GameCommandLine to, for example, "?Game=Botpack.CTFGame?Mutator=Botpack.InstaGibDM -log" ([#529](../../issues/529))
+* The editor now gives you line information when warning about an unreferenced local variable during UnrealScript compilation ([#355](../../issues/355))
 
 #### UnrealScript
 
@@ -198,6 +218,7 @@ This new directive makes static functions, struct definitions, and enums declare
 * If a function call gets absorbed, the UnrealScript VM will now return a default-initialized return value for the called function ([#1226](../../issues/1226))
 * Added a "Fix/Update Network Settings" button to the in-game menu. This button will update your client's outdated masterserver settings and restore the server browser's functionality (External Contribution by Buggie)
 * UWindowList now uses merge sort to sort lists. This speeds up sorting of large lists and fixes runaway loop crashes (External Contribution by Buggie)
+* The player mesh in the player setup window should now rotate at a frame rate-independent speed (External Contribution by Buggie) ([#1393](../../issues/1393))
 
 #### Audio and 3D Rendering
 
