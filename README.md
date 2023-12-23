@@ -167,7 +167,7 @@ When filing a bug report, please include relevant details about your setup (i.e.
 
 ## Credits
 
-The primary developers for the OldUnreal patches were: Smirftsch, Dots, Han, [Higor](https://github.com/CacoFFF), and [AnthraX](https://github.com/stijn-volckaert).
+The primary developers for OldUnreal's Unreal Tournament patches are: [AnthraX](https://github.com/stijn-volckaert), [Higor](https://github.com/CacoFFF), [Buggie](https://github.com/SeriousBuggie), [Dots](https://github.com/Marco888), and [Smirftsch](https://github.com/Smirftsch).
 
 We also want to recognize the hard work of the many beta testers and contributors in our community:
 * Chamberly, Casey: for the many internal bug reports and mental support
@@ -177,10 +177,10 @@ We also want to recognize the hard work of the many beta testers and contributor
 * Sizzl, batonix, ue, Zim: for extensive testing and feedback on the game server
 * uZi, batonix, zkyp, and the members of the UTCTF.pug community: for helping us debug the invisible weapon/flag problem
 * Sp0ngeb0b, proasm, Deepu: for extensive testing and feedback on UnrealScript-related issues
-* Buggie: for extremely thorough testing, for the record number of bug reports, and for contributing the wxWidgets launcher and hundreds of bug fixes and improvements
 * Eternity: for helping us solve the FCollisionHash problem
 * Dizzy and NuLL: for helping us solve the invisible collision problem
 * Deaod: for feedback on our movement updates and various bug fixes
+* Metallicafan212 and dpJudas: for bug reports, fixes, and productive discussions on various rendering issues
 
 Localization credits:
 * Epic Games/Digital Extremes/Legend Entertainment: Original English/German/French/Spanish/Italian localizations

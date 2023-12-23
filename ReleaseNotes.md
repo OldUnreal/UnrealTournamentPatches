@@ -13,6 +13,155 @@
 * [UT99.org - Unreal Tournament Community](https://ut99.org)
 * [OldUnreal](https://www.oldunreal.com)
 
+## Unreal Tournament Version 469e Release Notes [ First Preview Builds Now Available for Private Testers! ]
+
+Version 469e is completely network compatible with all previous public releases of UT (down to 432).
+The UTPG and OldUnreal teams worked hard to maintain binary compatibility with older native mods.
+Most of these mods will continue to work in version 469e. However, some mods may need some trivial updates.
+If you are a native mod author, and you are having trouble updating your mod for version 469e, then please come talk to us on [Discord](https://discord.gg/thURucxzs6).
+**Note:** This patch disables older versions of ACE.
+Server admins should upgrade ACE to version 1.1e or later to check 469e clients.
+
+### Patch Highlights
+
+* Apple users rejoice! This patch includes a brand new renderer that will talk to your machine using Apple's Metal API.
+You can enable this new renderer by setting the GameRenderDevice option in the [Engine.Engine] section of your game ini to Frucore.FrucoreRenderDevice.
+Please note that we couldn't call this renderer MetalDrv because that name is still taken by the renderer that targets S3's Metal API.
+
+### Stability Improvements
+
+#### Unreal Editor
+
+* Fixed a bug that could make Unreal Editor crash when deleting an actor whose Level property still referred to a deleted LevelInfo object ([#1400](../../issues/1400))
+* Fixed a bug that could make Unreal Editor crash when adding mipmaps to a compressed texture without P8 mips ([#1395](../../issues/1395))
+* Fixed a bug that could make Unreal Editor crash when building lights on very large maps
+
+#### Audio and 3D Rendering
+
+* Fixed a bug that could make the game or editor crash when rendering an actor mesh without a texture ([#700](../../issues/700))
+* Fixed a bug that could make SoftDrv crash when rendering certain meshes ([#545](../../issues/545))
+* Fixed a bug that could make the game or editor crash when enabling bFilterByVolume on certain actors ([#699](../../issues/699))
+
+#### Networking and Netcode
+
+* Fixed a bug that could make the game crash when connecting to a server after having run the "reconnect" command on the entry map ([#826](../../issues/826))
+
+#### Physics and Player Movement
+
+* Fixed a bug that could make the game crash when a bot tried to move around on a map with invalid paths ([#1097](../../issues/1097))
+
+### Bug Fixes
+
+#### Unreal Editor
+
+* Fixed a bug that made it impossible to undo a cut operation on a NavigationPoint ([#1242](../../issues/1242))
+* Fixed a bug that made it impossible to undo a right click operation on a vertex ([#1168](../../issues/1168))
+* Fixed a bug that made Unreal Editor deselect the currently selected actors when pressing "Show Selected Actors Only" ([#1039](../../issues/1039))
+* Unreal Editor should now correctly initialize all pivot components when placing a pivot in an ortho viewport ([#969](../../issues/969))
+* Unreal Editor will now show the correct map name after failing to load a map ([#825](../../issues/825))
+* Unreal Editor will no longer clear the Region of all level actors after pasting an actor ([#621](../../issues/621))
+* The mesh and texture browsers should now ignore CAMERA ALIGN commands ([#516](../../issues/516))
+* Fixed a bug that made the texture browser show the wrong texture type for textures that only contain compressed data ([#1411](../../issues/1411))
+* Fixed a bug that could make movers move or rotate inadvertently after building lights ([#1342](../../issues/1342))
+* Fixed incorrect lighting of movers whose BrushRaytraceKey differed from their WorldRaytraceKey ([#668](../../issues/668))
+* Unreal Editor will now update the pivot location after resetting brushes ([#273](../../issues/273))
+* Fixed bugs that could make grid lines not render correctly ([#694](../../issues/694), [#695](../../issues/695))
+* Fixed a bug that made vertices move too quickly when editing them in a maximally zoomed viewport ([#1419](../../issues/1419))
+* Fixed a bug that made Unreal Editor ruin texture alignment when editing/transforming brushes ([#1161](../../issues/1161), [#1166](../../issues/1166))
+* Fixed several bugs that made it nearly impossible to vertex edit in 3D viewports ([#1299](../../issues/1299))
+* Fixed a bug that could make the active brush render incorrectly after importing an OBJ file ([#1422](../../issues/1422))
+* The texture rotate command now works as expected for unproportionally scaled textures ([#1431](../../issues/1431))
+* Copy pasting surface properties between surfaces with different orientations should now work as expected ([#1220](../../issues/1220))
+* Fixed a bug that could cause vertices moved with ALT+LMB not to snap to the grid, even if the snap to grid option was enabled ([#1421](../../issues/1421))
+* Unreal Editor will no longer prevent you from overwriting packages it previously failed to load ([#578](../../issues/578))
+* Fixed a bug that made the path builder inadvertently modify the collision settings of map actors ([#574](../../issues/574))
+* Fixed a bug that could make Unreal Editor export certain textures, sounds, and music files using the wrong name ([#1273](../../issues/1273))
+* The actor browser should now select the correct class when pressing the "..." button for an actor property in the properties window ([#1326](../../issues/1326))
+* Fixed a bug that made the 2D Editor revolve function calculate incorrect texture rotation angles ([#1426](../../issues/1426))
+* Fixed a bug that could make actor properties window freeze when editing actors that refer to each other ([#1462](../../issues/1462))
+
+#### UnrealScript
+
+* Fixed a bug that could make the game's random number generator generate invalid numbers in rare cases. One known side effect of this bug is that paths could stop working in online games on certain maps ([#389](../../issues/389))
+* Fixed a bug that caused a mismatch between the Level.Millisecond and Level.Second values on Linux/Mac servers ([#1064](../../issues/1064))
+* Fixed a bug that made it impossible to select certain skins (such as the Atomic Cow skin) in the in-game player setup menu ([#362](../../issues/362))
+* Fixed a bug that made the LevelInfo timer ignore changes to the game speed ([#1302](../../issues/1302))
+* UBrowserHTTPClient should now report the correct HTTP error code for large error pages ([#1350](../../issues/1350))
+* Fixed a bug that made the teleport effect play twice for bots spawning with bSpawnInTeamArea set to true ([#1387](../../issues/1387))
+
+#### Audio and 3D Rendering
+
+* The game will now render sprites, meshes, and effects that are visible through portals in their correct locations ([#654](../../issues/654), [#1448](../../issues/1448), [#218](../../issues/218))
+* Fixed a bug that could make textures stop panning after a while ([#1374](../../issues/1374))
+
+#### Input and Windowing
+
+* Fixed a bug that could make the game lose mouse focus, hide the mouse cursor, or enforce incorrect mouse cursor clipping bounds when entering fullscreen mode ([#1261](../../issues/1261), [#1000](../../issues/1000), [#488](../../issues/488), [#1472](../../issues/1472))
+* Fixed a bug that made Unreal Editor lose focus when undocking or closing all browser windows ([#728](../../issues/728))
+
+#### Localization
+
+* Fixed a bug that made it impossible to localize the names of certain skins displayed in the in-game player setup menu
+
+### Enhancements
+
+#### Networking and Netcode
+
+* Servers will now correctly replicate the value of config variables that appear in replication blocks
+
+#### Unreal Editor
+
+* Undoing a texture rotate operation now correctly restores all rotated textures at once ([#1167](../../issues/1167))
+* Unreal Editor now gracefully handles failures to spawn actors during t3d import operations ([#549](../../issues/549))
+* Improved readability of texture browser labels ([#959](../../issues/959))
+* Vertex editing operations can now be undone using CTRL+Z ([#677](../../issues/677))
+* Improved performance for many of the editor's build operations
+* The POLY SELECT MATCHING BRUSH command will now select the surfaces of all selected brushes if no surfaces are initially selected ([#667](../../issues/667))
+* Unreal Editor will now merge all zones without a zoneinfo actor into one zone whenever we would otherwise exceed the maximum number of zones ([#690](../../issues/690))
+* Clarified the map cleanup tool dialog message ([#904](../../issues/904))
+* Ortho viewports will now calculate the LODBias value for rendered meshes based on the viewport zoom level rather than the distance between the camera and the mesh ([#262](../../issues/262))
+* Unreal Editor will no longer select camera viewports when box selecting ([#829](../../issues/829))
+* Added or improved compiler warnings for several erroneous or dangerous operations ([#301](../../issues/301), [#853](../../issues/853), [#1420](../../issues/1420))
+* Unreal Editor now shows the surface skew and angle in the stats tab of the surface properties window ([#924](../../issues/924))
+* You can now configure the lightmap scale/level of detail in the Unreal Editor build menu ([#1416](../../issues/1416))
+* Unreal Editor no longer spams the log file with messages during path building ([#1413](../../issues/1413))
+* It is now possible to undo/redo the hide selected actors and invert actor selection commands
+* Added menu options for separating, merging, and flipping the polygons of the selected surfaces
+* Added a menu option for selecting the surfaces of the selected brushes
+* Improved scrolling performance in the texture browser
+* Unreal Editor now shows the game build date and version in the main window ([#1221](../../issues/1221))
+* The actor browser now retains the expanded state for each actor in the tree after refreshing
+* Added a 2D Editor option that imports the shape of selected surfaces or brushes
+* The texture properties and replace dialogs will now render textures using the texture browser's renderer ([#1276](../../issues/1276))
+* The code editor will now save the source code of the class you're currently editing when you click the export scripts button
+* Unreal Editor will no longer open docked browser windows when it launches ([#1298](../../issues/1298))
+* Added a 2D Editor option that clears the shape you're currently editing ([#1378](../../issues/1378))
+* Unreal Editor will now show the size of the current selection rectangle in Unreal Units ([#1377](../../issues/1377))
+* Unreal Editor will now warn you when one of the content browsers fails to save a package ([#686](../../issues/686))
+* Added a surface menu options to select non-coplanar polygons
+* Added a menu option to tesselate selected surfaces or brushes
+* The menu options and button tooltips for undo/redo will now show you which actions they will undo/redo ([#1205](../../issues/1205))
+* You can now adjust the code editor font size using CTRL+Mouse Wheel or by setting the CodeFontSize option in the [Options] section of UnrealEd.ini ([#1317](../../issues/1317))
+
+#### UnrealScript
+
+* The game will now report the last known location for actors that fell out of the world ([#1390](../../issues/1390))
+* The game now resets and recalculates each actor's StandingCount when loading a map ([#1341](../../issues/1341))
+* The game now resets the Level.TimeDilation value when loading a map ([#1373](../../issues/1373))
+* The in-game preferences menu will now populate the video resolution list with common resolutions if the renderer fails to report supported resolutions ([#1452](../../issues/1452))
+* UWindowURLTextAreas now support mailto and https links
+* UWindowURLTextAreas and UWindowHTMLTextAreas now support mouse copy pasting
+* You can now modify the speed at which PlayerPawns move in state CheatFlying by editing the PlayerPawn.CheatFlyingSpeed property ([#1258](../../issues/1258))
+* The game mode and game type filters in the in-game server browser are now case-insensitive ([#1437](../../issues/1437))
+* UWindowWindow.SetAcceptsFocus() should now work as expected even if the Window's parent has changed since the previous call ([#897](../../issues/897))
+* The map selection dialogs now support level screenshots with unexpected names ([#926](../../issues/926))
+* The in-game server browser now shows you useful information such as the game speed, remaining time, elapsed time, and much more ([#439](../../issues/439))
+
+#### Input and Windowing
+
+* The editor/game log window can now be minimized and maximized
+* The game will now automatically switch to windowed mode when you launch the actor editor ([#1296](../../issues/1296))
+
 ## Unreal Tournament Version 469d Release Notes
 
 Version 469d is completely network compatible with all previous public releases of UT (down to 432).
@@ -224,6 +373,7 @@ This new directive makes static functions, struct definitions, and enums declare
 
 * Added support for various new audio formats (many of which were already supported by Galaxy and Cluster) in ALAudio ([#324](../../issues/324))
 * The game should now be able to enforce high frame rate caps on Windows ([#176](../../issues/176))
+* Galaxy's audio output should now more closely match UT version 436, as it now plays certain sounds at 4 times the intended volume ([#505](../../issues/505))
 
 #### Networking and Netcode
 
