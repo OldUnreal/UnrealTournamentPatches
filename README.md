@@ -181,6 +181,7 @@ We also want to recognize the hard work of the many beta testers and contributor
 * Dizzy and NuLL: for helping us solve the invisible collision problem
 * Deaod: for feedback on our movement updates and various bug fixes
 * Metallicafan212 and dpJudas: for bug reports, fixes, and productive discussions on various rendering issues
+* Masterkent: for the widescreen fov fix
 
 Localization credits:
 * Epic Games/Digital Extremes/Legend Entertainment: Original English/German/French/Spanish/Italian localizations
@@ -193,7 +194,7 @@ Localization credits:
 * **_French:_** **Hellkeeper** (review), **Rackover/Louvenarde** (additional contributions)
 * **_Spanish:_** **Neon_Knight** (review), **rarsonic** (additional contributions)
 * **_Italian:_** **Alby1987** (review), **UBerserker, BBG-(DOG)-, Lowenz** and **TaglesMalsto** (additional contributions)
-* **_Russian:_** **u.HighPriest** (original Unreal localization), **Reborn** (reviews) **Skaarj ZR, FLAK, ArchGrey** and **Sergei** (additional contributions)
+* **_Russian:_** **u.HighPriest** (original Unreal localization), **Lynx** (original UT localization), **Reborn** (reviews) **Skaarj ZR, FLAK, ArchGrey** and **Sergei** (additional contributions)
 * **_Polish:_** **Victor Delacroix** (original Unreal localization), **yrex.** (additional contributions)
 * **_Portuguese:_** **Nahand** (original Unreal localization), **BIr4** (review), **Naruto_9** (additional contributions)
 * **_Catalan:_** **rarsonic** (additional contributions)
