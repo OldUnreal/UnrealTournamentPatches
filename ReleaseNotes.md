@@ -27,6 +27,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469e clients.
 * Apple users rejoice! This patch includes a brand new renderer that will talk to your machine using Apple's Metal API.
 You can enable this new renderer by setting the GameRenderDevice option in the [Engine.Engine] section of your game ini to Frucore.FrucoreRenderDevice.
 Please note that we couldn't call this renderer MetalDrv because that name is still taken by the renderer that targets S3's Metal API.
+* Added several quality-of-life improvements such as widescreen fov scaling
 
 ### Stability Improvements
 
@@ -156,6 +157,13 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * UWindowWindow.SetAcceptsFocus() should now work as expected even if the Window's parent has changed since the previous call ([#897](../../issues/897))
 * The map selection dialogs now support level screenshots with unexpected names ([#926](../../issues/926))
 * The in-game server browser now shows you useful information such as the game speed, remaining time, elapsed time, and much more ([#439](../../issues/439))
+* The default HUD will now render a solid chat area if you set the HUD opacity to the maximum value ([#640](../../issues/640))
+* Added a new preferences menu option to adjust your Field of View (FOV) angle ([#1375](../../issues/1375))
+* Added a new preferences menu dropdown box to switch between fullscreen and windowed mode ([#42](../../issues/42))
+
+#### Audio and 3D Rendering
+
+* The game can now apply widescreen-friendly Hor+ Field of View (FOV) scaling while maintaining the correct weapon and muzzle flash positioning (External Contribution by Masterkent) ([#111](../../issues/111))
 
 #### Input and Windowing
 
