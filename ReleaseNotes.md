@@ -24,6 +24,9 @@ Server admins should upgrade ACE to version 1.1e or later to check 469e clients.
 
 ### Patch Highlights
 
+* Our Windows patches now include two great DirectX 11-based renderers: Metallicafan212's ICBINDx11 and dpJudas' D3D11Drv.
+These renderers offer great performance, low input latency, and lots of features.
+However, they will only work on recent versions of Windows and require a somewhat recent GPU.
 * Apple users rejoice! This patch includes a brand new renderer that will talk to your machine using Apple's Metal API.
 You can enable this new renderer by setting the GameRenderDevice option in the [Engine.Engine] section of your game ini to Frucore.FrucoreRenderDevice.
 Please note that we couldn't call this renderer MetalDrv because that name is still taken by the renderer that targets S3's Metal API.
