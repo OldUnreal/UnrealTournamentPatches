@@ -1,7 +1,0 @@
-﻿[Public]
-; EN: Object=(Name=de.VolatileAmmo,Class=Class,MetaClass=Engine.Mutator,Description="Volatile Ammo, Ammo explodes when shot.")
-Object=(Name=de.VolatileAmmo,Class=Class,MetaClass=Engine.Mutator,Description="Munição Volátil, Munição explode quando disparada.")
-; EN: Object=(Name=de.VolatileWeapon,Class=Class,MetaClass=Engine.Mutator,Description="Volatile Weapon,Killed players will discharge their weapon!")
-Object=(Name=de.VolatileWeapon,Class=Class,MetaClass=Engine.Mutator,Description="Armas Voláteis, jogadores mortos descarregarão suas armas!")
-; EN: Object=(Name=de.TeamBeacon,Class=Class,MetaClass=Engine.Mutator,Description="Team Beacon,Identifies team members.")
-Object=(Name=de.TeamBeacon,Class=Class,MetaClass=Engine.Mutator,Description="Sinalizador de Companheiro,Identifica os membros da equipe.")

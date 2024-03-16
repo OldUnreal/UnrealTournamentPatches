@@ -1,8 +1,0 @@
-﻿[Public]
-Object=(Name=SGLDrv.SGLRenderDevice,Class=Class,MetaClass=Engine.RenderDevice,Autodetect=SGL.dll)
-Preferences=(Caption="PowerVR SGL",Parent="Rendering",Class=SGLDrv.SGLRenderDevice,Immediate=True)
-
-[SglRenderDevice]
-ClassCaption="PowerVR SGL"
-AskInstalled="Do you have a PowerVR card installed?"
-AskUse="Do you want Unreal Tournament to use your PowerVR card?"

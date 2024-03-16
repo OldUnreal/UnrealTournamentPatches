@@ -1,9 +1,0 @@
-﻿[public]
-; EN: Object=(Name=RelicsBindings.ExtraRelicsBindings,Class=Class,MetaClass=UTMenu.UTExtraKeyBindings,Description="Relics,Toss Relic")
-Object=(Name=RelicsBindings.ExtraRelicsBindings,Class=Class,MetaClass=UTMenu.UTExtraKeyBindings,Description="Reliquie,Lascia la Reliquia")
-
-[ExtraRelicsBindings]
-; EN: SectionName="Relics"
-SectionName="Reliquie"
-; EN: LabelList[0]="Toss Relic"
-LabelList[0]="Lascia la Reliquia"

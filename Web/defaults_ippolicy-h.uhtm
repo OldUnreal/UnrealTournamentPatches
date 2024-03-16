@@ -1,6 +1,0 @@
-<!-- #include file="inc/header.inc" -->
-<!-- #include file="inc/content_header_tables.inc" -->
-<table width="300" border="0">
-	<tr>
-		<th>Accept<br/>Deny</th><th colspan="2">IP Address Mask</th><th></th>
-	</tr>
