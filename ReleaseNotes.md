@@ -112,6 +112,9 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that made the editor skip the compilation of new classes until you had modified their initial code ([#133](../../issues/133))
 * Fixed a bug that could destroy brushes when zooming or moving the camera while vertex editing ([#1540](../../issues/1540))
 * Fixed a bug that could destroy texture alignment for surfaces on which you had used OneTile alignment prior to rebuilding the map ([#1543](../../issues/1543))
+* Fixed a bug that corrupted brushes when undoing certain editor operations
+* Fixed a bug that made the brush importer corrupt the texture UV alignment on non-triangulated brushes ([#1560](../../issues/1560))
+* Fixed a bug that made Unreal Editor discard the saved camera positions when loading a map ([#651](../../issues/651))
 
 #### UnrealScript
 
@@ -144,6 +147,8 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that could make the game lose mouse focus, hide the mouse cursor, or enforce incorrect mouse cursor clipping bounds when entering fullscreen mode ([#1261](../../issues/1261), [#1000](../../issues/1000), [#488](../../issues/488), [#1472](../../issues/1472))
 * Fixed a bug that made Unreal Editor lose focus when undocking or closing all browser windows ([#728](../../issues/728))
 * Fixed a bug that made the minimize button disappear in some cases when switching to windowed mode ([#1546](../../issues/1546))
+* Fixed a bug that could get the game stuck in a window resizing loop on Linux and macOS ([#1158](../../issues/1158))
+* Fixed a bug that made it impossible to relaunch the game after changing video settings on Linux and macOS
 
 #### Localization
 
@@ -158,6 +163,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 #### Networking and Netcode
 
 * Servers will now correctly replicate the value of config variables that appear in replication blocks
+* The in-game server browser now correctly decodes UTF-8-encoded server names and server info
 
 #### Unreal Editor
 
@@ -214,6 +220,9 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Improved mipmap generation for images with low color depth ([#1408](../../issues/1408))
 * Added group browser buttons that re-apply the visibility rules of the selected groups or all groups to actors in the groups ([#107](../../issues/107), [#285](../../issues/285), [#412](../../issues/412), [#413](../../issues/413))
 * The texture import tool can now optionally use Bright to palletize P8 textures or ImageMagick to import textures stored in formats we do not natively support. To use these tools, install their respective binaries into the game's System folder, and check the "Use Bright" or "Use ImageMagick" boxes in the texture import dialog ([#1012](../../issues/1012))
+* The sound browser now shows the bit depth, frequency, and number of channels in each sound sample
+* You can now edit vertices in the 2D and 3D viewports using SHIFT+LMB/RMB ([#1551](../../issues/1551))
+* The brush exporter can now export non-triangulated brushes ([#1561](../../issues/1561))
 
 #### UnrealScript
 
@@ -246,16 +255,19 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 #### Audio and 3D Rendering
 
 * The game can now apply widescreen-friendly Hor+ Field of View (FOV) scaling while maintaining the correct weapon and muzzle flash positioning (External Contribution by Masterkent) ([#111](../../issues/111))
+* You can now enable and disable vertical synchronization when playing with the OpenGLDrv renderer on a Linux/ARM platform
 
 #### Input and Windowing
 
 * The editor/game log window can now be minimized and maximized
 * The game will now automatically switch to windowed mode when you launch the actor editor ([#1296](../../issues/1296))
 * The game will now remove the window borders when you use windowed mode with a resolution equal to or larger than the screen resolution ([#1364](../../issues/1364))
+* The Linux and macOS clients will now use SDL2's fullscreen desktop window option when they open a fullscreen window with the same resolution as your desktop. As a result, you should now be able to use Cmd+Tab and media hotkeys on Mac systems.
 
 #### Miscellaneous
 
 * The game will now log a more descriptive error when it tries to load a package without a valid header ([#1389](../../issues/1389))
+* We now use Microsoft's mimalloc memory allocator. This gives us a nice performance boosts in the game client, server, and editor on all platforms
 
 ## Unreal Tournament Version 469d Release Notes
 
