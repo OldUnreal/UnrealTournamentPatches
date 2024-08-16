@@ -23,15 +23,15 @@ Our official patch releases can be found on the [Releases Page](https://github.c
 > [!IMPORTANT]
 > If you want to test out our patches, but maintain the possibility to uninstall them, we strongly urge you to create a backup of your entire UT folder before installing the patch.
 
-#### Windows Installation
+## Windows Installation
 
-##### Windows 7 or later
+### Windows 7 or later
 
 We distribute our patches for modern **Windows** systems in multiple formats. We recommend that you run the exe installer to patch your game.
 
 However, you can also simply unpack the zip package **on top of an existing installation** of Unreal Tournament. No other actions are needed to install the patch.
 
-##### Windows XP and Vista
+### Windows XP and Vista
 
 The **legacy Windows** version of our patch is only available as a zip package. You can install this patch by unpacking the zip file **on top of an existing installation** of Unreal Tournament. No other actions are needed to install the patch.
 
@@ -40,7 +40,7 @@ The **legacy Windows** version of our patch is only available as a zip package. 
 > * The patch for Windows XP and Vista is experimental and (mostly) untested.
 > * Windows XP and Vista support will be removed from future patches.
 
-#### Linux Installation
+## Linux Installation
 
 The **Linux** version of our patch is only available as a tarball. To install, unpack the tarball **on top of an existing installation** of Unreal Tournament.
 
@@ -75,7 +75,7 @@ To install the content from the GOTY cd 2 or bonus packs:
 
 No other actions are needed to install the patch.
 
-#### macOS Installation
+## macOS Installation
 
 The macOS version of our patch comes as an application bundle. You should drag this bundle into your applications library. If you're installing our macOS patch for the first time, you will also need to copy the data files from an existing UT installation into your Application Support Library. To install the data files, you need to do the following:
 1. Open a new Finder window
@@ -175,9 +175,9 @@ We are more than happy to accept other contributions too. Some of the things we 
 
 You can use our [issue tracker](https://github.com/OldUnreal/UnrealTournamentPatches/issues) to file bug reports. Reasonable feature requests for Unreal Editor can also be posted there. Please do not ask for new features in the game itself as these are out of the scope of our project.
 
-Before filing a bug report, please use the GitHub search function to see if someone else has already reported the same issue. If you find an issue that looks similar to yours, then please submit a comment in the existing issue report.
-
-When filing a bug report, please include relevant details about your setup (i.e., your operating system and version, your UT version and build date, mods you are using) and describe how we can reproduce the problem.
+> [!IMPORTANT]
+> Before filing a bug report, please use the GitHub search function to see if someone else has already reported the same issue. If you find an issue that looks similar to yours, then please submit a comment in the existing issue report.
+> When filing a bug report, please include relevant details about your setup (i.e., your operating system and version, your UT version and build date, mods you are using) and describe how we can reproduce the problem.
 
 ## Credits
 
