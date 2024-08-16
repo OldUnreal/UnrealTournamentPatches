@@ -20,7 +20,8 @@ If you are a modder or beta tester and you would like to test our latest changes
 
 Our official patch releases can be found on the [Releases Page](https://github.com/OldUnreal/UnrealTournamentPatches/releases). If you are a regular player or if you want to play online, then please use official releases only.
 
-If you want to test out our patches, but maintain the possibility to uninstall them, we strongly urge you to create a backup of your entire UT folder before installing the patch.
+> [!IMPORTANT]
+> If you want to test out our patches, but maintain the possibility to uninstall them, we strongly urge you to create a backup of your entire UT folder before installing the patch.
 
 #### Windows Installation
 
@@ -45,11 +46,14 @@ The **Linux** version of our patch is only available as a tarball. To install, u
 
 Alternatively, to spare you the pain of using Wine to install the Windows version, you can unpack our patch into an empty directory, which we will refer to as the **game directory**. You can then install the rest of the game as follows:
 
-**Note:** directory names below are Case Sensitive!
+> [!NOTE]
+> The directory names below are Case Sensitive!
 
 1) **Mount** the UT (GOTY) cd/image or unpack the GOG distribution with the **innoextract** tool. We will refer to the root directory of your game cd/image or GOG distribution as the **distribution directory**.
 2) Copy the **Music** and **Sounds** directories from the distribution directory into the game directory.
 3) Copy the contents of the **Textures** directory from the distribution directory into the existing Textures directory within your game directory **WITHOUT REPLACING** the existing files.
+> [!CAUTION]
+> Make sure you do not overwrite the Texture files that came with the patch, otherwise the in-game text will render incorrectly.
 4) Create a **Maps** directory within the game directory and copy over the unpacked Maps (i.e., map files with a .unr extension) from the distribution directory.
 5) Extract all compressed maps (i.e., maps with a .uz extension) into your game's Maps directory as follows. If there are no compressed maps in your game distribution folder, you may ignore this step.
 ```
@@ -57,13 +61,17 @@ for i in <path-to-distribution-directory>/Maps/*.uz; do <path-to-game-directory>
 mv ~/.utpg/System/*.unr <path-to-game-directory>/Maps/
 ```
 
+> [!CAUTION]
+> Please ensure that you do **NOT** copy the contents of the System directory in your cd/GoG image into the game directory, otherwise the game will not launch!
+
 At this point you're all set.
 
 To install the content from the GOTY cd 2 or bonus packs:
 1) Repeat the procedure above with the Maps, Sounds, and Textures directories.
 2) Copy the .u and .int files to the game's System directory.
 
-**Note:** Our patch includes several 3rd party libraries, including SDL2 and OpenAL-Soft. These libraries were built and tested on Debian-based systems. However, if you run a non-Debian-based distribution and if you run into any trouble (e.g., audio not working), we highly recommend that you delete libSDL2 and libopenal from your UnrealTournament/System folder and install your distribution's version of SDL2 and OpenAL-Soft instead. Please contact your distro maintainer for instructions.
+> [!NOTE]
+> Our patch includes several 3rd party libraries, including SDL2 and OpenAL-Soft. These libraries were built and tested on Debian-based systems. However, if you run a non-Debian-based distribution and if you run into any trouble (e.g., audio not working), we highly recommend that you delete libSDL2 and libopenal from your UnrealTournament/System folder and install your distribution's version of SDL2 and OpenAL-Soft instead. Please contact your distro maintainer for instructions.
 
 No other actions are needed to install the patch.
 
@@ -76,6 +84,9 @@ The macOS version of our patch comes as an application bundle. You should drag t
 4. Within the ~/Library/Application Support/ folder, create a new folder called "Unreal Tournament" (without the quotes!)
 5. Copy the Maps, Sounds, Textures, and Music folders from your existing UT installation into the folder you've just created
 6. Go into the Textures folder and delete the LadderFonts.utx and UWindowFonts.utx files
+
+> [!CAUTION]
+> Please ensure that you do **NOT** copy the contents of the original game's System directory into ~/Library/Application Support/, otherwise the game will not launch!
 
 After installing the data files, you should be able to launch the UnrealTournament app!
 
@@ -124,7 +135,8 @@ All UnrealScript mods for UT v451b or lower will continue to work in OldUnreal's
 * Demo Manager 3.4 or below: Our patches include an updated Demo Manager so there is no need to downgrade to an older version
 * D3D8Drv: D3D8Drv will crash in v469. We are not planning to fix this
 * D3D10Drv: D3D10Drv has some rendering glitches and does not work in Unreal Editor 2.2
-* D3D11Drv: D3D11Drv currently works well in game, but crashes in Unreal Editor 2.2
+* D3D11Drv: There are three different Direct3D 11-based renderers for UT: dpJudas' [D3D11Drv](https://github.com/dpjudas/UT99VulkanDrv), Metallicafan212's [ICBINDx11Drv](https://github.com/metallicafan212/ICBINDx11Drv), and Darknovismc's D3D11Drv (available on moddb).
+The former two specifically target UT v469 and will come bundled with the 469e patch. The latter one targets older versions of UT, but works fine in-game in UT v469 nonetheless. It will crash in Unreal Editor, however.
 
 ### For Server Admins
 
@@ -143,11 +155,13 @@ Native mod developers may want to use our updated UT SDK, which will be hosted i
 
 ## Malware Warnings
 
-Our Windows and macOS binaries are digitally signed, but malware/virus scanners may occasionally still flag them as potential malware because our signing certificate is still building up reputation. Additional information can be found [here](https://www.digicert.com/blog/ms-smartscreen-application-reputation/). 
+> [!IMPORTANT]
+> Our Windows and macOS binaries are digitally signed, but malware/virus scanners may occasionally still flag them as potential malware because our signing certificate is still building up reputation. Additional information can be found [here](https://www.digicert.com/blog/ms-smartscreen-application-reputation/). 
 
 ## Donations
 
-We are all volunteers who work on Unreal and Unreal Tournament in our spare time. If you like our work, then please consider making a small donation [here](https://www.oldunreal.com/phpBB3/donate). Please make sure to mention Unreal Tournament in your donation note!
+> [!NOTE]
+> We are all volunteers who work on Unreal and Unreal Tournament in our spare time. If you like our work, then please consider making a small donation [here](https://www.oldunreal.com/phpBB3/donate). Please make sure to mention Unreal Tournament in your donation note!
 
 ## Other Contributions
 
@@ -182,6 +196,7 @@ We also want to recognize the hard work of the many beta testers and contributor
 * Deaod: for feedback on our movement updates and various bug fixes
 * Metallicafan212 and dpJudas: for bug reports, fixes, and productive discussions on various rendering issues
 * Masterkent: for the widescreen fov fix
+* rX and Metallicafan212: for donating testing/debugging hardware for XOpenGLDrv
 
 Localization credits:
 * Epic Games/Digital Extremes/Legend Entertainment: Original English/German/French/Spanish/Italian localizations
