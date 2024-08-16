@@ -34,10 +34,10 @@ However, you can also simply unpack the zip package **on top of an existing inst
 
 The **legacy Windows** version of our patch is only available as a zip package. You can install this patch by unpacking the zip file **on top of an existing installation** of Unreal Tournament. No other actions are needed to install the patch.
 
-**Note:**
-* Some features may be unavailable for Windows XP and Vista systems.
-* The patch for Windows XP and Vista is experimental and (mostly) untested.
-* Windows XP and Vista support will be removed from future patches.
+> [!NOTE]
+> * Some features may be unavailable for Windows XP and Vista systems.
+> * The patch for Windows XP and Vista is experimental and (mostly) untested.
+> * Windows XP and Vista support will be removed from future patches.
 
 #### Linux Installation
 
