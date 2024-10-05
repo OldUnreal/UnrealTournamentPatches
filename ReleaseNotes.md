@@ -466,7 +466,7 @@ This new directive makes static functions, struct definitions, and enums declare
 * Made the mutator list in the in-game server browser easier to read ([#894](../../issues/894), External Contribution by Buggie)
 * You can now press the F4 button in the in-game server browser to re-ping all servers ([#896](../../issues/896), External Contribution by Buggie)
 * Made UTFadeTextAreas speed up their rendering animation if the mouse cursor hovers above them (External Contribution by Buggie)
-* Implemented a "ReloadConfig <x>" console command that allows you to reload the configuration file of the specified object or class. If you do not specify any object or class, reloadconfig will reload the configuration of all known objects and classes ([#480](../../issues/480))
+* Implemented a "ReloadConfig &lt;x&gt;" console command that allows you to reload the configuration file of the specified object or class. If you do not specify any object or class, reloadconfig will reload the configuration of all known objects and classes ([#480](../../issues/480))
 * Added a new advanced renderer properties window to the in-game menu
 * Changed the default value of Botpack.CTFGame.bAutoRespawnFlags to false because the true setting broke BunnyTrack ([#279](../../issues/279))
 * Made the in-game browser connect to OldUnreal's new UpdateServer. This server hosts a message of the day page and a masterserver list. Your client will automatically download this list and update its masterserver settings if you have bKeepMasterserver set to false in the [UBrowser.UBrowserMainClientWindow] of your game ini
@@ -944,7 +944,7 @@ Server admins should upgrade ACE to version 1.1e or later to check 469b clients.
 
 #### Miscellaneous
 * Added a menu option to control the Translocator's weapon switching behavior when pressing fire and alt-fire simultaneously. This option will only affect local games or games on 469b (and later) servers.
-* The gargbage collector now tracks and cleans up actor references stored in object default properties
+* The garbage collector now tracks and cleans up actor references stored in object default properties
 
 ## Unreal Tournament Version 469a Release Notes
 
@@ -1159,7 +1159,7 @@ MaxFileDownloadRate=0   Maximum download speed in bytes per second
 * Rewrote some of the core timing routines so the game runs more smoothly (and with less glitching) on multicore CPUs and in long-running games.
 * The Linux and Mac clients finally support unicode! The most visible consequence is that player names with non-ascii characters in them will now display correctly when playing on Linux servers (provided that you use font textures with the proper unicode glyphs).
 * The game now uses UTF-8 as the prefered file encoding (unless a UTF-16LE BOM is found at the start of the file).
-* Added selectedcursor support to the Linux and Mac clients.
+* Added selected cursor support to the Linux and Mac clients.
 * Added the -FORCELOGFLUSH command line option. This option makes the game/server flush the log file every time it is written to.
 * Added the -SETHOMEDIR= command line option. Normally, the game looks for the UnrealTournament.ini and User.ini files in \~/.utpg/System (on Linux), \~/Library/Application Support/Unreal Tournament/System (on Mac), or in UnrealTournament\System (on Windows). With this option, you can override the preferences path (e.g., ./ut-bin-x86 -sethomedir=\~/.loki/ut/System).
 * Made pulsegun and minigun lockdown a configurable option that is disabled by default.
