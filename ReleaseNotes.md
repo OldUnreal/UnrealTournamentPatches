@@ -20,7 +20,7 @@ The UTPG and OldUnreal teams worked hard to maintain binary compatibility with o
 Most of these mods will continue to work in version 469e. However, some mods may need some trivial updates.
 If you are a native mod author, and you are having trouble updating your mod for version 469e, then please come talk to us on [Discord](https://discord.gg/thURucxzs6).
 **Note:** This patch disables older versions of ACE.
-Server admins should upgrade ACE to version 1.1e or later to check 469e clients.
+Server admins should upgrade ACE to version 1.3g or later to check 469e clients.
 
 ### Patch Highlights
 
@@ -55,6 +55,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that could make the game crash when executing the "reconnect" console command after watching a demo ([#1280](../../issues/1280))
 * Fixed a bug that crashed the game when loading a map with the LevelInfo.bLonePlayer flag set to true ([#1461](../../issues/1461))
 * Fixed a bug that made the ucc masterserver commandlet hang (on the first press) and then crash (on the second press) when pressing CTRL+C ([#1504](../../issues/1504))
+* Fixed a bug that made the game crash when trying to play a demo file that depends on missing packages ([#1601](../../issues/1601))
 
 #### Physics and Player Movement
 
@@ -70,37 +71,41 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 
 ### Bug Fixes
 
+#### Networking and Netcode
+
+* The IpDrv.UdpLink.ReceivedBinary() and IpDrv.TcpLink.ReceivedBinary() events should now reliably receive all incoming data
+
 #### Unreal Editor
 
-* Fixed a bug that made it impossible to undo a cut operation on a NavigationPoint ([#1242](../../issues/1242))
-* Fixed a bug that made it impossible to undo a right-click operation on a vertex ([#1168](../../issues/1168))
-* Fixed a bug that made Unreal Editor deselect the currently selected actors when pressing "Show Selected Actors Only" ([#1039](../../issues/1039))
-* Unreal Editor should now correctly initialize all pivot components when placing a pivot in an ortho viewport ([#969](../../issues/969))
+* Fixed a bug that made it impossible to undo a cut operation on a NavigationPoint ([#1242](../../issues/1242), [clip](https://www.youtube.com/watch?v=PMpERQUIaqE))
+* Fixed a bug that made it impossible to undo a right-click operation on a vertex ([#1168](../../issues/1168), [clip](https://www.youtube.com/watch?v=e0lrd3dFnDE))
+* Fixed a bug that made Unreal Editor deselect the currently selected actors when pressing "Show Selected Actors Only" ([#1039](../../issues/1039), [clip](https://www.youtube.com/watch?v=LdhIR5OmZ-k))
+* Unreal Editor should now correctly initialize all pivot components when placing a pivot in an ortho viewport ([#969](../../issues/969), [clip](https://www.youtube.com/watch?v=XPEOLWW3vg4))
 * Unreal Editor will now show the correct map name after failing to load a map ([#825](../../issues/825))
 * Unreal Editor will no longer clear the Region of all level actors after pasting an actor ([#621](../../issues/621))
 * The mesh and texture browsers should now ignore CAMERA ALIGN commands ([#516](../../issues/516))
 * Fixed a bug that made the texture browser show the wrong texture type for textures that only contain compressed data ([#1411](../../issues/1411))
 * Fixed a bug that could make movers move or rotate inadvertently after building lights ([#1342](../../issues/1342))
-* Fixed incorrect lighting of movers whose BrushRaytraceKey differed from their WorldRaytraceKey ([#668](../../issues/668))
+* Fixed incorrect lighting of movers whose BrushRaytraceKey differed from their WorldRaytraceKey ([#668](../../issues/668), [clip](https://www.youtube.com/watch?v=fKPAzylbb9U))
 * Unreal Editor will now update the pivot location after resetting brushes ([#273](../../issues/273))
 * Fixed bugs that could make grid lines not render correctly ([#694](../../issues/694), [#695](../../issues/695))
 * Fixed a bug that made vertices move too quickly when editing them in a maximally zoomed viewport ([#1419](../../issues/1419))
-* Fixed a bug that made Unreal Editor ruin texture alignment when editing/transforming brushes ([#1161](../../issues/1161), [#1166](../../issues/1166))
-* Fixed several bugs that made it nearly impossible to vertex edit in 3D viewports ([#1299](../../issues/1299))
+* Fixed a bug that made Unreal Editor ruin texture alignment when editing/transforming brushes ([#1161](../../issues/1161), [#1166](../../issues/1166), [clip 1](https://www.youtube.com/watch?v=VdPmMeCvdSQ), [clip 2](https://www.youtube.com/watch?v=Gve81ocdtls))
+* Fixed several bugs that made it nearly impossible to vertex edit in 3D viewports ([#1299](../../issues/1299), [clip](https://www.youtube.com/watch?v=sueiduvgWM4))
 * Fixed a bug that could make the active brush render incorrectly after importing an OBJ file ([#1422](../../issues/1422))
-* The texture rotate command now works as expected for unproportionally scaled textures ([#1431](../../issues/1431))
+* The texture rotate command now works as expected for unproportionally scaled textures ([#1431](../../issues/1431), [clip](https://www.youtube.com/watch?v=y7l8aZTXDXk))
 * Copy-pasting surface properties between surfaces with different orientations should now work as expected ([#1220](../../issues/1220))
 * Fixed a bug that could cause vertices moved with ALT+LMB not to snap to the grid, even if the "snap to grid" option was enabled ([#1421](../../issues/1421))
 * Unreal Editor will no longer prevent you from overwriting packages it previously failed to load ([#578](../../issues/578))
 * Fixed a bug that made the path builder inadvertently modify the collision settings of map actors ([#574](../../issues/574))
 * Fixed a bug that could make Unreal Editor export certain textures, sounds, and music files using the wrong name ([#1273](../../issues/1273))
-* The actor browser should now select the correct class when pressing the "..." button for an actor property in the properties window ([#1326](../../issues/1326))
-* Fixed a bug that made the 2D Editor revolve function calculate incorrect texture rotation angles ([#1426](../../issues/1426))
+* The actor browser should now select the correct class when pressing the "..." button for an actor property in the properties window ([#1326](../../issues/1326), [clip](https://www.youtube.com/watch?v=UldakgYEhMw))
+* Fixed a bug that made the 2D shape editor revolve function calculate incorrect texture rotation angles ([#1426](../../issues/1426), [clip](https://www.youtube.com/watch?v=XxEYMB0DzJk))
 * Fixed a bug that could make actor properties window freeze when editing actors that refer to each other ([#1462](../../issues/1462))
-* Fixed a bug that made Unreal Editor produce small "dead zones" near invisible surfaces in some instances ([#554](../../issues/554))
-* Fixed a bug that made Unreal Editor randomly produce dark areas on a "bright corners" surface (backport from Unreal 227)
+* Fixed a bug that made Unreal Editor produce small "dead zones" near invisible surfaces in some instances ([#554](../../issues/554), [clip](https://www.youtube.com/watch?v=FWZdeBfPCM4))
+* Fixed a bug that made Unreal Editor randomly produce dark areas on a "bright corners" surface (backport from Unreal 227) ([clip](https://www.youtube.com/watch?v=C4cz153NXBE))
 * Fixed a bug that could make Unreal Editor hide identical property values in the actor browser when selecting multiple actors ([#270](../../issues/270))
-* Fixed several bugs that made the path builder build invalid or superfluous paths ([#129](../../issues/129))
+* Fixed several bugs that made the path builder build invalid or superfluous paths ([#129](../../issues/129), [clip](https://www.youtube.com/watch?v=0FoSmliMPnw))
 * Fixed a bug that made the TrueType font factory ignore single characters in UnicodeRange parameters of exec commands ([#1482](../../issues/1482))
 * The mesh browser window should now have a menu when it is undocked ([#1447](../../issues/1447))
 * Fixed a bug that made ucc make insert erroneous casts in some cases ([#1500](../../issues/1500))
@@ -108,13 +113,25 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that made surface polygons non-solid if one of their origin was outside the map boundaries (backport from Unreal 227) ([#1509](../../issues/1509))
 * Fixed several rounding errors throughout the editor code
 * Fixed a bug that could change the texture selection during rebuild operations ([#660](../../issues/660))
-* Fixed a bug that made non-scalable actors such as inventory float in the air after using the map scaling tool ([#1514](../../issues/1514))
+* Fixed a bug that made non-scalable actors such as inventory float in the air after using the map scaling tool ([#1514](../../issues/1514), [clip](https://www.youtube.com/watch?v=xYjfFQ0-rEw))
 * Fixed a bug that made the editor skip the compilation of new classes until you had modified their initial code ([#133](../../issues/133))
-* Fixed a bug that could destroy brushes when zooming or moving the camera while vertex editing ([#1540](../../issues/1540))
+* Fixed a bug that could destroy brushes when zooming or moving the camera while vertex editing ([#1540](../../issues/1540), [clip](https://www.youtube.com/watch?v=5B7kqjmnUkY))
 * Fixed a bug that could destroy texture alignment for surfaces on which you had used OneTile alignment prior to rebuilding the map ([#1543](../../issues/1543))
 * Fixed a bug that corrupted brushes when undoing certain editor operations
 * Fixed a bug that made the brush importer corrupt the texture UV alignment on non-triangulated brushes ([#1560](../../issues/1560))
-* Fixed a bug that made Unreal Editor discard the saved camera positions when loading a map ([#651](../../issues/651))
+* Fixed a bug that made Unreal Editor discard the saved camera positions when loading a map ([#651](../../issues/651), [clip](https://www.youtube.com/watch?v=GwyFtyzm0dc))
+* Fix several bugs that made Unreal Editor lose track of the modification status of the map ([#289](../../issues/289), [#490](../../issues/490), [#615](../../issues/615))
+* Fixed several decompilation bugs in ScriptRays, including a bug that caused decompilation failures in functions that called Engine.Actor.Spawn ([#1570](../../issues/1570))
+* Fixed a bug that could make editor windows disappear on multi-monitor systems ([#1556](../../issues/1556))
+* Fixed a bug that could make the editor execute both the modified and unmodified versions of keyboard commands when you released keys in the wrong order ([#1588](../../issues/1588))
+* Fixed a bug that made it impossible to access a class member variable when a function with the same name was in scope ([#902](../../issues/902))
+* Fixed a bug that could make the camera turn upside down after clicking an actor in the "Search For Actors" menu ([#1627](../../issues/1627))
+* Fixed a bug that could trigger unintentional click actions when starting a box selection ([clip](https://www.youtube.com/watch?v=TG7NrV1fq6w))
+* Fixed a bug that made it difficult to place actors onto movers ([clip](https://www.youtube.com/watch?v=Rd93-Tk8uOA))
+* Fixed a bug that made duplicated movers move to an incorrect position if their key position was not set to 0 at the time of the duplication ([clip](https://www.youtube.com/watch?v=Mtx7samlQxo))
+* Fixed several bugs that made the 2D shape editor destroy the shape you were editing ([clip 1](https://www.youtube.com/watch?v=Ql87D0jXIE4), [clip 2](https://www.youtube.com/watch?v=77VycA8biG4))
+* Fixed a bug that made the editor show an incorrect 3D bounding box for movers ([clip](https://www.youtube.com/watch?v=4q5l7AOujaE))
+* Fixed a bug that made it impossible to draw fire textures in texture properties windows ([clip](https://www.youtube.com/watch?v=cBFDVtlO9UY))
 
 #### UnrealScript
 
@@ -126,21 +143,30 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that made the teleport effect play twice for bots spawning with bSpawnInTeamArea set to true ([#1387](../../issues/1387))
 * Fixed a bug that made the game destroy your default weapon if you placed a destructive zone at the level origin ([#1020](../../issues/1020))
 * Fixed an overflow bug that could make bots behave erratically and produce high CPU load when the "Auto Adjust Skill" option was enabled ([#1489](../../issues/1489))
+* Fixed a bug that allowed you to continue giving orders to bots after the game had ended ([#1070](../../issues/1070))
+* Fixed a bug that broke the Engine.ScriptedTexture.ReplaceTexture() function ([#1592](../../issues/1592))
+* Fixed a bug that could cause runaway loop crashes in ScriptedPawn.RangedAttack
+* Fixed a bug that prevented you from jumping if you had your DefaultPlayer.Name setting in User.ini set to a blank value ([#1623](../../issues/1623))
 
 #### Physics and Player Movement
 
 * Fixed a bug that allowed AI-controlled Pawns to touch and pick up inventory even if their bCollideActors flag was set to false ([#773](../../issues/773))
-* Fixed a bug that could actors to get stuck in mid air in some cases ([#652](../../issues/652))
+* Fixed a bug that could cause actors to get stuck in mid air in some cases ([#652](../../issues/652), [clip](https://www.youtube.com/watch?v=Y3kM3UUQu_c))
+* Fixed a bug that could cause actors/players to get stuck near walls with sharp angles ([#866](../../issues/866))
+* Fixed a bug that could make bots run around aimlessly near ledges they wanted to jump down from ([#1568](../../issues/1586))
 
 #### Audio and 3D Rendering
 
-* The game will now render sprites, meshes, and effects that are visible through portals in their correct locations ([#654](../../issues/654), [#1448](../../issues/1448), [#218](../../issues/218))
-* Fixed a bug that could make textures stop panning after a while ([#1374](../../issues/1374))
+* The game will now render sprites, meshes, and effects that are visible through portals in their correct locations ([#654](../../issues/654), [#1448](../../issues/1448), [#218](../../issues/218), [clip](https://www.youtube.com/watch?v=TH00uNX8uYk))
+* Fixed a bug that could make textures stop panning after a while ([#1374](../../issues/1374), [clip](https://www.youtube.com/watch?v=P1dRlbMDy_A))
 * Fixed an arithmetic bug in the Actor.LifeFraction function that made some actors (e.g., muzzle flashes) render incorrectly ([#625](../../issues/625))
 * Fixed a bug that made movers render incorrectly in levels with fully unlit level models ([#1417](../../issues/1417))
-* Fixed a bug that made movers flicker on certain maps ([#1469](../../issues/1469))
-* Fixed a bug that made invisible collision hulls prevent lights from illuminating meshes ([#1508](../../issues/1508))
-* Fixed a bug that made decals produce flickering artifacts if they were placed near the edge of a surface ([#1510](../../issues/1510))
+* Fixed a bug that made movers flicker on certain maps ([#1469](../../issues/1469), [clip](https://www.youtube.com/watch?v=weCXA7B0Axo))
+* Fixed a bug that made invisible collision hulls prevent lights from illuminating meshes ([#1508](../../issues/1508), [clip](https://www.youtube.com/watch?v=8hsCbOhHKos))
+* Fixed a bug that made decals produce flickering artifacts if they were placed near the edge of a surface ([#1510](../../issues/1510), [clip](https://www.youtube.com/watch?v=ATrhbseaKlo))
+* Fixed a bug that caused animation of ice textures to stop at high frame rates
+* Fixed a bug that made certain meshes disappear when viewed from certain angles/positions ([#1414](../../issues/1414), [clip](https://www.youtube.com/watch?v=2N50hljvBDA))
+* Fixed a texture corruption issue in SoftDrv ([clip](https://www.youtube.com/watch?v=0xmejgUDrEk))
 
 #### Input and Windowing
 
@@ -157,6 +183,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 #### Game Client
 
 * Fixed a bug that made it impossible to delete recently recorded demos ([#1290](../../issues/1290))
+* Common render device options such as VolumetricLighting and Coronas will now show up in the Options subcategories in the preferences window ([#1262](../../issues/1262))
 
 ### Enhancements
 
@@ -164,110 +191,164 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 
 * Servers will now correctly replicate the value of config variables that appear in replication blocks
 * The in-game server browser now correctly decodes UTF-8-encoded server names and server info
+* The "SOCKETS" console command now shows detailed traffic statistics for individual channels
+* We added a "DEVNETTRAFFIC" console command that enables logging of replication traffic. This command only works if you do not suppress DevNetTraffic messages using the [Core.System] settings in the game ini ([#722](../../issues/722), [clip](https://www.youtube.com/watch?v=KYVbpHcKGKE))
 
 #### Unreal Editor
 
-* Undoing a texture rotate operation now correctly restores all rotated textures at once ([#1167](../../issues/1167))
+* Undoing a texture rotate operation now correctly restores all rotated textures at once ([#1167](../../issues/1167), [clip](https://www.youtube.com/watch?v=6Hxy412ykP0))
 * Unreal Editor now gracefully handles failures to spawn actors during t3d import operations ([#549](../../issues/549))
 * Improved readability of texture browser labels ([#959](../../issues/959))
-* You can now undo vertex editing operations using CTRL+Z ([#677](../../issues/677))
-* Improved performance for many of the editor's build operations
-* The POLY SELECT MATCHING BRUSH command will now select the surfaces of all selected brushes if no surfaces are initially selected ([#667](../../issues/667))
+* You can now undo/redo vertex editing operations ([#677](../../issues/677), [clip](https://www.youtube.com/watch?v=KCG9XkPVjqc))
+* The POLY SELECT MATCHING BRUSH command will now select the surfaces of all selected brushes if no surfaces are initially selected ([#667](../../issues/667), [clip](https://www.youtube.com/watch?v=eHRDz5Egdb4))
 * Unreal Editor will now merge all zones without a ZoneInfo actor into one zone whenever we would otherwise exceed the maximum number of zones ([#690](../../issues/690))
 * Clarified the text in the map cleanup tool dialog ([#904](../../issues/904))
-* Ortho viewports will now calculate the LODBias value for rendered meshes based on the viewport zoom level rather than the distance between the camera and the mesh ([#262](../../issues/262))
-* Unreal Editor will no longer select camera viewports when box selecting ([#829](../../issues/829))
+* Ortho viewports will now calculate the LODBias value for rendered meshes based on the viewport zoom level rather than the distance between the camera and the mesh ([#262](../../issues/262), [clip](https://www.youtube.com/watch?v=2m4DymUMqf4))
+* Unreal Editor will no longer select camera viewports when box selecting ([#829](../../issues/829), [clip](https://www.youtube.com/watch?v=yvR9TtZTxAU))
 * Added or improved compiler warnings for several erroneous or dangerous operations ([#301](../../issues/301), [#853](../../issues/853), [#1420](../../issues/1420))
-* Unreal Editor now shows the surface skew and angle in the stats tab of the surface properties window ([#924](../../issues/924))
-* You can now configure the lightmap scale/level of detail in the Unreal Editor build menu ([#1416](../../issues/1416))
+* Unreal Editor now shows the surface skew and angle in the stats tab of the surface properties window ([#924](../../issues/924), [clip](https://www.youtube.com/watch?v=wxd2O0stg-A))
+* You can now configure the lightmap scale/level of detail in the Unreal Editor build menu ([#1416](../../issues/1416), [clip](https://www.youtube.com/watch?v=AH5OLNLZDPQ))
 * Unreal Editor no longer spams the log file with messages during path building ([#1413](../../issues/1413))
-* It is now possible to undo/redo the hide selected actors and invert actor selection commands
+* It is now possible to undo/redo the hide selected actors and invert actor selection commands ([clip](https://www.youtube.com/watch?v=NWapJOO38EY))
 * Added menu options for separating, merging, and flipping the polygons of the selected surfaces
-* Added a menu option for selecting the surfaces of the selected brushes
+* You can now select the surfaces of all selected brushes using the SHIFT+B shortcut or using a new "Select Surfaces" menu option ([clip](https://www.youtube.com/watch?v=Fzwo4ZyCy88))
 * Improved scrolling performance in the texture browser
 * Unreal Editor now shows the game build date and version in the main window ([#1221](../../issues/1221))
 * The actor browser now retains the expanded state for each actor in the tree after refreshing
-* Added a 2D Editor option that imports the shape of selected surfaces or brushes
+* Added a 2D shape editor option that imports the shape of selected surfaces or brushes
 * The texture properties and replace dialogs will now render textures using the texture browser's renderer ([#1276](../../issues/1276))
 * The code editor will now save the source code of the class you're currently editing when you click the export scripts button
 * Unreal Editor will no longer open docked browser windows when it launches ([#1298](../../issues/1298))
-* Added a 2D Editor option that clears the shape you're currently editing ([#1378](../../issues/1378))
+* Added a 2D shape editor option that clears the shape you're currently editing ([#1378](../../issues/1378), [clip](https://www.youtube.com/watch?v=_6T4_t0M50Q))
 * Unreal Editor will now show the size of the current selection rectangle in Unreal Units ([#1377](../../issues/1377))
 * Unreal Editor will now warn you when one of the content browsers fails to save a package ([#686](../../issues/686))
-* Added a surface menu options to select non-coplanar polygons
-* Added a menu option to tesselate selected surfaces or brushes
-* The menu options and button tooltips for undo/redo will now show you which actions they will undo/redo ([#1205](../../issues/1205))
-* You can now adjust the code editor font size using CTRL+Mouse Wheel or by setting the CodeFontSize option in the [Options] section of UnrealEd.ini ([#1317](../../issues/1317))
-* You can now merge polygons even if their respective surfaces do not have identical properties ([#1323](../../issues/1323))
+* Added a surface menu option to select non-coplanar polygons ([clip](https://www.youtube.com/watch?v=ZcmbFMoIPP8))
+* Added a menu option to tesselate selected surfaces or brushes ([clip](https://www.youtube.com/watch?v=NHqJ133Cz8M))
+* The menu options and button tooltips for undo/redo will now show you which actions they will undo/redo ([#1205](../../issues/1205), [clip](https://www.youtube.com/watch?v=VZ_6RONafX4))
+* You can now adjust the code editor font size using CTRL+Mouse Wheel or by setting the CodeFontSize option in the [Options] section of UnrealEd.ini ([#1317](../../issues/1317), [clip](https://www.youtube.com/watch?v=FnMT7LnxBx8))
+* You can now merge polygons, even if their respective surfaces do not have identical properties ([#1323](../../issues/1323), [clip 1](https://www.youtube.com/watch?v=FMIAwDrJ1H8), [clip 2](https://www.youtube.com/watch?v=QerHyJRQPco))
 * Unreal Editor now resets the bNoDelete flag (to TRUE) for Movers when loading a level. This is necessary because Movers with bNoDelete set to FALSE break the moving brush tracker
-* You can now select the "Uniform Shadows" option in the Unreal Editor build menu to make the editor build shadow maps whose scale is independent of their connected surface's scale ([#1435](../../issues/1435))
-* The path builder now builds faster, builds aerial paths ([#770](../../issues/770)), and has a new button option that rebuilds only the changed paths ([#1239](../../issues/1239))
+* You can now select the "Uniform Shadows" option in the Unreal Editor build menu to make the editor build shadow maps whose scale is independent of their connected surface's scale ([#1435](../../issues/1435), [clip 1](https://www.youtube.com/watch?v=AH5OLNLZDPQ), [clip 2](https://www.youtube.com/watch?v=mrWEoXcZEAE))
+* The path builder now builds faster, builds aerial paths ([#770](../../issues/770)), and has a new button option that rebuilds only the changed paths ([#1239](../../issues/1239), [clip](https://www.youtube.com/watch?v=QFsX3APCZf8))
 * Unreal Editor now gives up if it fails to build a new path network within a reasonable amount of time/iterations ([#383](../../issues/383))
-* Added a surface selection menu option that selects adjacent surfaces one by one
+* Added a surface selection menu option that selects adjacent surfaces one by one ([clip](https://www.youtube.com/watch?v=vRry1Vx23VQ))
 * You can now align textures while preserving their scale by holding the SHIFT key during alignment ([#676](../../issues/676))
-* Added brush order options that can memorize the selected brush's position or that can move the selected brush before or after the memorized position ([#681](../../issues/681))
-* Integrated ScriptRays into the code editor so you can now decompile classes and view/edit the decompiled code ([#1444](../../issues/1444), [#1445](../../issues/1445))
+* Added brush order options that can memorize the selected brush's position or that can move the selected brush before or after the memorized position ([#681](../../issues/681), [clip](https://www.youtube.com/watch?v=4AAu6RjAges))
+* Integrated ScriptRays into the code editor so you can now decompile classes and view/edit the decompiled code ([#1444](../../issues/1444), [#1445](../../issues/1445), [clip](https://www.youtube.com/watch?v=GTyzd3iEypg))
 * UCC make now prints a warning when it fails to resolve the target object of a default object property
-* Added a build menu option to prevent the path builder from generating the (unused!) VisNoReach list. This can drastically reduce build times on maps with lots of path nodes ([#1473](../../issues/1473))
-* Unreal Editor can now play a beep sound after completing a slow action. By default, this message beep will play after completing an action that took more than 10 seconds. You can configure the duration threshold by setting/adding the "NotifyActionEndAfterSeconds" option in the [Options] section of UnrealEd.ini. Setting NotifyActionEndAfterSeconds to 0 will turn off the message beep ([#1490](../../issues/1490))
-* You can now view and edit the Textures and TextureLOD properties of Mesh objects ([#931](../../issues/931))
-* Vastly improved build times for level geometry and lighting by optimizing and parallelizing the code
-* The surface copy feature will no longer copy the PF_SemiSolid, PF_NotSolid, PF_TwoSided, and PF_Portal flags ([#1487](../../issues/1487))
-* Added a "Show Texture Grid" option to the viewport->View menu. This option renders the map in a (white) boxed view ([#1407](../../issues/1407))
-* You can no longer select hidden brushes using SHIFT+LMB ([#1533](../../issues/1533))
+* Added a build menu option to prevent the path builder from generating the (unused!) VisNoReach list. This can drastically reduce build times on maps with lots of path nodes ([#1473](../../issues/1473), [clip](https://www.youtube.com/watch?v=nYiKfJd1ZBQ))
+* Unreal Editor can now play a beep sound after completing a slow action. By default, this message beep will play after completing an action that took more than 10 seconds. You can configure the duration threshold by setting/adding the "NotifyActionEndAfterSeconds" option in the [Options] section of UnrealEd.ini. Setting NotifyActionEndAfterSeconds to 0 will turn off the message beep ([#1490](../../issues/1490), [clip](https://www.youtube.com/watch?v=Us64sMd_-C4))
+* Vastly improved build times for level geometry and lighting by optimizing and parallelizing the code ([clip](https://www.youtube.com/watch?v=Go8suVLl-lU))
+* The surface copy feature will no longer copy the PF_SemiSolid, PF_NotSolid, PF_TwoSided, and PF_Portal flags ([#1487](../../issues/1487), [clip](https://www.youtube.com/watch?v=3E-k0Otjmhs))
+* Added a "Show Texture Grid" option to the viewport->View menu. This option renders the map in a (white) boxed view ([#1407](../../issues/1407), [clip](https://www.youtube.com/watch?v=EGbKPrztrFM))
+* You can no longer select hidden brushes using SHIFT+LMB ([#1533](../../issues/1533), [clip](https://www.youtube.com/watch?v=JQOp7-40Syw))
 * Added a surface menu option that can select the brushes whose surfaces you've selected ([#1528](../../issues/1528))
 * All browser windows should now refresh after executing an OBJ LOAD command ([#628](../../issues/628))
 * Improved mipmap generation for images with low color depth ([#1408](../../issues/1408))
 * Added group browser buttons that re-apply the visibility rules of the selected groups or all groups to actors in the groups ([#107](../../issues/107), [#285](../../issues/285), [#412](../../issues/412), [#413](../../issues/413))
 * The texture import tool can now optionally use Bright to palletize P8 textures or ImageMagick to import textures stored in formats we do not natively support. To use these tools, install their respective binaries into the game's System folder, and check the "Use Bright" or "Use ImageMagick" boxes in the texture import dialog ([#1012](../../issues/1012))
 * The sound browser now shows the bit depth, frequency, and number of channels in each sound sample
+* The editor will now offer to tesselate non-coplanar polygons that would normally result in BSP errors ([clip](https://www.youtube.com/watch?v=MxI9GFub_EM))
+* We added a 2D shape editor toolbar button that can tesselate the shape you're editing ([clip](https://www.youtube.com/watch?v=JGhfJYXSKMs))
 * You can now edit vertices in the 2D and 3D viewports using SHIFT+LMB/RMB ([#1551](../../issues/1551))
+* You can now scale vertices in the 2D and 3D viewports using CTRL+LMB+RMB ([clip](https://www.youtube.com/watch?v=OQnou7WLgCY))
 * The brush exporter can now export non-triangulated brushes ([#1561](../../issues/1561))
+* We added a new toolbar button that rebuilds the movers in your level ([clip](https://www.youtube.com/watch?v=nC187u3DLps))
+* Added new menu options to toggle rendering of event lines ([#135](../../issues/135), [clip](https://www.youtube.com/watch?v=PR3MKT1O4vQ))
+* The group browser should now refresh automatically after adding an actor to the level ([#172](../../issues/172))
+* The vertices of selected brushes now render on top of all other brushes in vertex editing mode. This should make these vertices much easier to select ([#1037](../../issues/1037))
+* Added a new toolbar button that shows all actors except those in hidden groups ([#1544](../../issues/1544))
+* You can now undo the "Snap vertices to grid" operation ([#1565](../../issues/1565))
+* You can now replace selected brushes with brushes of other classes ([#455](../../issues/455))
+* Unreal Editor and UCC will now save files using a temporary file name if they cannot be saved with the desired file name
+* ScriptRays can now decompile switch statements ([#1511](../../issues/1511))
+* Added new standard viewport configuration with two viewports on one half of the screen and one viewport on the other half
+* You can now use the CTRL+SHIFT+Z shortcut to redo a previously undone operation ([#1586](../../issues/1586))
+* You can now use the N key to toggle rendering of paths in editor viewports
+* You can now use the M key to toggle rendering of movers in editor viewports
+* You can now toggle rendering of mover paths in editor viewports ([clip](https://www.youtube.com/watch?v=DdFyVtAO_-w))
+* You can now open maps, textures, sounds, music, and UnrealScript files by dragging and dropping them into the main editor window ([clip](https://www.youtube.com/watch?v=Br1AqUzRhzU))
+* Property windows now allow you to edit various additional properties of LOD meshes and skeletal meshes. Examples include the material flags, properties that control LOD morphing behavior (for LOD meshes), and animation properties for skeletal meshes
+* You can now copy/paste surface properties ([#675](../../issues/675), [#931](../../issues/931), [clip](https://www.youtube.com/watch?v=rBtz2h9V7vo))
+* Unreal Editor can now import dds textures saved by UT2004's editor ([#982](../../issues/982))
+* The texture browser, mesh browser, and texture preview windows will no longer emit ambient sounds ([#1455](../../issues/1455), [clip](https://www.youtube.com/watch?v=VLrRBDdEIqQ))
+* You can now enable rendering and selection of mover meshes in 3D viewports ([#671](../../issues/671), [clip](https://www.youtube.com/watch?v=_QlEa19T9wU))
+* You can now set the KeepRealtimePreviewOnPlay option in the [Options] section of UnrealEd.ini to keep the realtime preview viewport option enabled after launching a map from the editor ([#322](../../issues/322))
+* You can now box-select vertices in 3D viewports using CTRL+ALT+LMB ([#1552](../../issues/1552), [clip](https://www.youtube.com/watch?v=ac6Jz_UVNUk))
+* When ending a box selection in an editor viewport, the mouse cursor will now appear at the release position rather than the start position of the selection by default. You can restore the original behavior by setting the RestoreMouseCursorAtSelectionBoxEnd option to False in the [Options] section of UnrealEd.ini ([clip](https://www.youtube.com/watch?v=Spn5KMw0hyA))
+* You can now select the "Apply Selected Actors to Level" option in the build menu to rebuild only the selected actors while keeping the rest of the level geometry intact ([clip](https://www.youtube.com/watch?v=Vs90vB-ALyE))
+* The "Copy import properties" option in the Mesh Browser's Edit menu will now export the polyflags of all mesh materials and textures
+* We implemented "Snake Alignment", a feature that allows you to align textures that span multiple surfaces. To use snake alignment, you should manually align the texture on one surface, then click that surface using SHIFT+CRTL+ALT+RMB, and finally click adjacent surfaces using SHIFT+CTRL+ALT+LMB ([#868](../../issues/868), [clip](https://www.youtube.com/watch?v=PZOgWRN8wgo)) 
+* We implemented undo/redo for the 2D shape editor ([#1246](../../issues/1246), [clip](https://www.youtube.com/watch?v=GLZgcOGhEHo))
+* We added a "Merge Shapes" menu option to the 2D shape editor. This option allows you to merge the selected shapes into one polygon ([#1550](../../issues/1550), [clip](https://www.youtube.com/watch?v=RMkby6g-aNI))
+* We added a "Configure Context Menus" option to the editor View menu. This option allows you to choose which items appear in the actor, surface, and backdrop context menus [clip](https://www.youtube.com/watch?v=jAvLqcnZVXM))
+* The Viewport View Menu now has an "Occlude Lines" option. When enabled, this option hides line segments that are occluded by level geometry ([#1451](../../issues/1451), [clip](https://www.youtube.com/watch?v=5Gl_nOaXc9g))
+* The bottom bar will now show you the size of your selection box ([clip](https://www.youtube.com/watch?v=yNy1mdwi0Og))
+* You can now add up to 20 custom "add actor" commands to the surface context menu by editing the ContextMenuClassAdd.Custom settings in UnrealEd.ini ([clip 1](https://www.youtube.com/watch?v=X4hbyVmZawA), [clip 2](https://www.youtube.com/watch?v=PAPhzc68ix8))
+* We added a "Select All" option to the 2D shape editor ([clip](https://www.youtube.com/watch?v=MJhpkAuIexc))
+* The Mover submenu in the actor context menu will now show you which key position the mover is in ([clip](https://www.youtube.com/watch?v=t8N9CrYjOpw))
+* We added new options that allow you to reset a brush's origin without changing the brush's location ([clip 1](https://www.youtube.com/watch?v=nqaum_jfzAM), [clip 2](https://www.youtube.com/watch?v=UtaROdzff88))
+* The backdrop context menu now contains new options for changing the grid size or for toggling "Snap to Grid" ([clip](https://www.youtube.com/watch?v=ygJEEjo1J6k))
+* We added a new "Draw Shape" option to the 2D shape editor. This option allows you to draw any shape you like! ([clip](https://www.youtube.com/watch?v=yq7PqciLBaA))
+* You should now be able to rename all classes, sound objects, music objects, and mesh objects from their respective browsers/editors ([clip](https://www.youtube.com/watch?v=QAgdiUhAC6E))
+* You can now use the CTRL+A shortcut to select all text in text view windows (such as those that show exported properties) ([clip](https://www.youtube.com/watch?v=LOMQ24YckW0))
 
 #### UnrealScript
 
-* The game will now report the last known location for actors that fell out of the world ([#1390](../../issues/1390))
+* The game will now report the last known location for actors that fell out of the world ([#1390](../../issues/1390), [clip](https://www.youtube.com/watch?v=5okG85wyKow))
 * The game now resets and recalculates each actor's StandingCount when loading a map ([#1341](../../issues/1341))
 * The game now resets the Level.TimeDilation value when loading a map ([#1373](../../issues/1373))
 * The in-game preferences menu will now populate the video resolution list with common resolutions if the renderer fails to report supported resolutions ([#1452](../../issues/1452))
 * UWindowURLTextAreas now support mailto and https links
-* UWindowURLTextAreas and UWindowHTMLTextAreas now support mouse copy-pasting
+* UWindowURLTextAreas and UWindowHTMLTextAreas now support mouse copy-pasting ([clip](https://www.youtube.com/watch?v=JlYD606M1iE))
 * You can now modify the speed at which PlayerPawns move in state CheatFlying by editing the PlayerPawn.CheatFlyingSpeed property ([#1258](../../issues/1258))
 * The game mode and game type filters in the in-game server browser are now case-insensitive ([#1437](../../issues/1437))
 * UWindowWindow.SetAcceptsFocus() should now work as expected even if the Window's parent has changed since the previous call ([#897](../../issues/897))
 * The map selection dialogs now support level screenshots with unexpected names ([#926](../../issues/926))
 * The in-game server browser now shows you useful information such as the game speed, remaining time, elapsed time, and much more ([#439](../../issues/439))
-* The default HUD will now render a solid chat area if you set the HUD opacity to the maximum value ([#640](../../issues/640))
+* The default HUD will now render a solid chat area if you set the HUD opacity to the maximum value ([#640](../../issues/640), [clip](https://www.youtube.com/watch?v=JmdoHu74SH8))
 * Added a new preferences menu option to adjust your Field of View (FOV) angle ([#1375](../../issues/1375))
 * Added a new preferences menu dropdown box to switch between fullscreen, windowed, and borderless windowed (if available) mode ([#42](../../issues/42))
 * UTrace now works for state code ([#1171](../../issues/1171))
-* Added a "RUNAWAYCOUNTER" console command that returns the current value of the runaway counter ([#774](../../issues/774))
-* Added an UnrealScript profiler that outputs JSON-compatible profiling information in the game log. You can use the "UPROFILE" console command to to turn profiling on and off ([#865](../../issues/865))
-* Added a "UTRACE" console command that turn the UnrealScript tracer (originally added by UTPG) on and off ([#1527](../../issues/1527))
-* Added a "BACKTRACE" console command that returns a dump of the current UnrealScript call stack ([#72](../../issues/72))
+* UTrace now causes much less CPU load than before ([clip](https://www.youtube.com/watch?v=ozVagr5immA))
+* Added a "RUNAWAYCOUNTER" console command that returns the current value of the runaway counter ([#774](../../issues/774), [clip](https://www.youtube.com/watch?v=TpHZ8RzHczg))
+* Added an UnrealScript profiler that outputs JSON-compatible profiling information in the game log. You can use the "UPROFILE" console command to to turn profiling on and off ([#865](../../issues/865), [clip](https://www.youtube.com/watch?v=LZlg_wPpiAU))
+* Added a "UTRACE" console command that turn the UnrealScript tracer (originally added by UTPG) on and off ([#1527](../../issues/1527), [clip](https://www.youtube.com/watch?v=iqGA18PpGjg))
+* Added a "BACKTRACE" console command that returns a dump of the current UnrealScript call stack ([#72](../../issues/72), [clip](https://www.youtube.com/watch?v=AEcr95CD3Oc))
 * The game will now dump the UnrealScript call stack to the log file whenever it crashes with an infinite script recursion error ([#1474](../../issues/1474))
-* You can now use the "SPEC" or "PLAY" console commands to reconnect to the server as a spectator or player respectively. In addition, you can use the "RED", "BLUE", "GREEN", or "GOLD" console commands to change to the respective teams ([#1043](../../issues/1043))
+* You can now use the "SPEC" or "PLAY" console commands to reconnect to the server as a spectator or player respectively. In addition, you can use the "RED", "BLUE", "GREEN", or "GOLD" console commands to change to the respective teams ([#1043](../../issues/1043), [clip](https://www.youtube.com/watch?v=bYaBsn2XDn4))
+* "SET" console commands now produce a feedback message that includes the full name of the modified property and its updated value ([#755](../../issues/755))
+* Increased the width of the text boxes in the advanced video settings menu ([#1585](../../issues/1585))
+* The "Voice Messages" option in the in-game audio settings menu will now be visible even if you are not spectating a game ([#1590](../../issues/1590))
+* Improved performance of all mods and menus that enumerated or iterated over all installed skins ([#1598](../../issues/1598))
+* We added various new key binding options to the in-game controls menu ([#1611](../../issues/1611), [#1613](../../issues/1613))
 
 #### Physics and Player Movement
 
-* Optimized several tracing and collision functions ([#582](../../issues/582), [#371](../../issues/371))
+* You can now enable the moving brush tracker on servers by setting the Engine.GameEngine.UseNetMovingBrushTracker option to true. By enabling the moving brush tracker, AI-controlled actors such as Bots, Monsters, and ScriptedPawns, will no longer ignore movers ([#559](../../issues/559), [clip](https://www.youtube.com/watch?v=8jSB5tZlf8E))
+* We backported Marco's octree collision code (originally written for Unreal 227) to UT. This code detects collisions more accurately and with a dramatically lower computational cost, resulting in reduced load on servers that run custom mods such as XVehicles ([#582](../../issues/582), [#371](../../issues/371), [clip 1](https://www.youtube.com/watch?v=vjftKYAcvk0), [clip 2](https://www.youtube.com/watch?v=6ExOWSoKiWY))
 
 #### Audio and 3D Rendering
 
-* The game can now apply widescreen-friendly Hor+ Field of View (FOV) scaling while maintaining the correct weapon and muzzle flash positioning (External Contribution by Masterkent) ([#111](../../issues/111))
+* The game can now apply widescreen-friendly Hor+ Field of View (FOV) scaling while maintaining the correct weapon and muzzle flash positioning (External Contribution by Masterkent) ([#111](../../issues/111), [clip](https://www.youtube.com/watch?v=F5cUR_sNWVo))
 * You can now enable and disable vertical synchronization when playing with the OpenGLDrv renderer on a Linux/ARM platform
+* Light actors that use the LT_Flicker LightType will now update approximately 30 times per second ([#1216](../../issues/1216))
+* We added a "TRYRENDERDEVICE" console command that allows you to switch to a different renderer without restarting the game ([#1319](../../issues/1319), [clip](https://www.youtube.com/watch?v=OAL933bs35Y))
 
 #### Input and Windowing
 
 * The editor/game log window can now be minimized and maximized
 * The game will now automatically switch to windowed mode when you launch the actor editor ([#1296](../../issues/1296))
 * The game will now remove the window borders when you use windowed mode with a resolution equal to or larger than the screen resolution ([#1364](../../issues/1364))
-* The Linux and macOS clients will now use SDL2's fullscreen desktop window option when they open a fullscreen window with the same resolution as your desktop. As a result, you should now be able to use Cmd+Tab and media hotkeys on Mac systems.
+* The Linux and macOS clients will now use SDL2's fullscreen desktop window option when they open a fullscreen window with the same resolution as your desktop. As a result, you should now be able to use Cmd+Tab and media hotkeys on Mac systems
+* The Windows client now supports borderless game windows. You can switch to a borderless window either by setting WinDrv.WindowsClient.StartupBorderless to TRUE, or by executing the "SETSCREENMODE BORDERLESS" console command 
+* The editactor console command can now be run from the log window ([clip](https://www.youtube.com/watch?v=AvIPXvREiGo))
 
 #### Miscellaneous
 
 * The game will now log a more descriptive error when it tries to load a package without a valid header ([#1389](../../issues/1389))
 * We now use Microsoft's mimalloc memory allocator. This gives us a nice performance boosts in the game client, server, and editor on all platforms
+* The game will now show you a more descriptive error message when you try to launch it from a game folder that does not contain the required game data ([#1248](../../issues/1248))
 
 ## Unreal Tournament Version 469d Release Notes
 
