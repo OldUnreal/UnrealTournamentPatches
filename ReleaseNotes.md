@@ -24,13 +24,15 @@ Server admins should upgrade ACE to version 1.3g or later to check 469e clients.
 
 ### Patch Highlights
 
+* We added dozens of major quality-of-life features to Unreal Editor
 * Our Windows patches now include two great DirectX 11-based renderers: Metallicafan212's ICBINDx11 and dpJudas' D3D11Drv.
 These renderers offer great performance, low input latency, and lots of features.
-However, they will only work on recent versions of Windows and require a somewhat recent GPU.
+However, they will only work on recent versions of Windows and require a somewhat recent GPU
 * Apple users rejoice! This patch includes a brand new renderer that will talk to your machine using Apple's Metal API.
 You can enable this new renderer by setting the GameRenderDevice option in the [Engine.Engine] section of your game ini to Frucore.FrucoreRenderDevice.
-Please note that we couldn't call this renderer MetalDrv because that name is still taken by the renderer that targets S3's Metal API.
-* Added several quality-of-life improvements such as widescreen FOV scaling
+Please note that we couldn't call this renderer MetalDrv because that name is still taken by the renderer that targets S3's Metal API
+* The Windows and Linux patches now ship with dpJudas' VulkanDrv
+* By popular request, we added widescreen FOV scaling to the game (thanks Masterkent!)
 
 ### Stability Improvements
 
@@ -152,7 +154,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 
 * Fixed a bug that allowed AI-controlled Pawns to touch and pick up inventory even if their bCollideActors flag was set to false ([#773](../../issues/773))
 * Fixed a bug that could cause actors to get stuck in mid air in some cases ([#652](../../issues/652), [clip](https://www.youtube.com/watch?v=Y3kM3UUQu_c))
-* Fixed a bug that could cause actors/players to get stuck near walls with sharp angles ([#866](../../issues/866))
+* Fixed a bug that could cause actors/players to get stuck when they try to walk up a small step ([#866](../../issues/866))
 * Fixed a bug that could make bots run around aimlessly near ledges they wanted to jump down from ([#1568](../../issues/1586))
 
 #### Audio and 3D Rendering
@@ -192,7 +194,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Servers will now correctly replicate the value of config variables that appear in replication blocks
 * The in-game server browser now correctly decodes UTF-8-encoded server names and server info
 * The "SOCKETS" console command now shows detailed traffic statistics for individual channels
-* We added a "DEVNETTRAFFIC" console command that enables logging of replication traffic. This command only works if you do not suppress DevNetTraffic messages using the [Core.System] settings in the game ini ([#722](../../issues/722), [clip](https://www.youtube.com/watch?v=KYVbpHcKGKE))
+* We added a "DEVNETTRAFFIC" console command that enables logging of replication traffic ([#722](../../issues/722), [clip](https://www.youtube.com/watch?v=KYVbpHcKGKE))
 
 #### Unreal Editor
 
@@ -251,7 +253,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The editor will now offer to tesselate non-coplanar polygons that would normally result in BSP errors ([clip](https://www.youtube.com/watch?v=MxI9GFub_EM))
 * We added a 2D shape editor toolbar button that can tesselate the shape you're editing ([clip](https://www.youtube.com/watch?v=JGhfJYXSKMs))
 * You can now edit vertices in the 2D and 3D viewports using SHIFT+LMB/RMB ([#1551](../../issues/1551))
-* You can now scale vertices in the 2D and 3D viewports using CTRL+LMB+RMB ([clip](https://www.youtube.com/watch?v=OQnou7WLgCY))
+* You can now scale vertices in the 2D viewports using CTRL+LMB+RMB ([clip](https://www.youtube.com/watch?v=OQnou7WLgCY))
 * The brush exporter can now export non-triangulated brushes ([#1561](../../issues/1561))
 * We added a new toolbar button that rebuilds the movers in your level ([clip](https://www.youtube.com/watch?v=nC187u3DLps))
 * Added new menu options to toggle rendering of event lines ([#135](../../issues/135), [clip](https://www.youtube.com/watch?v=PR3MKT1O4vQ))
@@ -272,7 +274,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * You can now copy/paste surface properties ([#675](../../issues/675), [#931](../../issues/931), [clip](https://www.youtube.com/watch?v=rBtz2h9V7vo))
 * Unreal Editor can now import dds textures saved by UT2004's editor ([#982](../../issues/982))
 * The texture browser, mesh browser, and texture preview windows will no longer emit ambient sounds ([#1455](../../issues/1455), [clip](https://www.youtube.com/watch?v=VLrRBDdEIqQ))
-* You can now enable rendering and selection of mover meshes in 3D viewports ([#671](../../issues/671), [clip](https://www.youtube.com/watch?v=_QlEa19T9wU))
+* You can now enable rendering and selection of mover surfaces in 3D viewports ([#671](../../issues/671), [clip](https://www.youtube.com/watch?v=_QlEa19T9wU))
 * You can now set the KeepRealtimePreviewOnPlay option in the [Options] section of UnrealEd.ini to keep the realtime preview viewport option enabled after launching a map from the editor ([#322](../../issues/322))
 * You can now box-select vertices in 3D viewports using CTRL+ALT+LMB ([#1552](../../issues/1552), [clip](https://www.youtube.com/watch?v=ac6Jz_UVNUk))
 * When ending a box selection in an editor viewport, the mouse cursor will now appear at the release position rather than the start position of the selection by default. You can restore the original behavior by setting the RestoreMouseCursorAtSelectionBoxEnd option to False in the [Options] section of UnrealEd.ini ([clip](https://www.youtube.com/watch?v=Spn5KMw0hyA))
@@ -341,7 +343,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The game will now automatically switch to windowed mode when you launch the actor editor ([#1296](../../issues/1296))
 * The game will now remove the window borders when you use windowed mode with a resolution equal to or larger than the screen resolution ([#1364](../../issues/1364))
 * The Linux and macOS clients will now use SDL2's fullscreen desktop window option when they open a fullscreen window with the same resolution as your desktop. As a result, you should now be able to use Cmd+Tab and media hotkeys on Mac systems
-* The Windows client now supports borderless game windows. You can switch to a borderless window either by setting WinDrv.WindowsClient.StartupBorderless to TRUE, or by executing the "SETSCREENMODE BORDERLESS" console command 
+* The Windows client now supports borderless game windows. You can switch to a borderless window either using the in-game menu, by setting WinDrv.WindowsClient.StartupBorderless to TRUE, or by executing the "SETSCREENMODE BORDERLESS" console command 
 * The editactor console command can now be run from the log window ([clip](https://www.youtube.com/watch?v=AvIPXvREiGo))
 
 #### Miscellaneous
