@@ -329,7 +329,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 #### Physics and Player Movement
 
 * You can now enable the moving brush tracker on servers by setting the Engine.GameEngine.UseNetMovingBrushTracker option to true. By enabling the moving brush tracker, AI-controlled actors such as Bots, Monsters, and ScriptedPawns, will no longer ignore movers ([#559](../../issues/559), [clip](https://www.youtube.com/watch?v=8jSB5tZlf8E))
-* We backported Marco's octree collision code (originally written for Unreal 227) to UT. This code detects collisions more accurately and with a dramatically lower computational cost, resulting in reduced load on servers that run custom mods such as XVehicles ([#582](../../issues/582), [#371](../../issues/371), [clip 1](https://www.youtube.com/watch?v=vjftKYAcvk0), [clip 2](https://www.youtube.com/watch?v=6ExOWSoKiWY))
+* We backported Marco's octree collision code (originally written for Unreal 227) to UT. This code detects collisions more accurately and with a dramatically lower computational cost, resulting in reduced load on servers that run custom mods such as XVehicles. The octree collision code is enabled by default but can be disabled by setting the Engine.GameEngine.UseOctreeCollisionHash option to false ([#582](../../issues/582), [#371](../../issues/371), [clip 1](https://www.youtube.com/watch?v=vjftKYAcvk0), [clip 2](https://www.youtube.com/watch?v=6ExOWSoKiWY))
 
 #### Audio and 3D Rendering
 
