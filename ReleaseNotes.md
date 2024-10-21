@@ -156,6 +156,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that could cause actors to get stuck in mid air in some cases ([#652](../../issues/652), [clip](https://www.youtube.com/watch?v=Y3kM3UUQu_c))
 * Fixed a bug that could cause actors/players to get stuck when they try to walk up a small step ([#866](../../issues/866))
 * Fixed a bug that could make bots run around aimlessly near ledges they wanted to jump down from ([#1568](../../issues/1586))
+* Fixed a bug that made human players' view vibrate along the Z-axis when standing on a mover ([#720](../../issues/720), [#1621](../../issues/1621))
 
 #### Audio and 3D Rendering
 
