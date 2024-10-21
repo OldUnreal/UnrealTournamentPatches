@@ -195,7 +195,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Servers will now correctly replicate the value of config variables that appear in replication blocks
 * The in-game server browser now correctly decodes UTF-8-encoded server names and server info
 * The "SOCKETS" console command now shows detailed traffic statistics for individual channels
-* We added a "DEVNETTRAFFIC" console command that enables logging of replication traffic ([#722](../../issues/722), [clip](https://www.youtube.com/watch?v=KYVbpHcKGKE))
+* We added a "DEVNETTRAFFICLOGS" console command that enables logging of replication traffic ([#722](../../issues/722), [clip](https://www.youtube.com/watch?v=KYVbpHcKGKE))
 
 #### Unreal Editor
 
