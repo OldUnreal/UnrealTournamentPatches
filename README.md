@@ -88,7 +88,7 @@ The macOS version of our patch comes as an application bundle. You should drag t
 ```bash
 for file in ~/Library/Application\ Support/Unreal\ Tournament/Maps/*.uz; do /Applications/UnrealTournament.app/Contents/MacOS/UCC decompress $file; done
 mv ~/Library/Application\ Support/Unreal\ Tournament/System/*.unr ~/Library/Application\ Support/Unreal\ Tournament/Maps/
-rm ~/Library/Application\ Support/Unreal\ Tournament/System/*.uz
+rm ~/Library/Application\ Support/Unreal\ Tournament/Maps/*.uz
 ```
 
 > [!CAUTION]
