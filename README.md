@@ -84,8 +84,9 @@ The macOS version of our patch comes as an application bundle. You should drag t
 4. Within the ~/Library/Application Support/ folder, create a new folder called "Unreal Tournament" (without the quotes!)
 5. Copy the Maps, Sounds, Textures, and Music folders from your existing UT installation into the folder you've just created
 6. Go into the Textures folder and delete the LadderFonts.utx and UWindowFonts.utx files
-7. Finally, open a terminal window and run the following commands:
-```bash
+7. Extract all compressed maps (i.e., maps with a .uz extension) into your game's Maps directory as follows. If there are no compressed maps in your game distribution folder, you may ignore this step.
+Open a terminal window and run the following commands:
+```
 for file in ~/Library/Application\ Support/Unreal\ Tournament/Maps/*.uz; do /Applications/UnrealTournament.app/Contents/MacOS/UCC decompress $file; done
 mv ~/Library/Application\ Support/Unreal\ Tournament/System/*.unr ~/Library/Application\ Support/Unreal\ Tournament/Maps/
 rm ~/Library/Application\ Support/Unreal\ Tournament/Maps/*.uz
