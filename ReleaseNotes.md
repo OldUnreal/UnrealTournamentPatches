@@ -33,6 +33,7 @@ You can enable this new renderer by setting the GameRenderDevice option in the [
 Please note that we couldn't call this renderer MetalDrv because that name is still taken by the renderer that targets S3's Metal API
 * The Windows and Linux patches now ship with dpJudas' VulkanDrv
 * By popular request, we added widescreen FOV scaling to the game (thanks Masterkent!)
+* The in-game server browser now needs much less time to populate the server list
 
 ### Stability Improvements
 
@@ -44,12 +45,17 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that made Unreal Editor crash when loading a map that actors whose names clash with names of actors on the previously loaded map ([#448](../../issues/448))
 * Fixed a bug that could make Unreal Editor crash after deleting actors ([#1069](../../issues/1069))
 
+#### UnrealScript
+
+* We fixed a bug that could make the game crash due to a runaway loop in Botpack.Bot.TakeHit
+
 #### Audio and 3D Rendering
 
 * Fixed a bug that could make the game or editor crash when rendering an actor mesh without a texture ([#700](../../issues/700))
 * Fixed a bug that could make SoftDrv crash when rendering certain meshes ([#545](../../issues/545))
 * Fixed a bug that could make the game or editor crash when enabling bFilterByVolume on certain actors ([#699](../../issues/699))
 * Fixed a bug that made the game freeze and eventually crash when rendering an incorrectly linked portal ([#522](../../issues/522))
+* We fixed a bug that could make the game crash when rendering a mover with an origin point in an invalid zone ([#1670](../../issues/1670))
 
 #### Networking and Netcode
 
@@ -58,6 +64,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that crashed the game when loading a map with the LevelInfo.bLonePlayer flag set to true ([#1461](../../issues/1461))
 * Fixed a bug that made the ucc masterserver commandlet hang (on the first press) and then crash (on the second press) when pressing CTRL+C ([#1504](../../issues/1504))
 * Fixed a bug that made the game crash when trying to play a demo file that depends on missing packages ([#1601](../../issues/1601))
+* We fixed two bugs that could make the UZ decompression code crash while creating or destroying threads ([#1674](../../issues/1674))
 
 #### Physics and Player Movement
 
@@ -70,12 +77,15 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 #### Miscellaneous
 
 * Fixed a bug that made the game crash on startup on macOS Sonoma 14.4 ([#1549](../../issues/1549))
+* We implemented a workaround for a bug that made the game crash while shutting down on some Linux systems (e.g., Linux Mint 22)
+* We removed libopenal.so.1 from the Linux tarballs. To play the game with ALAudio, you will now have install OpenAL-soft using your system's package manager
 
 ### Bug Fixes
 
 #### Networking and Netcode
 
 * The IpDrv.UdpLink.ReceivedBinary() and IpDrv.TcpLink.ReceivedBinary() events should now reliably receive all incoming data
+* We fixed a thread synchronization problem in the hostname resolution code that could make address lookups fail unexpectedly
 
 #### Unreal Editor
 
@@ -157,6 +167,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that could cause actors/players to get stuck when they try to walk up a small step ([#866](../../issues/866))
 * Fixed a bug that could make bots run around aimlessly near ledges they wanted to jump down from ([#1568](../../issues/1586))
 * Fixed a bug that made human players' view vibrate along the Z-axis when standing on a mover ([#720](../../issues/720), [#1621](../../issues/1621))
+* We fixed several collision bugs while maximally preserving compatibility with maps and mods that rely on quirks of the old collision code. We also added a new FixUpMoversBoundingBox option to the [Engine.GameEngine] section of the game ini. If this option is set to a non-zero value, the game and editor will detect and, potentially, fix up movers whose bounding box does encompass all inner collision hulls. If set to 1, we will expand the outer bounding box so all inner collision hulls become part of the outer bounding box. If set to 2, we will limit the size of the expansion to ensure the mover behaves (almost) identically in pre-469e clients/servers and post-469e clients and servers. The default value of FixUpMoversBoundingBox is 2 ([#1653](../../issues/1653), [#1655](../../issues/1655), [#1672](../../issues/1672))
 
 #### Audio and 3D Rendering
 
@@ -170,6 +181,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that caused animation of ice textures to stop at high frame rates
 * Fixed a bug that made certain meshes disappear when viewed from certain angles/positions ([#1414](../../issues/1414), [clip](https://www.youtube.com/watch?v=2N50hljvBDA))
 * Fixed a texture corruption issue in SoftDrv ([clip](https://www.youtube.com/watch?v=0xmejgUDrEk))
+* We fixed a bug that made ALAudio unable to play certain mp3 files
 
 #### Input and Windowing
 
@@ -295,6 +307,11 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * We added a new "Draw Shape" option to the 2D shape editor. This option allows you to draw any shape you like! ([clip](https://www.youtube.com/watch?v=yq7PqciLBaA))
 * You should now be able to rename all classes, sound objects, music objects, and mesh objects from their respective browsers/editors ([clip](https://www.youtube.com/watch?v=QAgdiUhAC6E))
 * You can now use the CTRL+A shortcut to select all text in text view windows (such as those that show exported properties) ([clip](https://www.youtube.com/watch?v=LOMQ24YckW0))
+* We added new mesh browsers buttons and menu options to visualize the skeleton and bone names of skeletal meshes. These buttons also show you the bounding box and bounding sphere of all meshes
+* We now reset the brush TempScale value when you finish scaling a brush with the "Snapped Brush Scaling" option
+* The Windows XP version of Unreal Editor will no longer show you XP-incompatible renderers in the renderer selection menus
+* D3DDrv now appears as "Direct3D7" in the renderer selection menus
+* The editor will no longer warn you about broken movers or compatibility problems when it autosaves a map ([#1673](../../issues/1673))
 
 #### UnrealScript
 
@@ -325,6 +342,10 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The "Voice Messages" option in the in-game audio settings menu will now be visible even if you are not spectating a game ([#1590](../../issues/1590))
 * Improved performance of all mods and menus that enumerated or iterated over all installed skins ([#1598](../../issues/1598))
 * We added various new key binding options to the in-game controls menu ([#1611](../../issues/1611), [#1613](../../issues/1613))
+* We optimized the code that populates the server list in the in-game server browser. As a result, servers should now appear almost immediately
+* The control preferences now allows you to bind keys to show the scoreboard or server info
+* The server browser will now remember and restore the heights of its sub-windows ([#1362](../../issues/1362))
+* The "RELOADCONFIG" command will now reload the configuration of all instances of the specified class
 
 #### Physics and Player Movement
 
@@ -337,6 +358,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * You can now enable and disable vertical synchronization when playing with the OpenGLDrv renderer on a Linux/ARM platform
 * Light actors that use the LT_Flicker LightType will now update approximately 30 times per second ([#1216](../../issues/1216))
 * We added a "TRYRENDERDEVICE" console command that allows you to switch to a different renderer without restarting the game ([#1319](../../issues/1319), [clip](https://www.youtube.com/watch?v=OAL933bs35Y))
+* We added a shader-based gamma correction mode to D3D9Drv. This new mode can reliably apply gamma correction to the game, even when it is running in windowed mode. You can enable shader-based gamma correction by changing the UseShaderGamma option in the [D3D9Drv.D3D9RenderDevice] section of the game ini. If set to 0, D3D9Drv will use its old (and extremely unreliable) gamma correction method. If set to 1, D3D9Drv will use the new method in windowed mode and the old method in fullscreen mode. If set to 2, D3D9Drv will always use the new method ([#491](../../issues/491))
 
 #### Input and Windowing
 
@@ -352,6 +374,8 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The game will now log a more descriptive error when it tries to load a package without a valid header ([#1389](../../issues/1389))
 * We now use Microsoft's mimalloc memory allocator. This gives us a nice performance boosts in the game client, server, and editor on all platforms
 * The game will now show you a more descriptive error message when you try to launch it from a game folder that does not contain the required game data ([#1248](../../issues/1248))
+* The game will now decompress the entry map on-the-fly if it finds Entry.unr.uz but cannot find Entry.unr. This change will allow players who skip the map decompression step of the game installation to play the game ([#497](../../issues/497), [#1339](../../issues/1339), [#1505](../../issues/1505), [#1665](../../issues/1665))
+* The Windows executables will now log additional debugging information into the log file when the game/server/editor crashes
 
 ## Unreal Tournament Version 469d Release Notes
 
