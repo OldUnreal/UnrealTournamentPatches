@@ -44,6 +44,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that could make Unreal Editor crash when building lights on very large maps
 * Fixed a bug that made Unreal Editor crash when loading a map that actors whose names clash with names of actors on the previously loaded map ([#448](../../issues/448))
 * Fixed a bug that could make Unreal Editor crash after deleting actors ([#1069](../../issues/1069))
+* We fixed several bugs that crashed UCC while importing meshes on Linux and macOS ([#1507](../../issues/1507))
 
 #### UnrealScript
 
@@ -159,6 +160,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that broke the Engine.ScriptedTexture.ReplaceTexture() function ([#1592](../../issues/1592))
 * Fixed a bug that could cause runaway loop crashes in ScriptedPawn.RangedAttack
 * Fixed a bug that prevented you from jumping if you had your DefaultPlayer.Name setting in User.ini set to a blank value ([#1623](../../issues/1623))
+* We fixed a bug that made SaveConfig() save values with trailing spaces or trailing quotes incorrectly ([#1686](../../issues/1686))
 
 #### Physics and Player Movement
 
