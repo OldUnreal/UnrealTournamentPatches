@@ -13,7 +13,7 @@
 * [UT99.org - Unreal Tournament Community](https://ut99.org)
 * [OldUnreal](https://www.oldunreal.com)
 
-## Unreal Tournament Version 469e Release Notes [ First Preview Builds Now Available for Private Testers! ]
+## Unreal Tournament Version 469e Release Notes [ Release Candidates are now available! ]
 
 Version 469e is completely network compatible with all previous public releases of UT (down to 432).
 The UTPG and OldUnreal teams worked hard to maintain binary compatibility with older native mods.
@@ -45,6 +45,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that made Unreal Editor crash when loading a map that actors whose names clash with names of actors on the previously loaded map ([#448](../../issues/448))
 * Fixed a bug that could make Unreal Editor crash after deleting actors ([#1069](../../issues/1069))
 * We fixed several bugs that crashed UCC while importing meshes on Linux and macOS ([#1507](../../issues/1507))
+* We fixed a bug that crashed Unreal Editor when tapping the delete key in an empty group browser window
 
 #### UnrealScript
 
@@ -70,6 +71,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 #### Physics and Player Movement
 
 * Fixed a bug that could make the game crash when a bot tried to move around on a map with invalid paths ([#1097](../../issues/1097))
+* We fixed a bug that could crash the game in the APawn::TraverseFrom function
 
 #### Input and Windowing
 
@@ -87,6 +89,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 
 * The IpDrv.UdpLink.ReceivedBinary() and IpDrv.TcpLink.ReceivedBinary() events should now reliably receive all incoming data
 * We fixed a thread synchronization problem in the hostname resolution code that could make address lookups fail unexpectedly
+* We fixed a resource leak in IpDrv. Over time, this resource leak could break the in-game server browser
 
 #### Unreal Editor
 
@@ -145,6 +148,9 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed several bugs that made the 2D shape editor destroy the shape you were editing ([clip 1](https://www.youtube.com/watch?v=Ql87D0jXIE4), [clip 2](https://www.youtube.com/watch?v=77VycA8biG4))
 * Fixed a bug that made the editor show an incorrect 3D bounding box for movers ([clip](https://www.youtube.com/watch?v=4q5l7AOujaE))
 * Fixed a bug that made it impossible to draw fire textures in texture properties windows ([clip](https://www.youtube.com/watch?v=cBFDVtlO9UY))
+* We fixed a bug that made it impossible to delete certain unused textures ([#1576](../../issues/1576))
+* We fixed a bug that could make Unreal Editor destroy brushes whose points/planes collapsed while vertex editing
+* We fixed a bug that made it impossible to select music and sound objects in groups
 
 #### UnrealScript
 
@@ -161,6 +167,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that could cause runaway loop crashes in ScriptedPawn.RangedAttack
 * Fixed a bug that prevented you from jumping if you had your DefaultPlayer.Name setting in User.ini set to a blank value ([#1623](../../issues/1623))
 * We fixed a bug that made SaveConfig() save values with trailing spaces or trailing quotes incorrectly ([#1686](../../issues/1686))
+* The "RELOADCONFIG" console command should now correctly handle perobjectconfig objects and classes
 
 #### Physics and Player Movement
 
@@ -192,6 +199,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that made the minimize button disappear in some cases when switching to windowed mode ([#1546](../../issues/1546))
 * Fixed a bug that could get the game stuck in a window resizing loop on Linux and macOS ([#1158](../../issues/1158))
 * Fixed a bug that made it impossible to relaunch the game after changing video settings on Linux and macOS
+* We fixed a bug that made you switch weapons when ALT+TAB'ing in and out of the game ([#1701](../../issues/1701))
 
 #### Localization
 
@@ -314,6 +322,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The Windows XP version of Unreal Editor will no longer show you XP-incompatible renderers in the renderer selection menus
 * D3DDrv now appears as "Direct3D7" in the renderer selection menus
 * The editor will no longer warn you about broken movers or compatibility problems when it autosaves a map ([#1673](../../issues/1673))
+* We added VulkanDrv to the editor viewport dropdown menu
 
 #### UnrealScript
 
@@ -348,6 +357,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The control preferences now allows you to bind keys to show the scoreboard or server info
 * The server browser will now remember and restore the heights of its sub-windows ([#1362](../../issues/1362))
 * The "RELOADCONFIG" command will now reload the configuration of all instances of the specified class
+* The FOV textbox in the in-game video settings menu now supports floating-point values ([#1704](../../issues/1704))
 
 #### Physics and Player Movement
 
@@ -378,6 +388,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The game will now show you a more descriptive error message when you try to launch it from a game folder that does not contain the required game data ([#1248](../../issues/1248))
 * The game will now decompress the entry map on-the-fly if it finds Entry.unr.uz but cannot find Entry.unr. This change will allow players who skip the map decompression step of the game installation to play the game ([#497](../../issues/497), [#1339](../../issues/1339), [#1505](../../issues/1505), [#1665](../../issues/1665))
 * The Windows executables will now log additional debugging information into the log file when the game/server/editor crashes
+* Cache purging is now disabled by default ([#1706](../../issues/1706))
 
 ## Unreal Tournament Version 469d Release Notes
 
