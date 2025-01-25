@@ -172,6 +172,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The "RELOADCONFIG" console command should now correctly handle perobjectconfig objects and classes
 * We fixed a bug that made pressure zones and vacuum zones reset your FOV to the default value
 * Selecting partial lines across line breaks should now work as expected in DynamicTextAreas
+* We fixed an issue that made text in certain types of UWindow windows render with a small offset after selecting it
 
 #### Physics and Player Movement
 
