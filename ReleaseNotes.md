@@ -58,6 +58,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that could make the game or editor crash when enabling bFilterByVolume on certain actors ([#699](../../issues/699))
 * Fixed a bug that made the game freeze and eventually crash when rendering an incorrectly linked portal ([#522](../../issues/522))
 * We fixed a bug that could make the game crash when rendering a mover with an origin point in an invalid zone ([#1670](../../issues/1670))
+* We fixed a bug that made OpenGLDrv crash on certain older GPU drivers
 
 #### Networking and Netcode
 
@@ -151,6 +152,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * We fixed a bug that made it impossible to delete certain unused textures ([#1576](../../issues/1576))
 * We fixed a bug that could make Unreal Editor destroy brushes whose points/planes collapsed while vertex editing
 * We fixed a bug that made it impossible to select music and sound objects in groups
+* We fixed a bug that broke bezier line segments after using the rotate function in the 2D shape editor
 
 #### UnrealScript
 
@@ -168,6 +170,8 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that prevented you from jumping if you had your DefaultPlayer.Name setting in User.ini set to a blank value ([#1623](../../issues/1623))
 * We fixed a bug that made SaveConfig() save values with trailing spaces or trailing quotes incorrectly ([#1686](../../issues/1686))
 * The "RELOADCONFIG" console command should now correctly handle perobjectconfig objects and classes
+* We fixed a bug that made pressure zones and vacuum zones reset your FOV to the default value
+* Selecting partial lines across line breaks should now work as expected in DynamicTextAreas
 
 #### Physics and Player Movement
 
@@ -191,6 +195,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that made certain meshes disappear when viewed from certain angles/positions ([#1414](../../issues/1414), [clip](https://www.youtube.com/watch?v=2N50hljvBDA))
 * Fixed a texture corruption issue in SoftDrv ([clip](https://www.youtube.com/watch?v=0xmejgUDrEk))
 * We fixed a bug that made ALAudio unable to play certain mp3 files
+* We fixed a bug that could make OpenGLDrv render dynamic textures as plain black textures
 
 #### Input and Windowing
 
@@ -218,6 +223,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The in-game server browser now correctly decodes UTF-8-encoded server names and server info
 * The "SOCKETS" console command now shows detailed traffic statistics for individual channels
 * We added a "DEVNETTRAFFICLOGS" console command that enables logging of replication traffic ([#722](../../issues/722), [clip](https://www.youtube.com/watch?v=KYVbpHcKGKE))
+* The game client will no longer capture Engine.SavedMove objects in demo recordings. This should make demos substantially smaller
 
 #### Unreal Editor
 
