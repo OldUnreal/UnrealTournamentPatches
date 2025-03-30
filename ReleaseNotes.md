@@ -46,10 +46,14 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that could make Unreal Editor crash after deleting actors ([#1069](../../issues/1069))
 * We fixed several bugs that crashed UCC while importing meshes on Linux and macOS ([#1507](../../issues/1507))
 * We fixed a bug that crashed Unreal Editor when tapping the delete key in an empty group browser window
+* We fixed several bugs that could crash Unreal Editor during path building operations
+* We fixed a bug that could make Unreal Editor crash after deleting sounds or music
 
 #### UnrealScript
 
 * We fixed a bug that could make the game crash due to a runaway loop in Botpack.Bot.TakeHit
+* We fixed a bug that could crash the game while reloading packages
+* We fixed a bug that made the game crash when you attempted to play a demo using the exec command line parameter ([#1774](../../issues/1774))
 
 #### Audio and 3D Rendering
 
@@ -58,7 +62,8 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that could make the game or editor crash when enabling bFilterByVolume on certain actors ([#699](../../issues/699))
 * Fixed a bug that made the game freeze and eventually crash when rendering an incorrectly linked portal ([#522](../../issues/522))
 * We fixed a bug that could make the game crash when rendering a mover with an origin point in an invalid zone ([#1670](../../issues/1670))
-* We fixed a bug that made OpenGLDrv crash on certain older GPU drivers
+* We fixed several bugs that made OpenGLDrv crash on Linux platforms or with certain older GPU drivers
+* We fixed several bugs that made SoftDrv crash at high screen resolutions
 
 #### Networking and Netcode
 
@@ -73,6 +78,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 
 * Fixed a bug that could make the game crash when a bot tried to move around on a map with invalid paths ([#1097](../../issues/1097))
 * We fixed a bug that could crash the game in the APawn::TraverseFrom function
+* We fixed a bug that could crash the moving brush tracker when it processed invalid brushes
 
 #### Input and Windowing
 
@@ -153,6 +159,11 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * We fixed a bug that could make Unreal Editor destroy brushes whose points/planes collapsed while vertex editing
 * We fixed a bug that made it impossible to select music and sound objects in groups
 * We fixed a bug that broke bezier line segments after using the rotate function in the 2D shape editor
+* We fixed a bug that made the CTRL+ALT+RMB/LMB shortcuts copy unwanted surface flags ([#1487](../../issues/1487))
+* We fixed a bug that made it impossible to assign music objects to variables such as LevelInfo.Song ([#1763](../../issues/1763))
+* We fixed a bug that could break texture alignment after pressing one of the alignment buttons while multiple surfaces are selected ([#1760](../../issues/1760))
+* The texture browser menu should now update correctly after changing the texture display size
+* We fixed a bug that made Unreal Editor calculate the texture scale incorrectly when aligning certain surface textures ([#1777](../../issues/1777))
 
 #### UnrealScript
 
@@ -173,6 +184,9 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * We fixed a bug that made pressure zones and vacuum zones reset your FOV to the default value
 * Selecting partial lines across line breaks should now work as expected in DynamicTextAreas
 * We fixed an issue that made text in certain types of UWindow windows render with a small offset after selecting it
+* We fixed a bug that made the web admin freeze the server when there were too many maps or mutators on the server
+* We fixed a demo manager bug that made demos not record in certain cases
+* We fixed a demo manager bug that made it record the entry/intro level in certain cases
 
 #### Physics and Player Movement
 
@@ -197,6 +211,9 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a texture corruption issue in SoftDrv ([clip](https://www.youtube.com/watch?v=0xmejgUDrEk))
 * We fixed a bug that made ALAudio unable to play certain mp3 files
 * We fixed a bug that could make OpenGLDrv render dynamic textures as plain black textures
+* All audio drivers can now play music from the Unreal Editor music browser even if their in-game music volume is set to 0 ([#1091](../../issues/1091))
+* Weapon muzzle flashes should now render at 30 FPS even if the game itself runs at a much higher frame rate. This change should fix the screen tearing that previously appeared with weapons such as the minigun ([#1741](../../issues/1741))
+* We fixed a bug that made weapons render incorrectly when using OpenGLDrv with certain versions of the Mesa drivers ([#1574](../../issues/1574))
 
 #### Input and Windowing
 
@@ -206,10 +223,12 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that could get the game stuck in a window resizing loop on Linux and macOS ([#1158](../../issues/1158))
 * Fixed a bug that made it impossible to relaunch the game after changing video settings on Linux and macOS
 * We fixed a bug that made you switch weapons when ALT+TAB'ing in and out of the game ([#1701](../../issues/1701))
+* We fixed a bug that made you spawn looking up to the ceiling when using DirectInput ([#713](../../issues/713))
 
 #### Localization
 
 * Fixed a bug that made it impossible to localize the names of certain skins displayed in the in-game player setup menu
+* We fixed several bugs that made characters in various locales render incorrectly due to encoding issues in the localization files
 
 #### Game Client
 
@@ -330,6 +349,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * D3DDrv now appears as "Direct3D7" in the renderer selection menus
 * The editor will no longer warn you about broken movers or compatibility problems when it autosaves a map ([#1673](../../issues/1673))
 * We added VulkanDrv to the editor viewport dropdown menu
+* You can now import meshes from the mesh browser
 
 #### UnrealScript
 
@@ -365,6 +385,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The server browser will now remember and restore the heights of its sub-windows ([#1362](../../issues/1362))
 * The "RELOADCONFIG" command will now reload the configuration of all instances of the specified class
 * The FOV textbox in the in-game video settings menu now supports floating-point values ([#1704](../../issues/1704))
+* Added a "UTRACK ObjectName PropertyName" command that can monitor changes to properties. UTRACK only works when UTRACE is enabled
 
 #### Physics and Player Movement
 
@@ -378,6 +399,8 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Light actors that use the LT_Flicker LightType will now update approximately 30 times per second ([#1216](../../issues/1216))
 * We added a "TRYRENDERDEVICE" console command that allows you to switch to a different renderer without restarting the game ([#1319](../../issues/1319), [clip](https://www.youtube.com/watch?v=OAL933bs35Y))
 * We added a shader-based gamma correction mode to D3D9Drv. This new mode can reliably apply gamma correction to the game, even when it is running in windowed mode. You can enable shader-based gamma correction by changing the UseShaderGamma option in the [D3D9Drv.D3D9RenderDevice] section of the game ini. If set to 0, D3D9Drv will use its old (and extremely unreliable) gamma correction method. If set to 1, D3D9Drv will use the new method in windowed mode and the old method in fullscreen mode. If set to 2, D3D9Drv will always use the new method ([#491](../../issues/491))
+* Galaxy will no longer flood the game log with useless debug messages during music transitions ([#1340](../../issues/1340))
+* Galaxy now supports the 96 kHz and 192 kHz output rates ([#1651](../../issues/1651))
 
 #### Input and Windowing
 
@@ -396,6 +419,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The game will now decompress the entry map on-the-fly if it finds Entry.unr.uz but cannot find Entry.unr. This change will allow players who skip the map decompression step of the game installation to play the game ([#497](../../issues/497), [#1339](../../issues/1339), [#1505](../../issues/1505), [#1665](../../issues/1665))
 * The Windows executables will now log additional debugging information into the log file when the game/server/editor crashes
 * Cache purging is now disabled by default ([#1706](../../issues/1706))
+* The game will now always set the FirstRun ini setting regardless of how it was launched. Consequently, the ucc server commandlet will no longer perform one-time ini upgrades every time it launches
 
 ## Unreal Tournament Version 469d Release Notes
 
