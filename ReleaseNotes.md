@@ -88,6 +88,12 @@
 
 17. **Added text editing support for the in-game quick console.** (469d+)
 
+18. **Added a "UTRACK ObjectName PropertyName" console command** (469e+)
+
+	That can monitor changes to properties. 
+	
+	UTRACK only works when UTRACE is enabled.
+
 ## Unreal Tournament Version 469e Release Notes [ Release Candidates are now available! ]
 
 Version 469e is completely network compatible with all previous public releases of UT (down to 432).
@@ -460,7 +466,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The server browser will now remember and restore the heights of its sub-windows ([#1362](../../issues/1362))
 * The "RELOADCONFIG" command will now reload the configuration of all instances of the specified class
 * The FOV textbox in the in-game video settings menu now supports floating-point values ([#1704](../../issues/1704))
-* Added a "UTRACK ObjectName PropertyName" command that can monitor changes to properties. UTRACK only works when UTRACE is enabled
+* Added a "UTRACK ObjectName PropertyName" console command that can monitor changes to properties. UTRACK only works when UTRACE is enabled
 
 #### Physics and Player Movement
 
@@ -484,7 +490,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The game will now remove the window borders when you use windowed mode with a resolution equal to or larger than the screen resolution ([#1364](../../issues/1364))
 * The Linux and macOS clients will now use SDL2's fullscreen desktop window option when they open a fullscreen window with the same resolution as your desktop. As a result, you should now be able to use Cmd+Tab and media hotkeys on Mac systems
 * The Windows client now supports borderless game windows. You can switch to a borderless window either using the in-game menu, by setting WinDrv.WindowsClient.StartupBorderless to TRUE, or by executing the "SETSCREENMODE BORDERLESS" console command 
-* The editactor console command can now be run from the log window ([clip](https://www.youtube.com/watch?v=AvIPXvREiGo))
+* The "EDITACTOR" console command can now be run from the log window ([clip](https://www.youtube.com/watch?v=AvIPXvREiGo))
 
 #### Miscellaneous
 
