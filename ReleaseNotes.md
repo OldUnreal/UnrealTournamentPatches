@@ -13,6 +13,81 @@
 * [UT99.org - Unreal Tournament Community](https://ut99.org)
 * [OldUnreal](https://www.oldunreal.com)
 
+## Well-hidden features you might have missed
+
+1. **Networked movers now match local behavior.** (469e+)
+
+   Server owners can set the `Engine.GameEngine.UseNetMovingBrushTracker` option to `true` to ensure networked matches behave exactly like local games.
+
+   * AI-controlled actors (Bots, Monsters, and ScriptedPawns) will no longer ignore moving brushes.
+   * Splash damage can no longer penetrate moving brushes.
+   
+2. **We added a shader-based gamma correction mode to D3D9Drv.** (469e+)
+
+	This new mode can reliably apply gamma correction to the game, even when it is running in windowed/borderless mode. You can enable shader-based gamma correction by changing the UseShaderGamma option in the [D3D9Drv.D3D9RenderDevice] section of the game ini. If set to 0, D3D9Drv will use its old (and extremely unreliable) gamma correction method. If set to 1, D3D9Drv will use the new method in windowed mode and the old method in fullscreen mode. If set to 2, D3D9Drv will always use the new method.
+
+	You can also enable this mode from the Advanced Video Settings in Preferences.
+
+	Don't forget to enable FragmentProgram as well, or this feature won't work.
+	
+3. **Keep the realtime preview viewport option enabled after launching a map from the editor.** (469e+)
+
+	Just set the KeepRealtimePreviewOnPlay option in the [Options] section of UnrealEd.ini for that.
+	
+4. **Implemented a "ReloadConfig <x>" console command.** (469d+)
+
+	That allows you to reload the configuration file of the specified object or class. If you do not specify any object or class, reloadconfig will reload the configuration of all known objects and classes.
+
+	Use this command to apply changes from INI files without rebooting the game server.
+	
+5. **The "EDITACTOR" console command can now be run from the log window.** (469e+)
+
+	This means you can run it on a dedicated server too, as long as you start the server on Windows with the system-tray icon.
+
+	Very useful for inspecting actor properties directly on a dedicated server.
+	
+6. **The Windows client now supports borderless game windows.** (469e+)
+
+	You can switch to a borderless window either using the in-game menu, by setting WinDrv.WindowsClient.StartupBorderless to TRUE, or by executing the "SETSCREENMODE BORDERLESS" console command.
+	
+7. **We added a "TRYRENDERDEVICE" console command.** (469e+)
+
+	That allows you to switch to a different renderer without restarting the game. 
+
+	Good for comparing different renders.
+	
+8. **We added a "SPEC", "PLAY", "RED", "BLUE", "GREEN" and "GOLD" console commands.** (469e+)
+
+	You can now use the "SPEC" or "PLAY" console commands to reconnect to the server as a spectator or player respectively. In addition, you can use the "RED", "BLUE", "GREEN", or "GOLD" console commands to change to the respective teams
+
+9. **Added a "BACKTRACE" console command** (469e+)
+
+	That returns a dump of the current UnrealScript call stack.
+	
+10. **Added a "UTRACE" console command.** (469e+)
+
+	That turn the UnrealScript tracer (originally added by UTPG) on and off.
+	
+11. **Added an UnrealScript profiler** (469e+)
+
+	That outputs JSON-compatible profiling information in the game log. You can use the "UPROFILE" console command to to turn profiling on and off.
+	
+12. **Added a "RUNAWAYCOUNTER" console command** (469e+)
+
+	That returns the current value of the runaway counter.
+	
+13. **The "SOCKETS" console command now shows detailed traffic statistics for individual channels** (469e+)
+
+14. **We added a "DEVNETTRAFFICLOGS" console command** (469e+) 
+
+	That enables logging of replication traffic.
+	
+15. **Added clipboard paste support to the quick console.** (469a+)
+
+16. **Added mouse select + copy support to the console window.** (469c+)
+
+17. **Added text editing support for the in-game quick console.** (469d+)
+
 ## Unreal Tournament Version 469e Release Notes [ Release Candidates are now available! ]
 
 Version 469e is completely network compatible with all previous public releases of UT (down to 432).
