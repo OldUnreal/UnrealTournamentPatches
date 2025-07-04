@@ -42,6 +42,16 @@ The **legacy Windows** version of our patch is only available as a zip package. 
 
 ## Linux Installation
 
+### Automatic installation
+
+Download the `ut99-installer.sh` installation script from
+https://github.com/OldUnreal/FullGameInstallers/tree/master/Linux
+and run it in a terminal.
+
+It will download Unreal Tournament, the latest patch and install everything
+into the current directory. It also takes care of creating a desktop file.
+
+### Manual installation
 The **Linux** version of our patch is only available as a tarball. To install, unpack the tarball **on top of an existing installation** of Unreal Tournament.
 
 Alternatively, to spare you the pain of using Wine to install the Windows version, you can unpack our patch into an empty directory, which we will refer to as the **game directory**. You can then install the rest of the game as follows:
@@ -174,7 +184,7 @@ Native mod developers may want to use our updated UT SDK, which will be hosted i
 
 We are more than happy to accept other contributions too. Some of the things we could use help with are:
 
-* Installers: The Linux and Mac versions of the patch currently lack an installer script/program. We would gladly accept 3rd party installers contributed by community members.
+* Installers: The Mac version of the patch currently lacks an installer script/program. We would gladly accept a 3rd party installer contributed by community members.
 * Missing localizations: the new patches include several new in-game menu options as well as new 3D renderers and audio drivers. The text displayed by these new components is currently available in 11 out of 16 planned languages (new languages marked with (\*)): English, German (\*), French, Spanish, Italian, Russian (\*), Polish (\*), Portuguese (\*), Catalan (\*), Dutch (\*) and Greek (\*). While we tried to do the best job as possible with these localizations, the new languages as well as the new lines in the existing languages must be reviewed by native speakers. If you want to contribute to these localizations as well as working on the other WIP localizations, you can lend us a hand in [our Localization Project](https://github.com/NeonKnightOA/unreal-localization).
 * Hardware: If you have any decent hardware that you want to donate, then please send a direct message to Smirftsch or anth through the OldUnreal forum. We are especially looking for more macOS development systems.
 
