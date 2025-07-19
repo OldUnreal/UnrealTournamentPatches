@@ -145,6 +145,9 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * We fixed a bug that could make the game crash when rendering a mover with an origin point in an invalid zone ([#1670](../../issues/1670))
 * We fixed several bugs that made OpenGLDrv crash on Linux platforms or with certain older GPU drivers
 * We fixed several bugs that made SoftDrv crash at high screen resolutions
+* We fixed a bug that made ALAudio crash the game on startup on certain systems ([#1766](../../issues/1766))
+* We fixed a bug that made OpenGLDrv crash the game on Linux systems that use the SDL2-on-SDL3 compatibility layer ([#1838](../../issues/1838))
+* We fixed a bug that could make XOpenGLDrv crash the game due to an invalid memory allocation ([#1792](../../issues/1792))
 
 #### Networking and Netcode
 
@@ -178,6 +181,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The IpDrv.UdpLink.ReceivedBinary() and IpDrv.TcpLink.ReceivedBinary() events should now reliably receive all incoming data
 * We fixed a thread synchronization problem in the hostname resolution code that could make address lookups fail unexpectedly
 * We fixed a resource leak in IpDrv. Over time, this resource leak could break the in-game server browser
+* We fixed an input handling issue in IpServer.UdpServerQuery that could make clients render invalid properties in the server browser
 
 #### Unreal Editor
 
@@ -245,6 +249,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * We fixed a bug that could break texture alignment after pressing one of the alignment buttons while multiple surfaces are selected ([#1760](../../issues/1760))
 * The texture browser menu should now update correctly after changing the texture display size
 * We fixed a bug that made Unreal Editor calculate the texture scale incorrectly when aligning certain surface textures ([#1777](../../issues/1777))
+* We fixed a bug that made Unreal Editor apply mover scales incorrectly while rendering ([#1785](../../issues/1785))
 
 #### UnrealScript
 
@@ -268,6 +273,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * We fixed a bug that made the web admin freeze the server when there were too many maps or mutators on the server
 * We fixed a demo manager bug that made demos not record in certain cases
 * We fixed a demo manager bug that made it record the entry/intro level in certain cases
+* We fixed a bug that made demo manager stop playing/recording the current demo when you closed its main window
 
 #### Physics and Player Movement
 
@@ -295,6 +301,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * All audio drivers can now play music from the Unreal Editor music browser even if their in-game music volume is set to 0 ([#1091](../../issues/1091))
 * Weapon muzzle flashes should now render at 30 FPS even if the game itself runs at a much higher frame rate. This change should fix the screen tearing that previously appeared with weapons such as the minigun ([#1741](../../issues/1741))
 * We fixed a bug that made weapons render incorrectly when using OpenGLDrv with certain versions of the Mesa drivers ([#1574](../../issues/1574))
+* We fixed a bug that made D3D9Drv render lines incorrectly when shader-based gamma correction is enabled
 
 #### Input and Windowing
 
@@ -431,6 +438,8 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * The editor will no longer warn you about broken movers or compatibility problems when it autosaves a map ([#1673](../../issues/1673))
 * We added VulkanDrv to the editor viewport dropdown menu
 * You can now import meshes from the mesh browser
+* Mover selections now persist through map saving and loading
+* Clicking on an editor viewport title bar will now activate that viewport ([#1769](../../issues/1769))
 
 #### UnrealScript
 
