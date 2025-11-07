@@ -129,12 +129,17 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * We fixed a bug that crashed Unreal Editor when tapping the delete key in an empty group browser window
 * We fixed several bugs that could crash Unreal Editor during path building operations
 * We fixed a bug that could make Unreal Editor crash after deleting sounds or music
+* We fixed a bug that could wipe the UnrealEd or game ini ([#1879](../../issues/1879))
+* We fixed a bug that made UnrealEd crash when joining polys on models that are used by different brushes ([#1911](../../issues/1911))
 
 #### UnrealScript
 
 * We fixed a bug that could make the game crash due to a runaway loop in Botpack.Bot.TakeHit
 * We fixed a bug that could crash the game while reloading packages
 * We fixed a bug that made the game crash when you attempted to play a demo using the exec command line parameter ([#1774](../../issues/1774))
+* We fixed a crash bug in the package loader
+* We fixed a bug that could crash the game while running OBJ CLEAN
+* We fixed a bug that could crash the game while holding a key for a very long time
 
 #### Audio and 3D Rendering
 
@@ -148,6 +153,8 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * We fixed a bug that made ALAudio crash the game on startup on certain systems ([#1766](../../issues/1766))
 * We fixed a bug that made OpenGLDrv crash the game on Linux systems that use the SDL2-on-SDL3 compatibility layer ([#1838](../../issues/1838))
 * We fixed a bug that could make XOpenGLDrv crash the game due to an invalid memory allocation ([#1792](../../issues/1792))
+* We fixed a problem that made VulkanDrv crash for most Linux users ([#1880](../../issues/1880))
+* We fixed a bug that made D3D11Drv fail and sometimes even crash when rendering very complex meshes ([#1878](../../issues/1878))
 
 #### Networking and Netcode
 
@@ -173,6 +180,10 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that made the game crash on startup on macOS Sonoma 14.4 ([#1549](../../issues/1549))
 * We implemented a workaround for a bug that made the game crash while shutting down on some Linux systems (e.g., Linux Mint 22)
 * We removed libopenal.so.1 from the Linux tarballs. To play the game with ALAudio, you will now have install OpenAL-soft using your system's package manager
+* We fixed an issue where the Linux and macOS versions of the game would sometimes fail to convert strings to different encodings
+* We fixed several bugs and glitches caused by improper handling of NaN vectors in Engine functions ([#1898](../../issues/1898))
+* We made UCC make print warnings when you divide a vector by zero, as this would cause the aforementioned NaN issues
+* We reduced the memory usage of the UZ compression and decompression functions and, at the same time, fixed a crash bug in these functions ([#1904](../../issues/1904))
 
 ### Bug Fixes
 
@@ -302,6 +313,8 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Weapon muzzle flashes should now render at 30 FPS even if the game itself runs at a much higher frame rate. This change should fix the screen tearing that previously appeared with weapons such as the minigun ([#1741](../../issues/1741))
 * We fixed a bug that made weapons render incorrectly when using OpenGLDrv with certain versions of the Mesa drivers ([#1574](../../issues/1574))
 * We fixed a bug that made D3D9Drv render lines incorrectly when shader-based gamma correction is enabled
+* We improved the output of the AUDIOHELP and ASTAT commands in Cluster
+* We fixed a bug in D3D11Drv, D3D12Drv, and VulkanDrv that made objects hidden behind clip planes visible when they should not be ([#1896](../../issues/1896))
 
 #### Input and Windowing
 
@@ -312,6 +325,9 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * Fixed a bug that made it impossible to relaunch the game after changing video settings on Linux and macOS
 * We fixed a bug that made you switch weapons when ALT+TAB'ing in and out of the game ([#1701](../../issues/1701))
 * We fixed a bug that made you spawn looking up to the ceiling when using DirectInput ([#713](../../issues/713))
+* We fixed a bug that broke raw input for certain input devices
+* We improved an earlier fix for a problem that made ALT+TAB switch weapons ([#1701](../../issues/1701))
+* We fixed a bug that made the game receive spurious mouse scroll events
 
 #### Localization
 
@@ -322,6 +338,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 
 * Fixed a bug that made it impossible to delete recently recorded demos ([#1290](../../issues/1290))
 * Common render device options such as VolumetricLighting and Coronas will now show up in the Options subcategories in the preferences window ([#1262](../../issues/1262))
+* We fixed a demo manager bug that made it list certain files used by demos without their proper extensions ([#157](https://github.com/stijn-volckaert/udemo/issues/157))
 
 ### Enhancements
 
@@ -440,6 +457,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * You can now import meshes from the mesh browser
 * Mover selections now persist through map saving and loading
 * Clicking on an editor viewport title bar will now activate that viewport ([#1769](../../issues/1769))
+* We made the UnrealEd code editor refresh the list of open scripts after renaming a file ([#1908](../../issues/1908))
 
 #### UnrealScript
 
