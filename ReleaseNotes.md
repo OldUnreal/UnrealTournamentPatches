@@ -94,7 +94,7 @@
 	
 	UTRACK only works when UTRACE is enabled.
 
-## Unreal Tournament Version 469e Release Notes [ Release Candidates are now available! ]
+## Unreal Tournament Version 469e Release Notes
 
 Version 469e is completely network compatible with all previous public releases of UT (down to 432).
 The UTPG and OldUnreal teams worked hard to maintain binary compatibility with older native mods.
