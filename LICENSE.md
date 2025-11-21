@@ -1,3 +1,13 @@
+# Epic Games Terms of Service
+
+The Epic Games [Terms of
+Service](https://legal.epicgames.com/en-US/epicgames/tos/preview)
+apply to the use and distribution of Unreal Tournament. These terms
+supersede any other end user agreement that may accompany the game.
+
+# Third-Party Licenses
+
+
 Unreal Tournament patch 469 and upwards include code from 3rd party sources.
 This is a complete list of the 3rd party components and their licenses:
 
