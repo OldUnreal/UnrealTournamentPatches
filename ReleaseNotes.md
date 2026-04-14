@@ -94,6 +94,267 @@
 	
 	UTRACK only works when UTRACE is enabled.
 
+## Unreal Tournament Version 469f Release Notes [Release Candidate Coming Soon!]
+
+Version 469f is completely network compatible with all previous public releases of UT (down to 432).
+The UTPG and OldUnreal teams worked hard to maintain binary compatibility with older native mods.
+Most of these mods will continue to work in version 469f. However, some mods may need some trivial updates.
+If you are a native mod author, and you are having trouble updating your mod for version 469f, then please come talk to us on [Discord](https://discord.gg/thURucxzs6).
+**Note:** This patch disables older versions of ACE.
+Server admins should upgrade ACE to version 1.4b or later to check 469f clients.
+
+### Patch Highlights
+
+* The patch now includes 64-bit binaries for Windows systems! The 64-bit version includes all editor tools, all renderers except for D3DDrv, and all audio drivers, including a brand new port of Galaxy.
+* We've made some major improvements to the mouse input handling code. Mouse latency should now be lower than ever before!
+* SDL3 has landed. We've ported the SDL backend we use in our Linux and macOS clients from SDL2 to SDL3. Among other things, this should improve support for high-dpi displays, multiple monitors, and high-end mice
+* We've implemented numerous optimizations and quality-of-life improvements for Unreal Editor
+* Unreal Editor can now open maps with missing dependencies, including maps built for different Unreal Engine 1 games ([#clip 1](https://youtu.be/i0rwHmBEgGg), [#clip 2](https://youtu.be/xkxwMD7MpfY))
+* You can now enable dark mode in Unreal Editor
+
+### Enhancements
+
+#### Unreal Editor and UCC
+
+* Unreal Editor will now generate higher-precision UV coordinates for textures used on level surfaces. This results in larger maps, but makes it easier to align textures on big brushes or at high scales.
+You can disable this feature by setting UsePreciseUV to False in the [Editor.EditorEngine] section of your game ini ([#clip](https://youtu.be/5-qa74p_znY))
+* When saving a package, Unreal Editor and UCC will attempt to delete the destination file first (if it already exists)
+* The UCC decompress commandlet now supports batch decompression. You can use the batch decompressor either by including wildcards in the name of the file you want to decompress, or by decompressing all files in a folder specified using the -samefolder command line parameter
+* You can now use the CTRL+SHIFT+Space shortcut to align the currently active viewport to the selected actors ([#1804](../../issues/1804))
+* We've implemented several optimizations for the editor light builder
+* We've improved and extended support for importing .3d mesh files
+* The static light builder will now cast shadows for non-moving mesh actors (specifically those with bStatic enabled and DrawType set to DT_Mesh) when they are illuminated by a light source with bActorShadows set to true. This feature can be globally disabled via the Options.CastMeshShadows setting in UnrealEd.ini ([#clip](https://youtu.be/TdVeoS32qhE))
+* UCC make will now recursively find and build all .uc files in the root folder of the package you're building
+* We optimized the property editor so you can now select many actors and view/edit their properties with minimal delay ([#clip](https://youtu.be/3BNciqnJCC4))
+* UCC make now generates a more helpful error message when you declare an array with an invalid size
+* We added a "jump to" button to the code editor toolbar. This button attempts to find and jump to the definition of the identifier your cursor is at. The code editor will also attempt to decompile the definition if you've selected a class or function in a source-stripped package ([#clip](https://youtu.be/GS-Nojx2yyU))
+* We added a "fix name casing" tool to the code editor. This tool allows you fix the capitalization of known variable, type, struct, class, and function names ([#630](../../issues/630))
+* We added forward and backward buttons to the code editor. These buttons allow you to traverse the navigation history ([#clip](https://youtu.be/GS-Nojx2yyU))
+* The light builder now supports masked textures on meshes
+* We added a "missing content checks" tool that tells you which dependencies you're missing when the editor fails to load a package
+* You can now load maps even when (some of) their dependencies are missing ([#clip](https://youtu.be/i0rwHmBEgGg))
+* You can also enable missing content checks in UCC using the -missingcontent command line parameter
+* We added a refresh button to the search actors dialog
+* The editor now redraws the level when you select an actor in the search actors dialog
+* We added a "select brush actors with selected surfaces" option to the Brush>Actor menu
+* We added an "edit default properties" button to the code editor toolbar. This button opens the default property editor window for the class you're editing
+* You can now select the zone ambient light color or the light color of the selected actor in the color picker ([#clip](https://youtu.be/kx5D8Paj4kc))
+* You can now prefix property names with a '-' character when importing default properties from the clipboard. These prefixed properties will be reset to the parent default (if available) or to the type default ([#clip](https://youtu.be/JiJHFziTsZ0))
+* You can now scale volumetric lights using the map scaling tool
+* Double-clicking a texture in the texture browser will now open the texture properties window ([#1813](../../issues/1813))
+* We improved the color and masking accuracy in the mipmaps of masked P8 textures
+* The map scaling tool can now also scale the LightRadius, VolumeRadius, and VolumeBrightness properties
+* The editor will now automatically create an "All" animation sequence when you import a vertex mesh in the mesh browser. This sequence contains all imported frames
+* "MyLevel" is now the default package when you create a new class or texture in Unreal Editor
+* Added the Editor.MovePackage commandlet. This commandlet allows you to move resources from one package to another
+* The actor browser now has a "Move MyLevel Content" tool that allows you to move resources from the level package to other packages ([#clip](https://youtu.be/pEtFHQKn3L0))
+* The rename tools in the editor browser windows now allow you to move the resource to other packages while renaming them
+* We increased the number of items listed in recently opened files from 8 to 12 in the various editor browsers and menus
+* Improved math stability in UnrealScript by implementing a fallback for division-by-zero and multiply-by-nan operations. The engine will now gracefully handle these cases by printing a warning and using a near-zero epsilon value as the divisor or 1.0 as the multiplier, preventing NaN propagation and potential state corruption
+* We added a tool to convert actors to meshes or brushes ([#clip](https://youtu.be/FKE1FhGWft8))
+* We added a tool to convert brushes to skeletal meshes. You can access this tool from the UnrealEd menus, or from a UCC exec script using the "BRUSH TOMESH BRUSH=<source> MESH=<target>" command ([#clip 1](https://youtu.be/-RnEZoOr6M4), [#clip 2](https://youtu.be/w5Tbc6IlDio), [#clip 3](https://youtu.be/eZhtgZxrKHo), [#clip 4](https://youtu.be/RW7COQujWjk), [#clip 5](https://youtu.be/VPKuzCUG0uc), [#clip 6](https://youtu.be/O3zYkGNcBm8), [#clip 7](https://youtu.be/DAzM2b6HrPM), [#clip 8](https://youtu.be/BoDaTWv0NmA), [#clip 9](https://youtu.be/ODdCltmrOtE))
+* The skeletal mesh importer will now attempt to link the mesh materials to the correct textures
+* Mesh browser improvements: the mesh browser now has "show wireframe", "fit to view", and "auto rotate" buttons. You can now also toggle the free camera in the mesh browser. The mesh browser play/stop buttons will now remember their state ([#clip](https://youtu.be/376pOx9UR4s))
+* The mesh importer now drops problematic/invalid surfaces rather than including corrupted geometry in the mesh
+* You can now delete selected polygons from a brush ([#clip](https://youtu.be/E_QfW3EdsLM))
+* You can now select polygons belonging to different brushes and use the "To Brush" tool to merge these brushes ([#clip 1](https://youtu.be/wbVMDgcwoPM), [#clip 2](https://youtu.be/qixAK3rDYsU))
+* All batch export operations will now show a progress bar
+* You can now flip a mesh's normal vectors from the mesh browser ([#clip](https://youtu.be/qa7fdfRvnss))
+* The actor menu now allows you to select the actor's mesh in the mesh browser
+* The actor search dialog will now set its initial focus on the name textbox ([#1923](../../issues/1923))
+* While vertex editing, you can now create new polygons using the selected vertices, delete selected vertices, delete the polygons containing the selected vertices, flip polygons containing the selected vertices, invert your vertex selection, or bring up a dialog allowing you to edit properties of the selected vertices
+* Editor viewports now support a "Walkable Surface" rendering mode ([#clip](https://youtu.be/tg1WjnO-RmU))
+* The editor will now show you a warning when you try to save a package that has not been loaded fully ([#702](../../issues/702))
+* You can now press F5 to refresh property windows
+* The editor will now preserve the relative positions of actors you paste while holding the SHIFT key ([#clip](https://youtu.be/fGw_NNDN5zw))
+* 2D shape editor improvements: The 2D shape editor now lets you move the background image by holding the mouse wheel, or resize the background image by scrolling the mouse wheel while holding the SHIFT key. You can now use a screenshot of the selected viewport as the background image. The editor now has a button that allows you to render the grid on top of the shape you're editing ([#clip](https://youtu.be/6bB9JqdEqlQ))
+* We added a tool to split the selected actor into multiple brushes ([#clip](https://youtu.be/H00p0IWNS-8))
+* The texture pan mode now allows you to align textures precisely using SHIFT + RMB and SHIFT + LMB ([#clip](https://youtu.be/hGO9xYiRO8w))
+* Several windows and dialogs (such as the "Find Class" dialog in the actor browser) now use a filter drowdown list rather than a text input box, allowing for faster and more accurate class selection
+* The obj brush exporter now supports texture scaling
+* We increased the precision of the texture coordinates in imported and exported obj meshes ([#clip](https://youtu.be/xJESUTjSAk0))
+* We added new tools to reset texture panning or minimize the distance between surfaces and their texture anchor points. You can run these tools on actors or on individual surfaces
+* The editor now writes material information into mtl files when exporting a brush using the obj exporter
+* You can now enable dark mode in the editor by setting DarkMode to True in the [Editor.EditorEngine] section of the game ini ([#clip 1](https://youtu.be/20HTigg4uP4), [#clip 2](https://youtu.be/uhS9rOr0CG4))
+* The editor now supports commands longer than 256 characters
+* Added a fallback save mechanism: if a package fails to save, the editor will now prompt to save it with an automated suffix to ensure your progress is preserved
+* The sound browser can now import, export, and show properties of ogg files
+* The actor browser now has a "Find" button in its toolbar and context menu
+
+#### UnrealScript
+
+* The game will now keep processing actor ticks even when it is being flooded with window messages (e.g., when you are moving the mouse while pressing a mouse button) ([#1832](../../issues/1832))
+* The game will now log an UnrealScript backtrace when it encounters a fatal runaway loop
+* You can now use the ```__LINE__```, ```__FUNCTION__```, ```__METHOD__```, ```__EVENT__```, ```__STATE__```, ```__CLASS__```, and ```__PACKAGE__``` preprocessor macros in UnrealScript code
+* The "CLASS=" parameter is now optional for the "OBJ REFS" console command
+* You can now use the mouse wheel or the Page Up/Down buttons to scroll in a pulldown menu ([#1581](../../issues/1581))
+* Added the Actor.DynamicActors iterator to iterate only over non-static actors
+* The in-game menu will now look better when scaled to non-default scales ([#898](../../issues/898))
+* We added an "EDITOBJECT" console command that allows you to open a property editor window for a non-actor object
+* UWindow elements will now use grid-snapping by default. This makes them render correctly with all renderers
+* The CheatView and ClassView commands will no longer trigger runaway loop errors previously encountered in densely populated games ([#1982](../../issues/1982))
+* We added a security prompt that alerts you when a mod such as NPLoader attempts to install external extensions. The prompt will tell you which extension is being installed, and it will allow you to block its installation
+* The map list, mod menu, and other built-in windows can now display an unlimited number of entries and descriptions read from .int files
+* We added a bNextURLAbsolute toggle to Engine.LevelInfo. When enabled, the server treats Engine.LevelInfo.NextURL as a literal address and will no longer append default server options or parameters during a map transition
+
+#### Physics and Player Movement
+
+* We now block and print warnings for invalid actor move operations, which are usually the result of division by 0 errors in the physics code ([#1898](../../issues/1898))
+
+#### Audio and 3D Rendering
+
+* We implemented some significant rendering optimizations for dynamic lights ([#clip 1](https://youtu.be/3UvFbSTnqag), [#clip 2](https://youtu.be/mxXiSkgnUvw), [#clip 3](https://youtu.be/zOk9F1k4t_s))
+* OpenGLDrv now supports SSAA and Intel CMAA/CMAA2 anti-aliasing
+* You can now configure the OpenGLDrv framebuffer bits per channel setting in the advanced video settings window ([#252](../../issues/252))
+* We now offload screenshot encoding to a background thread. This should eliminate the long freezes some people were seeing when creating screenshots
+* We implemented various rendering optimizations and significantly improved performance in Frucore, D3D11Drv, D3D12Drv, VulkanDrv, and OpenGLDrv
+* ICBIND now supports a simplistic adaptive VSync mode, which will turn off VSync if the FPS goes below the configured percentage of the refresh rate
+* ICBIND now supports Catmull-Rom texture sampling to increase texture sharpness without removing texture filtering
+* We improved ICBIND's visual clarity at resolution scales below 1.0
+
+#### Input and Windowing
+
+* We reimplemented and optimized the raw input code for Windows. The new implementation should have much lower input latency
+* Users utilizing Raw Input and DirectInput can now opt-into the Windows XP mouse acceleration curve. To enable this, set RawEnhancedPointerPrecision=True or DirectEnhancedPointerPrecision=True within the [WinDrv.WindowsClient] section of the game's .ini file ([#clip 1](https://youtu.be/h_21q8X_PwM), [#clip 2](https://youtu.be/T96MggVxI8A), [#clip 3](https://youtu.be/VTNPznfavg8))
+* Log windows now have a context menu option to flush the log file
+* Edit boxes and the log window now allow you to select all text using CTRL+A
+* We implemented raw mouse and keyboard input support on macOS using IOKit. Raw input is enabled by default on systems that support it, but it can be disabled by setting MouseInputMode to SDL3_INPUT_Standard in the [SDLDrv.SDLClient] section of the game ini
+* You can now drag and move the game window when it's in borderless mode on Linux and macOS
+* We've improved support for entering formulas in numerical text fields in the property editor. These formulas can also refer to the current value of the corresponding property ([#clip](https://youtu.be/QgBuK2OBRkY))
+
+#### Webadmin
+
+* We implemented an optimization for UWebResponse::ValidWebFile that should eliminate lag spikes while using the web admin
+
+### Bug Fixes
+
+#### Networking and Netcode
+
+* Properties of actors that are marked as bNoDelete or bStatic will now replicate correctly ([#1953](../../issues/1953))
+
+#### Unreal Editor
+
+* We fixed a bug that made the "Select Surfaces -> Matching Texture" option select the default texture ([#1801](../../issues/1801))
+* Upon importing, the editor should now gracefully reject meshes without animation frames
+* Clicking the viewport toolbar will now set the focus to that viewport
+* We fixed a bug that could make the mesh browser render the wrong mesh if a mesh with the same base name (but different package or group name) existed
+* You can now open save files as maps in the editor
+* Toggling the dock status of the group browser will no longer reset the group rules ([#1817](../../issues/1817))
+* We fixed a bug that made the editor erroneously list certain unused textures in the texture browser's "In Use" tab
+* We fixed a bug that made the editor generate invalid mipmaps for non-power of two P8 textures
+* We fixed an incorrect compiler error message generated when you forgot the closing bracket for an array access ([#1863](../../issues/1863))
+* The actor search dialog should now refresh the match count correctly after searching ([#1861](../../issues/1861))
+* DDS textures should now import correctly on all platforms
+* Fixed a bug that made the UnrealScript compiler hang when compiling malformed function calls ([#1871](../../issues/1871))
+* Unreal Editor now correctly parses imported properties containing very long lines
+* Unreal Editor can now correctly align textures on surfaces whose brushes have been deleted from the level
+* The class list in the actor browser will now update correctly after renaming a class ([#1908](../../issues/1908))
+* We fixed a memory leak in the mesh loading/processing code
+* We fixed a bug that caused inconsistent, incorrect, and extremely slow surface merging when importing a T3D file into the editor. The bug fix is enabled by default, but you can return to the old behavior by setting the PreserveMergedSurfsOnImportT3D property to False in the [Editor.EditorEngine] section of the game ini
+* We fixed a logic error that prevented the join polygons tool from merging polygons with overlapping mid-points ([#clip](https://youtu.be/KhSiq_n0ImI))
+* The "Rebuild Movers" progress bar will now report progress correctly
+* The editor buttons and labels now use a different font that will scale correctly on all systems ([#1870](../../issues/1870))
+* Right-clicking in vertex editing mode will no longer create redundant transactions in the undo history
+* When you box-select in vertex editing mode, UnrealEd will no longer select vertices behind the camera
+* If the editor ini file does not specify any viewport style, UnrealEd will now use the default viewport style rather than open without any viewports
+* We fixed several bugs that made brush operations behave erratically when the texture lock was disabled
+* We fixed some edge cases in the obj importer that would cause geometry to break or disappear during import
+* We fixed a window ordering problem that would trigger after detaching a browser window
+* The 2D shape editor's grid will now render correctly at all zoom levels ([#1294](../../issues/1294))
+* Rotating a surface's texture will now make its light map reset as expected
+* We fixed a bug that could corrupt lightmap colors after undoing or redoing certain editor operations
+* Textures whose group name matches the package name will now be visible in the texture browser
+* Object names should now be filled in correctly when you import a game asset from a file that contains dots or spaces in its name
+* The editor will no longer discard the map's modified status when it fails to save the map ([#1999](../../issues/1999))
+* The editor will no longer attempt to overwrite files that are marked as read only ([#2001](../../issues/2001))
+
+#### UnrealScript
+
+* Fixed several bugs that made it impossible to (re)load certain packages
+* We fixed a division by zero error in Botpack.Bot.AdjustAim
+* We fixed division by zero errors in Botpack.UT_BioRifle.RateSelf
+* The "CRACKURL" console command will now parse and return the URL.String field correctly
+* We fixed a division by zero error in UnrealI.BigRock.InitFrag ([#1966](../../issues/1966))
+* The talk textures will now render correctly for players and bots using Nali Cow skins
+* We fixed a bug in the floating-point rounding operation in the game's core math library. This bug was introduced in an earlier 469 patch. One of the most visible effects of the bug was that float-to-integer casting operations in UnrealScript always rounded to an even integer number
+* We fixed an accessed none bug in UnrealI.RazorBlade.Flying.Setup ([#2006](../../issues/2006))
+
+#### Physics and Player Movement
+
+* The velocity applied by a velocity zone should no longer be frame rate-dependent. This fixes an issue where the boom tubes on CTF-HallOfGiants did not give you the expected momentum when you play the game at a high frame rate ([#1776](../../issues/1776))
+* We fixed a bug that made actors with a mass of 0.0 fall out of the world when swimming
+* We fixed a bug that made actors with a velocity of 0.0 fall out of the world
+* We fixed a bug that could make walking pawns fall out of the world
+* Rotating actors will now rotate at a consistent speed even at high frame rates ([#1259](../../issues/1259))
+
+#### Audio and 3D Rendering
+
+* Skyboxes will now render correctly in warp zones and mirrors
+* D3DDrv now supports rendering the same texture with and without PF_Masked in the same scene
+* Tiles should now render correctly inside portals
+* We fixed some performance and compatibility issues in XOpenGLDrv
+* We fixed a bug that made meshes disappear when looking at them from within a void zone, from specific angles, or when the actor pivot was behind the camera
+* We fixed a logic error in the LOD calculation for LOD mesh rendering
+* We fixed an overflow error that made SoftDrv render large surfaces incorrectly ([#669](../../issues/669))
+* Galaxy should now loop OGG music files correctly ([#1331](../../issues/1331))
+* Galaxy should now play OGG sounds correctly
+* Galaxy should now play stereo sounds correctly
+* We fixed a regression bug that broke animation for scripted textures ([#2003](../../issues/2003))
+* We fixed several issues in the OpenGL context creation code in OpenGLDrv
+* We fixed issues that broke AMD driver compatibility in XOpenGLDrv
+* ICBIND now uses less VRAM when using HD textures because it no longer stores two copies of non-paletted textures
+
+#### Input and Windowing
+
+* We fixed a bug that made it impossible to relaunch the game if you had the log window open
+* The game should now release and re-acquire the mouse properly when you ALT+TAB out of and back into the game while using DirectInput
+
+#### Miscellaneous
+
+* We fixed several bugs in the string conversion code used on Linux and macOS
+* We fixed a bug that could corrupt your game settings due to string conversion errors in the file saving code
+
+### Stability/Security Fixes
+
+#### Unreal Editor
+
+* We fixed a bug that made the editor crash when attempting to save the code of a source-stripped class
+* We fixed a bug that could crash the editor when you clicked the "whole word" checkbox in the search actors dialog
+* We fixed a bug that made the editor merge palettes of unrelated textures, thus destroying these textures ([#1609](../../issues/1609))
+* We fixed a lighting color overflow bug that made bright light sources produce green halo spots on level geometry ([#1305](../../issues/1305))
+* We fixed a bug that could crash the editor when you selected a different actor while the color picker was open
+* We fixed a bug that could crash the editor when you joined polygons on brushes that shared their model with other brushes ([#1911](../../issues/1911))
+* We fixed a bug that could crash the editor when you set the mesh texture of the camera actor to None
+* UnrealEd will no longer crash when importing DDS files that report an incorrect mipmap count in their file headers
+* We fixed a bug that could crash the editor when it failed to convert a mesh
+* We fixed a crash that could occur when building lighting for a surface with invalid texture coordinates
+
+#### UnrealScript
+
+* We fixed a bug that could crash the game with an "GObjBeginLoadCount>0" assertion message if it failed to load a package
+* We fixed a bug that could make the game/editor crash when ignoring the return value of certain UnrealScript functions
+* We fixed a bug that could crash the game when you spawned actors and immediately destroyed them
+
+#### Audio and 3D Rendering
+
+* We fixed a bug that could crash Galaxy when it changed to a different music track
+* We fixed a bug that made ALAudio crash the game when it attempted to log invalid audio device names to the log file ([#1766](../../issues/1766))
+* We fixed a bug that could crash the game between levels when you used a renderer that has not been ported to the OldUnreal rendering interface
+* We fixed a bug that could crash the game when rendering an actor with more than 8 but fewer than 16 MultiSkins
+* The game no longer crashes when rendering a mesh that is illuminated by over 120 light sources
+* We fixed a bug that crashed ICBIND when drawing meshes that did not fit in the internal vertex bfufer
+
+#### Physics and Player Movement
+
+* We fixed a bug that made the game crash when an actor moved toward an interpolation point without a valid next node
+* We fixed bugs that made the game/editor hang when processing invalid navigation point lists
+
+#### Input and Windowing
+
+* We fixed a bug that could crash the game/editor when opening the log window if the log file was too big
+* We fixed a bug that could crash the game if you held down a key during a cache flush operation
+* We fixed a crash that could occur after selecting a listbox
+
 ## Unreal Tournament Version 469e Release Notes
 
 Version 469e is completely network compatible with all previous public releases of UT (down to 432).
