@@ -180,6 +180,25 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Added a fallback save mechanism: if a package fails to save, the editor will now prompt to save it with an automated suffix to ensure your progress is preserved
 * The sound browser can now import, export, and show properties of ogg files
 * The actor browser now has a "Find" button in its toolbar and context menu
+* The Fire.FireTexture.Spark and Fire.WaterTexture.ADrop properties are now editable in the texture property editor window
+* The texture property window can now be resized and maximized
+* You can now paste dynamic arrays into property windows
+* Object property fields in the property editor will now reject object values of the wrong class
+* The texture browser context menu now has a "Copy Path Name" option that will copy the fully-qualified name of the selected texture to the clipboard
+* You can now undo/redo right-click actions on pivots
+* You can now undo/redo map import operations
+* The map scale dialog now has a reset button which resets all fields to their default values
+* The mesh browser toolbar now tells you the type of mesh you're looking at
+* The texture browser now has several texture filter buttons in the bottom bar, allowing you to filter the selection by texture type (regular, animated, fire, ice, wave, wet, scripted) ([#clip](https://www.youtube.com/watch?v=O-px0xPgfGI))
+* The mesh browser now has a toolbar button that enables particle rendering ([#clip](https://www.youtube.com/watch?v=mVgVdiYDe94))
+* You can now move editor viewports to a different monitor ([#2038](../../issues/2038))
+* Right-clicking a property value in the properties/actor editor now opens a context menu with several useful options
+* The Vertices>Edit Vertices dialog now has buttons to automatically fill in the minimum, center, or maximum X/Y/Z coordinates for the selected vertices
+* We added a "Mesh Collision" tool that creates precise, non-cylindrical collision primitives for a selected mesh by automatically filling it with invisible BlockAll actors ([#clip](https://www.youtube.com/watch?v=euDE5Bn0ml0))
+* The "Search Actors" dialog is now resizeable
+* We added a new texture browser tool that exports all textures used by the current map
+* The skeletal mesh importer now automatically creates a root bone and assigns all vertices to it if the imported mesh does not contain any bones
+* The batch import tool in the various asset browsers now shows a global progress bar
 
 #### UnrealScript
 
@@ -196,10 +215,13 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We added a security prompt that alerts you when a mod such as NPLoader attempts to install external extensions. The prompt will tell you which extension is being installed, and it will allow you to block its installation
 * The map list, mod menu, and other built-in windows can now display an unlimited number of entries and descriptions read from .int files
 * We added a bNextURLAbsolute toggle to Engine.LevelInfo. When enabled, the server treats Engine.LevelInfo.NextURL as a literal address and will no longer append default server options or parameters during a map transition
+* High-skilled bots will no longer hunt spectators
+* You can now type into UWindowComboControls to filter the combo control list. Among other things, this means you can now select maps much more quickly in the new game menu ([#clip](https://www.youtube.com/watch?v=kdby5ue1nLA))
 
 #### Physics and Player Movement
 
 * We now block and print warnings for invalid actor move operations, which are usually the result of division by 0 errors in the physics code ([#1898](../../issues/1898))
+* You can now configure the node limit for path searching by setting the PathSearchNodesMaxCount property to a positive integer value in the [Engine.GameEngine] section of the game ini
 
 #### Audio and 3D Rendering
 
@@ -211,6 +233,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * ICBIND now supports a simplistic adaptive VSync mode, which will turn off VSync if the FPS goes below the configured percentage of the refresh rate
 * ICBIND now supports Catmull-Rom texture sampling to increase texture sharpness without removing texture filtering
 * We improved ICBIND's visual clarity at resolution scales below 1.0
+* You can now enable "Legacy Volume Boost" in the in-game Audio Preferences menu. This option restores the classic method for amplifying critical notification sounds (like flag captures and returns in CTF) by playing them across multiple channels simultaneously ([#505](../../issues/505), [#115](../../issues/115))
+* SoftDrv is now available for Linux
 
 #### Input and Windowing
 
@@ -267,6 +291,14 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Object names should now be filled in correctly when you import a game asset from a file that contains dots or spaces in its name
 * The editor will no longer discard the map's modified status when it fails to save the map ([#1999](../../issues/1999))
 * The editor will no longer attempt to overwrite files that are marked as read only ([#2001](../../issues/2001))
+* We fixed a bug that made the UnrealScript compiler throw "variable to large" errors when compiling certain statements containing ArrayCount expressions
+* We fixed a bug that could make the editor hang after encountering a fatal error ([#2017](../../issues/2017))
+* We fixed a bug that made packages bigger and compilation slower whenever you rebuilt a package from the editor 
+* The UC file importer will now correctly skip defaultproperties blocks that are commented out
+* We fixed a bug in the package conform code that was responsible for erroneously renaming UnrealShare.Effect1.FireEffect1t to Palette788 ([#2007](../../issues/2007))
+* The editor will no longer reset the mesh scale and rotation when you import an animation that has the same name as a mesh
+* The mesh animation list will now refresh when you update a mesh in the mesh browser
+* The editor will now show the correct context menu when you right-click a package in the actor browser
 
 #### UnrealScript
 
@@ -278,6 +310,9 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The talk textures will now render correctly for players and bots using Nali Cow skins
 * We fixed a bug in the floating-point rounding operation in the game's core math library. This bug was introduced in an earlier 469 patch. One of the most visible effects of the bug was that float-to-integer casting operations in UnrealScript always rounded to an even integer number
 * We fixed an accessed none bug in UnrealI.RazorBlade.Flying.Setup ([#2006](../../issues/2006))
+* We fixed a bug that could make the game print the wrong instance variable in accessed none errors ([#1189](../../issues/1189))
+* The game no longer leaks memory when it encounters an accessed none error ([#265](../../issues/265))
+* We fixed a bug that made pawns spawn will negative health when their DrawScale was lower than the default scale ([#2037](../../issues/2037))
 
 #### Physics and Player Movement
 
@@ -286,6 +321,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that made actors with a velocity of 0.0 fall out of the world
 * We fixed a bug that could make walking pawns fall out of the world
 * Rotating actors will now rotate at a consistent speed even at high frame rates ([#1259](../../issues/1259))
+* We fixed a bug that made D3D9Drv cache textures incorrectly when the world LOD was not set to high ([#2022](../../issues/2022))
 
 #### Audio and 3D Rendering
 
@@ -328,6 +364,10 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * UnrealEd will no longer crash when importing DDS files that report an incorrect mipmap count in their file headers
 * We fixed a bug that could crash the editor when it failed to convert a mesh
 * We fixed a crash that could occur when building lighting for a surface with invalid texture coordinates
+* We fixed a bug that crashed the UnrealScript compiler when it tried to compile a function in a file that was missing a class declaration
+* The editor will now gracefully handle skeletal meshes with invalid animations
+* We fixed a bug that crashed the editor when you set one of the texture properties of an actor to None ([#2043](../../issues/2043)) 
+* We fixed a bug that crashed the editor when you ran an exec command after importing a map without a builder brush
 
 #### UnrealScript
 
@@ -342,12 +382,14 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that could crash the game between levels when you used a renderer that has not been ported to the OldUnreal rendering interface
 * We fixed a bug that could crash the game when rendering an actor with more than 8 but fewer than 16 MultiSkins
 * The game no longer crashes when rendering a mesh that is illuminated by over 120 light sources
-* We fixed a bug that crashed ICBIND when drawing meshes that did not fit in the internal vertex bfufer
+* We fixed a bug that crashed ICBIND when drawing meshes that did not fit in the internal vertex buffer
+* We fixed a bug that crashed the game when rendering a skeletal mesh without bones
 
 #### Physics and Player Movement
 
 * We fixed a bug that made the game crash when an actor moved toward an interpolation point without a valid next node
 * We fixed bugs that made the game/editor hang when processing invalid navigation point lists
+* PHYS_Falling simulation will now gracefully handle invalid actor velocities ([#2025](../../issues/2025))
 
 #### Input and Windowing
 
