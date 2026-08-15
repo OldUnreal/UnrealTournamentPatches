@@ -111,6 +111,7 @@ Server admins should upgrade ACE to version 1.4b or later to check 469f clients.
 * We've implemented numerous optimizations and quality-of-life improvements for Unreal Editor
 * Unreal Editor can now open maps with missing dependencies, including maps built for different Unreal Engine 1 games ([#clip 1](https://youtu.be/i0rwHmBEgGg), [#clip 2](https://youtu.be/xkxwMD7MpfY))
 * You can now enable dark mode in Unreal Editor
+* Unreal Editor now includes two great new tools: the terrain editor and the decimate tool. The terrain editor allows you to easily create terrain and convert it to BSP brushes. The decimate tool allows you to simplify the geometry of selected brushes while maximally preserving their shape.
 
 ### Enhancements
 
@@ -199,6 +200,9 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We added a new texture browser tool that exports all textures used by the current map
 * The skeletal mesh importer now automatically creates a root bone and assigns all vertices to it if the imported mesh does not contain any bones
 * The batch import tool in the various asset browsers now shows a global progress bar
+* Unreal Editor and UCC will now give unique names to temporary files created during, e.g., package saving. This allows multiple instances of UCC to save files in parallel
+* You can now edit fire textures in the replace textures dialog
+* Unreal Editor now includes a terrain editor based on zoinkzZZzz' SpireTerrain tool
 
 #### UnrealScript
 
@@ -217,6 +221,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We added a bNextURLAbsolute toggle to Engine.LevelInfo. When enabled, the server treats Engine.LevelInfo.NextURL as a literal address and will no longer append default server options or parameters during a map transition
 * High-skilled bots will no longer hunt spectators
 * You can now type into UWindowComboControls to filter the combo control list. Among other things, this means you can now select maps much more quickly in the new game menu ([#clip](https://www.youtube.com/watch?v=kdby5ue1nLA))
+* HOR+ is now the default FOV mode
+* The game will now block and print warnings for invalid save/reset/clear config operations on perobjectconfig classes
 
 #### Physics and Player Movement
 
@@ -299,6 +305,10 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The editor will no longer reset the mesh scale and rotation when you import an animation that has the same name as a mesh
 * The mesh animation list will now refresh when you update a mesh in the mesh browser
 * The editor will now show the correct context menu when you right-click a package in the actor browser
+* We fixed several bugs in the skeletal mesh properties exporter
+* The PSA importer will now use a sensible default value for the KeyReduction property
+* UCC will no longer reset your language to international ([#2055](../../issues/2055))
+* We fixed a bug that made the editor ruin texture alignment on brushes after resetting their origin
 
 #### UnrealScript
 
@@ -313,6 +323,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that could make the game print the wrong instance variable in accessed none errors ([#1189](../../issues/1189))
 * The game no longer leaks memory when it encounters an accessed none error ([#265](../../issues/265))
 * We fixed a bug that made pawns spawn will negative health when their DrawScale was lower than the default scale ([#2037](../../issues/2037))
+* Setting your weapon hand to hidden will now work as expected when you are carrying double enforcers ([#2057](../../issues/2057))
+* Scrolling the mouse wheel will no longer activate UWindow widgets under your mouse cursor ([#2061](../../issues/2061))
 
 #### Physics and Player Movement
 
@@ -339,6 +351,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed several issues in the OpenGL context creation code in OpenGLDrv
 * We fixed issues that broke AMD driver compatibility in XOpenGLDrv
 * ICBIND now uses less VRAM when using HD textures because it no longer stores two copies of non-paletted textures
+* We fixed an XOpenGLDrv bug that made bindless textures extremely slow on AMD GPUs
 
 #### Input and Windowing
 
@@ -349,6 +362,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 
 * We fixed several bugs in the string conversion code used on Linux and macOS
 * We fixed a bug that could corrupt your game settings due to string conversion errors in the file saving code
+* The recovery mode wizard will no longer ask you to change your video device when you press the "Change your audio device" button ([#2058](../../issues/2058))
 
 ### Stability/Security Fixes
 
@@ -384,6 +398,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The game no longer crashes when rendering a mesh that is illuminated by over 120 light sources
 * We fixed a bug that crashed ICBIND when drawing meshes that did not fit in the internal vertex buffer
 * We fixed a bug that crashed the game when rendering a skeletal mesh without bones
+* We fixed a SoftDrv bug that could crash the game when rendering polygons that were (partially) off-screen
 
 #### Physics and Player Movement
 
