@@ -111,7 +111,8 @@ Server admins should upgrade ACE to version 1.4b or later to check 469f clients.
 * We've implemented numerous optimizations and quality-of-life improvements for Unreal Editor
 * Unreal Editor can now open maps with missing dependencies, including maps built for different Unreal Engine 1 games ([#clip 1](https://youtu.be/i0rwHmBEgGg), [#clip 2](https://youtu.be/xkxwMD7MpfY))
 * You can now enable dark mode in Unreal Editor
-* Unreal Editor now includes two great new tools: the terrain editor and the decimate tool. The terrain editor allows you to easily create terrain and convert it to BSP brushes. The decimate tool allows you to simplify the geometry of selected brushes while maximally preserving their shape.
+* Unreal Editor now includes two great new tools: the terrain editor and the decimate tool. The terrain editor allows you to easily create terrain and convert it to BSP brushes. The decimate tool allows you to simplify the geometry of selected brushes while maximally preserving their shape
+* D3D11Drv now includes experimental VR support. You can play in VR by connecting an OpenXR-compatible VR headset and setting UseVR to True in the [D3D11Drv.D3D11RenderDevice] section of the game ini. Other VR-specific settings for D3D11Drv are listed [here](https://github.com/OldUnreal/UT99VulkanDrv#description-of-d3d11drv-vr-settings)
 
 ### Enhancements
 
