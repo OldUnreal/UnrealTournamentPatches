@@ -203,6 +203,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Unreal Editor and UCC will now give unique names to temporary files created during, e.g., package saving. This allows multiple instances of UCC to save files in parallel
 * You can now edit fire textures in the replace textures dialog
 * Unreal Editor now includes a terrain editor based on zoinkzZZzz' SpireTerrain tool
+* The editor now supports various new formats, including OBJ, SMD, MD5, MD2, GLB, and FBX, for mesh exporting and importing
 
 #### UnrealScript
 
@@ -255,6 +256,10 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 #### Webadmin
 
 * We implemented an optimization for UWebResponse::ValidWebFile that should eliminate lag spikes while using the web admin
+
+#### Miscellaneous
+
+* The game and editor will now offer to send crash reports to OldUnreal
 
 ### Bug Fixes
 
@@ -309,6 +314,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The PSA importer will now use a sensible default value for the KeyReduction property
 * UCC will no longer reset your language to international ([#2055](../../issues/2055))
 * We fixed a bug that made the editor ruin texture alignment on brushes after resetting their origin
+* We fixed a bug that made the editor show incorrect source line numbers when printing a warning
 
 #### UnrealScript
 
@@ -325,6 +331,10 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that made pawns spawn will negative health when their DrawScale was lower than the default scale ([#2037](../../issues/2037))
 * Setting your weapon hand to hidden will now work as expected when you are carrying double enforcers ([#2057](../../issues/2057))
 * Scrolling the mouse wheel will no longer activate UWindow widgets under your mouse cursor ([#2061](../../issues/2061))
+* Scrolling in UWindow pulldown menus will now work as expected when you are using a custom GUI scale
+* The game settings menu will now update correctly when you use console commands to update your FOV
+* We fixed an accessed none error in Botpack.StarterBolt.Tick
+* We fixed a division by zero error in UnrealI.GESBioRifle.RateSelf
 
 #### Physics and Player Movement
 
@@ -352,6 +362,9 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed issues that broke AMD driver compatibility in XOpenGLDrv
 * ICBIND now uses less VRAM when using HD textures because it no longer stores two copies of non-paletted textures
 * We fixed an XOpenGLDrv bug that made bindless textures extremely slow on AMD GPUs
+* We fixed a SoftDrv bug that could make meshes flicker
+* Lines that cross the camera plane in editor viewports that use SoftDrv will now render correctly
+* Decals now work as expected on surfaces that use the default texture
 
 #### Input and Windowing
 
@@ -382,6 +395,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The editor will now gracefully handle skeletal meshes with invalid animations
 * We fixed a bug that crashed the editor when you set one of the texture properties of an actor to None ([#2043](../../issues/2043)) 
 * We fixed a bug that crashed the editor when you ran an exec command after importing a map without a builder brush
+* We fixed a bug that crashed UCC and the editor when you tried to use an invalid exporter
 
 #### UnrealScript
 
