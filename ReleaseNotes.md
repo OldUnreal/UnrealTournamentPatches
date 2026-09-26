@@ -94,7 +94,7 @@
 	
 	UTRACK only works when UTRACE is enabled.
 
-## Unreal Tournament Version 469f Release Notes [Release Candidate Coming Soon!]
+## Unreal Tournament Version 469f Release Notes [ Release Candidates are now available ]
 
 Version 469f is completely network compatible with all previous public releases of UT (down to 432).
 The UTPG and OldUnreal teams worked hard to maintain binary compatibility with older native mods.
@@ -107,12 +107,17 @@ Server admins should upgrade ACE to version 1.4b or later to check 469f clients.
 
 * The patch now includes 64-bit binaries for Windows systems! The 64-bit version includes all editor tools, all renderers except for D3DDrv, and all audio drivers, including a brand new port of Galaxy.
 * We've made some major improvements to the mouse input handling code. Mouse latency should now be lower than ever before!
+* The game runs a lot faster than 469e, and the difference grows with the complexity of the scene. In a heavy test scene full of meshes and terrain, 469f averaged 143 FPS at 1280x720 where 469e averaged 34 FPS and dropped as low as 10. 469f also loses less performance as you raise the resolution ([#clip](https://youtu.be/WMbdHi_S1A0))
 * SDL3 has landed. We've ported the SDL backend we use in our Linux and macOS clients from SDL2 to SDL3. Among other things, this should improve support for high-dpi displays, multiple monitors, and high-end mice
+* You can now type in your own alphabet. Text input is no longer limited to Latin characters, so you can chat, use the console, and fill in any other editable field in your own language. Our fonts cover a large part of Unicode rather than all of it, but that is enough for most real languages
 * We've implemented numerous optimizations and quality-of-life improvements for Unreal Editor
 * Unreal Editor can now open maps with missing dependencies, including maps built for different Unreal Engine 1 games ([#clip 1](https://youtu.be/i0rwHmBEgGg), [#clip 2](https://youtu.be/xkxwMD7MpfY))
 * You can now enable dark mode in Unreal Editor
-* Unreal Editor now includes two great new tools: the terrain editor and the decimate tool. The terrain editor allows you to easily create terrain and convert it to BSP brushes. The decimate tool allows you to simplify the geometry of selected brushes while maximally preserving their shape
-* D3D11Drv now includes experimental VR support. You can play in VR by connecting an OpenXR-compatible VR headset and setting UseVR to True in the [D3D11Drv.D3D11RenderDevice] section of the game ini. Other VR-specific settings for D3D11Drv are listed [here](https://github.com/OldUnreal/UT99VulkanDrv#description-of-d3d11drv-vr-settings)
+* Unreal Editor now includes three great new tools: the terrain editor, the decimate tool, and the bake light tool. The terrain editor allows you to easily create terrain and convert it to BSP brushes. The decimate tool allows you to reduce the triangle count of selected brushes while preserving their shape, which is what lets you build terrain at a high resolution and then bring it down to a triangle budget, with the detail ending up where the ground actually needs it instead of spread evenly by the grid. The bake light tool bakes the level lighting into mesh actors, so meshes finally pick up the same lighting as the BSP surfaces around them. UE1's own mesh lighting is view-dependent: its diffuse term falls to zero at sharp angles to the light source and its specular term is far too broad, so a mesh changes brightness as you move the camera and usually ends up looking too dark, since lights are typically placed above it. That is why meshes could never really be mixed into level geometry. Baked meshes carry the light of their surroundings instead, which lets you move detail out of the BSP and stop fighting the BSP node limit - and a mesh you cannot see costs nothing to render, so you can build very detailed areas as long as they aren't all visible at once. Bakes are refreshed together with the lighting when you rebuild the level, unless you turn that off in the build options
+* Several of this patch's features add up to something bigger: ordinary mesh actors can now be used the way static meshes are used in later engines. The bake light tool gives a mesh lighting that matches the BSP around it, the light builder casts shadows from meshes onto the level, the new mesh collision tool gives a mesh precise, non-cylindrical collision by filling it with invisible blocking actors, and our renderers draw meshes considerably faster than before - while a mesh you cannot see costs nothing at all. Together, these let you build detail as meshes instead of BSP and stop running into the BSP node limit. None of it relies on new engine features at play time either, so a map built this way still plays on old clients, down as far as 436 - it just cannot be edited in those clients' editors
+* VulkanDrv is now dramatically faster. It used to be the slowest of our regular renderers because every frame stalled waiting on a fence. It now uses double buffering, which removes that stall and turns VulkanDrv into one of the fastest renderers we ship - so if you tried it before and went back to something else, it is well worth a second chance. It is also the hardware renderer we ship on every single platform, which makes it a serious alternative to OpenGLDrv and XOpenGLDrv everywhere
+* SoftDrv, the software renderer, now runs on all of our platforms instead of just 32-bit Windows. It needs no hardware acceleration whatsoever, so it will come up on systems where no other renderer will. Its feature set and framerate make it more of a curiosity and a testing tool than something you'd want to play a match on
+* D3D11Drv now includes experimental VR support. To play in VR, select D3D11Drv as your render device, make sure the OpenXR runtime that came with your headset (SteamVR, Oculus/Meta, or Windows Mixed Reality) is installed and set as the active runtime, and set UseVR to True in the [D3D11Drv.D3D11RenderDevice] section of the game ini. If no OpenXR runtime or headset is available, the renderer quietly falls back to normal mono rendering, so the setting is safe to leave on. The world renders in real stereo, while the weapon, crosshair and HUD are placed at their own adjustable depths so they stay comfortable to look at. D3D11Drv can also mirror the game to the desktop window for spectators, and record a VR session as side-by-side 3D video or as ordinary flat 2D video. Other VR-specific settings for D3D11Drv are listed [here](https://github.com/OldUnreal/UT99VulkanDrv#description-of-d3d11drv-vr-settings)
 
 ### Enhancements
 
@@ -127,7 +132,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We've improved and extended support for importing .3d mesh files
 * The static light builder will now cast shadows for non-moving mesh actors (specifically those with bStatic enabled and DrawType set to DT_Mesh) when they are illuminated by a light source with bActorShadows set to true. This feature can be globally disabled via the Options.CastMeshShadows setting in UnrealEd.ini ([#clip](https://youtu.be/TdVeoS32qhE))
 * UCC make will now recursively find and build all .uc files in the root folder of the package you're building
-* We optimized the property editor so you can now select many actors and view/edit their properties with minimal delay ([#clip](https://youtu.be/3BNciqnJCC4))
+* We optimized the property editor so you can now select many actors and view/edit their properties with minimal delay. Expanding a very long property list, or an array with more than 1024 items, no longer lags either ([#clip 1](https://youtu.be/3BNciqnJCC4), [#clip 2](https://youtu.be/Sum5i5l1jS4))
 * UCC make now generates a more helpful error message when you declare an array with an invalid size
 * We added a "jump to" button to the code editor toolbar. This button attempts to find and jump to the definition of the identifier your cursor is at. The code editor will also attempt to decompile the definition if you've selected a class or function in a source-stripped package ([#clip](https://youtu.be/GS-Nojx2yyU))
 * We added a "fix name casing" tool to the code editor. This tool allows you fix the capitalization of known variable, type, struct, class, and function names ([#630](../../issues/630))
@@ -149,7 +154,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The editor will now automatically create an "All" animation sequence when you import a vertex mesh in the mesh browser. This sequence contains all imported frames
 * "MyLevel" is now the default package when you create a new class or texture in Unreal Editor
 * Added the Editor.MovePackage commandlet. This commandlet allows you to move resources from one package to another
-* The actor browser now has a "Move MyLevel Content" tool that allows you to move resources from the level package to other packages ([#clip](https://youtu.be/pEtFHQKn3L0))
+* The actor browser now has a "Move Map Dependencies To..." tool that allows you to move the resources a map depends on to other packages, including the level package itself. Among other things, this makes it much easier to move a map and all of its dependencies to another game, such as UT2004 ([#clip 1](https://youtu.be/pEtFHQKn3L0), [#clip 2](https://youtu.be/gUT-t-cYn4Y))
 * The rename tools in the editor browser windows now allow you to move the resource to other packages while renaming them
 * We increased the number of items listed in recently opened files from 8 to 12 in the various editor browsers and menus
 * Improved math stability in UnrealScript by implementing a fallback for division-by-zero and multiply-by-nan operations. The engine will now gracefully handle these cases by printing a warning and using a near-zero epsilon value as the divisor or 1.0 as the multiplier, preventing NaN propagation and potential state corruption
@@ -191,20 +196,36 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * You can now undo/redo map import operations
 * The map scale dialog now has a reset button which resets all fields to their default values
 * The mesh browser toolbar now tells you the type of mesh you're looking at
-* The texture browser now has several texture filter buttons in the bottom bar, allowing you to filter the selection by texture type (regular, animated, fire, ice, wave, wet, scripted) ([#clip](https://www.youtube.com/watch?v=O-px0xPgfGI))
+* The texture browser now has several texture filter buttons in the bottom bar, allowing you to filter the selection by texture type (regular, animated, fire, ice, wave, wet, scripted). Holding SHIFT while you click one of these buttons toggles all of the other types instead ([#clip](https://www.youtube.com/watch?v=O-px0xPgfGI))
 * The mesh browser now has a toolbar button that enables particle rendering ([#clip](https://www.youtube.com/watch?v=mVgVdiYDe94))
 * You can now move editor viewports to a different monitor ([#2038](../../issues/2038))
 * Right-clicking a property value in the properties/actor editor now opens a context menu with several useful options
 * The Vertices>Edit Vertices dialog now has buttons to automatically fill in the minimum, center, or maximum X/Y/Z coordinates for the selected vertices
-* We added a "Mesh Collision" tool that creates precise, non-cylindrical collision primitives for a selected mesh by automatically filling it with invisible BlockAll actors ([#clip](https://www.youtube.com/watch?v=euDE5Bn0ml0))
+* We added a "Mesh Collision" tool that creates precise, non-cylindrical collision primitives for a selected mesh by automatically filling it with invisible BlockAll actors, much like the collision of a static mesh in later engines. The actors it spawns all share one tag, so they can be put in a group and managed together, rebuilt later, or attached to the mesh actor to give a moving mesh moving collision. The result relies on nothing new at play time, so it works on old clients, down to 436 ([#clip](https://www.youtube.com/watch?v=euDE5Bn0ml0))
 * The "Search Actors" dialog is now resizeable
 * We added a new texture browser tool that exports all textures used by the current map
 * The skeletal mesh importer now automatically creates a root bone and assigns all vertices to it if the imported mesh does not contain any bones
 * The batch import tool in the various asset browsers now shows a global progress bar
 * Unreal Editor and UCC will now give unique names to temporary files created during, e.g., package saving. This allows multiple instances of UCC to save files in parallel
 * You can now edit fire textures in the replace textures dialog
-* Unreal Editor now includes a terrain editor based on zoinkzZZzz' SpireTerrain tool
+* Unreal Editor now includes a terrain editor based on zoinkzZZzz' SpireTerrain tool. It sculpts a heightmap with raise/lower, smooth, level, cliff and noise brushes, each with a choice of falloff and optional mirroring across X and Y, and paints texture layers onto it. Heightmaps and layer masks can be imported from and exported to 8- and 16-bit BMP and TGA files, and whole terrains can be imported from and exported to OBJ. The result is turned into level geometry as an additive or subtractive brush, optionally split into several, and a terrain built this way can be read back out of its brush for further editing. Terrains from UT2004 can be brought over by copying a TerrainInfo actor in that editor and pasting it here: the grid, scale, heights and one layer per alpha map come across, cropped to the quads the original actually shows, and anything without an equivalent here is listed rather than dropped silently ([#clip](https://youtu.be/bYLmtTaaRB8))
 * The editor now supports various new formats, including OBJ, SMD, MD5, MD2, GLB, and FBX, for mesh exporting and importing
+* We added a decimate tool that reduces the triangle count of the selected brushes while preserving their shape as closely as possible. It is aimed at terrain above all: the terrain editor lays out a regular grid, so its detail is spread evenly no matter what the ground underneath is doing, whereas building at a high resolution and then decimating spends the same triangle budget where the shape actually needs it. The target is given either as a ratio of the current triangle count or as a maximum triangle count, and the maximum applies to each selected brush separately, so several brushes can be brought under one limit in one go - and taken back with a single undo. Texture alignment is preserved, and material borders, creases, corners and the open edges of a sheet are held in place rather than averaged away. A "keep steep surfaces" option, with an adjustable weight, makes faces steeper than the walkable slope expensive to flatten: without it, a feature built out of narrow steep faces - spikes standing in for trees, say - is the cheapest thing on the brush and the first to be pressed into the ground around it. The result can land slightly above the number asked for, where the remaining collapses would tear the surface, and slightly below it, where a triangle too thin for the engine to keep had to be removed ([#clip](https://youtu.be/i0QvHFJSeUA))
+* We added a "Bake Light Into Mesh" tool that bakes the level lighting into mesh actors, so that meshes are lit like the BSP surfaces around them rather than by UE1's view-dependent mesh lighting, which changes with the camera angle, loses its diffuse contribution at sharp angles to the light source, and adds an overly broad specular highlight. This makes meshes usable as regular level geometry, which in turn lets you keep detailed areas out of the BSP node budget. The tool has three modes: baking the light into copies of the mesh's own textures, baking it into an extra modulated triangle set with its own lightmap atlas, and baking it into a separate modulated overlay actor. A bake holds the light that was there when it was made, so existing bakes are re-baked as part of the lighting step of a level rebuild - on by default, and switchable in the build options - and any bake can be reverted at any time. Baking increases the size of your map ([#clip](https://youtu.be/GID571QD_xk))
+* We added an animation browser that lets you inspect the animation sequences of skeletal meshes and import or export individual animations
+* You can now import animations from FBX and glTF/GLB files
+* The FBX and GLB importers can now also import the textures embedded in those files
+* The texture import dialogs now list every image format the editor can actually read, and TGA has been added to that list
+* You can now import BMP and PCX textures whose dimensions are not powers of two
+* The mesh browser now offers several experimental rendering modes
+* The brush-to-mesh converter can now take the name of the target mesh from the source actor's Event or Tag property
+* We significantly optimized several steps of the level rebuild, including brush validation, zoning, and path definition. Progress reporting no longer slows the rebuild down either. Rebuilding the geometry of a large map took 8 seconds in our tests, where 469e needed 17 ([#clip](https://youtu.be/v8B6QDBo5DE))
+* The editor will now warn you when your map contains more navigation points than pre-469a clients can handle
+* The tools that move resources between packages will now warn you about name collisions in the destination package before they move anything
+* When a package cannot be reloaded because its version does not match, the editor will now log which objects are holding it
+* We added a "Rotate Map" tool that rotates the selected actors around the origin without losing precision. Rotation around the Z axis is completely lossless, while the other axes are still subject to the usual rotator rounding. This lets you turn a level, or a copy of it, to build something bigger - or turn a DM map into a CTF map, a CTF map into a CTF4 map, and so on - without the rounding errors that a regular actor rotation introduces ([#clip](https://youtu.be/U2UbHQshBoM))
+* You can now jump straight to the current texture in the texture browser, either by holding SHIFT while you make a texture current, through the corresponding menu item, or from the context menu of a texture on the other tabs ([#clip](https://youtu.be/LJ_zNOBYVlg))
+* We parallelized the editor's path builder. Building the paths of a map with 5000 navigation points now takes about 6 seconds instead of 72 ([#clip](https://youtu.be/zOAmJfty_bw))
 
 #### UnrealScript
 
@@ -222,18 +243,20 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The map list, mod menu, and other built-in windows can now display an unlimited number of entries and descriptions read from .int files
 * We added a bNextURLAbsolute toggle to Engine.LevelInfo. When enabled, the server treats Engine.LevelInfo.NextURL as a literal address and will no longer append default server options or parameters during a map transition
 * High-skilled bots will no longer hunt spectators
-* You can now type into UWindowComboControls to filter the combo control list. Among other things, this means you can now select maps much more quickly in the new game menu ([#clip](https://www.youtube.com/watch?v=kdby5ue1nLA))
+* You can now type into UWindowComboControls to filter the combo control list. The filter text behaves like a normal text field, with a cursor and support for the Home, End, Backspace, Delete, and arrow keys. Among other things, this means you can now select maps much more quickly in the new game menu, even if you have thousands of them ([#clip](https://www.youtube.com/watch?v=kdby5ue1nLA))
 * HOR+ is now the default FOV mode
 * The game will now block and print warnings for invalid save/reset/clear config operations on perobjectconfig classes
 
 #### Physics and Player Movement
 
 * We now block and print warnings for invalid actor move operations, which are usually the result of division by 0 errors in the physics code ([#1898](../../issues/1898))
-* You can now configure the node limit for path searching by setting the PathSearchNodesMaxCount property to a positive integer value in the [Engine.GameEngine] section of the game ini
+* You can now configure the node limit for path searching by setting the PathSearchNodesMaxCount property to a positive integer value in the [Engine.GameEngine] section of the game ini. The default limit is now 10,000 nodes, up from 2,000 in earlier 469 versions and 1,000 before 469
 
 #### Audio and 3D Rendering
 
 * We implemented some significant rendering optimizations for dynamic lights ([#clip 1](https://youtu.be/3UvFbSTnqag), [#clip 2](https://youtu.be/mxXiSkgnUvw), [#clip 3](https://youtu.be/zOk9F1k4t_s))
+* We significantly optimized mesh lighting. In a scene with 113 vehicles, 583 meshes and about 111,000 triangles, D3D11Drv went from 25 FPS on 469e to 39 FPS, which leaves a lot more room for meshes used as decoration, players, weapons, items or vehicles ([#clip](https://youtu.be/jCzW9bmoJVA))
+* The game now performs considerably better than 469e in complex scenes, and it loses less performance as you raise the resolution. In a heavy scene with many meshes and a large terrain, 469f averaged 143 FPS at 1280x720 where 469e averaged 34 FPS and dropped to 10 ([#clip](https://youtu.be/WMbdHi_S1A0))
 * OpenGLDrv now supports SSAA and Intel CMAA/CMAA2 anti-aliasing
 * You can now configure the OpenGLDrv framebuffer bits per channel setting in the advanced video settings window ([#252](../../issues/252))
 * We now offload screenshot encoding to a background thread. This should eliminate the long freezes some people were seeing when creating screenshots
@@ -241,8 +264,12 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * ICBIND now supports a simplistic adaptive VSync mode, which will turn off VSync if the FPS goes below the configured percentage of the refresh rate
 * ICBIND now supports Catmull-Rom texture sampling to increase texture sharpness without removing texture filtering
 * We improved ICBIND's visual clarity at resolution scales below 1.0
-* You can now enable "Legacy Volume Boost" in the in-game Audio Preferences menu. This option restores the classic method for amplifying critical notification sounds (like flag captures and returns in CTF) by playing them across multiple channels simultaneously ([#505](../../issues/505), [#115](../../issues/115))
-* SoftDrv is now available for Linux
+* You can now enable "Legacy Volume Boost" in the in-game Audio Preferences menu. This option restores the classic method for amplifying critical notification sounds (like flag captures and returns in CTF) by playing them across multiple channels simultaneously. This is how the sounds were amplified in the original game, so it sounds as intended with Galaxy, but it does not translate well to ALAudio and Cluster ([#505](../../issues/505), [#115](../../issues/115))
+* EAX is now enabled on all platforms
+* Hardware renderers no longer pay for copying raster data into the span buffer, which only the software renderer needs
+* VulkanDrv now uses double buffering. It no longer stalls waiting on a fence every frame, which takes it from the slowest of our regular renderers to one of the fastest
+* SoftDrv is now available for Linux and macOS, and in 64-bit builds, so the software renderer is finally available on every platform we support rather than on 32-bit Windows only
+* D3D11Drv now includes experimental VR support. To play in VR, select D3D11Drv as your render device, make sure the OpenXR runtime that came with your headset (SteamVR, Oculus/Meta, or Windows Mixed Reality) is installed and set as the active runtime, and set UseVR to True in the [D3D11Drv.D3D11RenderDevice] section of the game ini. If no OpenXR runtime or headset is available, the renderer quietly falls back to normal mono rendering. The world renders in real stereo, while the weapon, crosshair and HUD are placed at their own adjustable depths, and the HUD can be scaled toward the centre of the screen so its corners stay inside the headset's field of view. The desktop window can mirror the game for spectators, and a VR session can be recorded as side-by-side 3D video or as ordinary flat 2D video. The VRRECENTER console command re-centres the view on your current head pose. You still play with keyboard and mouse, so you need to be able to play without looking at your keyboard. The other VR-specific settings for D3D11Drv are listed [here](https://github.com/OldUnreal/UT99VulkanDrv#description-of-d3d11drv-vr-settings) ([#clip](https://youtu.be/mROk0Tn3KTE))
 
 #### Input and Windowing
 
@@ -253,6 +280,12 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We implemented raw mouse and keyboard input support on macOS using IOKit. Raw input is enabled by default on systems that support it, but it can be disabled by setting MouseInputMode to SDL3_INPUT_Standard in the [SDLDrv.SDLClient] section of the game ini
 * You can now drag and move the game window when it's in borderless mode on Linux and macOS
 * We've improved support for entering formulas in numerical text fields in the property editor. These formulas can also refer to the current value of the corresponding property ([#clip](https://youtu.be/QgBuK2OBRkY))
+* The game now accepts text input in non-Latin alphabets. This applies to every editable field, including the in-game chat, the quick console, and the console window, so you can talk to people who do not know English in their own language. The fonts we ship cover a large part of Unicode, though not the entire range ([#clip](https://youtu.be/IAGaervhP24))
+* We ported the SDL backend used by the Linux and macOS clients from SDL2 to SDL3. This improves support for high-dpi displays, multiple monitors, and high-end mice
+
+#### Networking and Netcode
+
+* Downloading files directly from a game server, i.e. without an HTTP redirect, is now at least 2.5 times faster. This requires version 469f or later on both ends: older clients downloading from a 469f server, and 469f clients downloading from an older server, are unaffected
 
 #### Webadmin
 
@@ -261,6 +294,9 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 #### Miscellaneous
 
 * The game and editor will now offer to send crash reports to OldUnreal
+* We significantly improved crash handling on all platforms. The Linux and macOS clients can now send crash reports as well, crashes caused by a stack overflow now produce a usable backtrace, and the crash handlers no longer allocate memory or rely on thread-local storage while the process is already crashing
+* We added several new rendering statistics, and a "STAT ALL" console command that toggles every stat display at once. Memory amounts in "STAT GLOBAL" and "STAT LIGHT" are now printed in human-readable units
+* The patch now ships 64-bit binaries for Windows, including all editor tools, all renderers except D3DDrv, and all audio drivers. Galaxy has been ported to 64-bit as well
 
 ### Bug Fixes
 
@@ -316,6 +352,14 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * UCC will no longer reset your language to international ([#2055](../../issues/2055))
 * We fixed a bug that made the editor ruin texture alignment on brushes after resetting their origin
 * We fixed a bug that made the editor show incorrect source line numbers when printing a warning
+* The editor will no longer merge the faces of brushes imported from t3d and obj files, and imported brushes are now marked as linked
+* Opening a map from the recently opened files list now uses the same code path as a regular open, so the editor refreshes as expected afterwards ([#2072](../../issues/2072))
+* We fixed a bug that made the editor use a stale pointer to the level properties ([#2074](../../issues/2074))
+* The advanced properties button now works when you open it from the duplicate dialog
+* We fixed several bugs in the glTF/GLB and FBX importers, affecting quantized and Draco-compressed geometry, embedded animations, meshes without bones, and models exported from Mixamo
+* We fixed bugs that made the PCX and PNG importers produce garbage for certain paletted, interleaved, and malformed files
+* The editor now writes the "kill" name in lowercase, as it should be, which prevents packages saved by the editor from crashing 436 clients ([#534](../../issues/534))
+* Static text in error dialogs will now redraw correctly ([#2066](../../issues/2066))
 
 #### UnrealScript
 
@@ -336,6 +380,13 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The game settings menu will now update correctly when you use console commands to update your FOV
 * We fixed an accessed none error in Botpack.StarterBolt.Tick
 * We fixed a division by zero error in UnrealI.GESBioRifle.RateSelf
+* Spectators can no longer be put into walking physics, which left them solid and made them drop to the floor
+* The ASMD alt-fire projectile animation now plays at a fixed 20 FPS like every other projectile, rather than at a rate that depends on your frame rate
+
+#### Game Assets
+
+* The pipes of the warhead launcher now connect to its chassis in the first-person, third-person, and pickup models ([#1024](../../issues/1024))
+* We fixed the texture, polygon flags, and UV coordinates of the candle mesh ([#2048](../../issues/2048))
 
 #### Physics and Player Movement
 
@@ -366,6 +417,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a SoftDrv bug that could make meshes flicker
 * Lines that cross the camera plane in editor viewports that use SoftDrv will now render correctly
 * Decals now work as expected on surfaces that use the default texture
+* We fixed a bug in the renderer's lazy memory pool allocator
+* We fixed the near clip plane in D3D9Drv, which could make items leak into mirrors
 
 #### Input and Windowing
 
@@ -377,6 +430,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed several bugs in the string conversion code used on Linux and macOS
 * We fixed a bug that could corrupt your game settings due to string conversion errors in the file saving code
 * The recovery mode wizard will no longer ask you to change your video device when you press the "Change your audio device" button ([#2058](../../issues/2058))
+* We fixed a memory corruption bug that could occur while reading configuration entries into a string buffer
+* The .exe patch installer no longer clears the [UTMenu.UTMultiplayerMenu] section of your ini, which can hold user-defined commands
 
 ### Stability/Security Fixes
 
@@ -414,6 +469,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that crashed ICBIND when drawing meshes that did not fit in the internal vertex buffer
 * We fixed a bug that crashed the game when rendering a skeletal mesh without bones
 * We fixed a SoftDrv bug that could crash the game when rendering polygons that were (partially) off-screen
+* We fixed a D3D9Drv bug that could corrupt the heap and crash the display driver when it created a texture with a truncated mipmap chain (e.g. a 256x256 texture that only stores 3 mipmaps)
 
 #### Physics and Player Movement
 
@@ -426,6 +482,11 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that could crash the game/editor when opening the log window if the log file was too big
 * We fixed a bug that could crash the game if you held down a key during a cache flush operation
 * We fixed a crash that could occur after selecting a listbox
+
+#### Networking and Netcode
+
+* We fixed a bug that could crash older clients when the server sent them information too quickly
+* Maps with more than 3650 navigation points will no longer crash 436 and other pre-469a clients. These clients will only use the first 3600 navigation points of such a map
 
 ## Unreal Tournament Version 469e Release Notes
 
