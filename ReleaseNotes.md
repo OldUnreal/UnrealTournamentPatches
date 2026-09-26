@@ -103,6 +103,8 @@ If you are a native mod author, and you are having trouble updating your mod for
 **Note:** This patch disables older versions of ACE.
 Server admins should upgrade ACE to version 1.4b or later to check 469f clients.
 
+**Note for Linux users:** all builds now live in the System folder. The System64 and SystemARM64 folders are gone, so if you have shortcuts, launchers, or scripts that point into one of those, you will have to update them to point at System instead.
+
 ### Patch Highlights
 
 * The patch now includes 64-bit binaries for Windows systems! The 64-bit version includes all editor tools, all renderers except for D3DDrv, and all audio drivers, including a brand new port of Galaxy.
