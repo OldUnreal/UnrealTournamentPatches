@@ -103,6 +103,10 @@ If you are a native mod author, and you are having trouble updating your mod for
 **Note:** This patch disables older versions of ACE.
 Server admins should upgrade ACE to version 1.4b or later to check 469f clients.
 
+**Note for Windows users:** after installing the patch, you should delete all NPLoader and ACE files from your System folder.
+
+**Note for Windows 7 users:** install the Microsoft Visual C++ Redistributable listed [here](https://web.archive.org/web/20251028060544/https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) *before* you apply the patch. On a 64-bit system, install both the X86 and the X64 version. Without it the game will not run, and the .exe version of the patch will not even start.
+
 **Note for Linux users:** all builds now live in the System folder. The System64 and SystemARM64 folders are gone, so if you have shortcuts, launchers, or scripts that point into one of those, you will have to update them to point at System instead.
 
 ### Patch Highlights
@@ -262,12 +266,14 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * OpenGLDrv now supports SSAA and Intel CMAA/CMAA2 anti-aliasing
 * You can now configure the OpenGLDrv framebuffer bits per channel setting in the advanced video settings window ([#252](../../issues/252))
 * We now offload screenshot encoding to a background thread. This should eliminate the long freezes some people were seeing when creating screenshots
-* We implemented various rendering optimizations and significantly improved performance in Frucore, D3D11Drv, D3D12Drv, VulkanDrv, and OpenGLDrv
+* We implemented various rendering optimizations and significantly improved performance in Frucore, D3D11Drv, VulkanDrv, and OpenGLDrv
 * ICBIND now supports a simplistic adaptive VSync mode, which will turn off VSync if the FPS goes below the configured percentage of the refresh rate
 * ICBIND now supports Catmull-Rom texture sampling to increase texture sharpness without removing texture filtering
 * We improved ICBIND's visual clarity at resolution scales below 1.0
 * You can now enable "Legacy Volume Boost" in the in-game Audio Preferences menu. This option restores the classic method for amplifying critical notification sounds (like flag captures and returns in CTF) by playing them across multiple channels simultaneously. This is how the sounds were amplified in the original game, so it sounds as intended with Galaxy, but it does not translate well to ALAudio and Cluster ([#505](../../issues/505), [#115](../../issues/115))
 * EAX is now enabled on all platforms
+* D3DDrv now supports BC1 (DXT1) compressed textures
+* We significantly reduced the amount of memory the game uses while decompressing textures and generating mipmaps, for example while precaching textures
 * Hardware renderers no longer pay for copying raster data into the span buffer, which only the software renderer needs
 * VulkanDrv now uses double buffering. It no longer stalls waiting on a fence every frame, which takes it from the slowest of our regular renderers to one of the fastest
 * SoftDrv is now available for Linux and macOS, and in 64-bit builds, so the software renderer is finally available on every platform we support rather than on 32-bit Windows only
@@ -283,7 +289,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * You can now drag and move the game window when it's in borderless mode on Linux and macOS
 * We've improved support for entering formulas in numerical text fields in the property editor. These formulas can also refer to the current value of the corresponding property ([#clip](https://youtu.be/QgBuK2OBRkY))
 * The game now accepts text input in non-Latin alphabets. This applies to every editable field, including the in-game chat, the quick console, and the console window, so you can talk to people who do not know English in their own language. The fonts we ship cover a large part of Unicode, though not the entire range ([#clip](https://youtu.be/IAGaervhP24))
-* We ported the SDL backend used by the Linux and macOS clients from SDL2 to SDL3. This improves support for high-dpi displays, multiple monitors, and high-end mice
+* We ported the SDL backend used by the Linux and macOS clients from SDL2 to SDL3. This improves support for high-dpi displays, multiple monitors, and high-end mice. On Linux, both X11 and Wayland are supported, and the game prefers X11 when both are available
 
 #### Networking and Netcode
 
@@ -421,6 +427,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Decals now work as expected on surfaces that use the default texture
 * We fixed a bug in the renderer's lazy memory pool allocator
 * We fixed the near clip plane in D3D9Drv, which could make items leak into mirrors
+* We fixed a memory leak in D3DDrv
+* We fixed a bug in Galaxy's A3D code
 
 #### Input and Windowing
 
@@ -710,7 +718,7 @@ Please note that we couldn't call this renderer MetalDrv because that name is st
 * We fixed a bug that made weapons render incorrectly when using OpenGLDrv with certain versions of the Mesa drivers ([#1574](../../issues/1574))
 * We fixed a bug that made D3D9Drv render lines incorrectly when shader-based gamma correction is enabled
 * We improved the output of the AUDIOHELP and ASTAT commands in Cluster
-* We fixed a bug in D3D11Drv, D3D12Drv, and VulkanDrv that made objects hidden behind clip planes visible when they should not be ([#1896](../../issues/1896))
+* We fixed a bug in D3D11Drv and VulkanDrv that made objects hidden behind clip planes visible when they should not be ([#1896](../../issues/1896))
 
 #### Input and Windowing
 
