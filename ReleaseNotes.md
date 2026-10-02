@@ -273,6 +273,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * You can now enable "Legacy Volume Boost" in the in-game Audio Preferences menu. This option restores the classic method for amplifying critical notification sounds (like flag captures and returns in CTF) by playing them across multiple channels simultaneously. This is how the sounds were amplified in the original game, so it sounds as intended with Galaxy, but it does not translate well to ALAudio and Cluster ([#505](../../issues/505), [#115](../../issues/115))
 * EAX is now enabled on all platforms
 * D3DDrv now supports BC1 (DXT1) compressed textures
+* D3D9Drv now supports RGB565 textures
 * We significantly reduced the amount of memory the game uses while decompressing textures and generating mipmaps, for example while precaching textures
 * Hardware renderers no longer pay for copying raster data into the span buffer, which only the software renderer needs
 * VulkanDrv now uses double buffering. It no longer stalls waiting on a fence every frame, which takes it from the slowest of our regular renderers to one of the fastest
@@ -289,7 +290,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * You can now drag and move the game window when it's in borderless mode on Linux and macOS
 * We've improved support for entering formulas in numerical text fields in the property editor. These formulas can also refer to the current value of the corresponding property ([#clip](https://youtu.be/QgBuK2OBRkY))
 * The game now accepts text input in non-Latin alphabets. This applies to every editable field, including the in-game chat, the quick console, and the console window, so you can talk to people who do not know English in their own language. The fonts we ship cover a large part of Unicode, though not the entire range ([#clip](https://youtu.be/IAGaervhP24))
-* We ported the SDL backend used by the Linux and macOS clients from SDL2 to SDL3. This improves support for high-dpi displays, multiple monitors, and high-end mice. On Linux, both X11 and Wayland are supported, and the game prefers X11 when both are available
+* We ported the SDL backend used by the Linux and macOS clients from SDL2 to SDL3. This improves support for high-dpi displays, multiple monitors, and high-end mice. On Linux, both X11 and Wayland are supported, and the game prefers X11 when both are available. You can change this by setting WindowingSystem to SDL3_WINDOWING_X11, SDL3_WINDOWING_Wayland, or SDL3_WINDOWING_SystemPreferred in the [SDLDrv.SDLClient] section of the game ini
 
 #### Networking and Netcode
 
@@ -302,9 +303,10 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 #### Miscellaneous
 
 * The game and editor will now offer to send crash reports to OldUnreal
-* We significantly improved crash handling on all platforms. The Linux and macOS clients can now send crash reports as well, crashes caused by a stack overflow now produce a usable backtrace, and the crash handlers no longer allocate memory or rely on thread-local storage while the process is already crashing
+* We significantly improved crash handling on all platforms. The Linux and macOS clients can now send crash reports as well, crashes caused by a stack overflow now produce a usable backtrace, and the crash handlers no longer allocate memory or rely on thread-local storage while the process is already crashing. Crash reports now also include the contents of the CPU registers
+* The Linux and macOS clients now support the recovery prompt, which lets you switch to a different video or audio driver or start the game in safe mode
 * We added several new rendering statistics, and a "STAT ALL" console command that toggles every stat display at once. Memory amounts in "STAT GLOBAL" and "STAT LIGHT" are now printed in human-readable units
-* The patch now ships 64-bit binaries for Windows, including all editor tools, all renderers except D3DDrv, and all audio drivers. Galaxy has been ported to 64-bit as well
+* The patch now ships 64-bit binaries for Windows, including all editor tools, all renderers except D3DDrv, and all audio drivers. Galaxy has been ported to 64-bit as well. The 64-bit editor uses SoftDrv as its default renderer ([#2099](../../issues/2099))
 
 ### Bug Fixes
 
@@ -368,6 +370,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed bugs that made the PCX and PNG importers produce garbage for certain paletted, interleaved, and malformed files
 * The editor now writes the "kill" name in lowercase, as it should be, which prevents packages saved by the editor from crashing 436 clients ([#534](../../issues/534))
 * Static text in error dialogs will now redraw correctly ([#2066](../../issues/2066))
+* The actor properties and search actors dialogs no longer show a stale or white background the first time you open them
 
 #### UnrealScript
 
@@ -429,10 +432,12 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed the near clip plane in D3D9Drv, which could make items leak into mirrors
 * We fixed a memory leak in D3DDrv
 * We fixed a bug in Galaxy's A3D code
+* We fixed several texture mapping bugs in SoftDrv, including rounding errors in texture coordinates and texture distortion on large surfaces. Nearly flat triangles close to the camera now render correctly as well
 
 #### Input and Windowing
 
 * We fixed a bug that made it impossible to relaunch the game if you had the log window open
+* When the Linux and macOS clients relaunch the game, they now keep command line options such as NOHOMEDIR, LANPLAY, INI, USERINI, and LOG
 * The game should now release and re-acquire the mouse properly when you ALT+TAB out of and back into the game while using DirectInput
 
 #### Miscellaneous
@@ -442,6 +447,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The recovery mode wizard will no longer ask you to change your video device when you press the "Change your audio device" button ([#2058](../../issues/2058))
 * We fixed a memory corruption bug that could occur while reading configuration entries into a string buffer
 * The .exe patch installer no longer clears the [UTMenu.UTMultiplayerMenu] section of your ini, which can hold user-defined commands
+* The game now correctly detects the amount of physical and virtual memory on Windows systems with more than 4 GB
 
 ### Stability/Security Fixes
 
@@ -468,6 +474,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that could crash the game with an "GObjBeginLoadCount>0" assertion message if it failed to load a package
 * We fixed a bug that could make the game/editor crash when ignoring the return value of certain UnrealScript functions
 * We fixed a bug that could crash the game when you spawned actors and immediately destroyed them
+* We fixed a crash that could occur when the game failed to bind a function
 
 #### Audio and 3D Rendering
 
