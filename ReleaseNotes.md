@@ -286,7 +286,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Users utilizing Raw Input and DirectInput can now opt-into the Windows XP mouse acceleration curve. To enable this, set RawEnhancedPointerPrecision=True or DirectEnhancedPointerPrecision=True within the [WinDrv.WindowsClient] section of the game's .ini file ([#clip 1](https://youtu.be/h_21q8X_PwM), [#clip 2](https://youtu.be/T96MggVxI8A), [#clip 3](https://youtu.be/VTNPznfavg8))
 * Log windows now have a context menu option to flush the log file
 * Edit boxes and the log window now allow you to select all text using CTRL+A
-* We implemented raw mouse and keyboard input support on macOS using IOKit. Raw input is enabled by default on systems that support it, but it can be disabled by setting MouseInputMode to SDL3_INPUT_Standard in the [SDLDrv.SDLClient] section of the game ini
+* We implemented raw mouse and keyboard input support on macOS using IOKit. Raw input is enabled by default on systems that support it, but it can be disabled by setting MouseInputMode to SDL3_INPUT_Standard in the [SDLDrv.SDLClient] section of the game ini. The game asks for the Input Monitoring permission that raw input needs before it shows the splash window
 * You can now drag and move the game window when it's in borderless mode on Linux and macOS
 * We've improved support for entering formulas in numerical text fields in the property editor. These formulas can also refer to the current value of the corresponding property ([#clip](https://youtu.be/QgBuK2OBRkY))
 * The game now accepts text input in non-Latin alphabets. This applies to every editable field, including the in-game chat, the quick console, and the console window, so you can talk to people who do not know English in their own language. The fonts we ship cover a large part of Unicode, though not the entire range ([#clip](https://youtu.be/IAGaervhP24))
@@ -371,6 +371,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The editor now writes the "kill" name in lowercase, as it should be, which prevents packages saved by the editor from crashing 436 clients ([#534](../../issues/534))
 * Static text in error dialogs will now redraw correctly ([#2066](../../issues/2066))
 * The actor properties and search actors dialogs no longer show a stale or white background the first time you open them
+* Vertex operations on a brush whose model is shared with other brushes no longer modify the same vertices several times
 
 #### UnrealScript
 
@@ -393,6 +394,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a division by zero error in UnrealI.GESBioRifle.RateSelf
 * Spectators can no longer be put into walking physics, which left them solid and made them drop to the floor
 * The ASMD alt-fire projectile animation now plays at a fixed 20 FPS like every other projectile, rather than at a rate that depends on your frame rate
+* Weapons no longer get stuck in their firing state when they run out of ammo and there is no other weapon to switch to ([#2079](../../issues/2079))
+* Arena mutators will no longer hand out additional weapons when a player respawns, or spawn weapons at player spawn locations, and players will no longer lose their default inventory when they spawn inside a damage zone such as lava ([#1020](../../issues/1020), [#1742](../../issues/1742))
 
 #### Game Assets
 
@@ -433,6 +436,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a memory leak in D3DDrv
 * We fixed a bug in Galaxy's A3D code
 * We fixed several texture mapping bugs in SoftDrv, including rounding errors in texture coordinates and texture distortion on large surfaces. Nearly flat triangles close to the camera now render correctly as well
+* Decals no longer z-fight with BSP surfaces in D3DDrv ([#1946](../../issues/1946))
+* Coronas, lens flares, and fog are now rendered from the point of view of your view target rather than your own pawn, so they look right when you view the game through another actor, for example while spectating ([#2102](../../issues/2102))
 
 #### Input and Windowing
 
