@@ -232,6 +232,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We added a "Rotate Map" tool that rotates the selected actors around the origin without losing precision. Rotation around the Z axis is completely lossless, while the other axes are still subject to the usual rotator rounding. This lets you turn a level, or a copy of it, to build something bigger - or turn a DM map into a CTF map, a CTF map into a CTF4 map, and so on - without the rounding errors that a regular actor rotation introduces ([#clip](https://youtu.be/U2UbHQshBoM))
 * You can now jump straight to the current texture in the texture browser, either by holding SHIFT while you make a texture current, through the corresponding menu item, or from the context menu of a texture on the other tabs ([#clip](https://youtu.be/LJ_zNOBYVlg))
 * We parallelized the editor's path builder. Building the paths of a map with 5000 navigation points now takes about 6 seconds instead of 72 ([#clip](https://youtu.be/zOAmJfty_bw))
+* In the 64-bit version, the editor's multithreaded operations, such as building lighting, building paths, and baking light into meshes, can now use up to 64 threads instead of 31
 
 #### UnrealScript
 
@@ -263,7 +264,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We implemented some significant rendering optimizations for dynamic lights ([#clip 1](https://youtu.be/3UvFbSTnqag), [#clip 2](https://youtu.be/mxXiSkgnUvw), [#clip 3](https://youtu.be/zOk9F1k4t_s))
 * We significantly optimized mesh lighting. In a scene with 113 vehicles, 583 meshes and about 111,000 triangles, D3D11Drv went from 25 FPS on 469e to 39 FPS, which leaves a lot more room for meshes used as decoration, players, weapons, items or vehicles ([#clip](https://youtu.be/jCzW9bmoJVA))
 * The game now performs considerably better than 469e in complex scenes, and it loses less performance as you raise the resolution. In a heavy scene with many meshes and a large terrain, 469f averaged 143 FPS at 1280x720 where 469e averaged 34 FPS and dropped to 10 ([#clip](https://youtu.be/WMbdHi_S1A0))
-* OpenGLDrv now supports SSAA and Intel CMAA/CMAA2 anti-aliasing
+* OpenGLDrv now supports SSAA and Intel CMAA/CMAA2 anti-aliasing. CMAA is automatically limited on driver versions that are known to be buggy
 * You can now configure the OpenGLDrv framebuffer bits per channel setting in the advanced video settings window ([#252](../../issues/252))
 * We now offload screenshot encoding to a background thread. This should eliminate the long freezes some people were seeing when creating screenshots
 * We implemented various rendering optimizations and significantly improved performance in Frucore, D3D11Drv, VulkanDrv, and OpenGLDrv
@@ -274,6 +275,11 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * EAX is now enabled on all platforms
 * D3DDrv now supports BC1 (DXT1) compressed textures
 * D3D9Drv now supports RGB565 textures
+* Frucore now supports anisotropic filtering, which you can configure with the MaxAnisotropy setting in the [Frucore.FrucoreRenderDevice] section of the game ini. Frucore also gained a lightmap atlas, uploads precached textures directly to the GPU, and spends a lot less CPU time per frame
+* We reworked XOpenGLDrv's draw call batching, which significantly reduces its CPU overhead
+* XOpenGLDrv now renders through an offscreen framebuffer and applies gamma correction in a single post-processing pass. MSAA now uses multisampled framebuffers, and you can toggle anti-aliasing without restarting the game
+* OpenGLDrv now falls back to no anti-aliasing when the configured anti-aliasing mode is not supported
+* ICBIND now supports RGBA8 textures, and it enables VSync by default in new configurations
 * We significantly reduced the amount of memory the game uses while decompressing textures and generating mipmaps, for example while precaching textures
 * Hardware renderers no longer pay for copying raster data into the span buffer, which only the software renderer needs
 * VulkanDrv now uses double buffering. It no longer stalls waiting on a fence every frame, which takes it from the slowest of our regular renderers to one of the fastest
@@ -286,7 +292,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Users utilizing Raw Input and DirectInput can now opt-into the Windows XP mouse acceleration curve. To enable this, set RawEnhancedPointerPrecision=True or DirectEnhancedPointerPrecision=True within the [WinDrv.WindowsClient] section of the game's .ini file ([#clip 1](https://youtu.be/h_21q8X_PwM), [#clip 2](https://youtu.be/T96MggVxI8A), [#clip 3](https://youtu.be/VTNPznfavg8))
 * Log windows now have a context menu option to flush the log file
 * Edit boxes and the log window now allow you to select all text using CTRL+A
-* We implemented raw mouse and keyboard input support on macOS using IOKit. Raw input is enabled by default on systems that support it, but it can be disabled by setting MouseInputMode to SDL3_INPUT_Standard in the [SDLDrv.SDLClient] section of the game ini. The game asks for the Input Monitoring permission that raw input needs before it shows the splash window
+* We implemented raw mouse and keyboard input support on macOS using IOKit. Raw input is enabled by default on systems that support it, but it can be disabled by setting MouseInputMode to SDL3_INPUT_Standard in the [SDLDrv.SDLClient] section of the game ini. The game asks for the Input Monitoring permission that raw input needs before it shows the splash window. Raw input requires macOS 12 (Monterey) or later
 * You can now drag and move the game window when it's in borderless mode on Linux and macOS
 * We've improved support for entering formulas in numerical text fields in the property editor. These formulas can also refer to the current value of the corresponding property ([#clip](https://youtu.be/QgBuK2OBRkY))
 * The game now accepts text input in non-Latin alphabets. This applies to every editable field, including the in-game chat, the quick console, and the console window, so you can talk to people who do not know English in their own language. The fonts we ship cover a large part of Unicode, though not the entire range ([#clip](https://youtu.be/IAGaervhP24))
@@ -305,6 +311,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The game and editor will now offer to send crash reports to OldUnreal
 * We significantly improved crash handling on all platforms. The Linux and macOS clients can now send crash reports as well, crashes caused by a stack overflow now produce a usable backtrace, and the crash handlers no longer allocate memory or rely on thread-local storage while the process is already crashing. Crash reports now also include the contents of the CPU registers
 * The Linux and macOS clients now support the recovery prompt, which lets you switch to a different video or audio driver or start the game in safe mode
+* Demo manager now has a "DEMOPANEL" console command that opens a floating panel with playback controls, and a "JUMPTO" console command that jumps to a given remaining time, either absolute or relative to the current position ([#32](https://github.com/stijn-volckaert/udemo/issues/32), [#146](https://github.com/stijn-volckaert/udemo/issues/146))
 * We added several new rendering statistics, and a "STAT ALL" console command that toggles every stat display at once. Memory amounts in "STAT GLOBAL" and "STAT LIGHT" are now printed in human-readable units
 * The patch now ships 64-bit binaries for Windows, including all editor tools, all renderers except D3DDrv, and all audio drivers. Galaxy has been ported to 64-bit as well. The 64-bit editor uses SoftDrv as its default renderer ([#2099](../../issues/2099))
 
@@ -372,6 +379,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Static text in error dialogs will now redraw correctly ([#2066](../../issues/2066))
 * The actor properties and search actors dialogs no longer show a stale or white background the first time you open them
 * Vertex operations on a brush whose model is shared with other brushes no longer modify the same vertices several times
+* The code editor now displays multiline comments correctly ([#2035](../../issues/2035))
 
 #### UnrealScript
 
@@ -438,11 +446,23 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed several texture mapping bugs in SoftDrv, including rounding errors in texture coordinates and texture distortion on large surfaces. Nearly flat triangles close to the camera now render correctly as well
 * Decals no longer z-fight with BSP surfaces in D3DDrv ([#1946](../../issues/1946))
 * Coronas, lens flares, and fog are now rendered from the point of view of your view target rather than your own pawn, so they look right when you view the game through another actor, for example while spectating ([#2102](../../issues/2102))
+* ALAudio no longer keeps using a stale radius for ambient sounds whose radius changes ([#2115](../../issues/2115))
+* SoftDrv now renders Canvas.DrawPortal views correctly when they extend beyond the edges of the screen ([#223](../../issues/223))
+* We removed the depth bias from translucent and modulated surfaces in VulkanDrv, which caused them to render incorrectly ([#2018](../../issues/2018))
+* The selection rectangle in the editor's 3D viewports now renders correctly in VulkanDrv
+* Clicking to select objects in the editor now works reliably in XOpenGLDrv, including with MSAA enabled ([#1525](../../issues/1525))
+* XOpenGLDrv no longer randomly renders the masked version of certain textures, and we fixed several cases of surface flickering in XOpenGLDrv
+* Screenshots now work correctly with MSAA in XOpenGLDrv
+* We fixed several bugs in OpenGLDrv's ARB rendering path, including incorrect wavy panning on textures and phantom geometry in 2D and orthographic editor viewports. The phantom geometry bug affected XOpenGLDrv as well
+* Frucore now keeps its render buffer matched to the size of the game window, toggles fullscreen mode reliably without reinitializing the renderer, and samples NoSmooth textures correctly
+* ICBIND no longer renders tiles with a stale opacity value
+* VulkanDrv and D3D11Drv no longer break the updating of realtime textures in editor viewports that use a different renderer
 
 #### Input and Windowing
 
 * We fixed a bug that made it impossible to relaunch the game if you had the log window open
 * When the Linux and macOS clients relaunch the game, they now keep command line options such as NOHOMEDIR, LANPLAY, INI, USERINI, and LOG
+* Relaunching the game on Windows now works reliably, even when UAC gets involved or the executable is marked as downloaded from the internet
 * The game should now release and re-acquire the mouse properly when you ALT+TAB out of and back into the game while using DirectInput
 
 #### Miscellaneous
@@ -453,6 +473,12 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a memory corruption bug that could occur while reading configuration entries into a string buffer
 * The .exe patch installer no longer clears the [UTMenu.UTMultiplayerMenu] section of your ini, which can hold user-defined commands
 * The game now correctly detects the amount of physical and virtual memory on Windows systems with more than 4 GB
+* The game now resolves file paths correctly on special drives on Windows, such as ImDisk RAM disks
+
+#### Localization
+
+* We fixed encoding errors, wrong casing, missing quotes and brackets, and missing byte order marks in various localization files
+* Commandlet descriptions in the IpDrv localization files are now in English for all languages, which prevents errors caused by translated commandlet names
 
 ### Stability/Security Fixes
 
@@ -491,6 +517,11 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that crashed ICBIND when drawing meshes that did not fit in the internal vertex buffer
 * We fixed a bug that crashed the game when rendering a skeletal mesh without bones
 * We fixed a SoftDrv bug that could crash the game when rendering polygons that were (partially) off-screen
+* Cluster no longer crashes the game when FMOD fails to load
+* VulkanDrv no longer crashes when Vulkan fails to load, and it now handles a lost device properly
+* XOpenGLDrv no longer crashes on shutdown, and it now detects initialization failures properly. The editor also no longer crashes when you switch a viewport from XOpenGLDrv to another renderer
+* We fixed a memory corruption bug in ICBIND that occurred when uploading large floating-point textures
+* We fixed a crash in Frucore that could occur when no drawable was available
 * We fixed a D3D9Drv bug that could corrupt the heap and crash the display driver when it created a texture with a truncated mipmap chain (e.g. a 256x256 texture that only stores 3 mipmaps)
 
 #### Physics and Player Movement
@@ -498,6 +529,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that made the game crash when an actor moved toward an interpolation point without a valid next node
 * We fixed bugs that made the game/editor hang when processing invalid navigation point lists
 * PHYS_Falling simulation will now gracefully handle invalid actor velocities ([#2025](../../issues/2025))
+* We fixed an endless recursion in the physics code that could crash the game ([#2068](../../issues/2068))
 
 #### Input and Windowing
 
@@ -509,6 +541,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 
 * We fixed a bug that could crash older clients when the server sent them information too quickly
 * Maps with more than 3650 navigation points will no longer crash 436 and other pre-469a clients. These clients will only use the first 3600 navigation points of such a map
+* We fixed a crash that occurred when recording a demo while actors of transient classes were present ([#2070](../../issues/2070))
 
 ## Unreal Tournament Version 469e Release Notes
 
