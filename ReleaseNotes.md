@@ -232,7 +232,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We added a "Rotate Map" tool that rotates the selected actors around the origin without losing precision. Rotation around the Z axis is completely lossless, while the other axes are still subject to the usual rotator rounding. This lets you turn a level, or a copy of it, to build something bigger - or turn a DM map into a CTF map, a CTF map into a CTF4 map, and so on - without the rounding errors that a regular actor rotation introduces ([#clip](https://youtu.be/U2UbHQshBoM))
 * You can now jump straight to the current texture in the texture browser, either by holding SHIFT while you make a texture current, through the corresponding menu item, or from the context menu of a texture on the other tabs ([#clip](https://youtu.be/LJ_zNOBYVlg))
 * We parallelized the editor's path builder. Building the paths of a map with 5000 navigation points now takes about 6 seconds instead of 72 ([#clip](https://youtu.be/zOAmJfty_bw))
-* In the 64-bit version, the editor's multithreaded operations, such as building lighting, building paths, and baking light into meshes, can now use up to 64 threads instead of 31
+* In the 64-bit version, the editor's multithreaded operations, such as building lighting, building paths, and baking light into meshes, can now use up to 64 threads instead of 31. You can cap the number of threads that multithreaded operations use with the MaxThreads setting in the [Core.System] section of the game ini, where 0 means no limit
 
 #### UnrealScript
 
@@ -447,6 +447,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Decals no longer z-fight with BSP surfaces in D3DDrv ([#1946](../../issues/1946))
 * Coronas, lens flares, and fog are now rendered from the point of view of your view target rather than your own pawn, so they look right when you view the game through another actor, for example while spectating ([#2102](../../issues/2102))
 * ALAudio no longer keeps using a stale radius for ambient sounds whose radius changes ([#2115](../../issues/2115))
+* ALAudio and Cluster no longer show garbled audio device names
 * SoftDrv now renders Canvas.DrawPortal views correctly when they extend beyond the edges of the screen ([#223](../../issues/223))
 * We removed the depth bias from translucent and modulated surfaces in VulkanDrv, which caused them to render incorrectly ([#2018](../../issues/2018))
 * The selection rectangle in the editor's 3D viewports now renders correctly in VulkanDrv
@@ -474,6 +475,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The .exe patch installer no longer clears the [UTMenu.UTMultiplayerMenu] section of your ini, which can hold user-defined commands
 * The game now correctly detects the amount of physical and virtual memory on Windows systems with more than 4 GB
 * The game now resolves file paths correctly on special drives on Windows, such as ImDisk RAM disks
+* The UMOD installer no longer ignores .int files that are not part of the base game, so UMOD packages now show their localized text, logo, and publisher information ([#2106](../../issues/2106))
+* Demo manager no longer wrongly reports missing packages for certain demos, and it no longer plays demos using partially loaded packages. The latter most notably caused invisible players in InstaGib+ demos
 
 #### Localization
 
@@ -506,6 +509,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that could make the game/editor crash when ignoring the return value of certain UnrealScript functions
 * We fixed a bug that could crash the game when you spawned actors and immediately destroyed them
 * We fixed a crash that could occur when the game failed to bind a function
+* We fixed a memory corruption bug that occurred when new configuration sections were created while the game was saving its configuration. This could cause a wide range of unpredictable problems, including crashes ([#2118](../../issues/2118))
 
 #### Audio and 3D Rendering
 
@@ -522,6 +526,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * XOpenGLDrv no longer crashes on shutdown, and it now detects initialization failures properly. The editor also no longer crashes when you switch a viewport from XOpenGLDrv to another renderer
 * We fixed a memory corruption bug in ICBIND that occurred when uploading large floating-point textures
 * We fixed a crash in Frucore that could occur when no drawable was available
+* D3D9Drv no longer treats a lost device as a fatal error ([#2117](../../issues/2117))
 * We fixed a D3D9Drv bug that could corrupt the heap and crash the display driver when it created a texture with a truncated mipmap chain (e.g. a 256x256 texture that only stores 3 mipmaps)
 
 #### Physics and Player Movement
@@ -542,6 +547,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that could crash older clients when the server sent them information too quickly
 * Maps with more than 3650 navigation points will no longer crash 436 and other pre-469a clients. These clients will only use the first 3600 navigation points of such a map
 * We fixed a crash that occurred when recording a demo while actors of transient classes were present ([#2070](../../issues/2070))
+* Servers no longer disclose information that they should not reveal ([#2119](../../issues/2119))
 
 ## Unreal Tournament Version 469e Release Notes
 
