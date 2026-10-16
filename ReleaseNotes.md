@@ -290,6 +290,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 #### Input and Windowing
 
 * We reimplemented and optimized the raw input code for Windows. The new implementation should have much lower input latency
+* If the game or the editor becomes unresponsive on your system, you can switch it back to an unoptimized message loop by setting UseOptimizedMessageLoop (game) or UseOptimizedMessageLoopInEditor (editor) to False in the [WinDrv.WindowsClient] section of the game ini
 * Users utilizing Raw Input and DirectInput can now opt-into the Windows XP mouse acceleration curve. To enable this, set RawEnhancedPointerPrecision=True or DirectEnhancedPointerPrecision=True within the [WinDrv.WindowsClient] section of the game's .ini file ([#clip 1](https://youtu.be/h_21q8X_PwM), [#clip 2](https://youtu.be/T96MggVxI8A), [#clip 3](https://youtu.be/VTNPznfavg8))
 * Log windows now have a context menu option to flush the log file
 * Edit boxes and the log window now allow you to select all text using CTRL+A
