@@ -141,6 +141,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We optimized the property editor so you can now select many actors and view/edit their properties with minimal delay. Expanding a very long property list, or an array with more than 1024 items, no longer lags either ([#clip 1](https://youtu.be/3BNciqnJCC4), [#clip 2](https://youtu.be/Sum5i5l1jS4))
 * UCC make now generates a more helpful error message when you declare an array with an invalid size
 * We added a "jump to" button to the code editor toolbar. This button attempts to find and jump to the definition of the identifier your cursor is at. The code editor will also attempt to decompile the definition if you've selected a class or function in a source-stripped package ([#clip](https://youtu.be/GS-Nojx2yyU))
+* The code editor now keeps your position in the code when you switch to the decompiled, disassembled, or stub version of a class from ScriptRays
 * We added a "fix name casing" tool to the code editor. This tool allows you fix the capitalization of known variable, type, struct, class, and function names ([#630](../../issues/630))
 * We added forward and backward buttons to the code editor. These buttons allow you to traverse the navigation history ([#clip](https://youtu.be/GS-Nojx2yyU))
 * The light builder now supports masked textures on meshes
@@ -380,6 +381,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The actor properties and search actors dialogs no longer show a stale or white background the first time you open them
 * Vertex operations on a brush whose model is shared with other brushes no longer modify the same vertices several times
 * The code editor now displays multiline comments correctly ([#2035](../../issues/2035))
+* ScriptRays now decompiles EnumCount constants correctly
 
 #### UnrealScript
 
@@ -403,6 +405,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Spectators can no longer be put into walking physics, which left them solid and made them drop to the floor
 * The ASMD alt-fire projectile animation now plays at a fixed 20 FPS like every other projectile, rather than at a rate that depends on your frame rate
 * Weapons no longer get stuck in their firing state when they run out of ammo and there is no other weapon to switch to ([#2079](../../issues/2079))
+* We fixed an endless loop in PlayerPawn.ViewPlayerNum that occurred when your view target was set but was not a pawn
 * Arena mutators will no longer hand out additional weapons when a player respawns, or spawn weapons at player spawn locations, and players will no longer lose their default inventory when they spawn inside a damage zone such as lava ([#1020](../../issues/1020), [#1742](../../issues/1742))
 
 #### Game Assets
