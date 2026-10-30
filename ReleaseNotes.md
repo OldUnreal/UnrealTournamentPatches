@@ -234,6 +234,9 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * You can now jump straight to the current texture in the texture browser, either by holding SHIFT while you make a texture current, through the corresponding menu item, or from the context menu of a texture on the other tabs ([#clip](https://youtu.be/LJ_zNOBYVlg))
 * We parallelized the editor's path builder. Building the paths of a map with 5000 navigation points now takes about 6 seconds instead of 72 ([#clip](https://youtu.be/zOAmJfty_bw))
 * In the 64-bit version, the editor's multithreaded operations, such as building lighting, building paths, and baking light into meshes, can now use up to 64 threads instead of 31. You can cap the number of threads that multithreaded operations use with the MaxThreads setting in the [Core.System] section of the game ini, where 0 means no limit
+* The animation list in the mesh browser and the packages pane in the actor browser can now be resized with a draggable splitter ([#2138](../../issues/2138), [#2139](../../issues/2139))
+* You can now use Tab and Shift+Tab to move to the next or previous row in the brush builder dialogs
+* When the selected actors have different classes, the "select all actors of the same class" option now selects all actors of their closest common parent class ([#2133](../../issues/2133))
 
 #### UnrealScript
 
@@ -252,8 +255,10 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We added a bNextURLAbsolute toggle to Engine.LevelInfo. When enabled, the server treats Engine.LevelInfo.NextURL as a literal address and will no longer append default server options or parameters during a map transition
 * High-skilled bots will no longer hunt spectators
 * You can now type into UWindowComboControls to filter the combo control list. The filter text behaves like a normal text field, with a cursor and support for the Home, End, Backspace, Delete, and arrow keys. Among other things, this means you can now select maps much more quickly in the new game menu, even if you have thousands of them ([#clip](https://www.youtube.com/watch?v=kdby5ue1nLA))
-* HOR+ is now the default FOV mode
+* HOR+ is now the default FOV mode. In HOR+ mode, the minimum stretched FOV setting is now applied even when it is set below 80 ([#2152](../../issues/2152))
 * The game will now block and print warnings for invalid save/reset/clear config operations on perobjectconfig classes
+* You can now stop the server browser from querying servers while it is still receiving the server list, which can flood your connection, by setting bPingWhileListing to False in the [UBrowser.UBrowserServerList] section of the game ini ([#2148](../../issues/2148))
+* UTRACE now shows the exact reason why the execution of a function was skipped, for example because it is a remote procedure call or a non-probing function ([#835](../../issues/835))
 
 #### Physics and Player Movement
 
@@ -274,6 +279,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We improved ICBIND's visual clarity at resolution scales below 1.0
 * You can now enable "Legacy Volume Boost" in the in-game Audio Preferences menu. This option restores the classic method for amplifying critical notification sounds (like flag captures and returns in CTF) by playing them across multiple channels simultaneously. This is how the sounds were amplified in the original game, so it sounds as intended with Galaxy, but it does not translate well to ALAudio and Cluster ([#505](../../issues/505), [#115](../../issues/115))
 * EAX is now enabled on all platforms
+* Galaxy now supports up to 220 effects channels, up from 64, and no longer uses invalid configuration values ([#2144](../../issues/2144))
 * D3DDrv now supports BC1 (DXT1) compressed textures
 * D3D9Drv now supports RGB565 textures
 * Frucore now supports anisotropic filtering, which you can configure with the MaxAnisotropy setting in the [Frucore.FrucoreRenderDevice] section of the game ini. Frucore also gained a lightmap atlas, uploads precached textures directly to the GPU, and spends a lot less CPU time per frame
@@ -322,6 +328,11 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 #### Networking and Netcode
 
 * Properties of actors that are marked as bNoDelete or bStatic will now replicate correctly ([#1953](../../issues/1953))
+* When a client loads a map, it now uses the package GUIDs it receives from the server to pick the correct files, including files that only exist in its cache. Missing cache entries are added automatically ([#2120](../../issues/2120), [#2154](../../issues/2154))
+* If a map contains more than 511 actors marked as bAlwaysRelevant, the game now marks its inventory items as not always relevant at level startup. Such maps previously exhausted the available network channels and broke online play ([#1488](../../issues/1488))
+* Severed heads are now replicated to clients in online games ([#1671](../../issues/1671))
+* The game now handles '#' characters in URL option values, such as player names, in most cases ([#1758](../../issues/1758))
+* Dedicated servers now start correctly when URL.Host is set in the configuration, and they warn you about it, since that setting can cause strange errors on both the clients and the server
 
 #### Unreal Editor
 
@@ -383,6 +394,11 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Vertex operations on a brush whose model is shared with other brushes no longer modify the same vertices several times
 * The code editor now displays multiline comments correctly ([#2035](../../issues/2035))
 * ScriptRays now decompiles EnumCount constants correctly
+* We fixed numerous bugs in loading and saving brushes as .u3d files. Loading a brush no longer fails while a level is loaded, no longer replaces random polygons of the brush model or random objects of the level, and no longer overwrites textures and other objects with the same name. Exporting the brush no longer saves the whole level. Loading a brush now shows a progress bar, merges the MyLevel groups, leaves the builder brush alone if the file contains no brush, and refreshes the editor afterwards
+* Operations that reset transient information, such as opening, saving, or importing a map, now also unhide the builder brush, which fixes several bugs caused by a hidden builder brush
+* Joining polygons and merging surfaces now checks much more precisely whether the texture coordinates of the surfaces match ([#2127](../../issues/2127))
+* When UCC or the editor saves a .u package, it now saves it to the folder where a file with that name already exists in the game paths, rather than always to the System folder ([#2143](../../issues/2143))
+* Imported skeletal meshes now use UV coordinates that are more compatible with older versions of the game ([#2147](../../issues/2147))
 
 #### UnrealScript
 
@@ -408,6 +424,14 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Weapons no longer get stuck in their firing state when they run out of ammo and there is no other weapon to switch to ([#2079](../../issues/2079))
 * We fixed an endless loop in PlayerPawn.ViewPlayerNum that occurred when your view target was set but was not a pawn
 * Arena mutators will no longer hand out additional weapons when a player respawns, or spawn weapons at player spawn locations, and players will no longer lose their default inventory when they spawn inside a damage zone such as lava ([#1020](../../issues/1020), [#1742](../../issues/1742))
+* We fixed two bugs that awarded instant flag captures in CTF: teleporting from your own flag to the dropped enemy flag, and touching both dropped flags at the same time ([#1771](../../issues/1771))
+* The teleport effect no longer renders twice, and the game no longer throws an accessed none error when the teleport effect fails to spawn or is destroyed by a SpawnNotify ([#721](../../issues/721))
+* We fixed an inverted enemy check in UnrealI.SkaarjTrooper.RangedAttack ([#1397](../../issues/1397))
+* Team cannons and scripted pawns now handle their enemy becoming None correctly ([#1499](../../issues/1499), [#1484](../../issues/1484))
+* Dead bots now stop moving once they have spawned their visible carcass. Previously, they kept sliding until they hit an obstacle or respawned ([#2112](../../issues/2112))
+* Pawns without a PlayerReplicationInfo no longer flood the log with accessed none errors when they use the translocator. Translocator discs now treat such pawns as enemies of everyone ([#2121](../../issues/2121))
+* The last input field on a preferences page no longer steals the input focus ([#2062](../../issues/2062))
+* You can now type a minus sign as the first character of numeric input fields that hold floating-point values ([#1972](../../issues/1972))
 
 #### Game Assets
 
@@ -462,6 +486,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Frucore now keeps its render buffer matched to the size of the game window, toggles fullscreen mode reliably without reinitializing the renderer, and samples NoSmooth textures correctly
 * ICBIND no longer renders tiles with a stale opacity value
 * VulkanDrv and D3D11Drv no longer break the updating of realtime textures in editor viewports that use a different renderer
+* VulkanDrv now uses the correct number of anti-aliasing samples ([#2149](../../issues/2149)), and it takes texture panning into account when caching textures ([#2156](../../issues/2156))
+* Lens flares now point in the right direction. This bug dates back to at least version 400, the game's original release
 
 #### Input and Windowing
 
@@ -481,6 +507,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The game now resolves file paths correctly on special drives on Windows, such as ImDisk RAM disks
 * The UMOD installer no longer ignores .int files that are not part of the base game, so UMOD packages now show their localized text, logo, and publisher information ([#2106](../../issues/2106))
 * Demo manager no longer wrongly reports missing packages for certain demos, and it no longer plays demos using partially loaded packages. The latter most notably caused invisible players in InstaGib+ demos
+* The TraceVisible function in the SDK now works correctly when the trace hits BSP node 0 ([#2146](../../issues/2146))
 
 #### Localization
 
@@ -514,6 +541,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that could crash the game when you spawned actors and immediately destroyed them
 * We fixed a crash that could occur when the game failed to bind a function
 * We fixed a memory corruption bug that occurred when new configuration sections were created while the game was saving its configuration. This could cause a wide range of unpredictable problems, including crashes ([#2118](../../issues/2118))
+* We fixed a crash that occurred when the game called a function that only exists in a state and not in the global scope. Native remote procedure calls now also reset their return value, which fixes a possible memory leak ([#835](../../issues/835))
+* Adding bots to a map that cannot accept any more bots no longer crashes the game with a runaway loop error
 
 #### Audio and 3D Rendering
 
@@ -526,6 +555,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that crashed the game when rendering a skeletal mesh without bones
 * We fixed a SoftDrv bug that could crash the game when rendering polygons that were (partially) off-screen
 * Cluster no longer crashes the game when FMOD fails to load
+* The game no longer crashes when the audio driver fails to load. It now runs without sound instead
+* If no render device is available, the game now stops with a meaningful error message instead of crashing with a general protection fault
 * VulkanDrv no longer crashes when Vulkan fails to load, and it now handles a lost device properly
 * XOpenGLDrv no longer crashes on shutdown, and it now detects initialization failures properly. The editor also no longer crashes when you switch a viewport from XOpenGLDrv to another renderer
 * We fixed a memory corruption bug in ICBIND that occurred when uploading large floating-point textures
