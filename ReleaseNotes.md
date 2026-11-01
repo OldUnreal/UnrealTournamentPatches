@@ -257,7 +257,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * You can now type into UWindowComboControls to filter the combo control list. The filter text behaves like a normal text field, with a cursor and support for the Home, End, Backspace, Delete, and arrow keys. Among other things, this means you can now select maps much more quickly in the new game menu, even if you have thousands of them ([#clip](https://www.youtube.com/watch?v=kdby5ue1nLA))
 * HOR+ is now the default FOV mode. In HOR+ mode, the minimum stretched FOV setting is now applied even when it is set below 80 ([#2152](../../issues/2152))
 * The game will now block and print warnings for invalid save/reset/clear config operations on perobjectconfig classes
-* You can now stop the server browser from querying servers while it is still receiving the server list, which can flood your connection, by setting bPingWhileListing to False in the [UBrowser.UBrowserServerList] section of the game ini ([#2148](../../issues/2148))
+* The server browser now puts much less load on your router's NAT table: it reuses the ping socket for status queries and shares server status between tabs that list the same server. You can also stop it from querying servers while it is still receiving the server list by setting bPingWhileListing to False in the [UBrowser.UBrowserServerList] section of the game ini ([#2148](../../issues/2148))
 * UTRACE now shows the exact reason why the execution of a function was skipped, for example because it is a remote procedure call or a non-probing function ([#835](../../issues/835))
 
 #### Physics and Player Movement
@@ -397,6 +397,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed numerous bugs in loading and saving brushes as .u3d files. Loading a brush no longer fails while a level is loaded, no longer replaces random polygons of the brush model or random objects of the level, and no longer overwrites textures and other objects with the same name. Exporting the brush no longer saves the whole level. Loading a brush now shows a progress bar, merges the MyLevel groups, leaves the builder brush alone if the file contains no brush, and refreshes the editor afterwards
 * Operations that reset transient information, such as opening, saving, or importing a map, now also unhide the builder brush, which fixes several bugs caused by a hidden builder brush
 * Joining polygons and merging surfaces now checks much more precisely whether the texture coordinates of the surfaces match ([#2127](../../issues/2127))
+* We fixed several BSP build bugs that could leave polygons invisible or cause hall-of-mirrors (HOM) effects. Zoning no longer drops coplanar polygons, it now uses the same split precision as the BSP build, and polygons hidden under a faceless solid sliver no longer end up in zone 0. These bugs date back to at least version 400, the game's original release
 * When UCC or the editor saves a .u package, it now saves it to the folder where a file with that name already exists in the game paths, rather than always to the System folder ([#2143](../../issues/2143))
 * Imported skeletal meshes now use UV coordinates that are more compatible with older versions of the game ([#2147](../../issues/2147))
 
@@ -488,6 +489,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * VulkanDrv and D3D11Drv no longer break the updating of realtime textures in editor viewports that use a different renderer
 * VulkanDrv now uses the correct number of anti-aliasing samples ([#2149](../../issues/2149)), and it takes texture panning into account when caching textures ([#2156](../../issues/2156))
 * Lens flares now point in the right direction. This bug dates back to at least version 400, the game's original release
+* BSP nodes are no longer culled when their render bounds do not cover their own polygons, which could cause hall-of-mirrors (HOM) effects. Combining a valid bounding box with an invalid one also no longer produces an invalid box. These bugs date back to at least version 400, the game's original release
 
 #### Input and Windowing
 
