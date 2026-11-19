@@ -237,6 +237,9 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The animation list in the mesh browser and the packages pane in the actor browser can now be resized with a draggable splitter ([#2138](../../issues/2138), [#2139](../../issues/2139))
 * You can now use Tab and Shift+Tab to move to the next or previous row in the brush builder dialogs
 * When the selected actors have different classes, the "select all actors of the same class" option now selects all actors of their closest common parent class ([#2133](../../issues/2133))
+* The light builder now smooths lightmaps along the light gradient, which removes visible banding
+* When a map contains brushes other than the builder brush that are set to CSG_Active, the editor now detects them during the build and asks whether to exclude them ([#2178](../../issues/2178))
+* You can now edit the TextureIndex of LOD mesh materials in the mesh properties
 
 #### UnrealScript
 
@@ -259,6 +262,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The game will now block and print warnings for invalid save/reset/clear config operations on perobjectconfig classes
 * The server browser now puts much less load on your router's NAT table: it reuses the ping socket for status queries and shares server status between tabs that list the same server. You can also stop it from querying servers while it is still receiving the server list by setting bPingWhileListing to False in the [UBrowser.UBrowserServerList] section of the game ini ([#2148](../../issues/2148))
 * UTRACE now shows the exact reason why the execution of a function was skipped, for example because it is a remote procedure call or a non-probing function ([#835](../../issues/835))
+* The mouse sensitivity field in the game preferences now accepts four decimal places ([#2166](../../issues/2166))
 
 #### Physics and Player Movement
 
@@ -286,7 +290,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We reworked XOpenGLDrv's draw call batching, which significantly reduces its CPU overhead
 * XOpenGLDrv now renders through an offscreen framebuffer and applies gamma correction in a single post-processing pass. MSAA now uses multisampled framebuffers, and you can toggle anti-aliasing without restarting the game
 * OpenGLDrv now falls back to no anti-aliasing when the configured anti-aliasing mode is not supported
-* ICBIND now supports RGBA8 textures, and it enables VSync by default in new configurations
+* ICBIND now supports RGBA8 textures, and it enables VSync by default in new configurations. ICBIND also received various bug fixes and performance improvements
 * We significantly reduced the amount of memory the game uses while decompressing textures and generating mipmaps, for example while precaching textures
 * Hardware renderers no longer pay for copying raster data into the span buffer, which only the software renderer needs
 * VulkanDrv now uses double buffering. It no longer stalls waiting on a fence every frame, which takes it from the slowest of our regular renderers to one of the fastest
@@ -400,6 +404,9 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed several BSP build bugs that could leave polygons invisible or cause hall-of-mirrors (HOM) effects. Zoning no longer drops coplanar polygons, it now uses the same split precision as the BSP build, and polygons hidden under a faceless solid sliver no longer end up in zone 0. These bugs date back to at least version 400, the game's original release
 * When UCC or the editor saves a .u package, it now saves it to the folder where a file with that name already exists in the game paths, rather than always to the System folder ([#2143](../../issues/2143))
 * Imported skeletal meshes now use UV coordinates that are more compatible with older versions of the game ([#2147](../../issues/2147))
+* Snapping to the grid now works correctly in a few cases where it did not before ([#2170](../../issues/2170))
+* Importing vertex meshes in the editor now also works with the short "_d" file name suffix instead of "_data", and no longer shows a wrong warning
+* We fixed the serialization of the YSize component of skeletal mesh bones
 
 #### UnrealScript
 
@@ -433,6 +440,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Pawns without a PlayerReplicationInfo no longer flood the log with accessed none errors when they use the translocator. Translocator discs now treat such pawns as enemies of everyone ([#2121](../../issues/2121))
 * The last input field on a preferences page no longer steals the input focus ([#2062](../../issues/2062))
 * You can now type a minus sign as the first character of numeric input fields that hold floating-point values ([#1972](../../issues/1972))
+* Merely opening the preferences dialog no longer overwrites your config options
 
 #### Game Assets
 
@@ -447,6 +455,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that could make walking pawns fall out of the world
 * Rotating actors will now rotate at a consistent speed even at high frame rates ([#1259](../../issues/1259))
 * We fixed a bug that made D3D9Drv cache textures incorrectly when the world LOD was not set to high ([#2022](../../issues/2022))
+* The physics code no longer reuses a stale hit fraction during the next move
 
 #### Audio and 3D Rendering
 
@@ -490,6 +499,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * VulkanDrv now uses the correct number of anti-aliasing samples ([#2149](../../issues/2149)), and it takes texture panning into account when caching textures ([#2156](../../issues/2156))
 * Lens flares now point in the right direction. This bug dates back to at least version 400, the game's original release
 * BSP nodes are no longer culled when their render bounds do not cover their own polygons, which could cause hall-of-mirrors (HOM) effects. Combining a valid bounding box with an invalid one also no longer produces an invalid box. These bugs date back to at least version 400, the game's original release
+* We fixed an overflow in the lighting code ([#2179](../../issues/2179))
+* SoftDrv no longer renders mesh triangles that have the PF_Invisible flag
 
 #### Input and Windowing
 
@@ -515,6 +526,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 
 * We fixed encoding errors, wrong casing, missing quotes and brackets, and missing byte order marks in various localization files
 * Commandlet descriptions in the IpDrv localization files are now in English for all languages, which prevents errors caused by translated commandlet names
+* We updated the Russian localization
 
 ### Stability/Security Fixes
 
@@ -559,6 +571,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Cluster no longer crashes the game when FMOD fails to load
 * The game no longer crashes when the audio driver fails to load. It now runs without sound instead
 * If no render device is available, the game now stops with a meaningful error message instead of crashing with a general protection fault
+* The game no longer crashes when it renders a LOD mesh that lacks proper material information
 * VulkanDrv no longer crashes when Vulkan fails to load, and it now handles a lost device properly
 * XOpenGLDrv no longer crashes on shutdown, and it now detects initialization failures properly. The editor also no longer crashes when you switch a viewport from XOpenGLDrv to another renderer
 * We fixed a memory corruption bug in ICBIND that occurred when uploading large floating-point textures
