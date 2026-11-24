@@ -289,7 +289,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * D3DDrv now supports BC1 (DXT1) compressed textures
 * D3D9Drv now supports RGB565 textures
 * Frucore now supports anisotropic filtering, which you can configure with the MaxAnisotropy setting in the [Frucore.FrucoreRenderDevice] section of the game ini. Frucore also gained a lightmap atlas, uploads precached textures directly to the GPU, and spends a lot less CPU time per frame
-* We reworked XOpenGLDrv's draw call batching, which significantly reduces its CPU overhead
+* We reworked XOpenGLDrv's draw call batching and eliminated many unnecessary state changes and fences, which significantly reduces its CPU overhead. XOpenGLDrv can now also evict bindless texture handles when it needs room for new ones
 * XOpenGLDrv now renders through an offscreen framebuffer and applies gamma correction in a single post-processing pass. MSAA now uses multisampled framebuffers, and you can toggle anti-aliasing without restarting the game
 * OpenGLDrv now falls back to no anti-aliasing when the configured anti-aliasing mode is not supported
 * ICBIND now supports RGBA8 textures, and it enables VSync by default in new configurations. ICBIND also received various bug fixes and performance improvements
@@ -513,6 +513,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that made it impossible to relaunch the game if you had the log window open
 * When the Linux and macOS clients relaunch the game, they now keep command line options such as NOHOMEDIR, LANPLAY, INI, USERINI, and LOG
 * Relaunching the game on Windows now works reliably, even when UAC gets involved or the executable is marked as downloaded from the internet
+* The Linux and macOS clients now detect the available fullscreen resolutions more reliably ([#2173](../../issues/2173))
 * The game should now release and re-acquire the mouse properly when you ALT+TAB out of and back into the game while using DirectInput
 
 #### Miscellaneous
