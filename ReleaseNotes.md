@@ -240,6 +240,8 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The light builder now smooths lightmaps along the light gradient, which removes visible banding
 * When a map contains brushes other than the builder brush that are set to CSG_Active, the editor now detects them during the build and asks whether to exclude them ([#2178](../../issues/2178))
 * You can now edit the TextureIndex of LOD mesh materials in the mesh properties
+* Loading one package into another now shows a progress bar, including while the editor merges palettes, and palette merging is much faster
+* Warnings about missing bones or animations of skeletal meshes now include more context
 
 #### UnrealScript
 
@@ -337,6 +339,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * Severed heads are now replicated to clients in online games ([#1671](../../issues/1671))
 * The game now handles '#' characters in URL option values, such as player names, in most cases ([#1758](../../issues/1758))
 * Dedicated servers now start correctly when URL.Host is set in the configuration, and they warn you about it, since that setting can cause strange errors on both the clients and the server
+* The game no longer tries to shut down sockets that are not connected ([#2177](../../issues/2177))
 
 #### Unreal Editor
 
@@ -405,6 +408,9 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * When UCC or the editor saves a .u package, it now saves it to the folder where a file with that name already exists in the game paths, rather than always to the System folder ([#2143](../../issues/2143))
 * Imported skeletal meshes now use UV coordinates that are more compatible with older versions of the game ([#2147](../../issues/2147))
 * Snapping to the grid now works correctly in a few cases where it did not before ([#2170](../../issues/2170))
+* Moving actors in the editor no longer reuses a stale hit fraction from the previous move
+* We fixed several bugs in the "select matching" surface options. Selecting surfaces with matching polygon flags now works when the selected surfaces have different flags, selecting matching items now works for surfaces from different brushes, and you can now undo selecting surfaces by matching zone, or by matching texture on a surface without a texture
+* Selecting actors with matching meshes is now fast and works properly when many actors are selected
 * Importing vertex meshes in the editor now also works with the short "_d" file name suffix instead of "_data", and no longer shows a wrong warning
 * We fixed the serialization of the YSize component of skeletal mesh bones
 
@@ -455,7 +461,6 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * We fixed a bug that could make walking pawns fall out of the world
 * Rotating actors will now rotate at a consistent speed even at high frame rates ([#1259](../../issues/1259))
 * We fixed a bug that made D3D9Drv cache textures incorrectly when the world LOD was not set to high ([#2022](../../issues/2022))
-* The physics code no longer reuses a stale hit fraction during the next move
 
 #### Audio and 3D Rendering
 
@@ -501,6 +506,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * BSP nodes are no longer culled when their render bounds do not cover their own polygons, which could cause hall-of-mirrors (HOM) effects. Combining a valid bounding box with an invalid one also no longer produces an invalid box. These bugs date back to at least version 400, the game's original release
 * We fixed an overflow in the lighting code ([#2179](../../issues/2179))
 * SoftDrv no longer renders mesh triangles that have the PF_Invisible flag
+* OpenGLDrv now cleans up multiple OpenGL contexts correctly, such as the ones used by the editor's viewports
 
 #### Input and Windowing
 
@@ -521,6 +527,7 @@ You can disable this feature by setting UsePreciseUV to False in the [Editor.Edi
 * The UMOD installer no longer ignores .int files that are not part of the base game, so UMOD packages now show their localized text, logo, and publisher information ([#2106](../../issues/2106))
 * Demo manager no longer wrongly reports missing packages for certain demos, and it no longer plays demos using partially loaded packages. The latter most notably caused invisible players in InstaGib+ demos
 * The TraceVisible function in the SDK now works correctly when the trace hits BSP node 0 ([#2146](../../issues/2146))
+* We fixed the timer calibration on Linux, and removed a performance problem caused by the way the Linux timing code read the system time
 
 #### Localization
 
